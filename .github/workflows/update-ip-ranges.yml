@@ -21,15 +21,17 @@ jobs:
       run: |
         python -m pip install uv
         uv sync --no-dev
-        mkdir json
+        mkdir json txt csv
         cd json
-        uv run ../src/cloud_ip_ranges.py
+        uv run ../src/cloud_ip_ranges.py --output-format json,csv,txt
+        mv *.txt ../txt
+        mv *.csv ../csv
 
     - uses: EndBug/add-and-commit@v9
       with:
         # The arguments for the `git add` command (see the paragraph below for more info)
         # Default: '.'
-        add: 'json'
+        add: 'json txt csv'
 
         # The name of the user that will be displayed as the author of the commit.
         # Default: depends on the default_author input

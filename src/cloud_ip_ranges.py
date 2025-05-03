@@ -1,19 +1,21 @@
+import argparse
+import csv
+import io
 import json
-import requests
+import logging
+import re
+import zipfile
 from datetime import datetime
 from pathlib import Path
-import logging
-import zipfile
-import io
-from typing import Any, Dict, List
-import json
-import re
+from typing import Any, Dict, List, Optional, Set
+
+import requests
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 
 class CloudIPRanges:
-    def __init__(self) -> None:
+    def __init__(self, output_formats: Set[str]) -> None:
         self.base_url = Path.cwd()
         self.sources = {
             "aws": ["https://ip-ranges.amazonaws.com/ip-ranges.json"],
@@ -33,6 +35,8 @@ class CloudIPRanges:
             "fastly": ["https://api.fastly.com/public-ip-list"],
             "microsoft_azure": ["https://azservicetags.azurewebsites.net/"],
         }
+
+        self.output_formats = output_formats
 
     def _transform_base(self, source_key: str) -> Dict[str, Any]:
         """Base transformation method for all providers."""
@@ -326,8 +330,6 @@ class CloudIPRanges:
         logging.info("Fetching {} IP ranges".format(source_key))
         url = self.sources[source_key]
 
-        filename = "{}.json".format(source_key.replace("_", "-"))
-
         response = []
         for u in url:
             r = requests.get(u, timeout=10)
@@ -337,16 +339,34 @@ class CloudIPRanges:
         # Dynamically get the transformation method
         transform_method = getattr(self, f"_transform_{source_key}")
         transformed_data = transform_method(response)
+        for output_format in self.output_formats:
+            filename = "{}.{}".format(source_key.replace("_", "-"), output_format)
 
-        with open(self.base_url / filename, "w") as f:
-            json.dump(transformed_data, f, indent=2)
+            with open(self.base_url / filename, "w") as f:
+                if output_format == "json":
+                    json.dump(transformed_data, f, indent=2)
+                elif output_format == "csv":
+                    writer = csv.writer(f)
+                    writer.writerow(["ipv4", "ipv6"])
+                    writer.writerow([transformed_data["ipv4"], transformed_data["ipv6"]])
+                elif output_format == "txt":
+                    for k in ("provider", "source", "last_updated"):
+                        f.write("# {}: {}\n".format(k, transformed_data[k]))
 
-        logging.info("Saved {}".format(filename))
+                    f.write("\n")
+                    f.write("\n".join(transformed_data["ipv4"]))
+                    f.write("\n".join(transformed_data["ipv6"]))
+                else:
+                    raise ValueError(f"Unknown output format: {output_format}")
 
-    def fetch_all(self) -> None:
+            logging.info("Saved {}".format(filename))
+
+    def fetch_all(self, sources: Optional[Set[str]] = None) -> None:
         logging.info("Starting IP range collection")
         try:
             for source in self.sources:
+                if sources is not None and source not in sources:
+                    continue
                 try:
                     self._fetch_and_save(source)
                 except Exception as e:
@@ -358,6 +378,21 @@ class CloudIPRanges:
             raise
 
 
+def main() -> None:
+    """Main entry point."""
+    parser = argparse.ArgumentParser(description="Collect IP ranges from cloud providers")
+    parser.add_argument("--sources", nargs="+", help="Specific sources to update (e.g., aws google_cloud)")
+    parser.add_argument(
+        "--output-format", nargs="+", choices=["json", "csv", "txt"], default=["json"], help="Output format(s) to save the data in (default: json)"
+    )
+    args = parser.parse_args()
+
+    # Convert sources to set if specified, otherwise None
+    sources = set(args.sources) if args.sources else None
+
+    ip_ranges = CloudIPRanges(args.output_format)
+    ip_ranges.fetch_all(sources)
+
+
 if __name__ == "__main__":
-    collector = CloudIPRanges()
-    collector.fetch_all()
+    main()
