@@ -20,9 +20,9 @@ jobs:
     - name: Install dependencies and update IP ranges
       run: |
         python -m pip install uv
-        uv sync
+        uv sync --no-dev
         cd json
-        python3 ../src/cloud_ip_ranges.py
+        uv run ../src/cloud_ip_ranges.py
 
     - uses: EndBug/add-and-commit@v9
       with:

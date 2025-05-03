@@ -28,10 +28,10 @@ class CloudIPRanges:
             "akamai": ["https://techdocs.akamai.com/property-manager/pdfs/akamai_ipv4_ipv6_CIDRs-txt.zip"],
             "zscaler": [
                 "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
-                "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"
+                "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended",
             ],
             "fastly": ["https://api.fastly.com/public-ip-list"],
-            "microsoft_azure": ["https://azservicetags.azurewebsites.net/"]
+            "microsoft_azure": ["https://azservicetags.azurewebsites.net/"],
         }
 
     def _transform_base(self, source_key: str) -> Dict[str, Any]:
@@ -251,7 +251,6 @@ class CloudIPRanges:
 
         return result
 
-
     def _transform_microsoft_azure(self, response: List[requests.Response]) -> Dict[str, Any]:
         """Transform Microsoft Azure data to unified format."""
         result = self._transform_base("microsoft_azure")
@@ -262,7 +261,7 @@ class CloudIPRanges:
             if not u.startswith("https://download.microsoft.com"):
                 continue
 
-            r = requests.get(u)
+            r = requests.get(u, timeout=10)
             r.raise_for_status()
             response.append(r)
 
@@ -331,7 +330,7 @@ class CloudIPRanges:
 
         response = []
         for u in url:
-            r = requests.get(u)
+            r = requests.get(u, timeout=10)
             r.raise_for_status()
             response.append(r)
 
