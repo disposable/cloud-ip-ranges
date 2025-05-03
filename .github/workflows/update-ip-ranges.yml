@@ -23,7 +23,7 @@ jobs:
         uv sync --no-dev
         mkdir -p json txt csv
         cd json
-        uv run ../src/cloud_ip_ranges.py --output-format json,csv,txt
+        uv run ../src/cloud_ip_ranges.py --output-format json csv txt
         mv *.txt ../txt
         mv *.csv ../csv
 
