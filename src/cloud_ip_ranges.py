@@ -41,8 +41,13 @@ class CloudIPRanges:
             "a2hosting": ["https://api.hackertarget.com/aslookup/?q=AS55293"],
             "godaddy": ["https://api.hackertarget.com/aslookup/?q=AS26496", "https://api.hackertarget.com/aslookup/?q=AS30083"],
             "dreamhost": ["https://api.hackertarget.com/aslookup/?q=AS26347"],
-            "alibaba": ["https://api.hackertarget.com/aslookup/?q=AS45102", "https://api.hackertarget.com/aslookup/?q=AS134963"]
-            "tencent": ["https://api.hackertarget.com/aslookup/?q=AS45090", "https://api.hackertarget.com/aslookup/?q=AS133478", "https://api.hackertarget.com/aslookup/?q=AS132591", "https://api.hackertarget.com/aslookup/?q=AS132203"],
+            "alibaba": ["https://api.hackertarget.com/aslookup/?q=AS45102", "https://api.hackertarget.com/aslookup/?q=AS134963"],
+            "tencent": [
+                "https://api.hackertarget.com/aslookup/?q=AS45090",
+                "https://api.hackertarget.com/aslookup/?q=AS133478",
+                "https://api.hackertarget.com/aslookup/?q=AS132591",
+                "https://api.hackertarget.com/aslookup/?q=AS132203",
+            ],
             "ucloud": ["https://api.hackertarget.com/aslookup/?q=AS135377", "https://api.hackertarget.com/aslookup/?q=AS59077"],
         }
 
@@ -383,7 +388,7 @@ class CloudIPRanges:
                     return None
 
                 # For single IPs, return the IP address
-                if '/' not in ip:
+                if "/" not in ip:
                     return str(network)
 
                 # For subnets, return the network address
