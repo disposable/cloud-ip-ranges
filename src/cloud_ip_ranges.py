@@ -355,7 +355,9 @@ class CloudIPRanges:
 
                     f.write("\n")
                     f.write("\n".join(transformed_data["ipv4"]))
-                    f.write("\n".join(transformed_data["ipv6"]))
+                    if transformed_data["ipv6"]:
+                        f.write("\n")
+                        f.write("\n".join(transformed_data["ipv6"]))
                 else:
                     raise ValueError(f"Unknown output format: {output_format}")
 
