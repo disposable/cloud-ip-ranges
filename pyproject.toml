@@ -1,0 +1,59 @@
+[project]
+name = "cloud-ip-ranges"
+version = "0.1.0"
+description = "Automated collection of cloud provider IP ranges"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "bandit>=1.8.3",
+    "codecov>=2.1.13",
+    "coverage>=7.8.0",
+    "pre-commit>=4.2.0",
+    "pyright>=1.1.399",
+    "pytest>=8.3.5",
+    "ruff>=0.11.5",
+    "vulture>=2.14",
+    "xenon>=0.9.3",
+]
+
+
+[tool.ruff]
+exclude = ["docs", "tests"]
+line-length = 160
+indent-width = 4  # Same as autopep8 default
+
+[tool.ruff.format]
+quote-style = "double"  # Or "single" if you prefer
+indent-style = "space"  # Use spaces instead of tabs
+line-ending = "lf"  # Keep consistency
+preview = true
+
+[tool.ruff.lint]
+select = ["E9", "F82"]  # Syntax errors + docstrings
+ignore = ["F821"]  # Ignore specific docstring rules
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+pythonpath = ["."]
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.pyright]
+exclude = ["**/__pycache__", "**/node_modules", "**/dist", "**/build", "**/venv", "**/.venv", "**/docs"]
+
+[tool.bandit]
+exclude_dirs = [".venv", "tests", "docs"]
+
+[tool.vulture]
+exclude = ["dist", "build", "venv", ".venv", "tests", "docs" ]
+ignore_decorators = ["@app.route", "@require_*"]
+ignore_names = ["visit_*", "do_*"]
+# make_whitelist = true
+min_confidence = 80
+paths = ["."]
+sort_by_size = true
