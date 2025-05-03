@@ -20,10 +20,16 @@ which shows their assigned IP ranges.
 * Zscaler - https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/
 * Fastly - https://api.fastly.com/public-ip-list
 * Microsoft Azure - https://azservicetags.azurewebsites.net/
+* IBM/Softlayer 	(from ASN Prefix)
+* GoDaddy 	(from ASN Prefix)
+* A2Hosting 	(from ASN Prefix)
+* Dreamhost 	(from ASN Prefix)
+* Vercel/AWS 	(from ASN Prefix)
+* Heroku/AWS 	(from ASN Prefix)
+* Alibaba 	(from ASN Prefix)
+* Tencent 	(from ASN Prefix)
+* ucloud 	(from ASN Prefix)
 
-### Missing data (to add)
+## Notes
 
-* Tencent Cloud
-* Alibaba Cloud (Aliyun)
-* IBM
-* ucloud
+* Some providers use ASN prefixes, which can be resolved using https://api.hackertarget.com/aslookup/?q=AS12345
