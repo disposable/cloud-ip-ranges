@@ -69,7 +69,7 @@ class CloudIPRanges:
 
         sources = []
         for s in self.sources[source_key]:
-            sources.append(s.replace('https://api.hackertarget.com/aslookup/?q=', ''))
+            sources.append(s.replace("https://api.hackertarget.com/aslookup/?q=", ""))
 
         result = self._transform_base(source_key, ", ".join(sources))
         data = response[0].text
@@ -409,7 +409,6 @@ class CloudIPRanges:
             validated_ip = validate_ip(ip)
             if validated_ip:
                 ipv6.add(validated_ip)
-
 
         # Update the transformed data with validated IPs
         transformed_data["ipv4"] = sorted(ipv4)
