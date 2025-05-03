@@ -1,6 +1,7 @@
 import argparse
 import csv
 import io
+import ipaddress
 import json
 import logging
 import re
@@ -34,6 +35,15 @@ class CloudIPRanges:
             ],
             "fastly": ["https://api.fastly.com/public-ip-list"],
             "microsoft_azure": ["https://azservicetags.azurewebsites.net/"],
+            "softlayer_ibm": ["https://api.hackertarget.com/aslookup/?q=AS36351"],
+            "vercel_aws": ["https://api.hackertarget.com/aslookup/?q=AS15169"],
+            "heroku_aws": ["https://api.hackertarget.com/aslookup/?q=AS14618"],
+            "a2hosting": ["https://api.hackertarget.com/aslookup/?q=AS55293"],
+            "godaddy": ["https://api.hackertarget.com/aslookup/?q=AS26496", "https://api.hackertarget.com/aslookup/?q=AS30083"],
+            "dreamhost": ["https://api.hackertarget.com/aslookup/?q=AS26347"],
+            "alibaba": ["https://api.hackertarget.com/aslookup/?q=AS45102", "https://api.hackertarget.com/aslookup/?q=AS134963"]
+            "tencent": ["https://api.hackertarget.com/aslookup/?q=AS45090", "https://api.hackertarget.com/aslookup/?q=AS133478", "https://api.hackertarget.com/aslookup/?q=AS132591", "https://api.hackertarget.com/aslookup/?q=AS132203"],
+            "ucloud": ["https://api.hackertarget.com/aslookup/?q=AS135377", "https://api.hackertarget.com/aslookup/?q=AS59077"],
         }
 
         self.output_formats = output_formats
@@ -46,6 +56,21 @@ class CloudIPRanges:
             source_url = ", ".join(source_url)
 
         result = {"provider": source_key.replace("_", " ").title(), "source": source_url, "last_updated": datetime.now().isoformat(), "ipv4": [], "ipv6": []}
+        return result
+
+    def _transform_hackertarget(self, response: List[requests.Response], source_key: str) -> Dict[str, Any]:
+        """Transform HackerTarget AS lookup response to unified format."""
+        result = self._transform_base(source_key)
+        data = response[0].text
+
+        for x, line in enumerate(data.split("\n")):
+            if not line.strip() or line.startswith("#") or x == 0:
+                continue
+            ip = line.strip().split()[-1]
+            if ":" in ip:
+                result["ipv6"].append(ip)
+            else:
+                result["ipv4"].append(ip)
 
         return result
 
@@ -326,7 +351,7 @@ class CloudIPRanges:
         return result
 
     def _fetch_and_save(self, source_key: str) -> None:
-        transformed_data: Dict[str, Any] = {}  # Initialize with empty dict
+        """Fetch and save IP ranges for a specific source."""
         logging.info("Fetching {} IP ranges".format(source_key))
         url = self.sources[source_key]
 
@@ -337,8 +362,57 @@ class CloudIPRanges:
             response.append(r)
 
         # Dynamically get the transformation method
-        transform_method = getattr(self, f"_transform_{source_key}")
-        transformed_data = transform_method(response)
+        if url[0].startswith("https://api.hackertarget.com/"):
+            transformed_data = self._transform_hackertarget(response, source_key)
+        else:
+            transform_method = getattr(self, f"_transform_{source_key}")
+            transformed_data = transform_method(response)
+
+        # Validate and deduplicate IPs
+        ipv4 = set()
+        ipv6 = set()
+
+        def validate_ip(ip: str) -> Optional[str]:
+            """Validate an IP address or subnet."""
+            try:
+                # Try to create a network object first (works for both IPs and subnets)
+                network = ipaddress.ip_network(ip, strict=False)
+
+                # Skip private, loopback, link-local, and multicast networks
+                if network.is_private or network.is_loopback or network.is_link_local or network.is_multicast:
+                    return None
+
+                # For single IPs, return the IP address
+                if '/' not in ip:
+                    return str(network)
+
+                # For subnets, return the network address
+                return str(network.network_address)
+            except ValueError as e:
+                logging.warning(f"Invalid IP address/subnet: {ip} - {str(e)}")
+                return None
+
+        # Process IPv4 addresses
+        for ip in transformed_data["ipv4"]:
+            validated_ip = validate_ip(ip)
+            if validated_ip:
+                ipv4.add(validated_ip)
+
+        # Process IPv6 addresses
+        for ip in transformed_data["ipv6"]:
+            validated_ip = validate_ip(ip)
+            if validated_ip:
+                ipv6.add(validated_ip)
+
+        # Update the transformed data with validated IPs
+        transformed_data["ipv4"] = sorted(ipv4)
+        transformed_data["ipv6"] = sorted(ipv6)
+
+        # Update the transformed data with validated IPs
+        transformed_data["ipv4"] = sorted(ipv4)
+        transformed_data["ipv6"] = sorted(ipv6)
+
+        # Save in all requested formats
         for output_format in self.output_formats:
             filename = "{}.{}".format(source_key.replace("_", "-"), output_format)
 
@@ -347,8 +421,11 @@ class CloudIPRanges:
                     json.dump(transformed_data, f, indent=2)
                 elif output_format == "csv":
                     writer = csv.writer(f)
-                    writer.writerow(["ipv4", "ipv6"])
-                    writer.writerow([transformed_data["ipv4"], transformed_data["ipv6"]])
+                    writer.writerow(["Type", "Address"])
+                    for ip in transformed_data["ipv4"]:
+                        writer.writerow(["IPv4", ip])
+                    for ip in transformed_data["ipv6"]:
+                        writer.writerow(["IPv6", ip])
                 elif output_format == "txt":
                     for k in ("provider", "source", "last_updated"):
                         f.write("# {}: {}\n".format(k, transformed_data[k]))
