@@ -53,9 +53,10 @@ class CloudIPRanges:
 
         self.output_formats = output_formats
 
-    def _transform_base(self, source_key: str) -> Dict[str, Any]:
+    def _transform_base(self, source_key: str, source_url: Optional[str] = None) -> Dict[str, Any]:
         """Base transformation method for all providers."""
-        source_url = self.sources[source_key]
+        if source_url is None:
+            source_url = self.sources[source_key]
 
         if isinstance(source_url, list):
             source_url = ", ".join(source_url)
@@ -65,7 +66,12 @@ class CloudIPRanges:
 
     def _transform_hackertarget(self, response: List[requests.Response], source_key: str) -> Dict[str, Any]:
         """Transform HackerTarget AS lookup response to unified format."""
-        result = self._transform_base(source_key)
+
+        sources = []
+        for s in self.sources[source_key]:
+            sources.append(s.replace('https://api.hackertarget.com/aslookup/?q=', ''))
+
+        result = self._transform_base(source_key, ", ".join(sources))
         data = response[0].text
 
         for x, line in enumerate(data.split("\n")):
@@ -387,12 +393,7 @@ class CloudIPRanges:
                 if network.is_private or network.is_loopback or network.is_link_local or network.is_multicast:
                     return None
 
-                # For single IPs, return the IP address
-                if "/" not in ip:
-                    return str(network)
-
-                # For subnets, return the network address
-                return str(network.network_address)
+                return ip
             except ValueError as e:
                 logging.warning(f"Invalid IP address/subnet: {ip} - {str(e)}")
                 return None
@@ -409,9 +410,6 @@ class CloudIPRanges:
             if validated_ip:
                 ipv6.add(validated_ip)
 
-        # Update the transformed data with validated IPs
-        transformed_data["ipv4"] = sorted(ipv4)
-        transformed_data["ipv6"] = sorted(ipv6)
 
         # Update the transformed data with validated IPs
         transformed_data["ipv4"] = sorted(ipv4)
