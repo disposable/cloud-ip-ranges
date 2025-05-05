@@ -40,8 +40,6 @@ ignore = ["F821"]  # Ignore specific docstring rules
 addopts = [
     "--import-mode=importlib",
 ]
-pythonpath = ["."]
-asyncio_default_fixture_loop_scope = "function"
 
 [tool.pyright]
 exclude = ["**/__pycache__", "**/node_modules", "**/dist", "**/build", "**/venv", "**/.venv", "**/docs"]
