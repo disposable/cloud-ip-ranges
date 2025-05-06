@@ -17,13 +17,19 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install dependencies and update IP ranges
+    - name: Install dependencies
       run: |
         python -m pip install uv
+        cd crawler
         uv sync --no-dev
+
+    - name: Run Update IP ranges
+      id: build
+      run: |
+        cd ..
         mkdir -p json txt csv
         cd json
-        uv run ../src/cloud_ip_ranges.py --output-format json csv txt
+        uv run ../crawler/cloud_ip_ranges.py --output-format json csv txt
         mv *.txt ../txt
         mv *.csv ../csv
 
@@ -43,4 +49,4 @@ jobs:
 
         # The message for the commit.
         # Default: 'Commit from GitHub Actions (name of the workflow)'
-        message: 'Update IP ranges'
+        message: "Update IP ranges\n\n${{ steps.build.outputs.stdout }}"
