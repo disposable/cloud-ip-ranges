@@ -37,7 +37,7 @@ which shows their assigned IP ranges.
 * ucloud (from ASN Prefix) - AS135377, AS59077
 * Meta Crawler (from ASN Prefix) - AS32934
 * Huawei Cloud (from ASN Prefix) - AS136907, AS55990
-* Rackspace (from ASN Prefix) - AS39921, AS12200, AS15395, AS44009, AS45187, AS58683, AS27357, AS19994 	(from ASN Prefix)
+* Rackspace (from ASN Prefix) - AS39921, AS12200, AS15395, AS44009, AS45187, AS58683, AS27357, AS19994
 
 ## Notes
 
