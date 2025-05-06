@@ -31,7 +31,7 @@ jobs:
         source crawler/.venv/bin/activate
         mkdir -p json txt csv
         cd json
-        ../crawler/src/cloud_ip_ranges.py --only-if-changed --output-format json csv txt
+        python3 ../crawler/src/cloud_ip_ranges.py --only-if-changed --output-format json csv txt
         mv *.txt ../txt
         mv *.csv ../csv
 
