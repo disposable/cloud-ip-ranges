@@ -28,7 +28,6 @@ jobs:
     - name: Run Update IP ranges
       id: build
       run: |
-        cd ..
         mkdir -p json txt csv
         cd json
         uv run ../crawler/src/cloud_ip_ranges.py --only-if-changed --output-format json csv txt
