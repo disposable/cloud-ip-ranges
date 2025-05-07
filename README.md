@@ -26,6 +26,8 @@ which shows their assigned IP ranges.
 * Zscaler - https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/
 * Fastly - https://api.fastly.com/public-ip-list
 * Microsoft Azure - https://azservicetags.azurewebsites.net/
+* Telegram - https://core.telegram.org/resources/cidr.txt
+* WhatsApp - https://developers.facebook.com/docs/whatsapp/guides/network-requirements/
 * IBM/Softlayer (from ASN Prefix) - AS36351
 * Vercel/AWS (from ASN Prefix) - AS15169
 * Heroku/AWS (from ASN Prefix) - AS14618
