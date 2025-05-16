@@ -1,6 +1,6 @@
 # provider: Zscaler
 # source: https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required, https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended
-# last_update: 2025-05-06T21:11:50.591541
+# last_update: 2025-05-16T01:22:24.977480
 
 101.2.192.0/18
 104.129.192.0/20
@@ -48,6 +48,8 @@
 147.161.220.0/23
 147.161.238.0/23
 147.161.252.0/23
+159.254.0.0/16
+159.254.22.0/23
 165.225.0.0/17
 165.225.0.0/23
 165.225.118.0/24
