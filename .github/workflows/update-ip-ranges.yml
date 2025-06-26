@@ -31,12 +31,12 @@ jobs:
         source crawler/.venv/bin/activate
         mkdir -p json txt csv
         cd json
-        python3 ../crawler/src/cloud_ip_ranges.py --add-env-statistics --only-if-changed --logfile ../run.log --output-format json csv txt
+        python3 ../crawler/src/cloud_ip_ranges.py --add-env-statistics --only-if-changed --output-format json csv txt 2>&1 | tee ../run.log
+        mv *.txt ../txt 2>&1 || true
+        mv *.csv ../csv 2>&1 || true
         # Read log file and encode newlines
         LOG_CONTENT=$(cat ../run.log | sed 's/$/\\n/' | tr -d '\n')
         echo "log_content=${LOG_CONTENT}" >> $GITHUB_OUTPUT
-        mv *.txt ../txt
-        mv *.csv ../csv
 
     - name: Add and commit
       uses: EndBug/add-and-commit@v9
