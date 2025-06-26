@@ -31,11 +31,15 @@ jobs:
         source crawler/.venv/bin/activate
         mkdir -p json txt csv
         cd json
-        python3 ../crawler/src/cloud_ip_ranges.py --only-if-changed --output-format json csv txt
+        python3 ../crawler/src/cloud_ip_ranges.py --add-env-statistics --only-if-changed --logfile ../run.log --output-format json csv txt
+        # Read log file and encode newlines
+        LOG_CONTENT=$(cat ../run.log | sed 's/$/\\n/' | tr -d '\n')
+        echo "log_content=${LOG_CONTENT}" >> $GITHUB_OUTPUT
         mv *.txt ../txt
         mv *.csv ../csv
 
-    - uses: EndBug/add-and-commit@v9
+    - name: Add and commit
+      uses: EndBug/add-and-commit@v9
       with:
         # The arguments for the `git add` command (see the paragraph below for more info)
         # Default: '.'
@@ -51,4 +55,7 @@ jobs:
 
         # The message for the commit.
         # Default: 'Commit from GitHub Actions (name of the workflow)'
-        message: "Update IP ranges\n\n${{ steps.build.outputs.stdout }}"
+        message: |
+          Updated ${{ steps.vars.outputs.sources_updated }} (IPv4: ${{ steps.vars.outputs.total_ipv4 }}, IPv6: ${{ steps.vars.outputs.total_ipv6 }})
+
+          ${{ steps.build.outputs.log_content }}"
