@@ -34,9 +34,14 @@ jobs:
         python3 ../crawler/src/cloud_ip_ranges.py --add-env-statistics --only-if-changed --output-format json csv txt 2>&1 | tee ../run.log
         mv *.txt ../txt 2>&1 || true
         mv *.csv ../csv 2>&1 || true
-        # Read log file and encode newlines
-        LOG_CONTENT=$(cat ../run.log | sed 's/$/\\n/' | tr -d '\n')
-        echo "log_content=${LOG_CONTENT}" >> $GITHUB_OUTPUT
+        # Expose the raw log content as a multiline step output
+        LOG_PATH=../run.log
+        {
+          echo "log_content<<EOF"
+          # Strip leading timestamps (keep the log level and message)
+          sed -E 's/^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3} - //' "$LOG_PATH"
+          echo "EOF"
+        } >> "$GITHUB_OUTPUT"
 
     - name: Add and commit
       uses: EndBug/add-and-commit@v9
@@ -56,6 +61,6 @@ jobs:
         # The message for the commit.
         # Default: 'Commit from GitHub Actions (name of the workflow)'
         message: |
-          Updated ${{ steps.vars.outputs.sources_updated }} (IPv4: ${{ steps.vars.outputs.total_ipv4 }}, IPv6: ${{ steps.vars.outputs.total_ipv6 }})
+          Updated ${{ steps.build.outputs.sources_updated }} (IPv4: ${{ steps.build.outputs.total_ipv4 }}, IPv6: ${{ steps.build.outputs.total_ipv6 }})
 
-          ${{ steps.build.outputs.log_content }}"
+          ${{ steps.build.outputs.log_content }}
