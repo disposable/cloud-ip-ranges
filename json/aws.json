@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2025-11-03-21-28-27",
+  "last_update": "2025-11-04-22-58-24",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -8147,6 +8147,8 @@
     "2600:1ff9:2c00::/40",
     "2600:1ff9:4000::/39",
     "2600:1ff9:4000::/40",
+    "2600:1ff9:41a0::/46",
+    "2600:1ff9:41c0::/46",
     "2600:1ff9:5000::/40",
     "2600:1ff9:6000::/40",
     "2600:1ff9:7400::/40",
@@ -8988,6 +8990,8 @@
     "2631:1:4f40::/48",
     "2631:1:4f80::/48",
     "2631:1:4fc0::/48",
+    "2631:1:4fc1::/48",
+    "2631:1:4fc2::/48",
     "2631:1:4fef::/48",
     "2631:1:4ff0::/48",
     "2631:1:4ff2::/48",
@@ -68171,6 +68175,12 @@
       "network_border_group": "eu-north-1"
     },
     {
+      "address": "2631:1:4fc1::/48",
+      "service": "AMAZON",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2400:6500:0:7a00::/56",
       "service": "AMAZON",
       "region": "me-central-1",
@@ -74657,6 +74667,12 @@
       "network_border_group": "us-west-2-pdx-1"
     },
     {
+      "address": "2631:1:4fc2::/48",
+      "service": "AMAZON",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d000:800::/64",
       "service": "AMAZON",
       "region": "me-west-1",
@@ -79787,6 +79803,12 @@
       "network_border_group": "ap-southeast-1"
     },
     {
+      "address": "2600:1ff9:41a0::/46",
+      "service": "S3",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2404:c2c0:2800::/40",
       "service": "S3",
       "region": "cn-northwest-1",
@@ -80001,6 +80023,12 @@
       "service": "S3",
       "region": "us-gov-east-1",
       "network_border_group": "us-gov-east-1"
+    },
+    {
+      "address": "2600:1ff9:41c0::/46",
+      "service": "S3",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2406:da60:8800::/40",
@@ -83697,6 +83725,12 @@
       "service": "EC2",
       "region": "eu-north-1",
       "network_border_group": "eu-north-1"
+    },
+    {
+      "address": "2631:1:4fc1::/48",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2606:7b40:1b0f:f400::/56",
@@ -88713,6 +88747,12 @@
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2-pdx-1"
+    },
+    {
+      "address": "2631:1:4fc2::/48",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2a05:d000:800::/64",

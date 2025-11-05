@@ -4,7 +4,7 @@
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"
   ],
-  "last_update": "2025-10-31T01:20:59.109233",
+  "last_update": "2025-11-05T01:22:45.138326",
   "ipv4": [
     "101.2.192.0/18",
     "101.2.220.0/23",
@@ -60,7 +60,6 @@
     "159.254.62.0/23",
     "159.254.66.0/23",
     "159.254.71.0/24",
-    "164.137.0.0/16",
     "165.225.0.0/17",
     "165.225.0.0/23",
     "165.225.118.0/24",
@@ -698,10 +697,6 @@
     },
     {
       "address": "159.254.66.0/23",
-      "category": "recommended"
-    },
-    {
-      "address": "164.137.0.0/16",
       "category": "recommended"
     },
     {
