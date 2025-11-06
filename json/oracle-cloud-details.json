@@ -3,7 +3,7 @@
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2025-10-30T11:10:28.333267",
+  "last_update": "2025-11-06T01:22:07.226670",
   "ipv4": [
     {
       "address": "129.80.0.0/16",
@@ -1015,6 +1015,10 @@
     },
     {
       "address": "80.225.192.0/18",
+      "region": "ap-mumbai-1"
+    },
+    {
+      "address": "92.4.64.0/19",
       "region": "ap-mumbai-1"
     },
     {
@@ -3458,6 +3462,10 @@
       "region": "me-riyadh-1"
     },
     {
+      "address": "145.241.104.0/21",
+      "region": "me-riyadh-1"
+    },
+    {
       "address": "145.241.152.0/21",
       "region": "me-riyadh-1"
     },
@@ -3654,6 +3662,46 @@
       "region": "ca-montreal-1"
     },
     {
+      "address": "168.107.192.0/19",
+      "region": "ap-delhi-1"
+    },
+    {
+      "address": "134.70.230.0/23",
+      "region": "ap-delhi-1"
+    },
+    {
+      "address": "134.70.232.0/23",
+      "region": "ap-delhi-1"
+    },
+    {
+      "address": "140.91.108.0/23",
+      "region": "ap-delhi-1"
+    },
+    {
+      "address": "140.204.166.128/25",
+      "region": "ap-delhi-1"
+    },
+    {
+      "address": "168.107.248.0/26",
+      "region": "ap-delhi-1"
+    },
+    {
+      "address": "168.107.248.128/25",
+      "region": "ap-delhi-1"
+    },
+    {
+      "address": "168.107.249.192/26",
+      "region": "ap-delhi-1"
+    },
+    {
+      "address": "168.107.250.0/23",
+      "region": "ap-delhi-1"
+    },
+    {
+      "address": "168.107.252.0/22",
+      "region": "ap-delhi-1"
+    },
+    {
       "address": "168.110.192.0/19",
       "region": "ap-batam-1"
     },
@@ -3810,6 +3858,42 @@
       "region": "ap-kulai-1"
     },
     {
+      "address": "192.22.0.0/19",
+      "region": "us-shawnee-1"
+    },
+    {
+      "address": "192.22.32.0/26",
+      "region": "us-shawnee-1"
+    },
+    {
+      "address": "192.22.32.128/25",
+      "region": "us-shawnee-1"
+    },
+    {
+      "address": "192.22.33.192/26",
+      "region": "us-shawnee-1"
+    },
+    {
+      "address": "192.22.34.0/23",
+      "region": "us-shawnee-1"
+    },
+    {
+      "address": "192.22.36.0/22",
+      "region": "us-shawnee-1"
+    },
+    {
+      "address": "192.22.40.0/22",
+      "region": "us-shawnee-1"
+    },
+    {
+      "address": "192.22.44.128/25",
+      "region": "us-shawnee-1"
+    },
+    {
+      "address": "192.22.48.0/23",
+      "region": "us-shawnee-1"
+    },
+    {
       "address": "192.22.128.0/19",
       "region": "us-quincy-1"
     },
@@ -3880,6 +3964,42 @@
     {
       "address": "192.22.112.0/23",
       "region": "us-boardman-1"
+    },
+    {
+      "address": "80.225.184.0/21",
+      "region": "eu-madrid-3"
+    },
+    {
+      "address": "80.225.160.0/26",
+      "region": "eu-madrid-3"
+    },
+    {
+      "address": "80.225.160.128/25",
+      "region": "eu-madrid-3"
+    },
+    {
+      "address": "80.225.161.192/26",
+      "region": "eu-madrid-3"
+    },
+    {
+      "address": "80.225.162.0/23",
+      "region": "eu-madrid-3"
+    },
+    {
+      "address": "80.225.164.0/22",
+      "region": "eu-madrid-3"
+    },
+    {
+      "address": "80.225.168.0/22",
+      "region": "eu-madrid-3"
+    },
+    {
+      "address": "80.225.176.0/23",
+      "region": "eu-madrid-3"
+    },
+    {
+      "address": "80.225.178.128/25",
+      "region": "eu-madrid-3"
     },
     {
       "address": "81.208.192.0/19",
