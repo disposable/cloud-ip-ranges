@@ -2189,7 +2189,6 @@ IPv4,15.220.0.0/20,us-west-2-pdx-1,us-west-2,AMAZON
 IPv4,15.248.16.0/22,eu-west-3,eu-west-3,AMAZON
 IPv4,16.29.0.0/16,af-south-1,af-south-1,AMAZON
 IPv4,23.254.24.0/23,us-west-2,us-west-2,AMAZON
-IPv4,40.168.224.0/24,ap-southeast-1,ap-southeast-1,AMAZON
 IPv4,51.0.252.0/24,eusc-de-east-1,eusc-de-east-1,AMAZON
 IPv4,52.93.116.0/24,ap-south-1,ap-south-1,AMAZON
 IPv4,52.93.178.142/32,us-west-1,us-west-1,AMAZON
@@ -9989,12 +9988,14 @@ IPv6,2600:f0fb:f021::/48,us-west-2,us-west-2,AMAZON
 IPv6,2606:7b40:1b0c:4000::/56,eu-central-2,eu-central-2,AMAZON
 IPv6,2620:107:4000:4800::/62,ca-central-1,ca-central-1,AMAZON
 IPv6,2620:107:4000:9900:50:81::/96,us-west-2,us-west-2,AMAZON
+IPv6,2a05:d028:8000::/36,eu-north-1,eu-north-1,AMAZON
 IPv6,2406:da32:4000::/40,ap-northeast-1,ap-northeast-1,AMAZON
 IPv6,2600:1f12:4000::/36,us-east-1,us-east-1,AMAZON
 IPv6,2600:1f14:c000::/36,us-east-2,us-east-2,AMAZON
 IPv6,2600:1f1c::/36,us-west-1,us-west-1,AMAZON
 IPv6,2600:1ff4:8000::/39,us-east-1,us-east-1,AMAZON
 IPv6,2600:f0f0:1000::/44,us-east-1,us-east-1,AMAZON
+IPv6,2a05:d018:8000::/36,eu-north-1,eu-north-1,AMAZON
 IPv6,2406:da1e::/32,ap-east-1,ap-east-1,AMAZON
 IPv6,2406:daf8:b000::/40,ap-south-2,ap-south-2,AMAZON
 IPv6,2600:f0fb:f10c::/48,ca-west-1,ca-west-1,AMAZON
@@ -12531,12 +12532,14 @@ IPv6,2600:f0f2:7140::/48,us-gov-west-1,us-gov-west-1,EC2
 IPv6,2600:f0fb:e700::/40,us-west-2-las-1b,us-west-2,EC2
 IPv6,2600:f0fb:f021::/48,us-west-2,us-west-2,EC2
 IPv6,2606:7b40:1b0c:4000::/56,eu-central-2,eu-central-2,EC2
+IPv6,2a05:d028:8000::/36,eu-north-1,eu-north-1,EC2
 IPv6,2406:da32:4000::/40,ap-northeast-1,ap-northeast-1,EC2
 IPv6,2600:1f12:4000::/36,us-east-1,us-east-1,EC2
 IPv6,2600:1f14:c000::/36,us-east-2,us-east-2,EC2
 IPv6,2600:1f1c::/36,us-west-1,us-west-1,EC2
 IPv6,2600:1ff4:8000::/39,us-east-1,us-east-1,EC2
 IPv6,2600:f0f0:1000::/44,us-east-1,us-east-1,EC2
+IPv6,2a05:d018:8000::/36,eu-north-1,eu-north-1,EC2
 IPv6,2406:da1e::/32,ap-east-1,ap-east-1,EC2
 IPv6,2600:f0fb:f10c::/48,ca-west-1,ca-west-1,EC2
 IPv6,2600:f0fb:f111::/48,us-west-2,us-west-2,EC2
