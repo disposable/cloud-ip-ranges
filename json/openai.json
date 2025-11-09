@@ -4,7 +4,7 @@
     "https://openai.com/chatgpt-user.json",
     "https://openai.com/gptbot.json"
   ],
-  "last_update": "2025-10-03T11:51:00.000000",
+  "last_update": "2025-10-30T11:00:00.000000",
   "ipv4": [
     "104.210.139.192/28",
     "104.210.139.224/28",
@@ -208,10 +208,16 @@
     "68.221.67.240/28",
     "68.221.75.16/28",
     "74.249.86.176/28",
+    "74.7.175.128/25",
     "74.7.227.0/25",
     "74.7.227.128/25",
     "74.7.228.0/25",
     "74.7.230.0/25",
+    "74.7.241.0/25",
+    "74.7.241.128/25",
+    "74.7.242.0/25",
+    "74.7.243.128/25",
+    "74.7.244.0/25",
     "74.7.35.112/28",
     "74.7.35.48/28",
     "74.7.36.64/28",
@@ -1201,7 +1207,37 @@
       "scope": null
     },
     {
-      "address": "52.230.152.0/24",
+      "address": "132.196.86.0/24",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.182.202.0/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.182.204.0/24",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.182.207.0/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.182.214.0/24",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.182.215.0/24",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "20.125.66.80/28",
       "service": null,
       "scope": null
     },
@@ -1221,42 +1257,12 @@
       "scope": null
     },
     {
-      "address": "20.125.66.80/28",
+      "address": "52.230.152.0/24",
       "service": null,
       "scope": null
     },
     {
-      "address": "172.182.204.0/24",
-      "service": null,
-      "scope": null
-    },
-    {
-      "address": "172.182.214.0/24",
-      "service": null,
-      "scope": null
-    },
-    {
-      "address": "172.182.215.0/24",
-      "service": null,
-      "scope": null
-    },
-    {
-      "address": "132.196.86.0/24",
-      "service": null,
-      "scope": null
-    },
-    {
-      "address": "172.182.202.0/25",
-      "service": null,
-      "scope": null
-    },
-    {
-      "address": "172.182.207.0/25",
-      "service": null,
-      "scope": null
-    },
-    {
-      "address": "74.7.227.128/25",
+      "address": "74.7.175.128/25",
       "service": null,
       "scope": null
     },
@@ -1266,12 +1272,42 @@
       "scope": null
     },
     {
-      "address": "74.7.230.0/25",
+      "address": "74.7.227.128/25",
       "service": null,
       "scope": null
     },
     {
       "address": "74.7.228.0/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.7.230.0/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.7.241.0/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.7.241.128/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.7.242.0/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.7.243.128/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.7.244.0/25",
       "service": null,
       "scope": null
     }
