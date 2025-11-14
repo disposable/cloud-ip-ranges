@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2025-11-12-23-08-41",
+  "last_update": "2025-11-13-16-58-27",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -1828,12 +1828,6 @@
       "service": "AMAZON",
       "region": "us-east-1",
       "network_border_group": "us-east-1"
-    },
-    {
-      "address": "23.228.220.0/24",
-      "service": "AMAZON",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
     },
     {
       "address": "52.47.0.0/16",
@@ -13206,6 +13200,12 @@
       "network_border_group": "GLOBAL"
     },
     {
+      "address": "216.198.224.0/22",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
+    },
+    {
       "address": "13.232.0.0/14",
       "service": "AMAZON",
       "region": "ap-south-1",
@@ -15349,12 +15349,6 @@
     },
     {
       "address": "51.0.29.128/28",
-      "service": "AMAZON",
-      "region": "eusc-de-east-1",
-      "network_border_group": "eusc-de-east-1"
-    },
-    {
-      "address": "51.226.0.0/15",
       "service": "AMAZON",
       "region": "eusc-de-east-1",
       "network_border_group": "eusc-de-east-1"
@@ -40530,6 +40524,12 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "216.198.224.0/22",
+      "service": "EC2",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
+    },
+    {
       "address": "13.232.0.0/14",
       "service": "EC2",
       "region": "ap-south-1",
@@ -41638,6 +41638,12 @@
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2-lax-1"
+    },
+    {
+      "address": "15.135.0.0/16",
+      "service": "EC2",
+      "region": "ap-southeast-2",
+      "network_border_group": "ap-southeast-2"
     },
     {
       "address": "18.136.0.0/16",
@@ -45805,12 +45811,6 @@
     },
     {
       "address": "180.163.57.128/26",
-      "service": "CLOUDFRONT",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
-    },
-    {
-      "address": "23.228.220.0/24",
       "service": "CLOUDFRONT",
       "region": "GLOBAL",
       "network_border_group": "GLOBAL"
