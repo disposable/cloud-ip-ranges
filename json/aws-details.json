@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2025-11-21-17-08-20",
+  "last_update": "2025-11-21-23-58-25",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -5614,12 +5614,6 @@
       "service": "AMAZON",
       "region": "us-gov-east-1",
       "network_border_group": "us-gov-east-1"
-    },
-    {
-      "address": "23.228.225.0/24",
-      "service": "AMAZON",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
     },
     {
       "address": "35.50.236.0/24",
@@ -12900,6 +12894,12 @@
       "network_border_group": "us-east-2"
     },
     {
+      "address": "35.97.128.0/24",
+      "service": "AMAZON",
+      "region": "eu-central-1",
+      "network_border_group": "eu-central-1"
+    },
+    {
       "address": "43.249.44.0/24",
       "service": "AMAZON",
       "region": "ap-southeast-2",
@@ -13582,12 +13582,6 @@
       "service": "AMAZON",
       "region": "eu-north-1",
       "network_border_group": "eu-north-1"
-    },
-    {
-      "address": "23.228.227.0/24",
-      "service": "AMAZON",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
     },
     {
       "address": "23.228.232.0/22",
@@ -16770,12 +16764,6 @@
       "network_border_group": "ap-southeast-1"
     },
     {
-      "address": "23.228.237.0/24",
-      "service": "AMAZON",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
-    },
-    {
       "address": "35.71.124.0/24",
       "service": "AMAZON",
       "region": "ap-southeast-5",
@@ -18712,12 +18700,6 @@
       "service": "AMAZON",
       "region": "ap-northeast-1",
       "network_border_group": "ap-northeast-1"
-    },
-    {
-      "address": "23.228.224.0/24",
-      "service": "AMAZON",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
     },
     {
       "address": "52.2.0.0/15",
@@ -23634,12 +23616,6 @@
       "network_border_group": "eu-central-2"
     },
     {
-      "address": "23.228.223.0/24",
-      "service": "AMAZON",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
-    },
-    {
       "address": "52.93.6.0/23",
       "service": "AMAZON",
       "region": "eu-west-1",
@@ -26230,12 +26206,6 @@
       "service": "AMAZON",
       "region": "us-east-1",
       "network_border_group": "us-east-1"
-    },
-    {
-      "address": "23.228.226.0/24",
-      "service": "AMAZON",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
     },
     {
       "address": "35.50.178.0/24",
@@ -46176,12 +46146,6 @@
       "network_border_group": "GLOBAL"
     },
     {
-      "address": "23.228.225.0/24",
-      "service": "CLOUDFRONT",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
-    },
-    {
       "address": "99.86.0.0/16",
       "service": "CLOUDFRONT",
       "region": "GLOBAL",
@@ -46356,12 +46320,6 @@
       "network_border_group": "GLOBAL"
     },
     {
-      "address": "23.228.227.0/24",
-      "service": "CLOUDFRONT",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
-    },
-    {
       "address": "71.152.0.0/17",
       "service": "CLOUDFRONT",
       "region": "GLOBAL",
@@ -46440,12 +46398,6 @@
       "network_border_group": "GLOBAL"
     },
     {
-      "address": "23.228.237.0/24",
-      "service": "CLOUDFRONT",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
-    },
-    {
       "address": "52.46.0.0/18",
       "service": "CLOUDFRONT",
       "region": "GLOBAL",
@@ -46495,12 +46447,6 @@
     },
     {
       "address": "52.84.0.0/15",
-      "service": "CLOUDFRONT",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
-    },
-    {
-      "address": "23.228.224.0/24",
       "service": "CLOUDFRONT",
       "region": "GLOBAL",
       "network_border_group": "GLOBAL"
@@ -46620,12 +46566,6 @@
       "network_border_group": "GLOBAL"
     },
     {
-      "address": "23.228.223.0/24",
-      "service": "CLOUDFRONT",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
-    },
-    {
       "address": "52.124.128.0/17",
       "service": "CLOUDFRONT",
       "region": "GLOBAL",
@@ -46651,12 +46591,6 @@
     },
     {
       "address": "3.164.128.0/17",
-      "service": "CLOUDFRONT",
-      "region": "GLOBAL",
-      "network_border_group": "GLOBAL"
-    },
-    {
-      "address": "23.228.226.0/24",
       "service": "CLOUDFRONT",
       "region": "GLOBAL",
       "network_border_group": "GLOBAL"
