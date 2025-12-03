@@ -241,6 +241,7 @@ IPv4,99.77.132.0/24,us-west-1,us-west-1,AMAZON
 IPv4,104.255.59.82/32,ap-northeast-1,ap-northeast-1,AMAZON
 IPv4,150.222.38.0/26,ap-northeast-1,ap-northeast-1,AMAZON
 IPv4,150.247.34.0/24,us-west-1,us-west-1,AMAZON
+IPv4,216.198.238.0/23,eu-west-2,eu-west-2,AMAZON
 IPv4,3.4.12.41/32,us-west-2,us-west-2,AMAZON
 IPv4,13.204.0.0/14,ap-south-1,ap-south-1,AMAZON
 IPv4,15.181.247.0/24,us-east-1-atl-1,us-east-1,AMAZON
@@ -1503,6 +1504,7 @@ IPv4,150.222.144.71/32,eu-central-1,eu-central-1,AMAZON
 IPv4,3.4.12.38/32,us-west-1,us-west-1,AMAZON
 IPv4,3.5.48.0/22,me-central-1,me-central-1,AMAZON
 IPv4,13.248.73.0/24,ca-west-1,ca-west-1,AMAZON
+IPv4,15.193.32.0/24,us-west-2,us-west-2,AMAZON
 IPv4,15.220.152.0/21,eu-central-1-ham-1,eu-central-1,AMAZON
 IPv4,15.230.77.64/26,ap-northeast-1,ap-northeast-1,AMAZON
 IPv4,15.230.165.0/24,eu-west-2,eu-west-2,AMAZON
@@ -6112,6 +6114,7 @@ IPv4,15.193.2.0/24,ap-southeast-1,ap-southeast-1,EC2
 IPv4,15.220.222.0/23,us-east-1-mci-1,us-east-1,EC2
 IPv4,35.50.238.0/24,ap-northeast-2,ap-northeast-2,EC2
 IPv4,99.77.132.0/24,us-west-1,us-west-1,EC2
+IPv4,216.198.238.0/23,eu-west-2,eu-west-2,EC2
 IPv4,13.204.0.0/14,ap-south-1,ap-south-1,EC2
 IPv4,15.181.247.0/24,us-east-1-atl-1,us-east-1,EC2
 IPv4,18.232.0.0/14,us-east-1,us-east-1,EC2
@@ -6535,6 +6538,7 @@ IPv4,52.54.0.0/15,us-east-1,us-east-1,EC2
 IPv4,52.95.230.0/24,us-west-2-lax-1,us-west-2,EC2
 IPv4,83.119.128.0/18,eu-central-1,eu-central-1,EC2
 IPv4,3.5.48.0/22,me-central-1,me-central-1,EC2
+IPv4,15.193.32.0/24,us-west-2,us-west-2,EC2
 IPv4,15.220.152.0/21,eu-central-1-ham-1,eu-central-1,EC2
 IPv4,16.56.64.0/18,us-east-1,us-east-1,EC2
 IPv4,51.21.0.0/16,eu-north-1,eu-north-1,EC2
@@ -8163,6 +8167,9 @@ IPv4,13.55.255.216/29,ap-southeast-2,ap-southeast-2,CODEBUILD
 IPv4,3.26.127.24/29,ap-southeast-2,ap-southeast-2,CODEBUILD
 IPv4,108.137.114.0/28,ap-southeast-3,ap-southeast-3,CODEBUILD
 IPv4,16.50.248.32/28,ap-southeast-4,ap-southeast-4,CODEBUILD
+IPv4,56.68.33.32/28,ap-southeast-5,ap-southeast-5,CODEBUILD
+IPv4,3.103.24.192/28,ap-southeast-6,ap-southeast-6,CODEBUILD
+IPv4,43.209.155.112/28,ap-southeast-7,ap-southeast-7,CODEBUILD
 IPv4,3.98.171.224/29,ca-central-1,ca-central-1,CODEBUILD
 IPv4,35.182.14.48/29,ca-central-1,ca-central-1,CODEBUILD
 IPv4,3.68.251.232/29,eu-central-1,eu-central-1,CODEBUILD
