@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2025-12-02-22-58-27",
+  "last_update": "2025-12-03-21-38-20",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -3878,6 +3878,7 @@
     "3.44.192.0/18",
     "3.44.64.0/18",
     "3.45.0.0/18",
+    "3.45.64.0/18",
     "3.5.0.0/19",
     "3.5.120.0/22",
     "3.5.126.0/23",
@@ -4426,6 +4427,7 @@
     "35.96.48.0/21",
     "35.96.5.0/24",
     "35.96.56.0/24",
+    "35.96.58.0/23",
     "35.96.6.0/24",
     "35.96.64.0/20",
     "35.96.7.0/24",
@@ -19927,6 +19929,12 @@
       "network_border_group": "ap-southeast-2"
     },
     {
+      "address": "3.45.64.0/18",
+      "service": "AMAZON",
+      "region": "us-gov-west-1",
+      "network_border_group": "us-gov-west-1"
+    },
+    {
       "address": "5.60.96.0/19",
       "service": "AMAZON",
       "region": "eu-central-1",
@@ -26651,6 +26659,12 @@
       "service": "AMAZON",
       "region": "eu-north-1",
       "network_border_group": "eu-north-1"
+    },
+    {
+      "address": "35.96.58.0/23",
+      "service": "AMAZON",
+      "region": "eu-central-1",
+      "network_border_group": "eu-central-1"
     },
     {
       "address": "50.18.0.0/16",
@@ -49231,6 +49245,12 @@
       "network_border_group": "GLOBAL"
     },
     {
+      "address": "3.45.64.0/18",
+      "service": "EC2",
+      "region": "us-gov-west-1",
+      "network_border_group": "us-gov-west-1"
+    },
+    {
       "address": "5.60.96.0/19",
       "service": "EC2",
       "region": "eu-central-1",
@@ -51461,6 +51481,12 @@
       "service": "EC2",
       "region": "eu-north-1",
       "network_border_group": "eu-north-1"
+    },
+    {
+      "address": "35.96.58.0/23",
+      "service": "EC2",
+      "region": "eu-central-1",
+      "network_border_group": "eu-central-1"
     },
     {
       "address": "50.18.0.0/16",
