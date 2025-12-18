@@ -3,7 +3,7 @@
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2025-12-17T01:22:51.638875",
+  "last_update": "2025-12-18T01:23:22.211191",
   "ipv4": [
     {
       "address": "40.233.0.0/19",
@@ -1735,6 +1735,10 @@
     },
     {
       "address": "129.151.160.0/19",
+      "region": "af-johannesburg-1"
+    },
+    {
+      "address": "145.241.96.0/21",
       "region": "af-johannesburg-1"
     },
     {
@@ -3594,6 +3598,46 @@
       "region": "ap-singapore-2"
     },
     {
+      "address": "148.116.104.0/21",
+      "region": "sa-valparaiso-1"
+    },
+    {
+      "address": "149.130.224.0/19",
+      "region": "sa-valparaiso-1"
+    },
+    {
+      "address": "165.1.120.0/21",
+      "region": "sa-valparaiso-1"
+    },
+    {
+      "address": "168.129.176.0/22",
+      "region": "sa-valparaiso-1"
+    },
+    {
+      "address": "165.1.96.0/22",
+      "region": "sa-valparaiso-1"
+    },
+    {
+      "address": "165.1.100.0/25",
+      "region": "sa-valparaiso-1"
+    },
+    {
+      "address": "165.1.104.0/22",
+      "region": "sa-valparaiso-1"
+    },
+    {
+      "address": "165.1.112.0/23",
+      "region": "sa-valparaiso-1"
+    },
+    {
+      "address": "165.1.114.128/25",
+      "region": "sa-valparaiso-1"
+    },
+    {
+      "address": "168.129.180.0/23",
+      "region": "sa-valparaiso-1"
+    },
+    {
       "address": "149.130.160.0/19",
       "region": "sa-bogota-1"
     },
@@ -3632,42 +3676,6 @@
     {
       "address": "158.247.114.128/25",
       "region": "sa-bogota-1"
-    },
-    {
-      "address": "149.130.224.0/19",
-      "region": "sa-valparaiso-1"
-    },
-    {
-      "address": "165.1.120.0/21",
-      "region": "sa-valparaiso-1"
-    },
-    {
-      "address": "168.129.176.0/22",
-      "region": "sa-valparaiso-1"
-    },
-    {
-      "address": "165.1.96.0/22",
-      "region": "sa-valparaiso-1"
-    },
-    {
-      "address": "165.1.100.0/25",
-      "region": "sa-valparaiso-1"
-    },
-    {
-      "address": "165.1.104.0/22",
-      "region": "sa-valparaiso-1"
-    },
-    {
-      "address": "165.1.112.0/23",
-      "region": "sa-valparaiso-1"
-    },
-    {
-      "address": "165.1.114.128/25",
-      "region": "sa-valparaiso-1"
-    },
-    {
-      "address": "168.129.180.0/23",
-      "region": "sa-valparaiso-1"
     },
     {
       "address": "151.106.160.0/19",
