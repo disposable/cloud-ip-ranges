@@ -3,7 +3,7 @@
   "source": [
     "https://azservicetags.azurewebsites.net/"
   ],
-  "last_update": "2025-12-13T01:22:18.560467",
+  "last_update": "2025-12-19T01:26:56.544850",
   "ipv4": [
     {
       "address": "4.145.74.52/30",
@@ -586,6 +586,11 @@
       "region": ""
     },
     {
+      "address": "48.193.50.96/30",
+      "systemService": "ActionGroup",
+      "region": ""
+    },
+    {
       "address": "48.196.97.160/30",
       "systemService": "ActionGroup",
       "region": ""
@@ -862,6 +867,11 @@
     },
     {
       "address": "172.191.219.248/30",
+      "systemService": "ActionGroup",
+      "region": ""
+    },
+    {
+      "address": "172.194.86.168/30",
       "systemService": "ActionGroup",
       "region": ""
     },
@@ -27896,6 +27906,11 @@
       "region": ""
     },
     {
+      "address": "48.193.49.192/26",
+      "systemService": "AzureContainerRegistry",
+      "region": ""
+    },
+    {
       "address": "48.196.84.192/26",
       "systemService": "AzureContainerRegistry",
       "region": ""
@@ -34737,6 +34752,11 @@
     },
     {
       "address": "40.127.147.196/32",
+      "systemService": "AzureDatabricks",
+      "region": ""
+    },
+    {
+      "address": "48.193.49.0/26",
       "systemService": "AzureDatabricks",
       "region": ""
     },
@@ -49306,7 +49326,47 @@
       "region": ""
     },
     {
+      "address": "48.193.52.64/29",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "48.193.52.80/28",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
       "address": "48.195.243.80/28",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "48.196.105.8/29",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "48.196.105.32/28",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "48.197.95.248/29",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "48.197.97.112/28",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "48.198.105.48/29",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "48.198.105.64/28",
       "systemService": "AzureManagedGrafana",
       "region": ""
     },
@@ -49666,6 +49726,16 @@
       "region": ""
     },
     {
+      "address": "172.194.87.240/29",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "172.194.89.0/28",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
       "address": "172.195.54.180/30",
       "systemService": "AzureManagedGrafana",
       "region": ""
@@ -49721,6 +49791,11 @@
       "region": ""
     },
     {
+      "address": "4.145.16.160/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "4.145.79.224/27",
       "systemService": "AzureMonitor",
       "region": ""
@@ -49751,12 +49826,27 @@
       "region": ""
     },
     {
+      "address": "4.161.10.112/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.165.111.96/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "4.172.75.0/24",
       "systemService": "AzureMonitor",
       "region": ""
     },
     {
       "address": "4.172.83.112/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.172.95.192/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -49772,6 +49862,11 @@
     },
     {
       "address": "4.176.24.16/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.176.30.32/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -49836,6 +49931,11 @@
       "region": ""
     },
     {
+      "address": "4.185.231.176/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "4.186.1.0/24",
       "systemService": "AzureMonitor",
       "region": ""
@@ -49891,6 +49991,11 @@
       "region": ""
     },
     {
+      "address": "4.191.84.192/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "4.192.252.224/27",
       "systemService": "AzureMonitor",
       "region": ""
@@ -49912,6 +50017,11 @@
     },
     {
       "address": "4.195.110.160/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.196.130.224/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -49976,6 +50086,11 @@
       "region": ""
     },
     {
+      "address": "4.199.209.16/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "4.201.211.64/26",
       "systemService": "AzureMonitor",
       "region": ""
@@ -49987,6 +50102,11 @@
     },
     {
       "address": "4.201.241.48/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.201.241.144/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -50036,6 +50156,11 @@
       "region": ""
     },
     {
+      "address": "4.216.2.16/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "4.217.214.16/28",
       "systemService": "AzureMonitor",
       "region": ""
@@ -50056,7 +50181,17 @@
       "region": ""
     },
     {
+      "address": "4.220.240.16/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "4.221.45.192/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.221.222.48/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -50072,6 +50207,21 @@
     },
     {
       "address": "4.226.250.64/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.226.252.176/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.230.123.96/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.231.242.128/26",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -50166,6 +50316,11 @@
       "region": ""
     },
     {
+      "address": "4.238.15.0/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "4.239.77.0/26",
       "systemService": "AzureMonitor",
       "region": ""
@@ -50212,6 +50367,11 @@
     },
     {
       "address": "4.243.153.128/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "4.243.158.192/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -50291,6 +50451,21 @@
       "region": ""
     },
     {
+      "address": "9.160.70.96/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "9.160.70.128/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "9.160.70.160/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "9.160.84.32/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -50361,6 +50536,16 @@
       "region": ""
     },
     {
+      "address": "9.205.62.0/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "9.205.62.64/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "9.205.74.136/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -50402,6 +50587,21 @@
     },
     {
       "address": "9.235.70.80/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "9.235.170.208/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "9.235.171.24/29",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "9.235.171.32/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -51901,6 +52101,11 @@
       "region": ""
     },
     {
+      "address": "20.45.150.80/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "20.45.208.32/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -52126,6 +52331,11 @@
       "region": ""
     },
     {
+      "address": "20.51.41.192/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "20.51.48.192/26",
       "systemService": "AzureMonitor",
       "region": ""
@@ -52207,6 +52417,11 @@
     },
     {
       "address": "20.58.72.16/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "20.58.79.176/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -52316,6 +52531,11 @@
       "region": ""
     },
     {
+      "address": "20.88.80.0/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "20.89.1.32/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -52332,6 +52552,11 @@
     },
     {
       "address": "20.91.44.0/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "20.91.89.192/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -52387,6 +52612,11 @@
     },
     {
       "address": "20.111.68.240/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "20.111.71.160/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -52561,6 +52791,11 @@
       "region": ""
     },
     {
+      "address": "20.167.212.144/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "20.168.163.200/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -52606,7 +52841,22 @@
       "region": ""
     },
     {
+      "address": "20.170.249.240/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "20.172.72.80/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "20.172.117.0/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "20.173.60.224/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -52916,6 +53166,11 @@
       "region": ""
     },
     {
+      "address": "20.200.12.128/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "20.200.162.168/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -53161,6 +53416,11 @@
       "region": ""
     },
     {
+      "address": "20.215.127.16/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "20.215.158.128/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -53177,6 +53437,11 @@
     },
     {
       "address": "20.216.92.16/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "20.216.92.48/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -53307,6 +53572,11 @@
     },
     {
       "address": "20.244.198.224/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "20.244.209.32/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -53727,6 +53997,16 @@
     },
     {
       "address": "40.75.147.224/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "40.75.149.224/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "40.75.151.0/26",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -54381,6 +54661,21 @@
       "region": ""
     },
     {
+      "address": "48.193.48.96/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "48.193.48.144/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "48.193.48.160/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "48.194.1.84/30",
       "systemService": "AzureMonitor",
       "region": ""
@@ -54466,7 +54761,17 @@
       "region": ""
     },
     {
+      "address": "48.199.135.192/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "48.200.60.192/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "48.202.71.0/26",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -54521,6 +54826,16 @@
       "region": ""
     },
     {
+      "address": "48.219.9.32/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "48.219.9.64/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "48.219.203.242/31",
       "systemService": "AzureMonitor",
       "region": ""
@@ -54542,6 +54857,11 @@
     },
     {
       "address": "48.219.210.0/30",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "48.219.221.128/26",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -54581,6 +54901,11 @@
       "region": ""
     },
     {
+      "address": "48.223.56.32/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "51.4.131.242/31",
       "systemService": "AzureMonitor",
       "region": ""
@@ -54602,6 +54927,16 @@
     },
     {
       "address": "51.4.150.240/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "51.4.154.48/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "51.4.154.64/26",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -56201,6 +56536,11 @@
       "region": ""
     },
     {
+      "address": "52.240.193.64/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "52.240.244.144/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -56257,6 +56597,11 @@
     },
     {
       "address": "52.247.202.90/32",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "52.249.21.192/26",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -56346,6 +56691,21 @@
       "region": ""
     },
     {
+      "address": "57.156.5.128/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "57.156.5.176/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "57.156.5.192/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "65.52.2.145/32",
       "systemService": "AzureMonitor",
       "region": ""
@@ -56381,7 +56741,32 @@
       "region": ""
     },
     {
+      "address": "68.154.151.96/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "68.154.151.128/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "68.210.30.192/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "68.210.59.224/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "68.210.60.16/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "68.210.60.32/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -56676,6 +57061,11 @@
       "region": ""
     },
     {
+      "address": "70.157.162.144/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "72.152.228.64/26",
       "systemService": "AzureMonitor",
       "region": ""
@@ -56731,6 +57121,11 @@
       "region": ""
     },
     {
+      "address": "74.7.65.192/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "74.7.83.32/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -56761,6 +57156,11 @@
       "region": ""
     },
     {
+      "address": "74.7.201.192/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "74.7.218.224/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -56777,6 +57177,11 @@
     },
     {
       "address": "74.161.190.0/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "74.161.238.224/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -56801,7 +57206,17 @@
       "region": ""
     },
     {
+      "address": "74.225.44.96/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "74.225.110.144/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "74.225.115.0/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -56867,6 +57282,21 @@
     },
     {
       "address": "85.211.140.176/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "85.211.235.160/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "85.211.235.208/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "85.211.235.224/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -57281,6 +57711,11 @@
       "region": ""
     },
     {
+      "address": "134.138.94.192/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "134.138.98.136/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -57466,6 +57901,11 @@
       "region": ""
     },
     {
+      "address": "158.158.131.80/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "167.105.106.8/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -57487,6 +57927,16 @@
     },
     {
       "address": "167.105.220.96/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "167.105.250.104/29",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "167.105.250.112/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -57541,7 +57991,17 @@
       "region": ""
     },
     {
+      "address": "172.165.84.176/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "172.169.155.0/24",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.170.16.192/26",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -57572,6 +58032,16 @@
     },
     {
       "address": "172.175.111.96/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.175.178.208/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.175.179.32/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -57641,6 +58111,11 @@
       "region": ""
     },
     {
+      "address": "172.192.184.208/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "172.194.81.104/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -57686,7 +58161,22 @@
       "region": ""
     },
     {
+      "address": "172.195.54.240/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "172.196.61.176/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.196.61.192/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.196.62.0/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -57842,6 +58332,11 @@
     },
     {
       "address": "172.209.100.144/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.209.113.48/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -68511,6 +69006,11 @@
       "region": ""
     },
     {
+      "address": "4.232.208.23/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "4.235.51.86/31",
       "systemService": "AzureSentinel",
       "region": ""
@@ -68626,7 +69126,17 @@
       "region": ""
     },
     {
+      "address": "20.21.200.13/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "20.24.243.246/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.27.232.228/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -68661,12 +69171,27 @@
       "region": ""
     },
     {
+      "address": "20.52.212.85/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "20.54.195.136/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
     {
       "address": "20.58.122.192/28",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.71.8.176/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.74.12.78/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -68686,6 +69211,11 @@
       "region": ""
     },
     {
+      "address": "20.91.180.165/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "20.104.139.150/32",
       "systemService": "AzureSentinel",
       "region": ""
@@ -68697,6 +69227,11 @@
     },
     {
       "address": "20.105.245.80/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.106.115.163/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -68727,6 +69262,11 @@
     },
     {
       "address": "20.113.254.224/28",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.117.35.8/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -68791,7 +69331,32 @@
       "region": ""
     },
     {
+      "address": "20.194.17.254/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.194.150.139/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.197.113.87/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "20.197.219.106/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.199.186.58/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.199.224.193/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -68896,6 +69461,11 @@
       "region": ""
     },
     {
+      "address": "20.214.16.88/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "20.215.74.32/28",
       "systemService": "AzureSentinel",
       "region": ""
@@ -68931,6 +69501,11 @@
       "region": ""
     },
     {
+      "address": "20.217.134.116/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "20.217.161.64/28",
       "systemService": "AzureSentinel",
       "region": ""
@@ -68956,7 +69531,17 @@
       "region": ""
     },
     {
+      "address": "20.218.40.0/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "20.218.50.4/31",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "20.221.223.151/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -68981,12 +69566,27 @@
       "region": ""
     },
     {
+      "address": "20.235.31.38/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "20.235.186.96/28",
       "systemService": "AzureSentinel",
       "region": ""
     },
     {
+      "address": "20.236.156.238/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "20.237.82.201/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "40.64.106.65/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -69041,7 +69641,27 @@
       "region": ""
     },
     {
+      "address": "40.117.14.185/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
       "address": "40.119.155.184/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "40.123.207.43/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "40.126.210.189/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "40.127.239.99/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -69177,6 +69797,26 @@
     },
     {
       "address": "51.4.153.128/27",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "51.11.168.197/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "51.12.7.21/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "51.13.75.153/32",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "51.13.144.151/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -69682,6 +70322,11 @@
     },
     {
       "address": "74.243.225.240/30",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "102.133.139.160/32",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -104786,6 +105431,11 @@
       "region": ""
     },
     {
+      "address": "48.193.52.192/27",
+      "systemService": "LogicApps",
+      "region": ""
+    },
+    {
       "address": "48.196.101.112/28",
       "systemService": "LogicApps",
       "region": ""
@@ -109567,6 +110217,16 @@
     },
     {
       "address": "20.164.159.152/32",
+      "systemService": "Marketplace",
+      "region": ""
+    },
+    {
+      "address": "20.172.117.36/30",
+      "systemService": "Marketplace",
+      "region": ""
+    },
+    {
+      "address": "20.172.117.48/28",
       "systemService": "Marketplace",
       "region": ""
     },
@@ -122006,6 +122666,11 @@
       "region": ""
     },
     {
+      "address": "48.193.50.40/29",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": ""
+    },
+    {
       "address": "48.196.97.72/29",
       "systemService": "MicrosoftContainerRegistry",
       "region": ""
@@ -122362,6 +123027,11 @@
     },
     {
       "address": "167.105.104.0/29",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": ""
+    },
+    {
+      "address": "172.194.86.160/29",
       "systemService": "MicrosoftContainerRegistry",
       "region": ""
     },
@@ -138356,6 +139026,11 @@
       "region": ""
     },
     {
+      "address": "172.194.86.128/27",
+      "systemService": "PowerQueryOnline",
+      "region": ""
+    },
+    {
       "address": "172.198.80.32/29",
       "systemService": "PowerQueryOnline",
       "region": ""
@@ -139001,6 +139676,16 @@
       "region": ""
     },
     {
+      "address": "4.145.16.144/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.145.16.192/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "4.150.34.96/29",
       "systemService": "Scuba",
       "region": ""
@@ -139011,7 +139696,47 @@
       "region": ""
     },
     {
+      "address": "4.161.10.44/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.161.10.80/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.161.10.96/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "4.165.109.112/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.165.111.40/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.165.111.64/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.172.95.108/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.172.95.128/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.176.30.64/26",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139021,12 +139746,57 @@
       "region": ""
     },
     {
+      "address": "4.185.231.160/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.188.8.98/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.188.8.208/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.188.8.224/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "4.190.132.16/29",
       "systemService": "Scuba",
       "region": ""
     },
     {
+      "address": "4.191.84.176/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "4.194.228.0/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.196.130.126/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.196.130.164/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.196.130.176/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.196.130.192/27",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139041,7 +139811,62 @@
       "region": ""
     },
     {
+      "address": "4.201.240.170/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.201.241.96/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.201.241.128/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.216.1.208/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.216.1.224/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.216.2.0/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "4.219.20.96/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.219.21.204/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.219.21.240/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.221.221.204/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.221.222.0/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.221.222.32/31",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139056,12 +139881,47 @@
       "region": ""
     },
     {
+      "address": "4.230.123.28/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.230.123.64/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.230.123.80/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.231.242.0/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.231.242.64/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "4.243.117.44/30",
       "systemService": "Scuba",
       "region": ""
     },
     {
       "address": "4.243.117.48/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.243.158.2/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "4.243.158.176/28",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139141,6 +140001,26 @@
       "region": ""
     },
     {
+      "address": "20.45.150.72/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "20.51.41.112/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "20.51.41.128/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "20.58.79.152/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "20.111.111.26/31",
       "systemService": "Scuba",
       "region": ""
@@ -139161,12 +140041,32 @@
       "region": ""
     },
     {
+      "address": "20.172.116.240/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "20.173.59.144/28",
       "systemService": "Scuba",
       "region": ""
     },
     {
+      "address": "20.173.60.156/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "20.173.60.192/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "20.175.6.248/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "20.200.12.46/31",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139231,6 +140131,21 @@
       "region": ""
     },
     {
+      "address": "40.75.148.224/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "40.75.149.0/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "40.75.149.64/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "40.80.103.224/29",
       "systemService": "Scuba",
       "region": ""
@@ -139286,7 +140201,72 @@
       "region": ""
     },
     {
+      "address": "48.199.133.201/32",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.199.134.0/24",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.199.135.0/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "48.200.91.184/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.70.72/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.70.96/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.70.128/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.70.192/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.160.96/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.160.128/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.160.192/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.160.200/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.160.204/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "48.202.161.0/24",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139321,6 +140301,11 @@
       "region": ""
     },
     {
+      "address": "48.223.56.64/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "51.4.136.72/29",
       "systemService": "Scuba",
       "region": ""
@@ -139346,6 +140331,11 @@
       "region": ""
     },
     {
+      "address": "51.58.58.32/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "51.142.131.240/29",
       "systemService": "Scuba",
       "region": ""
@@ -139366,7 +140356,47 @@
       "region": ""
     },
     {
+      "address": "52.240.193.0/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "52.240.193.32/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "52.249.21.148/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "52.249.21.152/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "52.249.21.160/27",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "52.255.31.244/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "52.255.31.248/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "57.151.222.216/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "57.158.18.20/31",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139466,6 +140496,16 @@
       "region": ""
     },
     {
+      "address": "74.161.238.172/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "74.161.238.208/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "74.162.131.38/31",
       "systemService": "Scuba",
       "region": ""
@@ -139482,6 +140522,11 @@
     },
     {
       "address": "74.163.219.216/30",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "74.225.44.80/29",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139512,6 +140557,16 @@
     },
     {
       "address": "134.138.83.8/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "134.138.217.144/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "134.138.217.160/27",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139581,6 +140636,31 @@
       "region": ""
     },
     {
+      "address": "172.165.84.120/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.165.84.144/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.165.84.192/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.170.16.0/25",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.170.16.128/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "172.172.252.120/29",
       "systemService": "Scuba",
       "region": ""
@@ -139592,6 +140672,26 @@
     },
     {
       "address": "172.175.125.64/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.175.178.64/26",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.175.178.128/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.175.178.144/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.175.178.152/30",
       "systemService": "Scuba",
       "region": ""
     },
@@ -139616,7 +140716,22 @@
       "region": ""
     },
     {
+      "address": "172.192.184.180/31",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.192.184.192/28",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
       "address": "172.194.82.248/29",
+      "systemService": "Scuba",
+      "region": ""
+    },
+    {
+      "address": "172.196.61.166/31",
       "systemService": "Scuba",
       "region": ""
     },
@@ -141491,6 +142606,11 @@
       "region": ""
     },
     {
+      "address": "48.193.50.104/29",
+      "systemService": "ServiceFabric",
+      "region": ""
+    },
+    {
       "address": "48.196.97.168/29",
       "systemService": "ServiceFabric",
       "region": ""
@@ -142102,6 +143222,11 @@
     },
     {
       "address": "168.61.142.48/30",
+      "systemService": "ServiceFabric",
+      "region": ""
+    },
+    {
+      "address": "172.194.86.224/29",
       "systemService": "ServiceFabric",
       "region": ""
     },
@@ -143681,6 +144806,11 @@
       "region": ""
     },
     {
+      "address": "48.193.52.224/27",
+      "systemService": "SqlManagement",
+      "region": ""
+    },
+    {
       "address": "48.196.100.160/28",
       "systemService": "SqlManagement",
       "region": ""
@@ -144807,6 +145937,11 @@
     },
     {
       "address": "172.194.84.64/28",
+      "systemService": "SqlManagement",
+      "region": ""
+    },
+    {
+      "address": "172.194.89.32/27",
       "systemService": "SqlManagement",
       "region": ""
     },
@@ -146236,6 +147371,16 @@
       "region": ""
     },
     {
+      "address": "57.156.5.248/29",
+      "systemService": "WVDRelays",
+      "region": ""
+    },
+    {
+      "address": "57.156.73.192/28",
+      "systemService": "WVDRelays",
+      "region": ""
+    },
+    {
       "address": "4.232.25.104/29",
       "systemService": "WindowsAdminCenter",
       "region": ""
@@ -147014,6 +148159,11 @@
       "address": "98.67.183.188/30",
       "systemService": "ActionGroup",
       "region": "germanywc"
+    },
+    {
+      "address": "48.193.50.96/30",
+      "systemService": "ActionGroup",
+      "region": "indonesiacentral"
     },
     {
       "address": "70.153.176.24/30",
@@ -164961,6 +166111,11 @@
       "region": "germanywc"
     },
     {
+      "address": "48.193.49.192/26",
+      "systemService": "AzureContainerRegistry",
+      "region": "indonesiacentral"
+    },
+    {
       "address": "70.153.154.128/26",
       "systemService": "AzureContainerRegistry",
       "region": "indonesiacentral"
@@ -179561,6 +180716,11 @@
       "region": "australiacentral"
     },
     {
+      "address": "4.199.209.16/28",
+      "systemService": "AzureMonitor",
+      "region": "australiacentral"
+    },
+    {
       "address": "20.28.117.0/26",
       "systemService": "AzureMonitor",
       "region": "australiacentral"
@@ -179676,6 +180836,11 @@
       "region": "australiacentral2"
     },
     {
+      "address": "20.167.212.144/28",
+      "systemService": "AzureMonitor",
+      "region": "australiacentral2"
+    },
+    {
       "address": "20.193.96.32/27",
       "systemService": "AzureMonitor",
       "region": "australiacentral2"
@@ -179697,6 +180862,11 @@
     },
     {
       "address": "4.195.110.160/28",
+      "systemService": "AzureMonitor",
+      "region": "australiaeast"
+    },
+    {
+      "address": "4.196.130.224/28",
       "systemService": "AzureMonitor",
       "region": "australiaeast"
     },
@@ -179921,6 +181091,11 @@
       "region": "australiasoutheast"
     },
     {
+      "address": "20.45.150.80/28",
+      "systemService": "AzureMonitor",
+      "region": "australiasoutheast"
+    },
+    {
       "address": "20.211.224.56/29",
       "systemService": "AzureMonitor",
       "region": "australiasoutheast"
@@ -179997,6 +181172,21 @@
     },
     {
       "address": "68.210.30.192/28",
+      "systemService": "AzureMonitor",
+      "region": "austriaeast"
+    },
+    {
+      "address": "68.210.59.224/27",
+      "systemService": "AzureMonitor",
+      "region": "austriaeast"
+    },
+    {
+      "address": "68.210.60.16/28",
+      "systemService": "AzureMonitor",
+      "region": "austriaeast"
+    },
+    {
+      "address": "68.210.60.32/27",
       "systemService": "AzureMonitor",
       "region": "austriaeast"
     },
@@ -180086,6 +181276,21 @@
       "region": "belgiumcentral"
     },
     {
+      "address": "9.160.70.96/27",
+      "systemService": "AzureMonitor",
+      "region": "belgiumcentral"
+    },
+    {
+      "address": "9.160.70.128/27",
+      "systemService": "AzureMonitor",
+      "region": "belgiumcentral"
+    },
+    {
+      "address": "9.160.70.160/28",
+      "systemService": "AzureMonitor",
+      "region": "belgiumcentral"
+    },
+    {
       "address": "9.160.84.32/29",
       "systemService": "AzureMonitor",
       "region": "belgiumcentral"
@@ -180127,6 +181332,11 @@
     },
     {
       "address": "4.201.241.48/28",
+      "systemService": "AzureMonitor",
+      "region": "brazilsouth"
+    },
+    {
+      "address": "4.201.241.144/28",
       "systemService": "AzureMonitor",
       "region": "brazilsouth"
     },
@@ -180271,6 +181481,11 @@
       "region": "brazilse"
     },
     {
+      "address": "4.238.15.0/28",
+      "systemService": "AzureMonitor",
+      "region": "brazilse"
+    },
+    {
       "address": "20.206.0.196/31",
       "systemService": "AzureMonitor",
       "region": "brazilse"
@@ -180317,6 +181532,11 @@
     },
     {
       "address": "4.172.83.112/28",
+      "systemService": "AzureMonitor",
+      "region": "canadacentral"
+    },
+    {
+      "address": "4.172.95.192/28",
       "systemService": "AzureMonitor",
       "region": "canadacentral"
     },
@@ -180527,6 +181747,11 @@
     },
     {
       "address": "20.200.5.48/28",
+      "systemService": "AzureMonitor",
+      "region": "canadaeast"
+    },
+    {
+      "address": "20.200.12.128/28",
       "systemService": "AzureMonitor",
       "region": "canadaeast"
     },
@@ -181011,6 +182236,11 @@
       "region": "centralus"
     },
     {
+      "address": "172.170.16.192/26",
+      "systemService": "AzureMonitor",
+      "region": "centralus"
+    },
+    {
       "address": "172.170.178.64/26",
       "systemService": "AzureMonitor",
       "region": "centralus"
@@ -181116,6 +182346,21 @@
       "region": "chilec"
     },
     {
+      "address": "57.156.5.128/27",
+      "systemService": "AzureMonitor",
+      "region": "chilec"
+    },
+    {
+      "address": "57.156.5.176/28",
+      "systemService": "AzureMonitor",
+      "region": "chilec"
+    },
+    {
+      "address": "57.156.5.192/27",
+      "systemService": "AzureMonitor",
+      "region": "chilec"
+    },
+    {
       "address": "68.211.13.22/31",
       "systemService": "AzureMonitor",
       "region": "chilec"
@@ -181187,6 +182432,11 @@
     },
     {
       "address": "4.144.10.64/26",
+      "systemService": "AzureMonitor",
+      "region": "eastasia"
+    },
+    {
+      "address": "4.191.84.192/28",
       "systemService": "AzureMonitor",
       "region": "eastasia"
     },
@@ -182001,6 +183251,16 @@
       "region": "eastus2"
     },
     {
+      "address": "172.175.178.208/28",
+      "systemService": "AzureMonitor",
+      "region": "eastus2"
+    },
+    {
+      "address": "172.175.179.32/27",
+      "systemService": "AzureMonitor",
+      "region": "eastus2"
+    },
+    {
       "address": "172.210.218.224/29",
       "systemService": "AzureMonitor",
       "region": "eastus2"
@@ -182096,6 +183356,11 @@
       "region": "eastus2euap"
     },
     {
+      "address": "48.223.56.32/28",
+      "systemService": "AzureMonitor",
+      "region": "eastus2euap"
+    },
+    {
       "address": "52.138.90.48/30",
       "systemService": "AzureMonitor",
       "region": "eastus2euap"
@@ -182147,6 +183412,11 @@
     },
     {
       "address": "134.138.82.192/26",
+      "systemService": "AzureMonitor",
+      "region": "eastus3"
+    },
+    {
+      "address": "134.138.94.192/26",
       "systemService": "AzureMonitor",
       "region": "eastus3"
     },
@@ -182207,6 +183477,11 @@
     },
     {
       "address": "4.176.24.16/28",
+      "systemService": "AzureMonitor",
+      "region": "centralfrance"
+    },
+    {
+      "address": "4.176.30.32/28",
       "systemService": "AzureMonitor",
       "region": "centralfrance"
     },
@@ -182396,6 +183671,11 @@
       "region": "southfrance"
     },
     {
+      "address": "20.111.71.160/28",
+      "systemService": "AzureMonitor",
+      "region": "southfrance"
+    },
+    {
       "address": "20.111.72.96/27",
       "systemService": "AzureMonitor",
       "region": "southfrance"
@@ -182486,6 +183766,11 @@
       "region": "germanyn"
     },
     {
+      "address": "20.170.249.240/28",
+      "systemService": "AzureMonitor",
+      "region": "germanyn"
+    },
+    {
       "address": "51.116.54.32/27",
       "systemService": "AzureMonitor",
       "region": "germanyn"
@@ -182532,6 +183817,11 @@
     },
     {
       "address": "4.185.224.224/28",
+      "systemService": "AzureMonitor",
+      "region": "germanywc"
+    },
+    {
+      "address": "4.185.231.176/28",
       "systemService": "AzureMonitor",
       "region": "germanywc"
     },
@@ -182612,6 +183902,21 @@
     },
     {
       "address": "48.193.48.80/28",
+      "systemService": "AzureMonitor",
+      "region": "indonesiacentral"
+    },
+    {
+      "address": "48.193.48.96/27",
+      "systemService": "AzureMonitor",
+      "region": "indonesiacentral"
+    },
+    {
+      "address": "48.193.48.144/28",
+      "systemService": "AzureMonitor",
+      "region": "indonesiacentral"
+    },
+    {
+      "address": "48.193.48.160/27",
       "systemService": "AzureMonitor",
       "region": "indonesiacentral"
     },
@@ -182786,6 +184091,16 @@
       "region": "israelnorthwest"
     },
     {
+      "address": "51.4.154.48/28",
+      "systemService": "AzureMonitor",
+      "region": "israelnorthwest"
+    },
+    {
+      "address": "51.4.154.64/26",
+      "systemService": "AzureMonitor",
+      "region": "israelnorthwest"
+    },
+    {
       "address": "51.4.164.48/29",
       "systemService": "AzureMonitor",
       "region": "israelnorthwest"
@@ -182876,12 +184191,32 @@
       "region": "italynorth"
     },
     {
+      "address": "9.235.170.208/28",
+      "systemService": "AzureMonitor",
+      "region": "italynorth"
+    },
+    {
+      "address": "9.235.171.24/29",
+      "systemService": "AzureMonitor",
+      "region": "italynorth"
+    },
+    {
+      "address": "9.235.171.32/28",
+      "systemService": "AzureMonitor",
+      "region": "italynorth"
+    },
+    {
       "address": "4.189.204.0/24",
       "systemService": "AzureMonitor",
       "region": "japaneast"
     },
     {
       "address": "4.216.1.176/28",
+      "systemService": "AzureMonitor",
+      "region": "japaneast"
+    },
+    {
+      "address": "4.216.2.16/28",
       "systemService": "AzureMonitor",
       "region": "japaneast"
     },
@@ -183176,6 +184511,11 @@
       "region": "japanwest"
     },
     {
+      "address": "172.192.184.208/28",
+      "systemService": "AzureMonitor",
+      "region": "japanwest"
+    },
+    {
       "address": "4.240.149.32/27",
       "systemService": "AzureMonitor",
       "region": "jioindiacentral"
@@ -183226,6 +184566,11 @@
       "region": "jioindiacentral"
     },
     {
+      "address": "74.225.115.0/28",
+      "systemService": "AzureMonitor",
+      "region": "jioindiacentral"
+    },
+    {
       "address": "20.192.167.160/27",
       "systemService": "AzureMonitor",
       "region": "jioindiawest"
@@ -183267,6 +184612,11 @@
     },
     {
       "address": "20.244.198.224/27",
+      "systemService": "AzureMonitor",
+      "region": "jioindiawest"
+    },
+    {
+      "address": "20.244.209.32/28",
       "systemService": "AzureMonitor",
       "region": "jioindiawest"
     },
@@ -183317,6 +184667,11 @@
     },
     {
       "address": "4.217.214.16/28",
+      "systemService": "AzureMonitor",
+      "region": "koreacentral"
+    },
+    {
+      "address": "4.230.123.96/28",
       "systemService": "AzureMonitor",
       "region": "koreacentral"
     },
@@ -183491,6 +184846,11 @@
       "region": "koreasouth"
     },
     {
+      "address": "4.243.158.192/28",
+      "systemService": "AzureMonitor",
+      "region": "koreasouth"
+    },
+    {
       "address": "20.200.162.168/29",
       "systemService": "AzureMonitor",
       "region": "koreasouth"
@@ -183636,6 +184996,21 @@
       "region": "malaysiawest"
     },
     {
+      "address": "85.211.235.160/27",
+      "systemService": "AzureMonitor",
+      "region": "malaysiawest"
+    },
+    {
+      "address": "85.211.235.208/28",
+      "systemService": "AzureMonitor",
+      "region": "malaysiawest"
+    },
+    {
+      "address": "85.211.235.224/27",
+      "systemService": "AzureMonitor",
+      "region": "malaysiawest"
+    },
+    {
       "address": "158.23.15.64/29",
       "systemService": "AzureMonitor",
       "region": "mexicocentral"
@@ -183711,7 +185086,22 @@
       "region": "mexicocentral"
     },
     {
+      "address": "172.195.54.240/28",
+      "systemService": "AzureMonitor",
+      "region": "mexicocentral"
+    },
+    {
       "address": "172.196.61.176/28",
+      "systemService": "AzureMonitor",
+      "region": "newzealandnorth"
+    },
+    {
+      "address": "172.196.61.192/27",
+      "systemService": "AzureMonitor",
+      "region": "newzealandnorth"
+    },
+    {
+      "address": "172.196.62.0/27",
       "systemService": "AzureMonitor",
       "region": "newzealandnorth"
     },
@@ -183881,6 +185271,11 @@
       "region": "northcentralus"
     },
     {
+      "address": "52.240.193.64/26",
+      "systemService": "AzureMonitor",
+      "region": "northcentralus"
+    },
+    {
       "address": "52.240.244.144/29",
       "systemService": "AzureMonitor",
       "region": "northcentralus"
@@ -183937,6 +185332,11 @@
     },
     {
       "address": "4.209.249.192/26",
+      "systemService": "AzureMonitor",
+      "region": "northeurope"
+    },
+    {
+      "address": "4.231.242.128/26",
       "systemService": "AzureMonitor",
       "region": "northeurope"
     },
@@ -184326,6 +185726,11 @@
       "region": "norwayw"
     },
     {
+      "address": "4.220.240.16/28",
+      "systemService": "AzureMonitor",
+      "region": "norwayw"
+    },
+    {
       "address": "51.13.128.32/27",
       "systemService": "AzureMonitor",
       "region": "norwayw"
@@ -184422,6 +185827,11 @@
     },
     {
       "address": "20.215.120.80/28",
+      "systemService": "AzureMonitor",
+      "region": "polandcentral"
+    },
+    {
+      "address": "20.215.127.16/28",
       "systemService": "AzureMonitor",
       "region": "polandcentral"
     },
@@ -184561,7 +185971,17 @@
       "region": "qatarcentral"
     },
     {
+      "address": "20.173.60.224/28",
+      "systemService": "AzureMonitor",
+      "region": "qatarcentral"
+    },
+    {
       "address": "4.221.45.192/28",
+      "systemService": "AzureMonitor",
+      "region": "southafricanorth"
+    },
+    {
+      "address": "4.221.222.48/28",
       "systemService": "AzureMonitor",
       "region": "southafricanorth"
     },
@@ -184727,6 +186147,11 @@
     },
     {
       "address": "172.209.100.144/28",
+      "systemService": "AzureMonitor",
+      "region": "southafricawest"
+    },
+    {
+      "address": "172.209.113.48/28",
       "systemService": "AzureMonitor",
       "region": "southafricawest"
     },
@@ -185006,6 +186431,11 @@
       "region": "southcentralus"
     },
     {
+      "address": "52.249.21.192/26",
+      "systemService": "AzureMonitor",
+      "region": "southcentralus"
+    },
+    {
       "address": "104.44.140.84/32",
       "systemService": "AzureMonitor",
       "region": "southcentralus"
@@ -185087,6 +186517,16 @@
     },
     {
       "address": "48.216.33.192/26",
+      "systemService": "AzureMonitor",
+      "region": "southcentralus2"
+    },
+    {
+      "address": "48.219.9.32/27",
+      "systemService": "AzureMonitor",
+      "region": "southcentralus2"
+    },
+    {
+      "address": "48.219.9.64/27",
       "systemService": "AzureMonitor",
       "region": "southcentralus2"
     },
@@ -185191,12 +186631,22 @@
       "region": "southindia"
     },
     {
+      "address": "74.225.44.96/28",
+      "systemService": "AzureMonitor",
+      "region": "southindia"
+    },
+    {
       "address": "104.211.216.161/32",
       "systemService": "AzureMonitor",
       "region": "southindia"
     },
     {
       "address": "4.145.8.112/28",
+      "systemService": "AzureMonitor",
+      "region": "southeastasia"
+    },
+    {
+      "address": "4.145.16.160/28",
       "systemService": "AzureMonitor",
       "region": "southeastasia"
     },
@@ -185461,6 +186911,16 @@
       "region": "southeastus"
     },
     {
+      "address": "68.154.151.96/27",
+      "systemService": "AzureMonitor",
+      "region": "southeastus"
+    },
+    {
+      "address": "68.154.151.128/27",
+      "systemService": "AzureMonitor",
+      "region": "southeastus"
+    },
+    {
       "address": "74.7.53.76/30",
       "systemService": "AzureMonitor",
       "region": "southeastus3"
@@ -185482,6 +186942,11 @@
     },
     {
       "address": "74.7.56.128/26",
+      "systemService": "AzureMonitor",
+      "region": "southeastus3"
+    },
+    {
+      "address": "74.7.65.192/26",
       "systemService": "AzureMonitor",
       "region": "southeastus3"
     },
@@ -185569,6 +187034,16 @@
       "address": "158.158.61.224/28",
       "systemService": "AzureMonitor",
       "region": "spaincentral"
+    },
+    {
+      "address": "158.158.131.80/28",
+      "systemService": "AzureMonitor",
+      "region": "spaincentral"
+    },
+    {
+      "address": "4.165.111.96/28",
+      "systemService": "AzureMonitor",
+      "region": "swedencentral"
     },
     {
       "address": "4.223.182.144/28",
@@ -185697,6 +187172,11 @@
     },
     {
       "address": "20.91.44.0/28",
+      "systemService": "AzureMonitor",
+      "region": "swedensouth"
+    },
+    {
+      "address": "20.91.89.192/28",
       "systemService": "AzureMonitor",
       "region": "swedensouth"
     },
@@ -185871,6 +187351,11 @@
       "region": "switzerlandn"
     },
     {
+      "address": "74.161.238.224/28",
+      "systemService": "AzureMonitor",
+      "region": "switzerlandn"
+    },
+    {
       "address": "74.242.188.0/27",
       "systemService": "AzureMonitor",
       "region": "switzerlandn"
@@ -185882,6 +187367,11 @@
     },
     {
       "address": "4.226.250.64/28",
+      "systemService": "AzureMonitor",
+      "region": "switzerlandw"
+    },
+    {
+      "address": "4.226.252.176/28",
       "systemService": "AzureMonitor",
       "region": "switzerlandw"
     },
@@ -186016,6 +187506,11 @@
       "region": "taiwannorth"
     },
     {
+      "address": "70.157.162.144/28",
+      "systemService": "AzureMonitor",
+      "region": "taiwannorth"
+    },
+    {
       "address": "167.105.106.8/29",
       "systemService": "AzureMonitor",
       "region": "taiwannorth"
@@ -186081,6 +187576,16 @@
       "region": "taiwannorthwest"
     },
     {
+      "address": "167.105.250.104/29",
+      "systemService": "AzureMonitor",
+      "region": "taiwannorthwest"
+    },
+    {
+      "address": "167.105.250.112/28",
+      "systemService": "AzureMonitor",
+      "region": "taiwannorthwest"
+    },
+    {
       "address": "20.37.71.0/27",
       "systemService": "AzureMonitor",
       "region": "uaecentral"
@@ -186126,6 +187631,11 @@
       "region": "uaecentral"
     },
     {
+      "address": "20.216.92.48/28",
+      "systemService": "AzureMonitor",
+      "region": "uaecentral"
+    },
+    {
       "address": "40.120.8.192/27",
       "systemService": "AzureMonitor",
       "region": "uaecentral"
@@ -186159,6 +187669,11 @@
       "address": "74.243.172.240/28",
       "systemService": "AzureMonitor",
       "region": "uaecentral"
+    },
+    {
+      "address": "4.161.10.112/28",
+      "systemService": "AzureMonitor",
+      "region": "uaenorth"
     },
     {
       "address": "20.38.143.0/27",
@@ -186451,6 +187966,11 @@
       "region": "uksouth"
     },
     {
+      "address": "172.165.84.176/28",
+      "systemService": "AzureMonitor",
+      "region": "uksouth"
+    },
+    {
       "address": "172.187.86.96/27",
       "systemService": "AzureMonitor",
       "region": "uksouth"
@@ -186467,6 +187987,11 @@
     },
     {
       "address": "20.58.72.16/28",
+      "systemService": "AzureMonitor",
+      "region": "ukwest"
+    },
+    {
+      "address": "20.58.79.176/28",
       "systemService": "AzureMonitor",
       "region": "ukwest"
     },
@@ -186592,6 +188117,11 @@
     },
     {
       "address": "20.51.33.0/24",
+      "systemService": "AzureMonitor",
+      "region": "westcentralus"
+    },
+    {
+      "address": "20.51.41.192/26",
       "systemService": "AzureMonitor",
       "region": "westcentralus"
     },
@@ -186817,6 +188347,11 @@
     },
     {
       "address": "48.199.6.0/26",
+      "systemService": "AzureMonitor",
+      "region": "westeurope"
+    },
+    {
+      "address": "48.199.135.192/26",
       "systemService": "AzureMonitor",
       "region": "westeurope"
     },
@@ -187077,6 +188612,16 @@
     },
     {
       "address": "40.75.147.224/27",
+      "systemService": "AzureMonitor",
+      "region": "westus"
+    },
+    {
+      "address": "40.75.149.224/27",
+      "systemService": "AzureMonitor",
+      "region": "westus"
+    },
+    {
+      "address": "40.75.151.0/26",
       "systemService": "AzureMonitor",
       "region": "westus"
     },
@@ -187361,6 +188906,11 @@
       "region": "westus2"
     },
     {
+      "address": "48.202.71.0/26",
+      "systemService": "AzureMonitor",
+      "region": "westus2"
+    },
+    {
       "address": "51.143.88.183/32",
       "systemService": "AzureMonitor",
       "region": "westus2"
@@ -187542,6 +189092,11 @@
     },
     {
       "address": "20.172.72.80/28",
+      "systemService": "AzureMonitor",
+      "region": "westus3"
+    },
+    {
+      "address": "20.172.117.0/28",
       "systemService": "AzureMonitor",
       "region": "westus3"
     },
@@ -206236,6 +207791,11 @@
       "region": "southeastasia"
     },
     {
+      "address": "135.130.202.0/23",
+      "systemService": "AzureStorage",
+      "region": "southeastasia"
+    },
+    {
       "address": "168.63.160.0/26",
       "systemService": "AzureStorage",
       "region": "southeastasia"
@@ -206462,6 +208022,11 @@
     },
     {
       "address": "135.130.110.0/23",
+      "systemService": "AzureStorage",
+      "region": "swedencentral"
+    },
+    {
+      "address": "145.190.140.0/24",
       "systemService": "AzureStorage",
       "region": "swedencentral"
     },
@@ -218589,6 +220154,11 @@
       "address": "98.67.210.94/32",
       "systemService": "LogicApps",
       "region": "germanywc"
+    },
+    {
+      "address": "48.193.52.192/27",
+      "systemService": "LogicApps",
+      "region": "indonesiacentral"
     },
     {
       "address": "70.153.175.192/26",
@@ -234349,6 +235919,11 @@
       "address": "51.116.250.136/29",
       "systemService": "MicrosoftContainerRegistry",
       "region": "germanywc"
+    },
+    {
+      "address": "48.193.50.40/29",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": "indonesiacentral"
     },
     {
       "address": "70.153.176.0/29",
@@ -250376,6 +251951,11 @@
       "region": "germanywc"
     },
     {
+      "address": "48.193.50.104/29",
+      "systemService": "ServiceFabric",
+      "region": "indonesiacentral"
+    },
+    {
       "address": "70.153.176.12/30",
       "systemService": "ServiceFabric",
       "region": "indonesiacentral"
@@ -251739,6 +253319,16 @@
       "address": "40.64.145.176/28",
       "systemService": "WindowsVirtualDesktop",
       "region": "centralus"
+    },
+    {
+      "address": "57.156.5.248/29",
+      "systemService": "WindowsVirtualDesktop",
+      "region": "chilec"
+    },
+    {
+      "address": "57.156.73.192/28",
+      "systemService": "WindowsVirtualDesktop",
+      "region": "chilec"
     },
     {
       "address": "40.64.145.192/28",
@@ -258091,6 +259681,11 @@
       "region": ""
     },
     {
+      "address": "9.160.70.96/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "9.160.84.32/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -258107,6 +259702,11 @@
     },
     {
       "address": "9.205.48.0/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "9.205.62.0/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -258132,6 +259732,16 @@
     },
     {
       "address": "9.235.23.0/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "9.235.171.24/29",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "9.235.171.32/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -258552,6 +260162,11 @@
     },
     {
       "address": "20.83.195.120/29",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "20.88.80.0/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -259101,6 +260716,11 @@
       "region": ""
     },
     {
+      "address": "48.193.48.96/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "48.194.2.0/24",
       "systemService": "AzureMonitor",
       "region": ""
@@ -259146,7 +260766,17 @@
       "region": ""
     },
     {
+      "address": "48.219.9.32/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "48.219.208.0/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "48.219.221.128/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -259172,6 +260802,11 @@
     },
     {
       "address": "51.4.136.0/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "51.4.154.64/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -259546,7 +261181,22 @@
       "region": ""
     },
     {
+      "address": "57.156.5.128/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "68.154.137.88/29",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "68.154.151.96/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "68.210.59.224/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -259676,12 +261326,22 @@
       "region": ""
     },
     {
+      "address": "74.7.65.192/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "74.7.83.32/29",
       "systemService": "AzureMonitor",
       "region": ""
     },
     {
       "address": "74.7.192.160/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "74.7.201.192/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -259732,6 +261392,11 @@
     },
     {
       "address": "74.243.21.0/29",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "85.211.235.160/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -259846,6 +261511,11 @@
       "region": ""
     },
     {
+      "address": "134.138.94.192/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "134.138.98.136/29",
       "systemService": "AzureMonitor",
       "region": ""
@@ -259931,6 +261601,16 @@
       "region": ""
     },
     {
+      "address": "167.105.250.104/29",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "167.105.250.112/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "168.61.142.0/27",
       "systemService": "AzureMonitor",
       "region": ""
@@ -260007,6 +261687,11 @@
     },
     {
       "address": "172.195.21.32/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.196.61.192/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -266671,17 +268356,12 @@
       "region": "australiaeast"
     },
     {
-      "address": "40.120.178.128/29",
+      "address": "40.120.178.128/28",
       "systemService": "",
       "region": "australiaeast"
     },
     {
-      "address": "40.120.178.136/30",
-      "systemService": "",
-      "region": "australiaeast"
-    },
-    {
-      "address": "40.120.178.140/31",
+      "address": "40.120.178.144/31",
       "systemService": "",
       "region": "australiaeast"
     },
@@ -269526,6 +271206,11 @@
       "region": "canadacentral"
     },
     {
+      "address": "40.120.185.208/29",
+      "systemService": "",
+      "region": "canadacentral"
+    },
+    {
       "address": "40.126.11.0/25",
       "systemService": "",
       "region": "canadacentral"
@@ -270236,7 +271921,12 @@
       "region": "centralindia"
     },
     {
-      "address": "20.20.85.40/31",
+      "address": "20.20.85.40/30",
+      "systemService": "",
+      "region": "centralindia"
+    },
+    {
+      "address": "20.20.85.44/31",
       "systemService": "",
       "region": "centralindia"
     },
@@ -278116,6 +279806,11 @@
       "region": "eastus2"
     },
     {
+      "address": "20.201.230.0/24",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
       "address": "20.202.21.0/24",
       "systemService": "",
       "region": "eastus2"
@@ -281111,7 +282806,22 @@
       "region": "eastus2"
     },
     {
-      "address": "57.157.48.212/31",
+      "address": "57.157.48.212/30",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "57.157.48.216/29",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "57.157.48.224/30",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "57.157.48.228/31",
       "systemService": "",
       "region": "eastus2"
     },
@@ -284066,7 +285776,12 @@
       "region": "eastus"
     },
     {
-      "address": "57.157.33.0/30",
+      "address": "57.157.33.0/26",
+      "systemService": "",
+      "region": "eastus"
+    },
+    {
+      "address": "57.157.33.64/29",
       "systemService": "",
       "region": "eastus"
     },
@@ -286276,6 +287991,11 @@
       "region": "germanywc"
     },
     {
+      "address": "48.203.0.0/17",
+      "systemService": "",
+      "region": "germanywc"
+    },
+    {
       "address": "48.208.31.0/24",
       "systemService": "",
       "region": "germanywc"
@@ -286402,6 +288122,16 @@
     },
     {
       "address": "57.157.60.0/25",
+      "systemService": "",
+      "region": "germanywc"
+    },
+    {
+      "address": "57.157.60.128/28",
+      "systemService": "",
+      "region": "germanywc"
+    },
+    {
+      "address": "57.157.60.144/30",
       "systemService": "",
       "region": "germanywc"
     },
@@ -287381,12 +289111,17 @@
       "region": "italynorth"
     },
     {
-      "address": "40.120.134.0/27",
+      "address": "40.120.134.0/26",
       "systemService": "",
       "region": "italynorth"
     },
     {
-      "address": "40.120.134.32/29",
+      "address": "40.120.134.64/28",
+      "systemService": "",
+      "region": "italynorth"
+    },
+    {
+      "address": "40.120.134.80/30",
       "systemService": "",
       "region": "italynorth"
     },
@@ -288061,12 +289796,22 @@
       "region": "japaneast"
     },
     {
-      "address": "40.120.182.128/27",
+      "address": "40.120.182.128/26",
       "systemService": "",
       "region": "japaneast"
     },
     {
-      "address": "40.120.182.160/28",
+      "address": "40.120.182.192/28",
+      "systemService": "",
+      "region": "japaneast"
+    },
+    {
+      "address": "40.120.182.208/30",
+      "systemService": "",
+      "region": "japaneast"
+    },
+    {
+      "address": "40.120.182.212/31",
       "systemService": "",
       "region": "japaneast"
     },
@@ -292276,17 +294021,12 @@
       "region": "northcentralus"
     },
     {
-      "address": "40.120.191.32/29",
+      "address": "40.120.191.32/28",
       "systemService": "",
       "region": "northcentralus"
     },
     {
-      "address": "40.120.191.40/30",
-      "systemService": "",
-      "region": "northcentralus"
-    },
-    {
-      "address": "40.120.191.44/31",
+      "address": "40.120.191.48/31",
       "systemService": "",
       "region": "northcentralus"
     },
@@ -294431,17 +296171,17 @@
       "region": "northeurope"
     },
     {
-      "address": "57.157.29.160/29",
+      "address": "57.157.29.160/28",
       "systemService": "",
       "region": "northeurope"
     },
     {
-      "address": "57.157.29.168/30",
+      "address": "57.157.29.176/29",
       "systemService": "",
       "region": "northeurope"
     },
     {
-      "address": "57.157.29.172/31",
+      "address": "57.157.29.184/30",
       "systemService": "",
       "region": "northeurope"
     },
@@ -295921,6 +297661,11 @@
       "region": "qatarcentral"
     },
     {
+      "address": "40.123.149.160/30",
+      "systemService": "",
+      "region": "qatarcentral"
+    },
+    {
       "address": "40.126.63.192/26",
       "systemService": "",
       "region": "qatarcentral"
@@ -296861,17 +298606,7 @@
       "region": "southcentralus2"
     },
     {
-      "address": "20.20.72.128/29",
-      "systemService": "",
-      "region": "southcentralus2"
-    },
-    {
-      "address": "20.20.72.136/30",
-      "systemService": "",
-      "region": "southcentralus2"
-    },
-    {
-      "address": "20.20.72.140/31",
+      "address": "20.20.72.128/28",
       "systemService": "",
       "region": "southcentralus2"
     },
@@ -297377,6 +299112,21 @@
     },
     {
       "address": "20.20.102.128/25",
+      "systemService": "",
+      "region": "southcentralus"
+    },
+    {
+      "address": "20.20.103.0/28",
+      "systemService": "",
+      "region": "southcentralus"
+    },
+    {
+      "address": "20.20.103.16/29",
+      "systemService": "",
+      "region": "southcentralus"
+    },
+    {
+      "address": "20.20.103.24/30",
       "systemService": "",
       "region": "southcentralus"
     },
@@ -300646,6 +302396,11 @@
       "region": "southeastasia"
     },
     {
+      "address": "135.130.202.0/23",
+      "systemService": "",
+      "region": "southeastasia"
+    },
+    {
       "address": "135.171.0.0/16",
       "systemService": "",
       "region": "southeastasia"
@@ -301101,17 +302856,12 @@
       "region": "spaincentral"
     },
     {
-      "address": "40.120.145.160/29",
+      "address": "40.120.145.160/28",
       "systemService": "",
       "region": "spaincentral"
     },
     {
-      "address": "40.120.145.168/30",
-      "systemService": "",
-      "region": "spaincentral"
-    },
-    {
-      "address": "40.120.145.172/31",
+      "address": "40.120.145.176/31",
       "systemService": "",
       "region": "spaincentral"
     },
@@ -301846,12 +303596,17 @@
       "region": "swedencentral"
     },
     {
-      "address": "57.157.68.128/28",
+      "address": "57.157.68.128/27",
       "systemService": "",
       "region": "swedencentral"
     },
     {
-      "address": "57.157.68.144/31",
+      "address": "57.157.68.160/28",
+      "systemService": "",
+      "region": "swedencentral"
+    },
+    {
+      "address": "57.157.68.176/30",
       "systemService": "",
       "region": "swedencentral"
     },
@@ -301902,6 +303657,11 @@
     },
     {
       "address": "135.225.0.0/16",
+      "systemService": "",
+      "region": "swedencentral"
+    },
+    {
+      "address": "145.190.140.0/24",
       "systemService": "",
       "region": "swedencentral"
     },
@@ -308216,27 +309976,17 @@
       "region": "westeurope"
     },
     {
-      "address": "57.157.15.0/26",
+      "address": "57.157.15.0/25",
       "systemService": "",
       "region": "westeurope"
     },
     {
-      "address": "57.157.15.64/27",
+      "address": "57.157.15.128/27",
       "systemService": "",
       "region": "westeurope"
     },
     {
-      "address": "57.157.15.96/28",
-      "systemService": "",
-      "region": "westeurope"
-    },
-    {
-      "address": "57.157.15.112/29",
-      "systemService": "",
-      "region": "westeurope"
-    },
-    {
-      "address": "57.157.15.120/30",
+      "address": "57.157.15.160/29",
       "systemService": "",
       "region": "westeurope"
     },
@@ -310311,7 +312061,22 @@
       "region": "westus2"
     },
     {
-      "address": "57.157.72.0/29",
+      "address": "57.157.72.0/28",
+      "systemService": "",
+      "region": "westus2"
+    },
+    {
+      "address": "57.157.72.16/29",
+      "systemService": "",
+      "region": "westus2"
+    },
+    {
+      "address": "57.157.72.24/30",
+      "systemService": "",
+      "region": "westus2"
+    },
+    {
+      "address": "57.157.72.28/31",
       "systemService": "",
       "region": "westus2"
     },
@@ -311651,12 +313416,12 @@
       "region": "westus"
     },
     {
-      "address": "20.20.94.192/30",
+      "address": "20.20.94.192/28",
       "systemService": "",
       "region": "westus"
     },
     {
-      "address": "20.20.94.196/31",
+      "address": "20.20.94.208/30",
       "systemService": "",
       "region": "westus"
     },
@@ -316476,17 +318241,7 @@
       "region": ""
     },
     {
-      "address": "20.20.72.128/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "20.20.72.136/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "20.20.72.140/31",
+      "address": "20.20.72.128/28",
       "systemService": "",
       "region": ""
     },
@@ -316526,7 +318281,12 @@
       "region": ""
     },
     {
-      "address": "20.20.85.40/31",
+      "address": "20.20.85.40/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.85.44/31",
       "systemService": "",
       "region": ""
     },
@@ -316561,12 +318321,12 @@
       "region": ""
     },
     {
-      "address": "20.20.94.192/30",
+      "address": "20.20.94.192/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "20.20.94.196/31",
+      "address": "20.20.94.208/30",
       "systemService": "",
       "region": ""
     },
@@ -316672,6 +318432,21 @@
     },
     {
       "address": "20.20.102.128/25",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.103.0/28",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.103.16/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.103.24/30",
       "systemService": "",
       "region": ""
     },
@@ -327247,6 +329022,11 @@
     },
     {
       "address": "20.201.228.0/23",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.201.230.0/24",
       "systemService": "",
       "region": ""
     },
@@ -337946,12 +339726,17 @@
       "region": ""
     },
     {
-      "address": "40.120.134.0/27",
+      "address": "40.120.134.0/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.134.32/29",
+      "address": "40.120.134.64/28",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "40.120.134.80/30",
       "systemService": "",
       "region": ""
     },
@@ -337996,17 +339781,12 @@
       "region": ""
     },
     {
-      "address": "40.120.145.160/29",
+      "address": "40.120.145.160/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.145.168/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.145.172/31",
+      "address": "40.120.145.176/31",
       "systemService": "",
       "region": ""
     },
@@ -338946,17 +340726,12 @@
       "region": ""
     },
     {
-      "address": "40.120.178.128/29",
+      "address": "40.120.178.128/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.178.136/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.178.140/31",
+      "address": "40.120.178.144/31",
       "systemService": "",
       "region": ""
     },
@@ -338971,12 +340746,22 @@
       "region": ""
     },
     {
-      "address": "40.120.182.128/27",
+      "address": "40.120.182.128/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.182.160/28",
+      "address": "40.120.182.192/28",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "40.120.182.208/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "40.120.182.212/31",
       "systemService": "",
       "region": ""
     },
@@ -339001,6 +340786,11 @@
       "region": ""
     },
     {
+      "address": "40.120.185.208/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "40.120.188.0/23",
       "systemService": "",
       "region": ""
@@ -339016,17 +340806,12 @@
       "region": ""
     },
     {
-      "address": "40.120.191.32/29",
+      "address": "40.120.191.32/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.191.40/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.191.44/31",
+      "address": "40.120.191.48/31",
       "systemService": "",
       "region": ""
     },
@@ -339702,6 +341487,11 @@
     },
     {
       "address": "40.123.149.128/27",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "40.123.149.160/30",
       "systemService": "",
       "region": ""
     },
@@ -341477,6 +343267,11 @@
     },
     {
       "address": "48.202.128.0/17",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "48.203.0.0/17",
       "systemService": "",
       "region": ""
     },
@@ -354701,27 +356496,17 @@
       "region": ""
     },
     {
-      "address": "57.157.15.0/26",
+      "address": "57.157.15.0/25",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.15.64/27",
+      "address": "57.157.15.128/27",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.15.96/28",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.15.112/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.15.120/30",
+      "address": "57.157.15.160/29",
       "systemService": "",
       "region": ""
     },
@@ -354801,17 +356586,17 @@
       "region": ""
     },
     {
-      "address": "57.157.29.160/29",
+      "address": "57.157.29.160/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.29.168/30",
+      "address": "57.157.29.176/29",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.29.172/31",
+      "address": "57.157.29.184/30",
       "systemService": "",
       "region": ""
     },
@@ -354821,7 +356606,12 @@
       "region": ""
     },
     {
-      "address": "57.157.33.0/30",
+      "address": "57.157.33.0/26",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.33.64/29",
       "systemService": "",
       "region": ""
     },
@@ -354986,7 +356776,22 @@
       "region": ""
     },
     {
-      "address": "57.157.48.212/31",
+      "address": "57.157.48.212/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.48.216/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.48.224/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.48.228/31",
       "systemService": "",
       "region": ""
     },
@@ -354996,27 +356801,67 @@
       "region": ""
     },
     {
+      "address": "57.157.60.128/28",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.60.144/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "57.157.68.0/25",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.68.128/28",
+      "address": "57.157.68.128/27",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.68.144/31",
+      "address": "57.157.68.160/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.72.0/29",
+      "address": "57.157.68.176/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.72.0/28",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.72.16/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.72.24/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.72.28/31",
       "systemService": "",
       "region": ""
     },
     {
       "address": "57.157.92.0/25",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.92.128/28",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.92.144/31",
       "systemService": "",
       "region": ""
     },
@@ -358736,6 +360581,11 @@
       "region": ""
     },
     {
+      "address": "135.130.202.0/23",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "135.149.0.0/17",
       "systemService": "",
       "region": ""
@@ -359187,6 +361037,11 @@
     },
     {
       "address": "145.190.138.0/23",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "145.190.140.0/24",
       "systemService": "",
       "region": ""
     },
@@ -364576,12 +366431,27 @@
       "region": ""
     },
     {
+      "address": "40.162.60.224/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "40.162.75.160/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
     {
+      "address": "40.162.75.224/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "40.162.171.80/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "40.162.171.144/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -364807,6 +366677,11 @@
     },
     {
       "address": "139.217.98.112/32",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "139.217.122.16/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -370831,6 +372706,11 @@
       "region": "chinaeast2"
     },
     {
+      "address": "40.162.171.144/28",
+      "systemService": "AzureMonitor",
+      "region": "chinaeast2"
+    },
+    {
       "address": "52.130.0.68/31",
       "systemService": "AzureMonitor",
       "region": "chinaeast2"
@@ -370912,6 +372792,11 @@
     },
     {
       "address": "40.162.60.176/28",
+      "systemService": "AzureMonitor",
+      "region": "chinaeast3"
+    },
+    {
+      "address": "40.162.60.224/28",
       "systemService": "AzureMonitor",
       "region": "chinaeast3"
     },
@@ -371081,6 +372966,11 @@
       "region": "chinanorth2"
     },
     {
+      "address": "139.217.122.16/28",
+      "systemService": "AzureMonitor",
+      "region": "chinanorth2"
+    },
+    {
       "address": "143.64.193.64/27",
       "systemService": "AzureMonitor",
       "region": "chinanorth2"
@@ -371097,6 +372987,11 @@
     },
     {
       "address": "40.162.75.160/28",
+      "systemService": "AzureMonitor",
+      "region": "chinanorth3"
+    },
+    {
+      "address": "40.162.75.224/28",
       "systemService": "AzureMonitor",
       "region": "chinanorth3"
     },
@@ -374616,32 +376511,12 @@
       "region": "chinaeast3"
     },
     {
-      "address": "159.27.128.0/26",
+      "address": "159.27.128.0/25",
       "systemService": "",
       "region": "chinaeast3"
     },
     {
-      "address": "159.27.128.64/27",
-      "systemService": "",
-      "region": "chinaeast3"
-    },
-    {
-      "address": "159.27.128.96/28",
-      "systemService": "",
-      "region": "chinaeast3"
-    },
-    {
-      "address": "159.27.128.112/29",
-      "systemService": "",
-      "region": "chinaeast3"
-    },
-    {
-      "address": "159.27.128.120/30",
-      "systemService": "",
-      "region": "chinaeast3"
-    },
-    {
-      "address": "159.27.128.124/31",
+      "address": "159.27.128.128/31",
       "systemService": "",
       "region": "chinaeast3"
     },
@@ -376666,32 +378541,12 @@
       "region": ""
     },
     {
-      "address": "159.27.128.0/26",
+      "address": "159.27.128.0/25",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "159.27.128.64/27",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "159.27.128.96/28",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "159.27.128.112/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "159.27.128.120/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "159.27.128.124/31",
+      "address": "159.27.128.128/31",
       "systemService": "",
       "region": ""
     },
@@ -380336,7 +382191,22 @@
       "region": ""
     },
     {
+      "address": "51.54.211.208/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "51.54.231.16/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "51.54.234.112/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "51.55.16.192/28",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -380712,6 +382582,11 @@
     },
     {
       "address": "52.244.239.32/27",
+      "systemService": "AzurePortal",
+      "region": ""
+    },
+    {
+      "address": "52.245.146.0/32",
       "systemService": "AzurePortal",
       "region": ""
     },
@@ -381367,6 +383242,16 @@
     },
     {
       "address": "20.159.108.16/31",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "51.54.211.176/28",
+      "systemService": "AzureSentinel",
+      "region": ""
+    },
+    {
+      "address": "51.55.16.144/28",
       "systemService": "AzureSentinel",
       "region": ""
     },
@@ -389891,6 +391776,11 @@
       "region": "usgovarizona"
     },
     {
+      "address": "51.54.234.112/28",
+      "systemService": "AzureMonitor",
+      "region": "usgovarizona"
+    },
+    {
       "address": "52.127.2.232/29",
       "systemService": "AzureMonitor",
       "region": "usgovarizona"
@@ -390006,6 +391896,11 @@
       "region": "usgovtexas"
     },
     {
+      "address": "51.54.211.208/28",
+      "systemService": "AzureMonitor",
+      "region": "usgovtexas"
+    },
+    {
       "address": "52.127.34.208/28",
       "systemService": "AzureMonitor",
       "region": "usgovtexas"
@@ -390102,6 +391997,11 @@
     },
     {
       "address": "51.54.170.192/28",
+      "systemService": "AzureMonitor",
+      "region": "usgovvirginia"
+    },
+    {
+      "address": "51.55.16.192/28",
       "systemService": "AzureMonitor",
       "region": "usgovvirginia"
     },
@@ -390292,6 +392192,11 @@
     },
     {
       "address": "20.159.108.64/28",
+      "systemService": "AzurePortal",
+      "region": "usgovtexas"
+    },
+    {
+      "address": "52.245.146.0/32",
       "systemService": "AzurePortal",
       "region": "usgovtexas"
     },
@@ -395611,6 +397516,11 @@
       "region": ""
     },
     {
+      "address": "52.245.146.0/32",
+      "systemService": "AzurePortal",
+      "region": "usgovtexas"
+    },
+    {
       "address": "20.140.51.96/29",
       "systemService": "DataFactory",
       "region": ""
@@ -397371,6 +399281,16 @@
       "region": "usgovarizona"
     },
     {
+      "address": "104.212.33.0/24",
+      "systemService": "",
+      "region": "usgovarizona"
+    },
+    {
+      "address": "104.212.44.0/23",
+      "systemService": "",
+      "region": "usgovarizona"
+    },
+    {
       "address": "104.212.60.0/24",
       "systemService": "",
       "region": "usgovarizona"
@@ -397996,6 +399916,11 @@
       "region": "usgovtexas"
     },
     {
+      "address": "52.245.146.0/24",
+      "systemService": "",
+      "region": "usgovtexas"
+    },
+    {
       "address": "52.245.160.0/19",
       "systemService": "",
       "region": "usgovtexas"
@@ -398027,6 +399952,26 @@
     },
     {
       "address": "104.210.30.0/24",
+      "systemService": "",
+      "region": "usgovtexas"
+    },
+    {
+      "address": "104.212.32.0/24",
+      "systemService": "",
+      "region": "usgovtexas"
+    },
+    {
+      "address": "104.212.34.0/24",
+      "systemService": "",
+      "region": "usgovtexas"
+    },
+    {
+      "address": "104.212.43.0/24",
+      "systemService": "",
+      "region": "usgovtexas"
+    },
+    {
+      "address": "104.212.47.0/24",
       "systemService": "",
       "region": "usgovtexas"
     },
@@ -398327,6 +400272,11 @@
     },
     {
       "address": "51.55.0.0/18",
+      "systemService": "",
+      "region": "usgovvirginia"
+    },
+    {
+      "address": "51.55.64.0/19",
       "systemService": "",
       "region": "usgovvirginia"
     },
@@ -399666,6 +401616,11 @@
       "region": ""
     },
     {
+      "address": "51.55.64.0/19",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "52.108.64.0/23",
       "systemService": "",
       "region": ""
@@ -400266,6 +402221,11 @@
       "region": ""
     },
     {
+      "address": "52.245.146.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "52.245.148.0/23",
       "systemService": "",
       "region": ""
@@ -400402,6 +402362,36 @@
     },
     {
       "address": "104.210.31.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "104.212.32.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "104.212.33.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "104.212.34.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "104.212.43.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "104.212.44.0/23",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "104.212.47.0/24",
       "systemService": "",
       "region": ""
     },
@@ -402713,6 +404703,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1602:3::610/125",
+      "systemService": "ActionGroup",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1602:400::210/125",
       "systemService": "ActionGroup",
       "region": ""
@@ -402914,6 +404909,11 @@
     },
     {
       "address": "2603:1040:1702:400::40/125",
+      "systemService": "ActionGroup",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1802:5::5a0/125",
       "systemService": "ActionGroup",
       "region": ""
     },
@@ -415148,6 +417148,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1802:5::480/121",
+      "systemService": "AzureContainerRegistry",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1802:400::8/125",
       "systemService": "AzureContainerRegistry",
       "region": ""
@@ -417369,6 +419374,11 @@
     },
     {
       "address": "2603:1040:1802:3::80/123",
+      "systemService": "AzureDatabricks",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1802:5::40/122",
       "systemService": "AzureDatabricks",
       "region": ""
     },
@@ -424418,6 +426428,16 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1602:4::400/123",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:1702:4::460/123",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
       "address": "2603:1040:5:3::5b2/127",
       "systemService": "AzureManagedGrafana",
       "region": ""
@@ -424678,6 +426698,21 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1802:5::680/123",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1a02:4::460/123",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1b02:4::4a0/123",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
       "address": "2603:1050:6:3::480/127",
       "systemService": "AzureManagedGrafana",
       "region": ""
@@ -424758,6 +426793,11 @@
       "region": ""
     },
     {
+      "address": "2603:1000:4:7::3c0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1000:4:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -424804,6 +426844,11 @@
     },
     {
       "address": "2603:1000:104:a::600/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1000:104:a::7a0/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -424869,6 +426914,11 @@
     },
     {
       "address": "2603:1010:6:e::100/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1010:6:e::480/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -424943,6 +426993,11 @@
       "region": ""
     },
     {
+      "address": "2603:1010:207:4::340/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1010:300::35/128",
       "systemService": "AzureMonitor",
       "region": ""
@@ -424993,6 +427048,16 @@
       "region": ""
     },
     {
+      "address": "2603:1010:304:a::520/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1010:304:a::540/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1010:304:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425038,6 +427103,11 @@
       "region": ""
     },
     {
+      "address": "2603:1010:404:8::e0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1010:404:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425074,6 +427144,11 @@
     },
     {
       "address": "2603:1010:502:5::310/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1010:502:5::5a0/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -425133,6 +427208,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:5:1b::300/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:5:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425179,6 +427259,11 @@
     },
     {
       "address": "2603:1020:104:6::4e0/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1020:104:7::3c0/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -425249,6 +427334,11 @@
     },
     {
       "address": "2603:1020:206:22::/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1020:206:22::3c0/122",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -425338,6 +427428,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:605:b::700/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:605:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425408,6 +427503,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:705:15::420/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:705:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425473,6 +427573,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:805:d::7a0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:805:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425519,6 +427624,11 @@
     },
     {
       "address": "2603:1020:905:9::1f0/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1020:905:9::700/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -425578,6 +427688,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:a04:9::5c0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:a04:9::600/120",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425629,6 +427744,11 @@
     },
     {
       "address": "2603:1020:b04:7::360/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1020:b04:9::80/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -425698,6 +427818,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:c04:b::20/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:c04:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425758,6 +427883,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:d04:9::740/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:d04:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425813,6 +427943,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:e04:c::180/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:e04:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -425859,6 +427994,11 @@
     },
     {
       "address": "2603:1020:f04:9::220/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1020:f04:9::580/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -425914,6 +428054,11 @@
     },
     {
       "address": "2603:1020:1004:c::700/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1020:1004:d::80/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -425998,6 +428143,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:1104:7::7a0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:1104:400::440/123",
       "systemService": "AzureMonitor",
       "region": ""
@@ -426058,6 +428208,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:1204:7::620/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:1300:4::a/127",
       "systemService": "AzureMonitor",
       "region": ""
@@ -426108,6 +428263,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:1302:5::7e0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:1402:7::13/128",
       "systemService": "AzureMonitor",
       "region": ""
@@ -426148,6 +428308,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:1403:7::440/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1020:1501:f::10/127",
       "systemService": "AzureMonitor",
       "region": ""
@@ -426164,6 +428329,11 @@
     },
     {
       "address": "2603:1020:1502:3::670/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1020:1502:5::260/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -426189,6 +428359,11 @@
     },
     {
       "address": "2603:1020:1602:4::3d0/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1020:1602:4::580/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -426403,6 +428578,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:10:1f::440/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1030:10:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -426549,6 +428729,11 @@
     },
     {
       "address": "2603:1030:210:2d::400/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:210:2e::80/122",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -426778,6 +428963,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:40b:10::780/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1030:40b:400::d00/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -426849,6 +429039,16 @@
     },
     {
       "address": "2603:1030:40c:24::200/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:40c:24::3f0/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:40c:24::440/122",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -426963,6 +429163,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:504:15::1c0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1030:504:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -427028,6 +429233,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:608:14::480/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1030:608:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -427074,6 +429284,11 @@
     },
     {
       "address": "2603:1030:702:7::100/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:702:7::220/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -427188,6 +429403,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:807:16::200/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1030:807:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -427274,6 +429494,16 @@
     },
     {
       "address": "2603:1030:a07:21::300/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:a07:22::220/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:a07:22::240/122",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -427398,6 +429628,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:b04:f::2c0/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1030:b04:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -427489,6 +429724,11 @@
     },
     {
       "address": "2603:1030:c06:21::/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:c06:21::300/122",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -427588,6 +429828,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:f05:d::3e0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1030:f05:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -427644,6 +429889,11 @@
     },
     {
       "address": "2603:1030:1005:b::700/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:1005:c::180/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -427838,6 +430088,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:5:16::2e0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:5:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -427884,6 +430139,11 @@
     },
     {
       "address": "2603:1040:207:11::/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:207:11::300/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -427953,6 +430213,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:407:e::4e0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:407:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -428009,6 +430274,11 @@
     },
     {
       "address": "2603:1040:606:b::400/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:606:b::5e0/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -428118,6 +430388,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:904:8::660/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:904:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -428183,6 +430458,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:a06:d::20/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:a06:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -428238,6 +430518,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:b04:8::4a0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:b04:402::500/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -428279,6 +430564,11 @@
     },
     {
       "address": "2603:1040:c06:b::100/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:c06:b::2a0/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -428329,6 +430619,11 @@
     },
     {
       "address": "2603:1040:d04:7::150/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:d04:7::2e0/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -428413,6 +430708,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:e05:9::6e0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:e05:402::80/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -428464,6 +430764,11 @@
     },
     {
       "address": "2603:1040:f05:c::100/120",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:f05:c::280/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -428538,6 +430843,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1002:8::460/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1101:2::3/128",
       "systemService": "AzureMonitor",
       "region": ""
@@ -428574,6 +430884,11 @@
     },
     {
       "address": "2603:1040:1104:6::4b0/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1104:6::640/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -428659,6 +430974,11 @@
     },
     {
       "address": "2603:1040:1302:6::2e0/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1302:7::20/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -428788,6 +431108,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1602:4::780/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1701:d::d/128",
       "systemService": "AzureMonitor",
       "region": ""
@@ -428804,6 +431129,11 @@
     },
     {
       "address": "2603:1040:1702:4::530/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1702:4::6e0/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -428839,6 +431169,11 @@
     },
     {
       "address": "2603:1040:1802:4::590/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1802:5::/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -428958,6 +431293,11 @@
       "region": ""
     },
     {
+      "address": "2603:1050:6:b::720/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1050:6:402::580/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -429018,6 +431358,11 @@
       "region": ""
     },
     {
+      "address": "2603:1050:301:4::5e0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1050:400:2::1a/128",
       "systemService": "AzureMonitor",
       "region": ""
@@ -429054,6 +431399,11 @@
     },
     {
       "address": "2603:1050:403:7::2e0/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1050:403:7::660/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -442013,6 +444363,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1802:5::700/121",
+      "systemService": "DataFactory",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1802:400::f0/124",
       "systemService": "DataFactory",
       "region": ""
@@ -444093,6 +446448,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1802:5::7c0/123",
+      "systemService": "LogicApps",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1802:400::360/123",
       "systemService": "LogicApps",
       "region": ""
@@ -445488,6 +447848,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1602:3::3b8/125",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1602:400::10/125",
       "systemService": "MicrosoftContainerRegistry",
       "region": ""
@@ -445719,6 +448084,11 @@
     },
     {
       "address": "2603:1040:1702:400::/125",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1802:5::1b8/125",
       "systemService": "MicrosoftContainerRegistry",
       "region": ""
     },
@@ -447898,12 +450268,22 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1602:3::6c0/122",
+      "systemService": "PowerQueryOnline",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1702::1a0/123",
       "systemService": "PowerQueryOnline",
       "region": ""
     },
     {
       "address": "2603:1030:1702:3::740/123",
+      "systemService": "PowerQueryOnline",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:1702:4::400/122",
       "systemService": "PowerQueryOnline",
       "region": ""
     },
@@ -448243,6 +450623,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1802:5::80/122",
+      "systemService": "PowerQueryOnline",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1904::1a0/123",
       "systemService": "PowerQueryOnline",
       "region": ""
@@ -448258,12 +450643,22 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1a02:4::400/122",
+      "systemService": "PowerQueryOnline",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1b02::1a0/123",
       "systemService": "PowerQueryOnline",
       "region": ""
     },
     {
       "address": "2603:1040:1b02:4::400/123",
+      "systemService": "PowerQueryOnline",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1b02:4::440/122",
       "systemService": "PowerQueryOnline",
       "region": ""
     },
@@ -448614,6 +451009,11 @@
     },
     {
       "address": "2603:1040:1702:3::590/124",
+      "systemService": "SerialConsole",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1802:5::1a0/124",
       "systemService": "SerialConsole",
       "region": ""
     },
@@ -449238,6 +451638,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1602:3::618/125",
+      "systemService": "ServiceFabric",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1602:400::18/125",
       "systemService": "ServiceFabric",
       "region": ""
@@ -449469,6 +451874,11 @@
     },
     {
       "address": "2603:1040:1702:400::18/125",
+      "systemService": "ServiceFabric",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1802:5::5a8/125",
       "systemService": "ServiceFabric",
       "region": ""
     },
@@ -450503,6 +452913,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1602:4::420/123",
+      "systemService": "SqlManagement",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1602:400::40/122",
       "systemService": "SqlManagement",
       "region": ""
@@ -450914,6 +453329,11 @@
     },
     {
       "address": "2603:1040:1802:2::360/123",
+      "systemService": "SqlManagement",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1802:5::7e0/123",
       "systemService": "SqlManagement",
       "region": ""
     },
@@ -451584,6 +454004,11 @@
     },
     {
       "address": "2603:1040:1702:400::120/123",
+      "systemService": "StorageSyncService",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1802:5::160/123",
       "systemService": "StorageSyncService",
       "region": ""
     },
@@ -452561,6 +454986,11 @@
       "address": "2603:1020:c04:402::178/125",
       "systemService": "ActionGroup",
       "region": "germanywc"
+    },
+    {
+      "address": "2603:1040:1802:5::5a0/125",
+      "systemService": "ActionGroup",
+      "region": "indonesiacentral"
     },
     {
       "address": "2603:1040:1802:400::40/125",
@@ -458939,6 +461369,11 @@
     },
     {
       "address": "2603:1040:1802:4::6c0/123",
+      "systemService": "AzureContainerRegistry",
+      "region": "indonesiacentral"
+    },
+    {
+      "address": "2603:1040:1802:5::480/121",
       "systemService": "AzureContainerRegistry",
       "region": "indonesiacentral"
     },
@@ -467353,6 +469788,16 @@
       "region": "australiacentral"
     },
     {
+      "address": "2603:1010:304:a::520/124",
+      "systemService": "AzureMonitor",
+      "region": "australiacentral"
+    },
+    {
+      "address": "2603:1010:304:a::540/123",
+      "systemService": "AzureMonitor",
+      "region": "australiacentral"
+    },
+    {
       "address": "2603:1010:304:402::500/121",
       "systemService": "AzureMonitor",
       "region": "australiacentral"
@@ -467394,6 +469839,11 @@
     },
     {
       "address": "2603:1010:404:7::450/124",
+      "systemService": "AzureMonitor",
+      "region": "australiacentral2"
+    },
+    {
+      "address": "2603:1010:404:8::e0/123",
       "systemService": "AzureMonitor",
       "region": "australiacentral2"
     },
@@ -467449,6 +469899,11 @@
     },
     {
       "address": "2603:1010:6:e::100/120",
+      "systemService": "AzureMonitor",
+      "region": "australiaeast"
+    },
+    {
+      "address": "2603:1010:6:e::480/123",
       "systemService": "AzureMonitor",
       "region": "australiaeast"
     },
@@ -467523,6 +469978,11 @@
       "region": "australiasoutheast"
     },
     {
+      "address": "2603:1010:207:4::340/123",
+      "systemService": "AzureMonitor",
+      "region": "australiasoutheast"
+    },
+    {
       "address": "2603:1020:100:11::e/127",
       "systemService": "AzureMonitor",
       "region": "austriaeast"
@@ -467558,6 +470018,11 @@
       "region": "austriaeast"
     },
     {
+      "address": "2603:1020:104:7::3c0/123",
+      "systemService": "AzureMonitor",
+      "region": "austriaeast"
+    },
+    {
       "address": "2603:1020:1501:f::10/127",
       "systemService": "AzureMonitor",
       "region": "belgiumcentral"
@@ -467574,6 +470039,11 @@
     },
     {
       "address": "2603:1020:1502:3::670/124",
+      "systemService": "AzureMonitor",
+      "region": "belgiumcentral"
+    },
+    {
+      "address": "2603:1020:1502:5::260/123",
       "systemService": "AzureMonitor",
       "region": "belgiumcentral"
     },
@@ -467629,6 +470099,11 @@
     },
     {
       "address": "2603:1050:6:b::400/120",
+      "systemService": "AzureMonitor",
+      "region": "brazilsouth"
+    },
+    {
+      "address": "2603:1050:6:b::720/123",
       "systemService": "AzureMonitor",
       "region": "brazilsouth"
     },
@@ -467698,6 +470173,11 @@
       "region": "brazilse"
     },
     {
+      "address": "2603:1050:403:7::660/123",
+      "systemService": "AzureMonitor",
+      "region": "brazilse"
+    },
+    {
       "address": "2603:1050:403:400::580/121",
       "systemService": "AzureMonitor",
       "region": "brazilse"
@@ -467749,6 +470229,11 @@
     },
     {
       "address": "2603:1030:f05:d::100/120",
+      "systemService": "AzureMonitor",
+      "region": "canadacentral"
+    },
+    {
+      "address": "2603:1030:f05:d::3e0/123",
       "systemService": "AzureMonitor",
       "region": "canadacentral"
     },
@@ -467813,6 +470298,11 @@
       "region": "canadaeast"
     },
     {
+      "address": "2603:1030:1005:c::180/123",
+      "systemService": "AzureMonitor",
+      "region": "canadaeast"
+    },
+    {
       "address": "2603:1030:1005:402::500/121",
       "systemService": "AzureMonitor",
       "region": "canadaeast"
@@ -467864,6 +470354,11 @@
     },
     {
       "address": "2603:1040:a06:c::500/120",
+      "systemService": "AzureMonitor",
+      "region": "centralindia"
+    },
+    {
+      "address": "2603:1040:a06:d::20/123",
       "systemService": "AzureMonitor",
       "region": "centralindia"
     },
@@ -468048,6 +470543,11 @@
       "region": "centralus"
     },
     {
+      "address": "2603:1030:10:1f::440/122",
+      "systemService": "AzureMonitor",
+      "region": "centralus"
+    },
+    {
       "address": "2603:1030:10:402::500/121",
       "systemService": "AzureMonitor",
       "region": "centralus"
@@ -468143,6 +470643,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1050:301:4::5e0/123",
+      "systemService": "AzureMonitor",
+      "region": "chilec"
+    },
+    {
       "address": "2603:1040:207::780/121",
       "systemService": "AzureMonitor",
       "region": "eastasia"
@@ -468174,6 +470679,11 @@
     },
     {
       "address": "2603:1040:207:11::/120",
+      "systemService": "AzureMonitor",
+      "region": "eastasia"
+    },
+    {
+      "address": "2603:1040:207:11::300/123",
       "systemService": "AzureMonitor",
       "region": "eastasia"
     },
@@ -468274,6 +470784,11 @@
     },
     {
       "address": "2603:1030:210:2d::400/120",
+      "systemService": "AzureMonitor",
+      "region": "eastus"
+    },
+    {
+      "address": "2603:1030:210:2e::80/122",
       "systemService": "AzureMonitor",
       "region": "eastus"
     },
@@ -468778,6 +471293,16 @@
       "region": "eastus2"
     },
     {
+      "address": "2603:1030:40c:24::3f0/124",
+      "systemService": "AzureMonitor",
+      "region": "eastus2"
+    },
+    {
+      "address": "2603:1030:40c:24::440/122",
+      "systemService": "AzureMonitor",
+      "region": "eastus2"
+    },
+    {
       "address": "2603:1030:40c:402::500/121",
       "systemService": "AzureMonitor",
       "region": "eastus2"
@@ -468854,6 +471379,11 @@
     },
     {
       "address": "2603:1030:40b:10::500/120",
+      "systemService": "AzureMonitor",
+      "region": "eastus2euap"
+    },
+    {
+      "address": "2603:1030:40b:10::780/123",
       "systemService": "AzureMonitor",
       "region": "eastus2euap"
     },
@@ -468993,6 +471523,11 @@
       "region": "centralfrance"
     },
     {
+      "address": "2603:1020:805:d::7a0/123",
+      "systemService": "AzureMonitor",
+      "region": "centralfrance"
+    },
+    {
       "address": "2603:1020:805:402::500/121",
       "systemService": "AzureMonitor",
       "region": "centralfrance"
@@ -469043,6 +471578,11 @@
       "region": "southfrance"
     },
     {
+      "address": "2603:1020:905:9::700/123",
+      "systemService": "AzureMonitor",
+      "region": "southfrance"
+    },
+    {
       "address": "2603:1020:905:402::500/121",
       "systemService": "AzureMonitor",
       "region": "southfrance"
@@ -469089,6 +471629,11 @@
     },
     {
       "address": "2603:1020:d04:9::400/120",
+      "systemService": "AzureMonitor",
+      "region": "germanyn"
+    },
+    {
+      "address": "2603:1020:d04:9::740/123",
       "systemService": "AzureMonitor",
       "region": "germanyn"
     },
@@ -469158,6 +471703,11 @@
       "region": "germanywc"
     },
     {
+      "address": "2603:1020:c04:b::20/123",
+      "systemService": "AzureMonitor",
+      "region": "germanywc"
+    },
+    {
       "address": "2603:1020:c04:402::500/121",
       "systemService": "AzureMonitor",
       "region": "germanywc"
@@ -469204,6 +471754,11 @@
     },
     {
       "address": "2603:1040:1802:4::590/124",
+      "systemService": "AzureMonitor",
+      "region": "indonesiacentral"
+    },
+    {
+      "address": "2603:1040:1802:5::/123",
       "systemService": "AzureMonitor",
       "region": "indonesiacentral"
     },
@@ -469283,6 +471838,11 @@
       "region": "israelnorthwest"
     },
     {
+      "address": "2603:1040:1702:4::6e0/123",
+      "systemService": "AzureMonitor",
+      "region": "israelnorthwest"
+    },
+    {
       "address": "2603:1020:1200:4::10/128",
       "systemService": "AzureMonitor",
       "region": "italynorth"
@@ -469333,6 +471893,11 @@
       "region": "italynorth"
     },
     {
+      "address": "2603:1020:1204:7::620/123",
+      "systemService": "AzureMonitor",
+      "region": "italynorth"
+    },
+    {
       "address": "2603:1040:407::60/123",
       "systemService": "AzureMonitor",
       "region": "japaneast"
@@ -469379,6 +471944,11 @@
     },
     {
       "address": "2603:1040:407:e::300/120",
+      "systemService": "AzureMonitor",
+      "region": "japaneast"
+    },
+    {
+      "address": "2603:1040:407:e::4e0/123",
       "systemService": "AzureMonitor",
       "region": "japaneast"
     },
@@ -469443,6 +472013,11 @@
       "region": "japanwest"
     },
     {
+      "address": "2603:1040:606:b::5e0/123",
+      "systemService": "AzureMonitor",
+      "region": "japanwest"
+    },
+    {
       "address": "2603:1040:606:402::500/121",
       "systemService": "AzureMonitor",
       "region": "japanwest"
@@ -469498,6 +472073,11 @@
       "region": "jioindiacentral"
     },
     {
+      "address": "2603:1040:1104:6::640/123",
+      "systemService": "AzureMonitor",
+      "region": "jioindiacentral"
+    },
+    {
       "address": "2603:1040:1104:400::460/123",
       "systemService": "AzureMonitor",
       "region": "jioindiacentral"
@@ -469544,6 +472124,11 @@
     },
     {
       "address": "2603:1040:d04:7::150/124",
+      "systemService": "AzureMonitor",
+      "region": "jioindiawest"
+    },
+    {
+      "address": "2603:1040:d04:7::2e0/123",
       "systemService": "AzureMonitor",
       "region": "jioindiawest"
     },
@@ -469623,6 +472208,11 @@
       "region": "koreacentral"
     },
     {
+      "address": "2603:1040:f05:c::280/123",
+      "systemService": "AzureMonitor",
+      "region": "koreacentral"
+    },
+    {
       "address": "2603:1040:f05:402::500/121",
       "systemService": "AzureMonitor",
       "region": "koreacentral"
@@ -469689,6 +472279,11 @@
     },
     {
       "address": "2603:1040:e05:9::500/120",
+      "systemService": "AzureMonitor",
+      "region": "koreasouth"
+    },
+    {
+      "address": "2603:1040:e05:9::6e0/123",
       "systemService": "AzureMonitor",
       "region": "koreasouth"
     },
@@ -469768,6 +472363,11 @@
       "region": "malaysiawest"
     },
     {
+      "address": "2603:1040:1602:4::780/123",
+      "systemService": "AzureMonitor",
+      "region": "malaysiawest"
+    },
+    {
       "address": "2603:1030:701:7::12/127",
       "systemService": "AzureMonitor",
       "region": "mexicocentral"
@@ -469803,6 +472403,11 @@
       "region": "mexicocentral"
     },
     {
+      "address": "2603:1030:702:7::220/123",
+      "systemService": "AzureMonitor",
+      "region": "mexicocentral"
+    },
+    {
       "address": "2603:1010:501:8::10/127",
       "systemService": "AzureMonitor",
       "region": "newzealandnorth"
@@ -469834,6 +472439,11 @@
     },
     {
       "address": "2603:1010:502:5::310/124",
+      "systemService": "AzureMonitor",
+      "region": "newzealandnorth"
+    },
+    {
+      "address": "2603:1010:502:5::5a0/123",
       "systemService": "AzureMonitor",
       "region": "newzealandnorth"
     },
@@ -469874,6 +472484,11 @@
     },
     {
       "address": "2603:1030:608:14::200/120",
+      "systemService": "AzureMonitor",
+      "region": "northcentralus"
+    },
+    {
+      "address": "2603:1030:608:14::480/122",
       "systemService": "AzureMonitor",
       "region": "northcentralus"
     },
@@ -470023,6 +472638,11 @@
       "region": "northeurope"
     },
     {
+      "address": "2603:1020:5:1b::300/122",
+      "systemService": "AzureMonitor",
+      "region": "northeurope"
+    },
+    {
       "address": "2603:1020:5:402::500/121",
       "systemService": "AzureMonitor",
       "region": "northeurope"
@@ -470138,6 +472758,11 @@
       "region": "norwaye"
     },
     {
+      "address": "2603:1020:e04:c::180/123",
+      "systemService": "AzureMonitor",
+      "region": "norwaye"
+    },
+    {
       "address": "2603:1020:e04:402::500/121",
       "systemService": "AzureMonitor",
       "region": "norwaye"
@@ -470184,6 +472809,11 @@
     },
     {
       "address": "2603:1020:f04:9::220/124",
+      "systemService": "AzureMonitor",
+      "region": "norwayw"
+    },
+    {
+      "address": "2603:1020:f04:9::580/123",
       "systemService": "AzureMonitor",
       "region": "norwayw"
     },
@@ -470243,6 +472873,11 @@
       "region": "polandcentral"
     },
     {
+      "address": "2603:1020:1302:5::7e0/123",
+      "systemService": "AzureMonitor",
+      "region": "polandcentral"
+    },
+    {
       "address": "2603:1040:1001:4::/128",
       "systemService": "AzureMonitor",
       "region": "qatarcentral"
@@ -470298,6 +472933,11 @@
       "region": "qatarcentral"
     },
     {
+      "address": "2603:1040:1002:8::460/123",
+      "systemService": "AzureMonitor",
+      "region": "qatarcentral"
+    },
+    {
       "address": "2603:1000:104::4c0/122",
       "systemService": "AzureMonitor",
       "region": "southafricanorth"
@@ -470339,6 +472979,11 @@
     },
     {
       "address": "2603:1000:104:a::600/120",
+      "systemService": "AzureMonitor",
+      "region": "southafricanorth"
+    },
+    {
+      "address": "2603:1000:104:a::7a0/123",
       "systemService": "AzureMonitor",
       "region": "southafricanorth"
     },
@@ -470394,6 +473039,11 @@
     },
     {
       "address": "2603:1000:4:7::200/120",
+      "systemService": "AzureMonitor",
+      "region": "southafricawest"
+    },
+    {
+      "address": "2603:1000:4:7::3c0/123",
       "systemService": "AzureMonitor",
       "region": "southafricawest"
     },
@@ -470509,6 +473159,11 @@
     },
     {
       "address": "2603:1030:807:16::/120",
+      "systemService": "AzureMonitor",
+      "region": "southcentralus"
+    },
+    {
+      "address": "2603:1030:807:16::200/122",
       "systemService": "AzureMonitor",
       "region": "southcentralus"
     },
@@ -470633,6 +473288,11 @@
       "region": "southindia"
     },
     {
+      "address": "2603:1040:c06:b::2a0/123",
+      "systemService": "AzureMonitor",
+      "region": "southindia"
+    },
+    {
       "address": "2603:1040:c06:402::500/121",
       "systemService": "AzureMonitor",
       "region": "southindia"
@@ -470694,6 +473354,11 @@
     },
     {
       "address": "2603:1040:5:16::100/120",
+      "systemService": "AzureMonitor",
+      "region": "southeastasia"
+    },
+    {
+      "address": "2603:1040:5:16::2e0/123",
       "systemService": "AzureMonitor",
       "region": "southeastasia"
     },
@@ -470798,6 +473463,11 @@
       "region": "spaincentral"
     },
     {
+      "address": "2603:1020:1403:7::440/123",
+      "systemService": "AzureMonitor",
+      "region": "spaincentral"
+    },
+    {
       "address": "2603:1020:1001:6::1/128",
       "systemService": "AzureMonitor",
       "region": "swedencentral"
@@ -470844,6 +473514,11 @@
     },
     {
       "address": "2603:1020:1004:c::700/120",
+      "systemService": "AzureMonitor",
+      "region": "swedencentral"
+    },
+    {
+      "address": "2603:1020:1004:d::80/123",
       "systemService": "AzureMonitor",
       "region": "swedencentral"
     },
@@ -470928,6 +473603,11 @@
       "region": "swedensouth"
     },
     {
+      "address": "2603:1020:1104:7::7a0/123",
+      "systemService": "AzureMonitor",
+      "region": "swedensouth"
+    },
+    {
       "address": "2603:1020:1104:400::440/123",
       "systemService": "AzureMonitor",
       "region": "swedensouth"
@@ -470988,6 +473668,11 @@
       "region": "switzerlandn"
     },
     {
+      "address": "2603:1020:a04:9::5c0/123",
+      "systemService": "AzureMonitor",
+      "region": "switzerlandn"
+    },
+    {
       "address": "2603:1020:a04:9::600/120",
       "systemService": "AzureMonitor",
       "region": "switzerlandn"
@@ -471043,6 +473728,11 @@
       "region": "switzerlandw"
     },
     {
+      "address": "2603:1020:b04:9::80/123",
+      "systemService": "AzureMonitor",
+      "region": "switzerlandw"
+    },
+    {
       "address": "2603:1020:b04:402::500/121",
       "systemService": "AzureMonitor",
       "region": "switzerlandw"
@@ -471079,6 +473769,11 @@
     },
     {
       "address": "2603:1040:1302:6::2e0/124",
+      "systemService": "AzureMonitor",
+      "region": "taiwannorth"
+    },
+    {
+      "address": "2603:1040:1302:7::20/123",
       "systemService": "AzureMonitor",
       "region": "taiwannorth"
     },
@@ -471168,6 +473863,11 @@
       "region": "uaecentral"
     },
     {
+      "address": "2603:1040:b04:8::4a0/123",
+      "systemService": "AzureMonitor",
+      "region": "uaecentral"
+    },
+    {
       "address": "2603:1040:b04:402::500/121",
       "systemService": "AzureMonitor",
       "region": "uaecentral"
@@ -471224,6 +473924,11 @@
     },
     {
       "address": "2603:1040:904:8::500/120",
+      "systemService": "AzureMonitor",
+      "region": "uaenorth"
+    },
+    {
+      "address": "2603:1040:904:8::660/123",
       "systemService": "AzureMonitor",
       "region": "uaenorth"
     },
@@ -471308,6 +474013,11 @@
       "region": "uksouth"
     },
     {
+      "address": "2603:1020:705:15::420/123",
+      "systemService": "AzureMonitor",
+      "region": "uksouth"
+    },
+    {
       "address": "2603:1020:705:402::500/121",
       "systemService": "AzureMonitor",
       "region": "uksouth"
@@ -471374,6 +474084,11 @@
     },
     {
       "address": "2603:1020:605:b::600/120",
+      "systemService": "AzureMonitor",
+      "region": "ukwest"
+    },
+    {
+      "address": "2603:1020:605:b::700/123",
       "systemService": "AzureMonitor",
       "region": "ukwest"
     },
@@ -471488,6 +474203,11 @@
       "region": "westcentralus"
     },
     {
+      "address": "2603:1030:b04:f::2c0/122",
+      "systemService": "AzureMonitor",
+      "region": "westcentralus"
+    },
+    {
       "address": "2603:1030:b04:402::500/121",
       "systemService": "AzureMonitor",
       "region": "westcentralus"
@@ -471559,6 +474279,11 @@
     },
     {
       "address": "2603:1020:206:22::/120",
+      "systemService": "AzureMonitor",
+      "region": "westeurope"
+    },
+    {
+      "address": "2603:1020:206:22::3c0/122",
       "systemService": "AzureMonitor",
       "region": "westeurope"
     },
@@ -471694,6 +474419,16 @@
     },
     {
       "address": "2603:1030:a07:21::300/120",
+      "systemService": "AzureMonitor",
+      "region": "westus"
+    },
+    {
+      "address": "2603:1030:a07:22::220/123",
+      "systemService": "AzureMonitor",
+      "region": "westus"
+    },
+    {
+      "address": "2603:1030:a07:22::240/122",
       "systemService": "AzureMonitor",
       "region": "westus"
     },
@@ -472043,6 +474778,11 @@
       "region": "westus2"
     },
     {
+      "address": "2603:1030:c06:21::300/122",
+      "systemService": "AzureMonitor",
+      "region": "westus2"
+    },
+    {
       "address": "2603:1030:c06:400::d00/121",
       "systemService": "AzureMonitor",
       "region": "westus2"
@@ -472179,6 +474919,11 @@
     },
     {
       "address": "2603:1030:504:15::/120",
+      "systemService": "AzureMonitor",
+      "region": "westus3"
+    },
+    {
+      "address": "2603:1030:504:15::1c0/123",
       "systemService": "AzureMonitor",
       "region": "westus3"
     },
@@ -478513,6 +481258,11 @@
       "region": "indonesiacentral"
     },
     {
+      "address": "2603:1040:1802:5::700/121",
+      "systemService": "DataFactory",
+      "region": "indonesiacentral"
+    },
+    {
       "address": "2603:1040:1802:400::f0/124",
       "systemService": "DataFactory",
       "region": "indonesiacentral"
@@ -480733,6 +483483,11 @@
       "region": "indonesiacentral"
     },
     {
+      "address": "2603:1040:1802:5::7c0/123",
+      "systemService": "LogicApps",
+      "region": "indonesiacentral"
+    },
+    {
       "address": "2603:1040:1802:400::360/123",
       "systemService": "LogicApps",
       "region": "indonesiacentral"
@@ -481541,6 +484296,11 @@
       "address": "2603:1020:c04:c02::88/125",
       "systemService": "MicrosoftContainerRegistry",
       "region": "germanywc"
+    },
+    {
+      "address": "2603:1040:1802:5::1b8/125",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": "indonesiacentral"
     },
     {
       "address": "2603:1040:1802:400::/125",
@@ -483858,6 +486618,11 @@
       "region": "indonesiacentral"
     },
     {
+      "address": "2603:1040:1802:5::80/122",
+      "systemService": "PowerQueryOnline",
+      "region": "indonesiacentral"
+    },
+    {
       "address": "2603:1040:1402::1c0/123",
       "systemService": "PowerQueryOnline",
       "region": "israelcentral"
@@ -484953,6 +487718,11 @@
       "region": "germanywc"
     },
     {
+      "address": "2603:1040:1802:5::5a8/125",
+      "systemService": "ServiceFabric",
+      "region": "indonesiacentral"
+    },
+    {
       "address": "2603:1040:1802:400::18/125",
       "systemService": "ServiceFabric",
       "region": "indonesiacentral"
@@ -485661,6 +488431,11 @@
       "address": "2603:1020:c04:1::300/123",
       "systemService": "StorageSyncService",
       "region": "germanywc"
+    },
+    {
+      "address": "2603:1040:1802:5::160/123",
+      "systemService": "StorageSyncService",
+      "region": "indonesiacentral"
     },
     {
       "address": "2603:1040:1802:400::c0/123",
@@ -492624,6 +495399,11 @@
     },
     {
       "address": "2603:1040:1802:2::4b0/124",
+      "systemService": "DataFactory",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1802:5::700/121",
       "systemService": "DataFactory",
       "region": ""
     },
@@ -499693,7 +502473,22 @@
       "region": "eastus2"
     },
     {
-      "address": "2603:1030:401:a52::/64",
+      "address": "2603:1030:401:a52::/63",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "2603:1030:401:a54::/62",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "2603:1030:401:a58::/63",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "2603:1030:401:a5a::/64",
       "systemService": "",
       "region": "eastus2"
     },
@@ -501748,12 +504543,12 @@
       "region": "italynorth"
     },
     {
-      "address": "2603:1061:100b:100::/61",
+      "address": "2603:1061:100b:100::/59",
       "systemService": "",
       "region": "italynorth"
     },
     {
-      "address": "2603:1061:100b:108::/62",
+      "address": "2603:1061:100b:120::/63",
       "systemService": "",
       "region": "italynorth"
     },
@@ -504683,6 +507478,11 @@
       "region": "qatarcentral"
     },
     {
+      "address": "2603:1061:1004:c8::/63",
+      "systemService": "",
+      "region": "qatarcentral"
+    },
+    {
       "address": "2603:1061:1310:2800::/54",
       "systemService": "",
       "region": "qatarcentral"
@@ -505203,32 +508003,7 @@
       "region": "southcentralus2"
     },
     {
-      "address": "2603:1061:1012::/59",
-      "systemService": "",
-      "region": "southcentralus2"
-    },
-    {
-      "address": "2603:1061:1012:20::/60",
-      "systemService": "",
-      "region": "southcentralus2"
-    },
-    {
-      "address": "2603:1061:1012:30::/61",
-      "systemService": "",
-      "region": "southcentralus2"
-    },
-    {
-      "address": "2603:1061:1012:38::/62",
-      "systemService": "",
-      "region": "southcentralus2"
-    },
-    {
-      "address": "2603:1061:1012:3c::/63",
-      "systemService": "",
-      "region": "southcentralus2"
-    },
-    {
-      "address": "2603:1061:1012:3e::/64",
+      "address": "2603:1061:1012::/58",
       "systemService": "",
       "region": "southcentralus2"
     },
@@ -505893,7 +508668,22 @@
       "region": "southcentralus"
     },
     {
-      "address": "2603:1030:804:570::/64",
+      "address": "2603:1030:804:570::/61",
+      "systemService": "",
+      "region": "southcentralus"
+    },
+    {
+      "address": "2603:1030:804:578::/62",
+      "systemService": "",
+      "region": "southcentralus"
+    },
+    {
+      "address": "2603:1030:804:57c::/63",
+      "systemService": "",
+      "region": "southcentralus"
+    },
+    {
+      "address": "2603:1030:804:57e::/64",
       "systemService": "",
       "region": "southcentralus"
     },
@@ -506803,22 +509593,12 @@
       "region": "spaincentral"
     },
     {
-      "address": "2603:1061:1008:c0::/61",
+      "address": "2603:1061:1008:c0::/60",
       "systemService": "",
       "region": "spaincentral"
     },
     {
-      "address": "2603:1061:1008:c8::/62",
-      "systemService": "",
-      "region": "spaincentral"
-    },
-    {
-      "address": "2603:1061:1008:cc::/63",
-      "systemService": "",
-      "region": "spaincentral"
-    },
-    {
-      "address": "2603:1061:1008:ce::/64",
+      "address": "2603:1061:1008:d0::/64",
       "systemService": "",
       "region": "spaincentral"
     },
@@ -508884,6 +511664,11 @@
     },
     {
       "address": "2603:1030:b08::/48",
+      "systemService": "",
+      "region": "westcentralus"
+    },
+    {
+      "address": "2603:1030:b80::/48",
       "systemService": "",
       "region": "westcentralus"
     },
@@ -515678,7 +518463,22 @@
       "region": ""
     },
     {
-      "address": "2603:1030:401:a52::/64",
+      "address": "2603:1030:401:a52::/63",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:401:a54::/62",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:401:a58::/63",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:401:a5a::/64",
       "systemService": "",
       "region": ""
     },
@@ -516443,7 +519243,22 @@
       "region": ""
     },
     {
-      "address": "2603:1030:804:570::/64",
+      "address": "2603:1030:804:570::/61",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:804:578::/62",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:804:57c::/63",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:804:57e::/64",
       "systemService": "",
       "region": ""
     },
@@ -516584,6 +519399,11 @@
     },
     {
       "address": "2603:1030:b08::/48",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:b80::/48",
       "systemService": "",
       "region": ""
     },
@@ -519038,6 +521858,11 @@
       "region": ""
     },
     {
+      "address": "2603:1061:1004:c8::/63",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "2603:1061:1005::/58",
       "systemService": "",
       "region": ""
@@ -519128,22 +521953,12 @@
       "region": ""
     },
     {
-      "address": "2603:1061:1008:c0::/61",
+      "address": "2603:1061:1008:c0::/60",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:1008:c8::/62",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:1008:cc::/63",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:1008:ce::/64",
+      "address": "2603:1061:1008:d0::/64",
       "systemService": "",
       "region": ""
     },
@@ -519208,12 +522023,12 @@
       "region": ""
     },
     {
-      "address": "2603:1061:100b:100::/61",
+      "address": "2603:1061:100b:100::/59",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:100b:108::/62",
+      "address": "2603:1061:100b:120::/63",
       "systemService": "",
       "region": ""
     },
@@ -519303,32 +522118,7 @@
       "region": ""
     },
     {
-      "address": "2603:1061:1012::/59",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:1012:20::/60",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:1012:30::/61",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:1012:38::/62",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:1012:3c::/63",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:1012:3e::/64",
+      "address": "2603:1061:1012::/58",
       "systemService": "",
       "region": ""
     },
@@ -519458,27 +522248,22 @@
       "region": ""
     },
     {
-      "address": "2603:1061:101b::/59",
+      "address": "2603:1061:101b::/58",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101b:20::/60",
+      "address": "2603:1061:101b:40::/62",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101b:30::/61",
+      "address": "2603:1061:101b:44::/63",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101b:38::/63",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:101b:3a::/64",
+      "address": "2603:1061:101b:46::/64",
       "systemService": "",
       "region": ""
     },
@@ -529273,6 +532058,11 @@
       "region": ""
     },
     {
+      "address": "2404:7940:101:3::280/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2404:7940:201:1::/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -529309,6 +532099,11 @@
     },
     {
       "address": "2404:7940:301:2::480/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2404:7940:301:3::300/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -529358,6 +532153,11 @@
       "region": ""
     },
     {
+      "address": "2406:e500:2402:3::7c0/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2406:e500:2600:3::14/128",
       "systemService": "AzureMonitor",
       "region": ""
@@ -529399,6 +532199,11 @@
     },
     {
       "address": "2406:e500:2602:3::240/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2406:e500:2602:5::a0/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -531638,6 +534443,11 @@
       "region": "chinaeast2"
     },
     {
+      "address": "2404:7940:301:3::300/123",
+      "systemService": "AzureMonitor",
+      "region": "chinaeast2"
+    },
+    {
       "address": "2406:e500:2400:3::32/128",
       "systemService": "AzureMonitor",
       "region": "chinaeast3"
@@ -531683,6 +534493,11 @@
       "region": "chinaeast3"
     },
     {
+      "address": "2406:e500:2402:3::7c0/123",
+      "systemService": "AzureMonitor",
+      "region": "chinaeast3"
+    },
+    {
       "address": "2404:7940:1:1::/121",
       "systemService": "AzureMonitor",
       "region": "chinanorth"
@@ -531719,6 +534534,11 @@
     },
     {
       "address": "2404:7940:101:2::480/122",
+      "systemService": "AzureMonitor",
+      "region": "chinanorth2"
+    },
+    {
+      "address": "2404:7940:101:3::280/123",
       "systemService": "AzureMonitor",
       "region": "chinanorth2"
     },
@@ -531764,6 +534584,11 @@
     },
     {
       "address": "2406:e500:2602:3::240/122",
+      "systemService": "AzureMonitor",
+      "region": "chinanorth3"
+    },
+    {
+      "address": "2406:e500:2602:5::a0/123",
       "systemService": "AzureMonitor",
       "region": "chinanorth3"
     },
@@ -532958,17 +535783,12 @@
       "region": "chinaeast3"
     },
     {
-      "address": "2406:e500:2500:30::/62",
+      "address": "2406:e500:2500:30::/61",
       "systemService": "",
       "region": "chinaeast3"
     },
     {
-      "address": "2406:e500:2500:34::/63",
-      "systemService": "",
-      "region": "chinaeast3"
-    },
-    {
-      "address": "2406:e500:2500:36::/64",
+      "address": "2406:e500:2500:38::/64",
       "systemService": "",
       "region": "chinaeast3"
     },
@@ -533483,17 +536303,12 @@
       "region": ""
     },
     {
-      "address": "2406:e500:2500:30::/62",
+      "address": "2406:e500:2500:30::/61",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2406:e500:2500:34::/63",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2406:e500:2500:36::/64",
+      "address": "2406:e500:2500:38::/64",
       "systemService": "",
       "region": ""
     },
@@ -534234,6 +537049,11 @@
     },
     {
       "address": "2001:489a:3403:6::5d0/124",
+      "systemService": "AzureArcInfrastructure",
+      "region": ""
+    },
+    {
+      "address": "2001:489a:3604:9::10/124",
       "systemService": "AzureArcInfrastructure",
       "region": ""
     },
@@ -535408,6 +538228,11 @@
       "region": ""
     },
     {
+      "address": "2001:489a:3604:9::a0/123",
+      "systemService": "AzureManagedGrafana",
+      "region": ""
+    },
+    {
       "address": "2001:489a:3003::/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -535464,6 +538289,11 @@
     },
     {
       "address": "2001:489a:3103:8::30/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2001:489a:3103:8::280/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -535603,6 +538433,11 @@
       "region": ""
     },
     {
+      "address": "2001:489a:3403:9::60/123",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2001:489a:3403:402::600/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -535669,6 +538504,16 @@
     },
     {
       "address": "2001:489a:3604:3::500/121",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2001:489a:3604:9::60/124",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2001:489a:3604:9::c0/123",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -537668,6 +540513,11 @@
       "region": "usdodcentral"
     },
     {
+      "address": "2001:489a:3604:9::10/124",
+      "systemService": "AzureArcInfrastructure",
+      "region": "usgovarizona"
+    },
+    {
       "address": "2001:489a:3607:1::/64",
       "systemService": "AzureArcInfrastructure",
       "region": "usgovarizona"
@@ -538728,6 +541578,16 @@
       "region": "usgovarizona"
     },
     {
+      "address": "2001:489a:3604:9::60/124",
+      "systemService": "AzureMonitor",
+      "region": "usgovarizona"
+    },
+    {
+      "address": "2001:489a:3604:9::c0/123",
+      "systemService": "AzureMonitor",
+      "region": "usgovarizona"
+    },
+    {
       "address": "2001:489a:3604:402::580/121",
       "systemService": "AzureMonitor",
       "region": "usgovarizona"
@@ -538798,6 +541658,11 @@
       "region": "usgovtexas"
     },
     {
+      "address": "2001:489a:3403:9::60/123",
+      "systemService": "AzureMonitor",
+      "region": "usgovtexas"
+    },
+    {
       "address": "2001:489a:3403:402::600/121",
       "systemService": "AzureMonitor",
       "region": "usgovtexas"
@@ -538849,6 +541714,11 @@
     },
     {
       "address": "2001:489a:3103:8::30/124",
+      "systemService": "AzureMonitor",
+      "region": "usgovvirginia"
+    },
+    {
+      "address": "2001:489a:3103:8::280/123",
       "systemService": "AzureMonitor",
       "region": "usgovvirginia"
     },
