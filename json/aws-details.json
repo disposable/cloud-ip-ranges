@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2025-12-22-19-28-27",
+  "last_update": "2025-12-23-00-48-29",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -13224,6 +13224,12 @@
       "network_border_group": "eu-west-2"
     },
     {
+      "address": "150.222.55.128/27",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
+    },
+    {
       "address": "150.247.43.0/24",
       "service": "AMAZON",
       "region": "us-east-1",
@@ -21142,6 +21148,12 @@
       "service": "AMAZON",
       "region": "ap-southeast-1",
       "network_border_group": "ap-southeast-1"
+    },
+    {
+      "address": "150.222.55.96/27",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
     },
     {
       "address": "150.222.164.210/32",
@@ -29146,6 +29158,12 @@
       "service": "AMAZON",
       "region": "sa-east-1",
       "network_border_group": "sa-east-1"
+    },
+    {
+      "address": "150.222.55.160/27",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
     },
     {
       "address": "150.222.97.0/24",
