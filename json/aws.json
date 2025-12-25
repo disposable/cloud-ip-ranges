@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2025-12-23-00-48-29",
+  "last_update": "2025-12-24-10-58-24",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -33,6 +33,7 @@
     "100.48.0.0/12",
     "100.48.54.0/23",
     "100.49.198.0/23",
+    "100.52.164.0/23",
     "103.246.148.0/23",
     "103.246.150.0/23",
     "103.4.8.0/21",
@@ -4470,8 +4471,6 @@
     "40.165.0.0/16",
     "40.166.0.0/16",
     "40.167.0.0/16",
-    "40.168.224.0/24",
-    "40.168.225.0/24",
     "40.168.226.0/24",
     "40.172.0.0/16",
     "40.172.11.104/29",
@@ -17689,12 +17688,6 @@
       "network_border_group": "ap-northeast-1"
     },
     {
-      "address": "40.168.225.0/24",
-      "service": "AMAZON",
-      "region": "ap-southeast-3",
-      "network_border_group": "ap-southeast-3"
-    },
-    {
       "address": "52.93.8.0/22",
       "service": "AMAZON",
       "region": "ap-southeast-1",
@@ -23009,12 +23002,6 @@
       "service": "AMAZON",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
-    },
-    {
-      "address": "40.168.224.0/24",
-      "service": "AMAZON",
-      "region": "ap-southeast-1",
-      "network_border_group": "ap-southeast-1"
     },
     {
       "address": "51.0.252.0/24",
@@ -41899,6 +41886,12 @@
       "network_border_group": "us-east-1"
     },
     {
+      "address": "100.52.164.0/23",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
+    },
+    {
       "address": "13.217.78.0/23",
       "service": "AMAZON",
       "region": "us-east-1",
@@ -48805,12 +48798,6 @@
       "network_border_group": "ap-northeast-1"
     },
     {
-      "address": "40.168.225.0/24",
-      "service": "EC2",
-      "region": "ap-southeast-3",
-      "network_border_group": "ap-southeast-3"
-    },
-    {
       "address": "75.3.128.0/18",
       "service": "EC2",
       "region": "us-east-2",
@@ -50669,12 +50656,6 @@
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
-    },
-    {
-      "address": "40.168.224.0/24",
-      "service": "EC2",
-      "region": "ap-southeast-1",
-      "network_border_group": "ap-southeast-1"
     },
     {
       "address": "51.0.252.0/24",
