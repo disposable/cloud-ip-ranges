@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2025-12-25-01-38-25",
+  "last_update": "2025-12-30-21-18-23",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -4464,6 +4464,7 @@
     "35.97.0.0/20",
     "35.97.128.0/24",
     "35.97.129.0/24",
+    "35.97.130.0/24",
     "36.103.232.0/25",
     "36.103.232.128/26",
     "37.203.157.0/24",
@@ -9131,6 +9132,7 @@
     "2631:0:1::/48",
     "2631:0:2::/48",
     "2631:0:3::/48",
+    "2631:0:4::/48",
     "2631:1:45c0::/48",
     "2631:1:4680::/48",
     "2631:1:46c0::/48",
@@ -35621,6 +35623,12 @@
       "service": "AMAZON",
       "region": "ap-south-2",
       "network_border_group": "ap-south-2"
+    },
+    {
+      "address": "35.97.130.0/24",
+      "service": "AMAZON",
+      "region": "eu-west-1",
+      "network_border_group": "eu-west-1"
     },
     {
       "address": "52.46.80.0/21",
@@ -74449,6 +74457,12 @@
       "service": "AMAZON",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2631:0:4::/48",
+      "service": "AMAZON",
+      "region": "eu-west-1",
+      "network_border_group": "eu-west-1"
     },
     {
       "address": "2a05:d038:e000::/40",
