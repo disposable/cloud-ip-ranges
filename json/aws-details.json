@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-01-10-08-28-04",
+  "last_update": "2026-01-12-22-58-04",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -5140,6 +5140,12 @@
       "service": "AMAZON",
       "region": "ap-south-1",
       "network_border_group": "ap-south-1"
+    },
+    {
+      "address": "35.97.16.0/20",
+      "service": "AMAZON",
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
     },
     {
       "address": "35.176.0.0/15",
@@ -38544,6 +38550,12 @@
       "network_border_group": "ap-south-1"
     },
     {
+      "address": "35.97.16.0/20",
+      "service": "EC2",
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
+    },
+    {
       "address": "35.176.0.0/15",
       "service": "EC2",
       "region": "eu-west-2",
@@ -57040,6 +57052,12 @@
       "service": "AURORA_DSQL",
       "region": "ap-northeast-3",
       "network_border_group": "ap-northeast-3"
+    },
+    {
+      "address": "18.99.193.0/25",
+      "service": "AURORA_DSQL",
+      "region": "ap-southeast-4",
+      "network_border_group": "ap-southeast-4"
     },
     {
       "address": "18.96.39.128/25",
@@ -85746,6 +85764,12 @@
       "service": "AURORA_DSQL",
       "region": "ap-northeast-3",
       "network_border_group": "ap-northeast-3"
+    },
+    {
+      "address": "2406:da1f:51b:1a00::/56",
+      "service": "AURORA_DSQL",
+      "region": "ap-southeast-4",
+      "network_border_group": "ap-southeast-4"
     },
     {
       "address": "2a05:d014:15a0:7500::/56",

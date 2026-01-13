@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-01-10-08-28-04",
+  "last_update": "2026-01-12-22-58-04",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -3077,6 +3077,7 @@
     "18.99.160.0/20",
     "18.99.176.0/20",
     "18.99.192.0/20",
+    "18.99.193.0/25",
     "18.99.208.0/20",
     "18.99.224.0/20",
     "18.99.240.0/20",
@@ -4497,6 +4498,7 @@
     "35.97.128.0/24",
     "35.97.129.0/24",
     "35.97.130.0/24",
+    "35.97.16.0/20",
     "35.97.192.0/24",
     "36.103.232.0/25",
     "36.103.232.128/26",
@@ -7436,6 +7438,7 @@
     "2406:da1d::/36",
     "2406:da1e::/32",
     "2406:da1e:da1:3c00::/56",
+    "2406:da1f:51b:1a00::/56",
     "2406:da1f::/36",
     "2406:da1f:b4f:4600::/56",
     "2406:da20:8000::/36",
@@ -14790,6 +14793,12 @@
       "service": "AMAZON",
       "region": "ap-south-1",
       "network_border_group": "ap-south-1"
+    },
+    {
+      "address": "35.97.16.0/20",
+      "service": "AMAZON",
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
     },
     {
       "address": "35.176.0.0/15",
@@ -48194,6 +48203,12 @@
       "network_border_group": "ap-south-1"
     },
     {
+      "address": "35.97.16.0/20",
+      "service": "EC2",
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
+    },
+    {
       "address": "35.176.0.0/15",
       "service": "EC2",
       "region": "eu-west-2",
@@ -66690,6 +66705,12 @@
       "service": "AURORA_DSQL",
       "region": "ap-northeast-3",
       "network_border_group": "ap-northeast-3"
+    },
+    {
+      "address": "18.99.193.0/25",
+      "service": "AURORA_DSQL",
+      "region": "ap-southeast-4",
+      "network_border_group": "ap-southeast-4"
     },
     {
       "address": "18.96.39.128/25",
@@ -95396,6 +95417,12 @@
       "service": "AURORA_DSQL",
       "region": "ap-northeast-3",
       "network_border_group": "ap-northeast-3"
+    },
+    {
+      "address": "2406:da1f:51b:1a00::/56",
+      "service": "AURORA_DSQL",
+      "region": "ap-southeast-4",
+      "network_border_group": "ap-southeast-4"
     },
     {
       "address": "2a05:d014:15a0:7500::/56",
