@@ -3,7 +3,7 @@
   "source": [
     "https://azservicetags.azurewebsites.net/"
   ],
-  "last_update": "2026-01-08T01:39:02.783181",
+  "last_update": "2026-01-14T01:42:40.304522",
   "ipv4": [
     {
       "address": "4.145.74.52/30",
@@ -140816,12 +140816,42 @@
       "region": ""
     },
     {
+      "address": "4.176.31.248/29",
+      "systemService": "SecurityCopilot",
+      "region": ""
+    },
+    {
+      "address": "4.188.10.96/29",
+      "systemService": "SecurityCopilot",
+      "region": ""
+    },
+    {
+      "address": "4.196.133.64/29",
+      "systemService": "SecurityCopilot",
+      "region": ""
+    },
+    {
       "address": "4.198.160.50/32",
       "systemService": "SecurityCopilot",
       "region": ""
     },
     {
       "address": "4.200.251.7/32",
+      "systemService": "SecurityCopilot",
+      "region": ""
+    },
+    {
+      "address": "4.201.243.72/29",
+      "systemService": "SecurityCopilot",
+      "region": ""
+    },
+    {
+      "address": "4.216.4.56/29",
+      "systemService": "SecurityCopilot",
+      "region": ""
+    },
+    {
+      "address": "4.230.124.184/29",
       "systemService": "SecurityCopilot",
       "region": ""
     },
@@ -140936,6 +140966,11 @@
       "region": ""
     },
     {
+      "address": "48.204.168.240/29",
+      "systemService": "SecurityCopilot",
+      "region": ""
+    },
+    {
       "address": "51.11.193.118/32",
       "systemService": "SecurityCopilot",
       "region": ""
@@ -140967,6 +141002,11 @@
     },
     {
       "address": "108.143.177.252/32",
+      "systemService": "SecurityCopilot",
+      "region": ""
+    },
+    {
+      "address": "145.191.107.112/29",
       "systemService": "SecurityCopilot",
       "region": ""
     },
@@ -148051,6 +148091,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.75.32/30",
+      "systemService": "ActionGroup",
+      "region": "denmarkeast"
+    },
+    {
       "address": "23.97.93.60/30",
       "systemService": "ActionGroup",
       "region": "eastasia"
@@ -149019,6 +149064,11 @@
       "address": "68.211.4.48/28",
       "systemService": "AzureApiManagement",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.35.176/28",
+      "systemService": "AzureApiManagement",
+      "region": "denmarkeast"
     },
     {
       "address": "13.75.34.148/31",
@@ -150974,6 +151024,11 @@
       "address": "68.211.9.0/24",
       "systemService": "AzureAppService",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.42.0/24",
+      "systemService": "AzureAppService",
+      "region": "denmarkeast"
     },
     {
       "address": "13.75.34.160/27",
@@ -155626,6 +155681,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.44.128/26",
+      "systemService": "AzureAppServiceManagement",
+      "region": "denmarkeast"
+    },
+    {
       "address": "13.75.34.192/26",
       "systemService": "AzureAppServiceManagement",
       "region": "eastasia"
@@ -157184,6 +157244,21 @@
       "address": "68.211.152.56/32",
       "systemService": "AzureArcInfrastructure",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.43.208/30",
+      "systemService": "AzureArcInfrastructure",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.58.158/32",
+      "systemService": "AzureArcInfrastructure",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.75.48/32",
+      "systemService": "AzureArcInfrastructure",
+      "region": "denmarkeast"
     },
     {
       "address": "20.6.141.126/31",
@@ -158946,6 +159021,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.32.20/30",
+      "systemService": "AzureAttestation",
+      "region": "denmarkeast"
+    },
+    {
       "address": "4.144.15.72/29",
       "systemService": "AzureAttestation",
       "region": "eastasia"
@@ -159949,6 +160029,16 @@
       "address": "68.211.20.208/28",
       "systemService": "AzureBackup",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.36.0/26",
+      "systemService": "AzureBackup",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.50.80/28",
+      "systemService": "AzureBackup",
+      "region": "denmarkeast"
     },
     {
       "address": "13.75.36.128/25",
@@ -161321,6 +161411,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.32.16/30",
+      "systemService": "AzureBotService",
+      "region": "denmarkeast"
+    },
+    {
       "address": "13.75.39.72/30",
       "systemService": "AzureBotService",
       "region": "eastasia"
@@ -161884,6 +161979,11 @@
       "address": "68.211.1.64/26",
       "systemService": "AzureCognitiveSearch",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.32.192/26",
+      "systemService": "AzureCognitiveSearch",
+      "region": "denmarkeast"
     },
     {
       "address": "20.189.106.128/26",
@@ -163129,6 +163229,11 @@
       "address": "68.211.12.64/26",
       "systemService": "AzureConnectors",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.43.0/26",
+      "systemService": "AzureConnectors",
+      "region": "denmarkeast"
     },
     {
       "address": "13.75.36.64/28",
@@ -165669,6 +165774,46 @@
       "address": "68.211.186.0/25",
       "systemService": "AzureContainerRegistry",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.35.64/26",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.53.192/26",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.72.64/26",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.74.0/25",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.96.64/26",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.98.0/25",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.112.64/26",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.114.0/25",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
     },
     {
       "address": "4.192.250.0/25",
@@ -168591,6 +168736,16 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.35.0/26",
+      "systemService": "AzureCosmosDB",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.49.224/27",
+      "systemService": "AzureCosmosDB",
+      "region": "denmarkeast"
+    },
+    {
       "address": "13.75.34.0/26",
       "systemService": "AzureCosmosDB",
       "region": "eastasia"
@@ -171076,6 +171231,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.38.192/28",
+      "systemService": "AzureDataExplorerManagement",
+      "region": "denmarkeast"
+    },
+    {
       "address": "13.75.39.0/28",
       "systemService": "AzureDataExplorerManagement",
       "region": "eastasia"
@@ -172319,6 +172479,16 @@
       "address": "68.211.20.192/29",
       "systemService": "AzureDigitalTwins",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.35.192/27",
+      "systemService": "AzureDigitalTwins",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.50.0/29",
+      "systemService": "AzureDigitalTwins",
+      "region": "denmarkeast"
     },
     {
       "address": "20.187.197.16/29",
@@ -173656,6 +173826,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.33.128/25",
+      "systemService": "AzureEventGrid",
+      "region": "denmarkeast"
+    },
+    {
       "address": "20.6.143.0/24",
       "systemService": "AzureEventGrid",
       "region": "eastasia"
@@ -174779,6 +174954,16 @@
       "address": "68.211.184.128/26",
       "systemService": "AzureEventHub",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.37.0/24",
+      "systemService": "AzureEventHub",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.96.128/26",
+      "systemService": "AzureEventHub",
+      "region": "denmarkeast"
     },
     {
       "address": "13.75.34.64/26",
@@ -178281,6 +178466,31 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.39.24/30",
+      "systemService": "AzureKeyVault",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.50.136/29",
+      "systemService": "AzureKeyVault",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.75.52/30",
+      "systemService": "AzureKeyVault",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.99.4/30",
+      "systemService": "AzureKeyVault",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.115.4/30",
+      "systemService": "AzureKeyVault",
+      "region": "denmarkeast"
+    },
+    {
       "address": "13.75.34.144/30",
       "systemService": "AzureKeyVault",
       "region": "eastasia"
@@ -179749,6 +179959,11 @@
       "address": "68.211.1.128/27",
       "systemService": "AzureMachineLearning",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.33.0/27",
+      "systemService": "AzureMachineLearning",
+      "region": "denmarkeast"
     },
     {
       "address": "13.75.36.16/28",
@@ -182449,6 +182664,76 @@
       "address": "68.211.186.240/28",
       "systemService": "AzureMonitor",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.43.242/31",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.45.208/29",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.45.216/30",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.48.0/26",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.50.56/30",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.59.96/28",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.62.0/26",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.62.64/28",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.74.136/29",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.74.240/28",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.98.136/29",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.98.240/28",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.114.136/29",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.114.240/28",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
     },
     {
       "address": "4.144.10.32/27",
@@ -189651,6 +189936,16 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.45.224/27",
+      "systemService": "AzurePortal",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.50.20/30",
+      "systemService": "AzurePortal",
+      "region": "denmarkeast"
+    },
+    {
       "address": "20.187.197.0/29",
       "systemService": "AzurePortal",
       "region": "eastasia"
@@ -190754,6 +191049,11 @@
       "address": "68.211.10.0/23",
       "systemService": "AzureResourceManager",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.40.0/23",
+      "systemService": "AzureResourceManager",
+      "region": "denmarkeast"
     },
     {
       "address": "13.75.39.16/28",
@@ -192579,6 +192879,51 @@
       "address": "68.211.184.224/27",
       "systemService": "AzureSQL",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.48.96/27",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.48.128/26",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.50.96/27",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.72.48/29",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.72.224/27",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.96.48/29",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.96.224/27",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.112.48/29",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.112.224/27",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
     },
     {
       "address": "4.144.9.0/26",
@@ -199291,6 +199636,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.38.0/25",
+      "systemService": "AzureServiceBus",
+      "region": "denmarkeast"
+    },
+    {
       "address": "4.252.139.0/24",
       "systemService": "AzureServiceBus",
       "region": "eastasia"
@@ -203171,6 +203521,26 @@
       "region": "chilec"
     },
     {
+      "address": "20.153.21.0/24",
+      "systemService": "AzureStorage",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.153.33.0/24",
+      "systemService": "AzureStorage",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "57.150.199.0/24",
+      "systemService": "AzureStorage",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "57.150.200.0/22",
+      "systemService": "AzureStorage",
+      "region": "denmarkeast"
+    },
+    {
       "address": "20.33.184.0/24",
       "systemService": "AzureStorage",
       "region": "eastasia"
@@ -203892,6 +204262,11 @@
     },
     {
       "address": "145.190.134.0/24",
+      "systemService": "AzureStorage",
+      "region": "eastus"
+    },
+    {
+      "address": "145.190.144.0/24",
       "systemService": "AzureStorage",
       "region": "eastus"
     },
@@ -211416,6 +211791,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.33.64/27",
+      "systemService": "BatchNodeManagement",
+      "region": "denmarkeast"
+    },
+    {
       "address": "13.75.36.96/27",
       "systemService": "BatchNodeManagement",
       "region": "eastasia"
@@ -213374,6 +213754,36 @@
       "address": "68.211.186.144/28",
       "systemService": "DataFactory",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.46.0/23",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.58.80/28",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.58.96/27",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.74.224/28",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.98.224/28",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.114.224/28",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
     },
     {
       "address": "4.252.148.192/27",
@@ -215891,6 +216301,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.32.64/26",
+      "systemService": "GatewayManager",
+      "region": "denmarkeast"
+    },
+    {
       "address": "13.75.36.8/29",
       "systemService": "GatewayManager",
       "region": "eastasia"
@@ -216949,6 +217364,11 @@
       "address": "68.211.7.80/29",
       "systemService": "HDInsight",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.39.16/29",
+      "systemService": "HDInsight",
+      "region": "denmarkeast"
     },
     {
       "address": "13.75.38.112/29",
@@ -218914,6 +219334,16 @@
       "address": "68.211.156.64/27",
       "systemService": "LogicApps",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.48.240/28",
+      "systemService": "LogicApps",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.49.192/27",
+      "systemService": "LogicApps",
+      "region": "denmarkeast"
     },
     {
       "address": "4.144.32.35/32",
@@ -235846,6 +236276,21 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.72.0/29",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.96.0/29",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.112.0/29",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
       "address": "13.75.34.152/29",
       "systemService": "MicrosoftContainerRegistry",
       "region": "eastasia"
@@ -237149,6 +237594,31 @@
       "address": "68.211.24.32/28",
       "systemService": "PowerBI",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.43.240/31",
+      "systemService": "PowerBI",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.43.244/30",
+      "systemService": "PowerBI",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.43.248/29",
+      "systemService": "PowerBI",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.58.176/28",
+      "systemService": "PowerBI",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.58.192/28",
+      "systemService": "PowerBI",
+      "region": "denmarkeast"
     },
     {
       "address": "4.192.250.208/28",
@@ -249421,6 +249891,11 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.32.40/29",
+      "systemService": "PowerQueryOnline",
+      "region": "denmarkeast"
+    },
+    {
       "address": "4.192.252.32/28",
       "systemService": "PowerQueryOnline",
       "region": "eastasia"
@@ -251776,6 +252251,21 @@
       "region": "chilec"
     },
     {
+      "address": "9.205.72.8/30",
+      "systemService": "ServiceFabric",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.96.8/30",
+      "systemService": "ServiceFabric",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.112.8/30",
+      "systemService": "ServiceFabric",
+      "region": "denmarkeast"
+    },
+    {
       "address": "13.75.36.80/29",
       "systemService": "ServiceFabric",
       "region": "eastasia"
@@ -252904,6 +253394,16 @@
       "address": "68.211.152.48/29",
       "systemService": "StorageSyncService",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.52.88/29",
+      "systemService": "StorageSyncService",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.75.40/29",
+      "systemService": "StorageSyncService",
+      "region": "denmarkeast"
     },
     {
       "address": "20.189.108.56/29",
@@ -269876,6 +270376,16 @@
       "region": "brazilsouth"
     },
     {
+      "address": "20.20.97.64/29",
+      "systemService": "",
+      "region": "brazilsouth"
+    },
+    {
+      "address": "20.20.97.72/31",
+      "systemService": "",
+      "region": "brazilsouth"
+    },
+    {
       "address": "20.33.5.0/24",
       "systemService": "",
       "region": "brazilsouth"
@@ -271256,27 +271766,22 @@
       "region": "canadacentral"
     },
     {
-      "address": "40.120.184.0/24",
+      "address": "40.120.184.0/23",
       "systemService": "",
       "region": "canadacentral"
     },
     {
-      "address": "40.120.185.0/25",
+      "address": "40.120.186.0/29",
       "systemService": "",
       "region": "canadacentral"
     },
     {
-      "address": "40.120.185.128/26",
+      "address": "40.120.186.8/30",
       "systemService": "",
       "region": "canadacentral"
     },
     {
-      "address": "40.120.185.192/27",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.185.224/30",
+      "address": "40.120.186.12/31",
       "systemService": "",
       "region": "canadacentral"
     },
@@ -276091,6 +276596,11 @@
       "region": "centralus"
     },
     {
+      "address": "57.157.44.96/31",
+      "systemService": "",
+      "region": "centralus"
+    },
+    {
       "address": "64.236.0.0/17",
       "systemService": "",
       "region": "centralus"
@@ -276649,6 +277159,186 @@
       "address": "209.199.27.128/26",
       "systemService": "",
       "region": "chilec"
+    },
+    {
+      "address": "9.205.0.0/17",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.128.0/18",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.20.48.224/27",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.20.52.0/27",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.20.55.128/27",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.20.124.0/25",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.20.124.128/26",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.20.124.192/30",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.38.50.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.143.98.0/23",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.143.100.0/22",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.153.21.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.153.33.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.201.158.0/23",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.201.160.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.231.148.64/26",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "20.231.148.128/27",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "40.64.194.128/25",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "40.93.25.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "52.101.208.0/22",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "52.101.212.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "52.102.151.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "52.103.25.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "52.103.150.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "52.106.184.64/27",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "52.108.156.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "52.122.255.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "57.150.199.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "57.150.200.0/22",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "70.152.222.0/24",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "209.199.29.96/27",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "209.199.30.128/25",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "209.199.31.0/25",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "209.199.31.128/28",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "209.199.31.192/26",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "209.199.32.128/26",
+      "systemService": "",
+      "region": "denmarkeast"
     },
     {
       "address": "4.144.0.0/17",
@@ -282886,17 +283576,17 @@
       "region": "eastus2"
     },
     {
-      "address": "57.157.49.0/27",
+      "address": "57.157.49.0/26",
       "systemService": "",
       "region": "eastus2"
     },
     {
-      "address": "57.157.49.32/30",
+      "address": "57.157.49.64/28",
       "systemService": "",
       "region": "eastus2"
     },
     {
-      "address": "57.157.49.36/31",
+      "address": "57.157.49.80/30",
       "systemService": "",
       "region": "eastus2"
     },
@@ -283596,12 +284286,17 @@
       "region": "eastus3"
     },
     {
-      "address": "57.157.24.64/30",
+      "address": "57.157.24.64/28",
       "systemService": "",
       "region": "eastus3"
     },
     {
-      "address": "57.157.24.68/31",
+      "address": "57.157.24.80/29",
+      "systemService": "",
+      "region": "eastus3"
+    },
+    {
+      "address": "57.157.24.88/31",
       "systemService": "",
       "region": "eastus3"
     },
@@ -285871,12 +286566,7 @@
       "region": "eastus"
     },
     {
-      "address": "57.157.33.144/30",
-      "systemService": "",
-      "region": "eastus"
-    },
-    {
-      "address": "57.157.33.148/31",
+      "address": "57.157.33.144/29",
       "systemService": "",
       "region": "eastus"
     },
@@ -286097,6 +286787,11 @@
     },
     {
       "address": "145.190.134.0/24",
+      "systemService": "",
+      "region": "eastus"
+    },
+    {
+      "address": "145.190.144.0/24",
       "systemService": "",
       "region": "eastus"
     },
@@ -288591,12 +289286,17 @@
       "region": "israelcentral"
     },
     {
-      "address": "20.20.104.160/29",
+      "address": "20.20.104.160/28",
       "systemService": "",
       "region": "israelcentral"
     },
     {
-      "address": "20.20.104.168/31",
+      "address": "20.20.104.176/30",
+      "systemService": "",
+      "region": "israelcentral"
+    },
+    {
+      "address": "20.20.104.180/31",
       "systemService": "",
       "region": "israelcentral"
     },
@@ -288901,12 +289601,7 @@
       "region": "israelnorthwest"
     },
     {
-      "address": "20.20.116.96/29",
-      "systemService": "",
-      "region": "israelnorthwest"
-    },
-    {
-      "address": "20.20.116.104/31",
+      "address": "20.20.116.96/28",
       "systemService": "",
       "region": "israelnorthwest"
     },
@@ -293356,6 +294051,11 @@
       "region": "newzealandnorth"
     },
     {
+      "address": "40.120.173.176/29",
+      "systemService": "",
+      "region": "newzealandnorth"
+    },
+    {
       "address": "48.212.21.0/24",
       "systemService": "",
       "region": "newzealandnorth"
@@ -294136,12 +294836,17 @@
       "region": "northcentralus"
     },
     {
-      "address": "40.120.191.64/30",
+      "address": "40.120.191.64/28",
       "systemService": "",
       "region": "northcentralus"
     },
     {
-      "address": "40.120.191.68/31",
+      "address": "40.120.191.80/29",
+      "systemService": "",
+      "region": "northcentralus"
+    },
+    {
+      "address": "40.120.191.88/31",
       "systemService": "",
       "region": "northcentralus"
     },
@@ -298721,12 +299426,17 @@
       "region": "southcentralus2"
     },
     {
-      "address": "20.20.72.128/28",
+      "address": "20.20.72.128/27",
       "systemService": "",
       "region": "southcentralus2"
     },
     {
-      "address": "20.20.72.144/31",
+      "address": "20.20.72.160/30",
+      "systemService": "",
+      "region": "southcentralus2"
+    },
+    {
+      "address": "20.20.72.164/31",
       "systemService": "",
       "region": "southcentralus2"
     },
@@ -299236,17 +299946,22 @@
       "region": "southcentralus"
     },
     {
-      "address": "20.20.103.0/27",
+      "address": "20.20.103.0/26",
       "systemService": "",
       "region": "southcentralus"
     },
     {
-      "address": "20.20.103.32/28",
+      "address": "20.20.103.64/28",
       "systemService": "",
       "region": "southcentralus"
     },
     {
-      "address": "20.20.103.48/29",
+      "address": "20.20.103.80/30",
+      "systemService": "",
+      "region": "southcentralus"
+    },
+    {
+      "address": "20.20.103.84/31",
       "systemService": "",
       "region": "southcentralus"
     },
@@ -303726,22 +304441,12 @@
       "region": "swedencentral"
     },
     {
-      "address": "57.157.68.128/27",
+      "address": "57.157.68.128/26",
       "systemService": "",
       "region": "swedencentral"
     },
     {
-      "address": "57.157.68.160/28",
-      "systemService": "",
-      "region": "swedencentral"
-    },
-    {
-      "address": "57.157.68.176/29",
-      "systemService": "",
-      "region": "swedencentral"
-    },
-    {
-      "address": "57.157.68.184/30",
+      "address": "57.157.68.192/31",
       "systemService": "",
       "region": "swedencentral"
     },
@@ -306996,6 +307701,11 @@
       "region": "uksouth"
     },
     {
+      "address": "57.157.40.64/31",
+      "systemService": "",
+      "region": "uksouth"
+    },
+    {
       "address": "70.152.33.0/24",
       "systemService": "",
       "region": "uksouth"
@@ -310091,32 +310801,7 @@
       "region": "westeurope"
     },
     {
-      "address": "57.157.12.0/23",
-      "systemService": "",
-      "region": "westeurope"
-    },
-    {
-      "address": "57.157.14.0/24",
-      "systemService": "",
-      "region": "westeurope"
-    },
-    {
-      "address": "57.157.15.0/25",
-      "systemService": "",
-      "region": "westeurope"
-    },
-    {
-      "address": "57.157.15.128/26",
-      "systemService": "",
-      "region": "westeurope"
-    },
-    {
-      "address": "57.157.15.192/27",
-      "systemService": "",
-      "region": "westeurope"
-    },
-    {
-      "address": "57.157.15.224/30",
+      "address": "57.157.12.0/22",
       "systemService": "",
       "region": "westeurope"
     },
@@ -312206,17 +312891,12 @@
       "region": "westus2"
     },
     {
-      "address": "57.157.72.64/28",
+      "address": "57.157.72.64/27",
       "systemService": "",
       "region": "westus2"
     },
     {
-      "address": "57.157.72.80/30",
-      "systemService": "",
-      "region": "westus2"
-    },
-    {
-      "address": "57.157.72.84/31",
+      "address": "57.157.72.96/28",
       "systemService": "",
       "region": "westus2"
     },
@@ -313326,12 +314006,12 @@
       "region": "westus3"
     },
     {
-      "address": "57.157.128.128/28",
+      "address": "57.157.128.128/27",
       "systemService": "",
       "region": "westus3"
     },
     {
-      "address": "57.157.128.144/29",
+      "address": "57.157.128.160/28",
       "systemService": "",
       "region": "westus3"
     },
@@ -313551,22 +314231,17 @@
       "region": "westus"
     },
     {
-      "address": "20.20.94.192/28",
+      "address": "20.20.94.192/27",
       "systemService": "",
       "region": "westus"
     },
     {
-      "address": "20.20.94.208/29",
+      "address": "20.20.94.224/28",
       "systemService": "",
       "region": "westus"
     },
     {
-      "address": "20.20.94.216/30",
-      "systemService": "",
-      "region": "westus"
-    },
-    {
-      "address": "20.20.94.220/31",
+      "address": "20.20.94.240/30",
       "systemService": "",
       "region": "westus"
     },
@@ -318396,12 +319071,17 @@
       "region": ""
     },
     {
-      "address": "20.20.72.128/28",
+      "address": "20.20.72.128/27",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "20.20.72.144/31",
+      "address": "20.20.72.160/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.72.164/31",
       "systemService": "",
       "region": ""
     },
@@ -318476,22 +319156,17 @@
       "region": ""
     },
     {
-      "address": "20.20.94.192/28",
+      "address": "20.20.94.192/27",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "20.20.94.208/29",
+      "address": "20.20.94.224/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "20.20.94.216/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "20.20.94.220/31",
+      "address": "20.20.94.240/30",
       "systemService": "",
       "region": ""
     },
@@ -318502,6 +319177,16 @@
     },
     {
       "address": "20.20.97.0/26",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.97.64/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.97.72/31",
       "systemService": "",
       "region": ""
     },
@@ -318591,17 +319276,22 @@
       "region": ""
     },
     {
-      "address": "20.20.103.0/27",
+      "address": "20.20.103.0/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "20.20.103.32/28",
+      "address": "20.20.103.64/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "20.20.103.48/29",
+      "address": "20.20.103.80/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.103.84/31",
       "systemService": "",
       "region": ""
     },
@@ -318616,12 +319306,17 @@
       "region": ""
     },
     {
-      "address": "20.20.104.160/29",
+      "address": "20.20.104.160/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "20.20.104.168/31",
+      "address": "20.20.104.176/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.104.180/31",
       "systemService": "",
       "region": ""
     },
@@ -318666,12 +319361,7 @@
       "region": ""
     },
     {
-      "address": "20.20.116.96/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "20.20.116.104/31",
+      "address": "20.20.116.96/28",
       "systemService": "",
       "region": ""
     },
@@ -340901,6 +341591,11 @@
       "region": ""
     },
     {
+      "address": "40.120.173.176/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "40.120.176.0/23",
       "systemService": "",
       "region": ""
@@ -340946,27 +341641,22 @@
       "region": ""
     },
     {
-      "address": "40.120.184.0/24",
+      "address": "40.120.184.0/23",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.185.0/25",
+      "address": "40.120.186.0/29",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.185.128/26",
+      "address": "40.120.186.8/30",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.185.192/27",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.185.224/30",
+      "address": "40.120.186.12/31",
       "systemService": "",
       "region": ""
     },
@@ -340986,12 +341676,17 @@
       "region": ""
     },
     {
-      "address": "40.120.191.64/30",
+      "address": "40.120.191.64/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.191.68/31",
+      "address": "40.120.191.80/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "40.120.191.88/31",
       "systemService": "",
       "region": ""
     },
@@ -356676,32 +357371,7 @@
       "region": ""
     },
     {
-      "address": "57.157.12.0/23",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.14.0/24",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.15.0/25",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.15.128/26",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.15.192/27",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.15.224/30",
+      "address": "57.157.12.0/22",
       "systemService": "",
       "region": ""
     },
@@ -356756,12 +357426,17 @@
       "region": ""
     },
     {
-      "address": "57.157.24.64/30",
+      "address": "57.157.24.64/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.24.68/31",
+      "address": "57.157.24.80/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.24.88/31",
       "systemService": "",
       "region": ""
     },
@@ -356811,12 +357486,7 @@
       "region": ""
     },
     {
-      "address": "57.157.33.144/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.33.148/31",
+      "address": "57.157.33.144/29",
       "systemService": "",
       "region": ""
     },
@@ -356841,12 +357511,22 @@
       "region": ""
     },
     {
+      "address": "57.157.40.64/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "57.157.44.0/26",
       "systemService": "",
       "region": ""
     },
     {
       "address": "57.157.44.64/27",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.44.96/31",
       "systemService": "",
       "region": ""
     },
@@ -356971,17 +357651,17 @@
       "region": ""
     },
     {
-      "address": "57.157.49.0/27",
+      "address": "57.157.49.0/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.49.32/30",
+      "address": "57.157.49.64/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.49.36/31",
+      "address": "57.157.49.80/30",
       "systemService": "",
       "region": ""
     },
@@ -357006,22 +357686,12 @@
       "region": ""
     },
     {
-      "address": "57.157.68.128/27",
+      "address": "57.157.68.128/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.68.160/28",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.68.176/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.68.184/30",
+      "address": "57.157.68.192/31",
       "systemService": "",
       "region": ""
     },
@@ -357031,17 +357701,12 @@
       "region": ""
     },
     {
-      "address": "57.157.72.64/28",
+      "address": "57.157.72.64/27",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.72.80/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.72.84/31",
+      "address": "57.157.72.96/28",
       "systemService": "",
       "region": ""
     },
@@ -357066,7 +357731,7 @@
       "region": ""
     },
     {
-      "address": "57.157.96.64/31",
+      "address": "57.157.96.64/30",
       "systemService": "",
       "region": ""
     },
@@ -357106,12 +357771,12 @@
       "region": ""
     },
     {
-      "address": "57.157.128.128/28",
+      "address": "57.157.128.128/27",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.128.144/29",
+      "address": "57.157.128.160/28",
       "systemService": "",
       "region": ""
     },
@@ -361252,6 +361917,11 @@
     },
     {
       "address": "145.190.143.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "145.190.144.0/24",
       "systemService": "",
       "region": ""
     },
@@ -377396,7 +378066,12 @@
       "region": "chinanorth3"
     },
     {
-      "address": "159.27.133.0/31",
+      "address": "159.27.133.0/30",
+      "systemService": "",
+      "region": "chinanorth3"
+    },
+    {
+      "address": "159.27.133.4/31",
       "systemService": "",
       "region": "chinanorth3"
     },
@@ -378766,7 +379441,12 @@
       "region": ""
     },
     {
-      "address": "159.27.133.0/31",
+      "address": "159.27.133.0/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "159.27.133.4/31",
       "systemService": "",
       "region": ""
     },
@@ -455113,6 +455793,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602:400::1c8/125",
+      "systemService": "ActionGroup",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::114/126",
       "systemService": "ActionGroup",
       "region": "eastasia"
@@ -455748,6 +456433,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602::520/124",
+      "systemService": "AzureApiManagement",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207:1::4a0/124",
       "systemService": "AzureApiManagement",
       "region": "eastasia"
@@ -456321,6 +457011,11 @@
       "address": "2603:1050:301:1::700/120",
       "systemService": "AzureAppService",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:1::600/120",
+      "systemService": "AzureAppService",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207:2::400/120",
@@ -457293,6 +457988,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602:2::40/122",
+      "systemService": "AzureAppServiceManagement",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207:402::100/122",
       "systemService": "AzureAppServiceManagement",
       "region": "eastasia"
@@ -458173,6 +458873,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602:2::20/124",
+      "systemService": "AzureArcInfrastructure",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1030:1402:2::240/124",
       "systemService": "AzureArcInfrastructure",
       "region": "eastus3"
@@ -458401,6 +459106,11 @@
       "address": "2603:1050:301::540/124",
       "systemService": "AzureAttestation",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602::540/124",
+      "systemService": "AzureAttestation",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207:1::4c0/124",
@@ -458756,6 +459466,11 @@
       "address": "2603:1050:301::600/121",
       "systemService": "AzureBackup",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602::600/121",
+      "systemService": "AzureBackup",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207:1::580/121",
@@ -459533,6 +460248,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602::20/123",
+      "systemService": "AzureBotService",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::20/123",
       "systemService": "AzureBotService",
       "region": "eastasia"
@@ -459876,6 +460596,11 @@
       "address": "2603:1050:301::100/121",
       "systemService": "AzureCognitiveSearch",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602::100/121",
+      "systemService": "AzureCognitiveSearch",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207::180/121",
@@ -460251,6 +460976,11 @@
       "address": "2603:1050:301:1::6c0/122",
       "systemService": "AzureConnectors",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:1::5c0/122",
+      "systemService": "AzureConnectors",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207:402::180/122",
@@ -461166,6 +461896,61 @@
       "address": "2603:1050:301:c00::80/121",
       "systemService": "AzureContainerRegistry",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602::3e0/125",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:4::100/121",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:4::480/123",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:4::4a0/124",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:4::4b0/125",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:400::8/125",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:400::80/121",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:800::8/125",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:800::80/121",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:c00::8/125",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:c00::80/121",
+      "systemService": "AzureContainerRegistry",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207::2a8/125",
@@ -463553,6 +464338,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602::1e0/123",
+      "systemService": "AzureCosmosDB",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207:1::2a0/123",
       "systemService": "AzureCosmosDB",
       "region": "eastasia"
@@ -464413,6 +465203,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602:1::1e0/123",
+      "systemService": "AzureDataExplorerManagement",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207:1::380/121",
       "systemService": "AzureDataExplorerManagement",
       "region": "eastasia"
@@ -465083,6 +465878,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602::580/121",
+      "systemService": "AzureDigitalTwins",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207:1::500/121",
       "systemService": "AzureDigitalTwins",
       "region": "eastasia"
@@ -465446,6 +466246,11 @@
       "address": "2603:1050:301::280/121",
       "systemService": "AzureEventGrid",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602::280/121",
+      "systemService": "AzureEventGrid",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207::380/121",
@@ -465986,6 +466791,11 @@
       "address": "2603:1050:301::700/120",
       "systemService": "AzureEventHub",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:1::/120",
+      "systemService": "AzureEventHub",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207::240/122",
@@ -468173,6 +468983,26 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602:1::1c8/125",
+      "systemService": "AzureKeyVault",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:400::18/125",
+      "systemService": "AzureKeyVault",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:800::18/125",
+      "systemService": "AzureKeyVault",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:c00::18/125",
+      "systemService": "AzureKeyVault",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::108/125",
       "systemService": "AzureKeyVault",
       "region": "eastasia"
@@ -469678,6 +470508,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602::200/122",
+      "systemService": "AzureMachineLearning",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::300/122",
       "systemService": "AzureMachineLearning",
       "region": "eastasia"
@@ -470866,6 +471701,36 @@
       "address": "2603:1050:301:4::5e0/123",
       "systemService": "AzureMonitor",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1601:8::f/128",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1601:8::18/128",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:2::480/121",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:2::500/120",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:4::3d0/124",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:4::580/123",
+      "systemService": "AzureMonitor",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207::780/121",
@@ -475268,6 +476133,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602:2::400/121",
+      "systemService": "AzurePortal",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::700/121",
       "systemService": "AzurePortal",
       "region": "eastasia"
@@ -475796,6 +476666,11 @@
       "address": "2603:1050:301:1::400/120",
       "systemService": "AzureResourceManager",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:1::300/120",
+      "systemService": "AzureResourceManager",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207::6c0/122",
@@ -476776,6 +477651,16 @@
       "address": "2603:1050:301:2::700/121",
       "systemService": "AzureSQL",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:2::620/123",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:2::680/121",
+      "systemService": "AzureSQL",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207::280/123",
@@ -478543,6 +479428,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602::780/121",
+      "systemService": "AzureServiceBus",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::220/123",
       "systemService": "AzureServiceBus",
       "region": "eastasia"
@@ -479878,6 +480768,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1603::/48",
+      "systemService": "AzureStorage",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:208::/48",
       "systemService": "AzureStorage",
       "region": "eastasia"
@@ -480543,6 +481438,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602::300/122",
+      "systemService": "BatchNodeManagement",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::400/122",
       "systemService": "BatchNodeManagement",
       "region": "eastasia"
@@ -481191,6 +482091,36 @@
       "address": "2603:1050:301:c00::50/124",
       "systemService": "DataFactory",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:2::280/121",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:2::658/125",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:4::1e0/124",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:400::50/124",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:800::50/124",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:c00::50/124",
+      "systemService": "DataFactory",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207::440/122",
@@ -482693,6 +483623,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602::40/122",
+      "systemService": "GatewayManager",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::40/122",
       "systemService": "GatewayManager",
       "region": "eastasia"
@@ -483066,6 +484001,11 @@
       "address": "2603:1050:301:1::360/124",
       "systemService": "HDInsight",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:1::2c0/124",
+      "systemService": "HDInsight",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207:1::4d0/124",
@@ -483596,6 +484536,16 @@
       "address": "2603:1050:301:400::340/123",
       "systemService": "LogicApps",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:3::440/124",
+      "systemService": "LogicApps",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:3::460/123",
+      "systemService": "LogicApps",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207:402::3c0/124",
@@ -484386,6 +485336,21 @@
       "address": "2603:1050:301:c00::/125",
       "systemService": "MicrosoftContainerRegistry",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:400::/125",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:800::/125",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:c00::/125",
+      "systemService": "MicrosoftContainerRegistry",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207:402::88/125",
@@ -485256,6 +486221,16 @@
       "address": "2603:1050:301:2::3c0/123",
       "systemService": "PowerBI",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1602:2::1a0/123",
+      "systemService": "PowerBI",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:2::300/122",
+      "systemService": "PowerBI",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:207::620/123",
@@ -486658,6 +487633,11 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602::1c0/123",
+      "systemService": "PowerQueryOnline",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::200/123",
       "systemService": "PowerQueryOnline",
       "region": "eastasia"
@@ -487803,6 +488783,21 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602:400::10/125",
+      "systemService": "ServiceFabric",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:800::10/125",
+      "systemService": "ServiceFabric",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:c00::10/125",
+      "systemService": "ServiceFabric",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207:402::98/125",
       "systemService": "ServiceFabric",
       "region": "eastasia"
@@ -488588,6 +489583,16 @@
       "region": "chilec"
     },
     {
+      "address": "2603:1020:1602:4::/123",
+      "systemService": "StorageSyncService",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602:400::220/123",
+      "systemService": "StorageSyncService",
+      "region": "denmarkeast"
+    },
+    {
       "address": "2603:1040:207::340/123",
       "systemService": "StorageSyncService",
       "region": "eastasia"
@@ -489046,6 +490051,11 @@
       "address": "2603:1061:2010:7::/117",
       "systemService": "WindowsVirtualDesktop",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1061:2010:45::/117",
+      "systemService": "WindowsVirtualDesktop",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1061:2010:8::/117",
@@ -499483,6 +500493,11 @@
       "region": "centralus"
     },
     {
+      "address": "2603:1030:9:846::/64",
+      "systemService": "",
+      "region": "centralus"
+    },
+    {
       "address": "2603:1030:a::/47",
       "systemService": "",
       "region": "centralus"
@@ -499856,6 +500871,136 @@
       "address": "2a01:111:f403:e020::/64",
       "systemService": "",
       "region": "chilec"
+    },
+    {
+      "address": "2603:1020:1601::/48",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1602::/47",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1604::/48",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1020:1605::/48",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1026:3000:280::/59",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1027:1:280::/59",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1061:1017::/58",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1061:1017:40::/60",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1061:1017:50::/61",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1061:1017:58::/62",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1061:1311:5c00::/54",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1061:1745::/48",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1061:2010:45::/64",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1061:2011:45::/64",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1063:47::/48",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1063:13b::/56",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1063:634::/56",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1063:70a::/56",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2603:1063:2202:64::/64",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2a01:111:f403:c109::/64",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2a01:111:f403:c966::/63",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2a01:111:f403:c968::/63",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2a01:111:f403:c96a::/64",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2a01:111:f403:d118::/64",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2a01:111:f403:d91e::/64",
+      "systemService": "",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "2a01:111:f403:e021::/64",
+      "systemService": "",
+      "region": "denmarkeast"
     },
     {
       "address": "2603:1040:200::/46",
@@ -502713,22 +503858,17 @@
       "region": "eastus2"
     },
     {
-      "address": "2603:1030:401:a60::/60",
+      "address": "2603:1030:401:a60::/59",
       "systemService": "",
       "region": "eastus2"
     },
     {
-      "address": "2603:1030:401:a70::/61",
+      "address": "2603:1030:401:a80::/60",
       "systemService": "",
       "region": "eastus2"
     },
     {
-      "address": "2603:1030:401:a78::/63",
-      "systemService": "",
-      "region": "eastus2"
-    },
-    {
-      "address": "2603:1030:401:a7a::/64",
+      "address": "2603:1030:401:a90::/63",
       "systemService": "",
       "region": "eastus2"
     },
@@ -503018,17 +504158,17 @@
       "region": "eastus3"
     },
     {
-      "address": "2603:1061:101a::/60",
+      "address": "2603:1061:101a::/59",
       "systemService": "",
       "region": "eastus3"
     },
     {
-      "address": "2603:1061:101a:10::/61",
+      "address": "2603:1061:101a:20::/62",
       "systemService": "",
       "region": "eastus3"
     },
     {
-      "address": "2603:1061:101a:18::/62",
+      "address": "2603:1061:101a:24::/63",
       "systemService": "",
       "region": "eastus3"
     },
@@ -504478,17 +505618,17 @@
       "region": "israelcentral"
     },
     {
-      "address": "2603:1061:1007:c0::/61",
+      "address": "2603:1061:1007:c0::/60",
       "systemService": "",
       "region": "israelcentral"
     },
     {
-      "address": "2603:1061:1007:c8::/62",
+      "address": "2603:1061:1007:d0::/63",
       "systemService": "",
       "region": "israelcentral"
     },
     {
-      "address": "2603:1061:1007:cc::/64",
+      "address": "2603:1061:1007:d2::/64",
       "systemService": "",
       "region": "israelcentral"
     },
@@ -504698,17 +505838,7 @@
       "region": "israelnorthwest"
     },
     {
-      "address": "2603:1061:1015:20::/61",
-      "systemService": "",
-      "region": "israelnorthwest"
-    },
-    {
-      "address": "2603:1061:1015:28::/62",
-      "systemService": "",
-      "region": "israelnorthwest"
-    },
-    {
-      "address": "2603:1061:1015:2c::/64",
+      "address": "2603:1061:1015:20::/60",
       "systemService": "",
       "region": "israelnorthwest"
     },
@@ -506493,6 +507623,11 @@
       "region": "newzealandnorth"
     },
     {
+      "address": "2603:1061:100e:d0::/62",
+      "systemService": "",
+      "region": "newzealandnorth"
+    },
+    {
       "address": "2603:1061:1314:1000::/54",
       "systemService": "",
       "region": "newzealandnorth"
@@ -508258,7 +509393,17 @@
       "region": "southcentralus2"
     },
     {
-      "address": "2603:1061:1012:40::/64",
+      "address": "2603:1061:1012:40::/61",
+      "systemService": "",
+      "region": "southcentralus2"
+    },
+    {
+      "address": "2603:1061:1012:48::/63",
+      "systemService": "",
+      "region": "southcentralus2"
+    },
+    {
+      "address": "2603:1061:1012:4a::/64",
       "systemService": "",
       "region": "southcentralus2"
     },
@@ -508918,17 +510063,17 @@
       "region": "southcentralus"
     },
     {
-      "address": "2603:1030:804:580::/61",
+      "address": "2603:1030:804:580::/60",
       "systemService": "",
       "region": "southcentralus"
     },
     {
-      "address": "2603:1030:804:588::/62",
+      "address": "2603:1030:804:590::/61",
       "systemService": "",
       "region": "southcentralus"
     },
     {
-      "address": "2603:1030:804:58c::/64",
+      "address": "2603:1030:804:598::/62",
       "systemService": "",
       "region": "southcentralus"
     },
@@ -515988,6 +517133,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:9:846::/64",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "2603:1030:a::/47",
       "systemService": "",
       "region": ""
@@ -518728,22 +519878,17 @@
       "region": ""
     },
     {
-      "address": "2603:1030:401:a60::/60",
+      "address": "2603:1030:401:a60::/59",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1030:401:a70::/61",
+      "address": "2603:1030:401:a80::/60",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1030:401:a78::/63",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1030:401:a7a::/64",
+      "address": "2603:1030:401:a90::/63",
       "systemService": "",
       "region": ""
     },
@@ -519503,17 +520648,17 @@
       "region": ""
     },
     {
-      "address": "2603:1030:804:580::/61",
+      "address": "2603:1030:804:580::/60",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1030:804:588::/62",
+      "address": "2603:1030:804:590::/61",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1030:804:58c::/64",
+      "address": "2603:1030:804:598::/62",
       "systemService": "",
       "region": ""
     },
@@ -522173,17 +523318,17 @@
       "region": ""
     },
     {
-      "address": "2603:1061:1007:c0::/61",
+      "address": "2603:1061:1007:c0::/60",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:1007:c8::/62",
+      "address": "2603:1061:1007:d0::/63",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:1007:cc::/64",
+      "address": "2603:1061:1007:d2::/64",
       "systemService": "",
       "region": ""
     },
@@ -522348,6 +523493,11 @@
       "region": ""
     },
     {
+      "address": "2603:1061:100e:d0::/62",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "2603:1061:1010::/57",
       "systemService": "",
       "region": ""
@@ -522393,7 +523543,17 @@
       "region": ""
     },
     {
-      "address": "2603:1061:1012:40::/64",
+      "address": "2603:1061:1012:40::/61",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1061:1012:48::/63",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1061:1012:4a::/64",
       "systemService": "",
       "region": ""
     },
@@ -522433,17 +523593,7 @@
       "region": ""
     },
     {
-      "address": "2603:1061:1015:20::/61",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:1015:28::/62",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:1015:2c::/64",
+      "address": "2603:1061:1015:20::/60",
       "systemService": "",
       "region": ""
     },
@@ -522523,17 +523673,17 @@
       "region": ""
     },
     {
-      "address": "2603:1061:101a::/60",
+      "address": "2603:1061:101a::/59",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101a:10::/61",
+      "address": "2603:1061:101a:20::/62",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101a:18::/62",
+      "address": "2603:1061:101a:24::/63",
       "systemService": "",
       "region": ""
     },
@@ -522569,6 +523719,11 @@
     },
     {
       "address": "2603:1061:101c:18::/63",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1061:101c:1a::/64",
       "systemService": "",
       "region": ""
     },
@@ -536303,7 +537458,12 @@
       "region": "chinanorth3"
     },
     {
-      "address": "2406:e500:2501:78::/64",
+      "address": "2406:e500:2501:78::/63",
+      "systemService": "",
+      "region": "chinanorth3"
+    },
+    {
+      "address": "2406:e500:2501:7a::/64",
       "systemService": "",
       "region": "chinanorth3"
     },
@@ -536618,7 +537778,12 @@
       "region": ""
     },
     {
-      "address": "2406:e500:2501:78::/64",
+      "address": "2406:e500:2501:78::/63",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2406:e500:2501:7a::/64",
       "systemService": "",
       "region": ""
     },
