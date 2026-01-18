@@ -3,7 +3,7 @@
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json"
   ],
-  "last_update": "2025-11-22T12:05:56.079533",
+  "last_update": "2026-01-17T12:05:27.712831",
   "ipv4": [
     "104.154.113.0/24",
     "104.154.114.0/23",
@@ -818,6 +818,8 @@
     "35.254.0.0/15",
     "8.228.0.0/19",
     "8.228.128.0/18",
+    "8.228.192.0/19",
+    "8.228.224.0/20",
     "8.228.32.0/19",
     "8.228.64.0/18",
     "8.34.208.0/23",
@@ -3050,6 +3052,11 @@
       "scope": "europe-west9"
     },
     {
+      "address": "8.228.224.0/20",
+      "service": "Google Cloud",
+      "scope": "global"
+    },
+    {
       "address": "34.3.2.0/27",
       "service": "Google Cloud",
       "scope": "global"
@@ -3253,6 +3260,11 @@
       "address": "34.157.252.0/23",
       "service": "Google Cloud",
       "scope": "me-central1"
+    },
+    {
+      "address": "8.228.192.0/19",
+      "service": "Google Cloud",
+      "scope": "me-central2"
     },
     {
       "address": "34.1.48.0/20",
