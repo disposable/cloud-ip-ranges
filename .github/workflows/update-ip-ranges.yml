@@ -64,6 +64,6 @@ jobs:
         # The message for the commit.
         # Default: 'Commit from GitHub Actions (name of the workflow)'
         message: |
-          Updated ${{ steps.build.outputs.sources_updated }} (IPv4: ${{ steps.build.outputs.total_ipv4 }}, IPv6: ${{ steps.build.outputs.total_ipv6 }})
+          Updated ${{ steps.build.outputs.sources_count }} services (IPv4: ${{ steps.build.outputs.total_ipv4 }}, IPv6: ${{ steps.build.outputs.total_ipv6 }})
 
           ${{ steps.build.outputs.log_content }}
