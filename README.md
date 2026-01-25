@@ -29,7 +29,6 @@ which shows their assigned IP ranges.
 * Telegram - https://core.telegram.org/resources/cidr.txt
 * WhatsApp - https://developers.facebook.com/docs/whatsapp/guides/network-requirements/
 * IBM/Softlayer (from ASN Prefix) - AS36351
-* Vercel/AWS (from ASN Prefix) - AS15169
 * Heroku/AWS (from ASN Prefix) - AS14618
 * A2Hosting (from ASN Prefix) - AS55293
 * GoDaddy (from ASN Prefix) - AS26496, AS30083
