@@ -3,7 +3,7 @@
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-01-23-23-08-04",
+  "last_update": "2026-01-24-01-38-04",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -4577,13 +4577,17 @@
     "40.180.0.0/15",
     "40.186.0.0/16",
     "40.187.0.0/16",
+    "40.188.0.0/16",
     "40.192.0.0/17",
     "40.192.128.0/17",
     "40.193.0.0/16",
     "40.194.0.0/16",
     "40.195.0.0/16",
+    "40.201.0.0/16",
     "40.238.0.0/16",
     "40.239.0.0/16",
+    "40.32.0.0/16",
+    "40.35.0.0/16",
     "40.38.0.0/16",
     "40.39.0.0/16",
     "43.192.0.0/16",
@@ -26195,6 +26199,12 @@
       "network_border_group": "GLOBAL"
     },
     {
+      "address": "40.35.0.0/16",
+      "service": "AMAZON",
+      "region": "ap-southeast-2",
+      "network_border_group": "ap-southeast-2"
+    },
+    {
       "address": "52.93.88.161/32",
       "service": "AMAZON",
       "region": "us-east-1",
@@ -31979,6 +31989,12 @@
       "network_border_group": "eu-south-1"
     },
     {
+      "address": "40.32.0.0/16",
+      "service": "AMAZON",
+      "region": "ap-southeast-2",
+      "network_border_group": "ap-southeast-2"
+    },
+    {
       "address": "51.0.138.0/23",
       "service": "AMAZON",
       "region": "eusc-de-east-1",
@@ -32373,6 +32389,12 @@
       "service": "AMAZON",
       "region": "us-east-1",
       "network_border_group": "us-east-1"
+    },
+    {
+      "address": "40.201.0.0/16",
+      "service": "AMAZON",
+      "region": "ca-west-1",
+      "network_border_group": "ca-west-1"
     },
     {
       "address": "52.72.0.0/15",
@@ -32805,6 +32827,12 @@
       "service": "AMAZON",
       "region": "us-east-1",
       "network_border_group": "us-east-1"
+    },
+    {
+      "address": "40.188.0.0/16",
+      "service": "AMAZON",
+      "region": "ca-west-1",
+      "network_border_group": "ca-west-1"
     },
     {
       "address": "52.93.67.0/24",
