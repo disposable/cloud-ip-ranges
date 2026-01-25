@@ -20,7 +20,7 @@ which shows their assigned IP ranges.
 * OpenAI - https://openai.com/chatgpt-user.json, https://openai.com/gptbot.json
 * Perplexity - https://www.perplexity.ai/perplexitybot.json, https://www.perplexity.ai/perplexity-user.json
 * GitHub - https://api.github.com/meta
-* Apple iCloud - https://mask-api.icloud.com/egress-ip-ranges.csv
+* Apple Services - https://support.apple.com/en-us/101555 (17.0.0.0/8, 2403:300::/32, 2620:149::/32, 2a01:b740::/32)
 * Starlink ISP - https://geoip.starlinkisp.net/feed.csv
 * Akamai - https://techdocs.akamai.com/property-manager/pdfs/akamai_ipv4_ipv6_CIDRs-txt.zip
 * Zscaler - https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/
