@@ -44,25 +44,25 @@ which shows their assigned IP ranges.
 * Salesforce Hyperforce - https://ip-ranges.salesforce.com/ip-ranges.json
 * Sentry - https://sentry.io/api/0/uptime-ips/
 * Branch - https://help.branch.io/docs/postback-webhook-ip-address-allowlist-expands
-* Vercel - RDAP/ARIN registry-owned netblocks
-* Fly.io - BGP-announced prefixes (AS40509)
-* Render - BGP-announced prefixes (AS397273)
-* IBM/Softlayer (from ASN Prefix) - AS36351
+* IBM/Softlayer (from RADB AS-SET) - RADB::AS-SOFTLAYER
 * Heroku/AWS (from ASN Prefix) - AS14618
+* Fly.io (from ASN Prefix) - AS40509
+* Render (from ASN Prefix) - AS397273
 * A2Hosting (from ASN Prefix) - AS55293
 * GoDaddy (from ASN Prefix) - AS26496, AS30083
 * Dreamhost (from ASN Prefix) - AS26347
-* Alibaba (from ASN Prefix) - AS45102, AS134963
-* Tencent (from ASN Prefix) - AS45090, AS133478, AS132591, AS132203
-* ucloud (from ASN Prefix) - AS135377, AS59077
+* Alibaba (from RADB AS-SET) - RADB::AS-ALIBABA-CN-NET, AS134963
+* Tencent (from RADB AS-SET) - RADB::AS132203:AS-TENCENT
+* Ucloud (from ASN Prefix) - AS135377, AS59077
 * Meta Crawler (from RADB AS-SET) - RADB::AS-FACEBOOK
-* Huawei Cloud (from ASN Prefix) - AS136907, AS55990
-* Hetzner (from ASN Prefix) - AS24940, AS37153
+* Huawei Cloud (from RADB AS-SET) - RADB::AS-HUAWEI
+* Hetzner (from RADB AS-SET) - RADB::AS-HETZNER
 * Choopa (from ASN Prefix) - AS46407, AS20473, AS133795, AS11508
-* OVH (from ASN Prefix) - AS35540, AS16276
-* Online SAS (from ASN Prefix) - AS12876
-* Rackspace (from ASN Prefix) - AS58683, AS54636, AS45187, AS39921, AS36248, AS27357, AS22720, AS19994, AS15395, AS12200, AS10532
-* nForce (from ASN Prefix) - AS64437, AS43350
+* OVH (from RADB AS-SET) - RADB::AS-OVH
+* Online SAS (from RADB AS-SET) - RADB::AS-ONLINESAS
+* Rackspace (from RADB AS-SET) - RADB::AS-RACKSPACE
+* nForce (from RADB AS-SET) - RADB::AS-NFORCE
+* Vercel - RDAP/ARIN registry-owned netblocks
 
 ## Notes
 
