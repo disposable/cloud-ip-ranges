@@ -1,7 +1,9 @@
-# cloud-ip-ranges
+# Cloud IP Ranges
 
 The idea of this repository is to have one source for all major cloud providers,
 which shows their assigned IP ranges.
+
+**Note:** This repository contains only the output of the crawler. The crawler itself is available on it's own [Repository](https://github.com/disposable/cloud-ip-ranges-crawler) and can be run on your own hardware to generate the latest IP ranges data.
 
 ## Data sources
 
@@ -21,7 +23,7 @@ which shows their assigned IP ranges.
 * Perplexity - https://www.perplexity.ai/perplexitybot.json, https://www.perplexity.ai/perplexity-user.json
 * GitHub - https://api.github.com/meta
 * Apple Private Relay - https://mask-api.icloud.com/egress-ip-ranges.csv
-* Starlink ISP - https://geoip.starlinkisp.net/feed.csv
+* Starlink ISP - https://geoip.starlinkisp.net/feed.csv (saved to misc/ directory as user ISP traffic)
 * Akamai - https://techdocs.akamai.com/property-manager/pdfs/akamai_ipv4_ipv6_CIDRs-txt.zip
 * Zscaler - https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/
 * Fastly - https://api.fastly.com/public-ip-list
@@ -54,7 +56,8 @@ which shows their assigned IP ranges.
 
 ## Notes
 
-* Some providers use ASN prefixes, which are now resolved via RIPEstat “Announced Prefixes” for BGP-announced prefixes, with HackerTarget as fallback.
+* Some providers use ASN prefixes, which are now resolved via RIPEstat "Announced Prefixes" for BGP-announced prefixes, with HackerTarget as fallback.
 * Vercel uses RDAP/ARIN registry lookups to emit Vercel-owned netblocks only (not cloud egress/edge IPs).
 * All JSON outputs include metadata: provider_id, method, coverage_notes, generated_at, source_updated_at, and source_http.
-* CI workflows can use `--max-delta-ratio` to reject runs with extreme IP count changes.
+* CI workflows use `--max-delta-ratio` to reject runs with extreme IP count changes.
+* Misc providers (like Starlink ISP) are excluded from default runs and saved to the `misc/` directory.
