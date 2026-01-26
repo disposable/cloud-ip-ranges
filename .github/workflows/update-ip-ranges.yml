@@ -22,18 +22,19 @@ jobs:
       with:
         python-version: '3.10'
 
+    - name: Set up uv
+      uses: astral-sh/setup-uv@v3
+
     - name: Install dependencies
       run: |
-        python -m pip install uv
-        cd crawler
-        uv sync --no-dev
+        uv sync --directory crawler --no-dev
 
     - name: Run Update IP ranges
       id: build
       run: |
         mkdir -p json txt csv
         cd json
-        uv run --directory ../crawler cloud-ip-ranges --add-env-statistics --only-if-changed --output-format json csv txt 2>&1 | tee ../run.log
+        uv run --directory ../crawler cloud-ip-ranges --add-env-statistics --only-if-changed --max-delta-ratio 0.3 --output-format json csv txt 2>&1 | tee ../run.log
         mv *.txt ../txt 2>&1 || true
         mv *.csv ../csv 2>&1 || true
         # Expose the raw log content as a multiline step output

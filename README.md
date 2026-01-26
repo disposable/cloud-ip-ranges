@@ -28,6 +28,13 @@ which shows their assigned IP ranges.
 * Microsoft Azure - https://azservicetags.azurewebsites.net/
 * Telegram - https://core.telegram.org/resources/cidr.txt
 * WhatsApp - https://developers.facebook.com/docs/whatsapp/guides/network-requirements/
+* Atlassian - https://ip-ranges.atlassian.com/
+* Datadog - https://ip-ranges.datadoghq.com/
+* Okta - https://s3.amazonaws.com/okta-ip-ranges/ip_ranges.json
+* Zendesk - https://support.zendesk.com/ips
+* Vercel - RDAP/ARIN registry-owned netblocks
+* Fly.io - BGP-announced prefixes (AS40509)
+* Render - BGP-announced prefixes (AS397273)
 * IBM/Softlayer (from ASN Prefix) - AS36351
 * Heroku/AWS (from ASN Prefix) - AS14618
 * A2Hosting (from ASN Prefix) - AS55293
@@ -47,4 +54,7 @@ which shows their assigned IP ranges.
 
 ## Notes
 
-* Some providers use ASN prefixes, which can be resolved using https://api.hackertarget.com/aslookup/?q=AS12345
+* Some providers use ASN prefixes, which are now resolved via RIPEstat “Announced Prefixes” for BGP-announced prefixes, with HackerTarget as fallback.
+* Vercel uses RDAP/ARIN registry lookups to emit Vercel-owned netblocks only (not cloud egress/edge IPs).
+* All JSON outputs include metadata: provider_id, method, coverage_notes, generated_at, source_updated_at, and source_http.
+* CI workflows can use `--max-delta-ratio` to reject runs with extreme IP count changes.
