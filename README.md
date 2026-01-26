@@ -54,4 +54,7 @@ which shows their assigned IP ranges.
 
 ## Notes
 
-* Some providers use ASN prefixes, which can be resolved using https://api.hackertarget.com/aslookup/?q=AS12345
+* Some providers use ASN prefixes, which are now resolved via RIPEstat “Announced Prefixes” for BGP-announced prefixes, with HackerTarget as fallback.
+* Vercel uses RDAP/ARIN registry lookups to emit Vercel-owned netblocks only (not cloud egress/edge IPs).
+* All JSON outputs include metadata: provider_id, method, coverage_notes, generated_at, source_updated_at, and source_http.
+* CI workflows can use `--max-delta-ratio` to reject runs with extreme IP count changes.
