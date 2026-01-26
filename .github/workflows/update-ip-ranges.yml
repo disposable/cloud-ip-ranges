@@ -34,7 +34,7 @@ jobs:
       run: |
         mkdir -p json txt csv
         cd json
-        uv run --directory ../crawler cloud-ip-ranges --add-env-statistics --only-if-changed --output-format json csv txt 2>&1 | tee ../run.log
+        uv run --directory ../crawler cloud-ip-ranges --add-env-statistics --only-if-changed --max-delta-ratio 0.3 --output-format json csv txt 2>&1 | tee ../run.log
         mv *.txt ../txt 2>&1 || true
         mv *.csv ../csv 2>&1 || true
         # Expose the raw log content as a multiline step output
