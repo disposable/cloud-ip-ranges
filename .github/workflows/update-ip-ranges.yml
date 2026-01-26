@@ -31,10 +31,9 @@ jobs:
     - name: Run Update IP ranges
       id: build
       run: |
-        source crawler/.venv/bin/activate
         mkdir -p json txt csv
         cd json
-        python3 ../crawler/src/cloud_ip_ranges.py --add-env-statistics --only-if-changed --output-format json csv txt 2>&1 | tee ../run.log
+        uv run --directory ../crawler cloud-ip-ranges --add-env-statistics --only-if-changed --output-format json csv txt 2>&1 | tee ../run.log
         mv *.txt ../txt 2>&1 || true
         mv *.csv ../csv 2>&1 || true
         # Expose the raw log content as a multiline step output
