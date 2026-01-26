@@ -34,6 +34,16 @@ which shows their assigned IP ranges.
 * Datadog - https://ip-ranges.datadoghq.com/
 * Okta - https://s3.amazonaws.com/okta-ip-ranges/ip_ranges.json
 * Zendesk - https://support.zendesk.com/ips
+* CircleCI - https://circleci.com/docs/ip-ranges-list.json
+* HCP Terraform - https://app.terraform.io/api/meta/ip-ranges
+* New Relic Synthetics - https://nr-synthetics-assets.s3.amazonaws.com/nat-ip-dnsname/production/ip-ranges.json
+* Grafana Cloud - https://grafana.com/api/hosted-alerts/source-ips, https://grafana.com/api/hosted-grafana/source-ips, https://grafana.com/api/hosted-metrics/source-ips, https://grafana.com/api/hosted-traces/source-ips, https://grafana.com/api/hosted-logs/source-ips, https://grafana.com/api/hosted-profiles/source-ips, https://grafana.com/api/hosted-otlp/source-ips
+* Intercom - https://static.intercomcdn.com/intercom-ips/us/intercom-ip-ranges.json, https://static.intercomcdn.com/intercom-ips/eu/intercom-ip-ranges.json, https://static.intercomcdn.com/intercom-ips/au/intercom-ip-ranges.json
+* Stripe - https://stripe.com/files/ips/ips_api.json, https://stripe.com/files/ips/ips_webhooks.json
+* Adyen - https://docs.adyen.com/development-resources/security/integration-security/allowlisting
+* Salesforce Hyperforce - https://ip-ranges.salesforce.com/ip-ranges.json
+* Sentry - https://sentry.io/api/0/uptime-ips/
+* Branch - https://help.branch.io/docs/postback-webhook-ip-address-allowlist-expands
 * Vercel - RDAP/ARIN registry-owned netblocks
 * Fly.io - BGP-announced prefixes (AS40509)
 * Render - BGP-announced prefixes (AS397273)
@@ -45,7 +55,7 @@ which shows their assigned IP ranges.
 * Alibaba (from ASN Prefix) - AS45102, AS134963
 * Tencent (from ASN Prefix) - AS45090, AS133478, AS132591, AS132203
 * ucloud (from ASN Prefix) - AS135377, AS59077
-* Meta Crawler (from ASN Prefix) - AS32934
+* Meta Crawler (from RADB AS-SET) - RADB::AS-FACEBOOK
 * Huawei Cloud (from ASN Prefix) - AS136907, AS55990
 * Hetzner (from ASN Prefix) - AS24940, AS37153
 * Choopa (from ASN Prefix) - AS46407, AS20473, AS133795, AS11508
