@@ -33,12 +33,11 @@ jobs:
       id: build
       run: |
         mkdir -p json txt csv
-        cd json
-        uv run --directory ../crawler cloud-ip-ranges --add-env-statistics --only-if-changed --max-delta-ratio 0.3 --output-format json csv txt 2>&1 | tee ../run.log
-        mv *.txt ../txt 2>&1 || true
-        mv *.csv ../csv 2>&1 || true
+        uv run --directory crawler cloud-ip-ranges --add-env-statistics --only-if-changed --max-delta-ratio 0.3 --output-format json csv txt --output-dir json 2>&1 | tee run.log
+        if compgen -G "json/*.txt" > /dev/null; then mv json/*.txt txt/; fi
+        if compgen -G "json/*.csv" > /dev/null; then mv json/*.csv csv/; fi
         # Expose the raw log content as a multiline step output
-        LOG_PATH=../run.log
+        LOG_PATH=run.log
         {
           echo "log_content<<EOF"
           # Strip leading timestamps (keep the log level and message)
@@ -93,10 +92,9 @@ jobs:
       id: build-misc
       run: |
         mkdir -p misc
-        cd misc
-        uv run --directory ../crawler cloud-ip-ranges --misc --add-env-statistics --only-if-changed --max-delta-ratio 0.3 --output-format json csv txt 2>&1 | tee ../run-misc.log
+        uv run --directory crawler cloud-ip-ranges --misc --add-env-statistics --only-if-changed --max-delta-ratio 0.3 --output-format json csv txt --output-dir misc 2>&1 | tee run-misc.log
         # Expose the raw log content as a multiline step output
-        LOG_PATH=../run-misc.log
+        LOG_PATH=run-misc.log
         {
           echo "log_content<<EOF"
           # Strip leading timestamps (keep the log level and message)
