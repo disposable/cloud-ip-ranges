@@ -44,7 +44,7 @@ jobs:
         if [ "$FORCE_RUN" = "true" ]; then
           MAX_DELTA_FLAG=""
         fi
-        uv run --directory crawler cloud-ip-ranges --add-env-statistics --only-if-changed $MAX_DELTA_FLAG --output-format json csv txt --output-dir ../json 2>&1 | tee run.log
+        uv run --no-dev --directory crawler cloud-ip-ranges --add-env-statistics --only-if-changed $MAX_DELTA_FLAG --output-format json csv txt --output-dir ../json 2>&1 | tee run.log
         if compgen -G "json/*.txt" > /dev/null; then mv json/*.txt txt/; fi
         if compgen -G "json/*.csv" > /dev/null; then mv json/*.csv csv/; fi
         # Expose the raw log content as a multiline step output
@@ -87,6 +87,10 @@ jobs:
       with:
         submodules: true
 
+    - name: Sync with latest master
+      run: |
+        git pull --ff-only origin master
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -108,7 +112,7 @@ jobs:
         if [ "$FORCE_RUN" = "true" ]; then
           MAX_DELTA_FLAG=""
         fi
-        uv run --directory crawler cloud-ip-ranges --misc --add-env-statistics --only-if-changed $MAX_DELTA_FLAG --output-format json csv txt --output-dir ../misc 2>&1 | tee run-misc.log
+        uv run --no-dev --directory crawler cloud-ip-ranges --misc --add-env-statistics --only-if-changed $MAX_DELTA_FLAG --output-format json csv txt --output-dir ../misc 2>&1 | tee run-misc.log
         # Expose the raw log content as a multiline step output
         LOG_PATH=run-misc.log
         {
