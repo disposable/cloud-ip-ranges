@@ -1,9 +1,14 @@
 {
   "provider": "Microsoft Azure",
+  "provider_id": "microsoft-azure",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:41.167030",
+  "source_updated_at": null,
   "source": [
     "https://azservicetags.azurewebsites.net/"
   ],
-  "last_update": "2026-01-22T01:42:21.941619",
+  "last_update": "2026-01-29T12:22:41.167030",
   "ipv4": [
     "102.133.0.0/19",
     "102.133.0.192/32",
@@ -611679,6 +611684,15 @@
       "address": "2a01:4180:2400::/40",
       "systemService": "",
       "region": ""
+    }
+  ],
+  "source_http": [
+    {
+      "url": "https://azservicetags.azurewebsites.net/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "etag": null,
+      "last_modified": null
     }
   ]
 }

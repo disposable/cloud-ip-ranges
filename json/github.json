@@ -1,9 +1,14 @@
 {
   "provider": "Github",
+  "provider_id": "github",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:25.417618",
+  "source_updated_at": null,
   "source": [
     "https://api.github.com/meta"
   ],
-  "last_update": "2025-10-30T11:10:30.130326",
+  "last_update": "2026-01-29T12:22:25.417618",
   "ipv4": [
     "140.82.112.0/20",
     "143.55.64.0/20",
@@ -144,6 +149,15 @@
     {
       "address": "2606:50c0::/32",
       "category": "web"
+    }
+  ],
+  "source_http": [
+    {
+      "url": "https://api.github.com/meta",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "W/\"f8c57988e797987edb33a3c0914193e01d84d78764b3a53908c96bf01ca00ae3\"",
+      "last_modified": null
     }
   ]
 }

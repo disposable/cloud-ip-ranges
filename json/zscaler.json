@@ -1,10 +1,15 @@
 {
   "provider": "Zscaler",
+  "provider_id": "zscaler",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:40.037616",
+  "source_updated_at": null,
   "source": [
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"
   ],
-  "last_update": "2025-12-18T01:23:37.641348",
+  "last_update": "2026-01-29T12:22:40.037616",
   "ipv4": [
     "101.2.192.0/18",
     "101.2.220.0/23",
@@ -1201,6 +1206,22 @@
     {
       "address": "2a03:eec0:322e::/48",
       "category": "recommended"
+    }
+  ],
+  "source_http": [
+    {
+      "url": "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "W/\"cca-b2uGnJ4iuKWs/0hYhmne/AxO2LA\"",
+      "last_modified": null
+    },
+    {
+      "url": "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "W/\"727-CCf2y00/iwzejM2/v4vmcXhax1k\"",
+      "last_modified": null
     }
   ]
 }

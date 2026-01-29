@@ -1,9 +1,14 @@
 {
   "provider": "Google Bot",
+  "provider_id": "google-bot",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:22.833714",
+  "source_updated_at": "2026-01-28T15:45:58.000000",
   "source": [
     "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   ],
-  "last_update": "2025-11-11T15:45:50.000000",
+  "last_update": "2026-01-28T15:45:58.000000",
   "ipv4": [
     "192.178.4.0/27",
     "192.178.4.128/27",
@@ -1852,6 +1857,15 @@
       "address": "2001:4860:4801:f::/64",
       "service": null,
       "scope": null
+    }
+  ],
+  "source_http": [
+    {
+      "url": "https://developers.google.com/static/search/apis/ipranges/googlebot.json",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": null,
+      "last_modified": "Wed, 28 Jan 2026 15:46:24 GMT"
     }
   ]
 }

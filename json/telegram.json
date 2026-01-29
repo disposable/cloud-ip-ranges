@@ -1,9 +1,14 @@
 {
   "provider": "Telegram",
+  "provider_id": "telegram",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:31.835751",
+  "source_updated_at": null,
   "source": [
     "https://core.telegram.org/resources/cidr.txt"
   ],
-  "last_update": "2025-05-08T01:21:54.828206",
+  "last_update": "2026-01-29T12:22:31.835751",
   "ipv4": [
     "149.154.160.0/20",
     "185.76.151.0/24",
@@ -21,5 +26,14 @@
     "2001:b28:f23d::/48",
     "2001:b28:f23f::/48",
     "2a0a:f280::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://core.telegram.org/resources/cidr.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "etag": "\"61573cab-e3\"",
+      "last_modified": "Fri, 01 Oct 2021 16:51:55 GMT"
+    }
   ]
 }

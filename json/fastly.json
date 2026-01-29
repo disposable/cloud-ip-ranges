@@ -1,9 +1,14 @@
 {
   "provider": "Fastly",
+  "provider_id": "fastly",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:40.230242",
+  "source_updated_at": null,
   "source": [
     "https://api.fastly.com/public-ip-list"
   ],
-  "last_update": "2025-05-06T21:11:50.627678",
+  "last_update": "2026-01-29T12:22:40.230242",
   "ipv4": [
     "103.244.50.0/24",
     "103.245.222.0/23",
@@ -28,5 +33,14 @@
   "ipv6": [
     "2a04:4e40::/32",
     "2a04:4e42::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://api.fastly.com/public-ip-list",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": null,
+      "last_modified": null
+    }
   ]
 }

@@ -1,9 +1,14 @@
 {
   "provider": "Oracle Cloud",
+  "provider_id": "oracle-cloud",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:23.186503",
+  "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-01-17T01:26:17.238143",
+  "last_update": "2026-01-29T12:22:23.186503",
   "ipv4": [
     {
       "address": "40.233.0.0/19",

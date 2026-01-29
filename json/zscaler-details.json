@@ -1,10 +1,15 @@
 {
   "provider": "Zscaler",
+  "provider_id": "zscaler",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:40.037616",
+  "source_updated_at": null,
   "source": [
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"
   ],
-  "last_update": "2025-12-18T01:23:37.641348",
+  "last_update": "2026-01-29T12:22:40.037616",
   "ipv4": [
     {
       "address": "8.25.203.0/24",

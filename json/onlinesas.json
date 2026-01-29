@@ -1,7 +1,15 @@
 {
   "provider": "Onlinesas",
-  "source": "AS12876",
-  "last_update": "2026-01-11T01:47:08.258217",
+  "provider_id": "onlinesas",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-01-29T12:24:19.544170",
+  "source_updated_at": null,
+  "source": [
+    "RADB::AS-ONLINESAS",
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS12876"
+  ],
+  "last_update": "2026-01-29T12:24:19.544170",
   "ipv4": [
     "151.115.0.0/18",
     "151.115.128.0/19",
@@ -33,5 +41,14 @@
     "2001:bc8:5000::/38",
     "2001:bc8:6800::/38",
     "2001:bc8::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS12876",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
   ]
 }

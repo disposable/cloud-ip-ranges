@@ -1,9 +1,14 @@
 {
   "provider": "Ahrefs",
+  "provider_id": "ahrefs",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:23.827384",
+  "source_updated_at": null,
   "source": [
     "https://api.ahrefs.com/v3/public/crawler-ips"
   ],
-  "last_update": "2025-05-06T21:11:43.575425",
+  "last_update": "2026-01-29T12:22:23.827384",
   "ipv4": [
     "142.44.220.0",
     "142.44.220.1",
@@ -9876,5 +9881,14 @@
     "94.23.188.222",
     "94.23.188.223"
   ],
-  "ipv6": []
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://api.ahrefs.com/v3/public/crawler-ips",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
 }

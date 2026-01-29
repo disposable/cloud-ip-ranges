@@ -1,5 +1,10 @@
 {
   "provider": "Bing Bot",
+  "provider_id": "bing-bot",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:22.961958",
+  "source_updated_at": "2024-01-03T10:00:00.121331",
   "source": [
     "https://www.bing.com/toolbox/bingbot.json"
   ],
@@ -177,5 +182,14 @@
       "scope": null
     }
   ],
-  "details_ipv6": []
+  "details_ipv6": [],
+  "source_http": [
+    {
+      "url": "https://www.bing.com/toolbox/bingbot.json",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": "\"76f6d387bd8adc1:0\"",
+      "last_modified": "Wed, 21 Jan 2026 10:05:54 GMT"
+    }
+  ]
 }

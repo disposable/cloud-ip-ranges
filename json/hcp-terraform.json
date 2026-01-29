@@ -1,0 +1,40 @@
+{
+  "provider": "Hcp Terraform",
+  "provider_id": "hcp-terraform",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:33.747077",
+  "source_updated_at": null,
+  "source": [
+    "https://app.terraform.io/api/meta/ip-ranges"
+  ],
+  "last_update": "2026-01-29T12:22:33.747077",
+  "ipv4": [
+    "184.73.220.168/32",
+    "35.169.128.114/32",
+    "44.224.173.58/32",
+    "44.225.195.96/32",
+    "44.236.246.186/32",
+    "44.238.78.236/32",
+    "52.37.251.66/32",
+    "52.41.30.244/32",
+    "52.45.167.229/32",
+    "52.70.186.109/32",
+    "52.86.200.106/32",
+    "52.86.201.227/32",
+    "54.185.161.84/32",
+    "54.225.227.126/32",
+    "75.2.98.97/32",
+    "99.83.150.238/32"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://app.terraform.io/api/meta/ip-ranges",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": "Mon, 22 Sep 2025 15:11:35 GMT"
+    }
+  ]
+}

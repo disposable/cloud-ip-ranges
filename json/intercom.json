@@ -1,0 +1,52 @@
+{
+  "provider": "Intercom",
+  "provider_id": "intercom",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:35.365029",
+  "source_updated_at": "2026-01-29",
+  "source": [
+    "https://static.intercomcdn.com/intercom-ips/us/intercom-ip-ranges.json",
+    "https://static.intercomcdn.com/intercom-ips/eu/intercom-ip-ranges.json",
+    "https://static.intercomcdn.com/intercom-ips/au/intercom-ip-ranges.json"
+  ],
+  "last_update": "2026-01-29T12:22:35.365029",
+  "ipv4": [
+    "3.104.68.152/32",
+    "34.197.76.213/32",
+    "34.231.68.152/32",
+    "35.169.138.21/32",
+    "35.171.78.91/32",
+    "52.44.63.161/32",
+    "52.63.36.185/32",
+    "52.64.2.165/32",
+    "52.70.27.159/32",
+    "54.216.9.3/32",
+    "54.217.125.63/32",
+    "54.246.173.113/32"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://static.intercomcdn.com/intercom-ips/us/intercom-ip-ranges.json",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": "\"60c88ded5cf3d7e2222bb5bfd2c3a6c9\"",
+      "last_modified": "Thu, 29 Jan 2026 09:02:30 GMT"
+    },
+    {
+      "url": "https://static.intercomcdn.com/intercom-ips/eu/intercom-ip-ranges.json",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": "\"90c7f683d1a1e762b3747fe5f8e153af\"",
+      "last_modified": "Thu, 29 Jan 2026 09:01:59 GMT"
+    },
+    {
+      "url": "https://static.intercomcdn.com/intercom-ips/au/intercom-ip-ranges.json",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": "\"6baa2a8f863f8219faa168b22b9bf9e8\"",
+      "last_modified": "Thu, 29 Jan 2026 09:02:05 GMT"
+    }
+  ]
+}

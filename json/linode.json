@@ -1,9 +1,14 @@
 {
   "provider": "Linode",
+  "provider_id": "linode",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:24.224448",
+  "source_updated_at": null,
   "source": [
     "https://geoip.linode.com/"
   ],
-  "last_update": "2025-12-20T01:22:34.698943",
+  "last_update": "2026-01-29T12:22:24.224448",
   "ipv4": [
     "103.29.68.0/24",
     "103.29.69.0/24",
@@ -5199,5 +5204,14 @@
     "2a01:7e02::/32",
     "2a01:7e03::/32",
     "2a01:7e04::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://geoip.linode.com/",
+      "status": 200,
+      "content_type": "text/plain; charset=UTF-8",
+      "etag": "\"697b2fa5-2c796\"",
+      "last_modified": "Thu, 29 Jan 2026 10:00:05 GMT"
+    }
   ]
 }

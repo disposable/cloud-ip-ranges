@@ -1,9 +1,14 @@
 {
   "provider": "Oracle Cloud",
+  "provider_id": "oracle-cloud",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:23.186503",
+  "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-01-17T01:26:17.238143",
+  "last_update": "2026-01-29T12:22:23.186503",
   "ipv4": [
     "129.144.0.0/16",
     "129.145.16.0/21",
@@ -5199,5 +5204,14 @@
       "region": "eu-jovanovac-1"
     }
   ],
-  "details_ipv6": []
+  "details_ipv6": [],
+  "source_http": [
+    {
+      "url": "https://docs.oracle.com/iaas/tools/public_ip_ranges.json",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": "\"696a1c32-2beb8\"",
+      "last_modified": "Fri, 16 Jan 2026 11:08:34 GMT"
+    }
+  ]
 }

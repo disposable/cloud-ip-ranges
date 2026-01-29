@@ -1,0 +1,27 @@
+{
+  "provider": "Zendesk",
+  "provider_id": "zendesk",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:33.237364",
+  "source_updated_at": null,
+  "source": [
+    "https://support.zendesk.com/ips"
+  ],
+  "last_update": "2026-01-29T12:22:33.237364",
+  "ipv4": [
+    "104.18.248.37/32",
+    "104.18.249.37/32",
+    "216.198.0.0/18"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://support.zendesk.com/ips",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

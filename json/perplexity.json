@@ -1,5 +1,10 @@
 {
   "provider": "Perplexity",
+  "provider_id": "perplexity",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:25.158246",
+  "source_updated_at": "2025-10-17T10:17:00.000000",
   "source": [
     "https://www.perplexity.ai/perplexitybot.json",
     "https://www.perplexity.ai/perplexity-user.json"
@@ -82,5 +87,21 @@
       "scope": null
     }
   ],
-  "details_ipv6": []
+  "details_ipv6": [],
+  "source_http": [
+    {
+      "url": "https://www.perplexity.ai/perplexitybot.json",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": null,
+      "last_modified": null
+    },
+    {
+      "url": "https://www.perplexity.ai/perplexity-user.json",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
 }

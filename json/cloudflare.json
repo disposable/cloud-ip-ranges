@@ -1,10 +1,15 @@
 {
   "provider": "Cloudflare",
+  "provider_id": "cloudflare",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:22.289881",
+  "source_updated_at": null,
   "source": [
     "https://www.cloudflare.com/ips-v4",
     "https://www.cloudflare.com/ips-v6"
   ],
-  "last_update": "2025-05-06T21:11:42.512346",
+  "last_update": "2026-01-29T12:22:22.289881",
   "ipv4": [
     "103.21.244.0/22",
     "103.22.200.0/22",
@@ -30,5 +35,21 @@
     "2803:f800::/32",
     "2a06:98c0::/29",
     "2c0f:f248::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://www.cloudflare.com/ips-v4",
+      "status": 200,
+      "content_type": "text/plain;charset=UTF-8",
+      "etag": null,
+      "last_modified": "Thu, 29 Jan 2026 10:34:15 GMT"
+    },
+    {
+      "url": "https://www.cloudflare.com/ips-v6",
+      "status": 200,
+      "content_type": "text/plain;charset=UTF-8",
+      "etag": null,
+      "last_modified": "Wed, 28 Jan 2026 16:17:17 GMT"
+    }
   ]
 }

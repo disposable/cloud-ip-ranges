@@ -1,9 +1,14 @@
 {
   "provider": "Akamai",
+  "provider_id": "akamai",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:31.337467",
+  "source_updated_at": null,
   "source": [
     "https://techdocs.akamai.com/property-manager/pdfs/akamai_ipv4_ipv6_CIDRs-txt.zip"
   ],
-  "last_update": "2025-05-06T21:11:50.059037",
+  "last_update": "2026-01-29T12:22:31.337467",
   "ipv4": [
     "184.24.0.0/13",
     "2.16.0.0/13",
@@ -16,5 +21,14 @@
     "2405:9600::/32",
     "2600:1400::/24",
     "2a02:26f0::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://techdocs.akamai.com/property-manager/pdfs/akamai_ipv4_ipv6_CIDRs-txt.zip",
+      "status": 200,
+      "content_type": "application/zip",
+      "etag": "\"f4ff8e880e19c6e2d777457f130e538f:1728410590.084549\"",
+      "last_modified": "Tue, 08 Oct 2024 18:03:10 GMT"
+    }
   ]
 }

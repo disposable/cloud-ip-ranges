@@ -1,5 +1,10 @@
 {
   "provider": "Openai",
+  "provider_id": "openai",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-29T12:22:24.876374",
+  "source_updated_at": "2025-10-30T11:00:00.000000",
   "source": [
     "https://openai.com/chatgpt-user.json",
     "https://openai.com/gptbot.json"
@@ -1456,5 +1461,21 @@
       "scope": null
     }
   ],
-  "details_ipv6": []
+  "details_ipv6": [],
+  "source_http": [
+    {
+      "url": "https://openai.com/chatgpt-user.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": "Wed, 14 Jan 2026 02:04:09 GMT"
+    },
+    {
+      "url": "https://openai.com/gptbot.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": "W/\"cfa3c07fe5c6e8741c495e5741edfbfb\"",
+      "last_modified": "Thu, 13 Nov 2025 20:44:57 GMT"
+    }
+  ]
 }
