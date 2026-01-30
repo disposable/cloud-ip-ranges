@@ -1,0 +1,31 @@
+{
+  "provider": "Backblaze",
+  "provider_id": "backblaze",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-01-30T09:38:21.278490",
+  "source_updated_at": null,
+  "source": [
+    "https://www.backblaze.com/computer-backup/docs/backblaze-ip-addresses"
+  ],
+  "last_update": "2026-01-30T09:38:21.278490",
+  "ipv4": [
+    "104.153.232.0/21",
+    "149.137.128.0/20",
+    "206.190.208.0/21",
+    "207.166.148.0/22",
+    "45.11.36.0/22"
+  ],
+  "ipv6": [
+    "2605:72c0::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://www.backblaze.com/computer-backup/docs/backblaze-ip-addresses",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

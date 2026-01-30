@@ -3,7 +3,7 @@
   "provider_id": "nforce",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-01-29T12:24:30.828740",
+  "generated_at": "2026-01-30T09:40:43.195689",
   "source_updated_at": null,
   "source": [
     "RADB::AS-NFORCE",
@@ -155,7 +155,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS64495",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9504"
   ],
-  "last_update": "2026-01-29T12:24:30.828740",
+  "last_update": "2026-01-30T09:40:43.195689",
   "ipv4": [
     "103.13.210.0/24",
     "103.158.222.0/24",
@@ -273,6 +273,8 @@
     "143.20.61.0/24",
     "143.20.62.0/24",
     "143.20.82.0/24",
+    "144.79.252.0/24",
+    "144.79.253.0/24",
     "145.22.254.0/24",
     "147.78.46.0/24",
     "149.154.152.0/24",
@@ -1201,6 +1203,7 @@
     "2a00:4140::/29",
     "2a00:6340:4000::/48",
     "2a00:6340::/32",
+    "2a00:8080:4c::/48",
     "2a00:8080::/32",
     "2a00:a160::/32",
     "2a00:aee0::/32",
