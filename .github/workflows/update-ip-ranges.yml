@@ -38,6 +38,7 @@ jobs:
     - name: Run Update IP ranges (Cloud Providers)
       id: build
       run: |
+        set -euo pipefail
         mkdir -p json txt csv
         FORCE_RUN="${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force == 'true' }}"
         MAX_DELTA_FLAG="--max-delta-ratio 0.3"
@@ -106,6 +107,7 @@ jobs:
     - name: Run Update IP ranges (Misc Providers)
       id: build-misc
       run: |
+        set -euo pipefail
         mkdir -p misc
         FORCE_RUN="${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force == 'true' }}"
         MAX_DELTA_FLAG="--max-delta-ratio 0.3"
