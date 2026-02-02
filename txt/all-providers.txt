@@ -1,7 +1,7 @@
 # provider: All Providers
 # providers_count: 65
 # provider_ids: aws, cloudflare, digitalocean, google-cloud, google-bot, bing-bot, oracle-cloud, ahrefs, linode, vultr, openai, perplexity, github, apple-private-relay, akamai, telegram, atlassian, datadog, okta, zendesk, circleci, hcp-terraform, new-relic-synthetics, grafana-cloud, intercom, stripe, adyen, salesforce-hyperforce, sentry, branch, vercel, zscaler, fastly, microsoft-azure, exoscale, scaleway, backblaze, cisco-webex, softlayer-ibm, heroku-aws, flyio, render, a2hosting, godaddy, dreamhost, alibaba, tencent, ucloud, meta-crawler, huawei-cloud, hetzner, choopa, ovh, onlinesas, rackspace, nforce, upcloud, gridscale, aruba-cloud, ionos-cloud, cyso-cloud, seeweb, open-telekom-cloud, wasabi, kamatera
-# generated_at: 2026-02-01T02:14:28.088761
+# generated_at: 2026-02-02T02:06:09.390869
 
 1.12.0.0/14
 1.92.0.0/16
@@ -3539,7 +3539,7 @@
 49.51.228.0/22
 49.51.232.0/21
 49.51.240.0/20
-49.213.58.0/24
+49.213.58.0/23
 49.232.0.0/14
 50.16.0.0/14
 50.21.0.0/20
@@ -8675,9 +8675,10 @@
 104.28.136.32/27
 104.28.136.64/26
 104.28.136.128/26
-104.28.136.192/29
-104.28.136.200/30
-104.28.136.204/31
+104.28.136.192/28
+104.28.136.208/30
+104.28.136.212/31
+104.28.136.214/32
 104.28.138.1/32
 104.28.138.2/31
 104.28.138.4/30
@@ -19348,6 +19349,7 @@
 2602:fc26:12::/48
 2602:fc26:14::/48
 2602:fc26:16::/48
+2602:fc26:1a::/48
 2602:fc68:100::/40
 2602:fc6a::/48
 2602:fc6a:200::/48
@@ -32045,6 +32047,7 @@
 2a07:3b80:8::/48
 2a07:3bc0::/29
 2a07:5480::/29
+2a07:54c0::/48
 2a07:54c1::/36
 2a07:5580::/32
 2a07:6cc0:10::/47
@@ -32605,9 +32608,8 @@
 2a10:ccc1:450::/48
 2a10:ccc1:452::/47
 2a10:ccc1:454::/48
-2a10:ccc1:459::/48
 2a10:ccc1:45a::/47
-2a10:ccc1:45e::/48
+2a10:ccc1:45c::/46
 2a10:ccc1:460::/48
 2a10:ccc1:462::/47
 2a10:ccc1:464::/46

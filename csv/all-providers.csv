@@ -417,7 +417,7 @@ IPv4,13.146.0.0/16,aws
 IPv4,13.150.0.0/15,aws
 IPv4,13.152.0.0/16,aws
 IPv4,13.154.0.0/16,aws
-IPv4,13.158.0.0/15,aws;okta
+IPv4,13.158.0.0/15,aws
 IPv4,13.160.0.0/16,aws
 IPv4,13.162.0.0/16,aws
 IPv4,13.166.0.0/15,aws
@@ -781,7 +781,7 @@ IPv4,18.136.0.0/16,atlassian;aws
 IPv4,18.138.0.0/15,aws;datadog
 IPv4,18.140.0.0/14,atlassian;aws;grafana-cloud;new-relic-synthetics;okta
 IPv4,18.144.0.0/15,aws
-IPv4,18.153.0.0/16,atlassian;aws;okta
+IPv4,18.153.0.0/16,atlassian;aws
 IPv4,18.154.0.0/15,aws
 IPv4,18.156.0.0/14,atlassian;aws;grafana-cloud;okta
 IPv4,18.160.0.0/13,aws;datadog
@@ -794,7 +794,7 @@ IPv4,18.188.0.0/14,aws;grafana-cloud;okta
 IPv4,18.192.0.0/11,atlassian;aws;circleci;datadog;grafana-cloud;heroku-aws;okta;perplexity;stripe
 IPv4,18.224.0.0/12,atlassian;aws;cisco-webex;datadog;grafana-cloud;heroku-aws;okta
 IPv4,18.244.0.0/15,aws
-IPv4,18.246.0.0/16,atlassian;aws
+IPv4,18.246.0.0/16,atlassian;aws;okta
 IPv4,18.252.0.0/15,aws
 IPv4,18.254.0.0/16,aws
 IPv4,20.0.0.0/12,bing-bot;microsoft-azure;openai
@@ -3535,7 +3535,7 @@ IPv4,49.51.224.0/23,tencent
 IPv4,49.51.228.0/22,tencent
 IPv4,49.51.232.0/21,tencent
 IPv4,49.51.240.0/20,tencent
-IPv4,49.213.58.0/24,nforce
+IPv4,49.213.58.0/23,nforce
 IPv4,49.232.0.0/14,tencent
 IPv4,50.16.0.0/14,aws;heroku-aws;okta;stripe
 IPv4,50.21.0.0/20,choopa
@@ -8671,9 +8671,10 @@ IPv4,104.28.136.16/28,apple-private-relay
 IPv4,104.28.136.32/27,apple-private-relay
 IPv4,104.28.136.64/26,apple-private-relay
 IPv4,104.28.136.128/26,apple-private-relay
-IPv4,104.28.136.192/29,apple-private-relay
-IPv4,104.28.136.200/30,apple-private-relay
-IPv4,104.28.136.204/31,apple-private-relay
+IPv4,104.28.136.192/28,apple-private-relay
+IPv4,104.28.136.208/30,apple-private-relay
+IPv4,104.28.136.212/31,apple-private-relay
+IPv4,104.28.136.214/32,apple-private-relay
 IPv4,104.28.138.1/32,apple-private-relay
 IPv4,104.28.138.2/31,apple-private-relay
 IPv4,104.28.138.4/30,apple-private-relay
@@ -19344,6 +19345,7 @@ IPv6,2602:fc26:a::/47,nforce
 IPv6,2602:fc26:12::/48,nforce
 IPv6,2602:fc26:14::/48,nforce
 IPv6,2602:fc26:16::/48,nforce
+IPv6,2602:fc26:1a::/48,nforce
 IPv6,2602:fc68:100::/40,nforce;ovh
 IPv6,2602:fc6a::/48,ovh
 IPv6,2602:fc6a:200::/48,ovh
@@ -32041,6 +32043,7 @@ IPv6,2a07:3b80:3::/48,nforce
 IPv6,2a07:3b80:8::/48,kamatera
 IPv6,2a07:3bc0::/29,nforce
 IPv6,2a07:5480::/29,hetzner
+IPv6,2a07:54c0::/48,ovh
 IPv6,2a07:54c1::/36,ovh
 IPv6,2a07:5580::/32,choopa
 IPv6,2a07:6cc0:10::/47,exoscale
@@ -32601,9 +32604,8 @@ IPv6,2a10:ccc1:44f::/48,choopa
 IPv6,2a10:ccc1:450::/48,choopa
 IPv6,2a10:ccc1:452::/47,choopa
 IPv6,2a10:ccc1:454::/48,choopa
-IPv6,2a10:ccc1:459::/48,choopa
 IPv6,2a10:ccc1:45a::/47,choopa
-IPv6,2a10:ccc1:45e::/48,choopa
+IPv6,2a10:ccc1:45c::/46,choopa
 IPv6,2a10:ccc1:460::/48,choopa
 IPv6,2a10:ccc1:462::/47,choopa
 IPv6,2a10:ccc1:464::/46,choopa
