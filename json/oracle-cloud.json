@@ -3,12 +3,12 @@
   "provider_id": "oracle-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-01-29T12:22:23.186503",
+  "generated_at": "2026-02-06T01:56:00.736571",
   "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-01-29T12:22:23.186503",
+  "last_update": "2026-02-06T01:56:00.736571",
   "ipv4": [
     "129.144.0.0/16",
     "129.145.16.0/21",
@@ -531,6 +531,8 @@
     "146.56.48.0/21",
     "146.56.61.192/26",
     "146.56.96.0/20",
+    "147.15.0.0/17",
+    "147.15.128.0/19",
     "147.154.0.0/19",
     "147.154.112.0/21",
     "147.154.120.0/22",
@@ -559,6 +561,7 @@
     "148.116.64.0/19",
     "149.118.240.0/23",
     "149.118.64.0/20",
+    "149.118.92.0/22",
     "149.130.136.0/23",
     "149.130.160.0/19",
     "149.130.208.0/20",
@@ -1037,6 +1040,7 @@
     "92.4.160.0/20",
     "92.4.176.0/20",
     "92.4.192.0/21",
+    "92.4.228.0/22",
     "92.4.232.0/23",
     "92.4.240.0/20",
     "92.4.64.0/19",
@@ -1417,6 +1421,10 @@
     },
     {
       "address": "146.235.32.0/19",
+      "region": "sa-saopaulo-1"
+    },
+    {
+      "address": "147.15.0.0/17",
       "region": "sa-saopaulo-1"
     },
     {
@@ -1852,6 +1860,10 @@
       "region": "ca-montreal-1"
     },
     {
+      "address": "147.15.128.0/19",
+      "region": "ca-montreal-1"
+    },
+    {
       "address": "148.116.64.0/19",
       "region": "ca-montreal-1"
     },
@@ -1953,6 +1965,10 @@
     },
     {
       "address": "207.135.30.0/23",
+      "region": "me-jeddah-1"
+    },
+    {
+      "address": "92.4.228.0/22",
       "region": "me-jeddah-1"
     },
     {
@@ -4216,6 +4232,10 @@
       "region": "ap-melbourne-1"
     },
     {
+      "address": "149.118.92.0/22",
+      "region": "ap-melbourne-1"
+    },
+    {
       "address": "158.179.4.0/22",
       "region": "ap-melbourne-1"
     },
@@ -5210,8 +5230,8 @@
       "url": "https://docs.oracle.com/iaas/tools/public_ip_ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"696a1c32-2beb8\"",
-      "last_modified": "Fri, 16 Jan 2026 11:08:34 GMT"
+      "etag": "\"698467e7-2c14c\"",
+      "last_modified": "Thu, 05 Feb 2026 09:50:31 GMT"
     }
   ]
 }

@@ -3,12 +3,12 @@
   "provider_id": "oracle-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-01-29T12:22:23.186503",
+  "generated_at": "2026-02-06T01:56:00.736571",
   "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-01-29T12:22:23.186503",
+  "last_update": "2026-02-06T01:56:00.736571",
   "ipv4": [
     {
       "address": "40.233.0.0/19",
@@ -376,6 +376,10 @@
     },
     {
       "address": "146.235.32.0/19",
+      "region": "sa-saopaulo-1"
+    },
+    {
+      "address": "147.15.0.0/17",
       "region": "sa-saopaulo-1"
     },
     {
@@ -811,6 +815,10 @@
       "region": "ca-montreal-1"
     },
     {
+      "address": "147.15.128.0/19",
+      "region": "ca-montreal-1"
+    },
+    {
       "address": "148.116.64.0/19",
       "region": "ca-montreal-1"
     },
@@ -912,6 +920,10 @@
     },
     {
       "address": "207.135.30.0/23",
+      "region": "me-jeddah-1"
+    },
+    {
+      "address": "92.4.228.0/22",
       "region": "me-jeddah-1"
     },
     {
@@ -3172,6 +3184,10 @@
     },
     {
       "address": "140.204.42.128/25",
+      "region": "ap-melbourne-1"
+    },
+    {
+      "address": "149.118.92.0/22",
       "region": "ap-melbourne-1"
     },
     {
