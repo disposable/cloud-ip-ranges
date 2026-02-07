@@ -3,7 +3,7 @@
   "provider_id": "huawei-cloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-01-29T12:23:04.848849",
+  "generated_at": "2026-02-07T01:53:42.782246",
   "source_updated_at": null,
   "source": [
     "RADB::AS-HUAWEI",
@@ -15,7 +15,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS265443",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS55990"
   ],
-  "last_update": "2026-01-29T12:23:04.848849",
+  "last_update": "2026-02-07T01:53:42.782246",
   "ipv4": [
     "1.178.32.0/20",
     "1.178.48.0/20",
@@ -68,6 +68,8 @@
     "101.245.96.0/19",
     "101.44.0.0/20",
     "101.44.104.0/24",
+    "101.44.112.0/20",
+    "101.44.128.0/20",
     "101.44.144.0/20",
     "101.44.16.0/20",
     "101.44.160.0/20",
@@ -311,6 +313,7 @@
     "115.30.48.0/20",
     "115.32.0.0/20",
     "115.32.104.0/21",
+    "115.32.120.0/21",
     "115.32.128.0/19",
     "115.32.144.0/21",
     "115.32.152.0/21",
