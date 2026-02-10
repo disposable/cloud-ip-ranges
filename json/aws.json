@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-02-07T01:52:42.475949",
-  "source_updated_at": "2026-02-06-23-38-04",
+  "generated_at": "2026-02-10T02:13:11.201895",
+  "source_updated_at": "2026-02-09-21-08-04",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-02-06-23-38-04",
+  "last_update": "2026-02-09-21-08-04",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -9212,6 +9212,7 @@
     "2606:7b40:1a3f:c310::/60",
     "2606:7b40:1a3f:c320::/60",
     "2606:7b40:1a4f:c200::/60",
+    "2606:7b40:1a4f:c240::/60",
     "2606:7b40:1a4f:c310::/60",
     "2606:7b40:1a4f:c320::/60",
     "2606:7b40:1b00:500::/56",
@@ -70400,6 +70401,12 @@
       "network_border_group": "ap-southeast-4"
     },
     {
+      "address": "2606:7b40:1a4f:c240::/60",
+      "service": "AMAZON",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2620:107:4000:8004::/64",
       "service": "AMAZON",
       "region": "us-east-1",
@@ -87968,6 +87975,12 @@
       "network_border_group": "ap-southeast-4"
     },
     {
+      "address": "2606:7b40:1a4f:c240::/60",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d032:5000::/40",
       "service": "EC2",
       "region": "il-central-1",
@@ -98263,8 +98276,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"7f9fa6f4c1643b4fb3fc2e4692ac2ae1\"",
-      "last_modified": "Sat, 07 Feb 2026 01:49:44 GMT"
+      "etag": "\"fa3cc0cd0f9dcf86f88baac75786f285\"",
+      "last_modified": "Mon, 09 Feb 2026 23:20:43 GMT"
     }
   ]
 }
