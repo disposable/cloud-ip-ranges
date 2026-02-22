@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-02-19T14:27:44.138435",
-  "source_updated_at": "2026-02-19-00-38-04",
+  "generated_at": "2026-02-22T02:00:54.130045",
+  "source_updated_at": "2026-02-21-01-58-04",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-02-19-00-38-04",
+  "last_update": "2026-02-21-01-58-04",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -1641,6 +1641,12 @@
       "service": "AMAZON",
       "region": "us-west-1",
       "network_border_group": "us-west-1"
+    },
+    {
+      "address": "69.107.12.80/29",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
     },
     {
       "address": "76.223.170.112/28",
@@ -21903,6 +21909,12 @@
       "service": "AMAZON",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
+    },
+    {
+      "address": "69.107.12.88/29",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
     },
     {
       "address": "99.77.151.0/24",
@@ -73091,6 +73103,12 @@
       "service": "AMAZON",
       "region": "ca-west-1",
       "network_border_group": "ca-west-1"
+    },
+    {
+      "address": "2600:1f01:4900:800::/56",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
     },
     {
       "address": "2600:1fea:c000::/40",
