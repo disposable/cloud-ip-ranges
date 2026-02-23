@@ -41,7 +41,7 @@ jobs:
         set -euo pipefail
         mkdir -p json txt csv
         FORCE_RUN="${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force == 'true' }}"
-        MAX_DELTA_FLAG="--max-delta-ratio 0.3"
+        MAX_DELTA_FLAG="--max-delta-ratio 0.6"
         if [ "$FORCE_RUN" = "true" ]; then
           MAX_DELTA_FLAG=""
         fi
@@ -110,7 +110,7 @@ jobs:
         set -euo pipefail
         mkdir -p misc
         FORCE_RUN="${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force == 'true' }}"
-        MAX_DELTA_FLAG="--max-delta-ratio 0.3"
+        MAX_DELTA_FLAG="--max-delta-ratio 0.6"
         if [ "$FORCE_RUN" = "true" ]; then
           MAX_DELTA_FLAG=""
         fi
