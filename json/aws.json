@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-02-23T22:02:14.893422",
-  "source_updated_at": "2026-02-23-16-48-05",
+  "generated_at": "2026-02-24T01:58:17.763973",
+  "source_updated_at": "2026-02-23-20-48-04",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-02-23-16-48-05",
+  "last_update": "2026-02-23-20-48-04",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -2465,6 +2465,8 @@
     "16.163.206.0/23",
     "16.163.63.64/26",
     "16.164.0.0/16",
+    "16.164.22.0/31",
+    "16.164.22.4/30",
     "16.165.0.0/16",
     "16.168.0.0/15",
     "16.170.0.0/15",
@@ -67815,6 +67817,18 @@
       "network_border_group": "eu-west-3"
     },
     {
+      "address": "16.164.22.0/31",
+      "service": "KINESIS_VIDEO_STREAMS",
+      "region": "il-central-1",
+      "network_border_group": "il-central-1"
+    },
+    {
+      "address": "16.164.22.4/30",
+      "service": "KINESIS_VIDEO_STREAMS",
+      "region": "il-central-1",
+      "network_border_group": "il-central-1"
+    },
+    {
       "address": "16.24.91.112/30",
       "service": "KINESIS_VIDEO_STREAMS",
       "region": "me-south-1",
@@ -99154,8 +99168,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"5bebc5b3b187d218c27fac476b7a8609\"",
-      "last_modified": "Mon, 23 Feb 2026 19:25:05 GMT"
+      "etag": "\"cb8b0d70d4efa610bcc49a96ee14204d\"",
+      "last_modified": "Mon, 23 Feb 2026 22:52:31 GMT"
     }
   ]
 }
