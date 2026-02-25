@@ -3,12 +3,12 @@
   "provider_id": "oracle-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-02-06T01:56:00.736571",
+  "generated_at": "2026-02-25T02:00:39.489344",
   "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-02-06T01:56:00.736571",
+  "last_update": "2026-02-25T02:00:39.489344",
   "ipv4": [
     "129.144.0.0/16",
     "129.145.16.0/21",
@@ -533,6 +533,7 @@
     "146.56.96.0/20",
     "147.15.0.0/17",
     "147.15.128.0/19",
+    "147.15.192.0/18",
     "147.154.0.0/19",
     "147.154.112.0/21",
     "147.154.120.0/22",
@@ -555,6 +556,9 @@
     "147.224.224.0/20",
     "147.224.240.0/20",
     "147.224.32.0/19",
+    "147.224.64.0/24",
+    "147.224.66.0/23",
+    "147.224.68.0/22",
     "147.224.8.0/21",
     "148.116.104.0/21",
     "148.116.112.0/22",
@@ -1020,6 +1024,7 @@
     "81.208.192.0/19",
     "82.70.224.0/20",
     "82.70.248.0/22",
+    "82.70.32.0/19",
     "84.235.160.0/19",
     "84.235.192.0/23",
     "84.235.208.0/20",
@@ -1644,6 +1649,14 @@
       "region": "us-chicago-1"
     },
     {
+      "address": "147.224.64.0/24",
+      "region": "us-chicago-1"
+    },
+    {
+      "address": "147.224.66.0/23",
+      "region": "us-chicago-1"
+    },
+    {
       "address": "194.164.156.0/22",
       "region": "us-chicago-1"
     },
@@ -1848,6 +1861,10 @@
       "region": "ap-hyderabad-1"
     },
     {
+      "address": "147.224.68.0/22",
+      "region": "ap-hyderabad-1"
+    },
+    {
       "address": "149.118.240.0/23",
       "region": "ap-hyderabad-1"
     },
@@ -2005,6 +2022,10 @@
     },
     {
       "address": "79.76.32.0/19",
+      "region": "eu-stockholm-1"
+    },
+    {
+      "address": "82.70.32.0/19",
       "region": "eu-stockholm-1"
     },
     {
@@ -3277,6 +3298,10 @@
     },
     {
       "address": "143.47.96.0/19",
+      "region": "us-ashburn-1"
+    },
+    {
+      "address": "147.15.192.0/18",
       "region": "us-ashburn-1"
     },
     {
@@ -5230,8 +5255,8 @@
       "url": "https://docs.oracle.com/iaas/tools/public_ip_ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"698467e7-2c14c\"",
-      "last_modified": "Thu, 05 Feb 2026 09:50:31 GMT"
+      "etag": "\"699dda6d-2c656\"",
+      "last_modified": "Tue, 24 Feb 2026 17:05:49 GMT"
     }
   ]
 }
