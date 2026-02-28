@@ -3,7 +3,7 @@
   "provider_id": "openai",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-02-22T02:00:57.740081",
+  "generated_at": "2026-02-28T01:46:14.339999",
   "source_updated_at": "2025-10-30T11:00:00.000000",
   "source": [
     "https://openai.com/chatgpt-user.json",
@@ -53,6 +53,7 @@
     "172.182.215.0/24",
     "172.183.143.224/28",
     "172.183.222.128/28",
+    "172.202.102.112/28",
     "172.204.16.64/28",
     "172.212.159.64/28",
     "172.213.11.144/28",
@@ -93,10 +94,12 @@
     "20.169.78.160/28",
     "20.169.78.176/28",
     "20.169.78.192/28",
+    "20.169.78.208/28",
     "20.169.78.48/28",
     "20.169.78.64/28",
     "20.169.78.80/28",
     "20.169.78.96/28",
+    "20.169.87.112/28",
     "20.171.206.0/24",
     "20.171.207.0/24",
     "20.172.29.32/28",
@@ -164,6 +167,7 @@
     "4.205.128.176/28",
     "4.227.36.0/25",
     "40.116.73.208/28",
+    "40.122.235.112/28",
     "40.67.183.160/28",
     "40.67.183.176/28",
     "40.75.14.224/28",
@@ -442,6 +446,11 @@
       "scope": null
     },
     {
+      "address": "172.202.102.112/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "172.204.16.64/28",
       "service": null,
       "scope": null
@@ -637,6 +646,11 @@
       "scope": null
     },
     {
+      "address": "20.169.78.208/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "20.169.78.48/28",
       "service": null,
       "scope": null
@@ -653,6 +667,11 @@
     },
     {
       "address": "20.169.78.96/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "20.169.87.112/28",
       "service": null,
       "scope": null
     },
@@ -973,6 +992,11 @@
     },
     {
       "address": "40.116.73.208/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "40.122.235.112/28",
       "service": null,
       "scope": null
     },
@@ -1504,14 +1528,14 @@
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": null,
-      "last_modified": "Sat, 21 Feb 2026 17:04:03 GMT"
+      "last_modified": "Sat, 28 Feb 2026 00:03:43 GMT"
     },
     {
       "url": "https://openai.com/gptbot.json",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": "W/\"cfa3c07fe5c6e8741c495e5741edfbfb\"",
-      "last_modified": "Sat, 08 Nov 2025 01:50:41 GMT"
+      "last_modified": "Thu, 13 Nov 2025 20:44:57 GMT"
     }
   ]
 }
