@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-02-28T01:46:10.619643",
-  "source_updated_at": "2026-02-27-19-18-04",
+  "generated_at": "2026-03-03T02:00:29.982428",
+  "source_updated_at": "2026-03-02-21-18-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-02-27-19-18-04",
+  "last_update": "2026-03-02-21-18-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -3938,7 +3938,13 @@
     "3.4.12.52/32",
     "3.4.12.53/32",
     "3.4.12.54/32",
+    "3.4.12.55/32",
+    "3.4.12.56/32",
+    "3.4.12.57/32",
+    "3.4.12.58/32",
+    "3.4.12.59/32",
     "3.4.12.6/32",
+    "3.4.12.60/32",
     "3.4.13.0/28",
     "3.4.13.16/28",
     "3.4.13.32/28",
@@ -3955,6 +3961,9 @@
     "3.4.15.16/29",
     "3.4.15.160/29",
     "3.4.15.168/29",
+    "3.4.15.176/29",
+    "3.4.15.184/29",
+    "3.4.15.192/29",
     "3.4.15.24/29",
     "3.4.15.32/29",
     "3.4.15.40/29",
@@ -16447,6 +16456,12 @@
       "network_border_group": "us-east-1"
     },
     {
+      "address": "3.4.12.56/32",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
+    },
+    {
       "address": "15.168.0.0/16",
       "service": "AMAZON",
       "region": "ap-northeast-3",
@@ -16559,6 +16574,12 @@
       "service": "AMAZON",
       "region": "ca-central-1",
       "network_border_group": "ca-central-1"
+    },
+    {
+      "address": "3.4.12.59/32",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
     },
     {
       "address": "3.5.152.0/21",
@@ -18035,6 +18056,12 @@
       "service": "AMAZON",
       "region": "eu-central-1",
       "network_border_group": "eu-central-1"
+    },
+    {
+      "address": "3.4.12.58/32",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
     },
     {
       "address": "15.159.0.0/16",
@@ -21571,6 +21598,12 @@
       "network_border_group": "ap-southeast-1-mnl-1"
     },
     {
+      "address": "3.4.15.176/29",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
+    },
+    {
       "address": "15.177.104.0/24",
       "service": "AMAZON",
       "region": "ap-east-2",
@@ -24587,6 +24620,12 @@
       "service": "AMAZON",
       "region": "eu-west-2",
       "network_border_group": "eu-west-2"
+    },
+    {
+      "address": "3.4.15.184/29",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
     },
     {
       "address": "13.244.0.0/15",
@@ -30685,10 +30724,22 @@
       "network_border_group": "us-east-1"
     },
     {
+      "address": "3.4.12.57/32",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
+    },
+    {
       "address": "3.4.13.64/28",
       "service": "AMAZON",
       "region": "us-east-1",
       "network_border_group": "us-east-1"
+    },
+    {
+      "address": "3.4.15.192/29",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
     },
     {
       "address": "15.177.78.0/24",
@@ -31709,6 +31760,12 @@
       "service": "AMAZON",
       "region": "eu-west-2",
       "network_border_group": "eu-west-2"
+    },
+    {
+      "address": "3.4.12.55/32",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
     },
     {
       "address": "3.13.0.0/16",
@@ -36701,6 +36758,12 @@
       "service": "AMAZON",
       "region": "eu-south-2",
       "network_border_group": "eu-south-2"
+    },
+    {
+      "address": "3.4.12.60/32",
+      "service": "AMAZON",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
     },
     {
       "address": "15.190.80.0/20",
@@ -99296,8 +99359,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"f00d987f7a0fe90b79def1c087d674f9\"",
-      "last_modified": "Fri, 27 Feb 2026 21:24:15 GMT"
+      "etag": "\"bfe8143f800aba69c375a7e3fa1fa8e6\"",
+      "last_modified": "Mon, 02 Mar 2026 23:54:01 GMT"
     }
   ]
 }

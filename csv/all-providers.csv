@@ -60,14 +60,16 @@ IPv4,3.4.12.44/31,aws
 IPv4,3.4.12.46/32,aws
 IPv4,3.4.12.49/32,aws
 IPv4,3.4.12.50/31,aws
-IPv4,3.4.12.52/31,aws
-IPv4,3.4.12.54/32,aws
+IPv4,3.4.12.52/30,aws
+IPv4,3.4.12.56/30,aws
+IPv4,3.4.12.60/32,aws
 IPv4,3.4.13.0/26,aws
 IPv4,3.4.13.64/27,aws
 IPv4,3.4.15.0/25,aws
 IPv4,3.4.15.128/28,aws
 IPv4,3.4.15.152/29,aws
-IPv4,3.4.15.160/28,aws
+IPv4,3.4.15.160/27,aws
+IPv4,3.4.15.192/29,aws
 IPv4,3.4.16.0/20,aws
 IPv4,3.4.32.0/20,aws
 IPv4,3.5.0.0/18,aws;heroku-aws
@@ -176,7 +178,7 @@ IPv4,5.60.0.0/20,aws
 IPv4,5.60.32.0/20,aws
 IPv4,5.60.64.0/18,aws;heroku-aws
 IPv4,5.60.128.0/17,aws;datadog
-IPv4,5.61.27.0/24,ovh
+IPv4,5.61.26.0/23,ovh
 IPv4,5.61.128.0/18,hetzner
 IPv4,5.62.17.0/24,softlayer-ibm
 IPv4,5.62.19.0/24,softlayer-ibm
@@ -2599,6 +2601,8 @@ IPv4,43.168.116.0/23,tencent
 IPv4,43.168.118.0/24,tencent
 IPv4,43.168.141.0/24,tencent
 IPv4,43.168.144.0/24,tencent
+IPv4,43.168.174.0/23,tencent
+IPv4,43.168.176.0/24,tencent
 IPv4,43.168.218.0/23,tencent
 IPv4,43.169.1.0/24,tencent
 IPv4,43.169.12.0/22,tencent
@@ -2649,6 +2653,7 @@ IPv4,43.174.172.0/23,tencent
 IPv4,43.174.175.0/24,tencent
 IPv4,43.174.176.0/23,tencent
 IPv4,43.174.178.0/24,tencent
+IPv4,43.174.182.0/24,tencent
 IPv4,43.174.186.0/23,tencent
 IPv4,43.174.188.0/22,tencent
 IPv4,43.174.192.0/19,tencent
@@ -2747,7 +2752,7 @@ IPv4,43.194.16.0/24,aws
 IPv4,43.195.0.0/20,aws
 IPv4,43.196.0.0/16,aws
 IPv4,43.198.0.0/15,aws;datadog;new-relic-synthetics
-IPv4,43.200.0.0/13,atlassian;aws;datadog;new-relic-synthetics
+IPv4,43.200.0.0/13,atlassian;aws;datadog;new-relic-synthetics;okta
 IPv4,43.208.0.0/13,aws
 IPv4,43.216.0.0/15,aws
 IPv4,43.218.0.0/16,aws;datadog;grafana-cloud
@@ -2808,7 +2813,6 @@ IPv4,44.31.37.0/24,choopa
 IPv4,44.31.40.0/24,nforce
 IPv4,44.31.44.0/24,choopa
 IPv4,44.31.64.0/22,choopa
-IPv4,44.31.82.0/24,choopa
 IPv4,44.31.88.0/23,choopa;nforce
 IPv4,44.31.91.0/24,choopa
 IPv4,44.31.106.0/24,choopa
@@ -3032,6 +3036,7 @@ IPv4,45.88.67.0/24,hetzner
 IPv4,45.88.88.0/24,hetzner
 IPv4,45.88.168.0/23,hetzner
 IPv4,45.89.50.0/23,nforce
+IPv4,45.89.60.0/24,hetzner
 IPv4,45.89.63.0/24,hetzner
 IPv4,45.89.64.0/23,hetzner
 IPv4,45.89.244.0/24,hetzner
@@ -3254,6 +3259,7 @@ IPv4,45.195.190.0/24,hetzner
 IPv4,45.195.216.0/21,ucloud
 IPv4,45.195.246.0/23,ovh
 IPv4,45.195.252.0/23,hetzner
+IPv4,45.196.28.0/24,alibaba
 IPv4,45.196.101.0/24,ovh
 IPv4,45.196.102.0/23,ovh
 IPv4,45.196.105.0/24,ovh
@@ -3738,7 +3744,7 @@ IPv4,52.82.187.0/24,aws
 IPv4,52.82.188.0/22,aws
 IPv4,52.82.192.0/18,aws
 IPv4,52.83.0.0/16,aws
-IPv4,52.84.0.0/14,aws;grafana-cloud;hcp-terraform;heroku-aws
+IPv4,52.84.0.0/14,aws;grafana-cloud;hcp-terraform;heroku-aws;okta
 IPv4,52.88.0.0/14,atlassian;aws;datadog;heroku-aws;okta
 IPv4,52.92.0.0/16,aws
 IPv4,52.93.0.0/21,aws
@@ -5604,7 +5610,6 @@ IPv4,79.76.96.0/19,oracle-cloud
 IPv4,79.99.40.0/21,ionos-cloud
 IPv4,79.108.224.0/24,kamatera
 IPv4,79.110.28.0/24,hetzner
-IPv4,79.110.31.0/24,hetzner
 IPv4,79.110.48.0/24,hetzner
 IPv4,79.110.50.0/24,hetzner
 IPv4,79.110.61.0/24,ovh
@@ -6264,6 +6269,7 @@ IPv4,89.125.60.0/23,hetzner
 IPv4,89.125.63.0/24,hetzner
 IPv4,89.125.68.0/24,hetzner
 IPv4,89.125.70.0/23,hetzner
+IPv4,89.125.72.0/24,hetzner
 IPv4,89.125.76.0/24,hetzner
 IPv4,89.125.92.0/24,hetzner
 IPv4,89.125.95.0/24,hetzner
@@ -9089,7 +9095,7 @@ IPv4,104.128.130.0/23,hetzner
 IPv4,104.128.133.0/24,hetzner
 IPv4,104.128.134.0/23,hetzner
 IPv4,104.128.138.0/23,hetzner
-IPv4,104.128.140.0/22,hetzner
+IPv4,104.128.142.0/23,hetzner
 IPv4,104.128.224.0/22,softlayer-ibm
 IPv4,104.128.228.0/23,softlayer-ibm
 IPv4,104.128.233.0/24,softlayer-ibm
@@ -9404,11 +9410,11 @@ IPv4,109.71.54.0/23,upcloud
 IPv4,109.71.185.0/24,hetzner
 IPv4,109.72.16.0/20,softlayer-ibm
 IPv4,109.74.192.0/20,linode;softlayer-ibm
-IPv4,109.95.186.0/23,choopa
 IPv4,109.104.32.0/19,hetzner
 IPv4,109.104.152.0/22,hetzner
 IPv4,109.105.195.0/24,ovh
 IPv4,109.105.216.0/21,flyio
+IPv4,109.106.13.0/24,heroku-aws
 IPv4,109.107.171.0/24,hetzner
 IPv4,109.107.182.0/24,hetzner
 IPv4,109.109.0.0/19,hetzner
@@ -9724,6 +9730,7 @@ IPv4,129.91.16.0/21,oracle-cloud
 IPv4,129.93.0.0/16,hetzner
 IPv4,129.134.0.0/17,meta-crawler
 IPv4,129.134.130.0/24,meta-crawler
+IPv4,129.134.132.0/24,meta-crawler
 IPv4,129.134.135.0/24,meta-crawler
 IPv4,129.134.136.0/22,meta-crawler
 IPv4,129.134.140.0/24,meta-crawler
@@ -10377,6 +10384,7 @@ IPv4,138.249.130.0/24,hetzner
 IPv4,138.249.135.0/24,ovh
 IPv4,138.249.137.0/24,hetzner
 IPv4,138.249.141.0/24,hetzner
+IPv4,138.249.149.0/24,hetzner
 IPv4,138.249.160.0/22,hetzner
 IPv4,138.249.166.0/24,hetzner
 IPv4,138.249.171.0/24,hetzner
@@ -10934,6 +10942,7 @@ IPv4,144.216.0.0/15,hetzner;ovh
 IPv4,144.220.0.0/16,aws
 IPv4,144.225.102.0/24,ovh
 IPv4,144.225.162.0/24,ovh
+IPv4,144.225.177.0/24,heroku-aws
 IPv4,144.249.128.0/24,softlayer-ibm
 IPv4,144.249.130.0/23,softlayer-ibm
 IPv4,144.249.132.0/23,softlayer-ibm
@@ -11839,6 +11848,7 @@ IPv4,154.95.112.0/21,huawei-cloud
 IPv4,154.95.120.0/23,huawei-cloud
 IPv4,154.193.62.0/24,ovh
 IPv4,154.193.84.0/23,ovh
+IPv4,154.193.162.0/24,hetzner
 IPv4,154.196.131.0/24,choopa
 IPv4,154.196.133.0/24,ovh
 IPv4,154.196.161.0/24,ovh
@@ -11871,6 +11881,7 @@ IPv4,154.209.152.0/21,hetzner
 IPv4,154.209.192.0/20,hetzner
 IPv4,154.210.237.0/24,hetzner
 IPv4,154.210.238.0/24,hetzner
+IPv4,154.211.131.0/24,ovh
 IPv4,154.213.220.0/24,ovh
 IPv4,154.218.27.0/24,hetzner
 IPv4,154.219.64.0/20,hetzner
@@ -15673,7 +15684,6 @@ IPv4,193.5.251.0/24,nforce
 IPv4,193.8.1.0/24,hetzner
 IPv4,193.8.115.0/24,nforce
 IPv4,193.8.184.0/24,hetzner
-IPv4,193.9.158.0/24,hetzner
 IPv4,193.17.92.0/24,hetzner
 IPv4,193.17.95.0/24,hetzner
 IPv4,193.17.182.0/24,hetzner
@@ -16034,6 +16044,8 @@ IPv4,194.88.252.0/23,hetzner
 IPv4,194.99.24.0/24,hetzner
 IPv4,194.99.26.0/23,hetzner
 IPv4,194.103.214.0/24,hetzner
+IPv4,194.104.9.0/24,hetzner
+IPv4,194.104.10.0/24,hetzner
 IPv4,194.104.128.0/24,hetzner
 IPv4,194.104.158.0/24,choopa
 IPv4,194.105.40.0/21,hetzner
@@ -17191,6 +17203,7 @@ IPv4,212.134.90.0/24,ovh
 IPv4,212.135.128.0/23,choopa
 IPv4,212.135.160.0/24,ovh
 IPv4,212.147.224.0/19,upcloud
+IPv4,212.192.0.0/24,hetzner
 IPv4,212.192.6.0/24,hetzner
 IPv4,212.192.8.0/23,hetzner
 IPv4,212.192.11.0/24,hetzner
@@ -17967,6 +17980,7 @@ IPv6,2001:4b78::/29,seeweb
 IPv6,2001:4c51::/32,hetzner
 IPv6,2400:3200::/48,alibaba
 IPv6,2400:3200:baba::/48,alibaba
+IPv6,2400:54a0:2080::/44,ovh
 IPv6,2400:6180:0:d0::/62,digitalocean
 IPv6,2400:6180:10:200::/64,digitalocean
 IPv6,2400:6180:100:d0::/64,digitalocean
@@ -18039,7 +18053,6 @@ IPv6,2401:1d80:601c::/46,heroku-aws
 IPv6,2401:1d80:611c::/46,heroku-aws
 IPv6,2401:1d80:621c::/46,heroku-aws
 IPv6,2401:1d80:631c::/46,heroku-aws
-IPv6,2401:8680:4100::/48,alibaba
 IPv6,2401:8680:4102::/48,alibaba
 IPv6,2401:b180:4100::/48,alibaba
 IPv6,2401:c080:1000::/36,choopa;vultr
@@ -18854,7 +18867,7 @@ IPv6,240d:c010:1ae::/47,tencent
 IPv6,240d:c010:1b2::/48,tencent
 IPv6,240d:c010:1b4::/47,tencent
 IPv6,240d:c010:1b6::/48,tencent
-IPv6,240d:c010:1c8::/48,tencent
+IPv6,240d:c010:1c8::/47,tencent
 IPv6,240d:c010:1da::/48,tencent
 IPv6,240d:c010:1dd::/48,tencent
 IPv6,240d:c010:1e0::/48,tencent
@@ -19731,7 +19744,6 @@ IPv6,2602:ff03:167::/48,choopa
 IPv6,2602:ff03:16f::/48,choopa
 IPv6,2602:ff03:173::/48,choopa
 IPv6,2602:ff03:176::/48,choopa
-IPv6,2602:ff03:17f::/48,choopa
 IPv6,2602:ff03:181::/48,choopa
 IPv6,2602:ff03:189::/48,choopa
 IPv6,2602:ff03:191::/48,choopa
@@ -19810,7 +19822,6 @@ IPv6,2602:ff03:35f::/48,choopa
 IPv6,2602:ff03:362::/48,choopa
 IPv6,2602:ff03:368::/48,choopa
 IPv6,2602:ff03:370::/48,choopa
-IPv6,2602:ff03:374::/48,choopa
 IPv6,2602:ff03:378::/48,choopa
 IPv6,2602:ff03:37f::/48,choopa
 IPv6,2602:ff03:383::/48,choopa
@@ -20222,7 +20233,6 @@ IPv6,2602:ff03:d51::/48,choopa
 IPv6,2602:ff03:d57::/48,choopa
 IPv6,2602:ff03:d58::/48,choopa
 IPv6,2602:ff03:d60::/48,choopa
-IPv6,2602:ff03:d66::/48,choopa
 IPv6,2602:ff03:d69::/48,choopa
 IPv6,2602:ff03:d73::/48,choopa
 IPv6,2602:ff03:d76::/48,choopa
@@ -33389,13 +33399,16 @@ IPv6,2a0e:61c0::/29,rackspace
 IPv6,2a0e:6d80::/29,rackspace
 IPv6,2a0e:7840::/29,rackspace
 IPv6,2a0e:7940::/29,rackspace
-IPv6,2a0e:7d45:7738::/45,choopa
+IPv6,2a0e:7d45:7739::/48,choopa
+IPv6,2a0e:7d45:773a::/47,choopa
+IPv6,2a0e:7d45:773c::/46,choopa
 IPv6,2a0e:7d45:77d1::/48,choopa
-IPv6,2a0e:7d45:77df::/48,choopa
 IPv6,2a0e:7d45:77e0::/46,choopa
 IPv6,2a0e:7d45:77e4::/47,choopa
 IPv6,2a0e:7d45:77e6::/48,choopa
-IPv6,2a0e:7d45:77f0::/45,choopa
+IPv6,2a0e:7d45:77f1::/48,choopa
+IPv6,2a0e:7d45:77f2::/47,choopa
+IPv6,2a0e:7d45:77f4::/46,choopa
 IPv6,2a0e:7d46::/36,nforce
 IPv6,2a0e:86c0::/29,rackspace
 IPv6,2a0e:8f02:2000::/44,nforce
@@ -33516,7 +33529,7 @@ IPv6,2a0f:c880::/29,rackspace
 IPv6,2a0f:ca81:1330::/44,nforce
 IPv6,2a0f:cdc6:2030::/45,hetzner
 IPv6,2a0f:cfc0::/32,hetzner
-IPv6,2a0f:df40::/29,hetzner
+IPv6,2a0f:df40::/29,choopa;hetzner
 IPv6,2a0f:e7c4:10::/48,hetzner
 IPv6,2a0f:f640::/48,softlayer-ibm
 IPv6,2a10:40::/31,nforce
@@ -33537,7 +33550,7 @@ IPv6,2a10:b040:4::/47,hetzner
 IPv6,2a10:ba87:feef::/48,nforce
 IPv6,2a10:ccc1:440::/45,choopa
 IPv6,2a10:ccc1:448::/48,choopa
-IPv6,2a10:ccc1:44b::/48,choopa
+IPv6,2a10:ccc1:44a::/47,choopa
 IPv6,2a10:ccc1:44c::/46,choopa
 IPv6,2a10:ccc1:450::/48,choopa
 IPv6,2a10:ccc1:452::/48,choopa
@@ -33712,9 +33725,9 @@ IPv6,2a14:7581:fab::/48,choopa
 IPv6,2a14:7581:ff0::/48,hetzner
 IPv6,2a14:7583:e500::/40,choopa
 IPv6,2a14:7583:f114::/46,choopa
-IPv6,2a14:7583:f124::/46,choopa
 IPv6,2a14:7583:f128::/45,choopa
 IPv6,2a14:7583:f130::/44,choopa
+IPv6,2a14:7583:f140::/46,choopa
 IPv6,2a14:7584:9000::/36,choopa
 IPv6,2a14:7980::/32,hetzner
 IPv6,2a14:ae00:c::/48,choopa
