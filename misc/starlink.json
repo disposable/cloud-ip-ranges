@@ -3,12 +3,12 @@
   "provider_id": "starlink",
   "method": "published_list",
   "coverage_notes": "User ISP traffic from Starlink satellite internet service. These are regular user connections, not crawler or bot traffic.",
-  "generated_at": "2026-03-03T02:05:50.835502",
+  "generated_at": "2026-03-04T01:59:17.020640",
   "source_updated_at": null,
   "source": [
     "https://geoip.starlinkisp.net/feed.csv"
   ],
-  "last_update": "2026-03-03T02:05:50.835502",
+  "last_update": "2026-03-04T01:59:17.020640",
   "ipv4": [
     "103.114.116.0/25",
     "103.114.116.128/25",
@@ -344,6 +344,8 @@
     "135.129.113.0/24",
     "135.129.114.0/25",
     "135.129.114.128/25",
+    "135.129.117.0/25",
+    "135.129.117.128/25",
     "135.129.118.0/24",
     "135.129.119.0/25",
     "135.129.119.128/25",
@@ -2874,7 +2876,6 @@
     "2406:2d40:9200::/40",
     "2406:2d40:9400::/40",
     "2406:2d40:9800::/40",
-    "2406:2d40:9900::/40",
     "2406:2d40:9b00::/40",
     "2406:2d40:9c00::/40",
     "2406:2d40:9d00::/40",
@@ -3237,6 +3238,7 @@
     "2605:59ca:7400::/40",
     "2605:59ca:7500::/40",
     "2605:59ca:7600::/40",
+    "2605:59ca:7700::/40",
     "2605:59ca:8000::/46",
     "2605:59ca:8004::/47",
     "2605:59ca:8006::/47",
@@ -3564,8 +3566,8 @@
       "url": "https://geoip.starlinkisp.net/feed.csv",
       "status": 200,
       "content_type": "text/plain; charset=utf-8",
-      "etag": "\"b80cbaf508f1f592670b6ef4910f9cd9\"",
-      "last_modified": "Tue, 03 Mar 2026 02:02:33 GMT"
+      "etag": "\"5dab53a927b9549eb73f4be4524e2ce7\"",
+      "last_modified": "Wed, 04 Mar 2026 01:01:42 GMT"
     }
   ]
 }
