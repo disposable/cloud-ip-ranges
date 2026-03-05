@@ -3,7 +3,7 @@
   "provider_id": "tencent",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-03-03T02:01:46.370780",
+  "generated_at": "2026-03-05T01:58:34.200082",
   "source_updated_at": null,
   "source": [
     "RADB::AS132203:AS-TENCENT",
@@ -15,7 +15,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS45090",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58835"
   ],
-  "last_update": "2026-03-03T02:01:46.370780",
+  "last_update": "2026-03-05T01:58:34.200082",
   "ipv4": [
     "1.116.0.0/15",
     "1.116.0.0/18",
@@ -2421,6 +2421,7 @@
     "182.254.90.0/23",
     "182.254.92.0/22",
     "182.254.96.0/23",
+    "182.3.35.0/24",
     "188.131.128.0/17",
     "188.131.128.0/20",
     "188.131.144.0/20",
@@ -4176,6 +4177,7 @@
     "240d:c010:1da::/48",
     "240d:c010:1dd::/48",
     "240d:c010:1e0::/48",
+    "240d:c010:1e4::/48",
     "240d:c010:1f::/48",
     "240d:c010:20::/44",
     "240d:c010:30::/48",
