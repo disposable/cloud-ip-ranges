@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-06T01:58:10.090517",
-  "source_updated_at": "2026-03-05-23-18-04",
+  "generated_at": "2026-03-07T01:50:17.632473",
+  "source_updated_at": "2026-03-06-19-28-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-03-05-23-18-04",
+  "last_update": "2026-03-06-19-28-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -5032,6 +5032,7 @@
     "51.72.0.0/15",
     "51.74.0.0/20",
     "51.74.16.0/24",
+    "51.74.17.0/24",
     "51.84.0.0/16",
     "51.85.0.0/16",
     "51.86.0.0/15",
@@ -7479,6 +7480,7 @@
     "2001:3fc6:0:100::/56",
     "2001:3fc6:100::/48",
     "2001:3fc6:1::/48",
+    "2001:3fc6:2::/48",
     "2001:3fc6:8::/45",
     "2001:3fc6:8::/47",
     "2001:3fc6::/56",
@@ -15755,6 +15757,12 @@
       "network_border_group": "eu-west-2"
     },
     {
+      "address": "51.74.17.0/24",
+      "service": "AMAZON",
+      "region": "eusc-de-east-1",
+      "network_border_group": "eusc-de-east-1"
+    },
+    {
       "address": "52.80.0.0/16",
       "service": "AMAZON",
       "region": "cn-north-1",
@@ -17125,8 +17133,8 @@
     {
       "address": "23.228.214.0/24",
       "service": "AMAZON",
-      "region": "us-east-1",
-      "network_border_group": "us-east-1"
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
     },
     {
       "address": "35.97.193.0/24",
@@ -17455,8 +17463,8 @@
     {
       "address": "23.228.213.0/24",
       "service": "AMAZON",
-      "region": "us-east-1",
-      "network_border_group": "us-east-1"
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
     },
     {
       "address": "32.192.0.0/13",
@@ -50141,6 +50149,12 @@
       "network_border_group": "eu-west-2"
     },
     {
+      "address": "51.74.17.0/24",
+      "service": "EC2",
+      "region": "eusc-de-east-1",
+      "network_border_group": "eusc-de-east-1"
+    },
+    {
       "address": "52.80.0.0/16",
       "service": "EC2",
       "region": "cn-north-1",
@@ -50567,12 +50581,6 @@
       "network_border_group": "eu-south-2"
     },
     {
-      "address": "23.228.214.0/24",
-      "service": "EC2",
-      "region": "us-east-1",
-      "network_border_group": "us-east-1"
-    },
-    {
       "address": "99.77.235.0/24",
       "service": "EC2",
       "region": "af-south-1",
@@ -50697,12 +50705,6 @@
       "service": "EC2",
       "region": "eu-central-1",
       "network_border_group": "eu-central-1"
-    },
-    {
-      "address": "23.228.213.0/24",
-      "service": "EC2",
-      "region": "us-east-1",
-      "network_border_group": "us-east-1"
     },
     {
       "address": "32.192.0.0/13",
@@ -58968,6 +58970,18 @@
     },
     {
       "address": "99.86.0.0/16",
+      "service": "CLOUDFRONT",
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
+    },
+    {
+      "address": "23.228.214.0/24",
+      "service": "CLOUDFRONT",
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
+    },
+    {
+      "address": "23.228.213.0/24",
       "service": "CLOUDFRONT",
       "region": "GLOBAL",
       "network_border_group": "GLOBAL"
@@ -81103,6 +81117,12 @@
       "network_border_group": "eu-west-3"
     },
     {
+      "address": "2001:3fc6:2::/48",
+      "service": "AMAZON",
+      "region": "eusc-de-east-1",
+      "network_border_group": "eusc-de-east-1"
+    },
+    {
       "address": "2406:dabb:a000::/40",
       "service": "AMAZON",
       "region": "ap-south-1",
@@ -96685,6 +96705,12 @@
       "network_border_group": "eu-west-3"
     },
     {
+      "address": "2001:3fc6:2::/48",
+      "service": "EC2",
+      "region": "eusc-de-east-1",
+      "network_border_group": "eusc-de-east-1"
+    },
+    {
       "address": "2406:dabb:a000::/40",
       "service": "EC2",
       "region": "ap-south-1",
@@ -99636,8 +99662,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"6c06349129be4c74635d14f7e2fc8bce\"",
-      "last_modified": "Fri, 06 Mar 2026 01:54:37 GMT"
+      "etag": "\"14e7419a4be5596879d0fef9bea1458b\"",
+      "last_modified": "Fri, 06 Mar 2026 21:22:24 GMT"
     }
   ]
 }
