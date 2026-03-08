@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-07T01:50:17.632473",
-  "source_updated_at": "2026-03-06-19-28-05",
+  "generated_at": "2026-03-08T01:58:50.081957",
+  "source_updated_at": "2026-03-06-23-38-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-03-06-19-28-05",
+  "last_update": "2026-03-06-23-38-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -823,6 +823,7 @@
     "15.129.32.0/23",
     "15.129.34.0/23",
     "15.129.36.0/23",
+    "15.129.38.0/23",
     "15.129.4.0/22",
     "15.129.8.0/21",
     "15.134.0.0/16",
@@ -40105,6 +40106,12 @@
       "network_border_group": "ap-southeast-6"
     },
     {
+      "address": "15.129.38.0/23",
+      "service": "AMAZON",
+      "region": "ap-southeast-1",
+      "network_border_group": "ap-southeast-1"
+    },
+    {
       "address": "15.190.48.0/20",
       "service": "AMAZON",
       "region": "ca-west-1",
@@ -58289,6 +58296,12 @@
       "service": "EC2",
       "region": "ap-southeast-6",
       "network_border_group": "ap-southeast-6"
+    },
+    {
+      "address": "15.129.38.0/23",
+      "service": "EC2",
+      "region": "ap-southeast-1",
+      "network_border_group": "ap-southeast-1"
     },
     {
       "address": "35.71.105.0/24",
@@ -99662,8 +99675,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"14e7419a4be5596879d0fef9bea1458b\"",
-      "last_modified": "Fri, 06 Mar 2026 21:22:24 GMT"
+      "etag": "\"54188aa98bd5e6b1023ec816efe48c7a\"",
+      "last_modified": "Sat, 07 Mar 2026 02:00:52 GMT"
     }
   ]
 }

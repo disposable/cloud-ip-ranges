@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-07T01:50:17.632473",
-  "source_updated_at": "2026-03-06-19-28-05",
+  "generated_at": "2026-03-08T01:58:50.081957",
+  "source_updated_at": "2026-03-06-23-38-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-03-06-19-28-05",
+  "last_update": "2026-03-06-23-38-05",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -30107,6 +30107,12 @@
       "network_border_group": "ap-southeast-6"
     },
     {
+      "address": "15.129.38.0/23",
+      "service": "AMAZON",
+      "region": "ap-southeast-1",
+      "network_border_group": "ap-southeast-1"
+    },
+    {
       "address": "15.190.48.0/20",
       "service": "AMAZON",
       "region": "ca-west-1",
@@ -48291,6 +48297,12 @@
       "service": "EC2",
       "region": "ap-southeast-6",
       "network_border_group": "ap-southeast-6"
+    },
+    {
+      "address": "15.129.38.0/23",
+      "service": "EC2",
+      "region": "ap-southeast-1",
+      "network_border_group": "ap-southeast-1"
     },
     {
       "address": "35.71.105.0/24",
