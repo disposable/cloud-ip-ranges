@@ -3,7 +3,7 @@
   "provider_id": "softlayer-ibm",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-03-09T02:00:50.724753",
+  "generated_at": "2026-03-10T01:53:09.105800",
   "source_updated_at": null,
   "source": [
     "RADB::AS-SOFTLAYER",
@@ -75,7 +75,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS64999",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS7489"
   ],
-  "last_update": "2026-03-09T02:00:50.724753",
+  "last_update": "2026-03-10T01:53:09.105800",
   "ipv4": [
     "101.100.193.0/24",
     "101.100.200.0/24",
@@ -2237,6 +2237,8 @@
     "202.5.20.0/24",
     "202.5.21.0/24",
     "202.5.22.0/24",
+    "202.5.24.0/24",
+    "202.5.27.0/24",
     "202.59.250.0/24",
     "202.59.251.0/24",
     "202.81.4.0/24",
@@ -2519,7 +2521,6 @@
     "45.112.87.0/24",
     "45.113.122.0/24",
     "45.118.132.0/22",
-    "45.118.133.21/32",
     "45.120.104.0/24",
     "45.120.106.0/23",
     "45.120.106.0/24",
