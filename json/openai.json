@@ -3,7 +3,7 @@
   "provider_id": "openai",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-07T01:50:21.179497",
+  "generated_at": "2026-03-11T01:52:41.646642",
   "source_updated_at": "2025-10-30T11:00:00.000000",
   "source": [
     "https://openai.com/chatgpt-user.json",
@@ -100,6 +100,8 @@
     "20.169.78.64/28",
     "20.169.78.80/28",
     "20.169.78.96/28",
+    "20.169.86.224/28",
+    "20.169.86.240/28",
     "20.169.87.112/28",
     "20.171.206.0/24",
     "20.171.207.0/24",
@@ -674,6 +676,16 @@
     },
     {
       "address": "20.169.78.96/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "20.169.86.224/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "20.169.86.240/28",
       "service": null,
       "scope": null
     },
@@ -1540,14 +1552,14 @@
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": null,
-      "last_modified": "Fri, 06 Mar 2026 22:03:49 GMT"
+      "last_modified": "Tue, 10 Mar 2026 03:03:41 GMT"
     },
     {
       "url": "https://openai.com/gptbot.json",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": "W/\"cfa3c07fe5c6e8741c495e5741edfbfb\"",
-      "last_modified": "Thu, 13 Nov 2025 20:44:57 GMT"
+      "last_modified": "Sat, 08 Nov 2025 01:50:41 GMT"
     }
   ]
 }

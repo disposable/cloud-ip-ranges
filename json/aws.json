@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-08T01:58:50.081957",
-  "source_updated_at": "2026-03-06-23-38-05",
+  "generated_at": "2026-03-11T01:52:38.094051",
+  "source_updated_at": "2026-03-10-14-28-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-03-06-23-38-05",
+  "last_update": "2026-03-10-14-28-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -9435,6 +9435,7 @@
     "2606:8140:200::/40",
     "2606:8140:400::/40",
     "2606:8140:500::/40",
+    "2606:8140:900::/40",
     "2606:f40:1000::/39",
     "2606:f40:1400::/40",
     "2606:f40:1800::/40",
@@ -78991,7 +78992,7 @@
       "address": "2406:da23::/36",
       "service": "AMAZON",
       "region": "ap-northeast-1",
-      "network_border_group": "ap-northeast-1-wl1-nrt-wlz-1"
+      "network_border_group": "ap-northeast-1"
     },
     {
       "address": "2406:da36:800::/40",
@@ -82220,6 +82221,12 @@
       "service": "AMAZON",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2606:8140:900::/40",
+      "service": "AMAZON",
+      "region": "us-gov-west-1",
+      "network_border_group": "us-gov-west-1"
     },
     {
       "address": "2600:1ff0:c000::/40",
@@ -95041,7 +95048,7 @@
       "address": "2406:da23::/36",
       "service": "EC2",
       "region": "ap-northeast-1",
-      "network_border_group": "ap-northeast-1-wl1-nrt-wlz-1"
+      "network_border_group": "ap-northeast-1"
     },
     {
       "address": "2406:da36:800::/40",
@@ -97564,6 +97571,12 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "2606:8140:900::/40",
+      "service": "EC2",
+      "region": "us-gov-west-1",
+      "network_border_group": "us-gov-west-1"
+    },
+    {
       "address": "2600:1ff0:c000::/40",
       "service": "EC2",
       "region": "us-west-1",
@@ -99675,8 +99688,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"54188aa98bd5e6b1023ec816efe48c7a\"",
-      "last_modified": "Sat, 07 Mar 2026 02:00:52 GMT"
+      "etag": "\"79315949d5ac1e198cac6f9066ab76ad\"",
+      "last_modified": "Tue, 10 Mar 2026 16:22:20 GMT"
     }
   ]
 }
