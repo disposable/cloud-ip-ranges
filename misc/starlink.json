@@ -3,12 +3,12 @@
   "provider_id": "starlink",
   "method": "published_list",
   "coverage_notes": "User ISP traffic from Starlink satellite internet service. These are regular user connections, not crawler or bot traffic.",
-  "generated_at": "2026-03-11T01:57:31.701393",
+  "generated_at": "2026-03-14T01:58:32.874946",
   "source_updated_at": null,
   "source": [
     "https://geoip.starlinkisp.net/feed.csv"
   ],
-  "last_update": "2026-03-11T01:57:31.701393",
+  "last_update": "2026-03-14T01:58:32.874946",
   "ipv4": [
     "103.114.116.0/25",
     "103.114.116.128/25",
@@ -1543,6 +1543,10 @@
     "153.67.203.0/24",
     "153.67.204.0/24",
     "153.67.205.0/24",
+    "153.67.206.0/25",
+    "153.67.206.128/25",
+    "153.67.207.0/25",
+    "153.67.207.128/25",
     "153.67.21.0/24",
     "153.67.22.0/24",
     "153.67.224.0/24",
@@ -1754,10 +1758,6 @@
     "173.250.192.0/24",
     "173.250.194.0/24",
     "173.250.195.0/24",
-    "173.250.197.0/25",
-    "173.250.197.128/25",
-    "173.250.198.0/25",
-    "173.250.198.128/25",
     "176.116.124.0/24",
     "176.116.125.0/24",
     "179.60.168.0/24",
@@ -3515,8 +3515,8 @@
       "url": "https://geoip.starlinkisp.net/feed.csv",
       "status": 200,
       "content_type": "text/plain; charset=utf-8",
-      "etag": "\"540a35bb5fd0a9b4c0ef3d2e181513f2\"",
-      "last_modified": "Wed, 11 Mar 2026 01:01:41 GMT"
+      "etag": "\"9f79afae204724dd0b75b42be4e87536\"",
+      "last_modified": "Sat, 14 Mar 2026 01:03:02 GMT"
     }
   ]
 }
