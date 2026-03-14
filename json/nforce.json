@@ -3,7 +3,7 @@
   "provider_id": "nforce",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-03-13T01:59:55.189945",
+  "generated_at": "2026-03-14T01:57:03.850433",
   "source_updated_at": null,
   "source": [
     "RADB::AS-NFORCE",
@@ -76,7 +76,6 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS209936",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS210250",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS210292",
-    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS210888",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS211037",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS211041",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS211344",
@@ -155,7 +154,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS64495",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9504"
   ],
-  "last_update": "2026-03-13T01:59:55.189945",
+  "last_update": "2026-03-14T01:57:03.850433",
   "ipv4": [
     "103.13.210.0/24",
     "103.158.222.0/24",
@@ -1289,7 +1288,6 @@
     "2a05:9342::/32",
     "2a05:b0c6:200a::/48",
     "2a05:b0c6:200b::/48",
-    "2a05:b0c6:200c::/48",
     "2a05:b0c6:200f::/48",
     "2a05:e4c0::/32",
     "2a05:e4c1::/32",
@@ -1393,6 +1391,7 @@
     "2a0c:b642:a05::/48",
     "2a0c:b642:a06::/48",
     "2a0c:b642:a07::/48",
+    "2a0c:b642:a08::/48",
     "2a0c:b642:a0a::/48",
     "2a0c:e780::/29",
     "2a0d:5600:30::/48",
@@ -2029,13 +2028,6 @@
     },
     {
       "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS210292",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "etag": null,
-      "last_modified": null
-    },
-    {
-      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS210888",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": null,
