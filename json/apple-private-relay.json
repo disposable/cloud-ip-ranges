@@ -3,12 +3,12 @@
   "provider_id": "apple-private-relay",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-09T02:00:24.787053",
+  "generated_at": "2026-03-16T02:12:09.084458",
   "source_updated_at": null,
   "source": [
     "https://mask-api.icloud.com/egress-ip-ranges.csv"
   ],
-  "last_update": "2026-03-09T02:00:24.787053",
+  "last_update": "2026-03-16T02:12:09.084458",
   "ipv4": [
     "104.28.100.10/32",
     "104.28.100.100/32",
@@ -5529,6 +5529,10 @@
     "104.28.136.97/32",
     "104.28.136.98/32",
     "104.28.136.99/32",
+    "104.28.137.1/32",
+    "104.28.137.2/32",
+    "104.28.137.3/32",
+    "104.28.137.4/32",
     "104.28.138.1/32",
     "104.28.138.10/32",
     "104.28.138.100/32",
@@ -286888,7 +286892,7 @@
       "url": "https://mask-api.icloud.com/egress-ip-ranges.csv",
       "status": 200,
       "content_type": "text/plain",
-      "etag": "\"69ab122e-b898e8\"",
+      "etag": "\"69b45cc8-b89975\"",
       "last_modified": null
     }
   ]
