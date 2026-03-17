@@ -3,12 +3,12 @@
   "provider_id": "scaleway",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-01-30T09:38:20.746204",
+  "generated_at": "2026-03-17T01:59:54.435587",
   "source_updated_at": null,
   "source": [
     "https://www.scaleway.com/en/docs/account/reference-content/scaleway-network-information/"
   ],
-  "last_update": "2026-01-30T09:38:20.746204",
+  "last_update": "2026-03-17T01:59:54.435587",
   "ipv4": [
     "151.115.0.0/16",
     "151.115.125.11/32",
@@ -42,7 +42,8 @@
     "62.210.0.0/16",
     "62.210.16.0/24",
     "62.210.16.24/32",
-    "62.4.0.0/19"
+    "62.4.0.0/19",
+    "78.232.0.0/16"
   ],
   "ipv6": [
     "2001:bc8:1008:1::14/128",
@@ -71,7 +72,7 @@
       "status": 200,
       "content_type": "text/html",
       "etag": null,
-      "last_modified": "Fri, 30 Jan 2026 09:17:51 GMT"
+      "last_modified": "Mon, 16 Mar 2026 09:18:00 GMT"
     }
   ]
 }
