@@ -3,14 +3,14 @@
   "provider_id": "alibaba",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-03-19T02:05:15.176257",
+  "generated_at": "2026-03-21T01:53:15.794465",
   "source_updated_at": null,
   "source": [
     "RADB::AS-ALIBABA-CN-NET",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS45102",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60924"
   ],
-  "last_update": "2026-03-19T02:05:15.176257",
+  "last_update": "2026-03-21T01:53:15.794465",
   "ipv4": [
     "103.135.210.0/23",
     "103.81.186.0/23",
@@ -205,6 +205,8 @@
     "43.108.128.0/17",
     "43.108.128.0/18",
     "43.108.192.0/18",
+    "43.108.196.0/22",
+    "43.108.60.0/22",
     "43.108.64.0/18",
     "43.110.0.0/16",
     "43.110.0.0/17",
@@ -345,7 +347,6 @@
     "43.99.0.0/16",
     "43.99.0.0/17",
     "43.99.128.0/17",
-    "45.196.28.0/24",
     "45.199.179.0/24",
     "47.235.0.0/22",
     "47.235.0.0/23",
