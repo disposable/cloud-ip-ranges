@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-21T01:52:15.752133",
-  "source_updated_at": "2026-03-19-22-58-05",
+  "generated_at": "2026-03-22T02:04:34.918311",
+  "source_updated_at": "2026-03-21-01-58-04",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-03-19-22-58-05",
+  "last_update": "2026-03-21-01-58-04",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -9695,6 +9695,7 @@
     "2631:0:8::/48",
     "2631:0:9::/48",
     "2631:0:a::/48",
+    "2631:1:101::/48",
     "2631:1:105::/48",
     "2631::/48",
     "2804:800::/48",
@@ -83280,6 +83281,12 @@
       "network_border_group": "us-gov-west-1"
     },
     {
+      "address": "2631:1:101::/48",
+      "service": "AMAZON",
+      "region": "eu-west-1",
+      "network_border_group": "eu-west-1"
+    },
+    {
       "address": "2406:dae9:8800::/40",
       "service": "AMAZON",
       "region": "ap-southeast-1",
@@ -99792,6 +99799,12 @@
       "network_border_group": "us-gov-west-1"
     },
     {
+      "address": "2631:1:101::/48",
+      "service": "EC2",
+      "region": "eu-west-1",
+      "network_border_group": "eu-west-1"
+    },
+    {
       "address": "2406:dae9:8800::/40",
       "service": "EC2",
       "region": "ap-southeast-1",
@@ -101969,8 +101982,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"e68f167c1528a63979bbc4003b44cced\"",
-      "last_modified": "Fri, 20 Mar 2026 00:58:08 GMT"
+      "etag": "\"83ec1a6deb5e6ac23f80d90807d29988\"",
+      "last_modified": "Sat, 21 Mar 2026 04:04:49 GMT"
     }
   ]
 }
