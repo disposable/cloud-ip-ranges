@@ -3,12 +3,12 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-22T02:04:36.252369",
-  "source_updated_at": "2026-03-21T13:07:34.489916",
+  "generated_at": "2026-03-23T02:05:20.924927",
+  "source_updated_at": "2026-03-22T13:04:06.162099",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json"
   ],
-  "last_update": "2026-03-21T13:07:34.489916",
+  "last_update": "2026-03-22T13:04:06.162099",
   "ipv4": [
     "104.154.113.0/24",
     "104.154.114.0/23",
@@ -851,6 +851,7 @@
     "8.230.0.0/19",
     "8.230.32.0/19",
     "8.230.64.0/19",
+    "8.230.96.0/19",
     "8.34.208.0/23",
     "8.34.210.0/24",
     "8.34.211.0/24",
@@ -4731,6 +4732,11 @@
       "scope": "us-east7"
     },
     {
+      "address": "8.230.96.0/19",
+      "service": "Google Cloud",
+      "scope": "us-south1"
+    },
+    {
       "address": "34.0.128.0/19",
       "service": "Google Cloud",
       "scope": "us-south1"
@@ -5399,7 +5405,7 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sat, 21 Mar 2026 20:48:00 GMT"
+      "last_modified": "Sun, 22 Mar 2026 20:28:00 GMT"
     }
   ]
 }
