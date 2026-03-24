@@ -3,12 +3,12 @@
   "provider_id": "heroku-aws",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-03-23T02:06:02.141061",
+  "generated_at": "2026-03-24T01:58:03.382464",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS14618"
   ],
-  "last_update": "2026-03-23T02:06:02.141061",
+  "last_update": "2026-03-24T01:58:03.382464",
   "ipv4": [
     "1.178.4.0/24",
     "1.178.5.0/24",
@@ -1387,6 +1387,7 @@
     "2600:f0f0:e0f::/48",
     "2600:f0f0:e11::/48",
     "2600:f0f1:12::/48",
+    "2600:f0f1:13::/48",
     "2600:f0f1:42c0::/42",
     "2600:f0f1:8801::/48",
     "2600:f0f2:7010::/48",

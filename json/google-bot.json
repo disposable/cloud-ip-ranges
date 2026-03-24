@@ -3,17 +3,18 @@
   "provider_id": "google-bot",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-21T01:52:17.223536",
-  "source_updated_at": "2026-03-20T15:46:03.000000",
+  "generated_at": "2026-03-24T01:57:08.871967",
+  "source_updated_at": "2026-03-23T15:45:51.000000",
   "source": [
     "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   ],
-  "last_update": "2026-03-20T15:46:03.000000",
+  "last_update": "2026-03-23T15:45:51.000000",
   "ipv4": [
     "192.178.4.0/27",
     "192.178.4.128/27",
     "192.178.4.160/27",
     "192.178.4.192/27",
+    "192.178.4.224/27",
     "192.178.4.32/27",
     "192.178.4.64/27",
     "192.178.4.96/27",
@@ -317,6 +318,7 @@
     "2001:4860:4801:b3::/64",
     "2001:4860:4801:b4::/64",
     "2001:4860:4801:b5::/64",
+    "2001:4860:4801:b6::/64",
     "2001:4860:4801:c::/64",
     "2001:4860:4801:f::/64"
   ],
@@ -338,6 +340,11 @@
     },
     {
       "address": "192.178.4.192/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "192.178.4.224/27",
       "service": null,
       "scope": null
     },
@@ -1849,6 +1856,11 @@
       "scope": null
     },
     {
+      "address": "2001:4860:4801:b6::/64",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "2001:4860:4801:c::/64",
       "service": null,
       "scope": null
@@ -1865,7 +1877,7 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Fri, 20 Mar 2026 15:46:34 GMT"
+      "last_modified": "Mon, 23 Mar 2026 15:46:27 GMT"
     }
   ]
 }
