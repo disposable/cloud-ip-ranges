@@ -3,12 +3,12 @@
   "provider_id": "oracle-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-11T01:52:40.160734",
+  "generated_at": "2026-03-27T02:10:13.029894",
   "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-03-11T01:52:40.160734",
+  "last_update": "2026-03-27T02:10:13.029894",
   "ipv4": [
     {
       "address": "40.233.0.0/19",
@@ -129,6 +129,62 @@
     {
       "address": "204.216.127.192/26",
       "region": "ca-toronto-1"
+    },
+    {
+      "address": "51.170.32.0/19",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "79.72.48.0/20",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "89.168.0.0/21",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "130.110.232.0/22",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "141.253.192.0/20",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "143.47.32.0/19",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "158.179.208.0/20",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "79.72.20.0/23",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "130.110.239.0/24",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "134.70.176.0/22",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "140.91.78.0/23",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "140.204.112.128/25",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "155.248.136.0/22",
+      "region": "eu-madrid-1"
+    },
+    {
+      "address": "155.248.140.0/25",
+      "region": "eu-madrid-1"
     },
     {
       "address": "64.110.64.0/19",
@@ -1159,58 +1215,6 @@
       "region": "eu-milan-1"
     },
     {
-      "address": "79.72.48.0/20",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "89.168.0.0/21",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "130.110.232.0/22",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "141.253.192.0/20",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "143.47.32.0/19",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "158.179.208.0/20",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "79.72.20.0/23",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "130.110.239.0/24",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "134.70.176.0/22",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "140.91.78.0/23",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "140.204.112.128/25",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "155.248.136.0/22",
-      "region": "eu-madrid-1"
-    },
-    {
-      "address": "155.248.140.0/25",
-      "region": "eu-madrid-1"
-    },
-    {
       "address": "79.72.64.0/19",
       "region": "uk-london-1"
     },
@@ -1628,6 +1632,10 @@
     },
     {
       "address": "80.225.184.0/21",
+      "region": "eu-madrid-3"
+    },
+    {
+      "address": "82.70.64.0/19",
       "region": "eu-madrid-3"
     },
     {
