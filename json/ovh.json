@@ -3,7 +3,7 @@
   "provider_id": "ovh",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-03-27T02:12:31.425406",
+  "generated_at": "2026-03-28T02:03:08.108942",
   "source_updated_at": null,
   "source": [
     "RADB::AS-OVH",
@@ -213,7 +213,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9098",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS984"
   ],
-  "last_update": "2026-03-27T02:12:31.425406",
+  "last_update": "2026-03-28T02:03:08.108942",
   "ipv4": [
     "103.112.60.0/24",
     "103.119.217.0/24",
@@ -1355,6 +1355,8 @@
     "216.109.187.0/24",
     "216.132.95.0/24",
     "216.176.232.0/22",
+    "216.176.232.0/24",
+    "216.176.233.0/24",
     "216.180.136.0/24",
     "216.180.137.0/24",
     "216.180.139.0/24",
@@ -2407,6 +2409,7 @@
     "2a14:7240:e03::/48",
     "2a14:7c0:1003::/48",
     "2a14:c380:120::/44",
+    "2a14:c380:271::/48",
     "2a14:c380:325::/48",
     "2a14:c380:328::/48"
   ],
