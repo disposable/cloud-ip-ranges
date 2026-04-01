@@ -3,12 +3,12 @@
   "provider_id": "digitalocean",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-25T02:02:58.553234",
+  "generated_at": "2026-04-01T02:27:51.510817",
   "source_updated_at": null,
   "source": [
     "https://digitalocean.com/geo/google.csv"
   ],
-  "last_update": "2026-03-25T02:02:58.553234",
+  "last_update": "2026-04-01T02:27:51.510817",
   "ipv4": [
     "103.253.145.0/24",
     "103.253.146.0/24",
@@ -586,7 +586,9 @@
     "165.245.176.0/20",
     "165.245.192.0/21",
     "165.245.200.0/22",
+    "165.245.204.0/22",
     "165.245.208.0/20",
+    "165.245.224.0/20",
     "167.172.0.0/22",
     "167.172.112.0/20",
     "167.172.12.0/22",
@@ -1228,7 +1230,7 @@
       "status": 200,
       "content_type": "application/csv",
       "etag": null,
-      "last_modified": "Wed, 25 Mar 2026 01:26:35 GMT"
+      "last_modified": "Wed, 01 Apr 2026 01:41:09 GMT"
     }
   ]
 }

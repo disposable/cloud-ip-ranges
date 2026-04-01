@@ -1,0 +1,184 @@
+{
+  "provider": "Pagerduty",
+  "provider_id": "pagerduty",
+  "method": "published_list",
+  "coverage_notes": "PagerDuty webhook IPs ONLY (US and EU service regions). Incoming webhooks FROM PagerDuty TO customer systems. REST API and Event API IPs are NOT included. PagerDuty recommends TLS/signature verification over IP safelisting.",
+  "generated_at": "2026-04-01T02:28:15.872364",
+  "source_updated_at": null,
+  "source": [
+    "https://developer.pagerduty.com/ip-safelists/webhooks-us-service-region-json",
+    "https://developer.pagerduty.com/ip-safelists/webhooks-eu-service-region-json"
+  ],
+  "last_update": "2026-04-01T02:28:15.872364",
+  "ipv4": [
+    "13.56.49.27/32",
+    "18.158.120.237/32",
+    "18.158.199.216/32",
+    "18.192.91.93/32",
+    "18.194.177.30/32",
+    "18.197.187.16/32",
+    "3.126.25.87/32",
+    "34.210.242.134/32",
+    "34.210.57.30/32",
+    "34.250.91.200/32",
+    "35.86.21.47/32",
+    "44.238.89.29/32",
+    "44.242.69.192/32",
+    "52.213.188.110/32",
+    "52.34.208.156/32",
+    "52.88.94.18/32",
+    "52.89.71.166/32",
+    "54.170.2.90/32",
+    "54.176.72.216/32",
+    "54.177.81.67/32",
+    "54.195.179.238/32",
+    "54.213.187.133/32",
+    "54.241.68.46/32",
+    "54.76.225.71/32",
+    "54.76.3.62/32"
+  ],
+  "ipv6": [],
+  "details_ipv4": [
+    {
+      "address": "44.242.69.192/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "52.89.71.166/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "54.213.187.133/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "35.86.21.47/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "52.88.94.18/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "44.238.89.29/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "54.241.68.46/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "54.176.72.216/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "54.177.81.67/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "13.56.49.27/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "34.210.57.30/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "34.210.242.134/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "52.34.208.156/32",
+      "region": "US",
+      "surface": "webhook"
+    },
+    {
+      "address": "18.192.91.93/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "18.158.120.237/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "18.194.177.30/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "18.158.199.216/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "3.126.25.87/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "18.197.187.16/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "54.76.3.62/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "54.170.2.90/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "52.213.188.110/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "54.195.179.238/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "34.250.91.200/32",
+      "region": "EU",
+      "surface": "webhook"
+    },
+    {
+      "address": "54.76.225.71/32",
+      "region": "EU",
+      "surface": "webhook"
+    }
+  ],
+  "source_http": [
+    {
+      "url": "https://developer.pagerduty.com/ip-safelists/webhooks-us-service-region-json",
+      "status": 200,
+      "content_type": "binary/octet-stream",
+      "etag": "\"92f027a9a09bee78b017d93e2b87a50f\"",
+      "last_modified": "Tue, 06 Jan 2026 11:11:48 GMT"
+    },
+    {
+      "url": "https://developer.pagerduty.com/ip-safelists/webhooks-eu-service-region-json",
+      "status": 200,
+      "content_type": "binary/octet-stream",
+      "etag": "\"534fae79ebcbbdf010df250cd9fb75f6\"",
+      "last_modified": "Tue, 06 Jan 2026 11:11:48 GMT"
+    }
+  ]
+}
