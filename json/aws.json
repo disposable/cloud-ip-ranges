@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-02T02:07:09.547468",
-  "source_updated_at": "2026-04-01-19-47-05",
+  "generated_at": "2026-04-03T02:08:31.640764",
+  "source_updated_at": "2026-04-02-12-17-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-04-01-19-47-05",
+  "last_update": "2026-04-02-12-17-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -3180,6 +3180,7 @@
     "184.192.0.0/12",
     "184.208.0.0/12",
     "184.32.0.0/14",
+    "184.34.158.0/23",
     "184.36.0.0/14",
     "184.40.0.0/13",
     "184.72.0.0/18",
@@ -44675,6 +44676,12 @@
     },
     {
       "address": "18.246.96.0/22",
+      "service": "AMAZON",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "184.34.158.0/23",
       "service": "AMAZON",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
@@ -102209,8 +102216,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"1bfdc87cbd6a89c16f083fa98b4b1740\"",
-      "last_modified": "Wed, 01 Apr 2026 22:02:04 GMT"
+      "etag": "\"a269e3308b65d372ad94e36681d74caa\"",
+      "last_modified": "Thu, 02 Apr 2026 14:27:09 GMT"
     }
   ]
 }
