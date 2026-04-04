@@ -31,9 +31,13 @@ jobs:
     - name: Set up uv
       uses: astral-sh/setup-uv@v3
 
-    - name: Install dependencies
+    - name: Install crawler dependencies
       run: |
         uv sync --directory crawler --no-dev
+
+    - name: Install scripts dependencies
+      run: |
+        pip install -r scripts/requirements.txt
 
     - name: Run Update IP ranges (Cloud Providers)
       id: build
@@ -57,23 +61,29 @@ jobs:
           echo "EOF"
         } >> "$GITHUB_OUTPUT"
 
+    - name: Update retention history
+      run: |
+        python scripts/update_history.py \
+          --db meta/history.duckdb \
+          --json-dir json \
+          --misc-dir misc
+
+    - name: Update README statistics
+      run: |
+        python scripts/generate_readme_stats.py \
+          --db meta/history.duckdb \
+          --readme README.md \
+          --json-dir json \
+          --misc-dir misc
+
     - name: Add and commit
       uses: EndBug/add-and-commit@v9
       with:
-        # The arguments for the `git add` command (see the paragraph below for more info)
-        # Default: '.'
-        add: 'json txt csv'
+        add: 'json txt csv meta/history.duckdb README.md'
 
-        # The name of the user that will be displayed as the author of the commit.
-        # Default: depends on the default_author input
         author_name: Auto Update Bot
-
-        # The email of the user that will be displayed as the author of the commit.
-        # Default: depends on the default_author input
         author_email: bot@github.com
 
-        # The message for the commit.
-        # Default: 'Commit from GitHub Actions (name of the workflow)'
         message: |
           Updated ${{ steps.build.outputs.sources_count }} cloud services (IPv4: ${{ steps.build.outputs.total_ipv4 }}, IPv6: ${{ steps.build.outputs.total_ipv6 }})
 
@@ -100,9 +110,13 @@ jobs:
     - name: Set up uv
       uses: astral-sh/setup-uv@v3
 
-    - name: Install dependencies
+    - name: Install crawler dependencies
       run: |
         uv sync --directory crawler --no-dev
+
+    - name: Install scripts dependencies
+      run: |
+        pip install -r scripts/requirements.txt
 
     - name: Run Update IP ranges (Misc Providers)
       id: build-misc
@@ -124,19 +138,29 @@ jobs:
           echo "EOF"
         } >> "$GITHUB_OUTPUT"
 
+    - name: Update retention history
+      run: |
+        python scripts/update_history.py \
+          --db meta/history.duckdb \
+          --json-dir json \
+          --misc-dir misc
+
+    - name: Update README statistics
+      run: |
+        python scripts/generate_readme_stats.py \
+          --db meta/history.duckdb \
+          --readme README.md \
+          --json-dir json \
+          --misc-dir misc
+
     - name: Add and commit misc providers
       uses: EndBug/add-and-commit@v9
       with:
-        # The arguments for the `git add` command
-        add: 'misc'
+        add: 'misc meta/history.duckdb README.md'
 
-        # The name of the user that will be displayed as the author of the commit.
         author_name: Auto Update Bot
-
-        # The email of the user that will be displayed as the author of the commit.
         author_email: bot@github.com
 
-        # The message for the commit.
         message: |
           Updated ${{ steps.build-misc.outputs.sources_count }} misc services (IPv4: ${{ steps.build-misc.outputs.total_ipv4 }}, IPv6: ${{ steps.build-misc.outputs.total_ipv6 }})
 
