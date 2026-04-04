@@ -15,7 +15,7 @@ which shows their assigned IP ranges.
 | Active IPv6 ranges | **273,086** |
 | Retired IPv4 (≤ 4 weeks) | 0 |
 | Retired IPv6 (≤ 4 weeks) | 0 |
-| Last crawled | 2026-04-04 20:09 UTC |
+| Last crawled | 2026-04-04 20:10 UTC |
 <!-- STATS_END -->
 
 ## Data sources
