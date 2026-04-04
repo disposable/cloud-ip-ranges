@@ -13,14 +13,14 @@ import argparse
 import csv
 import hashlib
 import json
-import re
+import os
+import tempfile
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import duckdb
 
 RETIREMENT_WEEKS = 4
-RIPESTAT_ASN_RE = re.compile(r"resource=(AS\d+)", re.IGNORECASE)
 
 
 # ---------------------------------------------------------------------------
@@ -63,142 +63,183 @@ def _hash(cidrs: list[str]) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Per-provider history logic
+# Bulk history reconciliation (all providers in one transaction)
 # ---------------------------------------------------------------------------
 
-def process_history(
-    conn: duckdb.DuckDBPyConnection,
-    provider_id: str,
-    current_ipv4: list[str],
-    current_ipv6: list[str],
-    now: datetime,
-) -> tuple[list[tuple[str, datetime]], list[tuple[str, datetime]]]:
+def _write_current_cidrs_csv(providers: list[dict]) -> str | None:
     """
-    Reconcile current CIDRs against DB state.
-    Returns (retired_ipv4, retired_ipv6) — lists of (cidr, retired_at) tuples
-    that are still within the retention window and should appear in output.
+    Write all (provider_id, cidr) pairs to a temp CSV file.
+    Returns the file path, or None if there are no rows.
+    DuckDB's native CSV reader is orders of magnitude faster than executemany
+    or unnest parameter binding for large datasets.
+    """
+    rows_exist = any(p.get("ipv4") or p.get("ipv6") for p in providers)
+    if not rows_exist:
+        return None
+
+    fd, path = tempfile.mkstemp(suffix=".csv", prefix="cidr_history_")
+    with os.fdopen(fd, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["provider_id", "cidr"])
+        for p in providers:
+            pid = p["provider_id"]
+            for cidr in p.get("ipv4", []):
+                if isinstance(cidr, str):
+                    writer.writerow([pid, cidr])
+            for cidr in p.get("ipv6", []):
+                if isinstance(cidr, str):
+                    writer.writerow([pid, cidr])
+    return path
+
+
+def reconcile_all_providers(
+    conn: duckdb.DuckDBPyConnection,
+    providers: list[dict],  # list of {provider_id, ipv4, ipv6}
+    now: datetime,
+) -> dict[str, tuple[list[tuple[str, datetime]], list[tuple[str, datetime]]]]:
+    """
+    Reconcile all providers against cidr_history in a single transaction.
+    Returns {provider_id: (retired_v4, retired_v6)}.
     """
     cutoff = now - timedelta(weeks=RETIREMENT_WEEKS)
-    current = set(current_ipv4) | set(current_ipv6)
 
-    rows = conn.execute(
-        "SELECT cidr FROM cidr_history WHERE provider_id = ? AND retired_at IS NULL",
-        [provider_id],
-    ).fetchall()
-    active_in_db = {r[0] for r in rows}
+    # Write all current CIDRs to a temp CSV then bulk-load via DuckDB's native reader.
+    # This is orders of magnitude faster than executemany or unnest parameter binding
+    # for large datasets (547K rows loads in ~1s vs 90s with Python-side serialization).
+    tmp_csv = _write_current_cidrs_csv(providers)
 
-    new_cidrs = current - active_in_db
-    removed_cidrs = active_in_db - current
-    continuing_cidrs = current & active_in_db
+    conn.execute("BEGIN")
 
-    # Batch insert new CIDRs
-    if new_cidrs:
-        conn.executemany(
-            """
-            INSERT INTO cidr_history (provider_id, cidr, first_seen, last_seen, retired_at)
-            VALUES (?, ?, ?, ?, NULL)
-            ON CONFLICT (provider_id, cidr) DO UPDATE SET last_seen = excluded.last_seen, retired_at = NULL
-            """,
-            [[provider_id, cidr, now, now] for cidr in new_cidrs],
-        )
-
-    # Batch update last_seen for continuing CIDRs using a temp VALUES table
-    if continuing_cidrs:
+    # Load current state into a temp table using DuckDB's fast CSV reader
+    conn.execute("DROP TABLE IF EXISTS current_cidrs")
+    if tmp_csv:
         conn.execute(
-            f"""
-            UPDATE cidr_history SET last_seen = ?
-            WHERE provider_id = ?
-            AND cidr IN (SELECT unnest(?::VARCHAR[]))
-            """,
-            [now, provider_id, list(continuing_cidrs)],
+            f"CREATE TEMP TABLE current_cidrs AS SELECT * FROM read_csv('{tmp_csv}', "
+            f"columns={{'provider_id': 'VARCHAR', 'cidr': 'VARCHAR'}})"
         )
-
-    # Batch mark removed CIDRs as retired
-    if removed_cidrs:
-        conn.execute(
-            f"""
-            UPDATE cidr_history SET retired_at = ?
-            WHERE provider_id = ?
-            AND cidr IN (SELECT unnest(?::VARCHAR[]))
-            AND retired_at IS NULL
-            """,
-            [now, provider_id, list(removed_cidrs)],
-        )
-
-    # Purge CIDRs that exceeded the retention window
-    conn.execute(
-        "DELETE FROM cidr_history WHERE provider_id = ? AND retired_at IS NOT NULL AND retired_at < ?",
-        [provider_id, cutoff],
-    )
-
-    # Fetch still-valid retired CIDRs
-    retired_rows = conn.execute(
-        "SELECT cidr, retired_at FROM cidr_history WHERE provider_id = ? AND retired_at IS NOT NULL",
-        [provider_id],
-    ).fetchall()
-
-    retired_v4 = [(c, r) for c, r in retired_rows if ":" not in c]
-    retired_v6 = [(c, r) for c, r in retired_rows if ":" in c]
-    return retired_v4, retired_v6
-
-
-def update_provider_metadata(
-    conn: duckdb.DuckDBPyConnection,
-    provider_id: str,
-    provider_name: str,
-    now: datetime,
-    current_ipv4: list[str],
-    current_ipv6: list[str],
-    retired_v4: list,
-    retired_v6: list,
-    method: str | None,
-    source: str | None,
-) -> None:
-    new_v4_hash = _hash(current_ipv4)
-    new_v6_hash = _hash(current_ipv6)
-
-    row = conn.execute(
-        "SELECT last_changed_at, ipv4_hash, ipv6_hash FROM provider_last_changed WHERE provider_id = ?",
-        [provider_id],
-    ).fetchone()
-
-    if row:
-        last_changed_at = row[0]
-        if new_v4_hash != row[1] or new_v6_hash != row[2]:
-            last_changed_at = now
-        conn.execute(
-            """
-            UPDATE provider_last_changed SET
-                provider_name=?, last_changed_at=?, last_crawled_at=?,
-                ipv4_count=?, ipv6_count=?,
-                retired_ipv4_count=?, retired_ipv6_count=?,
-                method=?, source=?, ipv4_hash=?, ipv6_hash=?
-            WHERE provider_id=?
-            """,
-            [
-                provider_name, last_changed_at, now,
-                len(current_ipv4), len(current_ipv6),
-                len(retired_v4), len(retired_v6),
-                method, source, new_v4_hash, new_v6_hash,
-                provider_id,
-            ],
-        )
+        os.unlink(tmp_csv)
     else:
         conn.execute(
-            """
-            INSERT INTO provider_last_changed
-                (provider_id, provider_name, last_changed_at, last_crawled_at,
-                 ipv4_count, ipv6_count, retired_ipv4_count, retired_ipv6_count,
-                 method, source, ipv4_hash, ipv6_hash)
-            VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
-            """,
-            [
-                provider_id, provider_name, now, now,
-                len(current_ipv4), len(current_ipv6),
-                len(retired_v4), len(retired_v6),
-                method, source, new_v4_hash, new_v6_hash,
-            ],
+            "CREATE TEMP TABLE current_cidrs (provider_id VARCHAR NOT NULL, cidr VARCHAR NOT NULL)"
         )
+
+    # 1. Insert truly new CIDRs (not seen before at all)
+    conn.execute(f"""
+        INSERT INTO cidr_history (provider_id, cidr, first_seen, last_seen, retired_at)
+        SELECT c.provider_id, c.cidr, '{now.isoformat()}', '{now.isoformat()}', NULL
+        FROM current_cidrs c
+        LEFT JOIN cidr_history h ON h.provider_id = c.provider_id AND h.cidr = c.cidr
+        WHERE h.cidr IS NULL
+    """)
+
+    # 2. Re-activate previously retired CIDRs that are back
+    conn.execute(f"""
+        UPDATE cidr_history SET last_seen = '{now.isoformat()}', retired_at = NULL
+        WHERE retired_at IS NOT NULL
+        AND (provider_id, cidr) IN (SELECT provider_id, cidr FROM current_cidrs)
+    """)
+
+    # 3. Update last_seen for continuing active CIDRs
+    conn.execute(f"""
+        UPDATE cidr_history SET last_seen = '{now.isoformat()}'
+        WHERE retired_at IS NULL
+        AND (provider_id, cidr) IN (SELECT provider_id, cidr FROM current_cidrs)
+    """)
+
+    # 4. Mark removed CIDRs as retired
+    conn.execute(f"""
+        UPDATE cidr_history SET retired_at = '{now.isoformat()}'
+        WHERE retired_at IS NULL
+        AND (provider_id, cidr) NOT IN (SELECT provider_id, cidr FROM current_cidrs)
+    """)
+
+    # 5. Purge CIDRs beyond the retention window
+    conn.execute(f"""
+        DELETE FROM cidr_history
+        WHERE retired_at IS NOT NULL AND retired_at < '{cutoff.isoformat()}'
+    """)
+
+    conn.execute("COMMIT")
+
+    # Fetch all still-valid retired CIDRs grouped by provider
+    retired_rows = conn.execute("""
+        SELECT provider_id, cidr, retired_at
+        FROM cidr_history
+        WHERE retired_at IS NOT NULL
+        ORDER BY provider_id
+    """).fetchall()
+
+    result: dict[str, tuple[list, list]] = {}
+    for pid, cidr, retired_at in retired_rows:
+        if pid not in result:
+            result[pid] = ([], [])
+        if ":" in cidr:
+            result[pid][1].append((cidr, retired_at))
+        else:
+            result[pid][0].append((cidr, retired_at))
+
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Provider metadata tracking
+# ---------------------------------------------------------------------------
+
+def update_all_provider_metadata(
+    conn: duckdb.DuckDBPyConnection,
+    providers: list[dict],
+    retired_by_provider: dict,
+    now: datetime,
+) -> None:
+    """Update provider_last_changed for all providers in one transaction."""
+    conn.execute("BEGIN")
+
+    for p in providers:
+        pid = p["provider_id"]
+        pname = p.get("provider", pid)
+        v4 = p.get("ipv4", [])
+        v6 = p.get("ipv6", [])
+        method = p.get("method")
+        source = p.get("source", [""])[0] if p.get("source") else ""
+
+        new_v4_hash = _hash(v4)
+        new_v6_hash = _hash(v6)
+        retired = retired_by_provider.get(pid, ([], []))
+        rv4, rv6 = len(retired[0]), len(retired[1])
+
+        row = conn.execute(
+            "SELECT last_changed_at, ipv4_hash, ipv6_hash FROM provider_last_changed WHERE provider_id = ?",
+            [pid],
+        ).fetchone()
+
+        if row:
+            last_changed_at = row[0]
+            if new_v4_hash != row[1] or new_v6_hash != row[2]:
+                last_changed_at = now
+            conn.execute("""
+                UPDATE provider_last_changed SET
+                    provider_name=?, last_changed_at=?, last_crawled_at=?,
+                    ipv4_count=?, ipv6_count=?,
+                    retired_ipv4_count=?, retired_ipv6_count=?,
+                    method=?, source=?, ipv4_hash=?, ipv6_hash=?
+                WHERE provider_id=?
+                """,
+                [pname, last_changed_at, now, len(v4), len(v6), rv4, rv6,
+                 method, source, new_v4_hash, new_v6_hash, pid],
+            )
+        else:
+            conn.execute("""
+                INSERT INTO provider_last_changed
+                    (provider_id, provider_name, last_changed_at, last_crawled_at,
+                     ipv4_count, ipv6_count, retired_ipv4_count, retired_ipv6_count,
+                     method, source, ipv4_hash, ipv6_hash)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+                """,
+                [pid, pname, now, now, len(v4), len(v6), rv4, rv6,
+                 method, source, new_v4_hash, new_v6_hash],
+            )
+
+    conn.execute("COMMIT")
 
 
 # ---------------------------------------------------------------------------
@@ -216,7 +257,6 @@ def patch_json(
     active_v4 = set(data.get("ipv4", []))
     active_v6 = set(data.get("ipv6", []))
 
-    # Build details maps (address → detail dict)
     det_v4: dict[str, dict] = {d["address"]: d for d in data.get("details_ipv4", [])}
     det_v6: dict[str, dict] = {d["address"]: d for d in data.get("details_ipv6", [])}
 
@@ -265,7 +305,6 @@ def patch_csv(
         if cidr not in existing:
             new_rows.append({"Type": "IPv6", "Address": cidr, "RetiredAt": retired_at.isoformat()})
 
-    # Migrate existing rows to include RetiredAt column (empty for active)
     has_retired_col = rows and "RetiredAt" in rows[0]
     if not new_rows and has_retired_col:
         return
@@ -296,19 +335,18 @@ def patch_txt(
 
 
 # ---------------------------------------------------------------------------
-# all-providers.json/csv/txt patching
+# all-providers.* patching
 # ---------------------------------------------------------------------------
 
 def patch_all_providers(
     json_dir: Path,
-    all_retired: dict[str, list[tuple[str, datetime]]],  # provider_id -> [(cidr, retired_at)]
+    all_retired: dict[str, list[tuple[str, datetime]]],
 ) -> None:
-    """Inject retired CIDRs from all providers into the all-providers.* files."""
     json_path = json_dir / "all-providers.json"
     csv_path = json_dir.parent / "csv" / "all-providers.csv"
     txt_path = json_dir.parent / "txt" / "all-providers.txt"
 
-    # Flatten: cidr -> (retired_at, [provider_ids])
+    # Flatten: cidr -> (earliest retired_at, [provider_ids])
     retired_map: dict[str, tuple[datetime, list[str]]] = {}
     for provider_id, entries in all_retired.items():
         for cidr, retired_at in entries:
@@ -317,14 +355,12 @@ def patch_all_providers(
             else:
                 existing_at, providers = retired_map[cidr]
                 providers.append(provider_id)
-                # Keep earliest retirement date
                 if retired_at < existing_at:
                     retired_map[cidr] = (retired_at, providers)
 
     if not retired_map:
         return
 
-    # Patch JSON
     if json_path.exists():
         with open(json_path) as f:
             data = json.load(f)
@@ -332,50 +368,32 @@ def patch_all_providers(
         active_set = set(data.get("ipv4", [])) | set(data.get("ipv6", []))
         ip_providers: dict = data.get("ip_providers", {})
 
-        retired_v4_new = []
-        retired_v6_new = []
+        new_v4, new_v6 = [], []
         for cidr, (retired_at, providers) in retired_map.items():
             if cidr in active_set:
                 continue
-            if ":" in cidr:
-                retired_v6_new.append(cidr)
-            else:
-                retired_v4_new.append(cidr)
+            (new_v6 if ":" in cidr else new_v4).append(cidr)
             ip_providers[cidr] = providers
 
-        if retired_v4_new or retired_v6_new:
-            data["ipv4"] = data.get("ipv4", []) + retired_v4_new
-            data["ipv6"] = data.get("ipv6", []) + retired_v6_new
+        if new_v4 or new_v6:
+            data["ipv4"] = data.get("ipv4", []) + new_v4
+            data["ipv6"] = data.get("ipv6", []) + new_v6
             data["ip_providers"] = ip_providers
-            # Track how many retired IPs are present
-            data["retired_ipv4_count"] = len(retired_v4_new) + data.get("retired_ipv4_count", 0)
-            data["retired_ipv6_count"] = len(retired_v6_new) + data.get("retired_ipv6_count", 0)
+            data["retired_ipv4_count"] = len(new_v4) + data.get("retired_ipv4_count", 0)
+            data["retired_ipv6_count"] = len(new_v6) + data.get("retired_ipv6_count", 0)
             with open(json_path, "w") as f:
                 json.dump(data, f, indent=2)
                 f.write("\n")
 
-    # Patch CSV
     if csv_path.exists():
-        retired_v4 = [(c, r) for c, (r, _) in retired_map.items() if ":" not in c]
-        retired_v6 = [(c, r) for c, (r, _) in retired_map.items() if ":" in c]
-        patch_csv(csv_path, retired_v4, retired_v6)
+        rv4 = [(c, r) for c, (r, _) in retired_map.items() if ":" not in c]
+        rv6 = [(c, r) for c, (r, _) in retired_map.items() if ":" in c]
+        patch_csv(csv_path, rv4, rv6)
 
-    # Patch TXT
     if txt_path.exists():
-        retired_v4 = [(c, r) for c, (r, _) in retired_map.items() if ":" not in c]
-        retired_v6 = [(c, r) for c, (r, _) in retired_map.items() if ":" in c]
-        patch_txt(txt_path, retired_v4, retired_v6)
-
-
-# ---------------------------------------------------------------------------
-# Source display helpers
-# ---------------------------------------------------------------------------
-
-def format_source(sources: list[str]) -> str:
-    """Return a compact source string suitable for DB storage."""
-    if not sources:
-        return ""
-    return sources[0]
+        rv4 = [(c, r) for c, (r, _) in retired_map.items() if ":" not in c]
+        rv6 = [(c, r) for c, (r, _) in retired_map.items() if ":" in c]
+        patch_txt(txt_path, rv4, rv6)
 
 
 # ---------------------------------------------------------------------------
@@ -384,86 +402,71 @@ def format_source(sources: list[str]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--db", default="meta/history.duckdb", help="Path to DuckDB file")
-    parser.add_argument(
-        "--json-dir", default="json", help="Directory containing provider JSON files"
-    )
-    parser.add_argument(
-        "--misc-dir", default="misc", help="Directory containing misc provider JSON files"
-    )
+    parser.add_argument("--db", default="meta/history.duckdb")
+    parser.add_argument("--json-dir", default="json")
+    parser.add_argument("--misc-dir", default="misc")
     args = parser.parse_args()
 
     db_path = Path(args.db)
     db_path.parent.mkdir(parents=True, exist_ok=True)
 
     now = datetime.now(tz=timezone.utc)
+    json_dir = Path(args.json_dir)
+    misc_dir = Path(args.misc_dir)
 
     conn = open_db(db_path)
 
-    dirs_to_process = []
-    json_dir = Path(args.json_dir)
-    misc_dir = Path(args.misc_dir)
-    if json_dir.exists():
-        dirs_to_process.append(json_dir)
-    if misc_dir.exists():
-        dirs_to_process.append(misc_dir)
+    # Load all provider data from disk
+    providers: list[dict] = []
+    provider_paths: dict[str, tuple[Path, Path, Path]] = {}  # pid -> (json, csv, txt)
 
-    # Map: provider_id -> (retired_v4, retired_v6) for all-providers update
-    all_retired: dict[str, list[tuple[str, datetime]]] = {}
-
-    for search_dir in dirs_to_process:
+    for search_dir in [json_dir, misc_dir]:
+        if not search_dir.exists():
+            continue
         for json_path in sorted(search_dir.glob("*.json")):
-            if json_path.stem == "all-providers":
+            if json_path.stem == "all-providers" or json_path.stem.endswith("-details"):
                 continue
-
             with open(json_path) as f:
                 data = json.load(f)
+            providers.append(data)
 
-            provider_id = data.get("provider_id", json_path.stem)
-            provider_name = data.get("provider", provider_id)
-            method = data.get("method")
-            sources = data.get("source", [])
-            current_v4 = data.get("ipv4", [])
-            current_v6 = data.get("ipv6", [])
-
-            retired_v4, retired_v6 = process_history(
-                conn, provider_id, current_v4, current_v6, now
-            )
-            update_provider_metadata(
-                conn, provider_id, provider_name, now,
-                current_v4, current_v6, retired_v4, retired_v6,
-                method, format_source(sources),
-            )
-
-            if retired_v4 or retired_v6:
-                all_retired[provider_id] = retired_v4 + retired_v6
-                patch_json(json_path, retired_v4, retired_v6)
-
-            # Determine sibling CSV/TXT paths
+            pid = data.get("provider_id", json_path.stem)
             if search_dir == json_dir:
                 csv_path = json_dir.parent / "csv" / json_path.with_suffix(".csv").name
                 txt_path = json_dir.parent / "txt" / json_path.with_suffix(".txt").name
             else:
                 csv_path = search_dir / json_path.with_suffix(".csv").name
                 txt_path = search_dir / json_path.with_suffix(".txt").name
+            provider_paths[pid] = (json_path, csv_path, txt_path)
 
-            if retired_v4 or retired_v6:
-                patch_csv(csv_path, retired_v4, retired_v6)
-                patch_txt(txt_path, retired_v4, retired_v6)
+    total_cidrs = sum(len(p.get("ipv4", [])) + len(p.get("ipv6", [])) for p in providers)
+    print(f"Processing {len(providers)} providers, {total_cidrs:,} total CIDRs...", flush=True)
 
-            total_retired = len(retired_v4) + len(retired_v6)
-            print(
-                f"  {provider_id}: {len(current_v4)} IPv4, {len(current_v6)} IPv6"
-                + (f", {total_retired} retired" if total_retired else ""),
-                flush=True,
-            )
+    # Single-transaction bulk reconciliation
+    retired_by_provider = reconcile_all_providers(conn, providers, now)
 
-    # Update all-providers aggregated files
-    if all_retired and json_dir.exists():
-        patch_all_providers(json_dir, all_retired)
+    # Update provider metadata
+    update_all_provider_metadata(conn, providers, retired_by_provider, now)
 
     conn.close()
-    print(f"History updated: {db_path}", flush=True)
+    print(f"DB updated: {db_path}", flush=True)
+
+    # Patch output files for providers with retired IPs
+    all_retired_flat: dict[str, list[tuple[str, datetime]]] = {}
+    for pid, (rv4, rv6) in retired_by_provider.items():
+        if not rv4 and not rv6:
+            continue
+        json_path, csv_path, txt_path = provider_paths[pid]
+        patch_json(json_path, rv4, rv6)
+        patch_csv(csv_path, rv4, rv6)
+        patch_txt(txt_path, rv4, rv6)
+        all_retired_flat[pid] = rv4 + rv6
+        print(f"  {pid}: {len(rv4)} retired IPv4, {len(rv6)} retired IPv6", flush=True)
+
+    if all_retired_flat and json_dir.exists():
+        patch_all_providers(json_dir, all_retired_flat)
+
+    print("Done.", flush=True)
     return 0
 
 
