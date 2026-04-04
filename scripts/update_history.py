@@ -200,7 +200,11 @@ def update_all_provider_metadata(
         v4 = p.get("ipv4", [])
         v6 = p.get("ipv6", [])
         method = p.get("method")
-        source = p.get("source", [""])[0] if p.get("source") else ""
+        raw_src = p.get("source", "")
+        if isinstance(raw_src, list):
+            source = raw_src[0] if raw_src else ""
+        else:
+            source = raw_src or ""
 
         new_v4_hash = _hash(v4)
         new_v6_hash = _hash(v6)

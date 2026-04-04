@@ -170,7 +170,9 @@ def generate_sources_table(
                 with open(json_path) as f:
                     data = json.load(f)
                 pid = data.get("provider_id", json_path.stem)
-                provider_sources[pid] = data.get("source", [])
+                src = data.get("source", [])
+                # Normalize: some providers store source as a bare string
+                provider_sources[pid] = [src] if isinstance(src, str) else src
             except Exception:
                 pass
 
