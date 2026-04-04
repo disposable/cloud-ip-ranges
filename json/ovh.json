@@ -3,7 +3,7 @@
   "provider_id": "ovh",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-04-03T02:10:36.862855",
+  "generated_at": "2026-04-04T02:02:59.458236",
   "source_updated_at": null,
   "source": [
     "RADB::AS-OVH",
@@ -157,7 +157,6 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS399605",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS39962",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS399747",
-    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS399838",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS40019",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS400191",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS400262",
@@ -168,6 +167,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401178",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401224",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401314",
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401378",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401387",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401489",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401608",
@@ -216,7 +216,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9098",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS984"
   ],
-  "last_update": "2026-04-03T02:10:36.862855",
+  "last_update": "2026-04-04T02:02:59.458236",
   "ipv4": [
     "103.112.60.0/24",
     "103.119.217.0/24",
@@ -528,9 +528,6 @@
     "151.247.37.0/24",
     "151.80.0.0/16",
     "152.228.128.0/17",
-    "154.16.128.0/24",
-    "154.16.129.0/24",
-    "154.16.130.0/24",
     "154.193.62.0/24",
     "154.193.84.0/24",
     "154.193.85.0/24",
@@ -1679,6 +1676,7 @@
     "5.133.24.0/22",
     "5.135.0.0/16",
     "5.144.177.0/24",
+    "5.175.164.0/24",
     "5.175.168.0/24",
     "5.175.171.0/24",
     "5.175.195.0/24",
@@ -1884,7 +1882,6 @@
     "77.90.41.0/24",
     "77.90.5.0/24",
     "77.90.53.0/24",
-    "78.108.59.0/24",
     "78.17.8.0/24",
     "79.110.171.0/24",
     "79.110.61.0/24",
@@ -2325,7 +2322,6 @@
     "2a06:9801:d::/48",
     "2a06:9f42::/32",
     "2a06:a005:753::/48",
-    "2a06:a005:755::/48",
     "2a06:a005:75a::/48",
     "2a06:f940:1::/48",
     "2a07:54c1::/36",
@@ -2370,7 +2366,6 @@
     "2a0e:b107:12d2::/48",
     "2a0e:b107:12d3::/48",
     "2a0e:b107:12d4::/48",
-    "2a0e:b107:12d7::/48",
     "2a0e:eb00::/32",
     "2a0f:6282:4000::/34",
     "2a0f:85c1:32a::/48",
@@ -3472,13 +3467,6 @@
       "last_modified": null
     },
     {
-      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS399838",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "etag": null,
-      "last_modified": null
-    },
-    {
       "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS40019",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -3543,6 +3531,13 @@
     },
     {
       "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401314",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    },
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401378",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": null,

@@ -3,14 +3,14 @@
   "provider_id": "cloudflare",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-02T02:07:10.591274",
+  "generated_at": "2026-04-04T02:01:10.130287",
   "source_updated_at": null,
   "source": [
     "https://www.cloudflare.com/ips-v4",
     "https://www.cloudflare.com/ips-v6",
     "https://api.cloudflare.com/client/v4/ips?networks=jdcloud"
   ],
-  "last_update": "2026-04-02T02:07:10.591274",
+  "last_update": "2026-04-04T02:01:10.130287",
   "ipv4": [
     "101.69.205.224/27",
     "103.21.244.0/22",
@@ -115,6 +115,7 @@
     "2409:8c6c:561:8124:1000::/68",
     "240e:90d:1101:203:1000::/68",
     "240e:914:4005:1:1000::/68",
+    "240e:935:a04:2b21:1000::/68",
     "240e:938:a05:22:1000::/68",
     "240e:938:a07:16:1000::/68",
     "240e:940:e009:14e:1000::/68",
@@ -139,20 +140,20 @@
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Wed, 01 Apr 2026 18:42:32 GMT"
+      "last_modified": "Fri, 03 Apr 2026 08:24:40 GMT"
     },
     {
       "url": "https://www.cloudflare.com/ips-v6",
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Wed, 01 Apr 2026 23:00:45 GMT"
+      "last_modified": "Fri, 03 Apr 2026 06:01:11 GMT"
     },
     {
       "url": "https://api.cloudflare.com/client/v4/ips?networks=jdcloud",
       "status": 200,
       "content_type": "application/json",
-      "etag": "W/\"f10628653e951020102afe67dc3d48d5\"",
+      "etag": "W/\"c9521d7642446cd52ca55f8e9f4e7846\"",
       "last_modified": null
     }
   ]
