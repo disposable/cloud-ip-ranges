@@ -297,26 +297,42 @@ def patch_csv(
 
     with open(csv_path, newline="") as f:
         reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames or ["Type", "Address"]
         rows = list(reader)
 
     existing = {r["Address"] for r in rows}
 
+    # Ensure RetiredAt column exists
+    has_retired_col = "RetiredAt" in fieldnames
+    if not has_retired_col:
+        fieldnames = list(fieldnames) + ["RetiredAt"]
+
     new_rows = []
     for cidr, retired_at in retired_v4:
         if cidr not in existing:
-            new_rows.append({"Type": "IPv4", "Address": cidr, "RetiredAt": retired_at.isoformat()})
+            row = {"Type": "IPv4", "Address": cidr, "RetiredAt": retired_at.isoformat()}
+            # Copy other fields from first row template if available
+            if rows:
+                for key in fieldnames:
+                    if key not in row:
+                        row[key] = rows[0].get(key, "")
+            new_rows.append(row)
     for cidr, retired_at in retired_v6:
         if cidr not in existing:
-            new_rows.append({"Type": "IPv6", "Address": cidr, "RetiredAt": retired_at.isoformat()})
+            row = {"Type": "IPv6", "Address": cidr, "RetiredAt": retired_at.isoformat()}
+            if rows:
+                for key in fieldnames:
+                    if key not in row:
+                        row[key] = rows[0].get(key, "")
+            new_rows.append(row)
 
-    has_retired_col = rows and "RetiredAt" in rows[0]
     if not new_rows and has_retired_col:
         return
 
     updated = [{**r, "RetiredAt": r.get("RetiredAt", "")} for r in rows] + new_rows
 
     with open(csv_path, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["Type", "Address", "RetiredAt"])
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(updated)
 
