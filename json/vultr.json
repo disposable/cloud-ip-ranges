@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-03-26T02:08:55.025551",
+  "generated_at": "2026-04-09T17:40:13.569219",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-03-26T02:08:55.025551",
+  "last_update": "2026-04-09T17:40:13.569219",
   "ipv4": [
     "103.43.72.0/22",
     "104.156.224.0/22",
@@ -390,6 +390,7 @@
     "66.245.192.0/21",
     "66.245.200.0/21",
     "66.245.208.0/23",
+    "66.245.216.0/21",
     "66.42.112.0/20",
     "66.42.32.0/20",
     "66.42.48.0/20",
@@ -1347,6 +1348,13 @@
       "region": "US-MO",
       "city": "Maryland Heights",
       "postal_code": "63043"
+    },
+    {
+      "address": "66.245.216.0/21",
+      "alpha2code": "JP",
+      "region": "JP-27",
+      "city": "Osaka",
+      "postal_code": "540-0001"
     },
     {
       "address": "67.219.96.0/20",

@@ -3,14 +3,14 @@
   "provider_id": "alibaba",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-04-04T20:06:48.465136",
+  "generated_at": "2026-04-09T17:41:09.274368",
   "source_updated_at": null,
   "source": [
     "RADB::AS-ALIBABA-CN-NET",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS45102",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60924"
   ],
-  "last_update": "2026-04-04T20:06:48.465136",
+  "last_update": "2026-04-09T17:41:09.274368",
   "ipv4": [
     "103.135.210.0/23",
     "103.81.186.0/23",
@@ -1006,7 +1006,6 @@
     "2400:b200:4101::/48",
     "2400:b200:4102::/48",
     "2400:b200:4103::/48",
-    "2401:8680:4100::/48",
     "2401:8680:4102::/48",
     "2401:b180:4100::/48",
     "2404:2280:1000::/36",
@@ -1100,7 +1099,8 @@
     "240b:4017::/33",
     "2a04:2600::/29",
     "2a05:f1c0::/29",
-    "2a0a:4380::/29"
+    "2a0a:4380::/29",
+    "2401:8680:4100::/48"
   ],
   "source_http": [
     {
@@ -1116,6 +1116,12 @@
       "content_type": "application/json; charset=utf-8",
       "etag": null,
       "last_modified": null
+    }
+  ],
+  "details_ipv6": [
+    {
+      "address": "2401:8680:4100::/48",
+      "retired_at": "2026-04-09T17:44:28.966708+00:00"
     }
   ]
 }
