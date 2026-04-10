@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-09T17:40:09.604875",
-  "source_updated_at": "2026-04-09-14-47-05",
+  "generated_at": "2026-04-10T02:25:33.802894",
+  "source_updated_at": "2026-04-09-16-47-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-04-09-14-47-05",
+  "last_update": "2026-04-09-16-47-05",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -64279,6 +64279,12 @@
       "network_border_group": "eu-central-1"
     },
     {
+      "address": "2600:f0f0:e34::/48",
+      "service": "AMAZON",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
+    },
+    {
       "address": "2600:f0f1:8c::/48",
       "service": "AMAZON",
       "region": "eu-south-2",
@@ -66587,6 +66593,12 @@
       "service": "AMAZON",
       "region": "eu-central-1",
       "network_border_group": "eu-central-1"
+    },
+    {
+      "address": "2600:f0f0:e35::/48",
+      "service": "AMAZON",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
     },
     {
       "address": "2a05:d07e:b000::/40",
@@ -78973,6 +78985,12 @@
       "network_border_group": "sa-east-1"
     },
     {
+      "address": "2600:f0f0:e34::/48",
+      "service": "IVS_REALTIME",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
+    },
+    {
       "address": "2600:f0f0:552c::/48",
       "service": "IVS_REALTIME",
       "region": "me-south-1",
@@ -79136,6 +79154,12 @@
     },
     {
       "address": "2600:f0f0:5405::/48",
+      "service": "IVS_REALTIME",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
+    },
+    {
+      "address": "2600:f0f0:e35::/48",
       "service": "IVS_REALTIME",
       "region": "us-east-2",
       "network_border_group": "us-east-2"
@@ -82831,6 +82855,12 @@
       "network_border_group": "eu-central-1"
     },
     {
+      "address": "2600:f0f0:e34::/48",
+      "service": "EC2",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
+    },
+    {
       "address": "2600:f0f1:8c::/48",
       "service": "EC2",
       "region": "eu-south-2",
@@ -84731,6 +84761,12 @@
       "service": "EC2",
       "region": "eu-central-1",
       "network_border_group": "eu-central-1"
+    },
+    {
+      "address": "2600:f0f0:e35::/48",
+      "service": "EC2",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
     },
     {
       "address": "2600:1f00:2000::/40",

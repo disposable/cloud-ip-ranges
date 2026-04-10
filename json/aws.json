@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-09T17:40:09.604875",
-  "source_updated_at": "2026-04-09-14-47-05",
+  "generated_at": "2026-04-10T02:25:33.802894",
+  "source_updated_at": "2026-04-09-16-47-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-04-09-14-47-05",
+  "last_update": "2026-04-09-16-47-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -9245,6 +9245,8 @@
     "2600:f0f0:e31::/48",
     "2600:f0f0:e32::/48",
     "2600:f0f0:e33::/48",
+    "2600:f0f0:e34::/48",
+    "2600:f0f0:e35::/48",
     "2600:f0f0:f00:100::/56",
     "2600:f0f0:f00:200::/56",
     "2600:f0f0:f00:300::/56",
@@ -59149,6 +59151,12 @@
       "network_border_group": "eu-central-1"
     },
     {
+      "address": "2600:f0f0:e34::/48",
+      "service": "EC2",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
+    },
+    {
       "address": "2600:f0f1:8c::/48",
       "service": "EC2",
       "region": "eu-south-2",
@@ -61457,6 +61465,12 @@
       "service": "EC2",
       "region": "eu-central-1",
       "network_border_group": "eu-central-1"
+    },
+    {
+      "address": "2600:f0f0:e35::/48",
+      "service": "EC2",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
     },
     {
       "address": "2a05:d07e:b000::/40",
@@ -71384,7 +71398,7 @@
     },
     {
       "address": "2a05:d01c::/36",
-      "retired_at": "2026-04-09T17:44:28.966708+00:00"
+      "retired_at": "2026-04-10T02:30:32.673037+00:00"
     }
   ],
   "source_http": [
@@ -71392,8 +71406,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"f90ba377feaca96993b58e0a5d62219d\"",
-      "last_modified": "Thu, 09 Apr 2026 16:54:12 GMT"
+      "etag": "\"55fc666a386ae1458053f12abb7cc271\"",
+      "last_modified": "Thu, 09 Apr 2026 18:56:18 GMT"
     }
   ]
 }
