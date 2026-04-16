@@ -3,7 +3,7 @@
   "provider_id": "rackspace",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-04-14T02:30:24.770772",
+  "generated_at": "2026-04-16T02:34:46.599012",
   "source_updated_at": null,
   "source": [
     "RADB::AS-RACKSPACE",
@@ -70,7 +70,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58982",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS6859"
   ],
-  "last_update": "2026-04-14T02:30:24.770772",
+  "last_update": "2026-04-16T02:34:46.599012",
   "ipv4": [
     "103.251.196.0/23",
     "103.254.44.0/22",
@@ -345,6 +345,7 @@
     "193.138.122.0/24",
     "193.142.244.0/24",
     "193.19.88.0/23",
+    "193.39.8.0/24",
     "193.42.152.0/24",
     "195.191.210.0/24",
     "195.5.122.0/23",
@@ -1349,11 +1350,11 @@
   "details_ipv4": [
     {
       "address": "104.249.135.0/24",
-      "retired_at": "2026-04-14T02:32:24.987638+00:00"
+      "retired_at": "2026-04-16T02:36:15.782766+00:00"
     },
     {
       "address": "192.173.10.0/24",
-      "retired_at": "2026-04-14T02:32:24.987638+00:00"
+      "retired_at": "2026-04-16T02:36:15.782766+00:00"
     }
   ]
 }

@@ -1750,6 +1750,7 @@ IPv4,150.222.40.192/26,us-east-2,us-east-2,AMAZON
 IPv4,151.148.33.0/24,us-west-2,us-west-2,AMAZON
 IPv4,216.244.2.0/24,us-west-2-lax-1,us-west-2,AMAZON
 IPv4,1.178.29.0/24,mx-central-1,mx-central-1,AMAZON
+IPv4,1.179.102.0/24,sa-west-1,sa-west-1,AMAZON
 IPv4,3.5.164.0/22,ap-southeast-2,ap-southeast-2,AMAZON
 IPv4,15.221.33.0/24,ca-central-1,ca-central-1,AMAZON
 IPv4,15.221.176.0/20,us-east-1,us-east-1,AMAZON
@@ -3677,6 +3678,7 @@ IPv4,15.251.0.23/32,sa-east-1,sa-east-1,AMAZON
 IPv4,16.15.58.0/23,ap-northeast-1,ap-northeast-1,AMAZON
 IPv4,16.178.0.0/15,ap-southeast-2,ap-southeast-2,AMAZON
 IPv4,18.97.112.0/20,ap-east-2,ap-east-2,AMAZON
+IPv4,23.238.128.0/17,GLOBAL,GLOBAL,AMAZON
 IPv4,52.93.69.0/24,me-south-1,me-south-1,AMAZON
 IPv4,52.93.178.151/32,us-west-1,us-west-1,AMAZON
 IPv4,52.93.228.196/32,eu-west-2,eu-west-2,AMAZON
@@ -3934,6 +3936,7 @@ IPv4,15.230.39.234/31,us-east-2,us-east-2,AMAZON
 IPv4,15.230.66.0/25,us-east-1,us-east-1,AMAZON
 IPv4,16.23.0.0/16,eu-south-1,eu-south-1,AMAZON
 IPv4,35.50.144.0/24,us-east-2,us-east-2,AMAZON
+IPv4,35.98.80.0/20,us-east-1,us-east-1,AMAZON
 IPv4,35.111.253.0/24,us-gov-east-1,us-gov-east-1,AMAZON
 IPv4,40.164.0.0/16,us-west-1,us-west-1,AMAZON
 IPv4,52.93.126.130/32,ap-southeast-2,ap-southeast-2,AMAZON
@@ -4562,6 +4565,7 @@ IPv4,52.93.127.123/32,us-east-1,us-east-1,AMAZON
 IPv4,108.166.244.55/32,us-east-2,us-east-2,AMAZON
 IPv4,150.222.210.0/24,ap-south-1,ap-south-1,AMAZON
 IPv4,150.222.234.60/31,us-west-1,us-west-1,AMAZON
+IPv4,1.179.103.0/24,us-south-1,us-south-1,AMAZON
 IPv4,13.184.0.0/13,us-east-2,us-east-2,AMAZON
 IPv4,15.177.0.0/18,GLOBAL,GLOBAL,AMAZON
 IPv4,15.181.244.0/24,us-east-1-phl-1,us-east-1,AMAZON
@@ -5088,6 +5092,7 @@ IPv4,150.222.24.68/32,us-east-1,us-east-1,AMAZON
 IPv4,151.148.16.5/32,us-west-1,us-west-1,AMAZON
 IPv4,161.193.128.0/18,ca-central-1,ca-central-1,AMAZON
 IPv4,173.83.192.0/22,us-east-2,us-east-2,AMAZON
+IPv4,1.179.101.0/24,me-west-1,me-west-1,AMAZON
 IPv4,15.178.0.0/16,ca-central-1,ca-central-1,AMAZON
 IPv4,15.230.4.131/32,ap-southeast-1,ap-southeast-1,AMAZON
 IPv4,40.166.0.0/16,us-west-1,us-west-1,AMAZON
@@ -7080,6 +7085,7 @@ IPv4,142.4.179.0/24,ap-south-1,ap-south-1,EC2
 IPv4,151.148.33.0/24,us-west-2,us-west-2,EC2
 IPv4,216.244.2.0/24,us-west-2-lax-1,us-west-2,EC2
 IPv4,1.178.29.0/24,mx-central-1,mx-central-1,EC2
+IPv4,1.179.102.0/24,sa-west-1,sa-west-1,EC2
 IPv4,3.5.164.0/22,ap-southeast-2,ap-southeast-2,EC2
 IPv4,16.76.0.0/16,ap-northeast-1,ap-northeast-1,EC2
 IPv4,18.96.96.0/19,me-central-1,me-central-1,EC2
@@ -8020,6 +8026,7 @@ IPv4,31.220.247.0/24,GLOBAL,GLOBAL,EC2
 IPv4,35.96.64.0/20,eu-west-3,eu-west-3,EC2
 IPv4,35.96.245.0/24,us-west-2,us-west-2,EC2
 IPv4,43.208.0.0/15,ap-southeast-7,ap-southeast-7,EC2
+IPv4,1.179.103.0/24,us-south-1,us-south-1,EC2
 IPv4,15.177.0.0/18,GLOBAL,GLOBAL,EC2
 IPv4,15.181.244.0/24,us-east-1-phl-1,us-east-1,EC2
 IPv4,18.194.0.0/15,eu-central-1,eu-central-1,EC2
@@ -8195,6 +8202,7 @@ IPv4,52.28.0.0/16,eu-central-1,eu-central-1,EC2
 IPv4,64.73.201.0/24,us-east-1,us-east-1,EC2
 IPv4,161.193.128.0/18,ca-central-1,ca-central-1,EC2
 IPv4,173.83.192.0/22,us-east-2,us-east-2,EC2
+IPv4,1.179.101.0/24,me-west-1,me-west-1,EC2
 IPv4,83.118.240.0/22,eusc-de-east-1,eusc-de-east-1,EC2
 IPv4,161.188.64.0/20,us-east-1,us-east-1,EC2
 IPv4,3.0.0.0/15,ap-southeast-1,ap-southeast-1,EC2
@@ -8565,6 +8573,7 @@ IPv4,13.248.112.0/24,us-west-2,us-west-2,GLOBALACCELERATOR
 IPv4,15.197.2.0/24,GLOBAL,GLOBAL,GLOBALACCELERATOR
 IPv4,3.2.52.0/24,us-east-1,us-east-1,GLOBALACCELERATOR
 IPv4,1.178.172.0/23,GLOBAL,GLOBAL,GLOBALACCELERATOR
+IPv4,23.238.128.0/17,GLOBAL,GLOBAL,GLOBALACCELERATOR
 IPv4,3.2.48.0/24,eu-west-2,eu-west-2,GLOBALACCELERATOR
 IPv4,3.2.50.0/24,us-east-1,us-east-1,GLOBALACCELERATOR
 IPv4,99.83.128.0/17,GLOBAL,GLOBAL,GLOBALACCELERATOR
@@ -10220,6 +10229,7 @@ IPv6,2600:1f00:7400::/40,mx-central-1,mx-central-1,AMAZON
 IPv6,2600:1ff6:7400::/40,mx-central-1,mx-central-1,AMAZON
 IPv6,2600:f0f0:1112::/48,eu-west-1,eu-west-1,AMAZON
 IPv6,2600:f0fb:e100::/40,us-east-1-bos-1,us-east-1,AMAZON
+IPv6,2606:7b40:1b09:500::/56,sa-east-1,sa-east-1,AMAZON
 IPv6,2a05:d027::/36,eu-west-2,eu-west-2,AMAZON
 IPv6,2a05:d05b:5000::/40,il-central-1,il-central-1,AMAZON
 IPv6,2406:daf3:4000::/40,ap-northeast-1,ap-northeast-1,AMAZON
@@ -11480,6 +11490,7 @@ IPv6,2600:f0f0:e00::/48,us-west-2,us-west-2,AMAZON
 IPv6,2606:7b40:1a4c:330::/60,eu-central-1,eu-central-1,AMAZON
 IPv6,2606:7b40:1b0c::/56,eu-central-1,eu-central-1,AMAZON
 IPv6,2620:107:4000:4703::/64,us-east-2,us-east-2,AMAZON
+IPv6,2631:0:e00::/39,us-east-1,us-east-1,AMAZON
 IPv6,2a05:d059:4000::/40,eu-central-1,eu-central-1,AMAZON
 IPv6,2400:7fc0:110::/48,cn-north-1,cn-north-1,AMAZON
 IPv6,2400:7fc0:4100::/48,cn-north-1,cn-north-1,AMAZON
@@ -11883,6 +11894,7 @@ IPv6,2600:f0f0:552a::/48,me-south-1,me-south-1,AMAZON
 IPv6,2606:7b40:1000:7210::/60,us-west-2,us-west-2,AMAZON
 IPv6,2606:7b40:1b00:500::/56,us-west-1,us-west-1,AMAZON
 IPv6,2606:7b40:1b0f:f000::/56,us-west-2,us-west-2,AMAZON
+IPv6,2606:7b40:3000::/54,us-west-2,us-west-2,AMAZON
 IPv6,2620:107:3002::/64,us-east-1,us-east-1,AMAZON
 IPv6,2631:0:200::/39,eu-central-1,eu-central-1,AMAZON
 IPv6,2a05:d059:8000::/40,eu-west-1,eu-west-1,AMAZON
@@ -11975,6 +11987,7 @@ IPv6,2600:f0f0:f00:200::/56,us-east-1,us-east-1,AMAZON
 IPv6,2600:f0f1:43c0::/42,eu-west-2,eu-west-2,AMAZON
 IPv6,2606:7b40:1000:2100::/56,us-west-2,us-west-2,AMAZON
 IPv6,2606:7b40:1b07:c000::/56,ap-southeast-4,ap-southeast-4,AMAZON
+IPv6,2606:7b40:1b09:400::/56,sa-east-1,sa-east-1,AMAZON
 IPv6,2a05:d079:8000::/40,eu-west-1,eu-west-1,AMAZON
 IPv6,2406:daf3:8000::/40,ap-southeast-1,ap-southeast-1,AMAZON
 IPv6,2406:dafa:c000::/40,ap-southeast-2,ap-southeast-2,AMAZON
@@ -12595,6 +12608,7 @@ IPv6,2600:1f38:c000::/40,us-west-1,us-west-1,AMAZON
 IPv6,2600:1ff8:e000::/40,sa-east-1,sa-east-1,AMAZON
 IPv6,2600:1ff9:a400::/40,ca-west-1,ca-west-1,AMAZON
 IPv6,2600:9000:5200::/48,eu-west-1,eu-west-1,AMAZON
+IPv6,2606:7b40:1b0c:4100::/56,eu-west-1,eu-west-1,AMAZON
 IPv6,2a05:d072:8000::/40,eu-west-1,eu-west-1,AMAZON
 IPv6,2406:daf4:800::/40,ap-southeast-5,ap-southeast-5,AMAZON
 IPv6,2600:1ff3:a400::/40,ca-west-1,ca-west-1,AMAZON
@@ -13454,6 +13468,7 @@ IPv6,2600:1f00:7400::/40,mx-central-1,mx-central-1,EC2
 IPv6,2600:1ff6:7400::/40,mx-central-1,mx-central-1,EC2
 IPv6,2600:f0f0:1112::/48,eu-west-1,eu-west-1,EC2
 IPv6,2600:f0fb:e100::/40,us-east-1-bos-1,us-east-1,EC2
+IPv6,2606:7b40:1b09:500::/56,sa-east-1,sa-east-1,EC2
 IPv6,2a05:d027::/36,eu-west-2,eu-west-2,EC2
 IPv6,2a05:d05b:5000::/40,il-central-1,il-central-1,EC2
 IPv6,2406:daf3:4000::/40,ap-northeast-1,ap-northeast-1,EC2
@@ -14756,6 +14771,7 @@ IPv6,2600:f0f0:552a::/48,me-south-1,me-south-1,EC2
 IPv6,2606:7b40:1000:7210::/60,us-west-2,us-west-2,EC2
 IPv6,2606:7b40:1b00:500::/56,us-west-1,us-west-1,EC2
 IPv6,2606:7b40:1b0f:f000::/56,us-west-2,us-west-2,EC2
+IPv6,2606:7b40:3000::/54,us-west-2,us-west-2,EC2
 IPv6,2620:107:3002::/64,us-east-1,us-east-1,EC2
 IPv6,2a05:d059:8000::/40,eu-west-1,eu-west-1,EC2
 IPv6,2406:daf4:2000::/40,ap-northeast-2,ap-northeast-2,EC2
@@ -14828,6 +14844,7 @@ IPv6,2600:f0f0:f00:200::/56,us-east-1,us-east-1,EC2
 IPv6,2600:f0f1:43c0::/42,eu-west-2,eu-west-2,EC2
 IPv6,2606:7b40:1000:2100::/56,us-west-2,us-west-2,EC2
 IPv6,2606:7b40:1b07:c000::/56,ap-southeast-4,ap-southeast-4,EC2
+IPv6,2606:7b40:1b09:400::/56,sa-east-1,sa-east-1,EC2
 IPv6,2406:daf3:8000::/40,ap-southeast-1,ap-southeast-1,EC2
 IPv6,2600:1fba:7400::/40,mx-central-1,mx-central-1,EC2
 IPv6,2600:1ffd:8508::/48,us-west-2,us-west-2,EC2
@@ -15316,6 +15333,7 @@ IPv6,2406:daf3:4800::/40,ap-southeast-7,ap-southeast-7,EC2
 IPv6,2600:1f1e:c000::/36,sa-west-1,sa-west-1,EC2
 IPv6,2600:1f38:c000::/40,us-west-1,us-west-1,EC2
 IPv6,2600:9000:5200::/48,eu-west-1,eu-west-1,EC2
+IPv6,2606:7b40:1b0c:4100::/56,eu-west-1,eu-west-1,EC2
 IPv6,2a05:d072:8000::/40,eu-west-1,eu-west-1,EC2
 IPv6,2406:daf4:800::/40,ap-southeast-5,ap-southeast-5,EC2
 IPv6,2600:1ff3:a400::/40,ca-west-1,ca-west-1,EC2
