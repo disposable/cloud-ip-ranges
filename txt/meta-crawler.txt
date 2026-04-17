@@ -1,6 +1,6 @@
 # provider: Meta Crawler
 # source: RADB::AS-FACEBOOK, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS11917, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS32934, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS34825, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS54115, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS63293
-# last_update: 2026-04-17T02:28:32.627997
+# last_update: 2026-04-17T15:21:19.883114
 
 102.132.101.0/24
 102.132.104.0/24
@@ -329,6 +329,7 @@
 57.145.2.0/23
 57.145.4.0/23
 57.145.6.0/23
+57.145.8.0/23
 66.220.144.0/20
 66.220.144.0/21
 66.220.152.0/21
@@ -340,8 +341,7 @@
 69.63.176.0/21
 69.63.184.0/21
 74.119.76.0/22
-102.132.114.0/24
-157.240.199.0/24
+
 2620:0:1c00::/40
 2620:10d:c090::/44
 2620:10d:c090::/48
@@ -649,6 +649,7 @@
 2a03:2880:f381::/48
 2a03:2880:f382::/48
 2a03:2880:f383::/48
+2a03:2880:f384::/48
 2a03:2880:f386::/48
 2a03:2880:f800::/48
 2a03:2880:f801::/48
@@ -675,6 +676,7 @@
 2a03:2880:ff00::/47
 2a03:2880:ff00::/48
 2a03:2880:ff01::/48
+2a03:2880:ff02::/48
 2a03:2880:ff08::/47
 2a03:2880:ff08::/48
 2a03:2880:ff09::/48
@@ -761,3 +763,5 @@
 2c0f:ef78:c::/48
 2c0f:ef78:d::/48
 2c0f:ef78:e::/48
+102.132.114.0/24
+157.240.199.0/24
