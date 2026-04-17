@@ -6,6 +6,7 @@ Updates two sections between HTML comment markers:
   <!-- STATS_START --> ... <!-- STATS_END -->
   <!-- SOURCES_TABLE_START --> ... <!-- SOURCES_TABLE_END -->
 """
+
 from __future__ import annotations
 
 import argparse
@@ -29,7 +30,7 @@ SOURCES_END = "<!-- SOURCES_TABLE_END -->"
 # ---------------------------------------------------------------------------
 
 METHOD_LABELS = {
-    "bgp_announced": None,   # further refined below
+    "bgp_announced": None,  # further refined below
     "published_list": "Published List",
     "rdap_registry": "RDAP/ARIN Registry",
 }
@@ -80,8 +81,8 @@ def _url_label(url: str) -> str:
     """Return a short human-readable label for a URL."""
     url = re.sub(r"^https?://", "", url)
     # Strip common long path components
-    url = re.sub(r"\?.*", "", url)          # query string
-    url = re.sub(r"#.*", "", url)            # fragment
+    url = re.sub(r"\?.*", "", url)  # query string
+    url = re.sub(r"#.*", "", url)  # fragment
     url = url.rstrip("/")
     # Keep last 2 path segments at most
     parts = url.split("/")
@@ -94,14 +95,19 @@ def _url_label(url: str) -> str:
 # Stats generation
 # ---------------------------------------------------------------------------
 
+
 def generate_stats_block(conn: duckdb.DuckDBPyConnection) -> str:
     row = conn.execute("""
         SELECT
             COUNT(*) AS providers,
             SUM(ipv4_count) AS total_v4,
             SUM(ipv6_count) AS total_v6,
+            SUM(ipv4_ip_count) AS total_v4_ips,
+            SUM(ipv6_64_count) AS total_v6_64s,
             SUM(retired_ipv4_count) AS retired_v4,
             SUM(retired_ipv6_count) AS retired_v6,
+            SUM(retired_ipv4_ip_count) AS retired_v4_ips,
+            SUM(retired_ipv6_64_count) AS retired_v6_64s,
             MAX(last_crawled_at) AS last_crawled
         FROM provider_last_changed
     """).fetchone()
@@ -109,22 +115,39 @@ def generate_stats_block(conn: duckdb.DuckDBPyConnection) -> str:
     if not row or row[0] == 0:
         return "_No statistics available yet — run after the first crawl._\n"
 
-    providers, total_v4, total_v6, retired_v4, retired_v6, last_crawled = row
+    (
+        providers,
+        total_v4,
+        total_v6,
+        total_v4_ips,
+        total_v6_64s,
+        retired_v4,
+        retired_v6,
+        retired_v4_ips,
+        retired_v6_64s,
+        last_crawled,
+    ) = row
     total_v4 = total_v4 or 0
     total_v6 = total_v6 or 0
+    total_v4_ips = total_v4_ips or 0
+    total_v6_64s = total_v6_64s or 0
     retired_v4 = retired_v4 or 0
     retired_v6 = retired_v6 or 0
+    retired_v4_ips = retired_v4_ips or 0
+    retired_v6_64s = retired_v6_64s or 0
 
-    last_crawled_str = last_crawled.strftime("%Y-%m-%d %H:%M UTC") if last_crawled else "—"
+    last_crawled_str = (
+        last_crawled.strftime("%Y-%m-%d %H:%M UTC") if last_crawled else "—"
+    )
 
     lines = [
         "| Metric | Value |",
         "|--------|------:|",
         f"| Providers tracked | **{providers}** |",
-        f"| Active IPv4 ranges | **{total_v4:,}** |",
-        f"| Active IPv6 ranges | **{total_v6:,}** |",
-        f"| Retired IPv4 (≤ 4 weeks) | {retired_v4:,} |",
-        f"| Retired IPv6 (≤ 4 weeks) | {retired_v6:,} |",
+        f"| Active IPv4 addresses | **{total_v4_ips:,}** ({total_v4:,} subnets) |",
+        f"| Active IPv6 /64 subnets | **{total_v6_64s:,}** ({total_v6:,} ranges) |",
+        f"| Retired IPv4 (≤ 4 weeks) | {retired_v4_ips:,} addresses ({retired_v4:,} subnets) |",
+        f"| Retired IPv6 (≤ 4 weeks) | {retired_v6_64s:,} /64s ({retired_v6:,} ranges) |",
         f"| Last crawled | {last_crawled_str} |",
     ]
     return "\n".join(lines) + "\n"
@@ -141,19 +164,38 @@ def generate_sources_table(
     db_rows = conn.execute("""
         SELECT provider_id, provider_name, last_changed_at,
                ipv4_count, ipv6_count, retired_ipv4_count, retired_ipv6_count,
+               ipv4_ip_count, ipv6_64_count, retired_ipv4_ip_count, retired_ipv6_64_count,
                method, source
         FROM provider_last_changed
         ORDER BY provider_name COLLATE NOCASE
     """).fetchall()
 
-    for (pid, pname, changed_at, v4, v6, rv4, rv6, method, source) in db_rows:
+    for (
+        pid,
+        pname,
+        changed_at,
+        v4,
+        v6,
+        rv4,
+        rv6,
+        v4_ips,
+        v6_64s,
+        rv4_ips,
+        rv6_64s,
+        method,
+        source,
+    ) in db_rows:
         rows_by_id[pid] = {
             "provider_name": pname,
             "last_changed_at": changed_at,
             "ipv4_count": v4 or 0,
             "ipv6_count": v6 or 0,
+            "ipv4_ip_count": v4_ips or 0,
+            "ipv6_64_count": v6_64s or 0,
             "retired_ipv4": rv4 or 0,
             "retired_ipv6": rv6 or 0,
+            "retired_ipv4_ips": rv4_ips or 0,
+            "retired_ipv6_64s": rv6_64s or 0,
             "method": method,
             "source": source,
         }
@@ -177,12 +219,8 @@ def generate_sources_table(
                 pass
 
     # Build table
-    header = (
-        "| Provider | Source | Method | IPv4 | IPv6 | Last Changed | JSON | TXT | CSV |"
-    )
-    separator = (
-        "|----------|--------|--------|-----:|-----:|--------------|------|-----|-----|"
-    )
+    header = "| Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |"
+    separator = "|----------|--------|--------|---------:|----------:|--------------|------|-----|-----|"
     table_lines = [header, separator]
 
     for pid, info in rows_by_id.items():
@@ -190,8 +228,12 @@ def generate_sources_table(
         changed_at = info["last_changed_at"]
         v4 = info["ipv4_count"]
         v6 = info["ipv6_count"]
+        v4_ips = info["ipv4_ip_count"]
+        v6_64s = info["ipv6_64_count"]
         rv4 = info["retired_ipv4"]
         rv6 = info["retired_ipv6"]
+        rv4_ips = info["retired_ipv4_ips"]
+        rv6_64s = info["retired_ipv6_64s"]
         method = info["method"]
         sources = provider_sources.get(pid, [info["source"]] if info["source"] else [])
 
@@ -211,8 +253,16 @@ def generate_sources_table(
 
         changed_str = changed_at.strftime("%Y-%m-%d") if changed_at else "—"
 
-        v4_str = f"{v4:,}" + (f" *(+{rv4} retired)*" if rv4 else "")
-        v6_str = f"{v6:,}" + (f" *(+{rv6} retired)*" if rv6 else "")
+        v4_str = (
+            f"{v4_ips:,}"
+            + (f" ({v4:,} subnets)" if v4 else "")
+            + (f"<br>+{rv4_ips:,} retired" if rv4 else "")
+        )
+        v6_str = (
+            f"{v6_64s:,}"
+            + (f" ({v6:,} ranges)" if v6 else "")
+            + (f"<br>+{rv6_64s:,} retired" if rv6 else "")
+        )
 
         src_str = source_display(sources)
         method_str = method_label(method, sources)
@@ -228,7 +278,10 @@ def generate_sources_table(
 # README patching
 # ---------------------------------------------------------------------------
 
-def replace_section(content: str, start_marker: str, end_marker: str, new_body: str) -> str:
+
+def replace_section(
+    content: str, start_marker: str, end_marker: str, new_body: str
+) -> str:
     """Replace everything between start_marker and end_marker (inclusive) with new content."""
     pattern = re.compile(
         re.escape(start_marker) + r".*?" + re.escape(end_marker),
@@ -238,7 +291,10 @@ def replace_section(content: str, start_marker: str, end_marker: str, new_body: 
     if pattern.search(content):
         return pattern.sub(replacement, content)
     # Markers not found — return unchanged
-    print(f"WARNING: markers '{start_marker}' / '{end_marker}' not found in README", file=sys.stderr)
+    print(
+        f"WARNING: markers '{start_marker}' / '{end_marker}' not found in README",
+        file=sys.stderr,
+    )
     return content
 
 
@@ -252,6 +308,7 @@ def update_readme(readme_path: Path, stats_block: str, sources_table: str) -> No
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)

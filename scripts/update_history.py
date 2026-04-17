@@ -7,15 +7,17 @@ Update DuckDB history with current IP range crawl results.
 - Removes retired CIDRs after 4 weeks
 - Injects still-within-window retired CIDRs back into JSON/CSV/TXT outputs
 """
+
 from __future__ import annotations
 
 import argparse
 import csv
 import hashlib
+import ipaddress
 import json
 import os
 import tempfile
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import duckdb
@@ -23,9 +25,45 @@ import duckdb
 RETIREMENT_WEEKS = 4
 
 
+def count_ipv4_addresses(cidr_list: list[str]) -> int:
+    """Calculate total number of IPv4 addresses in a list of CIDRs."""
+    total = 0
+    for cidr in cidr_list:
+        if isinstance(cidr, str) and "." in cidr:
+            try:
+                network = ipaddress.IPv4Network(cidr, strict=False)
+                total += network.num_addresses
+            except (ValueError, ipaddress.AddressValueError):
+                continue
+    return total
+
+
+def count_ipv6_64_subnets(cidr_list: list[str]) -> int:
+    """
+    Calculate total number of /64 subnets represented by IPv6 prefixes.
+    A /64 is the standard IPv6 subnet size. Larger prefixes contain more /64s.
+    Example: /32 contains 2^32 /64 subnets, /48 contains 2^16 /64 subnets.
+    """
+    total = 0
+    for cidr in cidr_list:
+        if isinstance(cidr, str) and ":" in cidr:
+            try:
+                network = ipaddress.IPv6Network(cidr, strict=False)
+                if network.prefixlen <= 64:
+                    # Number of /64s in this prefix: 2^(64 - prefixlen)
+                    total += 2 ** (64 - network.prefixlen)
+                else:
+                    # Prefix is smaller than /64 (e.g., /128), count as 1
+                    total += 1
+            except (ValueError, ipaddress.AddressValueError):
+                continue
+    return total
+
+
 # ---------------------------------------------------------------------------
 # DB helpers
 # ---------------------------------------------------------------------------
+
 
 def open_db(db_path: Path) -> duckdb.DuckDBPyConnection:
     conn = duckdb.connect(str(db_path))
@@ -49,12 +87,44 @@ def open_db(db_path: Path) -> duckdb.DuckDBPyConnection:
             ipv6_count        INTEGER NOT NULL DEFAULT 0,
             retired_ipv4_count INTEGER NOT NULL DEFAULT 0,
             retired_ipv6_count INTEGER NOT NULL DEFAULT 0,
+            ipv4_ip_count     INTEGER NOT NULL DEFAULT 0,
+            ipv6_64_count     INTEGER NOT NULL DEFAULT 0,
+            retired_ipv4_ip_count INTEGER NOT NULL DEFAULT 0,
+            retired_ipv6_64_count INTEGER NOT NULL DEFAULT 0,
             method            VARCHAR,
             source            VARCHAR,
             ipv4_hash         VARCHAR,
             ipv6_hash         VARCHAR
         )
     """)
+
+    # Migration: Add new columns for IP counts if they don't exist (pre-2025-04 schema)
+    conn.execute("""
+        ALTER TABLE provider_last_changed
+        ADD COLUMN IF NOT EXISTS ipv4_ip_count INTEGER NOT NULL DEFAULT 0
+    """)
+    conn.execute("""
+        ALTER TABLE provider_last_changed
+        ADD COLUMN IF NOT EXISTS ipv6_64_count INTEGER NOT NULL DEFAULT 0
+    """)
+    conn.execute("""
+        ALTER TABLE provider_last_changed
+        ADD COLUMN IF NOT EXISTS retired_ipv4_ip_count INTEGER NOT NULL DEFAULT 0
+    """)
+    conn.execute("""
+        ALTER TABLE provider_last_changed
+        ADD COLUMN IF NOT EXISTS retired_ipv6_64_count INTEGER NOT NULL DEFAULT 0
+    """)
+
+    # Drop old column name if exists (from intermediate development versions)
+    try:
+        conn.execute("""
+            ALTER TABLE provider_last_changed
+            DROP COLUMN IF EXISTS retired_ipv6_ip_count
+        """)
+    except Exception:
+        pass  # Column may not exist, that's fine
+
     return conn
 
 
@@ -65,6 +135,7 @@ def _hash(cidrs: list[str]) -> str:
 # ---------------------------------------------------------------------------
 # Bulk history reconciliation (all providers in one transaction)
 # ---------------------------------------------------------------------------
+
 
 def _write_current_cidrs_csv(providers: list[dict]) -> str | None:
     """
@@ -185,6 +256,7 @@ def reconcile_all_providers(
 # Provider metadata tracking
 # ---------------------------------------------------------------------------
 
+
 def update_all_provider_metadata(
     conn: duckdb.DuckDBPyConnection,
     providers: list[dict],
@@ -211,6 +283,12 @@ def update_all_provider_metadata(
         retired = retired_by_provider.get(pid, ([], []))
         rv4, rv6 = len(retired[0]), len(retired[1])
 
+        # Calculate IPv4 IP counts and IPv6 /64 counts
+        ipv4_ip_count = count_ipv4_addresses(v4)
+        ipv6_64_count = count_ipv6_64_subnets(v6)
+        retired_ipv4_ip_count = count_ipv4_addresses([cidr for cidr, _ in retired[0]])
+        retired_ipv6_64_count = count_ipv6_64_subnets([cidr for cidr, _ in retired[1]])
+
         row = conn.execute(
             "SELECT last_changed_at, ipv4_hash, ipv6_hash FROM provider_last_changed WHERE provider_id = ?",
             [pid],
@@ -220,27 +298,64 @@ def update_all_provider_metadata(
             last_changed_at = row[0]
             if new_v4_hash != row[1] or new_v6_hash != row[2]:
                 last_changed_at = now
-            conn.execute("""
+            conn.execute(
+                """
                 UPDATE provider_last_changed SET
                     provider_name=?, last_changed_at=?, last_crawled_at=?,
                     ipv4_count=?, ipv6_count=?,
                     retired_ipv4_count=?, retired_ipv6_count=?,
+                    ipv4_ip_count=?, ipv6_64_count=?,
+                    retired_ipv4_ip_count=?, retired_ipv6_64_count=?,
                     method=?, source=?, ipv4_hash=?, ipv6_hash=?
                 WHERE provider_id=?
                 """,
-                [pname, last_changed_at, now, len(v4), len(v6), rv4, rv6,
-                 method, source, new_v4_hash, new_v6_hash, pid],
+                [
+                    pname,
+                    last_changed_at,
+                    now,
+                    len(v4),
+                    len(v6),
+                    rv4,
+                    rv6,
+                    ipv4_ip_count,
+                    ipv6_64_count,
+                    retired_ipv4_ip_count,
+                    retired_ipv6_64_count,
+                    method,
+                    source,
+                    new_v4_hash,
+                    new_v6_hash,
+                    pid,
+                ],
             )
         else:
-            conn.execute("""
+            conn.execute(
+                """
                 INSERT INTO provider_last_changed
                     (provider_id, provider_name, last_changed_at, last_crawled_at,
                      ipv4_count, ipv6_count, retired_ipv4_count, retired_ipv6_count,
+                     ipv4_ip_count, ipv6_64_count, retired_ipv4_ip_count, retired_ipv6_64_count,
                      method, source, ipv4_hash, ipv6_hash)
-                VALUES (?,?,?,?,?,?,?,?,?,?,?,?)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
                 """,
-                [pid, pname, now, now, len(v4), len(v6), rv4, rv6,
-                 method, source, new_v4_hash, new_v6_hash],
+                [
+                    pid,
+                    pname,
+                    now,
+                    now,
+                    len(v4),
+                    len(v6),
+                    rv4,
+                    rv6,
+                    ipv4_ip_count,
+                    ipv6_64_count,
+                    retired_ipv4_ip_count,
+                    retired_ipv6_64_count,
+                    method,
+                    source,
+                    new_v4_hash,
+                    new_v6_hash,
+                ],
             )
 
     conn.execute("COMMIT")
@@ -249,6 +364,7 @@ def update_all_provider_metadata(
 # ---------------------------------------------------------------------------
 # Output file patching
 # ---------------------------------------------------------------------------
+
 
 def patch_json(
     json_path: Path,
@@ -346,7 +462,9 @@ def patch_txt(
         return
 
     with open(txt_path) as f:
-        existing = {line.strip() for line in f if line.strip() and not line.startswith("#")}
+        existing = {
+            line.strip() for line in f if line.strip() and not line.startswith("#")
+        }
 
     to_add = [cidr for cidr, _ in retired_v4 + retired_v6 if cidr not in existing]
     if to_add:
@@ -357,6 +475,7 @@ def patch_txt(
 # ---------------------------------------------------------------------------
 # all-providers.* patching
 # ---------------------------------------------------------------------------
+
 
 def patch_all_providers(
     json_dir: Path,
@@ -420,6 +539,7 @@ def patch_all_providers(
 # Main
 # ---------------------------------------------------------------------------
 
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--db", default="meta/history.duckdb")
@@ -459,8 +579,13 @@ def main() -> int:
                 txt_path = search_dir / json_path.with_suffix(".txt").name
             provider_paths[pid] = (json_path, csv_path, txt_path)
 
-    total_cidrs = sum(len(p.get("ipv4", [])) + len(p.get("ipv6", [])) for p in providers)
-    print(f"Processing {len(providers)} providers, {total_cidrs:,} total CIDRs...", flush=True)
+    total_cidrs = sum(
+        len(p.get("ipv4", [])) + len(p.get("ipv6", [])) for p in providers
+    )
+    print(
+        f"Processing {len(providers)} providers, {total_cidrs:,} total CIDRs...",
+        flush=True,
+    )
 
     # Single-transaction bulk reconciliation
     retired_by_provider = reconcile_all_providers(conn, providers, now)
