@@ -88,9 +88,9 @@ def open_db(db_path: Path) -> duckdb.DuckDBPyConnection:
             retired_ipv4_count INTEGER NOT NULL DEFAULT 0,
             retired_ipv6_count INTEGER NOT NULL DEFAULT 0,
             ipv4_ip_count     INTEGER NOT NULL DEFAULT 0,
-            ipv6_64_count     INTEGER NOT NULL DEFAULT 0,
+            ipv6_64_count     BIGINT NOT NULL DEFAULT 0,
             retired_ipv4_ip_count INTEGER NOT NULL DEFAULT 0,
-            retired_ipv6_64_count INTEGER NOT NULL DEFAULT 0,
+            retired_ipv6_64_count BIGINT NOT NULL DEFAULT 0,
             method            VARCHAR,
             source            VARCHAR,
             ipv4_hash         VARCHAR,
@@ -106,7 +106,7 @@ def open_db(db_path: Path) -> duckdb.DuckDBPyConnection:
     """)
     conn.execute("""
         ALTER TABLE provider_last_changed
-        ADD COLUMN IF NOT EXISTS ipv6_64_count INTEGER DEFAULT 0
+        ADD COLUMN IF NOT EXISTS ipv6_64_count BIGINT DEFAULT 0
     """)
     conn.execute("""
         ALTER TABLE provider_last_changed
@@ -114,7 +114,7 @@ def open_db(db_path: Path) -> duckdb.DuckDBPyConnection:
     """)
     conn.execute("""
         ALTER TABLE provider_last_changed
-        ADD COLUMN IF NOT EXISTS retired_ipv6_64_count INTEGER DEFAULT 0
+        ADD COLUMN IF NOT EXISTS retired_ipv6_64_count BIGINT DEFAULT 0
     """)
     # Ensure NULL values are set to 0 for existing rows
     conn.execute("""
