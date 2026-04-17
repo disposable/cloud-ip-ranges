@@ -19,17 +19,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         submodules: true
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
     - name: Set up uv
-      uses: astral-sh/setup-uv@v3
+      uses: astral-sh/setup-uv@v5
 
     - name: Install crawler dependencies
       run: |
@@ -78,6 +78,8 @@ jobs:
 
     - name: Add and commit
       uses: EndBug/add-and-commit@v9
+      env:
+        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
       with:
         add: 'json txt csv meta/history.duckdb README.md'
 
@@ -94,7 +96,7 @@ jobs:
     needs: update-cloud-providers  # Run after cloud providers to avoid conflicts
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         submodules: true
 
@@ -103,12 +105,12 @@ jobs:
         git pull --ff-only origin master
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
     - name: Set up uv
-      uses: astral-sh/setup-uv@v3
+      uses: astral-sh/setup-uv@v5
 
     - name: Install crawler dependencies
       run: |
@@ -155,6 +157,8 @@ jobs:
 
     - name: Add and commit misc providers
       uses: EndBug/add-and-commit@v9
+      env:
+        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
       with:
         add: 'misc meta/history.duckdb README.md'
 
