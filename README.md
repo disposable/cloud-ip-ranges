@@ -44,9 +44,13 @@ which shows their assigned IP ranges.
 | Salesforce Hyperforce | https://ip-ranges.salesforce.com/ip-ranges.json | Direct JSON |
 | Sentry | https://sentry.io/api/0/uptime-ips/ | Direct API |
 | Branch | https://help.branch.io/docs/postback-webhook-ip-address-allowlist-expands | Direct docs |
-| IBM/Softlayer | RADB::AS-SOFTLAYER | RADB AS-SET |
-| Heroku/AWS | AS14618 | ASN Prefix |
-| Fly.io | AS40509 | ASN Prefix |
+| Exoscale | https://exoscale-prefixes.sos-ch-dk-2.exo.io/exoscale_prefixes.json | Direct JSON feed |
+| Scaleway | https://www.scaleway.com/en/docs/account/reference-content/scaleway-network-information/ | Structured docs scrape |
+| Backblaze | https://www.backblaze.com/computer-backup/docs/backblaze-ip-addresses | Structured docs scrape |
+| Cisco Webex | https://help.webex.com/article/WBX000028782/Network-Requirements-for-Webex-Teams-Services<br>https://help.webex.com/en-us/article/WBX264/How-Do-I-Allow-Webex-Meetings-Traffic-on-My-Network | Structured docs scrape |
+| IBM/Softlayer (`softlayer_ibm`) | RADB::AS-SOFTLAYER | RADB AS-SET |
+| Heroku/AWS (`heroku_aws`) | AS14618 | ASN Prefix |
+| Fly.io (`flyio`) | AS40509 | ASN Prefix |
 | Render | AS397273 | ASN Prefix |
 | A2Hosting | AS55293 | ASN Prefix |
 | GoDaddy | AS26496, AS30083 | ASN Prefix |
@@ -63,6 +67,15 @@ which shows their assigned IP ranges.
 | Rackspace | RADB::AS-RACKSPACE | RADB AS-SET |
 | nForce | RADB::AS-NFORCE | RADB AS-SET |
 | Vercel | RDAP/ARIN registry-owned netblocks | RDAP/ARIN registry |
+| Aruba Cloud | AS200185 | ASN Prefix |
+| CYSO Cloud | AS25151 | ASN Prefix |
+| gridscale | AS29423 | ASN Prefix |
+| IONOS Cloud | AS8560 | ASN Prefix |
+| Seeweb | AS12637 | ASN Prefix |
+| Open Telekom Cloud | AS6878 | ASN Prefix |
+| UpCloud | AS202053, AS25697 | ASN Prefix |
+| Wasabi | AS395717 | ASN Prefix |
+| Kamatera | AS36007 | ASN Prefix |
 
 ## Notes
 
