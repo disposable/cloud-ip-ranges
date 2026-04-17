@@ -99,21 +99,39 @@ def open_db(db_path: Path) -> duckdb.DuckDBPyConnection:
     """)
 
     # Migration: Add new columns for IP counts if they don't exist (pre-2025-04 schema)
+    # Note: DuckDB doesn't support constraints in ALTER TABLE ADD COLUMN
     conn.execute("""
         ALTER TABLE provider_last_changed
-        ADD COLUMN IF NOT EXISTS ipv4_ip_count INTEGER NOT NULL DEFAULT 0
+        ADD COLUMN IF NOT EXISTS ipv4_ip_count INTEGER DEFAULT 0
     """)
     conn.execute("""
         ALTER TABLE provider_last_changed
-        ADD COLUMN IF NOT EXISTS ipv6_64_count INTEGER NOT NULL DEFAULT 0
+        ADD COLUMN IF NOT EXISTS ipv6_64_count INTEGER DEFAULT 0
     """)
     conn.execute("""
         ALTER TABLE provider_last_changed
-        ADD COLUMN IF NOT EXISTS retired_ipv4_ip_count INTEGER NOT NULL DEFAULT 0
+        ADD COLUMN IF NOT EXISTS retired_ipv4_ip_count INTEGER DEFAULT 0
     """)
     conn.execute("""
         ALTER TABLE provider_last_changed
-        ADD COLUMN IF NOT EXISTS retired_ipv6_64_count INTEGER NOT NULL DEFAULT 0
+        ADD COLUMN IF NOT EXISTS retired_ipv6_64_count INTEGER DEFAULT 0
+    """)
+    # Ensure NULL values are set to 0 for existing rows
+    conn.execute("""
+        UPDATE provider_last_changed
+        SET ipv4_ip_count = 0 WHERE ipv4_ip_count IS NULL
+    """)
+    conn.execute("""
+        UPDATE provider_last_changed
+        SET ipv6_64_count = 0 WHERE ipv6_64_count IS NULL
+    """)
+    conn.execute("""
+        UPDATE provider_last_changed
+        SET retired_ipv4_ip_count = 0 WHERE retired_ipv4_ip_count IS NULL
+    """)
+    conn.execute("""
+        UPDATE provider_last_changed
+        SET retired_ipv6_64_count = 0 WHERE retired_ipv6_64_count IS NULL
     """)
 
     # Drop old column name if exists (from intermediate development versions)
