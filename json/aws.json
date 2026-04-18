@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-17T16:12:43.462317",
-  "source_updated_at": "2026-04-15-21-07-04",
+  "generated_at": "2026-04-18T02:10:20.158826",
+  "source_updated_at": "2026-04-17-18-27-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-04-15-21-07-04",
+  "last_update": "2026-04-17-18-27-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -33896,7 +33896,7 @@
     },
     {
       "address": "40.164.0.0/16",
-      "service": "AMAZON",
+      "service": "EC2",
       "region": "us-west-1",
       "network_border_group": "us-west-1"
     },
@@ -71734,7 +71734,7 @@
     },
     {
       "address": "2a05:d01c::/36",
-      "retired_at": "2026-04-17T16:15:50.377857+00:00"
+      "retired_at": "2026-04-18T02:14:33.472036+00:00"
     }
   ],
   "source_http": [
@@ -71742,8 +71742,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"6e04393f6738cfefff1bc7df037cff14\"",
-      "last_modified": "Wed, 15 Apr 2026 23:54:05 GMT"
+      "etag": "\"a9b052dfdbc66acc5f03a35f3b78cc8d\"",
+      "last_modified": "Fri, 17 Apr 2026 20:54:47 GMT"
     }
   ]
 }
