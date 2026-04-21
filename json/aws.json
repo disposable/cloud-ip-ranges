@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-20T02:32:50.930143",
-  "source_updated_at": "2026-04-19-10-17-05",
+  "generated_at": "2026-04-21T02:28:26.689953",
+  "source_updated_at": "2026-04-20-20-57-04",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-04-19-10-17-05",
+  "last_update": "2026-04-20-20-57-04",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -9342,6 +9342,7 @@
     "2600:f0f1:8d::/48",
     "2600:f0f1:8e::/48",
     "2600:f0f1:8f::/48",
+    "2600:f0f1:90::/44",
     "2600:f0f2:7000::/44",
     "2600:f0f2:7010::/48",
     "2600:f0f2:7011::/48",
@@ -17247,7 +17248,7 @@
     },
     {
       "address": "32.184.0.0/13",
-      "service": "AMAZON",
+      "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
     },
@@ -31947,7 +31948,7 @@
     },
     {
       "address": "1.178.172.0/23",
-      "service": "GLOBALACCELERATOR",
+      "service": "EC2",
       "region": "GLOBAL",
       "network_border_group": "GLOBAL"
     },
@@ -60400,6 +60401,12 @@
       "network_border_group": "us-east-1"
     },
     {
+      "address": "2600:f0f1:90::/44",
+      "service": "EC2",
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
+    },
+    {
       "address": "2600:f0fb:f026::/48",
       "service": "EC2",
       "region": "ap-southeast-1",
@@ -71741,7 +71748,7 @@
     },
     {
       "address": "2a05:d01c::/36",
-      "retired_at": "2026-04-20T02:35:47.709778+00:00"
+      "retired_at": "2026-04-21T02:32:38.013184+00:00"
     }
   ],
   "source_http": [
@@ -71749,8 +71756,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"425f09be506729ad04fb1e6a3039d709\"",
-      "last_modified": "Sun, 19 Apr 2026 12:54:14 GMT"
+      "etag": "\"a62414edc0364f75c93d3c9961ce5ef3\"",
+      "last_modified": "Mon, 20 Apr 2026 23:26:10 GMT"
     }
   ]
 }
