@@ -3,7 +3,7 @@
   "provider_id": "meta-crawler",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-04-23T02:30:36.156219",
+  "generated_at": "2026-04-25T02:13:11.150894",
   "source_updated_at": null,
   "source": [
     "RADB::AS-FACEBOOK",
@@ -13,7 +13,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS54115",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS63293"
   ],
-  "last_update": "2026-04-23T02:30:36.156219",
+  "last_update": "2026-04-25T02:13:11.150894",
   "ipv4": [
     "102.132.104.0/24",
     "102.132.112.0/24",
@@ -822,33 +822,33 @@
   "details_ipv4": [
     {
       "address": "102.132.101.0/24",
-      "retired_at": "2026-04-23T02:32:54.409463+00:00"
+      "retired_at": "2026-04-25T02:15:30.269455+00:00"
     },
     {
       "address": "102.132.114.0/24",
-      "retired_at": "2026-04-23T02:32:54.409463+00:00"
+      "retired_at": "2026-04-25T02:15:30.269455+00:00"
     },
     {
       "address": "157.240.199.0/24",
-      "retired_at": "2026-04-23T02:32:54.409463+00:00"
+      "retired_at": "2026-04-25T02:15:30.269455+00:00"
     },
     {
       "address": "157.240.222.0/24",
-      "retired_at": "2026-04-23T02:32:54.409463+00:00"
+      "retired_at": "2026-04-25T02:15:30.269455+00:00"
     }
   ],
   "details_ipv6": [
     {
       "address": "2a03:2880:f038::/48",
-      "retired_at": "2026-04-23T02:32:54.409463+00:00"
+      "retired_at": "2026-04-25T02:15:30.269455+00:00"
     },
     {
       "address": "2a03:2880:f138::/48",
-      "retired_at": "2026-04-23T02:32:54.409463+00:00"
+      "retired_at": "2026-04-25T02:15:30.269455+00:00"
     },
     {
       "address": "2a03:2880:f238::/48",
-      "retired_at": "2026-04-23T02:32:54.409463+00:00"
+      "retired_at": "2026-04-25T02:15:30.269455+00:00"
     }
   ]
 }

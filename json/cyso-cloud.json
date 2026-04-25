@@ -3,12 +3,12 @@
   "provider_id": "cyso-cloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-04-23T02:32:45.126569",
+  "generated_at": "2026-04-25T02:15:19.682865",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25151"
   ],
-  "last_update": "2026-04-23T02:32:45.126569",
+  "last_update": "2026-04-25T02:15:19.682865",
   "ipv4": [
     "109.235.72.0/21",
     "130.193.5.0/24",
@@ -34,6 +34,7 @@
     "81.24.9.0/24",
     "85.158.200.0/21",
     "93.94.224.0/21",
+    "93.94.231.0/24",
     "109.235.75.0/24",
     "85.158.205.0/24"
   ],
@@ -54,11 +55,11 @@
   "details_ipv4": [
     {
       "address": "109.235.75.0/24",
-      "retired_at": "2026-04-23T02:32:54.409463+00:00"
+      "retired_at": "2026-04-25T02:15:30.269455+00:00"
     },
     {
       "address": "85.158.205.0/24",
-      "retired_at": "2026-04-23T02:32:54.409463+00:00"
+      "retired_at": "2026-04-25T02:15:30.269455+00:00"
     }
   ]
 }
