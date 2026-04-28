@@ -1,6 +1,6 @@
 # provider: Google Bot
 # source: https://developers.google.com/static/search/apis/ipranges/googlebot.json, https://developers.google.com/search/apis/ipranges/special-crawlers.json, https://developers.google.com/search/apis/ipranges/user-triggered-fetchers.json
-# last_update: 2026-04-23T14:45:52.000000
+# last_update: 2026-04-27T14:45:45.000000
 
 107.178.192.0/27
 107.178.192.128/27
@@ -279,8 +279,10 @@
 34.116.41.64/27
 34.116.41.96/27
 34.116.42.0/27
+34.116.42.128/27
 34.116.42.32/27
 34.116.42.64/27
+34.116.42.96/27
 34.116.43.0/27
 34.116.43.128/27
 34.116.43.160/27
@@ -1526,6 +1528,8 @@
 2600:1900:0:88::/64
 2600:1900:0:89::/64
 2600:1900:0:8::/64
+2600:1900:0:8a::/64
+2600:1900:0:8b::/64
 2600:1900:0:90::/64
 2600:1900:0:91::/64
 2600:1900:0:92::/64
