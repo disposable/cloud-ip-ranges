@@ -3,12 +3,12 @@
   "provider_id": "oracle-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-22T02:26:12.903127",
+  "generated_at": "2026-04-29T02:44:17.113606",
   "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-04-22T02:26:12.903127",
+  "last_update": "2026-04-29T02:44:17.113606",
   "ipv4": [
     "129.144.0.0/16",
     "129.145.16.0/21",
@@ -564,6 +564,7 @@
     "147.224.68.0/22",
     "147.224.8.0/21",
     "147.5.128.0/17",
+    "147.5.20.0/22",
     "147.5.28.0/22",
     "147.5.96.0/19",
     "148.116.104.0/21",
@@ -2936,6 +2937,10 @@
     },
     {
       "address": "140.204.4.128/25",
+      "region": "ap-mumbai-1"
+    },
+    {
+      "address": "147.5.20.0/22",
       "region": "ap-mumbai-1"
     },
     {
@@ -5405,8 +5410,8 @@
       "url": "https://docs.oracle.com/iaas/tools/public_ip_ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"69e712ff-2dacc\"",
-      "last_modified": "Tue, 21 Apr 2026 06:02:39 GMT"
+      "etag": "\"69f070ab-2db70\"",
+      "last_modified": "Tue, 28 Apr 2026 08:32:43 GMT"
     }
   ]
 }

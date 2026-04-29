@@ -3,12 +3,12 @@
   "provider_id": "oracle-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-22T02:26:12.903127",
+  "generated_at": "2026-04-29T02:44:17.113606",
   "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-04-22T02:26:12.903127",
+  "last_update": "2026-04-29T02:44:17.113606",
   "ipv4": [
     {
       "address": "40.233.0.0/19",
@@ -1856,6 +1856,10 @@
     },
     {
       "address": "140.204.4.128/25",
+      "region": "ap-mumbai-1"
+    },
+    {
+      "address": "147.5.20.0/22",
       "region": "ap-mumbai-1"
     },
     {

@@ -5858,6 +5858,7 @@ IPv4,99.77.232.0/24,us-west-2,us-west-2,CHIME_VOICECONNECTOR
 IPv4,99.77.246.0/24,eu-north-1,eu-north-1,CHIME_VOICECONNECTOR
 IPv4,99.77.237.0/24,ap-southeast-3,ap-southeast-3,CHIME_VOICECONNECTOR
 IPv4,99.77.250.0/24,eu-west-1,eu-west-1,CHIME_VOICECONNECTOR
+IPv4,3.80.16.0/23,us-east-1,us-east-1,CHIME_VOICECONNECTOR
 IPv4,51.0.252.0/24,eusc-de-east-1,eusc-de-east-1,ROUTE53_HEALTHCHECKS
 IPv4,15.177.0.0/18,GLOBAL,GLOBAL,ROUTE53_HEALTHCHECKS
 IPv4,52.80.197.0/25,cn-north-1,cn-north-1,ROUTE53_HEALTHCHECKS
@@ -10746,6 +10747,7 @@ IPv6,2600:1ffa:4000::/40,us-west-2,us-west-2,AMAZON
 IPv6,2600:9000:f400::/40,GLOBAL,GLOBAL,AMAZON
 IPv6,2600:f0f0:0:100::/56,us-east-1,us-east-1,AMAZON
 IPv6,2600:f0fb:ee00::/40,us-west-2-sea-1,us-west-2,AMAZON
+IPv6,2631:1:106::/48,sa-east-1,sa-east-1,AMAZON
 IPv6,2a01:578:0:7500::1/128,eu-north-1,eu-north-1,AMAZON
 IPv6,2a05:d033:5000::/40,il-central-1,il-central-1,AMAZON
 IPv6,2a05:d078:8000::/40,eu-west-1,eu-west-1,AMAZON
@@ -11162,6 +11164,7 @@ IPv6,2406:da61:9000::/40,ap-southeast-3,ap-southeast-3,AMAZON
 IPv6,2406:daf8:9000::/40,ap-southeast-3,ap-southeast-3,AMAZON
 IPv6,2600:f0f0:11::/48,us-east-1,us-east-1,AMAZON
 IPv6,2600:f0f0:e03::/48,us-west-2,us-west-2,AMAZON
+IPv6,2600:f0f1:15::/48,GLOBAL,GLOBAL,AMAZON
 IPv6,2620:107:4000:2::/64,us-west-1,us-west-1,AMAZON
 IPv6,2404:c2c0:ef00::/40,cn-northwest-1,cn-northwest-1,AMAZON
 IPv6,2406:dabb:2800::/40,ap-southeast-6,ap-southeast-6,AMAZON
@@ -11683,6 +11686,7 @@ IPv6,2600:f0f0:5400::/48,ap-northeast-2,ap-northeast-2,AMAZON
 IPv6,2606:f40:3200::/40,ap-south-2,ap-south-2,AMAZON
 IPv6,2406:dabb:4800::/40,ap-southeast-7,ap-southeast-7,AMAZON
 IPv6,2600:1f01:4800::/47,ap-south-1,ap-south-1,AMAZON
+IPv6,2600:f0f1:14::/48,GLOBAL,GLOBAL,AMAZON
 IPv6,2606:f40:1800::/40,eu-central-1,eu-central-1,AMAZON
 IPv6,2606:f40:a100::/40,eu-south-2,eu-south-2,AMAZON
 IPv6,2606:7b40:a3e:3c00::/54,us-west-2,us-west-2,AMAZON
@@ -12058,6 +12062,7 @@ IPv6,2600:1f60:8000::/39,us-east-1,us-east-1,AMAZON
 IPv6,2600:1f61:ec00::/40,sa-west-1,sa-west-1,AMAZON
 IPv6,2600:f0f0:5::/48,us-west-2,us-west-2,AMAZON
 IPv6,2600:f0f0:5513::/48,us-west-2,us-west-2,AMAZON
+IPv6,2600:f0f1:18::/46,us-east-1,us-east-1,AMAZON
 IPv6,2600:f0f2:7014::/48,us-east-2,us-east-2,AMAZON
 IPv6,2600:f0f2:7107::/48,ap-southeast-1,ap-southeast-1,AMAZON
 IPv6,2605:9cc0:1ff0:2d00::/56,GLOBAL,GLOBAL,AMAZON
@@ -13879,6 +13884,7 @@ IPv6,2406:dab9:4800::/40,ap-southeast-7,ap-southeast-7,EC2
 IPv6,2406:daf0:800::/40,ap-southeast-5,ap-southeast-5,EC2
 IPv6,2600:f0f0:0:100::/56,us-east-1,us-east-1,EC2
 IPv6,2600:f0fb:ee00::/40,us-west-2-sea-1,us-west-2,EC2
+IPv6,2631:1:106::/48,sa-east-1,sa-east-1,EC2
 IPv6,2a05:d033:5000::/40,il-central-1,il-central-1,EC2
 IPv6,2a05:d07d:800::/40,me-west-1,me-west-1,EC2
 IPv6,2406:da32:2000::/40,ap-northeast-2,ap-northeast-2,EC2
@@ -14917,6 +14923,7 @@ IPv6,2600:1f60:8000::/39,us-east-1,us-east-1,EC2
 IPv6,2600:1f61:ec00::/40,sa-west-1,sa-west-1,EC2
 IPv6,2600:f0f0:5::/48,us-west-2,us-west-2,EC2
 IPv6,2600:f0f0:5513::/48,us-west-2,us-west-2,EC2
+IPv6,2600:f0f1:18::/46,us-east-1,us-east-1,EC2
 IPv6,2600:f0f2:7014::/48,us-east-2,us-east-2,EC2
 IPv6,2600:f0f2:7107::/48,ap-southeast-1,ap-southeast-1,EC2
 IPv6,2605:9cc0:1ff0:2d00::/56,GLOBAL,GLOBAL,EC2
@@ -15413,6 +15420,7 @@ IPv6,2600:9000:f538::/45,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:9000:5380::/41,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:f0f0:5504::/46,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:9000:1000::/36,GLOBAL,GLOBAL,CLOUDFRONT
+IPv6,2600:f0f1:15::/48,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:9000:2000::/36,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2400:7fc0:500::/40,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:9000:4000::/36,GLOBAL,GLOBAL,CLOUDFRONT
@@ -15422,6 +15430,7 @@ IPv6,2404:c2c0:500::/40,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:9000:5308::/45,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:9000:f534::/46,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:f0f0:601::/48,GLOBAL,GLOBAL,CLOUDFRONT
+IPv6,2600:f0f1:14::/48,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:9000:f520::/44,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:9000:5320::/43,GLOBAL,GLOBAL,CLOUDFRONT
 IPv6,2600:9000:5310::/44,GLOBAL,GLOBAL,CLOUDFRONT
