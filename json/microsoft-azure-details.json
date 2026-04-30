@@ -3,12 +3,12 @@
   "provider_id": "microsoft-azure",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-29T02:44:38.775833",
+  "generated_at": "2026-04-30T02:46:00.715731",
   "source_updated_at": null,
   "source": [
     "https://azservicetags.azurewebsites.net/"
   ],
-  "last_update": "2026-04-29T02:44:38.775833",
+  "last_update": "2026-04-30T02:46:00.715731",
   "ipv4": [
     {
       "address": "4.145.74.52/30",
@@ -21291,12 +21291,67 @@
       "region": ""
     },
     {
+      "address": "4.166.35.241/32",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
       "address": "4.172.96.192/26",
       "systemService": "AzureBackup",
       "region": ""
     },
     {
       "address": "4.216.12.0/26",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.219.29.22/32",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.219.29.48/28",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.221.233.187/32",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.221.237.112/28",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.223.198.160/29",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.223.198.168/31",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.228.169.144/28",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.230.165.130/32",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.230.165.132/30",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "4.230.165.136/29",
       "systemService": "AzureBackup",
       "region": ""
     },
@@ -21342,6 +21397,16 @@
     },
     {
       "address": "9.205.50.80/28",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "9.235.188.102/31",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "9.235.190.160/28",
       "systemService": "AzureBackup",
       "region": ""
     },
@@ -21462,6 +21527,16 @@
     },
     {
       "address": "13.78.108.64/26",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "13.85.230.180/32",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "13.85.230.208/28",
       "systemService": "AzureBackup",
       "region": ""
     },
@@ -22716,6 +22791,21 @@
       "region": ""
     },
     {
+      "address": "57.166.13.170/31",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "57.166.13.172/30",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "57.166.13.176/29",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
       "address": "65.52.251.0/26",
       "systemService": "AzureBackup",
       "region": ""
@@ -22777,6 +22867,21 @@
     },
     {
       "address": "74.7.180.128/26",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "74.242.176.248/29",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "74.242.177.80/30",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "74.242.177.84/32",
       "systemService": "AzureBackup",
       "region": ""
     },
@@ -22871,6 +22976,16 @@
       "region": ""
     },
     {
+      "address": "134.112.192.188/30",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "134.112.194.16/28",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
       "address": "134.138.70.80/28",
       "systemService": "AzureBackup",
       "region": ""
@@ -22882,6 +22997,26 @@
     },
     {
       "address": "158.23.100.192/26",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "158.158.138.202/31",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "158.158.139.0/28",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "172.192.193.164/30",
+      "systemService": "AzureBackup",
+      "region": ""
+    },
+    {
+      "address": "172.192.193.224/28",
       "systemService": "AzureBackup",
       "region": ""
     },
@@ -46941,6 +47076,11 @@
       "region": ""
     },
     {
+      "address": "172.197.132.24/30",
+      "systemService": "AzureKeyVault",
+      "region": ""
+    },
+    {
       "address": "172.198.89.216/30",
       "systemService": "AzureKeyVault",
       "region": ""
@@ -59052,11 +59192,6 @@
     },
     {
       "address": "52.242.47.8/29",
-      "systemService": "AzureMonitor",
-      "region": ""
-    },
-    {
-      "address": "52.242.230.209/32",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -78686,21 +78821,6 @@
       "region": ""
     },
     {
-      "address": "20.39.3.161/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.39.3.213/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.39.5.82/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "20.39.12.200/29",
       "systemService": "AzureSpringCloud",
       "region": ""
@@ -78712,16 +78832,6 @@
     },
     {
       "address": "20.39.13.128/25",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.39.16.0/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.39.17.72/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -78771,26 +78881,6 @@
       "region": ""
     },
     {
-      "address": "20.42.30.201/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.42.31.192/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.42.33.235/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.42.39.118/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "20.42.228.208/29",
       "systemService": "AzureSpringCloud",
       "region": ""
@@ -78832,111 +78922,6 @@
     },
     {
       "address": "20.43.70.0/26",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.154.9/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.163.195/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.168.193/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.170.6/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.170.59/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.174.55/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.176.144/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.179.91/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.188.214/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.189.123/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.191.44/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.43.191.60/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.44.193.83/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.44.199.171/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.44.200.130/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.44.211.30/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.44.217.0/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.44.229.24/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.44.230.235/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.44.236.197/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.44.238.170/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -79031,21 +79016,6 @@
       "region": ""
     },
     {
-      "address": "20.50.8.165/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.12.129/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.13.49/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "20.50.64.128/25",
       "systemService": "AzureSpringCloud",
       "region": ""
@@ -79057,86 +79027,6 @@
     },
     {
       "address": "20.50.65.64/29",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.145.106/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.165.134/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.171.193/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.225.11/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.229.223/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.230.162/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.232.82/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.232.156/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.242.38/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.242.50/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.243.127/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.50.248.145/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.54.128.130/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.54.132.216/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.54.133.5/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.54.136.203/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -79181,41 +79071,6 @@
       "region": ""
     },
     {
-      "address": "20.184.57.120/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.184.63.62/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.185.9.153/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.185.12.145/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.185.77.126/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.185.208.26/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.185.208.50/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "20.187.194.0/25",
       "systemService": "AzureSpringCloud",
       "region": ""
@@ -79227,21 +79082,6 @@
     },
     {
       "address": "20.187.194.192/29",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.190.3.135/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.190.8.99/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "20.190.24.22/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -79341,121 +79181,6 @@
       "region": ""
     },
     {
-      "address": "23.98.120.165/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "23.98.121.46/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.64.227/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.66.194/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.72.48/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.73.21/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.73.31/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.74.10/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.80.29/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.83.15/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.83.84/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.89.66/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.90.111/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.96.219/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.97.168/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.104.30/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.104.98/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.104.169/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.105.92/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.105.107/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.105.160/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.105.236/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.64.108.31/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "40.64.132.16/28",
       "systemService": "AzureSpringCloud",
       "region": ""
@@ -79486,52 +79211,7 @@
       "region": ""
     },
     {
-      "address": "40.71.232.72/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.71.232.211/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.71.238.134/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.74.5.45/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.74.10.253/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.74.13.222/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.74.35.200/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.74.38.68/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "40.74.44.186/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.74.47.74/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -79566,56 +79246,6 @@
       "region": ""
     },
     {
-      "address": "40.88.16.112/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.88.17.59/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.88.18.144/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.88.19.237/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.88.22.53/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.88.23.112/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.88.48.42/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.88.53.3/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.88.54.203/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.88.55.62/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "40.89.19.40/29",
       "systemService": "AzureSpringCloud",
       "region": ""
@@ -79631,112 +79261,7 @@
       "region": ""
     },
     {
-      "address": "40.90.185.248/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.90.186.62/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.90.244.219/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.80.163/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.89.160/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.92.117/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.93.59/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.112.140/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.112.189/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.114.251/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.115.37/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.115.216/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.121.99/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.91.125.201/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "40.113.176.0/25",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.114.174.96/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.114.176.123/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.114.185.15/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.119.144.17/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.119.150.73/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.119.202.150/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "40.119.233.230/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -79831,167 +79356,7 @@
       "region": ""
     },
     {
-      "address": "51.105.98.247/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.100.27/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.100.159/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.101.55/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.104.59/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.111.82/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.113.5/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.124.174/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.125.117/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.125.164/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.125.221/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.126.104/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.127.208/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.134.35/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "51.105.135.194/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.157.239/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.159.36/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.186.91/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.192.61/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.195.215/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.199.153/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.202.85/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.216.231/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.218.44/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.219.64/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.219.227/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.220.55/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.220.135/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.224.143/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.228.211/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.234.49/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.238.99/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.105.253.42/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -80061,196 +79426,6 @@
       "region": ""
     },
     {
-      "address": "51.124.10.15/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.12.73/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.13.218/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.13.254/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.16.242/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.20.167/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.20.205/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.20.241/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.22.30/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.53.244/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.58.74/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.61.110/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.63.55/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.67.16/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.82.1/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.85.221/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.86.95/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.87.40/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.91.47/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.138.109/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.138.212/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.138.237/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.139.156/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.124.143.77/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.136.75.98/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.136.80.247/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.136.86.124/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.136.120.144/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.136.126.99/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.136.126.175/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.137.4.202/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.137.10.145/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.137.10.179/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.137.12.156/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.137.12.194/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.137.19.100/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.137.22.12/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.137.25.182/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "51.137.163.128/25",
       "systemService": "AzureSpringCloud",
       "region": ""
@@ -80266,117 +79441,7 @@
       "region": ""
     },
     {
-      "address": "51.138.13.155/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.20.23/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.22.41/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.26.136/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.41.92/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.51.11/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.51.95/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.53.236/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.62.72/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.104.64/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.138.113.211/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.143.49.213/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.143.55.204/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.143.61.51/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.143.61.77/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.143.109.144/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "51.143.115.246/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.143.117.172/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.143.122.148/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.144.60.186/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.144.62.71/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.144.188.172/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "51.145.181.96/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -80396,136 +79461,6 @@
       "region": ""
     },
     {
-      "address": "52.137.24.29/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.25.150/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.31.163/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.91.129/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.92.114/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.96.181/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.97.228/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.98.68/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.103.182/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.105.37/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.105.128/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.107.84/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.109.121/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.110.32/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.137.110.122/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.233.243/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.238.9/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.241.27/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.241.243/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.242.184/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.243.242/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.245.192/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.245.221/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.245.227/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.245.229/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.139.248.38/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "52.140.107.80/29",
       "systemService": "AzureSpringCloud",
       "region": ""
@@ -80541,447 +79476,7 @@
       "region": ""
     },
     {
-      "address": "52.142.16.31/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.18.235/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.19.36/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.21.62/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.22.56/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.28.245/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.29.158/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.30.210/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.36.160/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.37.25/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.38.142/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.39.127/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.142.238.233/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.11.218/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.13.72/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.14.0/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.72.161/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.74.52/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.74.216/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.78.190/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.80.194/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.84.75/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.89.212/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.91.190/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.143.92.85/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.146.48.34/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.146.48.39/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.146.56.203/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.146.58.105/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.146.59.1/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.146.59.68/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.146.59.178/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.146.60.190/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.146.63.29/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.147.211.1/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.147.211.57/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.147.212.93/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.147.220.178/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.147.222.10/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.148.119.92/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.148.146.17/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.148.146.87/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "52.148.160.217/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.148.167.44/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.148.167.247/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.20.74/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.30.93/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.30.121/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.51.15/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.51.138/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.51.164/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.52.249/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.54.99/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.57.107/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.59.187/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.63.64/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.73.135/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.76.250/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.111.116/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.171.106/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.174.65/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.184.214/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.185.176/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.185.222/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.190.134/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.192.90/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.193.239/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.194.149/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.194.174/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.198.57/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.198.237/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.201.158/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.205.94/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.232.202/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.237.143/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.238.109/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.246.151/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.149.247.149/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.34.72/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.34.113/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.34.121/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.35.24/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.36.0/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.36.22/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.38.94/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.43.59/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.44.169/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.45.109/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.150.52.37/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -81001,697 +79496,7 @@
       "region": ""
     },
     {
-      "address": "52.151.225.40/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.225.203/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.227.21/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.227.226/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.230.80/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.232.5/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.235.39/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.236.18/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.236.129/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.238.85/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.240.209/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.241.199/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.243.228/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.245.120/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.246.217/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.247.92/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.151.247.134/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.187.108/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.188.183/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.189.49/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.192.73/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.194.46/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.207.36/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.240.92/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.244.208/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.244.234/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.246.85/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.152.252.59/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.154.66.126/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.154.66.131/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.154.69.60/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.154.71.42/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "52.156.88.106/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.156.145.223/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.156.151.111/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.157.227.54/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.157.249.222/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.157.251.249/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.157.252.18/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.157.253.237/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.161.184.250/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.161.185.174/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.170.160.27/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.170.162.11/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.170.166.40/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.170.166.220/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.170.170.172/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.170.173.4/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.170.175.205/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.170.175.249/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.33.240/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.40.74/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.41.188/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.44.201/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.47.23/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.89.147/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.92.135/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.101.75/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.103.43/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.160.139/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.186.163.254/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.25.137/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.38.104/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.39.147/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.41.92/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.43.63/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.43.75/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.45.56/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.47.87/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.47.224/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.72.218/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.76.141/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.76.192/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.79.146/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.79.175/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.95.4/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.128.19/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.135.27/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.139.184/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.142.235/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.176.41/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.181.134/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.183.163/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.219.128/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.221.47/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.188.223.149/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.190.37.81/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.190.45.104/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.18.84/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.19.7/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.19.158/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.22.114/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.34.27/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.34.94/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.34.233/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.35.49/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.39.124/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.82.106/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.84.3/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.91.25/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.97.122/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.100.208/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.102.24/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.102.167/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.217.26/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.218.10/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.218.163/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.223.241/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.226.215/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.226.231/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.227.142/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.228.91/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.191.239.43/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.17.124/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.18.31/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.20.104/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.25.144/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.27.197/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.28.195/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.33.93/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.33.138/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.72.18/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.74.117/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.75.25/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.75.31/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.75.56/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.92.32/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.129.87/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.130.216/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.131.130/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.140.5/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.146.5/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.146.46/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.146.106/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.203.234/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.224.205.192/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.226.105.61/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.226.144.203/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.226.170.84/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -81711,46 +79516,6 @@
       "region": ""
     },
     {
-      "address": "52.230.56.134/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.230.56.248/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.230.57.138/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.230.60.12/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.249.205.140/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.250.30.100/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.250.46.87/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.250.76.93/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "52.250.225.8/29",
       "systemService": "AzureSpringCloud",
       "region": ""
@@ -81762,86 +79527,6 @@
     },
     {
       "address": "52.250.225.128/25",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.80.203/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.81.49/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.82.239/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.83.25/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.128.103/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.129.117/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.132.45/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.153.141/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.224.101/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.225.112/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.226.102/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.230.71/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.230.129/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.253.231.45/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.255.212.170/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "52.255.212.228/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -81901,32 +79586,7 @@
       "region": ""
     },
     {
-      "address": "104.45.73.99/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
       "address": "104.45.168.35/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "104.45.179.106/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "104.45.183.70/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "104.45.184.10/32",
-      "systemService": "AzureSpringCloud",
-      "region": ""
-    },
-    {
-      "address": "104.45.189.93/32",
       "systemService": "AzureSpringCloud",
       "region": ""
     },
@@ -86147,11 +83807,6 @@
     },
     {
       "address": "52.149.18.190/32",
-      "systemService": "AzureUpdateDelivery",
-      "region": ""
-    },
-    {
-      "address": "52.149.21.232/32",
       "systemService": "AzureUpdateDelivery",
       "region": ""
     },
@@ -99741,6 +97396,11 @@
       "region": ""
     },
     {
+      "address": "168.61.229.160/29",
+      "systemService": "DataFactory",
+      "region": ""
+    },
+    {
       "address": "172.164.238.216/29",
       "systemService": "DataFactory",
       "region": ""
@@ -100463,6 +98123,261 @@
     {
       "address": "191.233.202.0/24",
       "systemService": "Dynamics365ForMarketingEmail",
+      "region": ""
+    },
+    {
+      "address": "23.103.132.0/25",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.132.128/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.132.192/29",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.132.208/28",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.132.240/28",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.133.224/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.134.0/25",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.134.192/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.135.0/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.135.128/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.135.192/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.136.32/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.136.64/28",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.136.96/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.136.224/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.137.0/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.137.96/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.137.128/25",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.138.0/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.138.32/28",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.138.96/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.138.128/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.138.224/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.139.96/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.139.130/31",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.139.162/31",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.140.192/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.141.96/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.141.192/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.142.32/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.156.1/32",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.156.2/31",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.156.33/32",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.156.34/31",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.156.65/32",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.156.66/31",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.156.96/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.156.128/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.156.192/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.157.1/32",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.157.2/31",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.157.64/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.157.128/27",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.157.160/28",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.157.192/26",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.198.1/32",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.198.2/31",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.198.33/32",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.198.34/31",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.198.128/25",
+      "systemService": "EOPExtPublished",
+      "region": ""
+    },
+    {
+      "address": "23.103.212.0/23",
+      "systemService": "EOPExtPublished",
       "region": ""
     },
     {
@@ -113086,6 +111001,26 @@
       "region": ""
     },
     {
+      "address": "57.162.210.28/31",
+      "systemService": "M365ManagementActivityApi",
+      "region": ""
+    },
+    {
+      "address": "57.162.210.40/29",
+      "systemService": "M365ManagementActivityApi",
+      "region": ""
+    },
+    {
+      "address": "57.162.211.42/31",
+      "systemService": "M365ManagementActivityApi",
+      "region": ""
+    },
+    {
+      "address": "57.162.211.96/29",
+      "systemService": "M365ManagementActivityApi",
+      "region": ""
+    },
+    {
       "address": "68.210.26.0/31",
       "systemService": "M365ManagementActivityApi",
       "region": ""
@@ -114082,6 +112017,16 @@
     },
     {
       "address": "57.154.131.8/31",
+      "systemService": "M365ManagementActivityApiWebhook",
+      "region": ""
+    },
+    {
+      "address": "57.162.211.108/30",
+      "systemService": "M365ManagementActivityApiWebhook",
+      "region": ""
+    },
+    {
+      "address": "57.162.211.128/28",
       "systemService": "M365ManagementActivityApiWebhook",
       "region": ""
     },
@@ -117857,11 +115802,6 @@
     },
     {
       "address": "20.36.222.60/32",
-      "systemService": "MicrosoftCloudAppSecurity",
-      "region": ""
-    },
-    {
-      "address": "20.36.240.76/32",
       "systemService": "MicrosoftCloudAppSecurity",
       "region": ""
     },
@@ -124541,11 +122481,6 @@
       "region": ""
     },
     {
-      "address": "52.224.191.62/32",
-      "systemService": "MicrosoftCloudAppSecurity",
-      "region": ""
-    },
-    {
       "address": "52.224.201.216/32",
       "systemService": "MicrosoftCloudAppSecurity",
       "region": ""
@@ -125237,11 +123172,6 @@
     },
     {
       "address": "104.45.168.104/32",
-      "systemService": "MicrosoftCloudAppSecurity",
-      "region": ""
-    },
-    {
-      "address": "104.45.168.106/32",
       "systemService": "MicrosoftCloudAppSecurity",
       "region": ""
     },
@@ -138982,11 +136912,6 @@
     },
     {
       "address": "104.43.76.102/32",
-      "systemService": "PowerPlatformInfra",
-      "region": ""
-    },
-    {
-      "address": "104.43.76.124/32",
       "systemService": "PowerPlatformInfra",
       "region": ""
     },
@@ -164341,6 +162266,11 @@
       "region": "belgiumcentral"
     },
     {
+      "address": "4.228.169.144/28",
+      "systemService": "AzureBackup",
+      "region": "brazilsouth"
+    },
+    {
       "address": "191.233.204.0/26",
       "systemService": "AzureBackup",
       "region": "brazilsouth"
@@ -164916,6 +162846,16 @@
       "region": "italynorth"
     },
     {
+      "address": "9.235.188.102/31",
+      "systemService": "AzureBackup",
+      "region": "italynorth"
+    },
+    {
+      "address": "9.235.190.160/28",
+      "systemService": "AzureBackup",
+      "region": "italynorth"
+    },
+    {
       "address": "4.216.12.0/26",
       "systemService": "AzureBackup",
       "region": "japaneast"
@@ -164976,6 +162916,16 @@
       "region": "japanwest"
     },
     {
+      "address": "172.192.193.164/30",
+      "systemService": "AzureBackup",
+      "region": "japanwest"
+    },
+    {
+      "address": "172.192.193.224/28",
+      "systemService": "AzureBackup",
+      "region": "japanwest"
+    },
+    {
       "address": "20.192.50.128/26",
       "systemService": "AzureBackup",
       "region": "jioindiacentral"
@@ -165004,6 +162954,21 @@
       "address": "20.193.203.64/27",
       "systemService": "AzureBackup",
       "region": "jioindiawest"
+    },
+    {
+      "address": "4.230.165.130/32",
+      "systemService": "AzureBackup",
+      "region": "koreacentral"
+    },
+    {
+      "address": "4.230.165.132/30",
+      "systemService": "AzureBackup",
+      "region": "koreacentral"
+    },
+    {
+      "address": "4.230.165.136/29",
+      "systemService": "AzureBackup",
+      "region": "koreacentral"
     },
     {
       "address": "20.44.27.128/27",
@@ -165146,6 +163111,16 @@
       "region": "northeurope"
     },
     {
+      "address": "4.219.29.22/32",
+      "systemService": "AzureBackup",
+      "region": "norwaye"
+    },
+    {
+      "address": "4.219.29.48/28",
+      "systemService": "AzureBackup",
+      "region": "norwaye"
+    },
+    {
       "address": "51.120.99.96/27",
       "systemService": "AzureBackup",
       "region": "norwaye"
@@ -165226,6 +163201,16 @@
       "region": "polandcentral"
     },
     {
+      "address": "134.112.192.188/30",
+      "systemService": "AzureBackup",
+      "region": "polandcentral"
+    },
+    {
+      "address": "134.112.194.16/28",
+      "systemService": "AzureBackup",
+      "region": "polandcentral"
+    },
+    {
       "address": "20.21.36.128/26",
       "systemService": "AzureBackup",
       "region": "qatarcentral"
@@ -165244,6 +163229,16 @@
       "address": "20.21.75.0/26",
       "systemService": "AzureBackup",
       "region": "qatarcentral"
+    },
+    {
+      "address": "4.221.233.187/32",
+      "systemService": "AzureBackup",
+      "region": "southafricanorth"
+    },
+    {
+      "address": "4.221.237.112/28",
+      "systemService": "AzureBackup",
+      "region": "southafricanorth"
     },
     {
       "address": "102.37.160.192/26",
@@ -165289,6 +163284,16 @@
       "address": "102.133.27.128/27",
       "systemService": "AzureBackup",
       "region": "southafricawest"
+    },
+    {
+      "address": "13.85.230.180/32",
+      "systemService": "AzureBackup",
+      "region": "southcentralus"
+    },
+    {
+      "address": "13.85.230.208/28",
+      "systemService": "AzureBackup",
+      "region": "southcentralus"
     },
     {
       "address": "20.45.123.0/26",
@@ -165436,6 +163441,31 @@
       "region": "spaincentral"
     },
     {
+      "address": "158.158.138.202/31",
+      "systemService": "AzureBackup",
+      "region": "spaincentral"
+    },
+    {
+      "address": "158.158.139.0/28",
+      "systemService": "AzureBackup",
+      "region": "spaincentral"
+    },
+    {
+      "address": "4.166.35.241/32",
+      "systemService": "AzureBackup",
+      "region": "swedencentral"
+    },
+    {
+      "address": "4.223.198.160/29",
+      "systemService": "AzureBackup",
+      "region": "swedencentral"
+    },
+    {
+      "address": "4.223.198.168/31",
+      "systemService": "AzureBackup",
+      "region": "swedencentral"
+    },
+    {
       "address": "51.12.25.128/26",
       "systemService": "AzureBackup",
       "region": "swedencentral"
@@ -165507,6 +163537,21 @@
     },
     {
       "address": "51.107.243.0/26",
+      "systemService": "AzureBackup",
+      "region": "switzerlandn"
+    },
+    {
+      "address": "74.242.176.248/29",
+      "systemService": "AzureBackup",
+      "region": "switzerlandn"
+    },
+    {
+      "address": "74.242.177.80/30",
+      "systemService": "AzureBackup",
+      "region": "switzerlandn"
+    },
+    {
+      "address": "74.242.177.84/32",
       "systemService": "AzureBackup",
       "region": "switzerlandn"
     },
@@ -165772,6 +163817,21 @@
     },
     {
       "address": "40.78.251.0/26",
+      "systemService": "AzureBackup",
+      "region": "westus2"
+    },
+    {
+      "address": "57.166.13.170/31",
+      "systemService": "AzureBackup",
+      "region": "westus2"
+    },
+    {
+      "address": "57.166.13.172/30",
+      "systemService": "AzureBackup",
+      "region": "westus2"
+    },
+    {
+      "address": "57.166.13.176/29",
       "systemService": "AzureBackup",
       "region": "westus2"
     },
@@ -183216,6 +181276,11 @@
       "region": "malaysiawest"
     },
     {
+      "address": "172.197.132.24/30",
+      "systemService": "AzureKeyVault",
+      "region": "malaysiawest"
+    },
+    {
       "address": "158.23.10.124/30",
       "systemService": "AzureKeyVault",
       "region": "mexicocentral"
@@ -187867,11 +185932,6 @@
     },
     {
       "address": "52.230.224.237/32",
-      "systemService": "AzureMonitor",
-      "region": "centralus"
-    },
-    {
-      "address": "52.242.230.209/32",
       "systemService": "AzureMonitor",
       "region": "centralus"
     },
@@ -210951,6 +209011,11 @@
       "region": "eastus3"
     },
     {
+      "address": "57.163.32.0/23",
+      "systemService": "AzureStorage",
+      "region": "eastus3"
+    },
+    {
       "address": "135.130.0.0/23",
       "systemService": "AzureStorage",
       "region": "eastus3"
@@ -216476,6 +214541,11 @@
       "region": "westus3"
     },
     {
+      "address": "145.190.172.0/24",
+      "systemService": "AzureStorage",
+      "region": "westus3"
+    },
+    {
       "address": "13.67.191.143/32",
       "systemService": "AzureUpdateDelivery",
       "region": "centralus"
@@ -217152,11 +215222,6 @@
     },
     {
       "address": "52.149.18.190/32",
-      "systemService": "AzureUpdateDelivery",
-      "region": "westus2"
-    },
-    {
-      "address": "52.149.21.232/32",
       "systemService": "AzureUpdateDelivery",
       "region": "westus2"
     },
@@ -219507,6 +217572,11 @@
     },
     {
       "address": "168.61.229.72/29",
+      "systemService": "DataFactory",
+      "region": "centraluseuap"
+    },
+    {
+      "address": "168.61.229.160/29",
       "systemService": "DataFactory",
       "region": "centraluseuap"
     },
@@ -234836,11 +232906,6 @@
       "region": "eastus"
     },
     {
-      "address": "52.224.191.62/32",
-      "systemService": "MicrosoftCloudAppSecurity",
-      "region": "eastus"
-    },
-    {
       "address": "52.224.201.216/32",
       "systemService": "MicrosoftCloudAppSecurity",
       "region": "eastus"
@@ -234932,11 +232997,6 @@
     },
     {
       "address": "104.45.168.104/32",
-      "systemService": "MicrosoftCloudAppSecurity",
-      "region": "eastus"
-    },
-    {
-      "address": "104.45.168.106/32",
       "systemService": "MicrosoftCloudAppSecurity",
       "region": "eastus"
     },
@@ -235272,11 +233332,6 @@
     },
     {
       "address": "20.36.222.60/32",
-      "systemService": "MicrosoftCloudAppSecurity",
-      "region": "eastus2"
-    },
-    {
-      "address": "20.36.240.76/32",
       "systemService": "MicrosoftCloudAppSecurity",
       "region": "eastus2"
     },
@@ -251316,11 +249371,6 @@
       "region": "southeastasia"
     },
     {
-      "address": "104.43.76.124/32",
-      "systemService": "PowerPlatformInfra",
-      "region": "southeastasia"
-    },
-    {
       "address": "135.171.39.96/29",
       "systemService": "PowerPlatformInfra",
       "region": "southeastasia"
@@ -260314,6 +258364,11 @@
       "address": "40.64.154.0/27",
       "systemService": "WindowsVirtualDesktop",
       "region": "polandcentral"
+    },
+    {
+      "address": "40.64.148.160/27",
+      "systemService": "WindowsVirtualDesktop",
+      "region": "qatarcentral"
     },
     {
       "address": "40.64.146.112/28",
@@ -275601,17 +273656,7 @@
       "region": "australiaeast"
     },
     {
-      "address": "40.120.179.0/28",
-      "systemService": "",
-      "region": "australiaeast"
-    },
-    {
-      "address": "40.120.179.16/29",
-      "systemService": "",
-      "region": "australiaeast"
-    },
-    {
-      "address": "40.120.179.24/30",
+      "address": "40.120.179.0/27",
       "systemService": "",
       "region": "australiaeast"
     },
@@ -276887,6 +274932,11 @@
     },
     {
       "address": "9.160.128.0/18",
+      "systemService": "",
+      "region": "belgiumcentral"
+    },
+    {
+      "address": "9.160.192.0/19",
       "systemService": "",
       "region": "belgiumcentral"
     },
@@ -280022,6 +278072,11 @@
     },
     {
       "address": "70.152.54.0/24",
+      "systemService": "",
+      "region": "centralindia"
+    },
+    {
+      "address": "70.152.221.0/24",
       "systemService": "",
       "region": "centralindia"
     },
@@ -284571,7 +282626,87 @@
       "region": "eastasia"
     },
     {
-      "address": "20.20.80.0/24",
+      "address": "20.20.80.0/29",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.8/30",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.12/31",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.16/29",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.24/30",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.30/31",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.32/30",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.36/31",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.40/29",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.48/28",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.64/26",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.128/26",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.192/28",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.208/30",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.212/31",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.220/30",
+      "systemService": "",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.20.80.224/27",
       "systemService": "",
       "region": "eastasia"
     },
@@ -286912,6 +285047,11 @@
     },
     {
       "address": "57.157.49.184/31",
+      "systemService": "",
+      "region": "eastus2euap"
+    },
+    {
+      "address": "57.157.50.0/30",
       "systemService": "",
       "region": "eastus2euap"
     },
@@ -290791,6 +288931,11 @@
       "region": "eastus2"
     },
     {
+      "address": "57.157.48.166/31",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
       "address": "57.157.48.168/31",
       "systemService": "",
       "region": "eastus2"
@@ -290896,22 +289041,27 @@
       "region": "eastus2"
     },
     {
-      "address": "57.157.49.192/27",
+      "address": "57.157.49.192/26",
       "systemService": "",
       "region": "eastus2"
     },
     {
-      "address": "57.157.49.224/28",
+      "address": "57.157.50.4/30",
       "systemService": "",
       "region": "eastus2"
     },
     {
-      "address": "57.157.49.240/29",
+      "address": "57.157.50.8/29",
       "systemService": "",
       "region": "eastus2"
     },
     {
-      "address": "57.157.49.248/31",
+      "address": "57.157.50.16/30",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "57.157.50.20/31",
       "systemService": "",
       "region": "eastus2"
     },
@@ -291707,6 +289857,11 @@
     },
     {
       "address": "57.157.24.160/28",
+      "systemService": "",
+      "region": "eastus3"
+    },
+    {
+      "address": "57.163.32.0/23",
       "systemService": "",
       "region": "eastus3"
     },
@@ -294276,12 +292431,12 @@
       "region": "eastus"
     },
     {
-      "address": "57.157.35.16/30",
+      "address": "57.157.35.16/29",
       "systemService": "",
       "region": "eastus"
     },
     {
-      "address": "57.157.35.20/31",
+      "address": "57.157.35.24/31",
       "systemService": "",
       "region": "eastus"
     },
@@ -294297,6 +292452,11 @@
     },
     {
       "address": "57.163.26.0/23",
+      "systemService": "",
+      "region": "eastus"
+    },
+    {
+      "address": "57.169.0.0/17",
       "systemService": "",
       "region": "eastus"
     },
@@ -301886,22 +300046,17 @@
       "region": "malaysiawest"
     },
     {
-      "address": "40.120.169.0/26",
+      "address": "40.120.169.0/25",
       "systemService": "",
       "region": "malaysiawest"
     },
     {
-      "address": "40.120.169.64/27",
+      "address": "40.120.169.128/27",
       "systemService": "",
       "region": "malaysiawest"
     },
     {
-      "address": "40.120.169.96/29",
-      "systemService": "",
-      "region": "malaysiawest"
-    },
-    {
-      "address": "40.120.169.104/30",
+      "address": "40.120.169.160/30",
       "systemService": "",
       "region": "malaysiawest"
     },
@@ -306831,7 +304986,12 @@
       "region": "polandcentral"
     },
     {
-      "address": "40.123.138.32/30",
+      "address": "40.123.138.32/29",
+      "systemService": "",
+      "region": "polandcentral"
+    },
+    {
+      "address": "40.123.138.40/31",
       "systemService": "",
       "region": "polandcentral"
     },
@@ -307122,6 +305282,11 @@
     },
     {
       "address": "20.231.143.0/24",
+      "systemService": "",
+      "region": "qatarcentral"
+    },
+    {
+      "address": "40.64.148.160/27",
       "systemService": "",
       "region": "qatarcentral"
     },
@@ -309426,6 +307591,11 @@
       "region": "southcentralus"
     },
     {
+      "address": "40.87.177.210/31",
+      "systemService": "",
+      "region": "southcentralus"
+    },
+    {
       "address": "40.87.177.212/30",
       "systemService": "",
       "region": "southcentralus"
@@ -310296,7 +308466,7 @@
       "region": "southcentralus"
     },
     {
-      "address": "57.157.76.224/30",
+      "address": "57.157.76.224/29",
       "systemService": "",
       "region": "southcentralus"
     },
@@ -312506,17 +310676,22 @@
       "region": "spaincentral"
     },
     {
-      "address": "40.120.146.0/27",
+      "address": "40.120.146.0/26",
       "systemService": "",
       "region": "spaincentral"
     },
     {
-      "address": "40.120.146.32/29",
+      "address": "40.120.146.64/28",
       "systemService": "",
       "region": "spaincentral"
     },
     {
-      "address": "40.120.146.40/31",
+      "address": "40.120.146.80/29",
+      "systemService": "",
+      "region": "spaincentral"
+    },
+    {
+      "address": "40.120.146.88/31",
       "systemService": "",
       "region": "spaincentral"
     },
@@ -313346,22 +311521,22 @@
       "region": "swedencentral"
     },
     {
-      "address": "57.157.69.64/28",
+      "address": "57.157.69.64/27",
       "systemService": "",
       "region": "swedencentral"
     },
     {
-      "address": "57.157.69.80/29",
+      "address": "57.157.69.96/28",
       "systemService": "",
       "region": "swedencentral"
     },
     {
-      "address": "57.157.69.88/30",
+      "address": "57.157.69.112/30",
       "systemService": "",
       "region": "swedencentral"
     },
     {
-      "address": "57.157.69.92/31",
+      "address": "57.157.69.116/31",
       "systemService": "",
       "region": "swedencentral"
     },
@@ -315011,6 +313186,11 @@
       "region": "taiwannorthwest"
     },
     {
+      "address": "57.170.0.0/17",
+      "systemService": "",
+      "region": "taiwannorthwest"
+    },
+    {
       "address": "70.152.229.0/24",
       "systemService": "",
       "region": "taiwannorthwest"
@@ -315307,6 +313487,16 @@
     },
     {
       "address": "70.152.31.0/24",
+      "systemService": "",
+      "region": "uaecentral"
+    },
+    {
+      "address": "70.152.216.0/24",
+      "systemService": "",
+      "region": "uaecentral"
+    },
+    {
+      "address": "70.152.218.0/24",
       "systemService": "",
       "region": "uaecentral"
     },
@@ -315817,6 +314007,11 @@
     },
     {
       "address": "70.152.32.0/24",
+      "systemService": "",
+      "region": "uaenorth"
+    },
+    {
+      "address": "70.152.214.0/24",
       "systemService": "",
       "region": "uaenorth"
     },
@@ -316731,7 +314926,7 @@
       "region": "uksouth"
     },
     {
-      "address": "57.157.40.88/31",
+      "address": "57.157.40.88/30",
       "systemService": "",
       "region": "uksouth"
     },
@@ -318031,7 +316226,12 @@
       "region": "westcentralus"
     },
     {
-      "address": "57.157.81.112/31",
+      "address": "57.157.81.112/30",
+      "systemService": "",
+      "region": "westcentralus"
+    },
+    {
+      "address": "57.157.81.116/31",
       "systemService": "",
       "region": "westcentralus"
     },
@@ -319731,11 +317931,6 @@
       "region": "westeurope"
     },
     {
-      "address": "52.112.98.0/23",
-      "systemService": "",
-      "region": "westeurope"
-    },
-    {
       "address": "52.112.102.0/24",
       "systemService": "",
       "region": "westeurope"
@@ -320141,27 +318336,22 @@
       "region": "westeurope"
     },
     {
-      "address": "57.157.56.0/25",
+      "address": "57.157.56.0/24",
       "systemService": "",
       "region": "westeurope"
     },
     {
-      "address": "57.157.56.128/26",
+      "address": "57.157.57.0/28",
       "systemService": "",
       "region": "westeurope"
     },
     {
-      "address": "57.157.56.192/27",
+      "address": "57.157.57.16/30",
       "systemService": "",
       "region": "westeurope"
     },
     {
-      "address": "57.157.56.224/28",
-      "systemService": "",
-      "region": "westeurope"
-    },
-    {
-      "address": "57.157.56.240/31",
+      "address": "57.168.0.0/17",
       "systemService": "",
       "region": "westeurope"
     },
@@ -322266,27 +320456,12 @@
       "region": "westus2"
     },
     {
-      "address": "57.157.72.0/25",
+      "address": "57.157.72.0/24",
       "systemService": "",
       "region": "westus2"
     },
     {
-      "address": "57.157.72.128/26",
-      "systemService": "",
-      "region": "westus2"
-    },
-    {
-      "address": "57.157.72.192/27",
-      "systemService": "",
-      "region": "westus2"
-    },
-    {
-      "address": "57.157.72.224/28",
-      "systemService": "",
-      "region": "westus2"
-    },
-    {
-      "address": "57.157.72.240/31",
+      "address": "57.157.73.0/27",
       "systemService": "",
       "region": "westus2"
     },
@@ -323426,12 +321601,7 @@
       "region": "westus3"
     },
     {
-      "address": "57.157.129.160/29",
-      "systemService": "",
-      "region": "westus3"
-    },
-    {
-      "address": "57.157.129.168/31",
+      "address": "57.157.129.160/28",
       "systemService": "",
       "region": "westus3"
     },
@@ -323517,6 +321687,11 @@
     },
     {
       "address": "145.190.62.0/24",
+      "systemService": "",
+      "region": "westus3"
+    },
+    {
+      "address": "145.190.172.0/24",
       "systemService": "",
       "region": "westus3"
     },
@@ -323681,12 +321856,22 @@
       "region": "westus"
     },
     {
-      "address": "20.20.95.0/26",
+      "address": "20.20.95.0/25",
       "systemService": "",
       "region": "westus"
     },
     {
-      "address": "20.20.95.64/27",
+      "address": "20.20.95.128/29",
+      "systemService": "",
+      "region": "westus"
+    },
+    {
+      "address": "20.20.95.136/30",
+      "systemService": "",
+      "region": "westus"
+    },
+    {
+      "address": "20.20.95.140/31",
       "systemService": "",
       "region": "westus"
     },
@@ -326407,6 +324592,11 @@
     },
     {
       "address": "9.160.128.0/18",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "9.160.192.0/19",
       "systemService": "",
       "region": ""
     },
@@ -329176,7 +327366,87 @@
       "region": ""
     },
     {
-      "address": "20.20.80.0/24",
+      "address": "20.20.80.0/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.8/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.12/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.16/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.24/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.30/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.32/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.36/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.40/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.48/28",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.64/26",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.128/26",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.192/28",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.208/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.212/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.220/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.80.224/27",
       "systemService": "",
       "region": ""
     },
@@ -329251,12 +327521,22 @@
       "region": ""
     },
     {
-      "address": "20.20.95.0/26",
+      "address": "20.20.95.0/25",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "20.20.95.64/27",
+      "address": "20.20.95.128/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.95.136/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.20.95.140/31",
       "systemService": "",
       "region": ""
     },
@@ -343306,6 +341586,11 @@
       "region": ""
     },
     {
+      "address": "40.64.148.160/27",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "40.64.148.192/27",
       "systemService": "",
       "region": ""
@@ -346512,6 +344797,11 @@
     },
     {
       "address": "40.87.177.208/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "40.87.177.210/31",
       "systemService": "",
       "region": ""
     },
@@ -350861,17 +349151,22 @@
       "region": ""
     },
     {
-      "address": "40.120.146.0/27",
+      "address": "40.120.146.0/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.146.32/29",
+      "address": "40.120.146.64/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.146.40/31",
+      "address": "40.120.146.80/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "40.120.146.88/31",
       "systemService": "",
       "region": ""
     },
@@ -351761,22 +350056,17 @@
       "region": ""
     },
     {
-      "address": "40.120.169.0/26",
+      "address": "40.120.169.0/25",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.169.64/27",
+      "address": "40.120.169.128/27",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "40.120.169.96/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.169.104/30",
+      "address": "40.120.169.160/30",
       "systemService": "",
       "region": ""
     },
@@ -351806,17 +350096,7 @@
       "region": ""
     },
     {
-      "address": "40.120.179.0/28",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.179.16/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.179.24/30",
+      "address": "40.120.179.0/27",
       "systemService": "",
       "region": ""
     },
@@ -351926,7 +350206,12 @@
       "region": ""
     },
     {
-      "address": "40.123.138.32/30",
+      "address": "40.123.138.32/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "40.123.138.40/31",
       "systemService": "",
       "region": ""
     },
@@ -362111,11 +360396,6 @@
       "region": ""
     },
     {
-      "address": "52.112.98.0/23",
-      "systemService": "",
-      "region": ""
-    },
-    {
       "address": "52.112.100.0/24",
       "systemService": "",
       "region": ""
@@ -369881,12 +368161,12 @@
       "region": ""
     },
     {
-      "address": "57.157.35.16/30",
+      "address": "57.157.35.16/29",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.35.20/31",
+      "address": "57.157.35.24/31",
       "systemService": "",
       "region": ""
     },
@@ -369931,7 +368211,7 @@
       "region": ""
     },
     {
-      "address": "57.157.40.88/31",
+      "address": "57.157.40.88/30",
       "systemService": "",
       "region": ""
     },
@@ -370057,6 +368337,11 @@
     },
     {
       "address": "57.157.48.164/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.48.166/31",
       "systemService": "",
       "region": ""
     },
@@ -370201,47 +368486,47 @@
       "region": ""
     },
     {
-      "address": "57.157.49.192/27",
+      "address": "57.157.49.192/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.49.224/28",
+      "address": "57.157.50.0/30",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.49.240/29",
+      "address": "57.157.50.4/30",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.49.248/31",
+      "address": "57.157.50.8/29",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.56.0/25",
+      "address": "57.157.50.16/30",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.56.128/26",
+      "address": "57.157.50.20/31",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.56.192/27",
+      "address": "57.157.56.0/24",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.56.224/28",
+      "address": "57.157.57.0/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.56.240/31",
+      "address": "57.157.57.16/30",
       "systemService": "",
       "region": ""
     },
@@ -370291,47 +368576,32 @@
       "region": ""
     },
     {
-      "address": "57.157.69.64/28",
+      "address": "57.157.69.64/27",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.69.80/29",
+      "address": "57.157.69.96/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.69.88/30",
+      "address": "57.157.69.112/30",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.69.92/31",
+      "address": "57.157.69.116/31",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.72.0/25",
+      "address": "57.157.72.0/24",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.72.128/26",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.72.192/27",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.72.224/28",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.72.240/31",
+      "address": "57.157.73.0/27",
       "systemService": "",
       "region": ""
     },
@@ -370351,7 +368621,7 @@
       "region": ""
     },
     {
-      "address": "57.157.76.224/30",
+      "address": "57.157.76.224/29",
       "systemService": "",
       "region": ""
     },
@@ -370376,7 +368646,12 @@
       "region": ""
     },
     {
-      "address": "57.157.81.112/31",
+      "address": "57.157.81.112/30",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.81.116/31",
       "systemService": "",
       "region": ""
     },
@@ -370416,7 +368691,17 @@
       "region": ""
     },
     {
-      "address": "57.157.96.160/30",
+      "address": "57.157.96.160/28",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.96.176/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.96.184/30",
       "systemService": "",
       "region": ""
     },
@@ -370441,37 +368726,27 @@
       "region": ""
     },
     {
-      "address": "57.157.120.0/27",
+      "address": "57.157.120.0/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.120.32/28",
+      "address": "57.157.120.64/29",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.120.48/29",
+      "address": "57.157.124.0/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.124.0/27",
+      "address": "57.157.124.64/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.124.32/28",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.124.48/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.124.56/30",
+      "address": "57.157.124.80/29",
       "systemService": "",
       "region": ""
     },
@@ -370491,12 +368766,7 @@
       "region": ""
     },
     {
-      "address": "57.157.129.160/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.129.168/31",
+      "address": "57.157.129.160/28",
       "systemService": "",
       "region": ""
     },
@@ -370616,6 +368886,11 @@
       "region": ""
     },
     {
+      "address": "57.163.32.0/23",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "57.165.0.0/17",
       "systemService": "",
       "region": ""
@@ -370642,6 +368917,21 @@
     },
     {
       "address": "57.167.128.0/17",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.168.0.0/17",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.169.0.0/17",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.170.0.0/17",
       "systemService": "",
       "region": ""
     },
@@ -371731,12 +370021,27 @@
       "region": ""
     },
     {
+      "address": "70.152.214.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "70.152.215.0/24",
       "systemService": "",
       "region": ""
     },
     {
+      "address": "70.152.216.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "70.152.217.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "70.152.218.0/24",
       "systemService": "",
       "region": ""
     },
@@ -371747,6 +370052,11 @@
     },
     {
       "address": "70.152.220.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "70.152.221.0/24",
       "systemService": "",
       "region": ""
     },
@@ -375132,6 +373442,11 @@
     },
     {
       "address": "145.190.171.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "145.190.172.0/24",
       "systemService": "",
       "region": ""
     },
@@ -463433,6 +461748,21 @@
       "region": ""
     },
     {
+      "address": "2603:1030:210:33::4c8/125",
+      "systemService": "M365ManagementActivityApi",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:210:33::4d0/126",
+      "systemService": "M365ManagementActivityApi",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:210:33::4d8/125",
+      "systemService": "M365ManagementActivityApi",
+      "region": ""
+    },
+    {
       "address": "2603:1030:40c:b::2a0/126",
       "systemService": "M365ManagementActivityApi",
       "region": ""
@@ -464029,6 +462359,16 @@
     },
     {
       "address": "2603:1030:210:2e::380/125",
+      "systemService": "M365ManagementActivityApiWebhook",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:210:33::4f0/124",
+      "systemService": "M365ManagementActivityApiWebhook",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:210:33::560/126",
       "systemService": "M365ManagementActivityApiWebhook",
       "region": ""
     },
@@ -519748,6 +518088,16 @@
       "region": "eastus2euap"
     },
     {
+      "address": "2603:1030:401:ae9::/64",
+      "systemService": "",
+      "region": "eastus2euap"
+    },
+    {
+      "address": "2603:1030:401:aea::/64",
+      "systemService": "",
+      "region": "eastus2euap"
+    },
+    {
       "address": "2603:1030:405::/48",
       "systemService": "",
       "region": "eastus2euap"
@@ -520068,22 +518418,7 @@
       "region": "eastus2"
     },
     {
-      "address": "2603:1030:401:90::/63",
-      "systemService": "",
-      "region": "eastus2"
-    },
-    {
-      "address": "2603:1030:401:92::/64",
-      "systemService": "",
-      "region": "eastus2"
-    },
-    {
-      "address": "2603:1030:401:94::/62",
-      "systemService": "",
-      "region": "eastus2"
-    },
-    {
-      "address": "2603:1030:401:98::/61",
+      "address": "2603:1030:401:90::/60",
       "systemService": "",
       "region": "eastus2"
     },
@@ -521673,12 +520008,27 @@
       "region": "eastus2"
     },
     {
-      "address": "2603:1030:401:ae0::/62",
+      "address": "2603:1030:401:ae0::/61",
       "systemService": "",
       "region": "eastus2"
     },
     {
-      "address": "2603:1030:401:ae4::/63",
+      "address": "2603:1030:401:ae8::/64",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "2603:1030:401:aeb::/64",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "2603:1030:401:aec::/62",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
+      "address": "2603:1030:401:af0::/62",
       "systemService": "",
       "region": "eastus2"
     },
@@ -525148,22 +523498,17 @@
       "region": "malaysiawest"
     },
     {
-      "address": "2603:1061:100d:80::/59",
+      "address": "2603:1061:100d:80::/58",
       "systemService": "",
       "region": "malaysiawest"
     },
     {
-      "address": "2603:1061:100d:a0::/61",
+      "address": "2603:1061:100d:c0::/61",
       "systemService": "",
       "region": "malaysiawest"
     },
     {
-      "address": "2603:1061:100d:a8::/62",
-      "systemService": "",
-      "region": "malaysiawest"
-    },
-    {
-      "address": "2603:1061:100d:ac::/63",
+      "address": "2603:1061:100d:c8::/63",
       "systemService": "",
       "region": "malaysiawest"
     },
@@ -526533,7 +524878,12 @@
       "region": "polandcentral"
     },
     {
-      "address": "2603:1061:1006:108::/63",
+      "address": "2603:1061:1006:108::/62",
+      "systemService": "",
+      "region": "polandcentral"
+    },
+    {
+      "address": "2603:1061:1006:10c::/64",
       "systemService": "",
       "region": "polandcentral"
     },
@@ -527608,6 +525958,11 @@
       "region": "southcentralus"
     },
     {
+      "address": "2603:1030:804:d1::/64",
+      "systemService": "",
+      "region": "southcentralus"
+    },
+    {
       "address": "2603:1030:804:d2::/63",
       "systemService": "",
       "region": "southcentralus"
@@ -527958,12 +526313,12 @@
       "region": "southcentralus"
     },
     {
-      "address": "2603:1030:804:660::/63",
+      "address": "2603:1030:804:660::/62",
       "systemService": "",
       "region": "southcentralus"
     },
     {
-      "address": "2603:1030:804:662::/64",
+      "address": "2603:1030:804:664::/64",
       "systemService": "",
       "region": "southcentralus"
     },
@@ -528893,17 +527248,17 @@
       "region": "spaincentral"
     },
     {
-      "address": "2603:1061:1008:100::/61",
+      "address": "2603:1061:1008:100::/59",
       "systemService": "",
       "region": "spaincentral"
     },
     {
-      "address": "2603:1061:1008:108::/62",
+      "address": "2603:1061:1008:120::/62",
       "systemService": "",
       "region": "spaincentral"
     },
     {
-      "address": "2603:1061:1008:10c::/64",
+      "address": "2603:1061:1008:124::/64",
       "systemService": "",
       "region": "spaincentral"
     },
@@ -535533,22 +533888,7 @@
       "region": ""
     },
     {
-      "address": "2603:1030:401:90::/63",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1030:401:92::/64",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1030:401:94::/62",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1030:401:98::/61",
+      "address": "2603:1030:401:90::/60",
       "systemService": "",
       "region": ""
     },
@@ -537958,12 +536298,37 @@
       "region": ""
     },
     {
-      "address": "2603:1030:401:ae0::/62",
+      "address": "2603:1030:401:ae0::/61",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1030:401:ae4::/63",
+      "address": "2603:1030:401:ae8::/64",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:401:ae9::/64",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:401:aea::/64",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:401:aeb::/64",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:401:aec::/62",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:401:af0::/62",
       "systemService": "",
       "region": ""
     },
@@ -538319,6 +536684,11 @@
     },
     {
       "address": "2603:1030:804:d0::/64",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:804:d1::/64",
       "systemService": "",
       "region": ""
     },
@@ -538738,12 +537108,12 @@
       "region": ""
     },
     {
-      "address": "2603:1030:804:660::/63",
+      "address": "2603:1030:804:660::/62",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1030:804:662::/64",
+      "address": "2603:1030:804:664::/64",
       "systemService": "",
       "region": ""
     },
@@ -541408,7 +539778,12 @@
       "region": ""
     },
     {
-      "address": "2603:1061:1006:108::/63",
+      "address": "2603:1061:1006:108::/62",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1061:1006:10c::/64",
       "systemService": "",
       "region": ""
     },
@@ -541478,17 +539853,17 @@
       "region": ""
     },
     {
-      "address": "2603:1061:1008:100::/61",
+      "address": "2603:1061:1008:100::/59",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:1008:108::/62",
+      "address": "2603:1061:1008:120::/62",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:1008:10c::/64",
+      "address": "2603:1061:1008:124::/64",
       "systemService": "",
       "region": ""
     },
@@ -541583,22 +539958,17 @@
       "region": ""
     },
     {
-      "address": "2603:1061:100d:80::/59",
+      "address": "2603:1061:100d:80::/58",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:100d:a0::/61",
+      "address": "2603:1061:100d:c0::/61",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:100d:a8::/62",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "2603:1061:100d:ac::/63",
+      "address": "2603:1061:100d:c8::/63",
       "systemService": "",
       "region": ""
     },
@@ -541858,12 +540228,12 @@
       "region": ""
     },
     {
-      "address": "2603:1061:101c:40::/61",
+      "address": "2603:1061:101c:40::/60",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101c:48::/62",
+      "address": "2603:1061:101c:50::/61",
       "systemService": "",
       "region": ""
     },
@@ -541893,32 +540263,32 @@
       "region": ""
     },
     {
-      "address": "2603:1061:101e:10::/62",
+      "address": "2603:1061:101e:10::/61",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101e:14::/64",
+      "address": "2603:1061:101e:18::/62",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101f::/60",
+      "address": "2603:1061:101e:1c::/63",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101f:10::/62",
+      "address": "2603:1061:101f::/59",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101f:14::/63",
+      "address": "2603:1061:101f:20::/62",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101f:16::/64",
+      "address": "2603:1061:101f:24::/63",
       "systemService": "",
       "region": ""
     },
