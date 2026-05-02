@@ -3,14 +3,14 @@
   "provider_id": "google-bot",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-01T02:52:14.131400",
-  "source_updated_at": "2026-04-30T18:40:21.000000",
+  "generated_at": "2026-05-02T02:34:01.397301",
+  "source_updated_at": "2026-05-01T14:46:51.000000",
   "source": [
     "https://developers.google.com/static/search/apis/ipranges/googlebot.json",
     "https://developers.google.com/search/apis/ipranges/special-crawlers.json",
     "https://developers.google.com/search/apis/ipranges/user-triggered-fetchers.json"
   ],
-  "last_update": "2026-04-30T18:40:21.000000",
+  "last_update": "2026-05-01T14:46:51.000000",
   "ipv4": [
     "107.178.192.0/27",
     "107.178.192.128/27",
@@ -331,6 +331,9 @@
     "34.127.132.96/27",
     "34.127.133.0/27",
     "34.127.133.128/27",
+    "34.127.133.160/27",
+    "34.127.133.192/27",
+    "34.127.133.224/27",
     "34.127.133.32/27",
     "34.127.133.64/27",
     "34.127.133.96/27",
@@ -1466,6 +1469,9 @@
     "2600:1900:0:3d2::/64",
     "2600:1900:0:3d3::/64",
     "2600:1900:0:3d4::/64",
+    "2600:1900:0:3d5::/64",
+    "2600:1900:0:3d6::/64",
+    "2600:1900:0:3d7::/64",
     "2600:1900:0:40::/64",
     "2600:1900:0:41::/64",
     "2600:1900:0:42::/64",
@@ -4439,6 +4445,21 @@
     },
     {
       "address": "34.127.133.128/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "34.127.133.160/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "34.127.133.192/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "34.127.133.224/27",
       "service": null,
       "scope": null
     },
@@ -8890,6 +8911,21 @@
       "scope": null
     },
     {
+      "address": "2600:1900:0:3d5::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:3d6::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:3d7::/64",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "2600:1900:0:40::/64",
       "service": null,
       "scope": null
@@ -9691,7 +9727,7 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Thu, 30 Apr 2026 18:41:01 GMT"
+      "last_modified": "Fri, 01 May 2026 14:47:25 GMT"
     },
     {
       "url": "https://developers.google.com/search/apis/ipranges/special-crawlers.json",
@@ -9705,7 +9741,7 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Thu, 30 Apr 2026 18:41:01 GMT"
+      "last_modified": "Fri, 01 May 2026 14:47:25 GMT"
     }
   ]
 }

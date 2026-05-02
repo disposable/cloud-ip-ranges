@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-01T02:52:12.280294",
-  "source_updated_at": "2026-04-30-19-17-06",
+  "generated_at": "2026-05-02T02:33:59.064437",
+  "source_updated_at": "2026-05-01-15-07-06",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-04-30-19-17-06",
+  "last_update": "2026-05-01-15-07-06",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -51645,12 +51645,6 @@
       "service": "GLOBALACCELERATOR",
       "region": "GLOBAL",
       "network_border_group": "GLOBAL"
-    },
-    {
-      "address": "13.248.106.0/24",
-      "service": "GLOBALACCELERATOR",
-      "region": "me-south-1",
-      "network_border_group": "me-south-1"
     },
     {
       "address": "13.248.99.0/24",

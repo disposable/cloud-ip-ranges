@@ -3,13 +3,13 @@
   "provider_id": "ucloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-04-30T02:46:50.955216",
+  "generated_at": "2026-05-02T02:34:46.509523",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS135377",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS59077"
   ],
-  "last_update": "2026-04-30T02:46:50.955216",
+  "last_update": "2026-05-02T02:34:46.509523",
   "ipv4": [
     "101.237.247.0/24",
     "101.237.248.0/24",
@@ -731,11 +731,11 @@
     "2404:82c0:43::/48",
     "2404:82c0:44::/48",
     "2404:82c0:45::/48",
-    "2404:82c0:49::/48",
     "2404:82c0:4a::/48",
     "2404:82c0:4c::/48",
     "2404:82c0:4e::/48",
-    "2404:82c0::/42"
+    "2404:82c0::/42",
+    "2404:82c0:49::/48"
   ],
   "source_http": [
     {
@@ -751,6 +751,12 @@
       "content_type": "application/json; charset=utf-8",
       "etag": null,
       "last_modified": null
+    }
+  ],
+  "details_ipv6": [
+    {
+      "address": "2404:82c0:49::/48",
+      "retired_at": "2026-05-02T02:37:09.794204+00:00"
     }
   ]
 }

@@ -3,14 +3,14 @@
   "provider_id": "google-bot",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-01T02:52:14.131400",
-  "source_updated_at": "2026-04-30T18:40:21.000000",
+  "generated_at": "2026-05-02T02:34:01.397301",
+  "source_updated_at": "2026-05-01T14:46:51.000000",
   "source": [
     "https://developers.google.com/static/search/apis/ipranges/googlebot.json",
     "https://developers.google.com/search/apis/ipranges/special-crawlers.json",
     "https://developers.google.com/search/apis/ipranges/user-triggered-fetchers.json"
   ],
-  "last_update": "2026-04-30T18:40:21.000000",
+  "last_update": "2026-05-01T14:46:51.000000",
   "ipv4": [
     {
       "address": "192.178.4.0/27",
@@ -2824,6 +2824,21 @@
     },
     {
       "address": "34.127.133.128/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "34.127.133.160/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "34.127.133.192/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "34.127.133.224/27",
       "service": null,
       "scope": null
     },
@@ -7271,6 +7286,21 @@
     },
     {
       "address": "2600:1900:0:3d4::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:3d5::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:3d6::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:3d7::/64",
       "service": null,
       "scope": null
     },
