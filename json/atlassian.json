@@ -3,12 +3,12 @@
   "provider_id": "atlassian",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-04T02:42:23.489280",
-  "source_updated_at": "2026-04-23T22:27:38.526318",
+  "generated_at": "2026-05-07T02:42:44.724520",
+  "source_updated_at": "2026-05-06T07:31:36.290866",
   "source": [
     "https://ip-ranges.atlassian.com/"
   ],
-  "last_update": "2026-05-04T02:42:23.489280",
+  "last_update": "2026-05-07T02:42:44.724520",
   "ipv4": [
     "104.192.136.0/21",
     "104.192.136.0/24",
@@ -244,6 +244,9 @@
     "2401:1d80:3230:2::/64",
     "2401:1d80:3230:4::/64",
     "2401:1d80:3230::/64",
+    "2401:1d80:32fd::/48",
+    "2401:1d80:32fe::/48",
+    "2401:1d80:32ff::/48",
     "2406:da18:809:e04::/64",
     "2406:da18:809:e05::/64",
     "2406:da18:809:e06::/64",
@@ -272,18 +275,18 @@
       "url": "https://ip-ranges.atlassian.com/",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"32f7286ec14ac24824fc6b7cb548f48a\"",
-      "last_modified": "Thu, 23 Apr 2026 22:29:30 GMT"
+      "etag": "\"fcf1a06e16ba7f0d5d340d60bbaff01b\"",
+      "last_modified": "Wed, 06 May 2026 07:39:55 GMT"
     }
   ],
   "details_ipv6": [
     {
       "address": "2401:1d80:3220:2::/64",
-      "retired_at": "2026-05-04T02:44:46.023322+00:00"
+      "retired_at": "2026-05-07T02:46:32.184837+00:00"
     },
     {
       "address": "2401:1d80:3220:3::/64",
-      "retired_at": "2026-05-04T02:44:46.023322+00:00"
+      "retired_at": "2026-05-07T02:46:32.184837+00:00"
     }
   ]
 }

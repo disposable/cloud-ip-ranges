@@ -3,14 +3,14 @@
   "provider_id": "google-bot",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-02T02:34:01.397301",
-  "source_updated_at": "2026-05-01T14:46:51.000000",
+  "generated_at": "2026-05-07T02:42:30.669416",
+  "source_updated_at": "2026-05-06T14:45:39.000000",
   "source": [
     "https://developers.google.com/static/search/apis/ipranges/googlebot.json",
     "https://developers.google.com/search/apis/ipranges/special-crawlers.json",
     "https://developers.google.com/search/apis/ipranges/user-triggered-fetchers.json"
   ],
-  "last_update": "2026-05-01T14:46:51.000000",
+  "last_update": "2026-05-06T14:45:39.000000",
   "ipv4": [
     "107.178.192.0/27",
     "107.178.192.128/27",
@@ -605,6 +605,7 @@
     "35.243.23.224/27",
     "35.243.23.32/27",
     "35.243.23.64/27",
+    "35.243.23.96/27",
     "35.247.243.240/28",
     "66.249.64.0/27",
     "66.249.64.128/27",
@@ -671,6 +672,7 @@
     "66.249.72.224/27",
     "66.249.72.32/27",
     "66.249.72.64/27",
+    "66.249.72.96/27",
     "66.249.73.0/27",
     "66.249.73.128/27",
     "66.249.73.160/27",
@@ -835,6 +837,7 @@
   ],
   "ipv6": [
     "2001:4860:4801:10::/64",
+    "2001:4860:4801:11::/64",
     "2001:4860:4801:12::/64",
     "2001:4860:4801:13::/64",
     "2001:4860:4801:14::/64",
@@ -1216,6 +1219,7 @@
     "2600:1900:0:173::/64",
     "2600:1900:0:17::/64",
     "2600:1900:0:180::/64",
+    "2600:1900:0:181::/64",
     "2600:1900:0:182::/64",
     "2600:1900:0:183::/64",
     "2600:1900:0:184::/64",
@@ -2195,6 +2199,11 @@
     },
     {
       "address": "66.249.72.64/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "66.249.72.96/27",
       "service": null,
       "scope": null
     },
@@ -5732,11 +5741,21 @@
       "address": "35.243.23.64/27",
       "service": null,
       "scope": null
+    },
+    {
+      "address": "35.243.23.96/27",
+      "service": null,
+      "scope": null
     }
   ],
   "details_ipv6": [
     {
       "address": "2001:4860:4801:10::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2001:4860:4801:11::/64",
       "service": null,
       "scope": null
     },
@@ -7642,6 +7661,11 @@
     },
     {
       "address": "2600:1900:0:180::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:181::/64",
       "service": null,
       "scope": null
     },
@@ -9727,21 +9751,21 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Fri, 01 May 2026 14:47:25 GMT"
+      "last_modified": "Wed, 06 May 2026 14:46:07 GMT"
     },
     {
       "url": "https://developers.google.com/search/apis/ipranges/special-crawlers.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Thu, 30 Apr 2026 18:40:48 GMT"
+      "last_modified": "Wed, 06 May 2026 14:46:02 GMT"
     },
     {
       "url": "https://developers.google.com/search/apis/ipranges/user-triggered-fetchers.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Fri, 01 May 2026 14:47:25 GMT"
+      "last_modified": "Wed, 06 May 2026 14:46:10 GMT"
     }
   ]
 }

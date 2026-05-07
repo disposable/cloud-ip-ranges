@@ -1,6 +1,6 @@
 # provider: Huawei Cloud
 # source: RADB::AS-HUAWEI, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS131444, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136907, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS141180, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS206204, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS206798, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS265443, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS55990
-# last_update: 2026-05-04T02:42:52.656902
+# last_update: 2026-05-07T02:43:25.746873
 
 1.178.32.0/20
 1.178.48.0/20
@@ -478,8 +478,6 @@
 121.37.56.0/21
 121.37.62.0/24
 121.37.64.0/18
-121.71.0.0/24
-121.71.255.0/24
 121.91.152.0/21
 121.91.168.0/21
 121.91.200.0/21
@@ -574,10 +572,6 @@
 139.9.96.0/23
 139.9.98.0/24
 139.9.99.0/24
-14.130.0.0/24
-14.130.255.0/24
-14.131.0.0/24
-14.131.255.0/24
 14.137.132.0/22
 14.137.136.0/22
 14.137.140.0/22
@@ -1069,6 +1063,12 @@
 2801:80:e0::/48
 116.218.148.0/22
 116.218.144.0/22
+14.130.255.0/24
+14.131.255.0/24
+121.71.255.0/24
+121.71.0.0/24
+14.131.0.0/24
+14.130.0.0/24
 119.13.169.0/24
 182.160.57.0/24
 182.160.58.0/24
