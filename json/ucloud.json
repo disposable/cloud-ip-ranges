@@ -3,13 +3,13 @@
   "provider_id": "ucloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-05-07T02:43:23.699650",
+  "generated_at": "2026-05-08T02:47:37.640108",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS135377",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS59077"
   ],
-  "last_update": "2026-05-07T02:43:23.699650",
+  "last_update": "2026-05-08T02:47:37.640108",
   "ipv4": [
     "101.237.247.0/24",
     "101.237.248.0/24",
@@ -267,6 +267,7 @@
     "128.14.237.0/24",
     "128.14.239.0/24",
     "129.227.143.0/24",
+    "134.168.246.0/24",
     "150.107.36.0/24",
     "150.107.37.0/24",
     "150.107.38.0/24",
@@ -756,7 +757,7 @@
   "details_ipv6": [
     {
       "address": "2404:82c0:49::/48",
-      "retired_at": "2026-05-07T02:46:32.184837+00:00"
+      "retired_at": "2026-05-08T02:51:07.617472+00:00"
     }
   ]
 }
