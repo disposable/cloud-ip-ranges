@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-08T02:46:39.392307",
-  "source_updated_at": "2026-05-07-23-27-06",
+  "generated_at": "2026-05-09T02:41:09.611234",
+  "source_updated_at": "2026-05-08-19-37-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-05-07-23-27-06",
+  "last_update": "2026-05-08-19-37-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -1056,6 +1056,8 @@
     "15.190.144.0/20",
     "15.190.16.0/20",
     "15.190.160.0/20",
+    "15.190.176.0/20",
+    "15.190.224.0/22",
     "15.190.232.0/22",
     "15.190.236.0/22",
     "15.190.240.0/22",
@@ -2535,6 +2537,7 @@
     "16.171.80.0/22",
     "16.174.0.0/16",
     "16.174.54.0/23",
+    "16.174.56.0/22",
     "16.175.0.0/16",
     "16.176.0.0/16",
     "16.176.35.128/25",
@@ -2566,6 +2569,7 @@
     "16.206.0.0/16",
     "16.207.0.0/16",
     "16.208.0.0/16",
+    "16.208.44.0/22",
     "16.209.0.0/16",
     "16.214.0.0/22",
     "16.214.16.0/22",
@@ -3387,12 +3391,14 @@
     "23.228.223.0/24",
     "23.228.228.0/22",
     "23.228.244.0/24",
+    "23.228.247.0/24",
     "23.234.192.0/18",
     "23.238.128.0/17",
     "23.254.0.0/21",
     "23.254.120.0/21",
     "23.254.16.0/21",
     "23.254.24.0/23",
+    "23.254.32.0/21",
     "23.254.8.0/21",
     "23.91.0.0/19",
     "24.110.0.0/21",
@@ -5033,6 +5039,7 @@
     "46.137.128.0/18",
     "46.137.192.0/19",
     "46.137.224.0/19",
+    "46.168.0.0/15",
     "46.51.128.0/18",
     "46.51.192.0/20",
     "46.51.208.0/22",
@@ -8363,7 +8370,7 @@
     "2600:1f00:a400::/40",
     "2600:1f00:c000::/40",
     "2600:1f00:e000::/40",
-    "2600:1f00:ec00::/64",
+    "2600:1f00:ec00::/40",
     "2600:1f01:4800::/47",
     "2600:1f01:4802::/47",
     "2600:1f01:4804::/47",
@@ -8819,6 +8826,7 @@
     "2600:1ff6:1000::/40",
     "2600:1ff6:2000::/40",
     "2600:1ff6:4000::/39",
+    "2600:1ff6:4000::/48",
     "2600:1ff6:5000::/40",
     "2600:1ff6:6000::/40",
     "2600:1ff6:7400::/40",
@@ -10351,10 +10359,11 @@
     "2a05:d07f:c000::/40",
     "2a05:d07f:e000::/40",
     "2a05:d07f:f000::/40",
+    "2606:7b40:3000::/54",
     "2600:f0f1:14::/48",
     "2600:f0f1:15::/48",
-    "2606:7b40:3000::/54",
     "2600:f0f1:90::/44",
+    "2600:1f00:ec00::/64",
     "2a05:d01c::/36"
   ],
   "details_ipv4": [
@@ -20289,6 +20298,12 @@
       "network_border_group": "ap-southeast-4"
     },
     {
+      "address": "23.254.32.0/21",
+      "service": "EC2",
+      "region": "us-south-1",
+      "network_border_group": "us-south-1"
+    },
+    {
       "address": "43.216.0.0/15",
       "service": "EC2",
       "region": "ap-southeast-5",
@@ -29877,6 +29892,12 @@
       "network_border_group": "me-west-1"
     },
     {
+      "address": "15.190.176.0/20",
+      "service": "AMAZON",
+      "region": "us-south-1",
+      "network_border_group": "us-south-1"
+    },
+    {
       "address": "15.230.246.0/24",
       "service": "AMAZON",
       "region": "ap-south-2",
@@ -29905,6 +29926,12 @@
       "service": "EC2",
       "region": "eu-central-2",
       "network_border_group": "eu-central-2"
+    },
+    {
+      "address": "23.228.247.0/24",
+      "service": "EC2",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
     },
     {
       "address": "31.220.252.0/24",
@@ -31335,6 +31362,12 @@
       "network_border_group": "ap-southeast-4"
     },
     {
+      "address": "46.168.0.0/15",
+      "service": "EC2",
+      "region": "us-south-1",
+      "network_border_group": "us-south-1"
+    },
+    {
       "address": "51.0.112.0/21",
       "service": "EC2",
       "region": "GLOBAL",
@@ -31651,6 +31684,12 @@
       "service": "ROUTE53_HEALTHCHECKS_PUBLISHING",
       "region": "eu-west-2",
       "network_border_group": "eu-west-2"
+    },
+    {
+      "address": "15.190.224.0/22",
+      "service": "AMAZON",
+      "region": "us-south-1",
+      "network_border_group": "us-south-1"
     },
     {
       "address": "15.193.0.0/24",
@@ -46575,6 +46614,12 @@
       "network_border_group": "ap-northeast-2"
     },
     {
+      "address": "16.208.44.0/22",
+      "service": "WORKSPACES_GATEWAYS",
+      "region": "ap-northeast-3",
+      "network_border_group": "ap-northeast-3"
+    },
+    {
       "address": "13.126.243.0/24",
       "service": "WORKSPACES_GATEWAYS",
       "region": "ap-south-1",
@@ -46663,6 +46708,12 @@
       "service": "WORKSPACES_GATEWAYS",
       "region": "ca-central-1",
       "network_border_group": "ca-central-1"
+    },
+    {
+      "address": "16.174.56.0/22",
+      "service": "WORKSPACES_GATEWAYS",
+      "region": "ca-west-1",
+      "network_border_group": "ca-west-1"
     },
     {
       "address": "18.156.52.0/24",
@@ -55948,11 +55999,11 @@
     },
     {
       "address": "13.248.106.0/24",
-      "retired_at": "2026-05-08T02:51:07.617472+00:00"
+      "retired_at": "2026-05-09T02:44:46.559737+00:00"
     },
     {
       "address": "99.78.220.0/22",
-      "retired_at": "2026-05-08T02:51:07.617472+00:00"
+      "retired_at": "2026-05-09T02:44:46.559737+00:00"
     }
   ],
   "details_ipv6": [
@@ -60805,6 +60856,12 @@
       "network_border_group": "cn-northwest-1"
     },
     {
+      "address": "2600:1f00:ec00::/40",
+      "service": "EC2",
+      "region": "sa-west-1",
+      "network_border_group": "sa-west-1"
+    },
+    {
       "address": "2600:f0f0:1101::/48",
       "service": "EC2",
       "region": "ap-northeast-1",
@@ -60917,12 +60974,6 @@
       "service": "EC2",
       "region": "ap-southeast-2",
       "network_border_group": "ap-southeast-2"
-    },
-    {
-      "address": "2600:1f00:ec00::/64",
-      "service": "EC2",
-      "region": "sa-west-1",
-      "network_border_group": "sa-west-1"
     },
     {
       "address": "2600:1fef:6000::/40",
@@ -71713,6 +71764,12 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "2600:1ff6:4000::/48",
+      "service": "AMAZON",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2400:7fc0:83cc:cc00::/56",
       "service": "ROUTE53_HEALTHCHECKS",
       "region": "cn-north-1",
@@ -72391,24 +72448,28 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "2606:7b40:3000::/54",
+      "retired_at": "2026-05-09T02:44:46.559737+00:00"
+    },
+    {
       "address": "2600:f0f1:14::/48",
-      "retired_at": "2026-05-08T02:51:07.617472+00:00"
+      "retired_at": "2026-05-09T02:44:46.559737+00:00"
     },
     {
       "address": "2600:f0f1:15::/48",
-      "retired_at": "2026-05-08T02:51:07.617472+00:00"
-    },
-    {
-      "address": "2606:7b40:3000::/54",
-      "retired_at": "2026-05-08T02:51:07.617472+00:00"
+      "retired_at": "2026-05-09T02:44:46.559737+00:00"
     },
     {
       "address": "2600:f0f1:90::/44",
-      "retired_at": "2026-05-08T02:51:07.617472+00:00"
+      "retired_at": "2026-05-09T02:44:46.559737+00:00"
+    },
+    {
+      "address": "2600:1f00:ec00::/64",
+      "retired_at": "2026-05-09T02:44:46.559737+00:00"
     },
     {
       "address": "2a05:d01c::/36",
-      "retired_at": "2026-05-08T02:51:07.617472+00:00"
+      "retired_at": "2026-05-09T02:44:46.559737+00:00"
     }
   ],
   "source_http": [
@@ -72416,8 +72477,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"62ddf4c2b8aba6ef2e53014df69ba5ca\"",
-      "last_modified": "Fri, 08 May 2026 01:55:04 GMT"
+      "etag": "\"2851a623fb11c5938fa7847df0c35aa0\"",
+      "last_modified": "Fri, 08 May 2026 22:04:05 GMT"
     }
   ]
 }
