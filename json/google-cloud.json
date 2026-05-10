@@ -3,13 +3,13 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-09T02:41:10.968765",
-  "source_updated_at": "2026-05-08T13:03:13.888834",
+  "generated_at": "2026-05-10T02:46:57.448678",
+  "source_updated_at": "2026-05-09T13:05:48.338716",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-05-08T13:03:13.888834",
+  "last_update": "2026-05-09T13:05:48.338716",
   "ipv4": [
     "104.154.0.0/15",
     "104.154.113.0/24",
@@ -544,6 +544,8 @@
     "34.183.75.0/24",
     "34.183.76.0/22",
     "34.183.8.0/23",
+    "34.183.80.0/24",
+    "34.183.81.0/24",
     "34.184.0.0/24",
     "34.184.1.0/24",
     "34.184.12.0/22",
@@ -580,8 +582,10 @@
     "34.184.72.0/24",
     "34.184.73.0/24",
     "34.184.74.0/24",
+    "34.184.75.0/24",
     "34.184.76.0/22",
     "34.184.8.0/23",
+    "34.184.80.0/24",
     "34.185.128.0/17",
     "34.186.0.0/19",
     "34.186.128.0/18",
@@ -1909,6 +1913,16 @@
     },
     {
       "address": "34.177.96.0/20",
+      "service": "Google Cloud",
+      "scope": "asia-southeast1"
+    },
+    {
+      "address": "34.183.80.0/24",
+      "service": "Google Cloud",
+      "scope": "asia-southeast1"
+    },
+    {
+      "address": "34.184.75.0/24",
       "service": "Google Cloud",
       "scope": "asia-southeast1"
     },
@@ -4578,6 +4592,11 @@
       "scope": "us-east1"
     },
     {
+      "address": "34.183.81.0/24",
+      "service": "Google Cloud",
+      "scope": "us-east1"
+    },
+    {
       "address": "34.184.4.0/23",
       "service": "Google Cloud",
       "scope": "us-east1"
@@ -4589,6 +4608,11 @@
     },
     {
       "address": "34.184.56.0/23",
+      "service": "Google Cloud",
+      "scope": "us-east1"
+    },
+    {
+      "address": "34.184.80.0/24",
       "service": "Google Cloud",
       "scope": "us-east1"
     },
@@ -6306,14 +6330,14 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Fri, 08 May 2026 20:28:00 GMT"
+      "last_modified": "Sat, 09 May 2026 20:38:00 GMT"
     },
     {
       "url": "https://www.gstatic.com/ipranges/goog.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Fri, 08 May 2026 20:28:00 GMT"
+      "last_modified": "Sat, 09 May 2026 20:38:00 GMT"
     }
   ]
 }
