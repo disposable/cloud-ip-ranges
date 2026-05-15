@@ -3,12 +3,12 @@
   "provider_id": "microsoft-azure",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-14T02:55:49.450642",
+  "generated_at": "2026-05-15T02:56:05.853731",
   "source_updated_at": null,
   "source": [
     "https://azservicetags.azurewebsites.net/"
   ],
-  "last_update": "2026-05-14T02:55:49.450642",
+  "last_update": "2026-05-15T02:56:05.853731",
   "ipv4": [
     {
       "address": "4.145.74.52/30",
@@ -395956,7 +395956,27 @@
       "region": ""
     },
     {
+      "address": "20.140.152.56/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "20.140.154.84/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.140.154.216/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.159.252.116/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.159.252.120/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -395987,6 +396007,26 @@
     },
     {
       "address": "52.127.55.156/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "52.181.221.48/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "52.181.221.56/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "52.243.5.8/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "52.243.5.16/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -396487,21 +396527,6 @@
     },
     {
       "address": "52.127.48.112/28",
-      "systemService": "AzureCognitiveSearch",
-      "region": ""
-    },
-    {
-      "address": "52.227.216.86/32",
-      "systemService": "AzureCognitiveSearch",
-      "region": ""
-    },
-    {
-      "address": "52.243.155.184/32",
-      "systemService": "AzureCognitiveSearch",
-      "region": ""
-    },
-    {
-      "address": "52.244.34.54/32",
       "systemService": "AzureCognitiveSearch",
       "region": ""
     },
@@ -406336,12 +406361,32 @@
       "region": "usdodcentral"
     },
     {
+      "address": "20.159.252.116/30",
+      "systemService": "AzureAttestation",
+      "region": "usdodcentral"
+    },
+    {
+      "address": "20.159.252.120/29",
+      "systemService": "AzureAttestation",
+      "region": "usdodcentral"
+    },
+    {
       "address": "52.245.128.72/30",
       "systemService": "AzureAttestation",
       "region": "usdodcentral"
     },
     {
       "address": "20.140.68.180/30",
+      "systemService": "AzureAttestation",
+      "region": "usdodeast"
+    },
+    {
+      "address": "52.181.221.48/29",
+      "systemService": "AzureAttestation",
+      "region": "usdodeast"
+    },
+    {
+      "address": "52.181.221.56/30",
       "systemService": "AzureAttestation",
       "region": "usdodeast"
     },
@@ -406372,6 +406417,16 @@
     },
     {
       "address": "52.127.38.188/30",
+      "systemService": "AzureAttestation",
+      "region": "usgovtexas"
+    },
+    {
+      "address": "52.243.5.8/29",
+      "systemService": "AzureAttestation",
+      "region": "usgovtexas"
+    },
+    {
+      "address": "52.243.5.16/30",
       "systemService": "AzureAttestation",
       "region": "usgovtexas"
     },
@@ -406591,11 +406646,6 @@
       "region": "usgovarizona"
     },
     {
-      "address": "52.244.34.54/32",
-      "systemService": "AzureCognitiveSearch",
-      "region": "usgovarizona"
-    },
-    {
       "address": "62.11.191.128/26",
       "systemService": "AzureCognitiveSearch",
       "region": "usgovarizona"
@@ -406616,11 +406666,6 @@
       "region": "usgovtexas"
     },
     {
-      "address": "52.243.155.184/32",
-      "systemService": "AzureCognitiveSearch",
-      "region": "usgovtexas"
-    },
-    {
       "address": "62.11.87.64/26",
       "systemService": "AzureCognitiveSearch",
       "region": "usgovtexas"
@@ -406637,11 +406682,6 @@
     },
     {
       "address": "52.127.48.112/28",
-      "systemService": "AzureCognitiveSearch",
-      "region": "usgovvirginia"
-    },
-    {
-      "address": "52.227.216.86/32",
       "systemService": "AzureCognitiveSearch",
       "region": "usgovvirginia"
     },
