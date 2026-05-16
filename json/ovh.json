@@ -3,7 +3,7 @@
   "provider_id": "ovh",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-05-15T02:57:26.690603",
+  "generated_at": "2026-05-16T02:46:08.498877",
   "source_updated_at": null,
   "source": [
     "RADB::AS-OVH",
@@ -14,7 +14,6 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS13437",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS135073",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS13622",
-    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS137830",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS139187",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS13920",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS140894",
@@ -22,6 +21,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS141387",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS142187",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS14700",
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS150412",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS16076",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS16276",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS17176",
@@ -113,6 +113,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212348",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212353",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212378",
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212440",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212468",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212733",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212757",
@@ -201,8 +202,8 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401835",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401839",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401846",
-    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401866",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS402000",
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS402366",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS402429",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS40442",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS41457",
@@ -247,7 +248,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9098",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS984"
   ],
-  "last_update": "2026-05-15T02:57:26.690603",
+  "last_update": "2026-05-16T02:46:08.498877",
   "ipv4": [
     "103.112.60.0/24",
     "103.117.100.0/23",
@@ -270,9 +271,7 @@
     "103.246.146.0/24",
     "103.246.147.0/24",
     "103.27.159.0/24",
-    "103.40.52.0/23",
     "103.5.12.0/22",
-    "103.6.161.0/24",
     "103.69.3.0/24",
     "103.82.16.0/22",
     "104.156.151.0/24",
@@ -299,6 +298,7 @@
     "104.207.74.0/24",
     "104.207.75.0/24",
     "104.207.76.0/24",
+    "104.207.77.0/24",
     "104.207.94.0/24",
     "104.207.95.0/24",
     "104.219.248.0/22",
@@ -845,6 +845,8 @@
     "185.100.255.0/24",
     "185.101.104.0/24",
     "185.106.119.0/24",
+    "185.112.180.0/24",
+    "185.112.181.0/24",
     "185.112.182.0/24",
     "185.113.138.0/24",
     "185.113.249.0/24",
@@ -1152,6 +1154,7 @@
     "194.60.93.0/24",
     "194.61.44.0/24",
     "194.61.45.0/24",
+    "194.61.47.0/24",
     "194.61.73.0/24",
     "194.62.105.0/24",
     "194.76.173.0/24",
@@ -1353,6 +1356,7 @@
     "199.193.7.0/24",
     "199.195.140.0/23",
     "199.201.110.0/24",
+    "199.242.219.0/24",
     "199.48.178.0/24",
     "199.85.208.0/22",
     "199.85.208.0/24",
@@ -1431,6 +1435,7 @@
     "207.230.127.0/24",
     "207.244.209.0/24",
     "208.66.16.0/22",
+    "208.71.255.0/24",
     "208.78.76.0/24",
     "208.78.77.0/24",
     "208.78.78.0/24",
@@ -1490,6 +1495,7 @@
     "212.11.17.0/24",
     "212.11.20.0/22",
     "212.11.24.0/23",
+    "212.11.24.0/24",
     "212.11.25.0/24",
     "212.11.32.0/21",
     "212.11.32.0/24",
@@ -1509,6 +1515,8 @@
     "212.43.147.0/24",
     "212.43.148.0/24",
     "212.43.149.0/24",
+    "212.43.150.0/24",
+    "212.43.151.0/24",
     "212.46.59.0/24",
     "212.73.148.0/24",
     "212.74.39.0/24",
@@ -1566,7 +1574,6 @@
     "23.139.136.0/24",
     "23.140.164.0/24",
     "23.143.172.0/24",
-    "23.143.4.0/24",
     "23.146.64.0/24",
     "23.149.68.0/24",
     "23.149.76.0/24",
@@ -1853,7 +1860,6 @@
     "5.144.177.0/24",
     "5.172.36.0/24",
     "5.175.162.0/24",
-    "5.175.164.0/24",
     "5.175.168.0/24",
     "5.175.179.0/24",
     "5.175.187.0/24",
@@ -1866,6 +1872,7 @@
     "5.183.214.0/24",
     "5.196.0.0/16",
     "5.199.2.0/24",
+    "5.231.121.0/24",
     "5.231.207.0/24",
     "5.231.70.0/24",
     "5.253.191.0/24",
@@ -2049,12 +2056,6 @@
     "72.57.235.0/24",
     "72.57.236.0/24",
     "72.57.237.0/24",
-    "74.2.208.0/22",
-    "74.2.212.0/22",
-    "74.2.32.0/22",
-    "74.2.40.0/22",
-    "74.2.48.0/22",
-    "74.2.60.0/22",
     "74.214.168.0/24",
     "74.214.169.0/24",
     "74.214.171.0/24",
@@ -2154,6 +2155,7 @@
     "82.26.176.0/21",
     "82.26.184.0/21",
     "82.26.81.0/24",
+    "82.26.88.0/24",
     "82.27.205.0/24",
     "82.29.121.0/24",
     "82.29.126.0/24",
@@ -2329,6 +2331,7 @@
     "91.92.249.0/24",
     "91.92.33.0/24",
     "91.92.34.0/24",
+    "91.92.43.0/24",
     "92.112.68.0/24",
     "92.113.13.0/24",
     "92.113.174.0/24",
@@ -2388,6 +2391,7 @@
     "96.46.48.0/20",
     "96.46.51.0/24",
     "96.62.105.0/24",
+    "103.6.161.0/24",
     "103.149.176.0/24",
     "103.149.177.0/24",
     "103.152.118.0/24",
@@ -2462,7 +2466,6 @@
     "207.174.42.0/24",
     "207.174.43.0/24",
     "207.180.25.0/24",
-    "212.11.24.0/24",
     "212.134.97.0/24",
     "216.24.220.0/24",
     "216.75.147.0/24",
@@ -2470,6 +2473,7 @@
     "23.137.56.0/24",
     "23.137.57.0/24",
     "23.137.58.0/24",
+    "23.143.4.0/24",
     "23.164.152.0/24",
     "23.191.136.0/24",
     "23.95.179.0/24",
@@ -2512,6 +2516,7 @@
     "45.8.31.0/24",
     "45.9.109.0/24",
     "46.203.87.0/24",
+    "5.175.164.0/24",
     "5.175.171.0/24",
     "5.230.195.0/24",
     "5.231.252.0/24",
@@ -2537,19 +2542,26 @@
     "92.249.62.0/24",
     "96.43.99.0/24",
     "45.81.140.0/24",
+    "74.2.32.0/22",
+    "74.2.48.0/22",
     "144.31.225.0/24",
+    "74.2.212.0/22",
+    "74.2.60.0/22",
     "166.1.144.0/24",
     "132.243.222.0/24",
     "144.31.220.0/24",
+    "74.2.208.0/22",
+    "74.2.40.0/22",
     "89.125.125.0/24",
     "2.27.7.0/24",
+    "151.243.166.0/24",
+    "141.11.96.0/24",
+    "178.214.214.0/24",
     "192.144.79.0/24",
     "222.167.192.0/24",
-    "151.243.166.0/24",
-    "91.199.42.0/24",
     "87.76.144.0/24",
-    "141.11.96.0/24",
-    "178.214.214.0/24"
+    "103.40.52.0/23",
+    "91.199.42.0/24"
   ],
   "ipv6": [
     "2001:41d0::/32",
@@ -2593,6 +2605,7 @@
     "2402:1f00:8400::/48",
     "2402:1f00::/32",
     "2407:9d00:20::/48",
+    "2602:f3c4::/36",
     "2602:f5a5::/40",
     "2602:f6e4::/40",
     "2602:f773:64::/48",
@@ -2610,16 +2623,6 @@
     "2602:fc6a:200::/48",
     "2602:fc6a:210::/48",
     "2602:fc6a::/48",
-    "2604:19a0:1::/48",
-    "2604:19a0:2::/48",
-    "2604:19a0:3::/48",
-    "2604:19a0:4::/48",
-    "2604:19a0:5::/48",
-    "2604:19a0:6::/48",
-    "2604:19a0:7::/48",
-    "2604:19a0:8::/48",
-    "2604:19a0:9::/48",
-    "2604:19a0:a::/48",
     "2604:2dc0:300::/48",
     "2604:2dc0:301::/48",
     "2604:2dc0:302::/48",
@@ -2737,6 +2740,8 @@
     "2a0d:d940:1b::/48",
     "2a0d:d940:90a5::/48",
     "2a0e:4007:fff4::/48",
+    "2a0e:6f01::/32",
+    "2a0e:6f02::/32",
     "2a0e:8f02:f04f::/48",
     "2a0e:b107:12d2::/48",
     "2a0e:b107:12d3::/48",
@@ -2825,6 +2830,16 @@
     "2602:fe69:207::/48",
     "2602:fe69:208::/48",
     "2602:fe69:209::/48",
+    "2604:19a0:1::/48",
+    "2604:19a0:2::/48",
+    "2604:19a0:3::/48",
+    "2604:19a0:4::/48",
+    "2604:19a0:5::/48",
+    "2604:19a0:6::/48",
+    "2604:19a0:7::/48",
+    "2604:19a0:8::/48",
+    "2604:19a0:9::/48",
+    "2604:19a0:a::/48",
     "2607:ffd8:ff01::/48",
     "2a03:400::/32",
     "2a06:9801:d::/48",
@@ -2909,13 +2924,6 @@
       "last_modified": null
     },
     {
-      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS137830",
-      "status": 200,
-      "content_type": "application/json; charset=utf-8",
-      "etag": null,
-      "last_modified": null
-    },
-    {
       "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS139187",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -2959,6 +2967,13 @@
     },
     {
       "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS14700",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    },
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS150412",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": null,
@@ -3602,6 +3617,13 @@
       "last_modified": null
     },
     {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212440",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    },
+    {
       "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212468",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
@@ -4218,14 +4240,14 @@
       "last_modified": null
     },
     {
-      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401866",
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS402000",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": null,
       "last_modified": null
     },
     {
-      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS402000",
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS402366",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": null,
@@ -4535,6 +4557,10 @@
   ],
   "details_ipv4": [
     {
+      "address": "103.6.161.0/24",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
       "address": "103.149.176.0/24",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
@@ -4831,10 +4857,6 @@
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
     {
-      "address": "212.11.24.0/24",
-      "retired_at": "2026-05-15T02:58:50.270862+00:00"
-    },
-    {
       "address": "212.134.97.0/24",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
@@ -4861,6 +4883,10 @@
     {
       "address": "23.137.58.0/24",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
+    },
+    {
+      "address": "23.143.4.0/24",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
     },
     {
       "address": "23.164.152.0/24",
@@ -5031,6 +5057,10 @@
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
     {
+      "address": "5.175.164.0/24",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
       "address": "5.175.171.0/24",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
@@ -5131,8 +5161,24 @@
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
     {
+      "address": "74.2.32.0/22",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "74.2.48.0/22",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
       "address": "144.31.225.0/24",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
+    },
+    {
+      "address": "74.2.212.0/22",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "74.2.60.0/22",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
     },
     {
       "address": "166.1.144.0/24",
@@ -5147,11 +5193,31 @@
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
     {
+      "address": "74.2.208.0/22",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "74.2.40.0/22",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
       "address": "89.125.125.0/24",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
     {
       "address": "2.27.7.0/24",
+      "retired_at": "2026-05-15T02:58:50.270862+00:00"
+    },
+    {
+      "address": "151.243.166.0/24",
+      "retired_at": "2026-05-15T02:58:50.270862+00:00"
+    },
+    {
+      "address": "141.11.96.0/24",
+      "retired_at": "2026-05-15T02:58:50.270862+00:00"
+    },
+    {
+      "address": "178.214.214.0/24",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
     {
@@ -5163,23 +5229,15 @@
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
     {
-      "address": "151.243.166.0/24",
-      "retired_at": "2026-05-15T02:58:50.270862+00:00"
-    },
-    {
-      "address": "91.199.42.0/24",
-      "retired_at": "2026-05-15T02:58:50.270862+00:00"
-    },
-    {
       "address": "87.76.144.0/24",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     },
     {
-      "address": "141.11.96.0/24",
-      "retired_at": "2026-05-15T02:58:50.270862+00:00"
+      "address": "103.40.52.0/23",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
     },
     {
-      "address": "178.214.214.0/24",
+      "address": "91.199.42.0/24",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
     }
   ],
@@ -5311,6 +5369,46 @@
     {
       "address": "2602:fe69:209::/48",
       "retired_at": "2026-05-15T02:58:50.270862+00:00"
+    },
+    {
+      "address": "2604:19a0:1::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "2604:19a0:2::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "2604:19a0:3::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "2604:19a0:4::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "2604:19a0:5::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "2604:19a0:6::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "2604:19a0:7::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "2604:19a0:8::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "2604:19a0:9::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
+    },
+    {
+      "address": "2604:19a0:a::/48",
+      "retired_at": "2026-05-16T02:47:38.946556+00:00"
     },
     {
       "address": "2607:ffd8:ff01::/48",

@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-15T02:55:46.860944",
-  "source_updated_at": "2026-05-14-19-17-05",
+  "generated_at": "2026-05-16T02:44:41.886562",
+  "source_updated_at": "2026-05-15-21-17-04",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-05-14-19-17-05",
+  "last_update": "2026-05-15-21-17-04",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -102,6 +102,8 @@
     "104.255.56.28/32",
     "104.255.56.29/32",
     "104.255.56.3/32",
+    "104.255.56.49/32",
+    "104.255.56.50/32",
     "104.255.56.51/32",
     "104.255.56.52/32",
     "104.255.56.55/32",
@@ -13846,6 +13848,12 @@
       "network_border_group": "sa-east-1"
     },
     {
+      "address": "104.255.56.49/32",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
+    },
+    {
       "address": "108.166.244.9/32",
       "service": "AMAZON",
       "region": "us-east-2",
@@ -25038,8 +25046,8 @@
     {
       "address": "13.248.106.192/28",
       "service": "AMAZON",
-      "region": "me-south-1",
-      "network_border_group": "me-south-1"
+      "region": "eu-central-1",
+      "network_border_group": "eu-central-1"
     },
     {
       "address": "15.190.252.0/22",
@@ -31676,6 +31684,12 @@
       "service": "EC2",
       "region": "sa-east-1",
       "network_border_group": "sa-east-1"
+    },
+    {
+      "address": "104.255.56.50/32",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
     },
     {
       "address": "120.52.153.192/26",
@@ -72623,8 +72637,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"00ec993e87403359427d727a63eaa179\"",
-      "last_modified": "Thu, 14 May 2026 22:04:14 GMT"
+      "etag": "\"70c507fce66bff3096536914f1afbdf5\"",
+      "last_modified": "Sat, 16 May 2026 00:04:07 GMT"
     }
   ]
 }
