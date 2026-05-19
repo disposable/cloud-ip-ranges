@@ -6,7 +6,9 @@ IPv4,34.177.50.0/23,africa-south1,Google Cloud
 IPv4,34.80.0.0/15,asia-east1,Google Cloud
 IPv4,34.137.0.0/16,asia-east1,Google Cloud
 IPv4,34.183.71.0/24,asia-east1,Google Cloud
+IPv4,34.183.104.0/24,asia-east1,Google Cloud
 IPv4,34.184.70.0/24,asia-east1,Google Cloud
+IPv4,34.184.83.0/24,asia-east1,Google Cloud
 IPv4,35.185.128.0/19,asia-east1,Google Cloud
 IPv4,35.185.160.0/20,asia-east1,Google Cloud
 IPv4,35.187.144.0/20,asia-east1,Google Cloud
@@ -103,6 +105,7 @@ IPv4,34.183.72.0/24,asia-northeast3,Google Cloud
 IPv4,34.184.71.0/24,asia-northeast3,Google Cloud
 IPv4,35.216.0.0/17,asia-northeast3,Google Cloud
 IPv4,8.231.64.0/18,asia-south1,Google Cloud
+IPv4,8.234.64.0/18,asia-south1,Google Cloud
 IPv4,34.0.227.0/24,asia-south1,Google Cloud
 IPv4,34.14.128.0/18,asia-south1,Google Cloud
 IPv4,34.14.192.0/19,asia-south1,Google Cloud
@@ -629,10 +632,12 @@ IPv4,34.183.16.0/22,us-central1,Google Cloud
 IPv4,34.183.40.0/21,us-central1,Google Cloud
 IPv4,34.183.52.0/22,us-central1,Google Cloud
 IPv4,34.183.76.0/22,us-central1,Google Cloud
+IPv4,34.183.96.0/21,us-central1,Google Cloud
 IPv4,34.184.16.0/22,us-central1,Google Cloud
 IPv4,34.184.40.0/21,us-central1,Google Cloud
 IPv4,34.184.48.0/22,us-central1,Google Cloud
 IPv4,34.184.76.0/22,us-central1,Google Cloud
+IPv4,34.184.96.0/21,us-central1,Google Cloud
 IPv4,35.184.0.0/16,us-central1,Google Cloud
 IPv4,35.188.0.0/17,us-central1,Google Cloud
 IPv4,35.188.128.0/18,us-central1,Google Cloud
@@ -712,10 +717,12 @@ IPv4,34.183.4.0/23,us-east1,Google Cloud
 IPv4,34.183.33.0/24,us-east1,Google Cloud
 IPv4,34.183.56.0/23,us-east1,Google Cloud
 IPv4,34.183.81.0/24,us-east1,Google Cloud
+IPv4,34.183.88.0/21,us-east1,Google Cloud
 IPv4,34.184.4.0/23,us-east1,Google Cloud
 IPv4,34.184.34.0/24,us-east1,Google Cloud
 IPv4,34.184.56.0/23,us-east1,Google Cloud
 IPv4,34.184.80.0/24,us-east1,Google Cloud
+IPv4,34.184.88.0/21,us-east1,Google Cloud
 IPv4,35.185.0.0/17,us-east1,Google Cloud
 IPv4,35.190.128.0/18,us-east1,Google Cloud
 IPv4,35.196.0.0/16,us-east1,Google Cloud
@@ -740,6 +747,7 @@ IPv4,104.196.192.0/19,us-east1,Google Cloud
 IPv4,136.108.0.0/16,us-east1,Google Cloud
 IPv4,162.216.148.0/22,us-east1,Google Cloud
 IPv4,8.228.64.0/18,us-east4,Google Cloud
+IPv4,8.234.2.0/24,us-east4,Google Cloud
 IPv4,8.234.128.0/17,us-east4,Google Cloud
 IPv4,34.4.32.0/20,us-east4,Google Cloud
 IPv4,34.11.0.0/17,us-east4,Google Cloud
@@ -785,6 +793,9 @@ IPv4,35.243.40.0/21,us-east4,Google Cloud
 IPv4,35.245.0.0/16,us-east4,Google Cloud
 IPv4,136.107.0.0/16,us-east4,Google Cloud
 IPv4,8.231.32.0/20,us-east5,Google Cloud
+IPv4,8.234.3.0/24,us-east5,Google Cloud
+IPv4,8.234.4.0/22,us-east5,Google Cloud
+IPv4,8.234.32.0/19,us-east5,Google Cloud
 IPv4,34.1.16.0/20,us-east5,Google Cloud
 IPv4,34.4.102.0/23,us-east5,Google Cloud
 IPv4,34.127.160.0/20,us-east5,Google Cloud
@@ -864,6 +875,7 @@ IPv4,136.117.0.0/16,us-west1,Google Cloud
 IPv4,136.118.0.0/16,us-west1,Google Cloud
 IPv4,34.2.76.0/23,us-west2,Google Cloud
 IPv4,34.4.28.0/22,us-west2,Google Cloud
+IPv4,34.4.192.0/24,us-west2,Google Cloud
 IPv4,34.20.128.0/17,us-west2,Google Cloud
 IPv4,34.94.0.0/16,us-west2,Google Cloud
 IPv4,34.102.0.0/17,us-west2,Google Cloud
@@ -871,6 +883,8 @@ IPv4,34.104.64.0/21,us-west2,Google Cloud
 IPv4,34.108.0.0/16,us-west2,Google Cloud
 IPv4,34.118.248.0/23,us-west2,Google Cloud
 IPv4,34.124.0.0/21,us-west2,Google Cloud
+IPv4,34.183.83.0/24,us-west2,Google Cloud
+IPv4,34.184.82.0/24,us-west2,Google Cloud
 IPv4,34.186.128.0/18,us-west2,Google Cloud
 IPv4,35.215.64.0/18,us-west2,Google Cloud
 IPv4,35.220.47.0/24,us-west2,Google Cloud
@@ -879,6 +893,8 @@ IPv4,35.236.0.0/17,us-west2,Google Cloud
 IPv4,35.242.47.0/24,us-west2,Google Cloud
 IPv4,35.243.0.0/21,us-west2,Google Cloud
 IPv4,8.228.240.0/21,us-west3,Google Cloud
+IPv4,8.234.8.0/21,us-west3,Google Cloud
+IPv4,8.234.16.0/24,us-west3,Google Cloud
 IPv4,34.22.32.0/19,us-west3,Google Cloud
 IPv4,34.104.52.0/24,us-west3,Google Cloud
 IPv4,34.106.0.0/16,us-west3,Google Cloud
@@ -889,6 +905,7 @@ IPv4,35.217.64.0/18,us-west3,Google Cloud
 IPv4,35.220.31.0/24,us-west3,Google Cloud
 IPv4,35.242.31.0/24,us-west3,Google Cloud
 IPv4,8.228.0.0/19,us-west4,Google Cloud
+IPv4,8.234.17.0/24,us-west4,Google Cloud
 IPv4,34.16.128.0/17,us-west4,Google Cloud
 IPv4,34.50.160.0/19,us-west4,Google Cloud
 IPv4,34.104.72.0/22,us-west4,Google Cloud
