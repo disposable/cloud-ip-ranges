@@ -3,13 +3,13 @@
   "provider_id": "onlinesas",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-05-24T03:29:34.922861",
+  "generated_at": "2026-05-25T03:40:35.322899",
   "source_updated_at": null,
   "source": [
     "RADB::AS-ONLINESAS",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS12876"
   ],
-  "last_update": "2026-05-24T03:29:34.922861",
+  "last_update": "2026-05-25T03:40:35.322899",
   "ipv4": [
     "151.115.0.0/17",
     "151.115.0.0/18",
@@ -60,11 +60,11 @@
   "details_ipv4": [
     {
       "address": "151.115.160.0/20",
-      "retired_at": "2026-05-24T03:30:29.391760+00:00"
+      "retired_at": "2026-05-25T03:42:03.677268+00:00"
     },
     {
       "address": "151.115.176.0/20",
-      "retired_at": "2026-05-24T03:30:29.391760+00:00"
+      "retired_at": "2026-05-25T03:42:03.677268+00:00"
     }
   ]
 }
