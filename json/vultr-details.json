@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-26T02:56:48.839722",
+  "generated_at": "2026-05-27T03:37:02.621808",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-05-26T02:56:48.839722",
+  "last_update": "2026-05-27T03:37:02.621808",
   "ipv4": [
     {
       "address": "43.224.32.0/22",
@@ -3392,6 +3392,20 @@
       "region": "US-GA",
       "city": "Atlanta",
       "postal_code": "30318"
+    },
+    {
+      "address": "2a05:f487:fc00::/48",
+      "alpha2code": "SE",
+      "region": "SE-AB",
+      "city": "Spanga",
+      "postal_code": "163 53"
+    },
+    {
+      "address": "2a05:f487:fc00::/38",
+      "alpha2code": "US",
+      "region": "US-NJ",
+      "city": "Piscataway",
+      "postal_code": "08854"
     }
   ]
 }
