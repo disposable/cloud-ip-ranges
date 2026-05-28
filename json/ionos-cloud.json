@@ -3,12 +3,12 @@
   "provider_id": "ionos-cloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-05-27T03:39:59.228200",
+  "generated_at": "2026-05-28T02:59:55.068477",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS8560"
   ],
-  "last_update": "2026-05-27T03:39:59.228200",
+  "last_update": "2026-05-28T02:59:55.068477",
   "ipv4": [
     "104.192.4.0/22",
     "104.219.40.0/22",
@@ -28,6 +28,7 @@
     "185.132.40.0/22",
     "185.132.44.0/22",
     "185.132.46.0/24",
+    "185.133.24.0/24",
     "185.16.188.0/22",
     "185.164.4.0/22",
     "185.230.216.0/22",
@@ -562,7 +563,7 @@
   "details_ipv4": [
     {
       "address": "31.70.0.0/19",
-      "retired_at": "2026-05-27T03:40:10.152757+00:00"
+      "retired_at": "2026-05-28T03:00:06.529246+00:00"
     }
   ]
 }
