@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-28T02:56:19.259717",
-  "source_updated_at": "2026-05-27-22-07-06",
+  "generated_at": "2026-05-29T03:25:28.417614",
+  "source_updated_at": "2026-05-28-20-27-06",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-05-27-22-07-06",
+  "last_update": "2026-05-28-20-27-06",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -5052,6 +5052,7 @@
     "45.33.175.0/24",
     "45.33.176.0/24",
     "45.33.177.0/24",
+    "45.33.178.0/24",
     "45.34.0.0/15",
     "45.57.128.0/18",
     "46.137.0.0/17",
@@ -7187,6 +7188,8 @@
     "69.107.12.80/29",
     "69.107.12.88/29",
     "69.107.12.96/29",
+    "69.107.13.0/29",
+    "69.107.13.8/29",
     "69.107.3.176/29",
     "69.107.3.184/29",
     "69.107.6.112/29",
@@ -8497,6 +8500,7 @@
     "2600:1f01:4922::/47",
     "2600:1f01:4924::/47",
     "2600:1f01:4926::/47",
+    "2600:1f01:4928::/47",
     "2600:1f10:4000::/36",
     "2600:1f10:8000::/36",
     "2600:1f10:c000::/36",
@@ -9665,6 +9669,8 @@
     "2606:7b40:1042:3200::/60",
     "2606:7b40:1042::/56",
     "2606:7b40:10f4:3220::/60",
+    "2606:7b40:10f4:32a0::/60",
+    "2606:7b40:10f4:32e0::/60",
     "2606:7b40:10f8::/46",
     "2606:7b40:10ff:20::/59",
     "2606:7b40:10ff:40::/59",
@@ -9811,6 +9817,36 @@
     "2606:7b40:1f00::/40",
     "2606:7b40:3000:4000::/50",
     "2606:7b40:3000::/50",
+    "2606:7b40:3000:c000::/50",
+    "2606:7b40:3001:4000::/50",
+    "2606:7b40:3001:8000::/50",
+    "2606:7b40:3001::/50",
+    "2606:7b40:3001:c000::/50",
+    "2606:7b40:3002:4000::/50",
+    "2606:7b40:3002:8000::/50",
+    "2606:7b40:3002::/50",
+    "2606:7b40:3002:c000::/50",
+    "2606:7b40:3003:4000::/50",
+    "2606:7b40:3003:8000::/50",
+    "2606:7b40:3003::/50",
+    "2606:7b40:3003:c000::/50",
+    "2606:7b40:3004:4000::/50",
+    "2606:7b40:3004:8000::/50",
+    "2606:7b40:3004::/50",
+    "2606:7b40:3004:c000::/50",
+    "2606:7b40:3005:4000::/50",
+    "2606:7b40:3005:8000::/50",
+    "2606:7b40:3005::/50",
+    "2606:7b40:3005:c000::/50",
+    "2606:7b40:3006:4000::/50",
+    "2606:7b40:3006:8000::/50",
+    "2606:7b40:3006::/50",
+    "2606:7b40:3006:c000::/50",
+    "2606:7b40:3007:4000::/50",
+    "2606:7b40:3007:8000::/50",
+    "2606:7b40:3007::/50",
+    "2606:7b40:3007:c000::/50",
+    "2606:7b40:3008::/50",
     "2606:7b40:901::/48",
     "2606:7b40:903::/48",
     "2606:7b40:9fc::/48",
@@ -10483,11 +10519,11 @@
     "2a05:d07f:c000::/40",
     "2a05:d07f:e000::/40",
     "2a05:d07f:f000::/40",
+    "2600:f0f1:1c::/48",
     "2606:7b40:3000::/54",
     "2600:f0f1:90::/44",
     "2600:f0f1:14::/48",
     "2600:f0f1:15::/48",
-    "2600:f0f1:1c::/48",
     "2600:1f00:ec00::/64",
     "2a05:d01c::/36"
   ],
@@ -12831,6 +12867,12 @@
       "service": "AMAZON",
       "region": "eu-west-1",
       "network_border_group": "eu-west-1"
+    },
+    {
+      "address": "69.107.13.8/29",
+      "service": "AMAZON",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
     },
     {
       "address": "98.131.0.0/16",
@@ -27653,6 +27695,12 @@
       "network_border_group": "ap-southeast-2"
     },
     {
+      "address": "69.107.13.0/29",
+      "service": "AMAZON",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
+    },
+    {
       "address": "150.222.52.160/27",
       "service": "AMAZON",
       "region": "ca-west-1",
@@ -38811,6 +38859,12 @@
       "service": "AMAZON",
       "region": "ap-south-1",
       "network_border_group": "ap-south-1"
+    },
+    {
+      "address": "45.33.178.0/24",
+      "service": "AMAZON",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
     },
     {
       "address": "52.52.0.0/15",
@@ -56256,63 +56310,63 @@
     },
     {
       "address": "23.228.247.0/24",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "1.178.180.0/22",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "13.248.106.0/24",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "140.179.1.64/27",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "140.179.1.96/27",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "140.179.79.160/27",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "140.179.79.192/27",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "52.83.25.128/27",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "52.83.25.160/27",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "64.73.195.0/24",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "64.73.198.0/24",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "64.73.199.0/24",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "64.73.200.0/24",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "64.73.201.0/24",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "99.78.220.0/22",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     }
   ],
   "details_ipv6": [
@@ -57151,6 +57205,12 @@
       "network_border_group": "ap-southeast-2"
     },
     {
+      "address": "2606:7b40:3002:4000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d03a:4000::/40",
       "service": "EC2",
       "region": "eu-central-1",
@@ -57410,6 +57470,12 @@
     },
     {
       "address": "2606:7b40:1a3f:c310::/60",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2606:7b40:3003:8000::/50",
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
@@ -58063,6 +58129,12 @@
       "network_border_group": "me-central-1"
     },
     {
+      "address": "2606:7b40:3002:c000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d078:f000::/40",
       "service": "S3",
       "region": "eu-central-1",
@@ -58301,6 +58373,24 @@
       "service": "EC2",
       "region": "us-west-1",
       "network_border_group": "us-west-1"
+    },
+    {
+      "address": "2606:7b40:3002::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2606:7b40:3004:8000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2606:7b40:3005:4000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2620:107:4000:4::/64",
@@ -61537,6 +61627,12 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "2606:7b40:3006::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2620:107:4000:8001::/64",
       "service": "AMAZON",
       "region": "us-east-1",
@@ -61706,6 +61802,12 @@
     },
     {
       "address": "2606:7b40:1b0f:c300::/56",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2606:7b40:3003:4000::/50",
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
@@ -62005,6 +62107,12 @@
       "network_border_group": "sa-east-1"
     },
     {
+      "address": "2606:7b40:3008::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d032:2000::/40",
       "service": "EC2",
       "region": "eu-west-3",
@@ -62204,6 +62312,12 @@
     },
     {
       "address": "2606:7b40:1000:8000::/56",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2606:7b40:3007:c000::/50",
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
@@ -62623,6 +62737,24 @@
       "network_border_group": "us-east-1"
     },
     {
+      "address": "2606:7b40:10f4:32a0::/60",
+      "service": "EC2",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
+    },
+    {
+      "address": "2606:7b40:3001:c000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2606:7b40:3005:c000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d050:5000::/40",
       "service": "S3",
       "region": "il-central-1",
@@ -62720,6 +62852,12 @@
     },
     {
       "address": "2606:7b40:1000:2000::/56",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2606:7b40:3004:4000::/50",
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
@@ -63133,6 +63271,12 @@
       "network_border_group": "us-east-1"
     },
     {
+      "address": "2606:7b40:3006:8000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d031:2000::/40",
       "service": "EC2",
       "region": "eu-west-3",
@@ -63347,6 +63491,12 @@
       "service": "EC2",
       "region": "eu-central-1",
       "network_border_group": "eu-central-1"
+    },
+    {
+      "address": "2606:7b40:3004:c000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2620:107:4000:4204::/64",
@@ -63827,6 +63977,12 @@
       "service": "EC2",
       "region": "ap-south-1",
       "network_border_group": "ap-south-1"
+    },
+    {
+      "address": "2606:7b40:3005::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2a05:d032:a000::/40",
@@ -64567,6 +64723,12 @@
       "network_border_group": "ap-east-1"
     },
     {
+      "address": "2606:7b40:3006:4000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d06f:9000::/40",
       "service": "EC2",
       "region": "eu-central-2",
@@ -65059,6 +65221,12 @@
       "network_border_group": "eu-central-1"
     },
     {
+      "address": "2606:7b40:3007:8000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d073:1000::/40",
       "service": "EC2",
       "region": "eu-south-2",
@@ -65549,6 +65717,12 @@
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2-phx-1"
+    },
+    {
+      "address": "2606:7b40:3004::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2620:107:4000:9006::/64",
@@ -66427,6 +66601,12 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "2606:7b40:3003:c000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d031:1000::/40",
       "service": "EC2",
       "region": "eu-south-2",
@@ -66575,6 +66755,12 @@
       "service": "EC2",
       "region": "ap-northeast-2",
       "network_border_group": "ap-northeast-2"
+    },
+    {
+      "address": "2606:7b40:10f4:32e0::/60",
+      "service": "EC2",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
     },
     {
       "address": "2a05:d040:c000::/40",
@@ -67025,6 +67211,12 @@
       "service": "EC2",
       "region": "us-east-1",
       "network_border_group": "us-east-1"
+    },
+    {
+      "address": "2606:7b40:3002:8000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2620:107:4000:7a00::/56",
@@ -67579,6 +67771,12 @@
       "network_border_group": "GLOBAL"
     },
     {
+      "address": "2606:7b40:3007::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2a05:d06f:b000::/40",
       "service": "EC2",
       "region": "eu-central-1",
@@ -67831,6 +68029,12 @@
       "network_border_group": "us-east-1"
     },
     {
+      "address": "2606:7b40:3001:8000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2400:7fc0:f300::/40",
       "service": "EC2",
       "region": "cn-north-1",
@@ -68015,6 +68219,12 @@
       "service": "EC2",
       "region": "ap-northeast-2",
       "network_border_group": "ap-northeast-2"
+    },
+    {
+      "address": "2606:7b40:3003::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2620:107:4000:7c00::/56",
@@ -68263,6 +68473,12 @@
       "network_border_group": "ap-southeast-1"
     },
     {
+      "address": "2606:7b40:3005:8000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2620:107:4004::/48",
       "service": "EC2",
       "region": "us-west-2",
@@ -68381,6 +68597,12 @@
       "service": "EC2",
       "region": "eu-south-1",
       "network_border_group": "eu-south-1"
+    },
+    {
+      "address": "2606:7b40:3007:4000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2620:107:4000:4704::/64",
@@ -69421,6 +69643,12 @@
       "network_border_group": "ap-northeast-1"
     },
     {
+      "address": "2606:7b40:3001:4000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2406:da70:2000::/40",
       "service": "EC2",
       "region": "ap-northeast-2",
@@ -69485,6 +69713,12 @@
       "service": "EC2",
       "region": "ca-west-1",
       "network_border_group": "ca-west-1"
+    },
+    {
+      "address": "2606:7b40:3006:c000::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
     },
     {
       "address": "2606:7b40:f000:1600::/56",
@@ -69977,6 +70211,12 @@
       "service": "AMAZON",
       "region": "ap-south-2",
       "network_border_group": "ap-south-2"
+    },
+    {
+      "address": "2600:1f01:4928::/47",
+      "service": "AMAZON",
+      "region": "us-east-2",
+      "network_border_group": "us-east-2"
     },
     {
       "address": "2600:9000:5201::/48",
@@ -70675,6 +70915,12 @@
       "network_border_group": "eu-west-3"
     },
     {
+      "address": "2606:7b40:3001::/50",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
       "address": "2620:107:4000:5::/64",
       "service": "AMAZON",
       "region": "us-gov-west-1",
@@ -70868,6 +71114,12 @@
     },
     {
       "address": "2606:7b40:1b0f:f800::/56",
+      "service": "EC2",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "2606:7b40:3000:c000::/50",
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
@@ -73291,32 +73543,32 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "2600:f0f1:1c::/48",
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
+    },
+    {
       "address": "2606:7b40:3000::/54",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "2600:f0f1:90::/44",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "2600:f0f1:14::/48",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "2600:f0f1:15::/48",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
-    },
-    {
-      "address": "2600:f0f1:1c::/48",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "2600:1f00:ec00::/64",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     },
     {
       "address": "2a05:d01c::/36",
-      "retired_at": "2026-05-28T03:00:06.529246+00:00"
+      "retired_at": "2026-05-29T03:28:35.400002+00:00"
     }
   ],
   "source_http": [
@@ -73324,8 +73576,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"5a091404d52a3d614d1a242641a27dcc\"",
-      "last_modified": "Thu, 28 May 2026 00:58:06 GMT"
+      "etag": "\"c2f46f44a1976b4eb40416d313285a69\"",
+      "last_modified": "Thu, 28 May 2026 23:26:38 GMT"
     }
   ]
 }

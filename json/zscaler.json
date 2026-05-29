@@ -3,13 +3,13 @@
   "provider_id": "zscaler",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-01-31T01:50:45.671469",
+  "generated_at": "2026-05-29T03:25:46.821335",
   "source_updated_at": null,
   "source": [
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"
   ],
-  "last_update": "2026-01-31T01:50:45.671469",
+  "last_update": "2026-05-29T03:25:46.821335",
   "ipv4": [
     "101.2.192.0/18",
     "101.2.220.0/23",
@@ -123,6 +123,7 @@
     "170.85.34.0/23",
     "170.85.80.0/23",
     "175.107.128.0/18",
+    "175.107.184.0/23",
     "185.46.212.0/22",
     "194.9.112.0/22",
     "194.9.116.0/24",
@@ -624,6 +625,10 @@
     },
     {
       "address": "170.85.218.0/23",
+      "category": "required"
+    },
+    {
+      "address": "175.107.184.0/23",
       "category": "required"
     },
     {
@@ -1222,7 +1227,7 @@
       "url": "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "etag": "W/\"cee-/yKFAx9fW0W2Sq9m6uYddr67GFs\"",
+      "etag": "W/\"d01-F7YHDiI4k0xkfvQk9pW2j8Q0sYE\"",
       "last_modified": null
     },
     {
