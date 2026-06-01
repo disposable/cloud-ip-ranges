@@ -3,13 +3,13 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-31T03:37:55.083943",
-  "source_updated_at": "2026-05-30T19:04:04.001427",
+  "generated_at": "2026-06-01T03:52:49.315405",
+  "source_updated_at": "2026-05-31T19:06:26.015121",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-05-30T19:04:04.001427",
+  "last_update": "2026-05-31T19:06:26.015121",
   "ipv4": [
     {
       "address": "34.1.208.0/20",
@@ -637,7 +637,17 @@
       "scope": "asia-south1"
     },
     {
+      "address": "34.183.106.0/23",
+      "service": "Google Cloud",
+      "scope": "asia-south1"
+    },
+    {
       "address": "34.184.35.0/24",
+      "service": "Google Cloud",
+      "scope": "asia-south1"
+    },
+    {
+      "address": "34.184.106.0/23",
       "service": "Google Cloud",
       "scope": "asia-south1"
     },
@@ -2482,6 +2492,16 @@
       "scope": "global"
     },
     {
+      "address": "136.68.0.0/16",
+      "service": "Google Cloud",
+      "scope": "global"
+    },
+    {
+      "address": "136.69.0.0/17",
+      "service": "Google Cloud",
+      "scope": "global"
+    },
+    {
       "address": "136.110.128.0/17",
       "service": "Google Cloud",
       "scope": "global"
@@ -3972,6 +3992,11 @@
       "scope": "us-east4"
     },
     {
+      "address": "136.23.64.0/19",
+      "service": "Google Cloud",
+      "scope": "us-east4"
+    },
+    {
       "address": "136.107.0.0/16",
       "service": "Google Cloud",
       "scope": "us-east4"
@@ -4068,6 +4093,16 @@
     },
     {
       "address": "34.161.0.0/16",
+      "service": "Google Cloud",
+      "scope": "us-east7"
+    },
+    {
+      "address": "34.183.105.0/24",
+      "service": "Google Cloud",
+      "scope": "us-east7"
+    },
+    {
+      "address": "34.184.104.0/24",
       "service": "Google Cloud",
       "scope": "us-east7"
     },
@@ -4363,6 +4398,16 @@
     },
     {
       "address": "136.66.0.0/15",
+      "service": "Google Cloud",
+      "scope": "us-west1"
+    },
+    {
+      "address": "136.69.128.0/17",
+      "service": "Google Cloud",
+      "scope": "us-west1"
+    },
+    {
+      "address": "136.70.0.0/18",
       "service": "Google Cloud",
       "scope": "us-west1"
     },

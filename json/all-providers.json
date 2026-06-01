@@ -1,6 +1,6 @@
 {
   "provider": "All Providers",
-  "generated_at": "2026-05-31T03:41:03.784583",
+  "generated_at": "2026-06-01T03:56:32.620925",
   "provider_count": 66,
   "providers": [
     {
@@ -23,7 +23,7 @@
         "https://www.cloudflare.com/ips-v6",
         "https://api.cloudflare.com/client/v4/ips?networks=jdcloud"
       ],
-      "last_update": "2026-05-31T03:37:54.677291",
+      "last_update": "2026-06-01T03:52:48.971424",
       "ipv4_count": 64,
       "ipv6_count": 54
     },
@@ -34,7 +34,7 @@
       "source": [
         "https://digitalocean.com/geo/google.csv"
       ],
-      "last_update": "2026-05-31T03:37:55.010073",
+      "last_update": "2026-06-01T03:52:49.229861",
       "ipv4_count": 1074,
       "ipv6_count": 148
     },
@@ -46,8 +46,8 @@
         "https://www.gstatic.com/ipranges/cloud.json",
         "https://www.gstatic.com/ipranges/goog.json"
       ],
-      "last_update": "2026-05-30T19:04:04.001427",
-      "ipv4_count": 1009,
+      "last_update": "2026-05-31T19:06:26.015121",
+      "ipv4_count": 1018,
       "ipv6_count": 63
     },
     {
@@ -81,7 +81,7 @@
       "source": [
         "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
       ],
-      "last_update": "2026-05-31T03:37:55.781534",
+      "last_update": "2026-06-01T03:52:50.207280",
       "ipv4_count": 1078,
       "ipv6_count": 0
     },
@@ -92,7 +92,7 @@
       "source": [
         "https://api.ahrefs.com/v3/public/crawler-ips"
       ],
-      "last_update": "2026-05-31T03:37:56.003431",
+      "last_update": "2026-06-01T03:52:50.467810",
       "ipv4_count": 9870,
       "ipv6_count": 0
     },
@@ -103,7 +103,7 @@
       "source": [
         "https://geoip.linode.com/"
       ],
-      "last_update": "2026-05-31T03:37:56.502250",
+      "last_update": "2026-06-01T03:52:50.948644",
       "ipv4_count": 5248,
       "ipv6_count": 94
     },
@@ -114,7 +114,7 @@
       "source": [
         "https://geofeed.constant.com/?json"
       ],
-      "last_update": "2026-05-31T03:37:56.852036",
+      "last_update": "2026-06-01T03:52:51.346754",
       "ipv4_count": 434,
       "ipv6_count": 52
     },
@@ -149,7 +149,7 @@
       "source": [
         "https://api.github.com/meta"
       ],
-      "last_update": "2026-05-31T03:37:57.165673",
+      "last_update": "2026-06-01T03:52:51.682392",
       "ipv4_count": 20,
       "ipv6_count": 2
     },
@@ -160,7 +160,7 @@
       "source": [
         "https://mask-api.icloud.com/egress-ip-ranges.csv"
       ],
-      "last_update": "2026-05-31T03:37:57.319703",
+      "last_update": "2026-06-01T03:52:51.863603",
       "ipv4_count": 41784,
       "ipv6_count": 245128
     },
@@ -171,7 +171,7 @@
       "source": [
         "https://techdocs.akamai.com/property-manager/pdfs/akamai_ipv4_ipv6_CIDRs-txt.zip"
       ],
-      "last_update": "2026-05-31T03:38:07.788606",
+      "last_update": "2026-06-01T03:53:01.558903",
       "ipv4_count": 6,
       "ipv6_count": 3
     },
@@ -182,7 +182,7 @@
       "source": [
         "https://core.telegram.org/resources/cidr.txt"
       ],
-      "last_update": "2026-05-31T03:38:08.076781",
+      "last_update": "2026-06-01T03:53:01.914458",
       "ipv4_count": 9,
       "ipv6_count": 5
     },
@@ -193,7 +193,7 @@
       "source": [
         "https://ip-ranges.atlassian.com/"
       ],
-      "last_update": "2026-05-31T03:38:08.360506",
+      "last_update": "2026-06-01T03:53:02.259579",
       "ipv4_count": 194,
       "ipv6_count": 60
     },
@@ -204,7 +204,7 @@
       "source": [
         "https://ip-ranges.datadoghq.com/"
       ],
-      "last_update": "2026-05-31T03:38:08.521257",
+      "last_update": "2026-06-01T03:53:02.455064",
       "ipv4_count": 149,
       "ipv6_count": 1
     },
@@ -215,7 +215,7 @@
       "source": [
         "https://support.zendesk.com/ips"
       ],
-      "last_update": "2026-05-31T03:38:08.887792",
+      "last_update": "2026-06-01T03:53:02.774723",
       "ipv4_count": 3,
       "ipv6_count": 0
     },
@@ -226,7 +226,7 @@
       "source": [
         "https://circleci.com/docs/ip-ranges-list.json"
       ],
-      "last_update": "2026-05-31T03:38:08.979139",
+      "last_update": "2026-06-01T03:53:02.928135",
       "ipv4_count": 47,
       "ipv6_count": 0
     },
@@ -237,7 +237,7 @@
       "source": [
         "https://app.terraform.io/api/meta/ip-ranges"
       ],
-      "last_update": "2026-05-31T03:38:09.105243",
+      "last_update": "2026-06-01T03:53:03.063017",
       "ipv4_count": 16,
       "ipv6_count": 0
     },
@@ -248,7 +248,7 @@
       "source": [
         "https://nr-synthetics-assets.s3.amazonaws.com/nat-ip-dnsname/production/ip-ranges.json"
       ],
-      "last_update": "2026-05-31T03:38:09.205739",
+      "last_update": "2026-06-01T03:53:03.183524",
       "ipv4_count": 63,
       "ipv6_count": 0
     },
@@ -265,7 +265,7 @@
         "https://grafana.com/api/hosted-profiles/source-ips",
         "https://grafana.com/api/hosted-otlp/source-ips"
       ],
-      "last_update": "2026-05-31T03:38:10.712309",
+      "last_update": "2026-06-01T03:53:03.965555",
       "ipv4_count": 524,
       "ipv6_count": 0
     },
@@ -278,7 +278,7 @@
         "https://static.intercomcdn.com/intercom-ips/eu/intercom-ip-ranges.json",
         "https://static.intercomcdn.com/intercom-ips/au/intercom-ip-ranges.json"
       ],
-      "last_update": "2026-05-31T03:38:11.213214",
+      "last_update": "2026-06-01T03:53:04.324529",
       "ipv4_count": 12,
       "ipv6_count": 0
     },
@@ -290,7 +290,7 @@
         "https://stripe.com/files/ips/ips_api.json",
         "https://stripe.com/files/ips/ips_webhooks.json"
       ],
-      "last_update": "2026-05-31T03:38:11.345135",
+      "last_update": "2026-06-01T03:53:04.450882",
       "ipv4_count": 177,
       "ipv6_count": 0
     },
@@ -301,7 +301,7 @@
       "source": [
         "https://docs.adyen.com/development-resources/security/integration-security/allowlisting"
       ],
-      "last_update": "2026-05-31T03:38:11.530257",
+      "last_update": "2026-06-01T03:53:04.723341",
       "ipv4_count": 59,
       "ipv6_count": 0
     },
@@ -312,7 +312,7 @@
       "source": [
         "https://ip-ranges.salesforce.com/ip-ranges.json"
       ],
-      "last_update": "2026-05-31T03:38:11.693450",
+      "last_update": "2026-06-01T03:53:04.909186",
       "ipv4_count": 27,
       "ipv6_count": 0
     },
@@ -323,7 +323,7 @@
       "source": [
         "https://sentry.io/api/0/uptime-ips/"
       ],
-      "last_update": "2026-05-31T03:38:11.826106",
+      "last_update": "2026-06-01T03:53:05.021741",
       "ipv4_count": 9,
       "ipv6_count": 0
     },
@@ -334,7 +334,7 @@
       "source": [
         "https://help.branch.io/docs/postback-webhook-ip-address-allowlist-expands"
       ],
-      "last_update": "2026-05-31T03:38:12.127370",
+      "last_update": "2026-06-01T03:53:05.724189",
       "ipv4_count": 36,
       "ipv6_count": 0
     },
@@ -347,7 +347,7 @@
         "https://rdap.arin.net/registry/ip/198.169.1.0",
         "https://rdap.arin.net/registry/ip/155.121.0.0"
       ],
-      "last_update": "2026-05-31T03:38:12.295015",
+      "last_update": "2026-06-01T03:53:06.274912",
       "ipv4_count": 14,
       "ipv6_count": 0
     },
@@ -359,7 +359,7 @@
         "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
         "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"
       ],
-      "last_update": "2026-05-31T03:38:13.091152",
+      "last_update": "2026-06-01T03:53:06.865294",
       "ipv4_count": 135,
       "ipv6_count": 53
     },
@@ -370,7 +370,7 @@
       "source": [
         "https://api.fastly.com/public-ip-list"
       ],
-      "last_update": "2026-05-31T03:38:13.255662",
+      "last_update": "2026-06-01T03:53:06.925067",
       "ipv4_count": 19,
       "ipv6_count": 2
     },
@@ -381,7 +381,7 @@
       "source": [
         "https://azservicetags.azurewebsites.net/"
       ],
-      "last_update": "2026-05-31T03:38:13.715409",
+      "last_update": "2026-06-01T03:53:08.555364",
       "ipv4_count": 47523,
       "ipv6_count": 17350
     },
@@ -390,7 +390,7 @@
       "provider_id": "microsoft-365",
       "method": "published_list",
       "source": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
-      "last_update": "2026-05-31T03:38:19.419369",
+      "last_update": "2026-06-01T03:53:14.054308",
       "ipv4_count": 34,
       "ipv6_count": 59
     },
@@ -401,7 +401,7 @@
       "source": [
         "https://docs.gitlab.com/user/gitlab_com/"
       ],
-      "last_update": "2026-05-31T03:38:19.565042",
+      "last_update": "2026-06-01T03:53:14.301861",
       "ipv4_count": 2,
       "ipv6_count": 0
     },
@@ -413,7 +413,7 @@
         "https://developer.pagerduty.com/ip-safelists/webhooks-us-service-region-json",
         "https://developer.pagerduty.com/ip-safelists/webhooks-eu-service-region-json"
       ],
-      "last_update": "2026-05-31T03:38:19.619812",
+      "last_update": "2026-06-01T03:53:14.389922",
       "ipv4_count": 25,
       "ipv6_count": 0
     },
@@ -424,7 +424,7 @@
       "source": [
         "https://exoscale-prefixes.sos-ch-dk-2.exo.io/exoscale_prefixes.json"
       ],
-      "last_update": "2026-05-31T03:38:20.436960",
+      "last_update": "2026-06-01T03:53:15.502433",
       "ipv4_count": 41,
       "ipv6_count": 24
     },
@@ -435,7 +435,7 @@
       "source": [
         "https://www.scaleway.com/en/docs/account/reference-content/scaleway-network-information/"
       ],
-      "last_update": "2026-05-31T03:38:20.953814",
+      "last_update": "2026-06-01T03:53:15.898778",
       "ipv4_count": 34,
       "ipv6_count": 19
     },
@@ -446,7 +446,7 @@
       "source": [
         "https://www.backblaze.com/computer-backup/docs/backblaze-ip-addresses"
       ],
-      "last_update": "2026-05-31T03:38:21.436904",
+      "last_update": "2026-06-01T03:53:16.487294",
       "ipv4_count": 5,
       "ipv6_count": 1
     },
@@ -458,7 +458,7 @@
         "https://help.webex.com/article/WBX000028782/Network-Requirements-for-Webex-Teams-Services",
         "https://help.webex.com/en-us/article/WBX264/How-Do-I-Allow-Webex-Meetings-Traffic-on-My-Network"
       ],
-      "last_update": "2026-05-31T03:38:22.010065",
+      "last_update": "2026-06-01T03:53:17.903231",
       "ipv4_count": 36,
       "ipv6_count": 18
     },
@@ -536,9 +536,9 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS64999",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS7489"
       ],
-      "last_update": "2026-05-31T03:38:22.024952",
+      "last_update": "2026-06-01T03:53:17.918098",
       "ipv4_count": 2823,
-      "ipv6_count": 3187
+      "ipv6_count": 3188
     },
     {
       "provider": "Heroku Aws",
@@ -547,7 +547,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS14618"
       ],
-      "last_update": "2026-05-31T03:38:38.194717",
+      "last_update": "2026-06-01T03:53:43.059883",
       "ipv4_count": 1333,
       "ipv6_count": 541
     },
@@ -558,7 +558,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS40509"
       ],
-      "last_update": "2026-05-31T03:38:38.396987",
+      "last_update": "2026-06-01T03:53:43.355777",
       "ipv4_count": 181,
       "ipv6_count": 70
     },
@@ -569,7 +569,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS397273"
       ],
-      "last_update": "2026-05-31T03:38:38.502381",
+      "last_update": "2026-06-01T03:53:43.537277",
       "ipv4_count": 1,
       "ipv6_count": 0
     },
@@ -580,7 +580,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS55293"
       ],
-      "last_update": "2026-05-31T03:38:38.668241",
+      "last_update": "2026-06-01T03:53:43.720137",
       "ipv4_count": 99,
       "ipv6_count": 0
     },
@@ -592,7 +592,7 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS26496",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS30083"
       ],
-      "last_update": "2026-05-31T03:38:38.921845",
+      "last_update": "2026-06-01T03:53:43.995619",
       "ipv4_count": 310,
       "ipv6_count": 19
     },
@@ -603,7 +603,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS26347"
       ],
-      "last_update": "2026-05-31T03:38:44.414424",
+      "last_update": "2026-06-01T03:53:44.402334",
       "ipv4_count": 24,
       "ipv6_count": 3
     },
@@ -616,7 +616,7 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS45102",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60924"
       ],
-      "last_update": "2026-05-31T03:38:44.621273",
+      "last_update": "2026-06-01T03:53:44.644988",
       "ipv4_count": 1077,
       "ipv6_count": 102
     },
@@ -634,7 +634,7 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS45090",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58835"
       ],
-      "last_update": "2026-05-31T03:38:45.841681",
+      "last_update": "2026-06-01T03:53:45.133940",
       "ipv4_count": 4185,
       "ipv6_count": 282
     },
@@ -646,8 +646,8 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS135377",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS59077"
       ],
-      "last_update": "2026-05-31T03:38:46.986374",
-      "ipv4_count": 734,
+      "last_update": "2026-06-01T03:53:47.076784",
+      "ipv4_count": 738,
       "ipv6_count": 11
     },
     {
@@ -662,7 +662,7 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS54115",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS63293"
       ],
-      "last_update": "2026-05-31T03:38:47.288773",
+      "last_update": "2026-06-01T03:53:47.338902",
       "ipv4_count": 340,
       "ipv6_count": 416
     },
@@ -680,7 +680,7 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS265443",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS55990"
       ],
-      "last_update": "2026-05-31T03:38:48.132884",
+      "last_update": "2026-06-01T03:53:48.284312",
       "ipv4_count": 954,
       "ipv6_count": 116
     },
@@ -918,7 +918,7 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS7896",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9197"
       ],
-      "last_update": "2026-05-31T03:38:49.305556",
+      "last_update": "2026-06-01T03:53:50.210842",
       "ipv4_count": 5576,
       "ipv6_count": 562
     },
@@ -1178,9 +1178,9 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9098",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS984"
       ],
-      "last_update": "2026-05-31T03:39:34.525629",
-      "ipv4_count": 2199,
-      "ipv6_count": 240
+      "last_update": "2026-06-01T03:54:50.260070",
+      "ipv4_count": 2197,
+      "ipv6_count": 242
     },
     {
       "provider": "Onlinesas",
@@ -1190,7 +1190,7 @@
         "RADB::AS-ONLINESAS",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS12876"
       ],
-      "last_update": "2026-05-31T03:40:19.986924",
+      "last_update": "2026-06-01T03:55:37.385724",
       "ipv4_count": 23,
       "ipv6_count": 9
     },
@@ -1263,7 +1263,7 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58982",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS6859"
       ],
-      "last_update": "2026-05-31T03:40:20.416041",
+      "last_update": "2026-06-01T03:55:37.820785",
       "ipv4_count": 672,
       "ipv6_count": 153
     },
@@ -1421,8 +1421,8 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS64495",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9504"
       ],
-      "last_update": "2026-05-31T03:40:32.381062",
-      "ipv4_count": 1153,
+      "last_update": "2026-06-01T03:55:50.543511",
+      "ipv4_count": 1152,
       "ipv6_count": 443
     },
     {
@@ -1433,7 +1433,7 @@
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS202053",
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25697"
       ],
-      "last_update": "2026-05-31T03:41:01.641684",
+      "last_update": "2026-06-01T03:56:29.522124",
       "ipv4_count": 82,
       "ipv6_count": 20
     },
@@ -1444,7 +1444,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS29423"
       ],
-      "last_update": "2026-05-31T03:41:02.094505",
+      "last_update": "2026-06-01T03:56:30.768257",
       "ipv4_count": 11,
       "ipv6_count": 8
     },
@@ -1455,7 +1455,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS200185"
       ],
-      "last_update": "2026-05-31T03:41:02.281003",
+      "last_update": "2026-06-01T03:56:31.056828",
       "ipv4_count": 16,
       "ipv6_count": 1
     },
@@ -1466,7 +1466,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS8560"
       ],
-      "last_update": "2026-05-31T03:41:02.472880",
+      "last_update": "2026-06-01T03:56:31.259707",
       "ipv4_count": 519,
       "ipv6_count": 18
     },
@@ -1477,7 +1477,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25151"
       ],
-      "last_update": "2026-05-31T03:41:02.600661",
+      "last_update": "2026-06-01T03:56:31.393994",
       "ipv4_count": 27,
       "ipv6_count": 4
     },
@@ -1488,7 +1488,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS12637"
       ],
-      "last_update": "2026-05-31T03:41:02.806228",
+      "last_update": "2026-06-01T03:56:31.626504",
       "ipv4_count": 35,
       "ipv6_count": 10
     },
@@ -1499,7 +1499,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS6878"
       ],
-      "last_update": "2026-05-31T03:41:03.025622",
+      "last_update": "2026-06-01T03:56:31.862215",
       "ipv4_count": 48,
       "ipv6_count": 3
     },
@@ -1510,7 +1510,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS395717"
       ],
-      "last_update": "2026-05-31T03:41:03.256421",
+      "last_update": "2026-06-01T03:56:32.096579",
       "ipv4_count": 20,
       "ipv6_count": 0
     },
@@ -1521,7 +1521,7 @@
       "source": [
         "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS36007"
       ],
-      "last_update": "2026-05-31T03:41:03.467092",
+      "last_update": "2026-06-01T03:56:32.303050",
       "ipv4_count": 135,
       "ipv6_count": 19
     }
@@ -12254,9 +12254,7 @@
     "134.138.0.0/16",
     "134.149.0.0/16",
     "134.168.246.0/23",
-    "134.168.248.0/23",
-    "134.168.250.0/24",
-    "134.168.255.0/24",
+    "134.168.248.0/21",
     "134.170.192.0/21",
     "134.170.220.0/23",
     "134.170.222.0/24",
@@ -13830,7 +13828,6 @@
     "151.242.88.0/24",
     "151.242.103.0/24",
     "151.242.144.0/24",
-    "151.242.194.0/24",
     "151.243.3.0/24",
     "151.243.6.0/24",
     "151.243.18.0/24",
@@ -19982,15 +19979,15 @@
     "223.6.6.0/24",
     "223.85.111.224/27",
     "223.165.4.0/23",
+    "43.118.6.0/24",
     "156.227.20.0/24",
+    "43.108.6.0/24",
     "43.91.0.0/16",
     "43.96.118.0/24",
     "43.96.119.0/24",
     "47.251.234.0/24",
     "47.87.169.0/24",
     "8.208.142.0/24",
-    "43.118.6.0/24",
-    "43.108.6.0/24",
     "104.192.138.224/28",
     "1.178.180.0/22",
     "23.228.247.0/24",
@@ -21440,6 +21437,7 @@
     "156.229.228.0/22",
     "45.138.220.0/22",
     "45.136.228.0/24",
+    "217.21.198.0/24",
     "103.106.66.0/24",
     "103.106.67.0/24",
     "104.234.196.0/24",
@@ -21545,6 +21543,7 @@
     "146.19.48.0/24",
     "147.79.31.0/24",
     "151.240.24.0/24",
+    "151.242.194.0/24",
     "155.103.80.0/22",
     "156.228.122.0/24",
     "156.228.123.0/24",
@@ -37376,6 +37375,7 @@
     "2a06:9801:100::/47",
     "2a06:9801:111::/48",
     "2a06:9801:112::/47",
+    "2a06:9801:7a0::/44",
     "2a06:98c0::/29",
     "2a06:9f42::/31",
     "2a06:a000::/32",
@@ -37962,6 +37962,7 @@
     "2a10:b040:2::/47",
     "2a10:b040:4::/47",
     "2a10:ba87:feef::/48",
+    "2a10:fa81:800::/40",
     "2a11:2::/32",
     "2a11:840:1::/48",
     "2a11:840:3::/48",
@@ -38134,15 +38135,33 @@
     "2c0f:f248::/32",
     "2c0f:fb50::/32",
     "240b:4016:fffe::/48",
+    "240b:4016:ffff::/48",
     "2401:8680:4100::/48",
     "240b:4004:ffff::/48",
     "240b:4005:fffe::/48",
     "240b:400d:ffff::/48",
     "240b:4011:fffe::/48",
     "240b:4011:ffff::/48",
-    "240b:4016:ffff::/48",
-    "2a02:26f7:bcc0:5eda::/64",
+    "2a02:26f7:f40c:5305::/64",
+    "2a02:26f7:f404:5305::/64",
+    "2a02:26f7:f404:5306::/64",
+    "2a02:26f7:f404:530b::/64",
+    "2a02:26f7:f404:5316::/64",
+    "2a02:26f7:f408:5305::/64",
+    "2a02:26f7:f408:5306::/64",
+    "2a02:26f7:f408:530b::/64",
+    "2a02:26f7:f408:5316::/64",
+    "2a02:26f7:f400:530b::/64",
+    "2a02:26f7:f40c:5306::/64",
+    "2a02:26f7:f40c:530b::/64",
+    "2a02:26f7:f40c:5316::/64",
+    "2a02:26f7:f400:5316::/64",
+    "2a02:26f7:f400:5306::/64",
+    "2a02:26f7:f400:5305::/64",
     "2a02:26f7:bcc0:5e76::/64",
+    "2a02:26f7:bcc0:5eda::/64",
+    "2a02:26f7:bcc0:5f21::/64",
+    "2a02:26f7:bcc0:5f43::/64",
     "2a02:26f7:bcc0:5f83::/64",
     "2a02:26f7:bcc0:5f98::/64",
     "2a02:26f7:bcc4:5e76::/64",
@@ -38154,6 +38173,7 @@
     "2a02:26f7:bcc8:5e76::/64",
     "2a02:26f7:bcc8:5eda::/64",
     "2a02:26f7:bcc8:5f21::/64",
+    "2a02:26f7:bcc8:5f43::/64",
     "2a02:26f7:bcc8:5f83::/64",
     "2a02:26f7:bcc8:5f98::/64",
     "2a02:26f7:bccc:5e76::/64",
@@ -38168,37 +38188,18 @@
     "2a02:26f7:bcd0:5f43::/64",
     "2a02:26f7:bcd0:5f83::/64",
     "2a02:26f7:bcd0:5f98::/64",
-    "2a02:26f7:bcc8:5f43::/64",
+    "2a02:26f7:bcd1:5e76::/64",
     "2a02:26f7:bcd1:5eda::/64",
     "2a02:26f7:bcd1:5f21::/64",
     "2a02:26f7:bcd1:5f43::/64",
     "2a02:26f7:bcd1:5f83::/64",
     "2a02:26f7:bcd1:5f98::/64",
-    "2a02:26f7:bcc0:5f21::/64",
-    "2a02:26f7:bcd1:5e76::/64",
-    "2a02:26f7:bcc0:5f43::/64",
-    "2a02:26f7:f400:5305::/64",
-    "2a02:26f7:f400:5306::/64",
-    "2a02:26f7:f400:530b::/64",
-    "2a02:26f7:f400:5316::/64",
-    "2a02:26f7:f404:5305::/64",
-    "2a02:26f7:f404:5306::/64",
-    "2a02:26f7:f404:530b::/64",
-    "2a02:26f7:f404:5316::/64",
-    "2a02:26f7:f408:5305::/64",
-    "2a02:26f7:f408:5306::/64",
-    "2a02:26f7:f408:530b::/64",
-    "2a02:26f7:f408:5316::/64",
-    "2a02:26f7:f40c:5305::/64",
-    "2a02:26f7:f40c:5306::/64",
-    "2a02:26f7:f40c:530b::/64",
-    "2a02:26f7:f40c:5316::/64",
     "2401:1d80:3220:2::/64",
     "2401:1d80:3220:3::/64",
+    "2606:7b40:3000::/54",
     "2600:f0f1:90::/44",
     "2600:f0f1:14::/48",
     "2600:f0f1:15::/48",
-    "2606:7b40:3000::/54",
     "2600:f0f1:1c::/48",
     "2600:1f00:ec00::/64",
     "2a05:d01c::/36",
@@ -71674,13 +71675,7 @@
     "134.168.246.0/23": [
       "ucloud"
     ],
-    "134.168.248.0/23": [
-      "ucloud"
-    ],
-    "134.168.250.0/24": [
-      "ucloud"
-    ],
-    "134.168.255.0/24": [
+    "134.168.248.0/21": [
       "ucloud"
     ],
     "134.170.192.0/21": [
@@ -76434,9 +76429,6 @@
     ],
     "151.242.144.0/24": [
       "nforce"
-    ],
-    "151.242.194.0/24": [
-      "ovh"
     ],
     "151.243.3.0/24": [
       "hetzner"
@@ -141921,6 +141913,9 @@
     "2a06:9801:112::/47": [
       "ovh"
     ],
+    "2a06:9801:7a0::/44": [
+      "ovh"
+    ],
     "2a06:98c0::/29": [
       "cloudflare"
     ],
@@ -143686,6 +143681,9 @@
     "2a10:ba87:feef::/48": [
       "nforce"
     ],
+    "2a10:fa81:800::/40": [
+      "ovh"
+    ],
     "2a11:2::/32": [
       "nforce"
     ],
@@ -144200,7 +144198,13 @@
     "2c0f:fb50::/32": [
       "google-cloud"
     ],
+    "43.118.6.0/24": [
+      "alibaba"
+    ],
     "156.227.20.0/24": [
+      "alibaba"
+    ],
+    "43.108.6.0/24": [
       "alibaba"
     ],
     "43.91.0.0/16": [
@@ -144221,13 +144225,10 @@
     "8.208.142.0/24": [
       "alibaba"
     ],
-    "43.118.6.0/24": [
-      "alibaba"
-    ],
-    "43.108.6.0/24": [
-      "alibaba"
-    ],
     "240b:4016:fffe::/48": [
+      "alibaba"
+    ],
+    "240b:4016:ffff::/48": [
       "alibaba"
     ],
     "2401:8680:4100::/48": [
@@ -144248,13 +144249,64 @@
     "240b:4011:ffff::/48": [
       "alibaba"
     ],
-    "240b:4016:ffff::/48": [
-      "alibaba"
+    "2a02:26f7:f40c:5305::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f404:5305::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f404:5306::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f404:530b::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f404:5316::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f408:5305::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f408:5306::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f408:530b::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f408:5316::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f400:530b::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f40c:5306::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f40c:530b::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f40c:5316::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f400:5316::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f400:5306::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:f400:5305::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:bcc0:5e76::/64": [
+      "apple-private-relay"
     ],
     "2a02:26f7:bcc0:5eda::/64": [
       "apple-private-relay"
     ],
-    "2a02:26f7:bcc0:5e76::/64": [
+    "2a02:26f7:bcc0:5f21::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:bcc0:5f43::/64": [
       "apple-private-relay"
     ],
     "2a02:26f7:bcc0:5f83::/64": [
@@ -144288,6 +144340,9 @@
       "apple-private-relay"
     ],
     "2a02:26f7:bcc8:5f21::/64": [
+      "apple-private-relay"
+    ],
+    "2a02:26f7:bcc8:5f43::/64": [
       "apple-private-relay"
     ],
     "2a02:26f7:bcc8:5f83::/64": [
@@ -144332,7 +144387,7 @@
     "2a02:26f7:bcd0:5f98::/64": [
       "apple-private-relay"
     ],
-    "2a02:26f7:bcc8:5f43::/64": [
+    "2a02:26f7:bcd1:5e76::/64": [
       "apple-private-relay"
     ],
     "2a02:26f7:bcd1:5eda::/64": [
@@ -144348,63 +144403,6 @@
       "apple-private-relay"
     ],
     "2a02:26f7:bcd1:5f98::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:bcc0:5f21::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:bcd1:5e76::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:bcc0:5f43::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f400:5305::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f400:5306::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f400:530b::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f400:5316::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f404:5305::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f404:5306::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f404:530b::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f404:5316::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f408:5305::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f408:5306::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f408:530b::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f408:5316::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f40c:5305::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f40c:5306::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f40c:530b::/64": [
-      "apple-private-relay"
-    ],
-    "2a02:26f7:f40c:5316::/64": [
       "apple-private-relay"
     ],
     "104.192.138.224/28": [
@@ -144458,6 +144456,9 @@
     "99.78.220.0/22": [
       "aws"
     ],
+    "2606:7b40:3000::/54": [
+      "aws"
+    ],
     "2600:f0f1:90::/44": [
       "aws"
     ],
@@ -144465,9 +144466,6 @@
       "aws"
     ],
     "2600:f0f1:15::/48": [
-      "aws"
-    ],
-    "2606:7b40:3000::/54": [
       "aws"
     ],
     "2600:f0f1:1c::/48": [
@@ -150197,6 +150195,9 @@
     "45.136.228.0/24": [
       "nforce"
     ],
+    "217.21.198.0/24": [
+      "nforce"
+    ],
     "103.106.66.0/24": [
       "nforce"
     ],
@@ -150552,6 +150553,9 @@
       "ovh"
     ],
     "151.240.24.0/24": [
+      "ovh"
+    ],
+    "151.242.194.0/24": [
       "ovh"
     ],
     "155.103.80.0/22": [
@@ -151710,6 +151714,6 @@
       "wasabi"
     ]
   },
-  "retired_ipv4_count": 1821,
+  "retired_ipv4_count": 1823,
   "retired_ipv6_count": 682
 }
