@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-06-02T03:45:04.640395",
+  "generated_at": "2026-06-07T10:01:49.027010",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-06-02T03:45:04.640395",
+  "last_update": "2026-06-07T10:01:49.027010",
   "ipv4": [
     "103.43.72.0/22",
     "104.156.224.0/22",
@@ -497,6 +497,7 @@
     "2a05:f480:3800::/38",
     "2a05:f487:fc00::/38",
     "2a05:f487:fc00::/48",
+    "2a05:f487:fc0d::/48",
     "2a05:f487:fc36::/48",
     "2001:19f0:ffff::/48"
   ],
@@ -3542,46 +3543,32 @@
   ],
   "details_ipv6": [
     {
-      "address": "2001:19f0::/38",
+      "address": "2001:19f0:8000::/38",
       "alpha2code": "US",
-      "region": "US-NJ",
-      "city": "Piscataway",
-      "postal_code": "08854"
+      "region": "US-WA",
+      "city": "Kent",
+      "postal_code": "98032"
     },
     {
-      "address": "2001:19f0:1000::/38",
-      "alpha2code": "US",
-      "region": "US-NJ",
-      "city": "Piscataway",
-      "postal_code": "08854"
+      "address": "2001:19f0:7400::/38",
+      "alpha2code": "GB",
+      "region": "GB-LND",
+      "city": "London",
+      "postal_code": "E14 9SZ"
     },
     {
-      "address": "2001:19f0:1400::/38",
-      "alpha2code": "US",
-      "region": "US-NJ",
-      "city": "Piscataway",
-      "postal_code": "08854"
+      "address": "2a05:f480:1000::/38",
+      "alpha2code": "GB",
+      "region": "GB-LND",
+      "city": "London",
+      "postal_code": "E14 9SZ"
     },
     {
-      "address": "2001:19f0:4000::/38",
+      "address": "2001:19f0:5400::/38",
       "alpha2code": "US",
-      "region": "US-NJ",
-      "city": "Piscataway",
-      "postal_code": "08854"
-    },
-    {
-      "address": "2001:19f0:a800::/38",
-      "alpha2code": "US",
-      "region": "US-NJ",
-      "city": "Piscataway",
-      "postal_code": "08854"
-    },
-    {
-      "address": "2001:19f0:6400::/38",
-      "alpha2code": "US",
-      "region": "US-TX",
-      "city": "Dallas",
-      "postal_code": "75201"
+      "region": "US-GA",
+      "city": "Atlanta",
+      "postal_code": "30318"
     },
     {
       "address": "2001:19f0:9000::/38",
@@ -3654,6 +3641,41 @@
       "postal_code": "M5A 2&5"
     },
     {
+      "address": "2001:19f0::/38",
+      "alpha2code": "US",
+      "region": "US-NJ",
+      "city": "Piscataway",
+      "postal_code": "08854"
+    },
+    {
+      "address": "2001:19f0:1000::/38",
+      "alpha2code": "US",
+      "region": "US-NJ",
+      "city": "Piscataway",
+      "postal_code": "08854"
+    },
+    {
+      "address": "2001:19f0:1400::/38",
+      "alpha2code": "US",
+      "region": "US-NJ",
+      "city": "Piscataway",
+      "postal_code": "08854"
+    },
+    {
+      "address": "2001:19f0:4000::/38",
+      "alpha2code": "US",
+      "region": "US-NJ",
+      "city": "Piscataway",
+      "postal_code": "08854"
+    },
+    {
+      "address": "2001:19f0:a800::/38",
+      "alpha2code": "US",
+      "region": "US-NJ",
+      "city": "Piscataway",
+      "postal_code": "08854"
+    },
+    {
       "address": "2001:19f0:ac00::/38",
       "alpha2code": "US",
       "region": "US-CA",
@@ -3710,11 +3732,18 @@
       "postal_code": "03922"
     },
     {
-      "address": "2001:19f0:8000::/38",
+      "address": "2001:19f0:6400::/38",
       "alpha2code": "US",
-      "region": "US-WA",
-      "city": "Kent",
-      "postal_code": "98032"
+      "region": "US-TX",
+      "city": "Dallas",
+      "postal_code": "75201"
+    },
+    {
+      "address": "2a05:f487:fc00::/48",
+      "alpha2code": "SE",
+      "region": "SE-AB",
+      "city": "Spanga",
+      "postal_code": "163 53"
     },
     {
       "address": "2a05:f480:2000::/38",
@@ -3822,6 +3851,27 @@
       "postal_code": "M27 8BX"
     },
     {
+      "address": "2a05:f487:fc00::/38",
+      "alpha2code": "US",
+      "region": "US-NJ",
+      "city": "Piscataway",
+      "postal_code": "08854"
+    },
+    {
+      "address": "2001:19f0:5c00::/38",
+      "alpha2code": "US",
+      "region": "US-IL",
+      "city": "Elk Grove Village",
+      "postal_code": "60007"
+    },
+    {
+      "address": "2a05:f487:fc0d::/48",
+      "alpha2code": "US",
+      "region": "US-GA",
+      "city": "Atlanta",
+      "postal_code": "30318"
+    },
+    {
       "address": "2001:19f0:8800::/38",
       "alpha2code": "US",
       "region": "US-MO",
@@ -3836,46 +3886,11 @@
       "postal_code": "63043"
     },
     {
-      "address": "2001:19f0:5c00::/38",
-      "alpha2code": "US",
-      "region": "US-IL",
-      "city": "Elk Grove Village",
-      "postal_code": "60007"
-    },
-    {
-      "address": "2001:19f0:7400::/38",
-      "alpha2code": "GB",
-      "region": "GB-LND",
-      "city": "London",
-      "postal_code": "E14 9SZ"
-    },
-    {
-      "address": "2a05:f480:1000::/38",
-      "alpha2code": "GB",
-      "region": "GB-LND",
-      "city": "London",
-      "postal_code": "E14 9SZ"
-    },
-    {
-      "address": "2001:19f0:5400::/38",
-      "alpha2code": "US",
-      "region": "US-GA",
-      "city": "Atlanta",
-      "postal_code": "30318"
-    },
-    {
       "address": "2a05:f480:3800::/38",
       "alpha2code": "IT",
       "region": "IT-IT-MI",
       "city": "Milan",
       "postal_code": "20144"
-    },
-    {
-      "address": "2001:19f0:9c00::/38",
-      "alpha2code": "US",
-      "region": "US-OH",
-      "city": "Springfield",
-      "postal_code": "45502"
     },
     {
       "address": "2001:19f0:5404::/48",
@@ -3885,20 +3900,6 @@
       "postal_code": "30318"
     },
     {
-      "address": "2a05:f487:fc00::/48",
-      "alpha2code": "SE",
-      "region": "SE-AB",
-      "city": "Spanga",
-      "postal_code": "163 53"
-    },
-    {
-      "address": "2a05:f487:fc00::/38",
-      "alpha2code": "US",
-      "region": "US-NJ",
-      "city": "Piscataway",
-      "postal_code": "08854"
-    },
-    {
       "address": "2a05:f487:fc36::/48",
       "alpha2code": "US",
       "region": "US-OH",
@@ -3906,8 +3907,15 @@
       "postal_code": "45502"
     },
     {
+      "address": "2001:19f0:9c00::/38",
+      "alpha2code": "US",
+      "region": "US-OH",
+      "city": "Springfield",
+      "postal_code": "45502"
+    },
+    {
       "address": "2001:19f0:ffff::/48",
-      "retired_at": "2026-06-02T03:49:36.269432+00:00"
+      "retired_at": "2026-06-07T10:09:16.573334+00:00"
     }
   ],
   "source_http": [

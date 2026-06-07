@@ -3,12 +3,12 @@
   "provider_id": "oracle-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-04-29T02:44:17.113606",
+  "generated_at": "2026-06-07T10:01:47.870547",
   "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-04-29T02:44:17.113606",
+  "last_update": "2026-06-07T10:01:47.870547",
   "ipv4": [
     "129.144.0.0/16",
     "129.145.16.0/21",
@@ -299,6 +299,7 @@
     "136.248.64.0/18",
     "137.131.0.0/18",
     "137.131.128.0/17",
+    "137.23.0.0/19",
     "138.1.0.0/22",
     "138.1.108.0/25",
     "138.1.112.0/20",
@@ -535,6 +536,7 @@
     "146.56.96.0/20",
     "147.15.0.0/17",
     "147.15.128.0/19",
+    "147.15.176.0/23",
     "147.15.184.0/21",
     "147.15.192.0/18",
     "147.154.0.0/19",
@@ -566,11 +568,13 @@
     "147.5.128.0/17",
     "147.5.20.0/22",
     "147.5.28.0/22",
+    "147.5.64.0/19",
     "147.5.96.0/19",
     "148.116.104.0/21",
     "148.116.112.0/22",
     "148.116.64.0/19",
     "149.118.240.0/23",
+    "149.118.32.0/19",
     "149.118.64.0/20",
     "149.118.92.0/22",
     "149.130.136.0/23",
@@ -727,8 +731,11 @@
     "160.34.6.0/23",
     "160.34.8.0/22",
     "161.118.128.0/19",
+    "161.118.16.0/20",
     "161.118.160.0/19",
     "161.118.192.0/18",
+    "161.118.64.0/18",
+    "161.118.8.0/21",
     "161.153.0.0/17",
     "161.153.128.0/18",
     "161.153.192.0/20",
@@ -1042,8 +1049,10 @@
     "81.208.160.0/20",
     "81.208.188.0/22",
     "81.208.192.0/19",
+    "82.70.208.0/20",
     "82.70.224.0/20",
     "82.70.248.0/22",
+    "82.70.252.0/22",
     "82.70.32.0/19",
     "82.70.64.0/19",
     "84.235.160.0/19",
@@ -1067,6 +1076,8 @@
     "84.8.72.0/22",
     "84.8.88.128/25",
     "84.8.96.0/19",
+    "88.96.0.0/19",
+    "88.96.32.0/19",
     "89.168.0.0/21",
     "89.168.16.0/20",
     "89.168.32.0/19",
@@ -2964,6 +2975,62 @@
       "region": "ap-mumbai-1"
     },
     {
+      "address": "82.70.208.0/20",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "82.70.252.0/22",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "129.159.128.0/19",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "130.110.238.0/24",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "151.145.80.0/20",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "158.178.128.0/22",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "158.178.248.0/22",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "84.235.192.0/23",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "92.5.254.0/24",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "129.149.120.0/22",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "129.149.126.0/25",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "134.70.172.0/22",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "140.91.76.0/23",
+      "region": "il-jerusalem-1"
+    },
+    {
+      "address": "140.204.108.128/25",
+      "region": "il-jerusalem-1"
+    },
+    {
       "address": "84.8.96.0/19",
       "region": "me-riyadh-1"
     },
@@ -3258,6 +3325,70 @@
     {
       "address": "140.204.66.128/25",
       "region": "me-dubai-1"
+    },
+    {
+      "address": "88.96.0.0/19",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "129.151.64.0/19",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "134.65.56.0/21",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "144.24.224.0/21",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "129.148.200.0/21",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "129.149.16.0/23",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "129.149.20.0/23",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "129.149.22.0/25",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "129.149.22.192/26",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "129.149.23.0/24",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "130.110.24.0/22",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "134.70.136.0/22",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "140.91.60.0/23",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "140.204.70.128/25",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "209.17.60.0/22",
+      "region": "uk-cardiff-1"
+    },
+    {
+      "address": "88.96.32.0/19",
+      "region": "eu-paris-1"
     },
     {
       "address": "89.168.32.0/19",
@@ -3564,6 +3695,10 @@
       "region": "us-ashburn-1"
     },
     {
+      "address": "147.5.64.0/19",
+      "region": "us-ashburn-1"
+    },
+    {
       "address": "147.154.0.0/19",
       "region": "us-ashburn-1"
     },
@@ -3697,6 +3832,10 @@
     },
     {
       "address": "129.154.168.0/22",
+      "region": "ap-sydney-1"
+    },
+    {
+      "address": "137.23.0.0/19",
       "region": "ap-sydney-1"
     },
     {
@@ -4124,62 +4263,6 @@
       "region": "ap-singapore-1"
     },
     {
-      "address": "129.151.64.0/19",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "134.65.56.0/21",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "144.24.224.0/21",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "129.148.200.0/21",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "129.149.16.0/23",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "129.149.20.0/23",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "129.149.22.0/25",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "129.149.22.192/26",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "129.149.23.0/24",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "130.110.24.0/22",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "134.70.136.0/22",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "140.91.60.0/23",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "140.204.70.128/25",
-      "region": "uk-cardiff-1"
-    },
-    {
-      "address": "209.17.60.0/22",
-      "region": "uk-cardiff-1"
-    },
-    {
       "address": "129.154.48.0/20",
       "region": "ap-chuncheon-1"
     },
@@ -4232,6 +4315,14 @@
       "region": "ap-chuncheon-1"
     },
     {
+      "address": "161.118.16.0/20",
+      "region": "ap-chuncheon-1"
+    },
+    {
+      "address": "161.118.64.0/18",
+      "region": "ap-chuncheon-1"
+    },
+    {
       "address": "168.107.0.0/18",
       "region": "ap-chuncheon-1"
     },
@@ -4270,54 +4361,6 @@
     {
       "address": "146.56.120.0/22",
       "region": "ap-chuncheon-1"
-    },
-    {
-      "address": "129.159.128.0/19",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "130.110.238.0/24",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "151.145.80.0/20",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "158.178.128.0/22",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "158.178.248.0/22",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "84.235.192.0/23",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "92.5.254.0/24",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "129.149.120.0/22",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "129.149.126.0/25",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "134.70.172.0/22",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "140.91.76.0/23",
-      "region": "il-jerusalem-1"
-    },
-    {
-      "address": "140.204.108.128/25",
-      "region": "il-jerusalem-1"
     },
     {
       "address": "130.162.192.0/21",
@@ -4537,6 +4580,10 @@
     },
     {
       "address": "161.33.252.0/24",
+      "region": "ap-tokyo-1"
+    },
+    {
+      "address": "161.118.8.0/21",
       "region": "ap-tokyo-1"
     },
     {
@@ -4824,6 +4871,10 @@
       "region": "mx-queretaro-1"
     },
     {
+      "address": "147.15.176.0/23",
+      "region": "mx-queretaro-1"
+    },
+    {
       "address": "155.248.144.0/22",
       "region": "mx-queretaro-1"
     },
@@ -4841,6 +4892,10 @@
     },
     {
       "address": "140.245.32.0/19",
+      "region": "ap-singapore-2"
+    },
+    {
+      "address": "149.118.32.0/19",
       "region": "ap-singapore-2"
     },
     {
@@ -5410,8 +5465,8 @@
       "url": "https://docs.oracle.com/iaas/tools/public_ip_ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"69f070ab-2db70\"",
-      "last_modified": "Tue, 28 Apr 2026 08:32:43 GMT"
+      "etag": "\"6a228b7a-2e286\"",
+      "last_modified": "Fri, 05 Jun 2026 08:40:26 GMT"
     }
   ]
 }
