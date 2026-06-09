@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-06-08T03:50:31.875049",
-  "source_updated_at": "2026-06-05-20-37-04",
+  "generated_at": "2026-06-09T02:54:42.604943",
+  "source_updated_at": "2026-06-08-22-57-04",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-06-05-20-37-04",
+  "last_update": "2026-06-08-22-57-04",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -3627,12 +3627,6 @@
       "service": "AMAZON",
       "region": "eu-west-3",
       "network_border_group": "eu-west-3"
-    },
-    {
-      "address": "64.73.197.0/24",
-      "service": "AMAZON",
-      "region": "us-east-1",
-      "network_border_group": "us-east-1"
     },
     {
       "address": "83.119.64.0/18",
@@ -26813,12 +26807,6 @@
       "network_border_group": "me-south-1"
     },
     {
-      "address": "64.73.196.0/24",
-      "service": "AMAZON",
-      "region": "us-east-1",
-      "network_border_group": "us-east-1"
-    },
-    {
       "address": "75.47.0.0/18",
       "service": "AMAZON",
       "region": "us-east-1",
@@ -33479,6 +33467,12 @@
       "network_border_group": "ap-southeast-2"
     },
     {
+      "address": "32.236.198.0/23",
+      "service": "AMAZON",
+      "region": "ap-southeast-2",
+      "network_border_group": "ap-southeast-2"
+    },
+    {
       "address": "108.136.151.0/24",
       "service": "AMAZON",
       "region": "ap-southeast-3",
@@ -33642,6 +33636,12 @@
     },
     {
       "address": "56.68.36.0/23",
+      "service": "AMAZON",
+      "region": "ap-southeast-5",
+      "network_border_group": "ap-southeast-5"
+    },
+    {
+      "address": "56.69.112.0/23",
       "service": "AMAZON",
       "region": "ap-southeast-5",
       "network_border_group": "ap-southeast-5"
@@ -40905,12 +40905,6 @@
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
-    },
-    {
-      "address": "64.73.197.0/24",
-      "service": "EC2",
-      "region": "us-east-1",
-      "network_border_group": "us-east-1"
     },
     {
       "address": "83.119.64.0/18",
@@ -48807,12 +48801,6 @@
       "service": "EC2",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
-    },
-    {
-      "address": "64.73.196.0/24",
-      "service": "EC2",
-      "region": "us-east-1",
-      "network_border_group": "us-east-1"
     },
     {
       "address": "75.47.0.0/18",
@@ -59225,6 +59213,12 @@
       "network_border_group": "eu-central-1"
     },
     {
+      "address": "18.199.180.140/30",
+      "service": "EBS",
+      "region": "eu-central-1",
+      "network_border_group": "eu-central-1"
+    },
+    {
       "address": "3.64.226.232/29",
       "service": "EBS",
       "region": "eu-central-1",
@@ -59319,6 +59313,12 @@
       "service": "EBS",
       "region": "eu-west-1",
       "network_border_group": "eu-west-1"
+    },
+    {
+      "address": "16.60.228.176/30",
+      "service": "EBS",
+      "region": "eu-west-2",
+      "network_border_group": "eu-west-2"
     },
     {
       "address": "18.168.37.136/29",
@@ -62233,6 +62233,12 @@
       "network_border_group": "us-east-2"
     },
     {
+      "address": "2606:7b40:1b0f:800::/56",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
+    },
+    {
       "address": "2631:0:1400::/39",
       "service": "AMAZON",
       "region": "eu-central-1",
@@ -63659,6 +63665,12 @@
       "service": "AMAZON",
       "region": "us-east-1",
       "network_border_group": "us-east-1"
+    },
+    {
+      "address": "2600:f0f3:f010:200::/56",
+      "service": "AMAZON",
+      "region": "us-west-1",
+      "network_border_group": "us-west-1"
     },
     {
       "address": "2606:7b40:1b0d:c000::/56",
@@ -72367,6 +72379,12 @@
       "network_border_group": "us-east-2"
     },
     {
+      "address": "2606:7b40:1b0c:300::/56",
+      "service": "AMAZON",
+      "region": "eu-central-1",
+      "network_border_group": "eu-central-1"
+    },
+    {
       "address": "2a05:d040:c000::/40",
       "service": "AMAZON",
       "region": "eu-west-2",
@@ -72707,6 +72725,12 @@
       "service": "AMAZON",
       "region": "il-central-1",
       "network_border_group": "il-central-1"
+    },
+    {
+      "address": "2606:7b40:1b0f:700::/56",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
     },
     {
       "address": "2a05:d033:8000::/40",
@@ -83023,6 +83047,12 @@
       "network_border_group": "us-east-2"
     },
     {
+      "address": "2606:7b40:1b0f:800::/56",
+      "service": "EC2",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
+    },
+    {
       "address": "2a05:d02f::/36",
       "service": "EC2",
       "region": "eu-central-1",
@@ -84143,6 +84173,12 @@
       "service": "EC2",
       "region": "us-east-1",
       "network_border_group": "us-east-1"
+    },
+    {
+      "address": "2600:f0f3:f010:200::/56",
+      "service": "EC2",
+      "region": "us-west-1",
+      "network_border_group": "us-west-1"
     },
     {
       "address": "2606:7b40:1b0d:c000::/56",
@@ -91003,6 +91039,12 @@
       "network_border_group": "us-east-2"
     },
     {
+      "address": "2606:7b40:1b0c:300::/56",
+      "service": "EC2",
+      "region": "eu-central-1",
+      "network_border_group": "eu-central-1"
+    },
+    {
       "address": "2a05:d040:c000::/40",
       "service": "EC2",
       "region": "eu-west-2",
@@ -91277,6 +91319,12 @@
       "service": "EC2",
       "region": "il-central-1",
       "network_border_group": "il-central-1"
+    },
+    {
+      "address": "2606:7b40:1b0f:700::/56",
+      "service": "EC2",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
     },
     {
       "address": "2a05:d033:8000::/40",
