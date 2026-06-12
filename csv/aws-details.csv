@@ -5805,6 +5805,7 @@ IPv4,78.12.63.0/24,mx-central-1,mx-central-1,AMAZON
 IPv4,78.12.64.0/23,mx-central-1,mx-central-1,AMAZON
 IPv4,78.13.188.0/23,mx-central-1,mx-central-1,AMAZON
 IPv4,78.13.88.0/23,mx-central-1,mx-central-1,AMAZON
+IPv4,78.14.116.0/23,mx-central-1,mx-central-1,AMAZON
 IPv4,15.228.1.128/26,sa-east-1,sa-east-1,AMAZON
 IPv4,15.228.1.192/26,sa-east-1,sa-east-1,AMAZON
 IPv4,15.228.1.64/26,sa-east-1,sa-east-1,AMAZON
@@ -11296,6 +11297,7 @@ IPv6,2600:9000:f530::/46,GLOBAL,GLOBAL,AMAZON
 IPv6,2600:f0f0:e29::/48,ap-northeast-3,ap-northeast-3,AMAZON
 IPv6,2600:f0f0:810f::/48,ap-southeast-2,ap-southeast-2,AMAZON
 IPv6,2600:f0f0:8183::/48,eu-central-1,eu-central-1,AMAZON
+IPv6,2600:f0f0:c102::/48,us-east-1-dfw-2,us-east-1,AMAZON
 IPv6,2600:f0fb:f000::/44,us-gov-west-1,us-gov-west-1,AMAZON
 IPv6,2606:f40:5000::/39,eu-west-1,eu-west-1,AMAZON
 IPv6,2620:107:4000:9900:50:80::/96,us-west-2,us-west-2,AMAZON
@@ -13783,12 +13785,15 @@ IPv6,2600:1f22:28::/48,us-gov-west-1,us-gov-west-1,WORKSPACES_GATEWAYS
 IPv6,2406:da21:c::/48,af-south-1,af-south-1,WORKSPACES_GATEWAYS
 IPv6,2406:da24:28::/48,ap-northeast-1,ap-northeast-1,WORKSPACES_GATEWAYS
 IPv6,2406:da22:4::/48,ap-northeast-2,ap-northeast-2,WORKSPACES_GATEWAYS
+IPv6,2406:da26:1c::/48,ap-northeast-3,ap-northeast-3,WORKSPACES_GATEWAYS
 IPv6,2406:da2a:14::/48,ap-south-1,ap-south-1,WORKSPACES_GATEWAYS
 IPv6,2406:da28:28::/48,ap-southeast-1,ap-southeast-1,WORKSPACES_GATEWAYS
 IPv6,2406:da2c:24::/48,ap-southeast-2,ap-southeast-2,WORKSPACES_GATEWAYS
 IPv6,2406:da20:8018::/48,ap-southeast-5,ap-southeast-5,WORKSPACES_GATEWAYS
 IPv6,2600:1f21:8::/48,ca-central-1,ca-central-1,WORKSPACES_GATEWAYS
+IPv6,2600:1f2a:401c::/48,ca-west-1,ca-west-1,WORKSPACES_GATEWAYS
 IPv6,2a05:d024:18::/48,eu-central-1,eu-central-1,WORKSPACES_GATEWAYS
+IPv6,2a05:d029:4::/48,eu-central-2,eu-central-2,WORKSPACES_GATEWAYS
 IPv6,2a05:d02a:4::/48,eu-south-1,eu-south-1,WORKSPACES_GATEWAYS
 IPv6,2a05:d021:c::/48,eu-south-2,eu-south-2,WORKSPACES_GATEWAYS
 IPv6,2a05:d028:40::/48,eu-west-1,eu-west-1,WORKSPACES_GATEWAYS
@@ -14561,6 +14566,7 @@ IPv6,2600:1fff:7400::/40,mx-central-1,mx-central-1,EC2
 IPv6,2600:f0f0:e29::/48,ap-northeast-3,ap-northeast-3,EC2
 IPv6,2600:f0f0:810f::/48,ap-southeast-2,ap-southeast-2,EC2
 IPv6,2600:f0f0:8183::/48,eu-central-1,eu-central-1,EC2
+IPv6,2600:f0f0:c102::/48,us-east-1-dfw-2,us-east-1,EC2
 IPv6,2600:f0fb:f000::/44,us-gov-west-1,us-gov-west-1,EC2
 IPv6,2606:f40:5000::/39,eu-west-1,eu-west-1,EC2
 IPv6,2a05:d07f:8000::/40,eu-west-1,eu-west-1,EC2

@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-06-11T03:45:50.218623",
-  "source_updated_at": "2026-06-10-13-07-06",
+  "generated_at": "2026-06-12T03:44:08.771175",
+  "source_updated_at": "2026-06-11-21-37-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-06-10-13-07-06",
+  "last_update": "2026-06-11-21-37-05",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -34847,6 +34847,12 @@
       "network_border_group": "mx-central-1"
     },
     {
+      "address": "78.14.116.0/23",
+      "service": "AMAZON",
+      "region": "mx-central-1",
+      "network_border_group": "mx-central-1"
+    },
+    {
       "address": "15.228.1.128/26",
       "service": "AMAZON",
       "region": "sa-east-1",
@@ -67795,6 +67801,12 @@
       "network_border_group": "eu-central-1"
     },
     {
+      "address": "2600:f0f0:c102::/48",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1-dfw-2"
+    },
+    {
       "address": "2600:f0fb:f000::/44",
       "service": "AMAZON",
       "region": "us-gov-west-1",
@@ -82717,6 +82729,12 @@
       "network_border_group": "ap-northeast-2"
     },
     {
+      "address": "2406:da26:1c::/48",
+      "service": "WORKSPACES_GATEWAYS",
+      "region": "ap-northeast-3",
+      "network_border_group": "ap-northeast-3"
+    },
+    {
       "address": "2406:da2a:14::/48",
       "service": "WORKSPACES_GATEWAYS",
       "region": "ap-south-1",
@@ -82747,10 +82765,22 @@
       "network_border_group": "ca-central-1"
     },
     {
+      "address": "2600:1f2a:401c::/48",
+      "service": "WORKSPACES_GATEWAYS",
+      "region": "ca-west-1",
+      "network_border_group": "ca-west-1"
+    },
+    {
       "address": "2a05:d024:18::/48",
       "service": "WORKSPACES_GATEWAYS",
       "region": "eu-central-1",
       "network_border_group": "eu-central-1"
+    },
+    {
+      "address": "2a05:d029:4::/48",
+      "service": "WORKSPACES_GATEWAYS",
+      "region": "eu-central-2",
+      "network_border_group": "eu-central-2"
     },
     {
       "address": "2a05:d02a:4::/48",
@@ -87383,6 +87413,12 @@
       "service": "EC2",
       "region": "eu-central-1",
       "network_border_group": "eu-central-1"
+    },
+    {
+      "address": "2600:f0f0:c102::/48",
+      "service": "EC2",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1-dfw-2"
     },
     {
       "address": "2600:f0fb:f000::/44",

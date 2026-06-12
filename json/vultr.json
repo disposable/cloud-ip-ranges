@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-06-11T03:45:53.132112",
+  "generated_at": "2026-06-12T03:44:12.130602",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-06-11T03:45:53.132112",
+  "last_update": "2026-06-12T03:44:12.130602",
   "ipv4": [
     "103.43.72.0/22",
     "104.156.224.0/22",
@@ -392,6 +392,7 @@
     "66.245.192.0/21",
     "66.245.200.0/21",
     "66.245.208.0/23",
+    "66.245.212.0/22",
     "66.245.216.0/21",
     "66.42.112.0/20",
     "66.42.32.0/20",
@@ -1362,6 +1363,13 @@
       "region": "US-MO",
       "city": "Maryland Heights",
       "postal_code": "63043"
+    },
+    {
+      "address": "66.245.212.0/22",
+      "alpha2code": "IT",
+      "region": "IT-IT-MI",
+      "city": "Milan",
+      "postal_code": "20144"
     },
     {
       "address": "66.245.216.0/21",
@@ -3915,7 +3923,7 @@
     },
     {
       "address": "2001:19f0:ffff::/48",
-      "retired_at": "2026-06-11T03:50:03.256279+00:00"
+      "retired_at": "2026-06-12T03:48:03.128397+00:00"
     }
   ],
   "source_http": [
