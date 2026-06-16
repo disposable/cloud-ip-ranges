@@ -3,12 +3,12 @@
   "provider_id": "branch",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-06-12T03:44:25.802622",
+  "generated_at": "2026-06-16T03:55:26.719850",
   "source_updated_at": null,
   "source": [
     "https://help.branch.io/docs/postback-webhook-ip-address-allowlist-expands"
   ],
-  "last_update": "2026-06-12T03:44:25.802622",
+  "last_update": "2026-06-16T03:55:26.719850",
   "ipv4": [
     "100.21.145.61/32",
     "139.87.104.123/32",
@@ -25,7 +25,6 @@
     "44.238.95.201/32",
     "44.247.175.42/32",
     "44.247.58.38/32",
-    "5.1.2.2/32",
     "52.27.172.117/32",
     "52.33.75.0/32",
     "52.34.127.49/32",
@@ -46,7 +45,8 @@
     "54.177.16.103/32",
     "54.193.10.161/32",
     "54.213.17.93/32",
-    "54.241.169.87/32"
+    "54.241.169.87/32",
+    "5.1.2.2/32"
   ],
   "ipv6": [],
   "source_http": [
@@ -54,8 +54,14 @@
       "url": "https://help.branch.io/docs/postback-webhook-ip-address-allowlist-expands",
       "status": 200,
       "content_type": "text/html; charset=utf-8",
-      "etag": "W/\"ef693-Z8aLJsuPwTYxqhfOhcfxq1xeJys\"",
+      "etag": "W/\"eeb22-/zdD6X9v1SC/onWCtncnKEvh0QA\"",
       "last_modified": null
+    }
+  ],
+  "details_ipv4": [
+    {
+      "address": "5.1.2.2/32",
+      "retired_at": "2026-06-16T03:59:46.504059+00:00"
     }
   ]
 }
