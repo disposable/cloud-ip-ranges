@@ -3,12 +3,12 @@
   "provider_id": "exoscale",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-06-23T03:23:44.089504",
+  "generated_at": "2026-06-24T03:25:45.858144",
   "source_updated_at": null,
   "source": [
     "https://exoscale-prefixes.sos-ch-dk-2.exo.io/exoscale_prefixes.json"
   ],
-  "last_update": "2026-06-23T03:23:44.089504",
+  "last_update": "2026-06-24T03:25:45.858144",
   "ipv4": [
     "138.124.208.0/22",
     "138.124.212.0/22",
@@ -17,6 +17,8 @@
     "151.145.192.0/22",
     "151.145.196.0/22",
     "151.145.200.0/21",
+    "151.145.208.0/22",
+    "151.145.212.0/22",
     "159.100.240.0/22",
     "159.100.244.0/24",
     "159.100.245.0/24",
@@ -78,25 +80,27 @@
     "2a07:6cc0:80::/48",
     "2a07:6cc0:81::/48",
     "2a07:6cc2::/32",
-    "2a07:6cc3::/32"
+    "2a07:6cc3::/32",
+    "2a07:6cc4::/32",
+    "2a07:6cc5::/32"
   ],
   "source_http": [
     {
       "url": "https://exoscale-prefixes.sos-ch-dk-2.exo.io/exoscale_prefixes.json",
       "status": 200,
       "content_type": "text/plain; charset=utf-8",
-      "etag": "\"b76751b662d920be687e9b4db602daf5\"",
-      "last_modified": "Mon, 13 Apr 2026 12:45:32 GMT"
+      "etag": "\"fc092bcd14e9f0c2f454f7ec5fe606c0\"",
+      "last_modified": "Tue, 23 Jun 2026 07:58:37 GMT"
     }
   ],
   "details_ipv4": [
     {
       "address": "138.124.216.0/23",
-      "retired_at": "2026-06-23T03:31:33.308471+00:00"
+      "retired_at": "2026-06-24T03:29:02.161149+00:00"
     },
     {
       "address": "151.145.200.0/22",
-      "retired_at": "2026-06-23T03:31:33.308471+00:00"
+      "retired_at": "2026-06-24T03:29:02.161149+00:00"
     }
   ]
 }
