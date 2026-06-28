@@ -3,14 +3,14 @@
   "provider_id": "cloudflare",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-06-27T02:54:13.653578",
+  "generated_at": "2026-06-28T03:36:51.844118",
   "source_updated_at": null,
   "source": [
     "https://www.cloudflare.com/ips-v4",
     "https://www.cloudflare.com/ips-v6",
     "https://api.cloudflare.com/client/v4/ips?networks=jdcloud"
   ],
-  "last_update": "2026-06-27T02:54:13.653578",
+  "last_update": "2026-06-28T03:36:51.844118",
   "ipv4": [
     "101.69.205.224/27",
     "103.21.244.0/22",
@@ -141,14 +141,14 @@
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Fri, 26 Jun 2026 04:29:00 GMT"
+      "last_modified": "Sat, 27 Jun 2026 23:05:41 GMT"
     },
     {
       "url": "https://www.cloudflare.com/ips-v6",
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Fri, 26 Jun 2026 08:43:33 GMT"
+      "last_modified": "Sun, 28 Jun 2026 03:14:32 GMT"
     },
     {
       "url": "https://api.cloudflare.com/client/v4/ips?networks=jdcloud",
@@ -161,13 +161,13 @@
   "details_ipv4": [
     {
       "address": "111.124.206.32/27",
-      "retired_at": "2026-06-27T02:57:33.332273+00:00"
+      "retired_at": "2026-06-28T03:41:12.580446+00:00"
     }
   ],
   "details_ipv6": [
     {
       "address": "240e:938:a07:16:1000::/68",
-      "retired_at": "2026-06-27T02:57:33.332273+00:00"
+      "retired_at": "2026-06-28T03:41:12.580446+00:00"
     }
   ]
 }
