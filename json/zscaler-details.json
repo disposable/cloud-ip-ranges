@@ -3,13 +3,13 @@
   "provider_id": "zscaler",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-05-29T03:25:46.821335",
+  "generated_at": "2026-07-01T03:38:30.515605",
   "source_updated_at": null,
   "source": [
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"
   ],
-  "last_update": "2026-05-29T03:25:46.821335",
+  "last_update": "2026-07-01T03:38:30.515605",
   "ipv4": [
     {
       "address": "8.25.203.0/24",
@@ -177,6 +177,10 @@
     },
     {
       "address": "137.31.0.0/22",
+      "category": "required"
+    },
+    {
+      "address": "137.31.134.0/23",
       "category": "required"
     },
     {

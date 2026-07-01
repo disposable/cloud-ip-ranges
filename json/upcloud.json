@@ -3,13 +3,13 @@
   "provider_id": "upcloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-06-30T03:34:05.424513",
+  "generated_at": "2026-07-01T03:42:05.090802",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS202053",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25697"
   ],
-  "last_update": "2026-06-30T03:34:05.424513",
+  "last_update": "2026-07-01T03:42:05.090802",
   "ipv4": [
     "109.71.54.0/24",
     "109.71.55.0/24",
@@ -72,6 +72,7 @@
     "87.58.148.0/22",
     "87.58.152.0/22",
     "87.58.156.0/23",
+    "87.58.158.0/23",
     "94.237.0.0/24",
     "94.237.1.0/24",
     "94.237.104.0/22",
@@ -141,11 +142,11 @@
   "details_ipv4": [
     {
       "address": "195.144.5.0/24",
-      "retired_at": "2026-06-30T03:34:18.861028+00:00"
+      "retired_at": "2026-07-01T03:42:16.698691+00:00"
     },
     {
       "address": "212.147.248.0/22",
-      "retired_at": "2026-06-30T03:34:18.861028+00:00"
+      "retired_at": "2026-07-01T03:42:16.698691+00:00"
     }
   ]
 }
