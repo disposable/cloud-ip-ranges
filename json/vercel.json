@@ -3,7 +3,7 @@
   "provider_id": "vercel",
   "method": "rdap_registry",
   "coverage_notes": "Vercel-owned netblocks (registry), not the full set of cloud egress/edge IPs",
-  "generated_at": "2026-03-19T02:04:37.703185",
+  "generated_at": "2026-07-03T02:46:55.250037",
   "source_updated_at": {
     "$": "2026-03-18T17:50:12-04:00"
   },
@@ -12,7 +12,7 @@
     "https://rdap.arin.net/registry/ip/198.169.1.0",
     "https://rdap.arin.net/registry/ip/155.121.0.0"
   ],
-  "last_update": "2026-03-19T02:04:37.703185",
+  "last_update": "2026-07-03T02:46:55.250037",
   "ipv4": [
     "143.13.0.0/16",
     "155.121.0.0/16",
@@ -29,7 +29,9 @@
     "66.33.60.0/24",
     "76.76.21.0/24"
   ],
-  "ipv6": [],
+  "ipv6": [
+    "2607:db00::/32"
+  ],
   "source_http": [
     {
       "url": "https://rdap.arin.net/registry/ip/76.76.21.0",
