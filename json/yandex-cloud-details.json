@@ -1,0 +1,212 @@
+{
+  "provider": "Yandex Cloud",
+  "provider_id": "yandex-cloud",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-07-04T02:47:25.857384",
+  "source_updated_at": null,
+  "source": [
+    "https://yandex.cloud/en/docs/security/ip-list"
+  ],
+  "last_update": "2026-07-04T02:47:25.857384",
+  "ipv4": [
+    {
+      "address": "1.7.85.85/32",
+      "service": "Yandex Cloud Services"
+    },
+    {
+      "address": "2.32.85.85/32",
+      "service": "Yandex Cloud Services"
+    },
+    {
+      "address": "31.44.8.0/21",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "37.230.168.0/23",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "37.230.172.0/22",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "37.230.188.0/22",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "45.133.96.0/22",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "46.21.244.0/22",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "46.243.210.0/23",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "51.250.0.0/17",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "62.84.112.0/20",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "81.26.176.0/20",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "84.201.128.0/18",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "84.252.128.0/20",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "89.169.128.0/18",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "89.232.188.0/22",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "92.255.1.0/24",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "92.255.3.0/24",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "93.77.160.0/19",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "94.131.80.0/20",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "103.76.52.0/22",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "111.88.144.0/20",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "111.88.240.0/20",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "130.193.32.0/19",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "153.51.32.0/19",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "158.160.0.0/16",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "178.154.192.0/18",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "178.170.222.0/24",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "185.206.164.0/22",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "193.32.216.0/22",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "213.130.80.0/21",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "213.165.192.0/19",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "217.28.224.0/20",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "217.198.168.0/21",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "89.223.20.0/24",
+      "service": "BareMetal"
+    },
+    {
+      "address": "92.255.58.0/23",
+      "service": "BareMetal"
+    },
+    {
+      "address": "94.126.204.0/22",
+      "service": "BareMetal"
+    },
+    {
+      "address": "94.139.248.0/22",
+      "service": "BareMetal"
+    },
+    {
+      "address": "185.184.128.0/22",
+      "service": "BareMetal"
+    },
+    {
+      "address": "185.216.194.0/23",
+      "service": "BareMetal"
+    },
+    {
+      "address": "84.201.151.229/32",
+      "service": "SmartCaptcha"
+    },
+    {
+      "address": "46.243.212.0/24",
+      "service": "Smart Web Security"
+    },
+    {
+      "address": "194.247.51.0/24",
+      "service": "Smart Web Security"
+    }
+  ],
+  "ipv6": [
+    {
+      "address": "2a0d:d6c1:0:1a::20e/128",
+      "service": "SmartCaptcha"
+    },
+    {
+      "address": "2a02:6b8:c0e:500:0:f898::/112",
+      "service": "DSPM"
+    },
+    {
+      "address": "2a02:6b8:c02:900:0:f898::/112",
+      "service": "DSPM"
+    },
+    {
+      "address": "2a02:6b8:c41:1300:0:f898::/112",
+      "service": "DSPM"
+    },
+    {
+      "address": "2a02:6b8::/32",
+      "service": "Yandex Cloud Services"
+    },
+    {
+      "address": "2a0d:d6c0::/29",
+      "service": "Yandex Cloud Services"
+    }
+  ]
+}
