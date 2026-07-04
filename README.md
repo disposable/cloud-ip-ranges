@@ -10,17 +10,19 @@ which shows their assigned IP ranges.
 <!-- STATS_START -->
 | Metric | Value |
 |--------|------:|
-| Providers tracked | **72** |
+| Providers tracked | **72** (71 cloud + 1 misc) |
 | Active IPv4 addresses | **302,128,874** (155,408 subnets) |
 | Active IPv6 /64 subnets | **12,165,809,479,681** (279,566 ranges) |
 | Retired IPv4 (≤ 4 weeks) | 18,688 addresses (208 subnets) |
 | Retired IPv6 (≤ 4 weeks) | 104,857,600 /64s (7 ranges) |
-| Last crawled | 2026-07-04 02:48 UTC |
+| Last crawled | 2026-07-04 04:48 UTC |
 <!-- STATS_END -->
 
 ## Data sources
 
 <!-- SOURCES_TABLE_START -->
+### Cloud Providers
+
 | Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |
 |----------|--------|--------|---------:|----------:|--------------|------|-----|-----|
 | A2Hosting | AS55293 | ASN Prefix | 116,224 (99 subnets) | 0 | 2026-04-04 | [JSON](json/a2hosting.json) | [TXT](txt/a2hosting.txt) | [CSV](csv/a2hosting.csv) |
@@ -82,7 +84,6 @@ which shows their assigned IP ranges.
 | Seeweb | AS12637 | ASN Prefix | 89,344 (39 subnets) | 193,273,528,320 (10 ranges) | 2026-07-04 | [JSON](json/seeweb.json) | [TXT](txt/seeweb.txt) | [CSV](csv/seeweb.csv) |
 | Sentry | [sentry.io/…/uptime-ips](https://sentry.io/api/0/uptime-ips/) | Published List | 12 (12 subnets) | 0 | 2026-06-20 | [JSON](json/sentry.json) | [TXT](txt/sentry.txt) | [CSV](csv/sentry.csv) |
 | Softlayer Ibm | RADB::AS-SOFTLAYER<br>AS11172<br>AS131476<br>AS131631<br>AS131659<br>AS134176<br>AS134826<br>AS134829<br>AS135134<br>AS138145<br>AS14417<br>AS16807<br>AS17390<br>AS19281<br>AS198605<br>AS200432<br>AS200840<br>AS202665<br>AS203734<br>AS204090<br>AS204508<br>AS204527<br>AS205434<br>AS20546<br>AS205805<br>AS20675<br>AS206998<br>AS208162<br>AS212795<br>AS213242<br>AS21844<br>AS22400<br>AS22954<br>AS23468<br>AS25773<br>AS25926<br>AS263034<br>AS26695<br>AS26968<br>AS28249<br>AS28356<br>AS30315<br>AS31688<br>AS36167<br>AS36344<br>AS36351<br>AS38719<br>AS393472<br>AS394695<br>AS43047<br>AS44588<br>AS46160<br>AS4759<br>AS48851<br>AS49072<br>AS49765<br>AS50524<br>AS50526<br>AS53334<br>AS55082<br>AS55789<br>AS59630<br>AS62874<br>AS63440<br>AS63912<br>AS63949<br>AS64999<br>AS7489 | RADB AS-SET | 6,994,792 (2,959 subnets) | 288,553,435,137 (3,513 ranges) | 2026-07-04 | [JSON](json/softlayer-ibm.json) | [TXT](txt/softlayer-ibm.txt) | [CSV](csv/softlayer-ibm.csv) |
-| Starlink | [geoip.starlinkisp.net/feed.csv](https://geoip.starlinkisp.net/feed.csv) | Published List | 735,412 (3,079 subnets)<br>+18,688 retired | 15,012,921,428 (839 ranges)<br>+104,857,600 retired | 2026-07-04 | [JSON](misc/starlink.json) | [TXT](misc/starlink.txt) | [CSV](misc/starlink.csv) |
 | Stripe | [stripe.com/…/ips_api.json](https://stripe.com/files/ips/ips_api.json)<br>[stripe.com/…/ips_webhooks.json](https://stripe.com/files/ips/ips_webhooks.json) | Published List | 177 (177 subnets) | 0 | 2026-04-04 | [JSON](json/stripe.json) | [TXT](txt/stripe.txt) | [CSV](csv/stripe.csv) |
 | Telegram | [core.telegram.org/resources/cidr.txt](https://core.telegram.org/resources/cidr.txt) | Published List | 11,008 (9 subnets) | 4,295,229,440 (5 ranges) | 2026-04-04 | [JSON](json/telegram.json) | [TXT](txt/telegram.txt) | [CSV](csv/telegram.csv) |
 | Tencent | RADB::AS132203:AS-TENCENT<br>AS132203<br>AS132591<br>AS133478<br>AS134103<br>AS139341<br>AS45090<br>AS58835 | RADB AS-SET | 15,057,920 (4,298 subnets) | 10,439,163,904 (297 ranges) | 2026-07-04 | [JSON](json/tencent.json) | [TXT](txt/tencent.txt) | [CSV](csv/tencent.csv) |
@@ -95,6 +96,12 @@ which shows their assigned IP ranges.
 | Yandex Cloud | [yandex.cloud/…/ip-list](https://yandex.cloud/en/docs/security/ip-list) | Published List | 229,891 (43 subnets) | 38,654,705,668 (6 ranges) | 2026-07-04 | [JSON](json/yandex-cloud.json) | [TXT](txt/yandex-cloud.txt) | [CSV](csv/yandex-cloud.csv) |
 | Zendesk | [support.zendesk.com/ips](https://support.zendesk.com/ips) | Published List | 16,386 (3 subnets) | 0 | 2026-04-04 | [JSON](json/zendesk.json) | [TXT](txt/zendesk.txt) | [CSV](csv/zendesk.csv) |
 | Zscaler | [config.zscaler.com/…/required](https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required)<br>[config.zscaler.com/…/recommended](https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended) | Published List | 677,377 (136 subnets) | 3,473,408 (53 ranges) | 2026-07-01 | [JSON](json/zscaler.json) | [TXT](txt/zscaler.txt) | [CSV](csv/zscaler.csv) |
+
+### Misc Providers (ISP Traffic)
+
+| Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |
+|----------|--------|--------|---------:|----------:|--------------|------|-----|-----|
+| Starlink | [geoip.starlinkisp.net/feed.csv](https://geoip.starlinkisp.net/feed.csv) | Published List | 735,412 (3,079 subnets)<br>+18,688 retired | 15,012,921,428 (839 ranges)<br>+104,857,600 retired | 2026-07-04 | [JSON](misc/starlink.json) | [TXT](misc/starlink.txt) | [CSV](misc/starlink.csv) |
 <!-- SOURCES_TABLE_END -->
 
 ## Notes

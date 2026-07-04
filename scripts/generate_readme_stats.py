@@ -96,45 +96,89 @@ def _url_label(url: str) -> str:
 # ---------------------------------------------------------------------------
 
 
-def generate_stats_block(conn: duckdb.DuckDBPyConnection) -> str:
-    row = conn.execute("""
+def generate_stats_block(conn: duckdb.DuckDBPyConnection, misc_dir: Path) -> str:
+    rows = conn.execute("""
         SELECT
-            COUNT(*) AS providers,
-            SUM(ipv4_count) AS total_v4,
-            SUM(ipv6_count) AS total_v6,
-            SUM(ipv4_ip_count) AS total_v4_ips,
-            SUM(ipv6_64_count) AS total_v6_64s,
-            SUM(retired_ipv4_count) AS retired_v4,
-            SUM(retired_ipv6_count) AS retired_v6,
-            SUM(retired_ipv4_ip_count) AS retired_v4_ips,
-            SUM(retired_ipv6_64_count) AS retired_v6_64s,
-            MAX(last_crawled_at) AS last_crawled
+            provider_id,
+            ipv4_count,
+            ipv6_count,
+            ipv4_ip_count,
+            ipv6_64_count,
+            retired_ipv4_count,
+            retired_ipv6_count,
+            retired_ipv4_ip_count,
+            retired_ipv6_64_count,
+            last_crawled_at
         FROM provider_last_changed
-    """).fetchone()
+    """).fetchall()
 
-    if not row or row[0] == 0:
+    if not rows:
         return "_No statistics available yet — run after the first crawl._\n"
 
-    (
-        providers,
-        total_v4,
-        total_v6,
-        total_v4_ips,
-        total_v6_64s,
-        retired_v4,
-        retired_v6,
-        retired_v4_ips,
-        retired_v6_64s,
-        last_crawled,
-    ) = row
-    total_v4 = total_v4 or 0
-    total_v6 = total_v6 or 0
-    total_v4_ips = total_v4_ips or 0
-    total_v6_64s = total_v6_64s or 0
-    retired_v4 = retired_v4 or 0
-    retired_v6 = retired_v6 or 0
-    retired_v4_ips = retired_v4_ips or 0
-    retired_v6_64s = retired_v6_64s or 0
+    total_providers = len(rows)
+    total_v4 = total_v6 = total_v4_ips = total_v6_64s = 0
+    retired_v4 = retired_v6 = retired_v4_ips = retired_v6_64s = 0
+    cloud_providers = misc_providers = 0
+    cloud_v4 = cloud_v6 = cloud_v4_ips = cloud_v6_64s = 0
+    misc_v4 = misc_v6 = misc_v4_ips = misc_v6_64s = 0
+    cloud_retired_v4 = cloud_retired_v6 = cloud_retired_v4_ips = cloud_retired_v6_64s = 0
+    misc_retired_v4 = misc_retired_v6 = misc_retired_v4_ips = misc_retired_v6_64s = 0
+    last_crawled = None
+
+    for row in rows:
+        (
+            pid,
+            v4,
+            v6,
+            v4_ips,
+            v6_64s,
+            rv4,
+            rv6,
+            rv4_ips,
+            rv6_64s,
+            lc,
+        ) = row
+        v4 = v4 or 0
+        v6 = v6 or 0
+        v4_ips = v4_ips or 0
+        v6_64s = v6_64s or 0
+        rv4 = rv4 or 0
+        rv6 = rv6 or 0
+        rv4_ips = rv4_ips or 0
+        rv6_64s = rv6_64s or 0
+
+        total_v4 += v4
+        total_v6 += v6
+        total_v4_ips += v4_ips
+        total_v6_64s += v6_64s
+        retired_v4 += rv4
+        retired_v6 += rv6
+        retired_v4_ips += rv4_ips
+        retired_v6_64s += rv6_64s
+
+        if lc and (last_crawled is None or lc > last_crawled):
+            last_crawled = lc
+
+        if (misc_dir / f"{pid}.json").exists():
+            misc_providers += 1
+            misc_v4 += v4
+            misc_v6 += v6
+            misc_v4_ips += v4_ips
+            misc_v6_64s += v6_64s
+            misc_retired_v4 += rv4
+            misc_retired_v6 += rv6
+            misc_retired_v4_ips += rv4_ips
+            misc_retired_v6_64s += rv6_64s
+        else:
+            cloud_providers += 1
+            cloud_v4 += v4
+            cloud_v6 += v6
+            cloud_v4_ips += v4_ips
+            cloud_v6_64s += v6_64s
+            cloud_retired_v4 += rv4
+            cloud_retired_v6 += rv6
+            cloud_retired_v4_ips += rv4_ips
+            cloud_retired_v6_64s += rv6_64s
 
     last_crawled_str = (
         last_crawled.strftime("%Y-%m-%d %H:%M UTC") if last_crawled else "—"
@@ -143,7 +187,7 @@ def generate_stats_block(conn: duckdb.DuckDBPyConnection) -> str:
     lines = [
         "| Metric | Value |",
         "|--------|------:|",
-        f"| Providers tracked | **{providers}** |",
+        f"| Providers tracked | **{total_providers}** ({cloud_providers} cloud + {misc_providers} misc) |",
         f"| Active IPv4 addresses | **{total_v4_ips:,}** ({total_v4:,} subnets) |",
         f"| Active IPv6 /64 subnets | **{total_v6_64s:,}** ({total_v6:,} ranges) |",
         f"| Retired IPv4 (≤ 4 weeks) | {retired_v4_ips:,} addresses ({retired_v4:,} subnets) |",
@@ -151,6 +195,58 @@ def generate_stats_block(conn: duckdb.DuckDBPyConnection) -> str:
         f"| Last crawled | {last_crawled_str} |",
     ]
     return "\n".join(lines) + "\n"
+
+
+def _provider_table_row(
+    pid: str,
+    info: dict,
+    provider_sources: dict[str, list[str]],
+    misc_dir: Path,
+) -> str:
+    pname = info["provider_name"]
+    changed_at = info["last_changed_at"]
+    v4 = info["ipv4_count"]
+    v6 = info["ipv6_count"]
+    v4_ips = info["ipv4_ip_count"]
+    v6_64s = info["ipv6_64_count"]
+    rv4 = info["retired_ipv4"]
+    rv6 = info["retired_ipv6"]
+    rv4_ips = info["retired_ipv4_ips"]
+    rv6_64s = info["retired_ipv6_64s"]
+    method = info["method"]
+    sources = provider_sources.get(pid, [info["source"]] if info["source"] else [])
+
+    # Determine file locations (misc vs main)
+    if (misc_dir / f"{pid}.json").exists():
+        folder = "misc"
+        csv_folder = "misc"
+        txt_folder = "misc"
+    else:
+        folder = "json"
+        csv_folder = "csv"
+        txt_folder = "txt"
+
+    json_link = f"[JSON]({folder}/{pid}.json)"
+    txt_link = f"[TXT]({txt_folder}/{pid}.txt)"
+    csv_link = f"[CSV]({csv_folder}/{pid}.csv)"
+
+    changed_str = changed_at.strftime("%Y-%m-%d") if changed_at else "—"
+
+    v4_str = (
+        f"{v4_ips:,}"
+        + (f" ({v4:,} subnets)" if v4 else "")
+        + (f"<br>+{rv4_ips:,} retired" if rv4 else "")
+    )
+    v6_str = (
+        f"{v6_64s:,}"
+        + (f" ({v6:,} ranges)" if v6 else "")
+        + (f"<br>+{rv6_64s:,} retired" if rv6 else "")
+    )
+
+    src_str = source_display(sources)
+    method_str = method_label(method, sources)
+
+    return f"| {pname} | {src_str} | {method_str} | {v4_str} | {v6_str} | {changed_str} | {json_link} | {txt_link} | {csv_link} |"
 
 
 def generate_sources_table(
@@ -218,60 +314,34 @@ def generate_sources_table(
             except Exception:
                 pass
 
-    # Build table
+    # Split providers into cloud and misc
+    normal_pids = [pid for pid in rows_by_id if not (misc_dir / f"{pid}.json").exists()]
+    misc_pids = [pid for pid in rows_by_id if (misc_dir / f"{pid}.json").exists()]
+
     header = "| Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |"
     separator = "|----------|--------|--------|---------:|----------:|--------------|------|-----|-----|"
-    table_lines = [header, separator]
 
-    for pid, info in rows_by_id.items():
-        pname = info["provider_name"]
-        changed_at = info["last_changed_at"]
-        v4 = info["ipv4_count"]
-        v6 = info["ipv6_count"]
-        v4_ips = info["ipv4_ip_count"]
-        v6_64s = info["ipv6_64_count"]
-        rv4 = info["retired_ipv4"]
-        rv6 = info["retired_ipv6"]
-        rv4_ips = info["retired_ipv4_ips"]
-        rv6_64s = info["retired_ipv6_64s"]
-        method = info["method"]
-        sources = provider_sources.get(pid, [info["source"]] if info["source"] else [])
+    parts: list[str] = []
 
-        # Determine file locations (misc vs main)
-        if (misc_dir / f"{pid}.json").exists():
-            folder = "misc"
-            csv_folder = "misc"
-            txt_folder = "misc"
-        else:
-            folder = "json"
-            csv_folder = "csv"
-            txt_folder = "txt"
+    if normal_pids:
+        parts.append("### Cloud Providers")
+        parts.append("")
+        parts.append(header)
+        parts.append(separator)
+        for pid in normal_pids:
+            parts.append(_provider_table_row(pid, rows_by_id[pid], provider_sources, misc_dir))
+        parts.append("")
 
-        json_link = f"[JSON]({folder}/{pid}.json)"
-        txt_link = f"[TXT]({txt_folder}/{pid}.txt)"
-        csv_link = f"[CSV]({csv_folder}/{pid}.csv)"
+    if misc_pids:
+        parts.append("### Misc Providers (ISP Traffic)")
+        parts.append("")
+        parts.append(header)
+        parts.append(separator)
+        for pid in misc_pids:
+            parts.append(_provider_table_row(pid, rows_by_id[pid], provider_sources, misc_dir))
+        parts.append("")
 
-        changed_str = changed_at.strftime("%Y-%m-%d") if changed_at else "—"
-
-        v4_str = (
-            f"{v4_ips:,}"
-            + (f" ({v4:,} subnets)" if v4 else "")
-            + (f"<br>+{rv4_ips:,} retired" if rv4 else "")
-        )
-        v6_str = (
-            f"{v6_64s:,}"
-            + (f" ({v6:,} ranges)" if v6 else "")
-            + (f"<br>+{rv6_64s:,} retired" if rv6 else "")
-        )
-
-        src_str = source_display(sources)
-        method_str = method_label(method, sources)
-
-        table_lines.append(
-            f"| {pname} | {src_str} | {method_str} | {v4_str} | {v6_str} | {changed_str} | {json_link} | {txt_link} | {csv_link} |"
-        )
-
-    return "\n".join(table_lines) + "\n"
+    return "\n".join(parts)
 
 
 # ---------------------------------------------------------------------------
@@ -325,7 +395,7 @@ def main() -> int:
 
     conn = duckdb.connect(str(db_path), read_only=True)
 
-    stats_block = generate_stats_block(conn)
+    stats_block = generate_stats_block(conn, Path(args.misc_dir))
     sources_table = generate_sources_table(
         conn, Path(args.json_dir), Path(args.misc_dir)
     )
