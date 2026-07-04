@@ -1,0 +1,27 @@
+{
+  "provider": "Gcore Cloud",
+  "provider_id": "gcore-cloud",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-07-04T21:37:28.684298",
+  "source_updated_at": null,
+  "source": [
+    "https://api.gcore.com/cloud/public/v1/ipranges/egress"
+  ],
+  "last_update": "2026-07-04T21:37:28.684298",
+  "ipv4": [
+    "109.61.35.254/32",
+    "109.61.35.29/32",
+    "5.188.135.94/32"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://api.gcore.com/cloud/public/v1/ipranges/egress",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": "75dbd5510673ece54d98e0b73f2cbe150b1a805ea97605843263925e6ea7c5b9",
+      "last_modified": null
+    }
+  ]
+}
