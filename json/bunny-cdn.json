@@ -3,13 +3,13 @@
   "provider_id": "bunny-cdn",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-04T21:37:24.437400",
+  "generated_at": "2026-07-06T03:20:08.980670",
   "source_updated_at": null,
   "source": [
     "https://bunnycdn.com/api/system/edgeserverlist/plain",
     "https://bunnycdn.com/api/system/edgeserverlist/IPv6/plain"
   ],
-  "last_update": "2026-07-04T21:37:24.437400",
+  "last_update": "2026-07-06T03:20:08.980670",
   "ipv4": [
     "102.219.126.20/32",
     "102.67.138.155/32",
@@ -839,6 +839,7 @@
     "2400:52e0:1a02::975:1/128",
     "2400:52e0:1a02::976:1/128",
     "2400:52e0:1a04::1310:1/128",
+    "2400:52e0:1a04::925:1/128",
     "2400:52e0:1a05::1120:1/128",
     "2400:52e0:1a05::1431:1/128",
     "2400:52e0:1a06::1025:1/128",
@@ -981,14 +982,14 @@
       "url": "https://bunnycdn.com/api/system/edgeserverlist/plain",
       "status": 200,
       "content_type": "text/plain; charset=utf-8",
-      "etag": "W/\"04472800-76ca-4669-9c74-55a8cfab8660\"",
+      "etag": "W/\"4e7523c3-0478-4706-a3da-dda62ee2e68d\"",
       "last_modified": null
     },
     {
       "url": "https://bunnycdn.com/api/system/edgeserverlist/IPv6/plain",
       "status": 200,
       "content_type": "text/plain; charset=utf-8",
-      "etag": "W/\"d9c77f88-bf8b-492a-93e6-680901651a39\"",
+      "etag": "W/\"d5d5b347-02ef-4072-abd0-40ce73218c5d\"",
       "last_modified": null
     }
   ]
