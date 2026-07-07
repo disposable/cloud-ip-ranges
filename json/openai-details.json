@@ -3,7 +3,7 @@
   "provider_id": "openai",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-06T03:20:12.171783",
+  "generated_at": "2026-07-07T02:53:34.085233",
   "source_updated_at": "2025-10-30T11:00:00.000000",
   "source": [
     "https://openai.com/chatgpt-user.json",
@@ -423,6 +423,11 @@
     },
     {
       "address": "20.170.184.16/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "20.170.184.32/28",
       "service": null,
       "scope": null
     },
@@ -848,11 +853,6 @@
     },
     {
       "address": "51.107.70.192/28",
-      "service": null,
-      "scope": null
-    },
-    {
-      "address": "51.116.2.64/28",
       "service": null,
       "scope": null
     },

@@ -3,14 +3,14 @@
   "provider_id": "cloudflare",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-06T03:20:06.551035",
+  "generated_at": "2026-07-07T02:53:30.420147",
   "source_updated_at": null,
   "source": [
     "https://www.cloudflare.com/ips-v4",
     "https://www.cloudflare.com/ips-v6",
     "https://api.cloudflare.com/client/v4/ips?networks=jdcloud"
   ],
-  "last_update": "2026-07-06T03:20:06.551035",
+  "last_update": "2026-07-07T02:53:30.420147",
   "ipv4": [
     "101.69.205.224/27",
     "103.21.244.0/22",
@@ -24,7 +24,6 @@
     "111.124.70.32/27",
     "111.170.27.96/27",
     "111.177.11.224/27",
-    "111.48.87.160/27",
     "111.7.87.160/27",
     "112.49.47.96/27",
     "113.56.217.96/27",
@@ -76,7 +75,8 @@
     "36.154.11.224/27",
     "42.236.121.160/27",
     "60.13.99.64/26",
-    "111.124.206.32/27"
+    "111.124.206.32/27",
+    "111.48.87.160/27"
   ],
   "ipv6": [
     "2400:cb00:164:0:1000::/68",
@@ -107,7 +107,6 @@
     "2409:8c38:c50:604:1000::/68",
     "2409:8c3c:1400:5:1000::/68",
     "2409:8c44:1b00:d06:1000::/68",
-    "2409:8c4d:5200:c05:1000::/68",
     "2409:8c50:a00:2213:1000::/68",
     "2409:8c5c:b00:206:1000::/68",
     "2409:8c62:e10:a04:1000::/68",
@@ -133,6 +132,7 @@
     "2803:f800::/32",
     "2a06:98c0::/29",
     "2c0f:f248::/32",
+    "2409:8c4d:5200:c05:1000::/68",
     "240e:938:a07:16:1000::/68"
   ],
   "source_http": [
@@ -141,33 +141,41 @@
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Mon, 06 Jul 2026 01:38:26 GMT"
+      "last_modified": "Tue, 07 Jul 2026 01:37:19 GMT"
     },
     {
       "url": "https://www.cloudflare.com/ips-v6",
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Sun, 05 Jul 2026 07:45:12 GMT"
+      "last_modified": "Mon, 06 Jul 2026 09:41:45 GMT"
     },
     {
       "url": "https://api.cloudflare.com/client/v4/ips?networks=jdcloud",
       "status": 200,
       "content_type": "application/json",
-      "etag": "W/\"be8309b47ba8e9f8899716fdbad44de9\"",
+      "etag": "W/\"654521592ba0c2a8292c50ca34ea73ae\"",
       "last_modified": null
     }
   ],
   "details_ipv4": [
     {
       "address": "111.124.206.32/27",
-      "retired_at": "2026-07-06T03:26:12.773405+00:00"
+      "retired_at": "2026-07-07T02:57:17.924488+00:00"
+    },
+    {
+      "address": "111.48.87.160/27",
+      "retired_at": "2026-07-07T02:57:17.924488+00:00"
     }
   ],
   "details_ipv6": [
     {
+      "address": "2409:8c4d:5200:c05:1000::/68",
+      "retired_at": "2026-07-07T02:57:17.924488+00:00"
+    },
+    {
       "address": "240e:938:a07:16:1000::/68",
-      "retired_at": "2026-07-06T03:26:12.773405+00:00"
+      "retired_at": "2026-07-07T02:57:17.924488+00:00"
     }
   ]
 }
