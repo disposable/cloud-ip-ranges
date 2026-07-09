@@ -3,14 +3,15 @@
   "provider_id": "render",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-01-29T12:22:58.303532",
+  "generated_at": "2026-07-09T02:48:39.540468",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS397273"
   ],
-  "last_update": "2026-01-29T12:22:58.303532",
+  "last_update": "2026-07-09T02:48:39.540468",
   "ipv4": [
-    "216.24.57.0/24"
+    "216.24.57.0/24",
+    "74.220.56.0/24"
   ],
   "ipv6": [],
   "source_http": [
