@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-09T02:47:35.598763",
+  "generated_at": "2026-07-10T02:50:20.884686",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-07-09T02:47:35.598763",
+  "last_update": "2026-07-10T02:50:20.884686",
   "ipv4": [
     {
       "address": "43.224.32.0/22",
@@ -3546,6 +3546,13 @@
       "region": "KR-11",
       "city": "Seoul",
       "postal_code": "03922"
+    },
+    {
+      "address": "2a05:f487:fc02::/48",
+      "alpha2code": "GB",
+      "region": "GB-LND",
+      "city": "London",
+      "postal_code": "E1 6QR"
     }
   ]
 }

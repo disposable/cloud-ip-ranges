@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-09T02:47:35.598763",
+  "generated_at": "2026-07-10T02:50:20.884686",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-07-09T02:47:35.598763",
+  "last_update": "2026-07-10T02:50:20.884686",
   "ipv4": [
     "103.43.72.0/22",
     "104.156.224.0/22",
@@ -499,6 +499,7 @@
     "2a05:f487:fc00::/38",
     "2a05:f487:fc00::/48",
     "2a05:f487:fc01::/48",
+    "2a05:f487:fc02::/48",
     "2a05:f487:fc03::/48",
     "2a05:f487:fc04::/48",
     "2a05:f487:fc05::/48",
@@ -4058,8 +4059,15 @@
       "postal_code": "03922"
     },
     {
+      "address": "2a05:f487:fc02::/48",
+      "alpha2code": "GB",
+      "region": "GB-LND",
+      "city": "London",
+      "postal_code": "E1 6QR"
+    },
+    {
       "address": "2001:19f0:ffff::/48",
-      "retired_at": "2026-07-09T02:52:41.878245+00:00"
+      "retired_at": "2026-07-10T02:55:37.555324+00:00"
     }
   ],
   "source_http": [
