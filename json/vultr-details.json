@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-10T02:50:20.884686",
+  "generated_at": "2026-07-11T02:28:07.716342",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-07-10T02:50:20.884686",
+  "last_update": "2026-07-11T02:28:07.716342",
   "ipv4": [
     {
       "address": "43.224.32.0/22",
@@ -3021,6 +3021,13 @@
       "postal_code": "63043"
     },
     {
+      "address": "216.128.168.0/21",
+      "alpha2code": "BR",
+      "region": "BR-SP",
+      "city": "Osasco",
+      "postal_code": "06268-120"
+    },
+    {
       "address": "216.128.176.0/20",
       "alpha2code": "CA",
       "region": "CA-ON",
@@ -3415,13 +3422,6 @@
       "postal_code": "30318"
     },
     {
-      "address": "2a05:f487:fc36::/48",
-      "alpha2code": "US",
-      "region": "US-OH",
-      "city": "Springfield",
-      "postal_code": "45502"
-    },
-    {
       "address": "2001:19f0:9c00::/38",
       "alpha2code": "US",
       "region": "US-OH",
@@ -3553,6 +3553,13 @@
       "region": "GB-LND",
       "city": "London",
       "postal_code": "E1 6QR"
+    },
+    {
+      "address": "2a05:f487:fc36::/48",
+      "alpha2code": "US",
+      "region": "US-OH",
+      "city": "Springfield",
+      "postal_code": "45502"
     }
   ]
 }
