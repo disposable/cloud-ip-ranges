@@ -3,13 +3,13 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-13T02:35:04.192946",
-  "source_updated_at": "2026-07-12T13:04:29.29207",
+  "generated_at": "2026-07-14T02:19:56.493474",
+  "source_updated_at": "2026-07-13T13:12:35.766508",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-07-12T13:04:29.29207",
+  "last_update": "2026-07-13T13:12:35.766508",
   "ipv4": [
     "104.154.0.0/15",
     "104.154.113.0/24",
@@ -324,6 +324,7 @@
     "34.128.32.0/22",
     "34.128.36.0/24",
     "34.128.37.0/24",
+    "34.128.4.0/22",
     "34.128.42.0/23",
     "34.128.44.0/23",
     "34.128.46.0/23",
@@ -356,6 +357,7 @@
     "34.142.128.0/17",
     "34.143.128.0/17",
     "34.143.64.0/21",
+    "34.144.172.0/22",
     "34.144.176.0/20",
     "34.144.192.0/18",
     "34.145.0.0/17",
@@ -513,6 +515,7 @@
     "34.175.0.0/16",
     "34.176.0.0/16",
     "34.177.112.0/21",
+    "34.177.120.0/22",
     "34.177.32.0/22",
     "34.177.36.0/23",
     "34.177.40.0/21",
@@ -979,6 +982,7 @@
     "35.234.64.0/18",
     "35.235.0.0/20",
     "35.235.16.0/20",
+    "35.235.172.0/22",
     "35.235.216.0/21",
     "35.235.32.0/20",
     "35.235.48.0/20",
@@ -1073,6 +1077,8 @@
     "8.234.16.0/24",
     "8.234.17.0/24",
     "8.234.2.0/24",
+    "8.234.20.0/22",
+    "8.234.24.0/21",
     "8.234.3.0/24",
     "8.234.32.0/19",
     "8.234.4.0/22",
@@ -5531,12 +5537,32 @@
       "scope": "us-south1"
     },
     {
+      "address": "8.234.20.0/22",
+      "service": "Google Cloud",
+      "scope": "us-south1"
+    },
+    {
+      "address": "8.234.24.0/21",
+      "service": "Google Cloud",
+      "scope": "us-south1"
+    },
+    {
       "address": "34.0.128.0/19",
       "service": "Google Cloud",
       "scope": "us-south1"
     },
     {
       "address": "34.127.156.0/22",
+      "service": "Google Cloud",
+      "scope": "us-south1"
+    },
+    {
+      "address": "34.128.4.0/22",
+      "service": "Google Cloud",
+      "scope": "us-south1"
+    },
+    {
+      "address": "34.144.172.0/22",
       "service": "Google Cloud",
       "scope": "us-south1"
     },
@@ -5566,12 +5592,22 @@
       "scope": "us-south1"
     },
     {
+      "address": "34.177.120.0/22",
+      "service": "Google Cloud",
+      "scope": "us-south1"
+    },
+    {
       "address": "34.183.66.0/24",
       "service": "Google Cloud",
       "scope": "us-south1"
     },
     {
       "address": "34.184.65.0/24",
+      "service": "Google Cloud",
+      "scope": "us-south1"
+    },
+    {
+      "address": "35.235.172.0/22",
       "service": "Google Cloud",
       "scope": "us-south1"
     },
@@ -6567,7 +6603,7 @@
     },
     {
       "address": "136.23.64.0/19",
-      "retired_at": "2026-07-13T02:39:53.595613+00:00"
+      "retired_at": "2026-07-14T02:26:06.059343+00:00"
     }
   ],
   "details_ipv6": [
@@ -6893,14 +6929,14 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sun, 12 Jul 2026 20:28:00 GMT"
+      "last_modified": "Mon, 13 Jul 2026 20:58:00 GMT"
     },
     {
       "url": "https://www.gstatic.com/ipranges/goog.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sun, 12 Jul 2026 20:28:00 GMT"
+      "last_modified": "Mon, 13 Jul 2026 20:58:00 GMT"
     }
   ]
 }
