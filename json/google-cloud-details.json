@@ -3,13 +3,13 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-14T02:19:56.493474",
-  "source_updated_at": "2026-07-13T13:12:35.766508",
+  "generated_at": "2026-07-15T02:12:18.379701",
+  "source_updated_at": "2026-07-14T13:06:42.679987",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-07-13T13:12:35.766508",
+  "last_update": "2026-07-14T13:06:42.679987",
   "ipv4": [
     {
       "address": "34.1.208.0/20",
@@ -5423,6 +5423,11 @@
     },
     {
       "address": "199.223.232.0/21",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "200.226.0.0/16",
       "service": null,
       "scope": null
     },
