@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-15T02:12:22.890352",
+  "generated_at": "2026-07-16T02:25:06.925842",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-07-15T02:12:22.890352",
+  "last_update": "2026-07-16T02:25:06.925842",
   "ipv4": [
     {
       "address": "43.224.32.0/22",
@@ -3429,13 +3429,6 @@
       "postal_code": "45502"
     },
     {
-      "address": "2a05:f487:fc01::/48",
-      "alpha2code": "US",
-      "region": "US-IL",
-      "city": "Elk Grove Village",
-      "postal_code": "60007"
-    },
-    {
       "address": "2a05:f487:fc34::/48",
       "alpha2code": "US",
       "region": "US-GA",
@@ -3560,6 +3553,13 @@
       "region": "US-OH",
       "city": "Springfield",
       "postal_code": "45502"
+    },
+    {
+      "address": "2a05:f487:fc01::/48",
+      "alpha2code": "US",
+      "region": "US-IL",
+      "city": "Elk Grove Village",
+      "postal_code": "60007"
     }
   ]
 }
