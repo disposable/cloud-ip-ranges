@@ -3,14 +3,14 @@
   "provider_id": "cloudflare",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-17T02:28:08.384463",
+  "generated_at": "2026-07-18T02:13:01.876302",
   "source_updated_at": null,
   "source": [
     "https://www.cloudflare.com/ips-v4",
     "https://www.cloudflare.com/ips-v6",
     "https://api.cloudflare.com/client/v4/ips?networks=jdcloud"
   ],
-  "last_update": "2026-07-17T02:28:08.384463",
+  "last_update": "2026-07-18T02:13:01.876302",
   "ipv4": [
     "101.69.205.224/27",
     "103.21.244.0/22",
@@ -117,6 +117,7 @@
     "240e:914:4005:1:1000::/68",
     "240e:935:a04:2b21:1000::/68",
     "240e:938:a05:22:1000::/68",
+    "240e:938:a08:305:1000::/68",
     "240e:940:e009:14e:1000::/68",
     "240e:944:8:5:1000::/68",
     "240e:95d:802:400:1000::/68",
@@ -141,41 +142,41 @@
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Fri, 17 Jul 2026 00:34:58 GMT"
+      "last_modified": "Sat, 18 Jul 2026 00:11:37 GMT"
     },
     {
       "url": "https://www.cloudflare.com/ips-v6",
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Thu, 16 Jul 2026 08:00:42 GMT"
+      "last_modified": "Fri, 17 Jul 2026 09:19:10 GMT"
     },
     {
       "url": "https://api.cloudflare.com/client/v4/ips?networks=jdcloud",
       "status": 200,
       "content_type": "application/json",
-      "etag": "W/\"654521592ba0c2a8292c50ca34ea73ae\"",
+      "etag": "W/\"9c6fdb689aeeda27b1ab20cf41f28eb2\"",
       "last_modified": null
     }
   ],
   "details_ipv4": [
     {
       "address": "111.124.206.32/27",
-      "retired_at": "2026-07-17T02:38:06.063645+00:00"
+      "retired_at": "2026-07-18T02:17:23.578666+00:00"
     },
     {
       "address": "111.48.87.160/27",
-      "retired_at": "2026-07-17T02:38:06.063645+00:00"
+      "retired_at": "2026-07-18T02:17:23.578666+00:00"
     }
   ],
   "details_ipv6": [
     {
       "address": "2409:8c4d:5200:c05:1000::/68",
-      "retired_at": "2026-07-17T02:38:06.063645+00:00"
+      "retired_at": "2026-07-18T02:17:23.578666+00:00"
     },
     {
       "address": "240e:938:a07:16:1000::/68",
-      "retired_at": "2026-07-17T02:38:06.063645+00:00"
+      "retired_at": "2026-07-18T02:17:23.578666+00:00"
     }
   ]
 }
