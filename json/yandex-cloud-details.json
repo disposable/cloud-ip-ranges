@@ -3,12 +3,12 @@
   "provider_id": "yandex-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-04T02:47:25.857384",
+  "generated_at": "2026-07-28T02:26:37.990538",
   "source_updated_at": null,
   "source": [
     "https://yandex.cloud/en/docs/security/ip-list"
   ],
-  "last_update": "2026-07-04T02:47:25.857384",
+  "last_update": "2026-07-28T02:26:37.990538",
   "ipv4": [
     {
       "address": "1.7.85.85/32",
@@ -145,6 +145,10 @@
     {
       "address": "217.198.168.0/21",
       "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "89.223.6.0/23",
+      "service": "BareMetal"
     },
     {
       "address": "89.223.20.0/24",
