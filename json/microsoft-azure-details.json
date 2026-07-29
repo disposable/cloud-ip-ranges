@@ -3,12 +3,12 @@
   "provider_id": "microsoft-azure",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-28T02:23:12.927148",
+  "generated_at": "2026-07-29T02:27:18.053396",
   "source_updated_at": null,
   "source": [
     "https://azservicetags.azurewebsites.net/"
   ],
-  "last_update": "2026-07-28T02:23:12.927148",
+  "last_update": "2026-07-29T02:27:18.053396",
   "ipv4": [
     {
       "address": "4.145.74.52/30",
@@ -2681,6 +2681,11 @@
       "region": ""
     },
     {
+      "address": "57.170.15.96/28",
+      "systemService": "AzureAD",
+      "region": ""
+    },
+    {
       "address": "57.173.52.16/28",
       "systemService": "AzureAD",
       "region": ""
@@ -2737,6 +2742,11 @@
     },
     {
       "address": "68.220.90.176/28",
+      "systemService": "AzureAD",
+      "region": ""
+    },
+    {
+      "address": "70.157.192.48/28",
       "systemService": "AzureAD",
       "region": ""
     },
@@ -18551,6 +18561,16 @@
       "region": ""
     },
     {
+      "address": "4.146.1.68/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.146.1.96/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "4.148.214.196/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -18576,6 +18596,26 @@
       "region": ""
     },
     {
+      "address": "4.161.165.40/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.161.165.80/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.170.15.188/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.170.28.32/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "4.172.85.24/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -18591,6 +18631,16 @@
       "region": ""
     },
     {
+      "address": "4.173.153.216/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.173.153.240/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "4.176.24.176/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -18601,7 +18651,27 @@
       "region": ""
     },
     {
+      "address": "4.177.57.140/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.177.57.176/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "4.185.224.248/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.187.48.236/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.187.49.80/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -18612,6 +18682,16 @@
     },
     {
       "address": "4.188.30.184/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.188.132.24/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.188.132.32/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -18661,6 +18741,16 @@
       "region": ""
     },
     {
+      "address": "4.200.209.204/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.200.209.240/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "4.209.98.40/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -18686,12 +18776,32 @@
       "region": ""
     },
     {
+      "address": "4.212.7.196/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.212.7.200/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.215.17.0/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "4.216.14.24/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "4.216.14.32/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.216.23.248/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -18741,6 +18851,16 @@
       "region": ""
     },
     {
+      "address": "4.222.1.64/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.222.1.72/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "4.223.182.184/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -18786,6 +18906,16 @@
       "region": ""
     },
     {
+      "address": "4.230.209.68/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.230.209.72/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "4.232.28.24/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -18806,12 +18936,32 @@
       "region": ""
     },
     {
+      "address": "4.238.32.4/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.238.32.8/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "4.239.0.248/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "4.239.1.96/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.240.196.92/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.240.196.208/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -18832,6 +18982,26 @@
     },
     {
       "address": "4.243.164.96/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.243.180.196/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.243.180.200/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.247.40.40/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "4.247.40.64/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -18881,6 +19051,16 @@
       "region": ""
     },
     {
+      "address": "9.205.217.12/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "9.205.217.48/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "9.235.70.112/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -18892,6 +19072,16 @@
     },
     {
       "address": "9.235.190.232/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "9.235.245.180/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "9.235.245.184/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -18932,6 +19122,16 @@
     },
     {
       "address": "13.86.223.192/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.6.204.120/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.6.204.128/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -19141,6 +19341,16 @@
       "region": ""
     },
     {
+      "address": "20.66.224.32/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.66.224.40/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "20.72.21.144/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19186,6 +19396,16 @@
       "region": ""
     },
     {
+      "address": "20.99.39.52/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.99.39.56/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "20.111.117.248/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19212,6 +19432,16 @@
     },
     {
       "address": "20.167.225.168/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.167.247.88/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.167.247.128/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -19331,6 +19561,16 @@
       "region": ""
     },
     {
+      "address": "20.226.148.196/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.226.148.200/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "20.244.215.80/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19426,6 +19666,16 @@
       "region": ""
     },
     {
+      "address": "48.193.109.152/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.193.109.192/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "48.194.162.248/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19456,6 +19706,16 @@
       "region": ""
     },
     {
+      "address": "48.196.110.120/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.196.144.192/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "48.197.72.20/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19467,6 +19727,16 @@
     },
     {
       "address": "48.197.100.80/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.197.139.168/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.197.139.176/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -19486,6 +19756,16 @@
       "region": ""
     },
     {
+      "address": "48.198.153.240/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.198.153.248/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "48.199.12.8/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19496,12 +19776,32 @@
       "region": ""
     },
     {
+      "address": "48.200.134.132/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.200.134.136/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "48.203.101.80/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "48.203.101.88/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.203.191.132/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.203.191.136/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -19521,7 +19821,27 @@
       "region": ""
     },
     {
+      "address": "48.219.46.208/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.219.46.216/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "48.219.81.176/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.219.89.92/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "48.219.90.24/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -19591,6 +19911,16 @@
       "region": ""
     },
     {
+      "address": "51.56.214.240/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "51.56.214.248/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "51.57.143.200/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19611,6 +19941,16 @@
       "region": ""
     },
     {
+      "address": "51.57.199.0/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "51.57.199.8/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "51.58.49.24/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19622,6 +19962,26 @@
     },
     {
       "address": "51.58.78.88/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "51.58.109.124/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "51.58.110.48/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "51.58.166.96/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "51.58.166.104/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -19766,6 +20126,16 @@
       "region": ""
     },
     {
+      "address": "57.152.172.124/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.152.172.224/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "57.156.97.52/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19791,12 +20161,32 @@
       "region": ""
     },
     {
+      "address": "57.159.197.100/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.159.197.104/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "57.160.5.108/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "57.160.5.160/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.160.28.156/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.160.28.200/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -19846,12 +20236,57 @@
       "region": ""
     },
     {
+      "address": "57.170.14.240/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.170.14.248/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.173.52.76/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.174.126.24/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.174.126.32/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.175.115.20/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "57.175.115.24/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "68.154.163.100/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "68.154.163.104/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "68.154.176.196/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "68.154.176.200/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -19891,6 +20326,16 @@
       "region": ""
     },
     {
+      "address": "68.211.204.36/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "68.211.204.40/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "68.221.84.152/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19921,6 +20366,16 @@
       "region": ""
     },
     {
+      "address": "70.157.192.32/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "70.157.192.40/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "72.145.133.160/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19941,6 +20396,16 @@
       "region": ""
     },
     {
+      "address": "74.7.113.168/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.7.114.16/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "74.7.176.20/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -19952,6 +20417,176 @@
     },
     {
       "address": "74.7.205.120/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.144.85.112/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.144.85.120/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.144.136.56/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.144.136.128/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.146.25.236/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.146.28.8/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.146.190.244/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.146.191.88/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.147.19.128/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.147.19.136/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.148.13.36/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.148.13.40/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.149.5.108/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.149.6.40/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.149.129.236/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.149.131.144/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.150.12.116/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.150.12.120/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.151.25.88/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.151.25.96/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.151.230.0/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.151.230.8/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.152.8.124/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.152.8.160/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.153.1.244/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.153.1.248/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.155.16.148/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.155.16.152/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.157.87.96/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.157.87.104/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.159.0.252/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.159.1.80/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.160.11.204/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.160.16.104/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -19972,6 +20607,26 @@
     },
     {
       "address": "74.225.110.136/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.240.13.228/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.240.13.232/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.241.69.100/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "74.241.69.104/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -20016,12 +20671,32 @@
       "region": ""
     },
     {
+      "address": "98.66.37.232/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "98.66.38.0/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "98.67.0.252/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "98.67.2.112/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "98.67.21.204/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "98.67.22.32/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -20091,6 +20766,16 @@
       "region": ""
     },
     {
+      "address": "145.191.155.244/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "145.191.155.248/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "158.23.100.152/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -20106,6 +20791,16 @@
       "region": ""
     },
     {
+      "address": "158.158.214.140/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "158.158.214.240/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "167.105.220.112/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -20117,6 +20812,26 @@
     },
     {
       "address": "168.61.140.108/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.161.230.124/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.161.230.224/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.165.36.212/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.165.36.216/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -20141,6 +20856,16 @@
       "region": ""
     },
     {
+      "address": "172.182.41.228/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.182.44.40/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "172.186.116.228/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -20151,12 +20876,32 @@
       "region": ""
     },
     {
+      "address": "172.186.143.108/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.186.143.128/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "172.192.194.4/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "172.192.194.16/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.192.225.104/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.192.225.144/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -20191,12 +20936,32 @@
       "region": ""
     },
     {
+      "address": "172.195.152.164/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.195.152.168/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "172.196.77.104/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "172.196.77.112/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.196.116.72/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.196.117.32/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -20211,12 +20976,32 @@
       "region": ""
     },
     {
+      "address": "172.197.52.24/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.197.52.144/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "172.197.132.136/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "172.197.132.144/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.197.225.148/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.197.225.224/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -20232,6 +21017,16 @@
     },
     {
       "address": "172.198.110.16/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.198.239.88/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "172.198.239.160/30",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -60811,6 +61606,11 @@
       "region": ""
     },
     {
+      "address": "48.197.144.0/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "48.198.101.192/28",
       "systemService": "AzureMonitor",
       "region": ""
@@ -60827,6 +61627,11 @@
     },
     {
       "address": "48.198.102.0/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "48.198.154.128/26",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -63366,6 +64171,11 @@
       "region": ""
     },
     {
+      "address": "74.149.6.192/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "74.151.8.0/26",
       "systemService": "AzureMonitor",
       "region": ""
@@ -64587,6 +65397,16 @@
     },
     {
       "address": "172.198.239.96/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.198.239.176/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.198.244.96/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -100147,11 +100967,6 @@
     },
     {
       "address": "40.120.86.64/26",
-      "systemService": "DataFactory",
-      "region": ""
-    },
-    {
-      "address": "40.122.0.16/28",
       "systemService": "DataFactory",
       "region": ""
     },
@@ -166451,6 +167266,16 @@
       "region": "australiacentral"
     },
     {
+      "address": "74.147.19.128/29",
+      "systemService": "AzureAttestation",
+      "region": "australiacentral"
+    },
+    {
+      "address": "74.147.19.136/30",
+      "systemService": "AzureAttestation",
+      "region": "australiacentral"
+    },
+    {
       "address": "20.53.56.4/30",
       "systemService": "AzureAttestation",
       "region": "australiacentral2"
@@ -166467,6 +167292,16 @@
     },
     {
       "address": "20.167.225.168/29",
+      "systemService": "AzureAttestation",
+      "region": "australiacentral2"
+    },
+    {
+      "address": "20.167.247.88/29",
+      "systemService": "AzureAttestation",
+      "region": "australiacentral2"
+    },
+    {
+      "address": "20.167.247.128/30",
       "systemService": "AzureAttestation",
       "region": "australiacentral2"
     },
@@ -166501,7 +167336,27 @@
       "region": "australiaeast"
     },
     {
+      "address": "51.56.214.240/29",
+      "systemService": "AzureAttestation",
+      "region": "australiaeast"
+    },
+    {
+      "address": "51.56.214.248/30",
+      "systemService": "AzureAttestation",
+      "region": "australiaeast"
+    },
+    {
       "address": "4.199.42.232/29",
+      "systemService": "AzureAttestation",
+      "region": "australiasoutheast"
+    },
+    {
+      "address": "4.200.209.204/30",
+      "systemService": "AzureAttestation",
+      "region": "australiasoutheast"
+    },
+    {
+      "address": "4.200.209.240/29",
       "systemService": "AzureAttestation",
       "region": "australiasoutheast"
     },
@@ -166551,6 +167406,16 @@
       "region": "austriaeast"
     },
     {
+      "address": "74.148.13.36/30",
+      "systemService": "AzureAttestation",
+      "region": "austriaeast"
+    },
+    {
+      "address": "74.148.13.40/29",
+      "systemService": "AzureAttestation",
+      "region": "austriaeast"
+    },
+    {
       "address": "9.160.40.20/30",
       "systemService": "AzureAttestation",
       "region": "belgiumcentral"
@@ -166576,12 +167441,32 @@
       "region": "belgiumcentral"
     },
     {
+      "address": "74.152.8.124/30",
+      "systemService": "AzureAttestation",
+      "region": "belgiumcentral"
+    },
+    {
+      "address": "74.152.8.160/29",
+      "systemService": "AzureAttestation",
+      "region": "belgiumcentral"
+    },
+    {
       "address": "4.228.174.120/29",
       "systemService": "AzureAttestation",
       "region": "brazilsouth"
     },
     {
       "address": "4.228.174.192/30",
+      "systemService": "AzureAttestation",
+      "region": "brazilsouth"
+    },
+    {
+      "address": "20.226.148.196/30",
+      "systemService": "AzureAttestation",
+      "region": "brazilsouth"
+    },
+    {
+      "address": "20.226.148.200/29",
       "systemService": "AzureAttestation",
       "region": "brazilsouth"
     },
@@ -166616,6 +167501,16 @@
       "region": "brazilse"
     },
     {
+      "address": "4.238.32.4/30",
+      "systemService": "AzureAttestation",
+      "region": "brazilse"
+    },
+    {
+      "address": "4.238.32.8/29",
+      "systemService": "AzureAttestation",
+      "region": "brazilse"
+    },
+    {
       "address": "20.195.146.64/30",
       "systemService": "AzureAttestation",
       "region": "brazilse"
@@ -166637,6 +167532,16 @@
     },
     {
       "address": "4.173.15.72/30",
+      "systemService": "AzureAttestation",
+      "region": "canadacentral"
+    },
+    {
+      "address": "4.173.153.216/29",
+      "systemService": "AzureAttestation",
+      "region": "canadacentral"
+    },
+    {
+      "address": "4.173.153.240/30",
       "systemService": "AzureAttestation",
       "region": "canadacentral"
     },
@@ -166676,12 +167581,32 @@
       "region": "canadaeast"
     },
     {
+      "address": "145.191.155.244/30",
+      "systemService": "AzureAttestation",
+      "region": "canadaeast"
+    },
+    {
+      "address": "145.191.155.248/29",
+      "systemService": "AzureAttestation",
+      "region": "canadaeast"
+    },
+    {
       "address": "4.188.30.180/30",
       "systemService": "AzureAttestation",
       "region": "centralindia"
     },
     {
       "address": "4.188.30.184/29",
+      "systemService": "AzureAttestation",
+      "region": "centralindia"
+    },
+    {
+      "address": "4.188.132.24/29",
+      "systemService": "AzureAttestation",
+      "region": "centralindia"
+    },
+    {
+      "address": "4.188.132.32/30",
       "systemService": "AzureAttestation",
       "region": "centralindia"
     },
@@ -166721,12 +167646,27 @@
       "region": "centralus"
     },
     {
+      "address": "57.175.115.20/30",
+      "systemService": "AzureAttestation",
+      "region": "centralus"
+    },
+    {
+      "address": "57.175.115.24/29",
+      "systemService": "AzureAttestation",
+      "region": "centralus"
+    },
+    {
       "address": "172.170.180.48/29",
       "systemService": "AzureAttestation",
       "region": "centralus"
     },
     {
       "address": "20.46.11.4/30",
+      "systemService": "AzureAttestation",
+      "region": "centraluseuap"
+    },
+    {
+      "address": "57.173.52.76/30",
       "systemService": "AzureAttestation",
       "region": "centraluseuap"
     },
@@ -166771,6 +167711,16 @@
       "region": "chilec"
     },
     {
+      "address": "68.211.204.36/30",
+      "systemService": "AzureAttestation",
+      "region": "chilec"
+    },
+    {
+      "address": "68.211.204.40/29",
+      "systemService": "AzureAttestation",
+      "region": "chilec"
+    },
+    {
       "address": "9.205.32.20/30",
       "systemService": "AzureAttestation",
       "region": "denmarkeast"
@@ -166786,7 +167736,27 @@
       "region": "denmarkeast"
     },
     {
+      "address": "9.205.217.12/30",
+      "systemService": "AzureAttestation",
+      "region": "denmarkeast"
+    },
+    {
+      "address": "9.205.217.48/29",
+      "systemService": "AzureAttestation",
+      "region": "denmarkeast"
+    },
+    {
       "address": "4.144.15.72/29",
+      "systemService": "AzureAttestation",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.6.204.120/29",
+      "systemService": "AzureAttestation",
+      "region": "eastasia"
+    },
+    {
+      "address": "20.6.204.128/30",
       "systemService": "AzureAttestation",
       "region": "eastasia"
     },
@@ -166836,6 +167806,16 @@
       "region": "eastus"
     },
     {
+      "address": "74.151.230.0/29",
+      "systemService": "AzureAttestation",
+      "region": "eastus"
+    },
+    {
+      "address": "74.151.230.8/30",
+      "systemService": "AzureAttestation",
+      "region": "eastus"
+    },
+    {
       "address": "20.44.19.164/30",
       "systemService": "AzureAttestation",
       "region": "eastus2"
@@ -166852,6 +167832,16 @@
     },
     {
       "address": "57.167.180.216/29",
+      "systemService": "AzureAttestation",
+      "region": "eastus2"
+    },
+    {
+      "address": "74.157.87.96/29",
+      "systemService": "AzureAttestation",
+      "region": "eastus2"
+    },
+    {
+      "address": "74.157.87.104/30",
       "systemService": "AzureAttestation",
       "region": "eastus2"
     },
@@ -166886,6 +167876,16 @@
       "region": "eastus2euap"
     },
     {
+      "address": "74.151.25.88/29",
+      "systemService": "AzureAttestation",
+      "region": "eastus2euap"
+    },
+    {
+      "address": "74.151.25.96/30",
+      "systemService": "AzureAttestation",
+      "region": "eastus2euap"
+    },
+    {
       "address": "51.57.143.200/29",
       "systemService": "AzureAttestation",
       "region": "eastus3"
@@ -166902,6 +167902,16 @@
     },
     {
       "address": "51.57.176.216/30",
+      "systemService": "AzureAttestation",
+      "region": "eastus3"
+    },
+    {
+      "address": "51.57.199.0/29",
+      "systemService": "AzureAttestation",
+      "region": "eastus3"
+    },
+    {
+      "address": "51.57.199.8/30",
       "systemService": "AzureAttestation",
       "region": "eastus3"
     },
@@ -166926,6 +167936,16 @@
       "region": "usstagee"
     },
     {
+      "address": "20.99.39.52/30",
+      "systemService": "AzureAttestation",
+      "region": "usstagee"
+    },
+    {
+      "address": "20.99.39.56/29",
+      "systemService": "AzureAttestation",
+      "region": "usstagee"
+    },
+    {
       "address": "40.67.52.116/30",
       "systemService": "AzureAttestation",
       "region": "usstagee"
@@ -166942,6 +167962,16 @@
     },
     {
       "address": "4.211.160.80/29",
+      "systemService": "AzureAttestation",
+      "region": "centralfrance"
+    },
+    {
+      "address": "4.212.7.196/30",
+      "systemService": "AzureAttestation",
+      "region": "centralfrance"
+    },
+    {
+      "address": "4.212.7.200/29",
       "systemService": "AzureAttestation",
       "region": "centralfrance"
     },
@@ -166981,6 +168011,16 @@
       "region": "southfrance"
     },
     {
+      "address": "98.66.37.232/29",
+      "systemService": "AzureAttestation",
+      "region": "southfrance"
+    },
+    {
+      "address": "98.66.38.0/30",
+      "systemService": "AzureAttestation",
+      "region": "southfrance"
+    },
+    {
       "address": "20.52.72.44/30",
       "systemService": "AzureAttestation",
       "region": "germanyn"
@@ -167006,6 +168046,16 @@
       "region": "germanyn"
     },
     {
+      "address": "98.67.21.204/30",
+      "systemService": "AzureAttestation",
+      "region": "germanyn"
+    },
+    {
+      "address": "98.67.22.32/29",
+      "systemService": "AzureAttestation",
+      "region": "germanyn"
+    },
+    {
       "address": "4.185.224.248/29",
       "systemService": "AzureAttestation",
       "region": "germanywc"
@@ -167017,6 +168067,16 @@
     },
     {
       "address": "48.203.101.88/30",
+      "systemService": "AzureAttestation",
+      "region": "germanywc"
+    },
+    {
+      "address": "48.203.191.132/30",
+      "systemService": "AzureAttestation",
+      "region": "germanywc"
+    },
+    {
+      "address": "48.203.191.136/29",
       "systemService": "AzureAttestation",
       "region": "germanywc"
     },
@@ -167046,12 +168106,32 @@
       "region": "indiasouthcentral"
     },
     {
+      "address": "172.198.239.88/29",
+      "systemService": "AzureAttestation",
+      "region": "indiasouthcentral"
+    },
+    {
+      "address": "172.198.239.160/30",
+      "systemService": "AzureAttestation",
+      "region": "indiasouthcentral"
+    },
+    {
       "address": "48.193.77.176/29",
       "systemService": "AzureAttestation",
       "region": "indonesiacentral"
     },
     {
       "address": "48.193.77.184/30",
+      "systemService": "AzureAttestation",
+      "region": "indonesiacentral"
+    },
+    {
+      "address": "48.193.109.152/29",
+      "systemService": "AzureAttestation",
+      "region": "indonesiacentral"
+    },
+    {
+      "address": "48.193.109.192/30",
       "systemService": "AzureAttestation",
       "region": "indonesiacentral"
     },
@@ -167081,6 +168161,16 @@
       "region": "israelcentral"
     },
     {
+      "address": "51.58.109.124/30",
+      "systemService": "AzureAttestation",
+      "region": "israelcentral"
+    },
+    {
+      "address": "51.58.110.48/29",
+      "systemService": "AzureAttestation",
+      "region": "israelcentral"
+    },
+    {
       "address": "20.217.248.20/30",
       "systemService": "AzureAttestation",
       "region": "israelnorthwest"
@@ -167092,6 +168182,16 @@
     },
     {
       "address": "51.4.158.248/29",
+      "systemService": "AzureAttestation",
+      "region": "israelnorthwest"
+    },
+    {
+      "address": "51.58.166.96/29",
+      "systemService": "AzureAttestation",
+      "region": "israelnorthwest"
+    },
+    {
+      "address": "51.58.166.104/30",
       "systemService": "AzureAttestation",
       "region": "israelnorthwest"
     },
@@ -167116,12 +168216,32 @@
       "region": "italynorth"
     },
     {
+      "address": "9.235.245.180/30",
+      "systemService": "AzureAttestation",
+      "region": "italynorth"
+    },
+    {
+      "address": "9.235.245.184/29",
+      "systemService": "AzureAttestation",
+      "region": "italynorth"
+    },
+    {
+      "address": "4.215.17.0/30",
+      "systemService": "AzureAttestation",
+      "region": "japaneast"
+    },
+    {
       "address": "4.216.14.24/29",
       "systemService": "AzureAttestation",
       "region": "japaneast"
     },
     {
       "address": "4.216.14.32/30",
+      "systemService": "AzureAttestation",
+      "region": "japaneast"
+    },
+    {
+      "address": "4.216.23.248/29",
       "systemService": "AzureAttestation",
       "region": "japaneast"
     },
@@ -167166,6 +168286,26 @@
       "region": "japanwest"
     },
     {
+      "address": "172.192.225.104/29",
+      "systemService": "AzureAttestation",
+      "region": "japanwest"
+    },
+    {
+      "address": "172.192.225.144/30",
+      "systemService": "AzureAttestation",
+      "region": "japanwest"
+    },
+    {
+      "address": "4.240.196.92/30",
+      "systemService": "AzureAttestation",
+      "region": "jioindiacentral"
+    },
+    {
+      "address": "4.240.196.208/29",
+      "systemService": "AzureAttestation",
+      "region": "jioindiacentral"
+    },
+    {
       "address": "20.192.231.240/30",
       "systemService": "AzureAttestation",
       "region": "jioindiacentral"
@@ -167189,6 +168329,16 @@
       "address": "74.225.110.136/29",
       "systemService": "AzureAttestation",
       "region": "jioindiacentral"
+    },
+    {
+      "address": "4.187.48.236/30",
+      "systemService": "AzureAttestation",
+      "region": "jioindiawest"
+    },
+    {
+      "address": "4.187.49.80/29",
+      "systemService": "AzureAttestation",
+      "region": "jioindiawest"
     },
     {
       "address": "20.192.166.188/30",
@@ -167226,6 +168376,16 @@
       "region": "koreacentral"
     },
     {
+      "address": "4.230.209.68/30",
+      "systemService": "AzureAttestation",
+      "region": "koreacentral"
+    },
+    {
+      "address": "4.230.209.72/29",
+      "systemService": "AzureAttestation",
+      "region": "koreacentral"
+    },
+    {
       "address": "20.194.72.148/30",
       "systemService": "AzureAttestation",
       "region": "koreacentral"
@@ -167247,6 +168407,16 @@
     },
     {
       "address": "4.243.164.96/30",
+      "systemService": "AzureAttestation",
+      "region": "koreasouth"
+    },
+    {
+      "address": "4.243.180.196/30",
+      "systemService": "AzureAttestation",
+      "region": "koreasouth"
+    },
+    {
+      "address": "4.243.180.200/29",
       "systemService": "AzureAttestation",
       "region": "koreasouth"
     },
@@ -167281,6 +168451,16 @@
       "region": "malaysiasouth"
     },
     {
+      "address": "172.197.52.24/29",
+      "systemService": "AzureAttestation",
+      "region": "malaysiasouth"
+    },
+    {
+      "address": "172.197.52.144/30",
+      "systemService": "AzureAttestation",
+      "region": "malaysiasouth"
+    },
+    {
       "address": "20.17.112.20/30",
       "systemService": "AzureAttestation",
       "region": "malaysiawest"
@@ -167292,6 +168472,16 @@
     },
     {
       "address": "172.197.132.144/30",
+      "systemService": "AzureAttestation",
+      "region": "malaysiawest"
+    },
+    {
+      "address": "172.197.225.148/30",
+      "systemService": "AzureAttestation",
+      "region": "malaysiawest"
+    },
+    {
+      "address": "172.197.225.224/29",
       "systemService": "AzureAttestation",
       "region": "malaysiawest"
     },
@@ -167316,12 +168506,32 @@
       "region": "mexicocentral"
     },
     {
+      "address": "172.195.152.164/30",
+      "systemService": "AzureAttestation",
+      "region": "mexicocentral"
+    },
+    {
+      "address": "172.195.152.168/29",
+      "systemService": "AzureAttestation",
+      "region": "mexicocentral"
+    },
+    {
       "address": "172.196.77.104/29",
       "systemService": "AzureAttestation",
       "region": "newzealandnorth"
     },
     {
       "address": "172.196.77.112/30",
+      "systemService": "AzureAttestation",
+      "region": "newzealandnorth"
+    },
+    {
+      "address": "172.196.116.72/29",
+      "systemService": "AzureAttestation",
+      "region": "newzealandnorth"
+    },
+    {
+      "address": "172.196.117.32/30",
       "systemService": "AzureAttestation",
       "region": "newzealandnorth"
     },
@@ -167356,6 +168566,16 @@
       "region": "northcentralus"
     },
     {
+      "address": "20.66.224.32/29",
+      "systemService": "AzureAttestation",
+      "region": "northcentralus"
+    },
+    {
+      "address": "20.66.224.40/30",
+      "systemService": "AzureAttestation",
+      "region": "northcentralus"
+    },
+    {
       "address": "52.162.111.140/30",
       "systemService": "AzureAttestation",
       "region": "northcentralus"
@@ -167386,6 +168606,26 @@
       "region": "northeurope"
     },
     {
+      "address": "74.144.85.112/29",
+      "systemService": "AzureAttestation",
+      "region": "northeurope"
+    },
+    {
+      "address": "74.144.85.120/30",
+      "systemService": "AzureAttestation",
+      "region": "northeurope"
+    },
+    {
+      "address": "74.149.5.108/30",
+      "systemService": "AzureAttestation",
+      "region": "northeastus5"
+    },
+    {
+      "address": "74.149.6.40/29",
+      "systemService": "AzureAttestation",
+      "region": "northeastus5"
+    },
+    {
       "address": "172.194.64.20/30",
       "systemService": "AzureAttestation",
       "region": "northeastus5"
@@ -167402,6 +168642,16 @@
     },
     {
       "address": "4.177.29.184/29",
+      "systemService": "AzureAttestation",
+      "region": "norwaye"
+    },
+    {
+      "address": "4.177.57.140/30",
+      "systemService": "AzureAttestation",
+      "region": "norwaye"
+    },
+    {
+      "address": "4.177.57.176/29",
       "systemService": "AzureAttestation",
       "region": "norwaye"
     },
@@ -167451,12 +168701,32 @@
       "region": "norwayw"
     },
     {
+      "address": "74.240.13.228/30",
+      "systemService": "AzureAttestation",
+      "region": "norwayw"
+    },
+    {
+      "address": "74.240.13.232/29",
+      "systemService": "AzureAttestation",
+      "region": "norwayw"
+    },
+    {
       "address": "20.215.0.44/30",
       "systemService": "AzureAttestation",
       "region": "polandcentral"
     },
     {
       "address": "20.215.120.112/29",
+      "systemService": "AzureAttestation",
+      "region": "polandcentral"
+    },
+    {
+      "address": "74.153.1.244/30",
+      "systemService": "AzureAttestation",
+      "region": "polandcentral"
+    },
+    {
+      "address": "74.153.1.248/29",
       "systemService": "AzureAttestation",
       "region": "polandcentral"
     },
@@ -167469,6 +168739,16 @@
       "address": "134.112.195.48/30",
       "systemService": "AzureAttestation",
       "region": "polandcentral"
+    },
+    {
+      "address": "4.170.15.188/30",
+      "systemService": "AzureAttestation",
+      "region": "qatarcentral"
+    },
+    {
+      "address": "4.170.28.32/29",
+      "systemService": "AzureAttestation",
+      "region": "qatarcentral"
     },
     {
       "address": "20.21.32.44/30",
@@ -167501,6 +168781,16 @@
       "region": "southafricanorth"
     },
     {
+      "address": "4.222.1.64/29",
+      "systemService": "AzureAttestation",
+      "region": "southafricanorth"
+    },
+    {
+      "address": "4.222.1.72/30",
+      "systemService": "AzureAttestation",
+      "region": "southafricanorth"
+    },
+    {
       "address": "102.133.126.132/30",
       "systemService": "AzureAttestation",
       "region": "southafricanorth"
@@ -167509,6 +168799,16 @@
       "address": "102.133.221.196/30",
       "systemService": "AzureAttestation",
       "region": "southafricanorth"
+    },
+    {
+      "address": "74.160.11.204/30",
+      "systemService": "AzureAttestation",
+      "region": "southafricawest"
+    },
+    {
+      "address": "74.160.16.104/29",
+      "systemService": "AzureAttestation",
+      "region": "southafricawest"
     },
     {
       "address": "102.37.64.120/30",
@@ -167561,12 +168861,32 @@
       "region": "southcentralus"
     },
     {
+      "address": "74.155.16.148/30",
+      "systemService": "AzureAttestation",
+      "region": "southcentralus"
+    },
+    {
+      "address": "74.155.16.152/29",
+      "systemService": "AzureAttestation",
+      "region": "southcentralus"
+    },
+    {
       "address": "48.216.16.20/30",
       "systemService": "AzureAttestation",
       "region": "southcentralus2"
     },
     {
       "address": "48.219.13.192/29",
+      "systemService": "AzureAttestation",
+      "region": "southcentralus2"
+    },
+    {
+      "address": "48.219.46.208/29",
+      "systemService": "AzureAttestation",
+      "region": "southcentralus2"
+    },
+    {
+      "address": "48.219.46.216/30",
       "systemService": "AzureAttestation",
       "region": "southcentralus2"
     },
@@ -167589,6 +168909,26 @@
       "address": "57.152.147.192/30",
       "systemService": "AzureAttestation",
       "region": "usstagec"
+    },
+    {
+      "address": "57.152.172.124/30",
+      "systemService": "AzureAttestation",
+      "region": "usstagec"
+    },
+    {
+      "address": "57.152.172.224/29",
+      "systemService": "AzureAttestation",
+      "region": "usstagec"
+    },
+    {
+      "address": "4.247.40.40/29",
+      "systemService": "AzureAttestation",
+      "region": "southindia"
+    },
+    {
+      "address": "4.247.40.64/30",
+      "systemService": "AzureAttestation",
+      "region": "southindia"
     },
     {
       "address": "20.192.184.116/30",
@@ -167617,6 +168957,16 @@
     },
     {
       "address": "4.145.10.168/29",
+      "systemService": "AzureAttestation",
+      "region": "southeastasia"
+    },
+    {
+      "address": "4.146.1.68/30",
+      "systemService": "AzureAttestation",
+      "region": "southeastasia"
+    },
+    {
+      "address": "4.146.1.96/29",
       "systemService": "AzureAttestation",
       "region": "southeastasia"
     },
@@ -167656,6 +169006,16 @@
       "region": "southeastus"
     },
     {
+      "address": "68.154.176.196/30",
+      "systemService": "AzureAttestation",
+      "region": "southeastus"
+    },
+    {
+      "address": "68.154.176.200/29",
+      "systemService": "AzureAttestation",
+      "region": "southeastus"
+    },
+    {
       "address": "74.7.40.20/30",
       "systemService": "AzureAttestation",
       "region": "southeastus3"
@@ -167669,6 +169029,26 @@
       "address": "74.7.71.0/30",
       "systemService": "AzureAttestation",
       "region": "southeastus3"
+    },
+    {
+      "address": "74.7.113.168/29",
+      "systemService": "AzureAttestation",
+      "region": "southeastus3"
+    },
+    {
+      "address": "74.7.114.16/30",
+      "systemService": "AzureAttestation",
+      "region": "southeastus3"
+    },
+    {
+      "address": "48.200.134.132/30",
+      "systemService": "AzureAttestation",
+      "region": "southeastus5"
+    },
+    {
+      "address": "48.200.134.136/29",
+      "systemService": "AzureAttestation",
+      "region": "southeastus5"
     },
     {
       "address": "74.7.176.20/30",
@@ -167687,6 +169067,16 @@
     },
     {
       "address": "48.219.81.176/29",
+      "systemService": "AzureAttestation",
+      "region": "southwestus"
+    },
+    {
+      "address": "48.219.89.92/30",
+      "systemService": "AzureAttestation",
+      "region": "southwestus"
+    },
+    {
+      "address": "48.219.90.24/29",
       "systemService": "AzureAttestation",
       "region": "southwestus"
     },
@@ -167721,6 +169111,16 @@
       "region": "spaincentral"
     },
     {
+      "address": "158.158.214.140/30",
+      "systemService": "AzureAttestation",
+      "region": "spaincentral"
+    },
+    {
+      "address": "158.158.214.240/29",
+      "systemService": "AzureAttestation",
+      "region": "spaincentral"
+    },
+    {
       "address": "4.223.182.184/29",
       "systemService": "AzureAttestation",
       "region": "swedencentral"
@@ -167741,6 +169141,16 @@
       "region": "swedencentral"
     },
     {
+      "address": "57.174.126.24/29",
+      "systemService": "AzureAttestation",
+      "region": "swedencentral"
+    },
+    {
+      "address": "57.174.126.32/30",
+      "systemService": "AzureAttestation",
+      "region": "swedencentral"
+    },
+    {
       "address": "20.91.44.16/29",
       "systemService": "AzureAttestation",
       "region": "swedensouth"
@@ -167757,6 +169167,16 @@
     },
     {
       "address": "51.12.198.4/30",
+      "systemService": "AzureAttestation",
+      "region": "swedensouth"
+    },
+    {
+      "address": "74.241.69.100/30",
+      "systemService": "AzureAttestation",
+      "region": "swedensouth"
+    },
+    {
+      "address": "74.241.69.104/29",
       "systemService": "AzureAttestation",
       "region": "swedensouth"
     },
@@ -167786,6 +169206,16 @@
       "region": "switzerlandn"
     },
     {
+      "address": "172.161.230.124/30",
+      "systemService": "AzureAttestation",
+      "region": "switzerlandn"
+    },
+    {
+      "address": "172.161.230.224/29",
+      "systemService": "AzureAttestation",
+      "region": "switzerlandn"
+    },
+    {
       "address": "4.226.197.72/29",
       "systemService": "AzureAttestation",
       "region": "switzerlandw"
@@ -167811,6 +169241,16 @@
       "region": "switzerlandw"
     },
     {
+      "address": "57.160.28.156/30",
+      "systemService": "AzureAttestation",
+      "region": "switzerlandw"
+    },
+    {
+      "address": "57.160.28.200/29",
+      "systemService": "AzureAttestation",
+      "region": "switzerlandw"
+    },
+    {
       "address": "51.53.27.240/30",
       "systemService": "AzureAttestation",
       "region": "taiwannorth"
@@ -167831,12 +169271,32 @@
       "region": "taiwannorth"
     },
     {
+      "address": "70.157.192.32/29",
+      "systemService": "AzureAttestation",
+      "region": "taiwannorth"
+    },
+    {
+      "address": "70.157.192.40/30",
+      "systemService": "AzureAttestation",
+      "region": "taiwannorth"
+    },
+    {
       "address": "51.53.171.240/30",
       "systemService": "AzureAttestation",
       "region": "taiwannorthwest"
     },
     {
       "address": "57.170.0.64/30",
+      "systemService": "AzureAttestation",
+      "region": "taiwannorthwest"
+    },
+    {
+      "address": "57.170.14.240/29",
+      "systemService": "AzureAttestation",
+      "region": "taiwannorthwest"
+    },
+    {
+      "address": "57.170.14.248/30",
       "systemService": "AzureAttestation",
       "region": "taiwannorthwest"
     },
@@ -167857,6 +169317,16 @@
     },
     {
       "address": "40.120.8.176/30",
+      "systemService": "AzureAttestation",
+      "region": "uaecentral"
+    },
+    {
+      "address": "74.150.12.116/30",
+      "systemService": "AzureAttestation",
+      "region": "uaecentral"
+    },
+    {
+      "address": "74.150.12.120/29",
       "systemService": "AzureAttestation",
       "region": "uaecentral"
     },
@@ -167882,6 +169352,16 @@
     },
     {
       "address": "4.161.21.176/29",
+      "systemService": "AzureAttestation",
+      "region": "uaenorth"
+    },
+    {
+      "address": "4.161.165.40/29",
+      "systemService": "AzureAttestation",
+      "region": "uaenorth"
+    },
+    {
+      "address": "4.161.165.80/30",
       "systemService": "AzureAttestation",
       "region": "uaenorth"
     },
@@ -167912,6 +169392,16 @@
     },
     {
       "address": "51.143.209.132/30",
+      "systemService": "AzureAttestation",
+      "region": "uksouth"
+    },
+    {
+      "address": "172.165.36.212/30",
+      "systemService": "AzureAttestation",
+      "region": "uksouth"
+    },
+    {
+      "address": "172.165.36.216/29",
       "systemService": "AzureAttestation",
       "region": "uksouth"
     },
@@ -167951,6 +169441,16 @@
       "region": "ukwest"
     },
     {
+      "address": "172.186.143.108/30",
+      "systemService": "AzureAttestation",
+      "region": "ukwest"
+    },
+    {
+      "address": "172.186.143.128/29",
+      "systemService": "AzureAttestation",
+      "region": "ukwest"
+    },
+    {
       "address": "20.51.53.8/29",
       "systemService": "AzureAttestation",
       "region": "westcentralus"
@@ -167972,6 +169472,16 @@
     },
     {
       "address": "52.150.157.172/30",
+      "systemService": "AzureAttestation",
+      "region": "westcentralus"
+    },
+    {
+      "address": "74.159.0.252/30",
+      "systemService": "AzureAttestation",
+      "region": "westcentralus"
+    },
+    {
+      "address": "74.159.1.80/29",
       "systemService": "AzureAttestation",
       "region": "westcentralus"
     },
@@ -168001,6 +169511,16 @@
       "region": "westeurope"
     },
     {
+      "address": "74.144.136.56/29",
+      "systemService": "AzureAttestation",
+      "region": "westeurope"
+    },
+    {
+      "address": "74.144.136.128/30",
+      "systemService": "AzureAttestation",
+      "region": "westeurope"
+    },
+    {
       "address": "20.38.132.24/30",
       "systemService": "AzureAttestation",
       "region": "westindia"
@@ -168022,6 +169542,16 @@
     },
     {
       "address": "57.159.172.4/30",
+      "systemService": "AzureAttestation",
+      "region": "westindia"
+    },
+    {
+      "address": "57.159.197.100/30",
+      "systemService": "AzureAttestation",
+      "region": "westindia"
+    },
+    {
+      "address": "57.159.197.104/29",
       "systemService": "AzureAttestation",
       "region": "westindia"
     },
@@ -168051,6 +169581,16 @@
       "region": "westus"
     },
     {
+      "address": "74.146.25.236/30",
+      "systemService": "AzureAttestation",
+      "region": "westus"
+    },
+    {
+      "address": "74.146.28.8/29",
+      "systemService": "AzureAttestation",
+      "region": "westus"
+    },
+    {
       "address": "13.66.145.224/30",
       "systemService": "AzureAttestation",
       "region": "westus2"
@@ -168076,6 +169616,16 @@
       "region": "westus2"
     },
     {
+      "address": "74.146.190.244/30",
+      "systemService": "AzureAttestation",
+      "region": "westus2"
+    },
+    {
+      "address": "74.146.191.88/29",
+      "systemService": "AzureAttestation",
+      "region": "westus2"
+    },
+    {
       "address": "4.148.214.196/30",
       "systemService": "AzureAttestation",
       "region": "westus3"
@@ -168097,6 +169647,16 @@
     },
     {
       "address": "20.172.72.240/29",
+      "systemService": "AzureAttestation",
+      "region": "westus3"
+    },
+    {
+      "address": "172.182.41.228/30",
+      "systemService": "AzureAttestation",
+      "region": "westus3"
+    },
+    {
+      "address": "172.182.44.40/29",
       "systemService": "AzureAttestation",
       "region": "westus3"
     },
@@ -195921,6 +197481,16 @@
       "region": "indiasouthcentral"
     },
     {
+      "address": "172.198.239.176/28",
+      "systemService": "AzureMonitor",
+      "region": "indiasouthcentral"
+    },
+    {
+      "address": "172.198.244.96/27",
+      "systemService": "AzureMonitor",
+      "region": "indiasouthcentral"
+    },
+    {
       "address": "48.193.48.80/28",
       "systemService": "AzureMonitor",
       "region": "indonesiacentral"
@@ -197729,6 +199299,11 @@
       "address": "137.116.226.81/32",
       "systemService": "AzureMonitor",
       "region": "northeurope"
+    },
+    {
+      "address": "74.149.6.192/26",
+      "systemService": "AzureMonitor",
+      "region": "northeastus5"
     },
     {
       "address": "172.194.81.104/29",
@@ -226792,11 +228367,6 @@
     },
     {
       "address": "20.228.7.128/26",
-      "systemService": "DataFactory",
-      "region": "centraluseuap"
-    },
-    {
-      "address": "40.122.0.16/28",
       "systemService": "DataFactory",
       "region": "centraluseuap"
     },
@@ -276356,7 +277926,17 @@
       "region": ""
     },
     {
+      "address": "48.197.144.0/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "48.198.101.224/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "48.198.154.128/26",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -277036,6 +278616,11 @@
       "region": ""
     },
     {
+      "address": "74.149.6.192/26",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "74.151.8.0/26",
       "systemService": "AzureMonitor",
       "region": ""
@@ -277452,6 +279037,16 @@
     },
     {
       "address": "172.198.239.96/27",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.198.239.176/28",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "172.198.244.96/27",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -278572,11 +280167,6 @@
     },
     {
       "address": "40.120.75.112/28",
-      "systemService": "DataFactory",
-      "region": ""
-    },
-    {
-      "address": "40.122.0.16/28",
       "systemService": "DataFactory",
       "region": ""
     },
@@ -285111,6 +286701,21 @@
       "region": "australiasoutheast"
     },
     {
+      "address": "57.157.168.0/27",
+      "systemService": "",
+      "region": "australiasoutheast"
+    },
+    {
+      "address": "57.157.168.32/29",
+      "systemService": "",
+      "region": "australiasoutheast"
+    },
+    {
+      "address": "57.157.168.40/30",
+      "systemService": "",
+      "region": "australiasoutheast"
+    },
+    {
       "address": "68.218.160.0/19",
       "systemService": "",
       "region": "australiasoutheast"
@@ -287221,57 +288826,7 @@
       "region": "canadacentral"
     },
     {
-      "address": "40.120.184.0/26",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.184.64/31",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.184.68/30",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.184.72/29",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.184.82/31",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.184.84/30",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.184.90/31",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.184.92/30",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.184.96/27",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.184.128/25",
-      "systemService": "",
-      "region": "canadacentral"
-    },
-    {
-      "address": "40.120.185.0/24",
+      "address": "40.120.184.0/23",
       "systemService": "",
       "region": "canadacentral"
     },
@@ -289101,6 +290656,11 @@
       "region": "centraluseuap"
     },
     {
+      "address": "40.87.182.246/31",
+      "systemService": "",
+      "region": "centraluseuap"
+    },
+    {
       "address": "40.87.183.30/31",
       "systemService": "",
       "region": "centraluseuap"
@@ -290721,7 +292281,7 @@
       "region": "centralus"
     },
     {
-      "address": "40.87.182.240/31",
+      "address": "40.87.182.240/30",
       "systemService": "",
       "region": "centralus"
     },
@@ -296866,6 +298426,11 @@
       "region": "eastus2"
     },
     {
+      "address": "20.143.222.0/23",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
       "address": "20.150.29.0/24",
       "systemService": "",
       "region": "eastus2"
@@ -301451,6 +303016,11 @@
       "region": "eastus2"
     },
     {
+      "address": "74.159.128.0/17",
+      "systemService": "",
+      "region": "eastus2"
+    },
+    {
       "address": "74.249.0.0/17",
       "systemService": "",
       "region": "eastus2"
@@ -302076,7 +303646,12 @@
       "region": "eastus3"
     },
     {
-      "address": "57.157.25.112/31",
+      "address": "57.157.25.112/29",
+      "systemService": "",
+      "region": "eastus3"
+    },
+    {
+      "address": "57.157.25.120/31",
       "systemService": "",
       "region": "eastus3"
     },
@@ -307721,22 +309296,17 @@
       "region": "indiasouthcentral"
     },
     {
-      "address": "57.157.92.128/27",
+      "address": "57.157.92.128/26",
       "systemService": "",
       "region": "indiasouthcentral"
     },
     {
-      "address": "57.157.92.160/29",
+      "address": "57.157.92.192/28",
       "systemService": "",
       "region": "indiasouthcentral"
     },
     {
-      "address": "57.157.92.168/30",
-      "systemService": "",
-      "region": "indiasouthcentral"
-    },
-    {
-      "address": "57.157.92.172/31",
+      "address": "57.157.92.208/29",
       "systemService": "",
       "region": "indiasouthcentral"
     },
@@ -324476,27 +326046,22 @@
       "region": "southeastus5"
     },
     {
-      "address": "57.157.21.0/27",
+      "address": "57.157.21.0/26",
       "systemService": "",
       "region": "southeastus5"
     },
     {
-      "address": "57.157.21.32/28",
+      "address": "57.157.21.64/27",
       "systemService": "",
       "region": "southeastus5"
     },
     {
-      "address": "57.157.21.48/29",
+      "address": "57.157.21.96/29",
       "systemService": "",
       "region": "southeastus5"
     },
     {
-      "address": "57.157.21.56/30",
-      "systemService": "",
-      "region": "southeastus5"
-    },
-    {
-      "address": "57.157.21.60/31",
+      "address": "57.157.21.104/31",
       "systemService": "",
       "region": "southeastus5"
     },
@@ -325761,22 +327326,12 @@
       "region": "swedencentral"
     },
     {
-      "address": "57.157.70.0/25",
+      "address": "57.157.70.0/24",
       "systemService": "",
       "region": "swedencentral"
     },
     {
-      "address": "57.157.70.128/26",
-      "systemService": "",
-      "region": "swedencentral"
-    },
-    {
-      "address": "57.157.70.192/27",
-      "systemService": "",
-      "region": "swedencentral"
-    },
-    {
-      "address": "57.157.70.224/29",
+      "address": "57.157.71.0/31",
       "systemService": "",
       "region": "swedencentral"
     },
@@ -331496,6 +333051,11 @@
       "region": "westeurope"
     },
     {
+      "address": "20.201.241.0/24",
+      "systemService": "",
+      "region": "westeurope"
+    },
+    {
       "address": "20.202.2.0/24",
       "systemService": "",
       "region": "westeurope"
@@ -336281,12 +337841,12 @@
       "region": "westus3"
     },
     {
-      "address": "57.157.10.16/30",
+      "address": "57.157.10.16/29",
       "systemService": "",
       "region": "westus3"
     },
     {
-      "address": "57.157.10.20/31",
+      "address": "57.157.10.24/31",
       "systemService": "",
       "region": "westus3"
     },
@@ -349736,6 +351296,11 @@
       "region": ""
     },
     {
+      "address": "20.143.222.0/23",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "20.150.0.0/24",
       "systemService": "",
       "region": ""
@@ -354167,6 +355732,11 @@
     },
     {
       "address": "20.201.240.0/24",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "20.201.241.0/24",
       "systemService": "",
       "region": ""
     },
@@ -361486,12 +363056,17 @@
       "region": ""
     },
     {
-      "address": "40.87.182.240/31",
+      "address": "40.87.182.240/30",
       "systemService": "",
       "region": ""
     },
     {
       "address": "40.87.182.244/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "40.87.182.246/31",
       "systemService": "",
       "region": ""
     },
@@ -366841,57 +368416,7 @@
       "region": ""
     },
     {
-      "address": "40.120.184.0/26",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.184.64/31",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.184.68/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.184.72/29",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.184.82/31",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.184.84/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.184.90/31",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.184.92/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.184.96/27",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.184.128/25",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "40.120.185.0/24",
+      "address": "40.120.184.0/23",
       "systemService": "",
       "region": ""
     },
@@ -386021,12 +387546,12 @@
       "region": ""
     },
     {
-      "address": "57.157.10.16/30",
+      "address": "57.157.10.16/29",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.10.20/31",
+      "address": "57.157.10.24/31",
       "systemService": "",
       "region": ""
     },
@@ -386261,27 +387786,22 @@
       "region": ""
     },
     {
-      "address": "57.157.21.0/27",
+      "address": "57.157.21.0/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.21.32/28",
+      "address": "57.157.21.64/27",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.21.48/29",
+      "address": "57.157.21.96/29",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.21.56/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.21.60/31",
+      "address": "57.157.21.104/31",
       "systemService": "",
       "region": ""
     },
@@ -386306,7 +387826,12 @@
       "region": ""
     },
     {
-      "address": "57.157.25.112/31",
+      "address": "57.157.25.112/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.25.120/31",
       "systemService": "",
       "region": ""
     },
@@ -386911,22 +388436,12 @@
       "region": ""
     },
     {
-      "address": "57.157.70.0/25",
+      "address": "57.157.70.0/24",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.70.128/26",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.70.192/27",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.70.224/29",
+      "address": "57.157.71.0/31",
       "systemService": "",
       "region": ""
     },
@@ -387026,22 +388541,17 @@
       "region": ""
     },
     {
-      "address": "57.157.92.128/27",
+      "address": "57.157.92.128/26",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.92.160/29",
+      "address": "57.157.92.192/28",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "57.157.92.168/30",
-      "systemService": "",
-      "region": ""
-    },
-    {
-      "address": "57.157.92.172/31",
+      "address": "57.157.92.208/29",
       "systemService": "",
       "region": ""
     },
@@ -387116,6 +388626,11 @@
       "region": ""
     },
     {
+      "address": "57.157.120.124/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
       "address": "57.157.124.0/25",
       "systemService": "",
       "region": ""
@@ -387177,6 +388692,21 @@
     },
     {
       "address": "57.157.156.48/31",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.168.0/27",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.168.32/29",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "57.157.168.40/30",
       "systemService": "",
       "region": ""
     },
@@ -389012,6 +390542,11 @@
     },
     {
       "address": "74.159.0.0/17",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "74.159.128.0/17",
       "systemService": "",
       "region": ""
     },
@@ -412016,6 +413551,16 @@
       "region": ""
     },
     {
+      "address": "20.159.255.148/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "20.159.255.152/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "51.54.170.216/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -412046,6 +413591,26 @@
       "region": ""
     },
     {
+      "address": "51.55.196.124/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "51.55.196.176/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "51.55.233.4/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "51.55.233.8/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "52.127.12.48/30",
       "systemService": "AzureAttestation",
       "region": ""
@@ -412066,6 +413631,16 @@
       "region": ""
     },
     {
+      "address": "52.181.56.176/29",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "52.181.56.184/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "52.181.221.48/29",
       "systemService": "AzureAttestation",
       "region": ""
@@ -412082,6 +413657,16 @@
     },
     {
       "address": "52.243.5.16/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "52.243.21.100/30",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "52.243.21.104/29",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -422581,12 +424166,32 @@
       "region": "usdodcentral"
     },
     {
+      "address": "20.159.255.148/30",
+      "systemService": "AzureAttestation",
+      "region": "usdodcentral"
+    },
+    {
+      "address": "20.159.255.152/29",
+      "systemService": "AzureAttestation",
+      "region": "usdodcentral"
+    },
+    {
       "address": "52.245.128.72/30",
       "systemService": "AzureAttestation",
       "region": "usdodcentral"
     },
     {
       "address": "20.140.68.180/30",
+      "systemService": "AzureAttestation",
+      "region": "usdodeast"
+    },
+    {
+      "address": "52.181.56.176/29",
+      "systemService": "AzureAttestation",
+      "region": "usdodeast"
+    },
+    {
+      "address": "52.181.56.184/30",
       "systemService": "AzureAttestation",
       "region": "usdodeast"
     },
@@ -422626,6 +424231,16 @@
       "region": "usgovarizona"
     },
     {
+      "address": "51.55.233.4/30",
+      "systemService": "AzureAttestation",
+      "region": "usgovarizona"
+    },
+    {
+      "address": "51.55.233.8/29",
+      "systemService": "AzureAttestation",
+      "region": "usgovarizona"
+    },
+    {
       "address": "52.127.12.48/30",
       "systemService": "AzureAttestation",
       "region": "usgovarizona"
@@ -422651,6 +424266,16 @@
       "region": "usgovtexas"
     },
     {
+      "address": "52.243.21.100/30",
+      "systemService": "AzureAttestation",
+      "region": "usgovtexas"
+    },
+    {
+      "address": "52.243.21.104/29",
+      "systemService": "AzureAttestation",
+      "region": "usgovtexas"
+    },
+    {
       "address": "20.140.94.140/30",
       "systemService": "AzureAttestation",
       "region": "usgovvirginia"
@@ -422667,6 +424292,16 @@
     },
     {
       "address": "51.55.174.48/29",
+      "systemService": "AzureAttestation",
+      "region": "usgovvirginia"
+    },
+    {
+      "address": "51.55.196.124/30",
+      "systemService": "AzureAttestation",
+      "region": "usgovvirginia"
+    },
+    {
+      "address": "51.55.196.176/29",
       "systemService": "AzureAttestation",
       "region": "usgovvirginia"
     },
@@ -438053,6 +439688,16 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1202:7::3c0/122",
+      "systemService": "AzureAD",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1302:9::c0/122",
+      "systemService": "AzureAD",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1402:a::700/122",
       "systemService": "AzureAD",
       "region": ""
@@ -443323,6 +444968,11 @@
       "region": ""
     },
     {
+      "address": "2603:1020:104:9::1b0/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2603:1020:605:3::3d0/124",
       "systemService": "AzureAttestation",
       "region": ""
@@ -443403,6 +445053,16 @@
       "region": ""
     },
     {
+      "address": "2603:1030:104:6::350/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:107:5::290/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2603:1030:40c:29::5e0/124",
       "systemService": "AzureAttestation",
       "region": ""
@@ -443428,6 +445088,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:902:6::160/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2603:1030:a07:9::90/124",
       "systemService": "AzureAttestation",
       "region": ""
@@ -443443,12 +445108,27 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1102:6::2d0/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1202::540/124",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
+      "address": "2603:1030:1202:5::7b0/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1302::540/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:1302:5::540/124",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -443463,7 +445143,17 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1502:5::710/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1602::7a0/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:1602:5::530/124",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -443543,7 +445233,17 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1202:7::3a0/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1302::600/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1302:9::a0/124",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -443558,12 +445258,22 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1503:8::2d0/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1602::5c0/124",
       "systemService": "AzureAttestation",
       "region": ""
     },
     {
       "address": "2603:1040:1702::540/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1702:7::410/124",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -443584,6 +445294,11 @@
     },
     {
       "address": "2603:1040:1b02::760/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1b02:5::320/124",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -466038,6 +467753,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1602:5::5c0/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1602:5::600/119",
       "systemService": "AzureMonitor",
       "region": ""
@@ -467473,6 +469193,11 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1a02:5::680/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1b02:3::2c0/122",
       "systemService": "AzureMonitor",
       "region": ""
@@ -467489,6 +469214,11 @@
     },
     {
       "address": "2603:1040:1b02:5::/119",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1b02:5::340/122",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -497198,6 +498928,11 @@
       "region": "austriaeast"
     },
     {
+      "address": "2603:1020:104:9::1b0/124",
+      "systemService": "AzureAttestation",
+      "region": "austriaeast"
+    },
+    {
       "address": "2603:1020:1502::540/124",
       "systemService": "AzureAttestation",
       "region": "belgiumcentral"
@@ -497248,6 +498983,11 @@
       "region": "usstagee"
     },
     {
+      "address": "2603:1030:104:6::350/124",
+      "systemService": "AzureAttestation",
+      "region": "usstagee"
+    },
+    {
       "address": "2603:1020:905:2::760/124",
       "systemService": "AzureAttestation",
       "region": "southfrance"
@@ -497274,6 +499014,11 @@
     },
     {
       "address": "2603:1040:1702::540/124",
+      "systemService": "AzureAttestation",
+      "region": "israelnorthwest"
+    },
+    {
+      "address": "2603:1040:1702:7::410/124",
       "systemService": "AzureAttestation",
       "region": "israelnorthwest"
     },
@@ -497318,6 +499063,11 @@
       "region": "malaysiasouth"
     },
     {
+      "address": "2603:1040:1503:8::2d0/124",
+      "systemService": "AzureAttestation",
+      "region": "malaysiasouth"
+    },
+    {
       "address": "2603:1040:1602::5c0/124",
       "systemService": "AzureAttestation",
       "region": "malaysiawest"
@@ -497339,6 +499089,11 @@
     },
     {
       "address": "2603:1030:1602::7a0/124",
+      "systemService": "AzureAttestation",
+      "region": "northeastus5"
+    },
+    {
+      "address": "2603:1030:1602:5::530/124",
       "systemService": "AzureAttestation",
       "region": "northeastus5"
     },
@@ -497368,6 +499123,11 @@
       "region": "southcentralus2"
     },
     {
+      "address": "2603:1030:1102:6::2d0/124",
+      "systemService": "AzureAttestation",
+      "region": "southcentralus2"
+    },
+    {
       "address": "2603:1040:c06:3::390/124",
       "systemService": "AzureAttestation",
       "region": "southindia"
@@ -497378,7 +499138,17 @@
       "region": "southeastus"
     },
     {
+      "address": "2603:1030:902:6::160/124",
+      "systemService": "AzureAttestation",
+      "region": "southeastus"
+    },
+    {
       "address": "2603:1030:1302::540/124",
+      "systemService": "AzureAttestation",
+      "region": "southeastus3"
+    },
+    {
+      "address": "2603:1030:1302:5::540/124",
       "systemService": "AzureAttestation",
       "region": "southeastus3"
     },
@@ -497388,7 +499158,17 @@
       "region": "southeastus5"
     },
     {
+      "address": "2603:1030:1502:5::710/124",
+      "systemService": "AzureAttestation",
+      "region": "southeastus5"
+    },
+    {
       "address": "2603:1030:1202::540/124",
+      "systemService": "AzureAttestation",
+      "region": "southwestus"
+    },
+    {
+      "address": "2603:1030:1202:5::7b0/124",
       "systemService": "AzureAttestation",
       "region": "southwestus"
     },
@@ -497423,7 +499203,17 @@
       "region": "taiwannorth"
     },
     {
+      "address": "2603:1040:1302:9::a0/124",
+      "systemService": "AzureAttestation",
+      "region": "taiwannorth"
+    },
+    {
       "address": "2603:1040:1202::600/124",
+      "systemService": "AzureAttestation",
+      "region": "taiwannorthwest"
+    },
+    {
+      "address": "2603:1040:1202:7::3a0/124",
       "systemService": "AzureAttestation",
       "region": "taiwannorthwest"
     },
@@ -514914,6 +516704,11 @@
     },
     {
       "address": "2603:1030:1602:5::200/119",
+      "systemService": "AzureMonitor",
+      "region": "northeastus5"
+    },
+    {
+      "address": "2603:1030:1602:5::5c0/122",
       "systemService": "AzureMonitor",
       "region": "northeastus5"
     },
@@ -537163,6 +538958,11 @@
       "region": ""
     },
     {
+      "address": "2603:1030:1602:5::5c0/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1030:1702:3::380/121",
       "systemService": "AzureMonitor",
       "region": ""
@@ -537783,12 +539583,22 @@
       "region": ""
     },
     {
+      "address": "2603:1040:1a02:5::680/122",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
       "address": "2603:1040:1b02:3::400/121",
       "systemService": "AzureMonitor",
       "region": ""
     },
     {
       "address": "2603:1040:1b02:5::/119",
+      "systemService": "AzureMonitor",
+      "region": ""
+    },
+    {
+      "address": "2603:1040:1b02:5::340/122",
       "systemService": "AzureMonitor",
       "region": ""
     },
@@ -541768,6 +543578,11 @@
       "region": "centraluseuap"
     },
     {
+      "address": "2603:1030:9:2a5::/64",
+      "systemService": "",
+      "region": "centraluseuap"
+    },
+    {
       "address": "2603:1030:9:2c3::/64",
       "systemService": "",
       "region": "centraluseuap"
@@ -542579,6 +544394,11 @@
     },
     {
       "address": "2603:1030:9:2a4::/64",
+      "systemService": "",
+      "region": "centralus"
+    },
+    {
+      "address": "2603:1030:9:2a6::/64",
       "systemService": "",
       "region": "centralus"
     },
@@ -548283,12 +550103,12 @@
       "region": "eastus3"
     },
     {
-      "address": "2603:1061:101a:b0::/62",
+      "address": "2603:1061:101a:b0::/61",
       "systemService": "",
       "region": "eastus3"
     },
     {
-      "address": "2603:1061:101a:b4::/63",
+      "address": "2603:1061:101a:b8::/63",
       "systemService": "",
       "region": "eastus3"
     },
@@ -549593,17 +551413,17 @@
       "region": "indiasouthcentral"
     },
     {
-      "address": "2603:1061:101b:40::/60",
+      "address": "2603:1061:101b:40::/59",
       "systemService": "",
       "region": "indiasouthcentral"
     },
     {
-      "address": "2603:1061:101b:50::/62",
+      "address": "2603:1061:101b:60::/61",
       "systemService": "",
       "region": "indiasouthcentral"
     },
     {
-      "address": "2603:1061:101b:54::/64",
+      "address": "2603:1061:101b:68::/63",
       "systemService": "",
       "region": "indiasouthcentral"
     },
@@ -555853,22 +557673,22 @@
       "region": "southeastus5"
     },
     {
-      "address": "2603:1061:1019:80::/60",
+      "address": "2603:1061:1019:80::/59",
       "systemService": "",
       "region": "southeastus5"
     },
     {
-      "address": "2603:1061:1019:90::/62",
+      "address": "2603:1061:1019:a0::/61",
       "systemService": "",
       "region": "southeastus5"
     },
     {
-      "address": "2603:1061:1019:94::/63",
+      "address": "2603:1061:1019:a8::/62",
       "systemService": "",
       "region": "southeastus5"
     },
     {
-      "address": "2603:1061:1019:96::/64",
+      "address": "2603:1061:1019:ac::/64",
       "systemService": "",
       "region": "southeastus5"
     },
@@ -561479,6 +563299,16 @@
     },
     {
       "address": "2603:1030:9:2a4::/64",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:9:2a5::/64",
+      "systemService": "",
+      "region": ""
+    },
+    {
+      "address": "2603:1030:9:2a6::/64",
       "systemService": "",
       "region": ""
     },
@@ -570963,22 +572793,22 @@
       "region": ""
     },
     {
-      "address": "2603:1061:1019:80::/60",
+      "address": "2603:1061:1019:80::/59",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:1019:90::/62",
+      "address": "2603:1061:1019:a0::/61",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:1019:94::/63",
+      "address": "2603:1061:1019:a8::/62",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:1019:96::/64",
+      "address": "2603:1061:1019:ac::/64",
       "systemService": "",
       "region": ""
     },
@@ -570998,12 +572828,12 @@
       "region": ""
     },
     {
-      "address": "2603:1061:101a:b0::/62",
+      "address": "2603:1061:101a:b0::/61",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101a:b4::/63",
+      "address": "2603:1061:101a:b8::/63",
       "systemService": "",
       "region": ""
     },
@@ -571013,17 +572843,17 @@
       "region": ""
     },
     {
-      "address": "2603:1061:101b:40::/60",
+      "address": "2603:1061:101b:40::/59",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101b:50::/62",
+      "address": "2603:1061:101b:60::/61",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101b:54::/64",
+      "address": "2603:1061:101b:68::/63",
       "systemService": "",
       "region": ""
     },
@@ -571098,12 +572928,12 @@
       "region": ""
     },
     {
-      "address": "2603:1061:101e:38::/63",
+      "address": "2603:1061:101e:38::/62",
       "systemService": "",
       "region": ""
     },
     {
-      "address": "2603:1061:101e:3a::/64",
+      "address": "2603:1061:101e:3c::/64",
       "systemService": "",
       "region": ""
     },
@@ -586463,7 +588293,22 @@
       "region": ""
     },
     {
+      "address": "2001:489a:3103:b::250/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2001:489a:3203:3::200/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "2001:489a:3203:6::500/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "2001:489a:3303:6::400/124",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -586473,7 +588318,17 @@
       "region": ""
     },
     {
+      "address": "2001:489a:3403:b::430/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
       "address": "2001:489a:3604:2::700/124",
+      "systemService": "AzureAttestation",
+      "region": ""
+    },
+    {
+      "address": "2001:489a:3604:b::50/124",
       "systemService": "AzureAttestation",
       "region": ""
     },
@@ -590298,7 +592153,22 @@
       "region": "usdodcentral"
     },
     {
+      "address": "2001:489a:3203:6::500/124",
+      "systemService": "AzureAttestation",
+      "region": "usdodcentral"
+    },
+    {
+      "address": "2001:489a:3303:6::400/124",
+      "systemService": "AzureAttestation",
+      "region": "usdodeast"
+    },
+    {
       "address": "2001:489a:3604:2::700/124",
+      "systemService": "AzureAttestation",
+      "region": "usgovarizona"
+    },
+    {
+      "address": "2001:489a:3604:b::50/124",
       "systemService": "AzureAttestation",
       "region": "usgovarizona"
     },
@@ -590306,6 +592176,16 @@
       "address": "2001:489a:3403:5::6b0/124",
       "systemService": "AzureAttestation",
       "region": "usgovtexas"
+    },
+    {
+      "address": "2001:489a:3403:b::430/124",
+      "systemService": "AzureAttestation",
+      "region": "usgovtexas"
+    },
+    {
+      "address": "2001:489a:3103:b::250/124",
+      "systemService": "AzureAttestation",
+      "region": "usgovvirginia"
     },
     {
       "address": "2001:489a:3203:3::280/121",
