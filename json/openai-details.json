@@ -3,7 +3,7 @@
   "provider_id": "openai",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-30T02:08:55.023020",
+  "generated_at": "2026-07-31T02:36:51.101028",
   "source_updated_at": "2025-10-30T11:00:00.000000",
   "source": [
     "https://openai.com/chatgpt-user.json",
@@ -11,6 +11,16 @@
   ],
   "last_update": "2025-10-30T11:00:00.000000",
   "ipv4": [
+    {
+      "address": "104.208.184.192/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "104.208.184.208/28",
+      "service": null,
+      "scope": null
+    },
     {
       "address": "104.210.139.192/28",
       "service": null,
@@ -87,12 +97,17 @@
       "scope": null
     },
     {
-      "address": "135.119.134.128/28",
+      "address": "134.149.233.80/28",
       "service": null,
       "scope": null
     },
     {
-      "address": "135.119.134.192/28",
+      "address": "135.116.136.160/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "135.13.64.240/28",
       "service": null,
       "scope": null
     },
@@ -132,12 +147,22 @@
       "scope": null
     },
     {
+      "address": "145.132.1.32/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "145.132.136.96/28",
       "service": null,
       "scope": null
     },
     {
       "address": "145.133.0.176/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "158.158.5.32/28",
       "service": null,
       "scope": null
     },
@@ -207,7 +232,27 @@
       "scope": null
     },
     {
+      "address": "172.192.112.208/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.192.88.192/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "172.192.97.32/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.197.160.192/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.197.161.208/28",
       "service": null,
       "scope": null
     },
@@ -222,6 +267,11 @@
       "scope": null
     },
     {
+      "address": "172.199.137.80/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "172.202.102.112/28",
       "service": null,
       "scope": null
@@ -232,12 +282,32 @@
       "scope": null
     },
     {
+      "address": "172.204.28.224/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "172.204.96.32/28",
       "service": null,
       "scope": null
     },
     {
       "address": "172.204.96.48/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.204.96.80/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.205.189.192/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "172.207.1.32/28",
       "service": null,
       "scope": null
     },
@@ -328,6 +398,11 @@
     },
     {
       "address": "20.102.212.144/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "20.113.211.112/28",
       "service": null,
       "scope": null
     },
@@ -477,6 +552,11 @@
       "scope": null
     },
     {
+      "address": "20.170.184.80/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "20.172.29.32/28",
       "service": null,
       "scope": null
@@ -513,6 +593,11 @@
     },
     {
       "address": "20.199.242.0/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "20.200.212.240/28",
       "service": null,
       "scope": null
     },
@@ -622,6 +707,16 @@
       "scope": null
     },
     {
+      "address": "20.219.71.192/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "20.222.36.192/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "20.226.32.80/28",
       "service": null,
       "scope": null
@@ -677,6 +772,11 @@
       "scope": null
     },
     {
+      "address": "20.48.120.208/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "20.52.125.160/28",
       "service": null,
       "scope": null
@@ -697,12 +797,22 @@
       "scope": null
     },
     {
+      "address": "20.63.180.96/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "20.63.221.64/28",
       "service": null,
       "scope": null
     },
     {
       "address": "20.79.59.112/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "20.81.183.64/28",
       "service": null,
       "scope": null
     },
@@ -852,6 +962,11 @@
       "scope": null
     },
     {
+      "address": "4.218.24.64/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "4.226.200.16/28",
       "service": null,
       "scope": null
@@ -882,11 +997,6 @@
       "scope": null
     },
     {
-      "address": "40.75.14.224/28",
-      "service": null,
-      "scope": null
-    },
-    {
       "address": "40.78.161.48/28",
       "service": null,
       "scope": null
@@ -903,6 +1013,11 @@
     },
     {
       "address": "40.81.234.144/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "40.81.67.96/28",
       "service": null,
       "scope": null
     },
@@ -1002,6 +1117,11 @@
       "scope": null
     },
     {
+      "address": "51.8.155.112/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "51.8.155.48/28",
       "service": null,
       "scope": null
@@ -1012,7 +1132,7 @@
       "scope": null
     },
     {
-      "address": "51.8.155.80/28",
+      "address": "51.8.187.224/28",
       "service": null,
       "scope": null
     },
@@ -1327,6 +1447,11 @@
       "scope": null
     },
     {
+      "address": "70.153.139.208/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "70.153.189.192/28",
       "service": null,
       "scope": null
@@ -1342,6 +1467,11 @@
       "scope": null
     },
     {
+      "address": "70.153.87.224/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "70.156.144.64/28",
       "service": null,
       "scope": null
@@ -1352,7 +1482,17 @@
       "scope": null
     },
     {
+      "address": "70.156.152.96/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "74.161.200.96/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.224.217.64/28",
       "service": null,
       "scope": null
     },
@@ -1412,12 +1552,52 @@
       "scope": null
     },
     {
+      "address": "9.160.128.64/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "9.160.163.128/28",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "9.160.164.128/28",
       "service": null,
       "scope": null
     },
     {
       "address": "9.160.34.144/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "9.160.36.16/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "9.160.96.16/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "9.163.101.48/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "9.205.25.128/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "9.205.8.48/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "9.223.181.208/28",
       "service": null,
       "scope": null
     },
