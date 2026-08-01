@@ -3,15 +3,16 @@
   "provider_id": "github",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-01-29T12:22:25.417618",
+  "generated_at": "2026-08-01T02:35:29.635520",
   "source_updated_at": null,
   "source": [
     "https://api.github.com/meta"
   ],
-  "last_update": "2026-01-29T12:22:25.417618",
+  "last_update": "2026-08-01T02:35:29.635520",
   "ipv4": [
     "140.82.112.0/20",
     "143.55.64.0/20",
+    "172.182.252.133/32",
     "185.199.108.0/22",
     "192.30.252.0/22",
     "20.175.192.147/32",
@@ -29,7 +30,10 @@
     "4.208.26.197/32",
     "4.225.11.194/32",
     "4.228.31.150/32",
-    "4.237.22.38/32"
+    "4.237.22.38/32",
+    "4.249.131.164/32",
+    "48.202.248.40/32",
+    "48.204.201.5/32"
   ],
   "ipv6": [
     "2606:50c0::/32",
@@ -131,6 +135,22 @@
     {
       "address": "20.26.156.215/32",
       "category": "web"
+    },
+    {
+      "address": "172.182.252.133/32",
+      "category": "web"
+    },
+    {
+      "address": "4.249.131.164/32",
+      "category": "web"
+    },
+    {
+      "address": "48.202.248.40/32",
+      "category": "web"
+    },
+    {
+      "address": "48.204.201.5/32",
+      "category": "web"
     }
   ],
   "details_ipv6": [
@@ -156,7 +176,7 @@
       "url": "https://api.github.com/meta",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "etag": "W/\"f8c57988e797987edb33a3c0914193e01d84d78764b3a53908c96bf01ca00ae3\"",
+      "etag": "W/\"beccb311cc6e8d42b00e395947e155968209cf808dc3c8a29a504bba39d38d35\"",
       "last_modified": null
     }
   ]
