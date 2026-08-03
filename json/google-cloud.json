@@ -3,13 +3,13 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-08-02T02:34:07.829764",
-  "source_updated_at": "2026-08-01T13:05:14.061983",
+  "generated_at": "2026-08-03T02:35:59.006261",
+  "source_updated_at": "2026-08-02T13:09:07.484451",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-08-01T13:05:14.061983",
+  "last_update": "2026-08-02T13:09:07.484451",
   "ipv4": [
     "104.154.0.0/15",
     "104.154.113.0/24",
@@ -1100,8 +1100,8 @@
     "8.35.192.0/21",
     "8.8.4.0/24",
     "8.8.8.0/24",
-    "136.23.64.0/19",
     "34.127.145.0/24",
+    "136.23.64.0/19",
     "34.127.146.0/24"
   ],
   "ipv6": [
@@ -6616,16 +6616,16 @@
       "scope": null
     },
     {
-      "address": "136.23.64.0/19",
-      "retired_at": "2026-08-02T02:43:24.742225+00:00"
+      "address": "34.127.145.0/24",
+      "retired_at": "2026-08-03T02:44:55.489118+00:00"
     },
     {
-      "address": "34.127.145.0/24",
-      "retired_at": "2026-08-02T02:43:24.742225+00:00"
+      "address": "136.23.64.0/19",
+      "retired_at": "2026-08-03T02:44:55.489118+00:00"
     },
     {
       "address": "34.127.146.0/24",
-      "retired_at": "2026-08-02T02:43:24.742225+00:00"
+      "retired_at": "2026-08-03T02:44:55.489118+00:00"
     }
   ],
   "details_ipv6": [
@@ -6951,14 +6951,14 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sat, 01 Aug 2026 20:08:00 GMT"
+      "last_modified": "Sun, 02 Aug 2026 20:28:00 GMT"
     },
     {
       "url": "https://www.gstatic.com/ipranges/goog.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sat, 01 Aug 2026 20:08:00 GMT"
+      "last_modified": "Sun, 02 Aug 2026 20:28:00 GMT"
     }
   ]
 }
