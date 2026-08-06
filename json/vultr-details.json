@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-08-05T02:20:16.464625",
+  "generated_at": "2026-08-06T09:14:36.993099",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-08-05T02:20:16.464625",
+  "last_update": "2026-08-06T09:14:36.993099",
   "ipv4": [
     {
       "address": "43.224.32.0/22",
@@ -737,6 +737,13 @@
       "region": "KR-11",
       "city": "Seoul",
       "postal_code": "03922"
+    },
+    {
+      "address": "64.177.0.0/21",
+      "alpha2code": "US",
+      "region": "US-US-MN",
+      "city": "Eagan",
+      "postal_code": "55123"
     },
     {
       "address": "64.177.64.0/20",
@@ -3406,6 +3413,13 @@
       "region": "US-OH",
       "city": "Springfield",
       "postal_code": "45502"
+    },
+    {
+      "address": "2001:19f0:4800::/38",
+      "alpha2code": "US",
+      "region": "US-US-MN",
+      "city": "Eagan",
+      "postal_code": "55123"
     }
   ]
 }
