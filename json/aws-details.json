@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-08-20T01:04:58.827402",
-  "source_updated_at": "2026-08-19-22-57-05",
+  "generated_at": "2026-08-21T01:08:31.580795",
+  "source_updated_at": "2026-08-20-22-57-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-08-19-22-57-05",
+  "last_update": "2026-08-20-22-57-05",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -61043,6 +61043,12 @@
       "network_border_group": "cn-north-1"
     },
     {
+      "address": "43.196.172.0/22",
+      "service": "EFS",
+      "region": "cn-north-1",
+      "network_border_group": "cn-north-1"
+    },
+    {
       "address": "43.192.222.0/25",
       "service": "EFS",
       "region": "cn-northwest-1",
@@ -100055,6 +100061,12 @@
       "service": "IVS_LOW_LATENCY",
       "region": "GLOBAL",
       "network_border_group": "GLOBAL"
+    },
+    {
+      "address": "2400:7fc0:833b:f400::/56",
+      "service": "EFS",
+      "region": "cn-north-1",
+      "network_border_group": "cn-north-1"
     },
     {
       "address": "2400:7fc0:86dd:2300::/56",
