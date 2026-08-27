@@ -3,12 +3,12 @@
   "provider_id": "yandex-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-28T02:26:37.990538",
+  "generated_at": "2026-08-22T01:10:25.035887",
   "source_updated_at": null,
   "source": [
     "https://yandex.cloud/en/docs/security/ip-list"
   ],
-  "last_update": "2026-07-28T02:26:37.990538",
+  "last_update": "2026-08-22T01:10:25.035887",
   "ipv4": [
     {
       "address": "1.7.85.85/32",
@@ -108,6 +108,10 @@
     },
     {
       "address": "153.51.32.0/19",
+      "service": "Virtual Private Cloud"
+    },
+    {
+      "address": "153.51.96.0/19",
       "service": "Virtual Private Cloud"
     },
     {
