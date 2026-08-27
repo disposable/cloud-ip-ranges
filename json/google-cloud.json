@@ -3,13 +3,13 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-08-24T01:07:57.771138",
-  "source_updated_at": "2026-08-23T13:04:19.784032",
+  "generated_at": "2026-08-27T13:37:56.185103",
+  "source_updated_at": "2026-08-27T01:06:43.986335",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-08-23T13:04:19.784032",
+  "last_update": "2026-08-27T01:06:43.986335",
   "ipv4": [
     "104.154.0.0/15",
     "104.154.113.0/24",
@@ -156,6 +156,8 @@
     "146.148.64.0/19",
     "146.148.8.0/21",
     "146.148.96.0/20",
+    "152.238.0.0/16",
+    "152.239.128.0/17",
     "162.120.128.0/17",
     "162.216.148.0/22",
     "162.222.176.0/21",
@@ -166,6 +168,35 @@
     "173.255.112.0/20",
     "173.255.112.0/21",
     "173.255.120.0/21",
+    "177.176.0.0/16",
+    "177.178.0.0/15",
+    "177.208.0.0/15",
+    "179.193.128.0/17",
+    "179.199.0.0/17",
+    "179.67.0.0/17",
+    "179.69.128.0/17",
+    "186.242.0.0/17",
+    "186.245.0.0/16",
+    "187.126.128.0/17",
+    "187.78.0.0/17",
+    "187.79.0.0/17",
+    "189.105.128.0/17",
+    "189.106.0.0/15",
+    "189.24.128.0/17",
+    "189.48.0.0/16",
+    "189.49.128.0/17",
+    "189.70.0.0/15",
+    "189.82.0.0/15",
+    "191.0.128.0/17",
+    "191.2.0.0/15",
+    "191.212.0.0/15",
+    "191.216.128.0/17",
+    "191.218.0.0/17",
+    "191.220.0.0/15",
+    "191.40.128.0/17",
+    "191.44.128.0/17",
+    "191.45.128.0/17",
+    "191.46.0.0/15",
     "192.104.160.0/23",
     "192.158.28.0/22",
     "192.178.0.0/15",
@@ -6545,6 +6576,16 @@
       "scope": null
     },
     {
+      "address": "152.238.0.0/16",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "152.239.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "162.120.128.0/17",
       "service": null,
       "scope": null
@@ -6571,6 +6612,151 @@
     },
     {
       "address": "173.255.112.0/20",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "177.176.0.0/16",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "177.178.0.0/15",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "177.208.0.0/15",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "179.67.0.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "179.69.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "179.193.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "179.199.0.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "186.242.0.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "186.245.0.0/16",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "187.78.0.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "187.79.0.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "187.126.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "189.24.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "189.48.0.0/16",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "189.49.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "189.70.0.0/15",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "189.82.0.0/15",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "189.105.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "189.106.0.0/15",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.0.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.2.0.0/15",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.40.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.44.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.45.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.46.0.0/15",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.212.0.0/15",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.216.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.218.0.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "191.220.0.0/15",
       "service": null,
       "scope": null
     },
@@ -6666,15 +6852,15 @@
     },
     {
       "address": "136.23.64.0/19",
-      "retired_at": "2026-08-24T01:12:39.142397+00:00"
+      "retired_at": "2026-08-27T13:42:26.908643+00:00"
     },
     {
       "address": "34.127.145.0/24",
-      "retired_at": "2026-08-24T01:12:39.142397+00:00"
+      "retired_at": "2026-08-27T13:42:26.908643+00:00"
     },
     {
       "address": "34.127.146.0/24",
-      "retired_at": "2026-08-24T01:12:39.142397+00:00"
+      "retired_at": "2026-08-27T13:42:26.908643+00:00"
     }
   ],
   "details_ipv6": [
@@ -7230,11 +7416,11 @@
     },
     {
       "address": "2600:1900:4338::/45",
-      "retired_at": "2026-08-24T01:12:39.142397+00:00"
+      "retired_at": "2026-08-27T13:42:26.908643+00:00"
     },
     {
       "address": "2600:1900:4340::/46",
-      "retired_at": "2026-08-24T01:12:39.142397+00:00"
+      "retired_at": "2026-08-27T13:42:26.908643+00:00"
     }
   ],
   "source_http": [
@@ -7243,14 +7429,14 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sun, 23 Aug 2026 20:28:00 GMT"
+      "last_modified": "Thu, 27 Aug 2026 08:18:00 GMT"
     },
     {
       "url": "https://www.gstatic.com/ipranges/goog.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sun, 23 Aug 2026 20:28:00 GMT"
+      "last_modified": "Thu, 27 Aug 2026 08:18:00 GMT"
     }
   ]
 }
