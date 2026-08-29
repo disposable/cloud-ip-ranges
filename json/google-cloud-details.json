@@ -3,13 +3,13 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-08-28T09:32:07.982847",
-  "source_updated_at": "2026-08-27T19:04:05.043313",
+  "generated_at": "2026-08-29T05:38:29.961105",
+  "source_updated_at": "2026-08-28T19:04:11.94128",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-08-27T19:04:05.043313",
+  "last_update": "2026-08-28T19:04:11.94128",
   "ipv4": [
     {
       "address": "34.1.208.0/20",
@@ -393,6 +393,16 @@
     },
     {
       "address": "34.177.68.0/24",
+      "service": "Google Cloud",
+      "scope": "asia-northeast2"
+    },
+    {
+      "address": "34.183.129.0/24",
+      "service": "Google Cloud",
+      "scope": "asia-northeast2"
+    },
+    {
+      "address": "34.184.128.0/24",
       "service": "Google Cloud",
       "scope": "asia-northeast2"
     },
@@ -4812,7 +4822,17 @@
       "scope": "us-west2"
     },
     {
+      "address": "34.183.125.0/24",
+      "service": "Google Cloud",
+      "scope": "us-west2"
+    },
+    {
       "address": "34.184.82.0/24",
+      "service": "Google Cloud",
+      "scope": "us-west2"
+    },
+    {
+      "address": "34.184.126.0/24",
       "service": "Google Cloud",
       "scope": "us-west2"
     },
@@ -4958,6 +4978,16 @@
     },
     {
       "address": "34.125.0.0/16",
+      "service": "Google Cloud",
+      "scope": "us-west4"
+    },
+    {
+      "address": "34.183.128.0/24",
+      "service": "Google Cloud",
+      "scope": "us-west4"
+    },
+    {
+      "address": "34.184.127.0/24",
       "service": "Google Cloud",
       "scope": "us-west4"
     },
