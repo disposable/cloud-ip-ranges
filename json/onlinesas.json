@@ -3,13 +3,13 @@
   "provider_id": "onlinesas",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-09-01T03:38:39.024482",
+  "generated_at": "2026-09-02T03:09:30.259416",
   "source_updated_at": null,
   "source": [
     "RADB::AS-ONLINESAS",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS12876"
   ],
-  "last_update": "2026-09-01T03:38:39.024482",
+  "last_update": "2026-09-02T03:09:30.259416",
   "ipv4": [
     "151.115.0.0/17",
     "151.115.128.0/19",
@@ -60,29 +60,29 @@
   "details_ipv4": [
     {
       "address": "151.115.0.0/18",
-      "retired_at": "2026-09-01T03:40:18.657061+00:00"
+      "retired_at": "2026-09-02T03:11:07.961852+00:00"
     },
     {
       "address": "151.115.160.0/20",
-      "retired_at": "2026-09-01T03:40:18.657061+00:00"
+      "retired_at": "2026-09-02T03:11:07.961852+00:00"
     },
     {
       "address": "151.115.176.0/20",
-      "retired_at": "2026-09-01T03:40:18.657061+00:00"
+      "retired_at": "2026-09-02T03:11:07.961852+00:00"
     },
     {
       "address": "151.115.193.0/24",
-      "retired_at": "2026-09-01T03:40:18.657061+00:00"
+      "retired_at": "2026-09-02T03:11:07.961852+00:00"
     },
     {
       "address": "151.115.64.0/18",
-      "retired_at": "2026-09-01T03:40:18.657061+00:00"
+      "retired_at": "2026-09-02T03:11:07.961852+00:00"
     }
   ],
   "details_ipv6": [
     {
       "address": "2001:bc8:e400::/48",
-      "retired_at": "2026-09-01T03:40:18.657061+00:00"
+      "retired_at": "2026-09-02T03:11:07.961852+00:00"
     }
   ]
 }

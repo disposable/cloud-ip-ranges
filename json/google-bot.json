@@ -3,14 +3,14 @@
   "provider_id": "google-bot",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-01T03:34:30.190109",
-  "source_updated_at": "2026-08-31T14:46:36.000000",
+  "generated_at": "2026-09-02T02:52:22.672906",
+  "source_updated_at": "2026-09-01T14:45:48.000000",
   "source": [
     "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
     "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
     "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json"
   ],
-  "last_update": "2026-08-31T14:46:36.000000",
+  "last_update": "2026-09-01T14:45:48.000000",
   "ipv4": [
     "107.178.192.0/27",
     "107.178.192.128/27",
@@ -559,6 +559,7 @@
     "35.187.143.128/27",
     "35.187.143.160/27",
     "35.187.143.192/27",
+    "35.187.143.224/27",
     "35.187.143.32/27",
     "35.187.143.64/27",
     "35.187.143.96/27",
@@ -644,6 +645,7 @@
     "66.249.68.128/27",
     "66.249.68.160/27",
     "66.249.68.192/27",
+    "66.249.68.224/27",
     "66.249.68.32/27",
     "66.249.68.64/27",
     "66.249.68.96/27",
@@ -774,6 +776,7 @@
     "66.249.92.32/27",
     "66.249.92.64/27",
     "66.249.92.96/27",
+    "72.14.199.0/27",
     "72.14.199.128/27",
     "72.14.199.160/27",
     "72.14.199.192/27",
@@ -916,6 +919,7 @@
     "2001:4860:4801:2040::/64",
     "2001:4860:4801:2041::/64",
     "2001:4860:4801:2042::/64",
+    "2001:4860:4801:2043::/64",
     "2001:4860:4801:2044::/64",
     "2001:4860:4801:2045::/64",
     "2001:4860:4801:2046::/64",
@@ -1033,6 +1037,7 @@
     "2001:4860:4801:40::/64",
     "2001:4860:4801:41::/64",
     "2001:4860:4801:42::/64",
+    "2001:4860:4801:43::/64",
     "2001:4860:4801:44::/64",
     "2001:4860:4801:45::/64",
     "2001:4860:4801:46::/64",
@@ -1531,6 +1536,7 @@
     "2600:1900:0:60::/64",
     "2600:1900:0:61::/64",
     "2600:1900:0:62::/64",
+    "2600:1900:0:63::/64",
     "2600:1900:0:64::/64",
     "2600:1900:0:65::/64",
     "2600:1900:0:66::/64",
@@ -2049,6 +2055,11 @@
     },
     {
       "address": "66.249.68.192/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "66.249.68.224/27",
       "service": null,
       "scope": null
     },
@@ -2824,6 +2835,11 @@
     },
     {
       "address": "66.249.92.96/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "72.14.199.0/27",
       "service": null,
       "scope": null
     },
@@ -5553,6 +5569,11 @@
       "scope": null
     },
     {
+      "address": "35.187.143.224/27",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "35.187.143.32/27",
       "service": null,
       "scope": null
@@ -6076,6 +6097,11 @@
     },
     {
       "address": "2001:4860:4801:42::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2001:4860:4801:43::/64",
       "service": null,
       "scope": null
     },
@@ -6816,6 +6842,11 @@
     },
     {
       "address": "2001:4860:4801:2042::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2001:4860:4801:2043::/64",
       "service": null,
       "scope": null
     },
@@ -9245,6 +9276,11 @@
       "scope": null
     },
     {
+      "address": "2600:1900:0:63::/64",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "2600:1900:0:64::/64",
       "service": null,
       "scope": null
@@ -9871,21 +9907,21 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Mon, 31 Aug 2026 14:47:23 GMT"
+      "last_modified": "Tue, 01 Sep 2026 14:46:27 GMT"
     },
     {
       "url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Mon, 31 Aug 2026 14:47:20 GMT"
+      "last_modified": "Tue, 01 Sep 2026 14:47:30 GMT"
     },
     {
       "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Mon, 31 Aug 2026 14:47:05 GMT"
+      "last_modified": "Tue, 01 Sep 2026 14:46:17 GMT"
     }
   ]
 }
