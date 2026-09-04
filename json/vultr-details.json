@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-03T02:57:06.092281",
+  "generated_at": "2026-09-04T02:55:28.011741",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-09-03T02:57:06.092281",
+  "last_update": "2026-09-04T02:55:28.011741",
   "ipv4": [
     {
       "address": "43.224.32.0/22",
@@ -2559,6 +2559,13 @@
       "postal_code": "75201"
     },
     {
+      "address": "173.199.68.0/24",
+      "alpha2code": "US",
+      "region": "US-IL",
+      "city": "Chicago",
+      "postal_code": "60616"
+    },
+    {
       "address": "173.199.70.0/23",
       "alpha2code": "FR",
       "region": "FR-93",
@@ -3441,6 +3448,13 @@
       "region": "US-US-MN",
       "city": "Eagan",
       "postal_code": "55123"
+    },
+    {
+      "address": "2001:19f0:5c03::/48",
+      "alpha2code": "US",
+      "region": "US-IL",
+      "city": "Chicago",
+      "postal_code": "60616"
     }
   ]
 }
