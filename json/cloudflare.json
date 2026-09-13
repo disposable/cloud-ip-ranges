@@ -3,14 +3,14 @@
   "provider_id": "cloudflare",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-12T03:07:40.326982",
+  "generated_at": "2026-09-13T03:09:33.134507",
   "source_updated_at": null,
   "source": [
     "https://www.cloudflare.com/ips-v4",
     "https://www.cloudflare.com/ips-v6",
     "https://api.cloudflare.com/client/v4/ips?networks=jdcloud"
   ],
-  "last_update": "2026-09-12T03:07:40.326982",
+  "last_update": "2026-09-13T03:09:33.134507",
   "ipv4": [
     "101.69.205.224/27",
     "103.21.244.0/22",
@@ -71,6 +71,7 @@
     "27.36.126.224/27",
     "36.154.11.224/27",
     "42.236.121.160/27",
+    "58.144.236.160/27",
     "60.13.99.64/26",
     "111.124.206.32/27",
     "111.177.11.224/27",
@@ -146,81 +147,81 @@
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Fri, 11 Sep 2026 13:03:12 GMT"
+      "last_modified": "Sun, 13 Sep 2026 01:59:52 GMT"
     },
     {
       "url": "https://www.cloudflare.com/ips-v6",
       "status": 200,
       "content_type": "text/plain;charset=UTF-8",
       "etag": null,
-      "last_modified": "Fri, 11 Sep 2026 13:03:12 GMT"
+      "last_modified": "Sun, 13 Sep 2026 02:29:38 GMT"
     },
     {
       "url": "https://api.cloudflare.com/client/v4/ips?networks=jdcloud",
       "status": 200,
       "content_type": "application/json",
-      "etag": "W/\"bd70e1d430e4cda7c4f8449bb78af900\"",
+      "etag": "W/\"275491635df783bbb6b4211d7a479a37\"",
       "last_modified": null
     }
   ],
   "details_ipv4": [
     {
       "address": "111.124.206.32/27",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "111.177.11.224/27",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "111.48.87.160/27",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "120.206.188.224/27",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "218.205.95.64/27",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "36.136.95.32/27",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "36.147.52.160/27",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     }
   ],
   "details_ipv6": [
     {
       "address": "2409:8c28:203:a:1000::/68",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "2409:8c38:c50:604:1000::/68",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "2409:8c4d:5200:c05:1000::/68",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "2409:8c5c:b00:206:1000::/68",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "2409:8c6c:561:8124:1000::/68",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "240e:938:a07:16:1000::/68",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     },
     {
       "address": "240e:95d:802:400:1000::/68",
-      "retired_at": "2026-09-12T03:12:04.970241+00:00"
+      "retired_at": "2026-09-13T03:14:20.568003+00:00"
     }
   ]
 }
