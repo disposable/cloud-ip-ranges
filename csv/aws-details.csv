@@ -1972,7 +1972,6 @@ IPv4,15.230.72.64/26,af-south-1,af-south-1,AMAZON
 IPv4,15.230.223.10/31,eu-west-1,eu-west-1,AMAZON
 IPv4,40.39.0.0/16,us-gov-west-1,us-gov-west-1,AMAZON
 IPv4,40.187.0.0/16,ca-central-1,ca-central-1,AMAZON
-IPv4,45.33.164.0/24,ap-southeast-2,ap-southeast-2,AMAZON
 IPv4,52.93.86.194/32,us-east-1,us-east-1,AMAZON
 IPv4,52.93.126.138/32,ap-southeast-2,ap-southeast-2,AMAZON
 IPv4,52.93.153.80/32,eu-west-2,eu-west-2,AMAZON
@@ -12787,6 +12786,7 @@ IPv6,2600:1f38:7400::/40,mx-central-1,mx-central-1,AMAZON
 IPv6,2600:1f60:a400::/40,ca-west-1,ca-west-1,AMAZON
 IPv6,2600:1f6a:a200::/46,us-south-1,us-south-1,AMAZON
 IPv6,2600:f0f0:701::/48,us-east-1,us-east-1,AMAZON
+IPv6,2600:f0f0:6139::/48,ap-southeast-1,ap-southeast-1,AMAZON
 IPv6,2600:f0f0:8130::/48,ap-northeast-1,ap-northeast-1,AMAZON
 IPv6,2600:f0f0:c115::/48,us-east-1,us-east-1,AMAZON
 IPv6,2605:9cc0:1ff0:900::/56,us-east-1,us-east-1,AMAZON
@@ -13312,6 +13312,7 @@ IPv6,2600:1fef:8000::/39,us-east-1,us-east-1,AMAZON
 IPv6,2600:9000:5340::/42,GLOBAL,GLOBAL,AMAZON
 IPv6,2600:f002:8000::/40,eu-west-2,eu-west-2,AMAZON
 IPv6,2600:f0f0:111d::/48,us-east-1,us-east-1,AMAZON
+IPv6,2600:f0f0:612c::/48,ca-central-1,ca-central-1,AMAZON
 IPv6,2606:f40:9000::/39,eu-west-1,eu-west-1,AMAZON
 IPv6,2606:7b40:1a47:c000::/60,ap-southeast-4,ap-southeast-4,AMAZON
 IPv6,2606:7b40:1b0d:c100::/56,eu-west-3,eu-west-3,AMAZON
@@ -14206,6 +14207,7 @@ IPv6,2a05:d078:4800::/40,eu-central-1,eu-central-1,S3
 IPv6,2406:dae7:f000::/40,ap-southeast-4,ap-southeast-4,S3
 IPv6,2406:daf9:b000::/40,ap-south-2,ap-south-2,S3
 IPv6,2600:1f60:a400::/40,ca-west-1,ca-west-1,S3
+IPv6,2600:f0f0:6139::/48,ap-southeast-1,ap-southeast-1,S3
 IPv6,2600:1ff4:6000::/40,us-east-2,us-east-2,S3
 IPv6,2406:da60:9000::/40,ap-southeast-3,ap-southeast-3,S3
 IPv6,2600:1fa0:e000::/40,sa-east-1,sa-east-1,S3
@@ -14286,6 +14288,7 @@ IPv6,2600:1ff9:e200::/40,ca-central-1,ca-central-1,S3
 IPv6,2406:dab9:8800::/40,ap-southeast-1,ap-southeast-1,S3
 IPv6,2406:daf0:8800::/40,ap-southeast-1,ap-southeast-1,S3
 IPv6,2600:1fef:8000::/39,us-east-1,us-east-1,S3
+IPv6,2600:f0f0:612c::/48,ca-central-1,ca-central-1,S3
 IPv6,2600:1f62:5000::/40,us-gov-east-1,us-gov-east-1,S3
 IPv6,2600:1fb9:7400::/40,mx-central-1,mx-central-1,S3
 IPv6,2600:9000:a105::/48,GLOBAL,GLOBAL,S3
@@ -16499,6 +16502,7 @@ IPv6,2600:1f38:7400::/40,mx-central-1,mx-central-1,EC2
 IPv6,2600:1f60:a400::/40,ca-west-1,ca-west-1,EC2
 IPv6,2600:1f6a:a200::/46,us-south-1,us-south-1,EC2
 IPv6,2600:f0f0:701::/48,us-east-1,us-east-1,EC2
+IPv6,2600:f0f0:6139::/48,ap-southeast-1,ap-southeast-1,EC2
 IPv6,2600:f0f0:8130::/48,ap-northeast-1,ap-northeast-1,EC2
 IPv6,2600:f0f0:c115::/48,us-east-1,us-east-1,EC2
 IPv6,2605:9cc0:1ff0:900::/56,us-east-1,us-east-1,EC2
@@ -16929,6 +16933,7 @@ IPv6,2600:1fba:4000::/39,us-west-2,us-west-2,EC2
 IPv6,2600:1fef:8000::/39,us-east-1,us-east-1,EC2
 IPv6,2600:f002:8000::/40,eu-west-2,eu-west-2,EC2
 IPv6,2600:f0f0:111d::/48,us-east-1,us-east-1,EC2
+IPv6,2600:f0f0:612c::/48,ca-central-1,ca-central-1,EC2
 IPv6,2606:f40:9000::/39,eu-west-1,eu-west-1,EC2
 IPv6,2606:7b40:1a47:c000::/60,ap-southeast-4,ap-southeast-4,EC2
 IPv6,2606:7b40:1b0d:c100::/56,eu-west-3,eu-west-3,EC2
@@ -17290,6 +17295,7 @@ IPv6,2600:f0f0:4100::/40,GLOBAL,GLOBAL,CHIME_MEETINGS
 IPv6,2600:9000:1000::/36,GLOBAL,GLOBAL,CLOUDFRONT_ORIGIN_FACING
 IPv6,2600:9000:5200::/40,GLOBAL,GLOBAL,CLOUDFRONT_ORIGIN_FACING
 IPv6,2600:9000:6000::/36,GLOBAL,GLOBAL,CLOUDFRONT_ORIGIN_FACING
+IPv6,2600:1f17:4356:f100::/56,mx-central-1,mx-central-1,CLOUDFRONT_ORIGIN_FACING
 IPv6,2600:f0f0:1100::/40,GLOBAL,GLOBAL,IVS_LOW_LATENCY
 IPv6,2400:7fc0:833b:f400::/56,cn-north-1,cn-north-1,EFS
 IPv6,2400:7fc0:86dd:2300::/56,cn-north-1,cn-north-1,EFS
