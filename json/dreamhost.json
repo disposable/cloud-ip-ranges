@@ -3,12 +3,12 @@
   "provider_id": "dreamhost",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-09-04T02:56:45.611331",
+  "generated_at": "2026-09-18T03:13:14.255044",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS26347"
   ],
-  "last_update": "2026-09-04T02:56:45.611331",
+  "last_update": "2026-09-18T03:13:14.255044",
   "ipv4": [
     "107.180.224.0/19",
     "173.236.128.0/17",
@@ -31,10 +31,10 @@
     "67.205.0.0/19",
     "67.205.32.0/21",
     "67.205.40.0/21",
-    "67.205.48.0/21",
     "67.205.56.0/21",
     "69.163.128.0/17",
-    "75.119.192.0/19"
+    "75.119.192.0/19",
+    "67.205.48.0/21"
   ],
   "ipv6": [
     "2607:f298:5::/48",
@@ -48,6 +48,12 @@
       "content_type": "application/json; charset=utf-8",
       "etag": null,
       "last_modified": null
+    }
+  ],
+  "details_ipv4": [
+    {
+      "address": "67.205.48.0/21",
+      "retired_at": "2026-09-18T03:17:53.825303+00:00"
     }
   ]
 }
