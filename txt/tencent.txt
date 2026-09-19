@@ -1,6 +1,6 @@
 # provider: Tencent
 # source: RADB::AS132203:AS-TENCENT, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS132203, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS132591, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS133478, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134103, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS139341, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS45090, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58835
-# last_update: 2026-09-18T03:13:15.563594
+# last_update: 2026-09-19T03:09:46.178452
 
 1.116.0.0/15
 1.116.0.0/18
@@ -105,7 +105,6 @@
 101.33.26.0/24
 101.33.27.0/24
 101.33.32.0/21
-101.33.4.0/23
 101.33.4.0/24
 101.33.41.0/24
 101.33.42.0/23
@@ -2015,7 +2014,6 @@
 150.109.158.0/23
 150.109.16.0/22
 150.109.160.0/19
-150.109.160.0/21
 150.109.160.0/22
 150.109.160.0/23
 150.109.164.0/22
@@ -4663,6 +4661,7 @@
 240d:c010:1fd::/48
 240d:c010:1fe::/48
 240d:c010:1ff::/48
+240d:c010:201::/48
 240d:c010:202::/48
 240d:c010:20::/44
 240d:c010:31::/48
@@ -4736,8 +4735,10 @@
 240d:c040::/44
 101.32.132.0/24
 101.33.30.0/23
+101.33.4.0/23
 103.242.0.0/23
 120.88.56.0/23
+150.109.160.0/21
 150.109.222.0/23
 158.79.1.0/24
 162.62.251.0/24
@@ -4789,11 +4790,11 @@
 43.163.175.0/24
 49.51.53.0/24
 43.146.116.0/24
-162.62.243.0/24
 43.130.130.0/23
 101.33.114.0/24
-37.237.31.0/24
+162.62.243.0/24
 43.146.69.0/24
+37.237.31.0/24
 240d:c010:10::/48
 240d:c010:11d::/48
 240d:c010:144::/48
