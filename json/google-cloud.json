@@ -3,13 +3,13 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-19T03:08:20.569961",
-  "source_updated_at": "2026-09-18T19:05:43.116024",
+  "generated_at": "2026-09-20T03:24:49.148779",
+  "source_updated_at": "2026-09-19T13:05:19.086649",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-09-18T19:05:43.116024",
+  "last_update": "2026-09-19T13:05:19.086649",
   "ipv4": [
     "104.154.0.0/15",
     "104.154.113.0/24",
@@ -1185,7 +1185,7 @@
     "2600:1900:4334::/46",
     "2600:1900:5400::/44",
     "2600:1900:8000::/44",
-    "2600:1900::/28",
+    "2600:1900::/29",
     "2600:1901:4010::/44",
     "2600:1901:8100::/44",
     "2600:1901:8110::/44",
@@ -1257,6 +1257,7 @@
     "2800:3f0::/32",
     "2a00:1450::/32",
     "2c0f:fb50::/32",
+    "2600:1900::/28",
     "2600:1900:4340::/46",
     "2600:1900:4338::/45"
   ],
@@ -6918,15 +6919,15 @@
     },
     {
       "address": "136.23.64.0/19",
-      "retired_at": "2026-09-19T03:14:08.280022+00:00"
+      "retired_at": "2026-09-20T03:30:53.116812+00:00"
     },
     {
       "address": "34.127.145.0/24",
-      "retired_at": "2026-09-19T03:14:08.280022+00:00"
+      "retired_at": "2026-09-20T03:30:53.116812+00:00"
     },
     {
       "address": "34.127.146.0/24",
-      "retired_at": "2026-09-19T03:14:08.280022+00:00"
+      "retired_at": "2026-09-20T03:30:53.116812+00:00"
     }
   ],
   "details_ipv6": [
@@ -7421,7 +7422,7 @@
       "scope": null
     },
     {
-      "address": "2600:1900::/28",
+      "address": "2600:1900::/29",
       "service": null,
       "scope": null
     },
@@ -7481,12 +7482,16 @@
       "scope": null
     },
     {
+      "address": "2600:1900::/28",
+      "retired_at": "2026-09-20T03:30:53.116812+00:00"
+    },
+    {
       "address": "2600:1900:4340::/46",
-      "retired_at": "2026-09-19T03:14:08.280022+00:00"
+      "retired_at": "2026-09-20T03:30:53.116812+00:00"
     },
     {
       "address": "2600:1900:4338::/45",
-      "retired_at": "2026-09-19T03:14:08.280022+00:00"
+      "retired_at": "2026-09-20T03:30:53.116812+00:00"
     }
   ],
   "source_http": [
@@ -7495,14 +7500,14 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sat, 19 Sep 2026 02:18:00 GMT"
+      "last_modified": "Sat, 19 Sep 2026 20:18:00 GMT"
     },
     {
       "url": "https://www.gstatic.com/ipranges/goog.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sat, 19 Sep 2026 02:18:00 GMT"
+      "last_modified": "Sat, 19 Sep 2026 20:18:00 GMT"
     }
   ]
 }

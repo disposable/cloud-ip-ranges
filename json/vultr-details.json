@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-19T03:08:25.002570",
+  "generated_at": "2026-09-20T03:24:53.785692",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-09-19T03:08:25.002570",
+  "last_update": "2026-09-20T03:24:53.785692",
   "ipv4": [
     {
       "address": "43.224.32.0/22",
@@ -761,6 +761,13 @@
     },
     {
       "address": "64.177.40.0/21",
+      "alpha2code": "US",
+      "region": "US-GA",
+      "city": "Atlanta",
+      "postal_code": "30318"
+    },
+    {
+      "address": "64.177.48.0/20",
       "alpha2code": "US",
       "region": "US-GA",
       "city": "Atlanta",
