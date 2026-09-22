@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-21T03:19:52.274518",
-  "source_updated_at": "2026-09-21-00-07-06",
+  "generated_at": "2026-09-22T03:19:07.284883",
+  "source_updated_at": "2026-09-21-23-27-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-09-21-00-07-06",
+  "last_update": "2026-09-21-23-27-05",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -32543,6 +32543,12 @@
       "network_border_group": "eusc-de-east-1"
     },
     {
+      "address": "51.72.74.0/23",
+      "service": "AMAZON",
+      "region": "eusc-de-east-1",
+      "network_border_group": "eusc-de-east-1"
+    },
+    {
       "address": "16.64.102.0/23",
       "service": "AMAZON",
       "region": "us-gov-east-1",
@@ -34869,6 +34875,48 @@
       "service": "AMAZON",
       "region": "me-south-1",
       "network_border_group": "me-south-1"
+    },
+    {
+      "address": "51.168.136.0/23",
+      "service": "AMAZON",
+      "region": "me-west-1",
+      "network_border_group": "me-west-1"
+    },
+    {
+      "address": "51.168.138.0/24",
+      "service": "AMAZON",
+      "region": "me-west-1",
+      "network_border_group": "me-west-1"
+    },
+    {
+      "address": "51.168.139.0/24",
+      "service": "AMAZON",
+      "region": "me-west-1",
+      "network_border_group": "me-west-1"
+    },
+    {
+      "address": "51.168.143.0/24",
+      "service": "AMAZON",
+      "region": "me-west-1",
+      "network_border_group": "me-west-1"
+    },
+    {
+      "address": "51.168.144.0/24",
+      "service": "AMAZON",
+      "region": "me-west-1",
+      "network_border_group": "me-west-1"
+    },
+    {
+      "address": "51.168.145.0/24",
+      "service": "AMAZON",
+      "region": "me-west-1",
+      "network_border_group": "me-west-1"
+    },
+    {
+      "address": "51.168.146.0/24",
+      "service": "AMAZON",
+      "region": "me-west-1",
+      "network_border_group": "me-west-1"
     },
     {
       "address": "78.12.58.0/24",
