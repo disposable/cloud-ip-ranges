@@ -73,7 +73,7 @@ jobs:
           --misc-dir misc
 
     - name: Add and commit
-      uses: EndBug/add-and-commit@v10
+      uses: EndBug/add-and-commit@v11
       with:
         add: 'json txt csv meta/history.duckdb README.md'
 
@@ -146,7 +146,7 @@ jobs:
           --misc-dir misc
 
     - name: Add and commit misc providers
-      uses: EndBug/add-and-commit@v10
+      uses: EndBug/add-and-commit@v11
       with:
         add: 'misc meta/history.duckdb README.md'
 
