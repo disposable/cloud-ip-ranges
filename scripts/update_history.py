@@ -265,6 +265,20 @@ def reconcile_all_providers(
     return result
 
 
+def _active_cidrs(data: dict) -> tuple[list[str], list[str]]:
+    """
+    Return the provider-published (ipv4, ipv6) lists, excluding CIDRs that were
+    injected back into the output file by patch_json(). Those carry a
+    "retired_at" marker in the details lists and must not be treated as
+    currently published — otherwise reconciliation would reactivate them and
+    they would never age out of the retention window.
+    """
+    retired = {d["address"] for d in (*data.get("details_ipv4", []), *data.get("details_ipv6", [])) if isinstance(d, dict) and "retired_at" in d}
+    v4 = [c for c in data.get("ipv4", []) if c not in retired]
+    v6 = [c for c in data.get("ipv6", []) if c not in retired]
+    return v4, v6
+
+
 # ---------------------------------------------------------------------------
 # Provider metadata tracking
 # ---------------------------------------------------------------------------
@@ -420,6 +434,7 @@ def patch_csv(
     csv_path: Path,
     retired_v4: list[tuple[str, datetime]],
     retired_v6: list[tuple[str, datetime]],
+    extras: dict[str, dict[str, str]] | None = None,
 ) -> None:
     if not csv_path.exists():
         return
@@ -437,18 +452,12 @@ def patch_csv(
         fieldnames = [*list(fieldnames), "RetiredAt"]
 
     new_rows = []
-    for cidr, retired_at in retired_v4:
+    for cidr, retired_at in retired_v4 + retired_v6:
         if cidr not in existing:
-            row = {"Type": "IPv4", "Address": cidr, "RetiredAt": retired_at.isoformat()}
-            # Copy other fields from first row template if available
-            if rows:
-                for key in fieldnames:
-                    if key not in row:
-                        row[key] = rows[0].get(key, "")
-            new_rows.append(row)
-    for cidr, retired_at in retired_v6:
-        if cidr not in existing:
-            row = {"Type": "IPv6", "Address": cidr, "RetiredAt": retired_at.isoformat()}
+            row = {"Type": "IPv6" if ":" in cidr else "IPv4", "Address": cidr, "RetiredAt": retired_at.isoformat()}
+            if extras and cidr in extras:
+                row.update(extras[cidr])
+            # Copy remaining fields from first row template if available
             if rows:
                 for key in fieldnames:
                     if key not in row:
@@ -523,7 +532,7 @@ def patch_all_providers(
             if cidr in active_set:
                 continue
             (new_v6 if ":" in cidr else new_v4).append(cidr)
-            ip_providers[cidr] = providers
+            ip_providers[cidr] = sorted(providers)
 
         if new_v4 or new_v6:
             data["ipv4"] = data.get("ipv4", []) + new_v4
@@ -538,7 +547,8 @@ def patch_all_providers(
     if csv_path.exists():
         rv4 = [(c, r) for c, (r, _) in retired_map.items() if ":" not in c]
         rv6 = [(c, r) for c, (r, _) in retired_map.items() if ":" in c]
-        patch_csv(csv_path, rv4, rv6)
+        extras = {c: {"Providers": ";".join(sorted(providers))} for c, (_, providers) in retired_map.items()}
+        patch_csv(csv_path, rv4, rv6, extras=extras)
 
     if txt_path.exists():
         rv4 = [(c, r) for c, (r, _) in retired_map.items() if ":" not in c]
@@ -579,7 +589,8 @@ def main() -> int:
                 continue
             with open(json_path) as f:
                 data = json.load(f)
-            providers.append(data)
+            v4_active, v6_active = _active_cidrs(data)
+            providers.append({**data, "ipv4": v4_active, "ipv6": v6_active})
 
             pid = data.get("provider_id", json_path.stem)
             if search_dir == json_dir:
@@ -610,7 +621,13 @@ def main() -> int:
     for pid, (rv4, rv6) in retired_by_provider.items():
         if not rv4 and not rv6:
             continue
-        json_path, csv_path, txt_path = provider_paths[pid]
+        paths = provider_paths.get(pid)
+        if paths is None:
+            # Provider has retired rows in the DB but no output files (removed
+            # from the source list or failed before first successful write).
+            print(f"  {pid}: retired CIDRs in DB but no output files, skipping patch", flush=True)
+            continue
+        json_path, csv_path, txt_path = paths
         patch_json(json_path, rv4, rv6)
         patch_csv(csv_path, rv4, rv6)
         patch_txt(txt_path, rv4, rv6)
