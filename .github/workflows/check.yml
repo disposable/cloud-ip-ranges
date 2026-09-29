@@ -62,7 +62,7 @@ jobs:
         run: |
           uv run --directory crawler ruff format --check --diff ../scripts
           uv run --directory crawler ruff check ../scripts
-          uv run --directory crawler python -m py_compile ../scripts/*.py
+          uv run --directory crawler python -m compileall -q ../scripts
 
   test:
     name: Crawler Unit Tests
