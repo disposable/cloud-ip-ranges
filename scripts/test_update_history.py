@@ -138,9 +138,12 @@ def test_corrupt_provider_json_fails_loudly(tmp_path: Path, monkeypatch: pytest.
         "sys.argv",
         [
             "update_history.py",
-            "--db", str(tmp_path / "meta" / "h.duckdb"),
-            "--json-dir", str(tmp_path / "json"),
-            "--misc-dir", str(tmp_path / "misc"),
+            "--db",
+            str(tmp_path / "meta" / "h.duckdb"),
+            "--json-dir",
+            str(tmp_path / "json"),
+            "--misc-dir",
+            str(tmp_path / "misc"),
         ],
     )
     with pytest.raises(json.JSONDecodeError):
