@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import io
 import ipaddress
 import json
 import os
@@ -23,6 +24,21 @@ from pathlib import Path
 import duckdb
 
 RETIREMENT_WEEKS = 4
+
+
+def _write_text_atomic(path: Path, content: str) -> None:
+    """Write content to path atomically via a sibling temp file + rename.
+
+    An interruption mid-write must never leave a truncated provider file
+    behind — these files are consumed by downstream tooling and users.
+    """
+    tmp_path = path.with_name(path.name + ".tmp")
+    try:
+        tmp_path.write_text(content)
+        os.replace(tmp_path, path)
+    except BaseException:
+        tmp_path.unlink(missing_ok=True)
+        raise
 
 
 def count_ipv4_addresses(cidr_list: list[str]) -> int:
@@ -456,9 +472,7 @@ def patch_json(
             data["details_ipv4"] = list(det_v4.values())
         if det_v6:
             data["details_ipv6"] = list(det_v6.values())
-        with open(json_path, "w") as f:
-            json.dump(data, f, indent=2)
-            f.write("\n")
+        _write_text_atomic(json_path, json.dumps(data, indent=2) + "\n")
 
 
 def patch_csv(
@@ -507,10 +521,11 @@ def patch_csv(
 
     updated = [{**r, "RetiredAt": r.get("RetiredAt", "")} for r in rows] + new_rows
 
-    with open(csv_path, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(updated)
+    buf = io.StringIO()
+    writer = csv.DictWriter(buf, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(updated)
+    _write_text_atomic(csv_path, buf.getvalue())
 
 
 def patch_txt(
@@ -548,8 +563,7 @@ def patch_txt(
         return
 
     kept.extend(to_add)
-    with open(txt_path, "w") as f:
-        f.write("\n".join(kept) + "\n")
+    _write_text_atomic(txt_path, "\n".join(kept) + "\n")
 
 
 # ---------------------------------------------------------------------------
@@ -607,9 +621,7 @@ def patch_all_providers(
             data["ip_providers"] = ip_providers
             data["retired_ipv4_count"] = len(new_v4) + data.get("retired_ipv4_count", 0)
             data["retired_ipv6_count"] = len(new_v6) + data.get("retired_ipv6_count", 0)
-            with open(json_path, "w") as f:
-                json.dump(data, f, indent=2)
-                f.write("\n")
+            _write_text_atomic(json_path, json.dumps(data, indent=2) + "\n")
 
     if csv_path.exists():
         rv4 = [(c, r) for c, (r, _) in retired_map.items() if ":" not in c]
