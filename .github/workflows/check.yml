@@ -26,7 +26,7 @@ jobs:
         uses: actions/cache@v6
         with:
           path: ~/.cache/uv
-          key: uv-cache-${{ hashFiles('crawler/pyproject.toml', 'crawler/uv.lock') }}
+          key: uv-cache-${{ hashFiles('crawler/pyproject.toml', 'crawler/uv.lock', 'scripts/pyproject.toml', 'scripts/uv.lock') }}
           restore-keys: |
             uv-cache-
 
@@ -34,7 +34,9 @@ jobs:
         uses: astral-sh/setup-uv@v7
 
       - name: Set up Python environment
-        run: uv sync --directory crawler
+        run: |
+          uv sync --directory crawler
+          uv sync --directory scripts --locked
 
       - name: Build wheel
         working-directory: crawler
@@ -62,7 +64,8 @@ jobs:
         run: |
           uv run --directory crawler ruff format --check --diff ../scripts
           uv run --directory crawler ruff check ../scripts
-          uv run --directory crawler python -m compileall -q ../scripts
+          uv run --directory scripts python -m compileall -q update_history.py generate_readme_stats.py
+          uv run --directory scripts python -c "import duckdb, pytz"
 
   test:
     name: Crawler Unit Tests
@@ -78,7 +81,7 @@ jobs:
         uses: actions/cache@v6
         with:
           path: ~/.cache/uv
-          key: uv-cache-${{ hashFiles('crawler/pyproject.toml', 'crawler/uv.lock') }}
+          key: uv-cache-${{ hashFiles('crawler/pyproject.toml', 'crawler/uv.lock', 'scripts/pyproject.toml', 'scripts/uv.lock') }}
           restore-keys: |
             uv-cache-
 

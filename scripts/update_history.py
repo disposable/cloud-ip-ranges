@@ -401,13 +401,44 @@ def patch_json(
     with open(json_path) as f:
         data = json.load(f)
 
+    retired_now = {cidr for cidr, _ in retired_v4} | {cidr for cidr, _ in retired_v6}
+
+    # Drop injected entries that aged out of the retention window. They carry a
+    # "retired_at" marker in details_* but are no longer tracked by the DB —
+    # without pruning they would linger forever since --only-if-changed may not
+    # rewrite the file.
+    changed = False
+    stale: set[str] = set()
+    for det_key in ("details_ipv4", "details_ipv6"):
+        details = data.get(det_key)
+        if not details:
+            continue
+        kept = []
+        for d in details:
+            if isinstance(d, dict) and "retired_at" in d and d.get("address") not in retired_now:
+                stale.add(d.get("address"))
+            else:
+                kept.append(d)
+        if len(kept) != len(details):
+            changed = True
+            if kept:
+                data[det_key] = kept
+            else:
+                data.pop(det_key, None)
+
+    if stale:
+        for key in ("ipv4", "ipv6"):
+            pruned = [c for c in data.get(key, []) if c not in stale]
+            if len(pruned) != len(data.get(key, [])):
+                data[key] = pruned
+                changed = True
+
     active_v4 = set(data.get("ipv4", []))
     active_v6 = set(data.get("ipv6", []))
 
     det_v4: dict[str, dict] = {d["address"]: d for d in data.get("details_ipv4", [])}
     det_v6: dict[str, dict] = {d["address"]: d for d in data.get("details_ipv6", [])}
 
-    changed = False
     for cidr, retired_at in retired_v4:
         if cidr not in active_v4:
             data.setdefault("ipv4", []).append(cidr)
@@ -444,6 +475,13 @@ def patch_csv(
         fieldnames = reader.fieldnames or ["Type", "Address"]
         rows = list(reader)
 
+    # Drop retired rows that aged out of the retention window (no longer
+    # tracked by the DB) — otherwise they accumulate in the file forever.
+    retired_now = {cidr for cidr, _ in retired_v4} | {cidr for cidr, _ in retired_v6}
+    pruned_rows = [r for r in rows if not (r.get("RetiredAt") and r.get("Address") not in retired_now)]
+    pruned = len(pruned_rows) != len(rows)
+    rows = pruned_rows
+
     existing = {r["Address"] for r in rows}
 
     # Ensure RetiredAt column exists
@@ -464,7 +502,7 @@ def patch_csv(
                         row[key] = rows[0].get(key, "")
             new_rows.append(row)
 
-    if not new_rows and has_retired_col:
+    if not new_rows and not pruned and has_retired_col:
         return
 
     updated = [{**r, "RetiredAt": r.get("RetiredAt", "")} for r in rows] + new_rows
@@ -479,17 +517,39 @@ def patch_txt(
     txt_path: Path,
     retired_v4: list[tuple[str, datetime]],
     retired_v6: list[tuple[str, datetime]],
+    active_v4: list[str] | None = None,
+    active_v6: list[str] | None = None,
 ) -> None:
     if not txt_path.exists():
         return
 
-    with open(txt_path) as f:
-        existing = {line.strip() for line in f if line.strip() and not line.startswith("#")}
+    # TXT has no retired markers — a CIDR line that is neither currently
+    # published nor within the retirement window is a stale injection.
+    keep_cidrs = {cidr for cidr, _ in retired_v4 + retired_v6}
+    keep_cidrs.update(active_v4 or [])
+    keep_cidrs.update(active_v6 or [])
 
+    with open(txt_path) as f:
+        lines = f.read().splitlines()
+
+    kept: list[str] = []
+    dropped = 0
+    for line in lines:
+        s = line.strip()
+        if s and not s.startswith("#") and s not in keep_cidrs:
+            dropped += 1
+            continue
+        kept.append(line)
+
+    existing = {line.strip() for line in kept if line.strip() and not line.startswith("#")}
     to_add = [cidr for cidr, _ in retired_v4 + retired_v6 if cidr not in existing]
-    if to_add:
-        with open(txt_path, "a") as f:
-            f.write("\n".join(to_add) + "\n")
+
+    if not dropped and not to_add:
+        return
+
+    kept.extend(to_add)
+    with open(txt_path, "w") as f:
+        f.write("\n".join(kept) + "\n")
 
 
 # ---------------------------------------------------------------------------
@@ -498,12 +558,19 @@ def patch_txt(
 
 
 def patch_all_providers(
-    json_dir: Path,
+    data_dir: Path,
     all_retired: dict[str, list[tuple[str, datetime]]],
+    *,
+    flat_layout: bool = False,
 ) -> None:
-    json_path = json_dir / "all-providers.json"
-    csv_path = json_dir.parent / "csv" / "all-providers.csv"
-    txt_path = json_dir.parent / "txt" / "all-providers.txt"
+    json_path = data_dir / "all-providers.json"
+    if flat_layout:
+        # misc/ keeps all formats in a single directory
+        csv_path = data_dir / "all-providers.csv"
+        txt_path = data_dir / "all-providers.txt"
+    else:
+        csv_path = data_dir.parent / "csv" / "all-providers.csv"
+        txt_path = data_dir.parent / "txt" / "all-providers.txt"
 
     # Flatten: cidr -> (earliest retired_at, [provider_ids])
     retired_map: dict[str, tuple[datetime, list[str]]] = {}
@@ -580,6 +647,8 @@ def main() -> int:
     # Load all provider data from disk
     providers: list[dict] = []
     provider_paths: dict[str, tuple[Path, Path, Path]] = {}  # pid -> (json, csv, txt)
+    active_by_pid: dict[str, tuple[list[str], list[str]]] = {}  # pid -> published cidrs
+    misc_pids: set[str] = set()
 
     for search_dir in [json_dir, misc_dir]:
         if not search_dir.exists():
@@ -593,6 +662,9 @@ def main() -> int:
             providers.append({**data, "ipv4": v4_active, "ipv6": v6_active})
 
             pid = data.get("provider_id", json_path.stem)
+            active_by_pid[pid] = (v4_active, v6_active)
+            if search_dir == misc_dir:
+                misc_pids.add(pid)
             if search_dir == json_dir:
                 csv_path = json_dir.parent / "csv" / json_path.with_suffix(".csv").name
                 txt_path = json_dir.parent / "txt" / json_path.with_suffix(".txt").name
@@ -616,26 +688,36 @@ def main() -> int:
     conn.close()
     print(f"DB updated: {db_path}", flush=True)
 
-    # Patch output files for providers with retired IPs
+    # Patch output files. Run for every provider with files — not just those
+    # with retired rows — so entries that aged out of the retention window get
+    # pruned from json/csv/txt outputs.
     all_retired_flat: dict[str, list[tuple[str, datetime]]] = {}
-    for pid, (rv4, rv6) in retired_by_provider.items():
-        if not rv4 and not rv6:
-            continue
+    misc_retired_flat: dict[str, list[tuple[str, datetime]]] = {}
+    for pid in sorted(set(provider_paths) | set(retired_by_provider)):
+        rv4, rv6 = retired_by_provider.get(pid, ([], []))
         paths = provider_paths.get(pid)
         if paths is None:
             # Provider has retired rows in the DB but no output files (removed
             # from the source list or failed before first successful write).
-            print(f"  {pid}: retired CIDRs in DB but no output files, skipping patch", flush=True)
+            if rv4 or rv6:
+                print(f"  {pid}: retired CIDRs in DB but no output files, skipping patch", flush=True)
             continue
         json_path, csv_path, txt_path = paths
         patch_json(json_path, rv4, rv6)
         patch_csv(csv_path, rv4, rv6)
-        patch_txt(txt_path, rv4, rv6)
-        all_retired_flat[pid] = rv4 + rv6
-        print(f"  {pid}: {len(rv4)} retired IPv4, {len(rv6)} retired IPv6", flush=True)
+        av4, av6 = active_by_pid.get(pid, ([], []))
+        patch_txt(txt_path, rv4, rv6, active_v4=av4, active_v6=av6)
+        if rv4 or rv6:
+            if pid in misc_pids:
+                misc_retired_flat[pid] = rv4 + rv6
+            else:
+                all_retired_flat[pid] = rv4 + rv6
+            print(f"  {pid}: {len(rv4)} retired IPv4, {len(rv6)} retired IPv6", flush=True)
 
     if all_retired_flat and json_dir.exists():
         patch_all_providers(json_dir, all_retired_flat)
+    if misc_retired_flat and misc_dir.exists():
+        patch_all_providers(misc_dir, misc_retired_flat, flat_layout=True)
 
     print("Done.", flush=True)
     return 0
