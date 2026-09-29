@@ -59,14 +59,14 @@ jobs:
 
     - name: Update retention history
       run: |
-        uv run --locked --project scripts python scripts/update_history.py \
+        uv run --locked --no-dev --project scripts python scripts/update_history.py \
           --db meta/history.duckdb \
           --json-dir json \
           --misc-dir misc
 
     - name: Update README statistics
       run: |
-        uv run --locked --project scripts python scripts/generate_readme_stats.py \
+        uv run --locked --no-dev --project scripts python scripts/generate_readme_stats.py \
           --db meta/history.duckdb \
           --readme README.md \
           --json-dir json \
@@ -132,14 +132,14 @@ jobs:
 
     - name: Update retention history
       run: |
-        uv run --locked --project scripts python scripts/update_history.py \
+        uv run --locked --no-dev --project scripts python scripts/update_history.py \
           --db meta/history.duckdb \
           --json-dir json \
           --misc-dir misc
 
     - name: Update README statistics
       run: |
-        uv run --locked --project scripts python scripts/generate_readme_stats.py \
+        uv run --locked --no-dev --project scripts python scripts/generate_readme_stats.py \
           --db meta/history.duckdb \
           --readme README.md \
           --json-dir json \

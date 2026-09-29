@@ -8,5 +8,10 @@ dependencies = [
     "pytz>=2026.4",
 ]
 
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
 [tool.uv]
 package = false

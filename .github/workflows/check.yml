@@ -66,6 +66,7 @@ jobs:
           uv run --directory crawler ruff check ../scripts
           uv run --directory scripts python -m compileall -q update_history.py generate_readme_stats.py
           uv run --directory scripts python -c "import duckdb, pytz"
+          uv run --directory scripts pytest -q
 
   test:
     name: Crawler Unit Tests

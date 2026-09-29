@@ -659,9 +659,8 @@ def main() -> int:
             with open(json_path) as f:
                 data = json.load(f)
             v4_active, v6_active = _active_cidrs(data)
-            providers.append({**data, "ipv4": v4_active, "ipv6": v6_active})
-
             pid = data.get("provider_id", json_path.stem)
+            providers.append({**data, "provider_id": pid, "ipv4": v4_active, "ipv6": v6_active})
             active_by_pid[pid] = (v4_active, v6_active)
             if search_dir == misc_dir:
                 misc_pids.add(pid)
