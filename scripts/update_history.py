@@ -202,15 +202,10 @@ def reconcile_all_providers(
     # Load current state into a temp table using DuckDB's fast CSV reader
     conn.execute("DROP TABLE IF EXISTS current_cidrs")
     if tmp_csv:
-        conn.execute(
-            f"CREATE TEMP TABLE current_cidrs AS SELECT * FROM read_csv('{tmp_csv}', "
-            f"columns={{'provider_id': 'VARCHAR', 'cidr': 'VARCHAR'}})"
-        )
+        conn.execute(f"CREATE TEMP TABLE current_cidrs AS SELECT * FROM read_csv('{tmp_csv}', columns={{'provider_id': 'VARCHAR', 'cidr': 'VARCHAR'}})")
         os.unlink(tmp_csv)
     else:
-        conn.execute(
-            "CREATE TEMP TABLE current_cidrs (provider_id VARCHAR NOT NULL, cidr VARCHAR NOT NULL)"
-        )
+        conn.execute("CREATE TEMP TABLE current_cidrs (provider_id VARCHAR NOT NULL, cidr VARCHAR NOT NULL)")
 
     # 1. Insert truly new CIDRs (not seen before at all)
     conn.execute(f"""
@@ -439,7 +434,7 @@ def patch_csv(
     # Ensure RetiredAt column exists
     has_retired_col = "RetiredAt" in fieldnames
     if not has_retired_col:
-        fieldnames = list(fieldnames) + ["RetiredAt"]
+        fieldnames = [*list(fieldnames), "RetiredAt"]
 
     new_rows = []
     for cidr, retired_at in retired_v4:
@@ -480,9 +475,7 @@ def patch_txt(
         return
 
     with open(txt_path) as f:
-        existing = {
-            line.strip() for line in f if line.strip() and not line.startswith("#")
-        }
+        existing = {line.strip() for line in f if line.strip() and not line.startswith("#")}
 
     to_add = [cidr for cidr, _ in retired_v4 + retired_v6 if cidr not in existing]
     if to_add:
@@ -526,7 +519,7 @@ def patch_all_providers(
         ip_providers: dict = data.get("ip_providers", {})
 
         new_v4, new_v6 = [], []
-        for cidr, (retired_at, providers) in retired_map.items():
+        for cidr, (_retired_at, providers) in retired_map.items():
             if cidr in active_set:
                 continue
             (new_v6 if ":" in cidr else new_v4).append(cidr)
@@ -597,9 +590,7 @@ def main() -> int:
                 txt_path = search_dir / json_path.with_suffix(".txt").name
             provider_paths[pid] = (json_path, csv_path, txt_path)
 
-    total_cidrs = sum(
-        len(p.get("ipv4", [])) + len(p.get("ipv6", [])) for p in providers
-    )
+    total_cidrs = sum(len(p.get("ipv4", [])) + len(p.get("ipv6", [])) for p in providers)
     print(
         f"Processing {len(providers)} providers, {total_cidrs:,} total CIDRs...",
         flush=True,

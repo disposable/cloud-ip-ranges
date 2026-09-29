@@ -1,0 +1,98 @@
+name: Code Checks
+
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+        with:
+          submodules: true
+
+      - name: Cache uv
+        id: cache-primes
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/uv
+          key: uv-cache-${{ hashFiles('crawler/pyproject.toml', 'crawler/uv.lock') }}
+          restore-keys: |
+            uv-cache-
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Set up Python environment
+        run: uv sync --directory crawler
+
+      - name: Build wheel
+        working-directory: crawler
+        run: uv build
+
+      - name: Run Ruff (PEP 8 Formatting)
+        run: uv run --directory crawler make format
+
+      - name: Run Ruff (Linting)
+        run: uv run --directory crawler make check
+
+      - name: Run vulture (Dead Code)
+        run: uv run --directory crawler make vulture
+
+      - name: Run xenon (Cyclomatic Complexity)
+        run: uv run --directory crawler make xenon
+
+      - name: Run bandit (Security)
+        run: uv run --directory crawler make bandit
+
+      - name: Run pyright (Type Checking)
+        run: uv run --directory crawler make pyright
+
+      - name: Lint maintenance scripts
+        run: |
+          uv run --directory crawler ruff format --check --diff ../scripts
+          uv run --directory crawler ruff check ../scripts
+          uv run --directory crawler python -m py_compile ../scripts/*.py
+
+  test:
+    name: Crawler Unit Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+        with:
+          submodules: true
+
+      - name: Cache uv
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/uv
+          key: uv-cache-${{ hashFiles('crawler/pyproject.toml', 'crawler/uv.lock') }}
+          restore-keys: |
+            uv-cache-
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Set up Python environment
+        run: uv sync --directory crawler
+
+      - name: Run pytest (Unit Tests)
+        run: uv run --directory crawler pytest tests/unit -v --cov-fail-under=85
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v7
+        with:
+          name: coverage-report
+          path: crawler/coverage.xml

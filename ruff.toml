@@ -1,0 +1,14 @@
+# Ruff configuration for files outside the crawler submodule (scripts/).
+# Mirrors crawler/pyproject.toml so the whole repo follows the same style.
+line-length = 160
+indent-width = 4
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+preview = true
+
+[lint]
+select = ["E9", "F82", "F401", "F841", "B", "RUF"]
+ignore = ["F821"]

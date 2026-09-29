@@ -5,3 +5,16 @@ __MACOSX
 /uv.lock
 __pycache__/
 *.py[cod]
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local run logs
+run*.log
+
+# Mutation testing
+mutants/
+mutmut-results.txt

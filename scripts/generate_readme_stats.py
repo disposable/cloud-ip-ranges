@@ -180,9 +180,7 @@ def generate_stats_block(conn: duckdb.DuckDBPyConnection, misc_dir: Path) -> str
             cloud_retired_v4_ips += rv4_ips
             cloud_retired_v6_64s += rv6_64s
 
-    last_crawled_str = (
-        last_crawled.strftime("%Y-%m-%d %H:%M UTC") if last_crawled else "—"
-    )
+    last_crawled_str = last_crawled.strftime("%Y-%m-%d %H:%M UTC") if last_crawled else "—"
 
     lines = [
         "| Metric | Value |",
@@ -232,16 +230,8 @@ def _provider_table_row(
 
     changed_str = changed_at.strftime("%Y-%m-%d") if changed_at else "—"
 
-    v4_str = (
-        f"{v4_ips:,}"
-        + (f" ({v4:,} subnets)" if v4 else "")
-        + (f"<br>+{rv4_ips:,} retired" if rv4 else "")
-    )
-    v6_str = (
-        f"{v6_64s:,}"
-        + (f" ({v6:,} ranges)" if v6 else "")
-        + (f"<br>+{rv6_64s:,} retired" if rv6 else "")
-    )
+    v4_str = f"{v4_ips:,}" + (f" ({v4:,} subnets)" if v4 else "") + (f"<br>+{rv4_ips:,} retired" if rv4 else "")
+    v6_str = f"{v6_64s:,}" + (f" ({v6:,} ranges)" if v6 else "") + (f"<br>+{rv6_64s:,} retired" if rv6 else "")
 
     src_str = source_display(sources)
     method_str = method_label(method, sources)
@@ -349,9 +339,7 @@ def generate_sources_table(
 # ---------------------------------------------------------------------------
 
 
-def replace_section(
-    content: str, start_marker: str, end_marker: str, new_body: str
-) -> str:
+def replace_section(content: str, start_marker: str, end_marker: str, new_body: str) -> str:
     """Replace everything between start_marker and end_marker (inclusive) with new content."""
     pattern = re.compile(
         re.escape(start_marker) + r".*?" + re.escape(end_marker),
@@ -396,9 +384,7 @@ def main() -> int:
     conn = duckdb.connect(str(db_path), read_only=True)
 
     stats_block = generate_stats_block(conn, Path(args.misc_dir))
-    sources_table = generate_sources_table(
-        conn, Path(args.json_dir), Path(args.misc_dir)
-    )
+    sources_table = generate_sources_table(conn, Path(args.json_dir), Path(args.misc_dir))
     conn.close()
 
     update_readme(Path(args.readme), stats_block, sources_table)
