@@ -3,13 +3,13 @@
   "provider_id": "upcloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-09-29T04:18:49.436386",
+  "generated_at": "2026-09-30T04:09:34.469245",
   "source_updated_at": null,
   "source": [
-    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS202053",
-    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25697"
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25697",
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS202053"
   ],
-  "last_update": "2026-09-29T04:18:49.436386",
+  "last_update": "2026-09-30T04:09:34.469245",
   "ipv4": [
     "109.71.54.0/23",
     "109.71.54.0/24",
@@ -134,14 +134,14 @@
   ],
   "source_http": [
     {
-      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS202053",
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25697",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": null,
       "last_modified": null
     },
     {
-      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25697",
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS202053",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": null,
@@ -151,11 +151,11 @@
   "details_ipv4": [
     {
       "address": "195.144.5.0/24",
-      "retired_at": "2026-09-29T04:19:04.399382+00:00"
+      "retired_at": "2026-09-30T04:09:51.610642+00:00"
     },
     {
       "address": "212.147.248.0/22",
-      "retired_at": "2026-09-29T04:19:04.399382+00:00"
+      "retired_at": "2026-09-30T04:09:51.610642+00:00"
     }
   ]
 }

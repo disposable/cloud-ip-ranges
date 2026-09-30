@@ -3,12 +3,12 @@
   "provider_id": "kamatera",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-09-29T04:18:51.332974",
+  "generated_at": "2026-09-30T04:09:36.564414",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS36007"
   ],
-  "last_update": "2026-09-29T04:18:51.332974",
+  "last_update": "2026-09-30T04:09:36.564414",
   "ipv4": [
     "103.101.201.0/24",
     "103.101.202.0/24",
@@ -147,6 +147,7 @@
     "83.229.3.0/24",
     "83.229.39.0/24",
     "83.229.67.0/24",
+    "89.144.18.0/24",
     "91.202.170.0/24",
     "91.223.169.0/24",
     "93.93.205.0/24",
@@ -186,11 +187,11 @@
   "details_ipv4": [
     {
       "address": "207.126.160.0/24",
-      "retired_at": "2026-09-29T04:19:04.399382+00:00"
+      "retired_at": "2026-09-30T04:09:51.610642+00:00"
     },
     {
       "address": "207.126.163.0/24",
-      "retired_at": "2026-09-29T04:19:04.399382+00:00"
+      "retired_at": "2026-09-30T04:09:51.610642+00:00"
     }
   ]
 }
