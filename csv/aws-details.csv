@@ -1429,6 +1429,7 @@ IPv4,56.55.0.0/16,eu-west-1,eu-west-1,AMAZON
 IPv4,56.112.0.0/16,ca-west-1,ca-west-1,AMAZON
 IPv4,64.66.160.0/24,eu-west-2,eu-west-2,AMAZON
 IPv4,69.107.9.208/29,ap-southeast-2,ap-southeast-2,AMAZON
+IPv4,69.107.13.88/29,eu-west-2,eu-west-2,AMAZON
 IPv4,70.132.0.0/18,GLOBAL,GLOBAL,AMAZON
 IPv4,150.222.152.99/32,eu-central-1,eu-central-1,AMAZON
 IPv4,150.222.234.26/31,us-west-1,us-west-1,AMAZON
@@ -3080,6 +3081,7 @@ IPv4,52.219.200.0/24,ap-northeast-1,ap-northeast-1,AMAZON
 IPv4,64.66.131.0/24,us-east-1,us-east-1,AMAZON
 IPv4,64.252.100.0/24,ap-south-1,ap-south-1,AMAZON
 IPv4,65.176.0.0/15,eu-west-2,eu-west-2,AMAZON
+IPv4,69.107.13.80/29,eu-west-2,eu-west-2,AMAZON
 IPv4,94.36.0.0/15,ap-southeast-5,ap-southeast-5,AMAZON
 IPv4,104.255.57.183/32,us-west-2,us-west-2,AMAZON
 IPv4,150.222.144.102/32,eu-central-1,eu-central-1,AMAZON
@@ -10076,6 +10078,7 @@ IPv4,16.174.90.128/25,ca-west-1,ca-west-1,EFS
 IPv4,63.187.12.0/22,eu-central-1,eu-central-1,EFS
 IPv4,63.187.16.0/22,eu-central-1,eu-central-1,EFS
 IPv4,63.187.20.0/22,eu-central-1,eu-central-1,EFS
+IPv4,63.189.140.0/22,eu-central-1,eu-central-1,EFS
 IPv4,16.18.164.0/22,eu-central-2,eu-central-2,EFS
 IPv4,16.18.95.128/25,eu-central-2,eu-central-2,EFS
 IPv4,16.192.180.0/22,eu-north-1,eu-north-1,EFS
@@ -10724,6 +10727,7 @@ IPv6,2406:da70:8000::/40,ap-southeast-1,ap-southeast-1,AMAZON
 IPv6,2406:daf9:a000::/40,ap-south-1,ap-south-1,AMAZON
 IPv6,2600:f0f0:30f::/48,eu-central-1,eu-central-1,AMAZON
 IPv6,2600:f0f3:f010:3000::/56,ca-west-1,ca-west-1,AMAZON
+IPv6,2600:f0fb:ca01::/52,ap-southeast-1,ap-southeast-1,AMAZON
 IPv6,2600:f0fb:f102::/48,eu-west-1,eu-west-1,AMAZON
 IPv6,2606:7b40:1b06:8100::/56,ap-south-1,ap-south-1,AMAZON
 IPv6,2606:7b40:1b0f:c100::/56,us-west-2,us-west-2,AMAZON
@@ -12479,6 +12483,7 @@ IPv6,2606:f40:ffd2::/48,ap-northeast-2,ap-northeast-2,AMAZON
 IPv6,2606:f40:fff0::/48,eu-west-1,eu-west-1,AMAZON
 IPv6,2606:f40:fffd::/48,us-west-2,us-west-2,AMAZON
 IPv6,2606:7b40:1b70::/44,GLOBAL,GLOBAL,AMAZON
+IPv6,2620:107:4000:7e00::/56,us-west-2,us-west-2,AMAZON
 IPv6,2a05:d030:800::/40,me-west-1,me-west-1,AMAZON
 IPv6,2a05:d050:b000::/40,eu-central-1,eu-central-1,AMAZON
 IPv6,2a05:d070:2000::/40,eu-west-3,eu-west-3,AMAZON
@@ -13434,6 +13439,7 @@ IPv6,2600:1ff2:ec00::/40,sa-west-1,sa-west-1,AMAZON
 IPv6,2600:1ff6:800::/40,us-south-1,us-south-1,AMAZON
 IPv6,2600:f0f0:705::/48,us-west-2,us-west-2,AMAZON
 IPv6,2600:f0f0:c01:500::/56,GLOBAL,GLOBAL,AMAZON
+IPv6,2600:f0fb:c900:3000::/52,ap-southeast-1,ap-southeast-1,AMAZON
 IPv6,2605:9cc0:1ff0:7200::/56,GLOBAL,GLOBAL,AMAZON
 IPv6,2606:7b40:1b0c:200::/56,eu-central-1,eu-central-1,AMAZON
 IPv6,2a01:578:3::/48,eu-west-1,eu-west-1,AMAZON
@@ -14781,6 +14787,7 @@ IPv6,2406:da32:2800::/40,ap-southeast-6,ap-southeast-6,EC2
 IPv6,2406:da70:8000::/40,ap-southeast-1,ap-southeast-1,EC2
 IPv6,2600:f0f0:30f::/48,eu-central-1,eu-central-1,EC2
 IPv6,2600:f0f3:f010:3000::/56,ca-west-1,ca-west-1,EC2
+IPv6,2600:f0fb:ca01::/52,ap-southeast-1,ap-southeast-1,EC2
 IPv6,2600:f0fb:f102::/48,eu-west-1,eu-west-1,EC2
 IPv6,2606:7b40:1b06:8100::/56,ap-south-1,ap-south-1,EC2
 IPv6,2606:7b40:1b0f:c100::/56,us-west-2,us-west-2,EC2
@@ -16987,6 +16994,7 @@ IPv6,2600:1ff2:ec00::/40,sa-west-1,sa-west-1,EC2
 IPv6,2600:1ff6:800::/40,us-south-1,us-south-1,EC2
 IPv6,2600:f0f0:705::/48,us-west-2,us-west-2,EC2
 IPv6,2600:f0f0:c01:500::/56,GLOBAL,GLOBAL,EC2
+IPv6,2600:f0fb:c900:3000::/52,ap-southeast-1,ap-southeast-1,EC2
 IPv6,2605:9cc0:1ff0:7200::/56,GLOBAL,GLOBAL,EC2
 IPv6,2606:7b40:1b0c:200::/56,eu-central-1,eu-central-1,EC2
 IPv6,2a01:578:3::/48,eu-west-1,eu-west-1,EC2
@@ -17323,6 +17331,7 @@ IPv6,2600:1f11:c0a:c700::/56,ca-central-1,ca-central-1,EFS
 IPv6,2600:1f1a:41c6:700::/56,ca-west-1,ca-west-1,EFS
 IPv6,2600:1f1a:4bd9:d100::/56,ca-west-1,ca-west-1,EFS
 IPv6,2a05:d014:102e:7e00::/56,eu-central-1,eu-central-1,EFS
+IPv6,2a05:d014:11e2:dc00::/56,eu-central-1,eu-central-1,EFS
 IPv6,2a05:d014:1338:dd00::/56,eu-central-1,eu-central-1,EFS
 IPv6,2a05:d014:1cde:6300::/56,eu-central-1,eu-central-1,EFS
 IPv6,2a05:d019:5aa:1200::/56,eu-central-2,eu-central-2,EFS

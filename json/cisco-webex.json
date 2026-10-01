@@ -3,13 +3,13 @@
   "provider_id": "cisco-webex",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-08-06T09:15:03.646698",
+  "generated_at": "2026-10-01T04:10:28.618901",
   "source_updated_at": null,
   "source": [
     "https://help.webex.com/article/WBX000028782/Network-Requirements-for-Webex-Teams-Services",
     "https://help.webex.com/en-us/article/WBX264/How-Do-I-Allow-Webex-Meetings-Traffic-on-My-Network"
   ],
-  "last_update": "2026-08-06T09:15:03.646698",
+  "last_update": "2026-10-01T04:10:28.618901",
   "ipv4": [
     "114.29.192.0/19",
     "144.196.0.0/16",
@@ -19,6 +19,7 @@
     "163.129.0.0/17",
     "170.133.128.0/18",
     "170.72.0.0/16",
+    "172.194.164.0/24",
     "173.243.0.0/20",
     "173.39.224.0/19",
     "18.230.160.0/25",
@@ -41,6 +42,7 @@
     "4.175.120.0/24",
     "40.119.234.0/24",
     "44.234.52.192/26",
+    "48.202.19.0/24",
     "52.232.210.0/24",
     "62.109.192.0/18",
     "64.68.96.0/19",
@@ -73,14 +75,14 @@
       "url": "https://help.webex.com/article/WBX000028782/Network-Requirements-for-Webex-Teams-Services",
       "status": 200,
       "content_type": "text/html; charset=utf-8",
-      "etag": "\"59c8c-e4ZxcewfRIXXUWK8vT8edhvxNA0\"",
+      "etag": "\"5b94e-Znue+xrtHIUeBFhPnPKWJbuzjXg\"",
       "last_modified": null
     },
     {
       "url": "https://help.webex.com/en-us/article/WBX264/How-Do-I-Allow-Webex-Meetings-Traffic-on-My-Network",
       "status": 200,
       "content_type": "text/html; charset=utf-8",
-      "etag": "\"36563-ZNSF5MUj9aGXzft1MYMKpii292w\"",
+      "etag": "\"37522-1qheflwO40jukO/nXFzKlW5hzpU\"",
       "last_modified": null
     }
   ]
