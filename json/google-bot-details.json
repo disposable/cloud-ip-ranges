@@ -3,14 +3,14 @@
   "provider_id": "google-bot",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-01T04:09:49.936834",
-  "source_updated_at": "2026-09-30T14:46:42.000000",
+  "generated_at": "2026-10-02T04:03:39.775336",
+  "source_updated_at": "2026-10-01T14:46:12.000000",
   "source": [
     "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
     "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
     "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json"
   ],
-  "last_update": "2026-09-30T14:46:42.000000",
+  "last_update": "2026-10-01T14:46:12.000000",
   "ipv4": [
     {
       "address": "192.178.4.0/27",
@@ -2244,6 +2244,11 @@
     },
     {
       "address": "34.116.22.0/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "34.116.22.128/27",
       "service": null,
       "scope": null
     },
@@ -6806,6 +6811,11 @@
     },
     {
       "address": "2600:1900:0:2a3::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:2a4::/64",
       "service": null,
       "scope": null
     },

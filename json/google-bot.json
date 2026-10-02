@@ -3,14 +3,14 @@
   "provider_id": "google-bot",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-01T04:09:49.936834",
-  "source_updated_at": "2026-09-30T14:46:42.000000",
+  "generated_at": "2026-10-02T04:03:39.775336",
+  "source_updated_at": "2026-10-01T14:46:12.000000",
   "source": [
     "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
     "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
     "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json"
   ],
-  "last_update": "2026-09-30T14:46:42.000000",
+  "last_update": "2026-10-01T14:46:12.000000",
   "ipv4": [
     "107.178.192.0/27",
     "107.178.192.128/27",
@@ -205,6 +205,7 @@
     "34.116.21.64/27",
     "34.116.21.96/27",
     "34.116.22.0/27",
+    "34.116.22.128/27",
     "34.116.22.32/27",
     "34.116.22.64/27",
     "34.116.22.96/27",
@@ -1373,6 +1374,7 @@
     "2600:1900:0:2a1::/64",
     "2600:1900:0:2a2::/64",
     "2600:1900:0:2a3::/64",
+    "2600:1900:0:2a4::/64",
     "2600:1900:0:2a::/64",
     "2600:1900:0:2b0::/64",
     "2600:1900:0:2b1::/64",
@@ -3895,6 +3897,11 @@
     },
     {
       "address": "34.116.22.0/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "34.116.22.128/27",
       "service": null,
       "scope": null
     },
@@ -8461,6 +8468,11 @@
       "scope": null
     },
     {
+      "address": "2600:1900:0:2a4::/64",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "2600:1900:0:2a::/64",
       "service": null,
       "scope": null
@@ -9907,21 +9919,21 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Wed, 30 Sep 2026 14:47:11 GMT"
+      "last_modified": "Thu, 01 Oct 2026 14:46:39 GMT"
     },
     {
       "url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Wed, 30 Sep 2026 14:47:13 GMT"
+      "last_modified": "Thu, 01 Oct 2026 14:46:39 GMT"
     },
     {
       "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Wed, 30 Sep 2026 14:47:11 GMT"
+      "last_modified": "Thu, 01 Oct 2026 14:46:40 GMT"
     }
   ]
 }
