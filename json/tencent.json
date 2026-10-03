@@ -3,7 +3,7 @@
   "provider_id": "tencent",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-10-02T04:04:44.824374",
+  "generated_at": "2026-10-03T03:49:41.402443",
   "source_updated_at": null,
   "source": [
     "RADB::AS132203:AS-TENCENT",
@@ -15,7 +15,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134103",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS139341"
   ],
-  "last_update": "2026-10-02T04:04:44.824374",
+  "last_update": "2026-10-03T03:49:41.402443",
   "ipv4": [
     "1.116.0.0/15",
     "1.116.0.0/18",
@@ -3779,7 +3779,6 @@
     "43.173.129.0/24",
     "43.173.132.0/24",
     "43.173.136.0/22",
-    "43.173.145.0/24",
     "43.173.173.0/24",
     "43.173.174.0/24",
     "43.173.175.0/24",
@@ -4515,6 +4514,7 @@
     "49.51.53.0/24",
     "43.146.118.0/24",
     "84.75.159.0/24",
+    "43.173.145.0/24",
     "43.130.130.0/23",
     "162.62.253.0/24",
     "101.33.114.0/24"
@@ -5164,6 +5164,10 @@
     {
       "address": "84.75.159.0/24",
       "retired_at": "2026-09-30T04:09:51.610642+00:00"
+    },
+    {
+      "address": "43.173.145.0/24",
+      "retired_at": "2026-10-03T03:57:55.999356+00:00"
     },
     {
       "address": "43.130.130.0/23",
