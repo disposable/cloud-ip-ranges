@@ -1,6 +1,6 @@
 # provider: Alibaba
 # source: RADB::AS-ALIBABA-CN-NET, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS23532, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS45102, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60924, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134963
-# last_update: 2026-10-05T04:04:51.499710
+# last_update: 2026-10-06T04:53:39.585981
 
 103.135.210.0/23
 103.173.12.0/24
@@ -516,7 +516,6 @@
 43.122.0.0/16
 43.122.0.0/17
 43.122.128.0/17
-43.122.2.0/24
 43.123.0.0/18
 43.123.0.0/19
 43.123.128.0/18
@@ -1563,8 +1562,6 @@
 240b:4019:8000::/33
 240b:4019::/32
 240b:4019::/33
-240b:4019:fffe::/48
-240b:4019:ffff::/48
 240b:401a:8000::/33
 240b:401a::/32
 240b:401a::/33
@@ -1643,12 +1640,13 @@
 8.215.241.0/24
 47.91.50.0/24
 47.81.53.0/24
+43.122.2.0/24
+43.118.6.0/24
+47.87.43.0/24
 82.47.189.0/24
 96.62.12.0/22
-43.118.6.0/24
-47.74.164.0/24
-47.87.43.0/24
 47.240.232.0/24
+47.74.164.0/24
 8.216.72.0/24
 240b:4004:ffff::/48
 240b:400d:ffff::/48
@@ -1657,7 +1655,9 @@
 240b:4012::/48
 240b:400f:ffff::/48
 240b:4016:fffe::/48
+240b:4019:fffe::/48
 240b:4016:ffff::/48
-240b:401a:ffff::/48
+240b:4019:ffff::/48
 240b:4013:ffff::/48
+240b:401a:ffff::/48
 240b:4009:fffe::/48
