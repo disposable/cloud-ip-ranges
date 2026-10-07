@@ -19,3 +19,7 @@ run*.log
 mutants/
 mutmut-results.txt
 *.tmp
+
+# Mutable resolver-state database lives on the orphan "state" branch
+/meta/history.duckdb
+/meta/history.duckdb.wal

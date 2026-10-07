@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-ip-ranges
+  cancel-in-progress: false
+
 jobs:
   update-cloud-providers:
     runs-on: ubuntu-latest
@@ -57,6 +61,15 @@ jobs:
           echo "EOF"
         } >> "$GITHUB_OUTPUT"
 
+    - name: Restore history database from state branch
+      run: |
+        mkdir -p meta
+        if git fetch --depth=1 origin state; then
+          git show FETCH_HEAD:meta/history.duckdb > meta/history.duckdb || rm -f meta/history.duckdb
+        else
+          echo "state branch not found; starting with empty history"
+        fi
+
     - name: Update retention history
       run: |
         uv run --locked --no-dev --project scripts python scripts/update_history.py \
@@ -72,10 +85,31 @@ jobs:
           --json-dir json \
           --misc-dir misc
 
+    - name: Push history database to state branch
+      run: |
+        blob=$(git hash-object -w meta/history.duckdb)
+        meta_tree=$(printf '100644 blob %s\thistory.duckdb\n' "$blob" | git mktree)
+        root_tree=$(printf '040000 tree %s\tmeta\n' "$meta_tree" | git mktree)
+        if git fetch --depth=1 origin state; then
+          parent=$(git rev-parse FETCH_HEAD)
+          if [ "$(git rev-parse "$parent:meta")" = "$meta_tree" ]; then
+            echo "history database unchanged"
+            exit 0
+          fi
+          commit=$(git -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit-tree "$root_tree" -p "$parent" -m "chore(state): update IP range history")
+        else
+          commit=$(git -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit-tree "$root_tree" -m "chore(state): initialize IP range history")
+        fi
+        git push origin "$commit:refs/heads/state"
+
     - name: Add and commit
       uses: EndBug/add-and-commit@v11
       with:
-        add: 'json txt csv meta/history.duckdb README.md'
+        add: 'json txt csv README.md'
 
         author_name: Auto Update Bot
         author_email: bot@github.com
@@ -130,6 +164,15 @@ jobs:
           echo "EOF"
         } >> "$GITHUB_OUTPUT"
 
+    - name: Restore history database from state branch
+      run: |
+        mkdir -p meta
+        if git fetch --depth=1 origin state; then
+          git show FETCH_HEAD:meta/history.duckdb > meta/history.duckdb || rm -f meta/history.duckdb
+        else
+          echo "state branch not found; starting with empty history"
+        fi
+
     - name: Update retention history
       run: |
         uv run --locked --no-dev --project scripts python scripts/update_history.py \
@@ -145,10 +188,31 @@ jobs:
           --json-dir json \
           --misc-dir misc
 
+    - name: Push history database to state branch
+      run: |
+        blob=$(git hash-object -w meta/history.duckdb)
+        meta_tree=$(printf '100644 blob %s\thistory.duckdb\n' "$blob" | git mktree)
+        root_tree=$(printf '040000 tree %s\tmeta\n' "$meta_tree" | git mktree)
+        if git fetch --depth=1 origin state; then
+          parent=$(git rev-parse FETCH_HEAD)
+          if [ "$(git rev-parse "$parent:meta")" = "$meta_tree" ]; then
+            echo "history database unchanged"
+            exit 0
+          fi
+          commit=$(git -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit-tree "$root_tree" -p "$parent" -m "chore(state): update IP range history")
+        else
+          commit=$(git -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit-tree "$root_tree" -m "chore(state): initialize IP range history")
+        fi
+        git push origin "$commit:refs/heads/state"
+
     - name: Add and commit misc providers
       uses: EndBug/add-and-commit@v11
       with:
-        add: 'misc meta/history.duckdb README.md'
+        add: 'misc README.md'
 
         author_name: Auto Update Bot
         author_email: bot@github.com

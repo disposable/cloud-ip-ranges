@@ -117,4 +117,4 @@ which shows their assigned IP ranges.
 * CI workflows use `--max-delta-ratio` to reject runs with extreme IP count changes.
 * Misc providers (like Starlink ISP) are excluded from default runs and saved to the `misc/` directory.
 * Consolidated files containing all providers' data are available as [all-providers.json](json/all-providers.json), [all-providers.txt](txt/all-providers.txt), and [all-providers.csv](csv/all-providers.csv).
-* **Retired IPs**: IP ranges removed from a provider's source continue to appear in output files for 4 weeks (with a `retired_at` timestamp in JSON/CSV). Historical state is tracked in `meta/history.duckdb`.
+* **Retired IPs**: IP ranges removed from a provider's source continue to appear in output files for 4 weeks (with a `retired_at` timestamp in JSON/CSV). Historical state is tracked in `meta/history.duckdb`, which lives on the orphan `state` branch (not `master`) to keep binary churn out of the data repo.

@@ -8,6 +8,7 @@ permissions:
 on:
   pull_request:
   push:
+    branches-ignore: [state]
   workflow_dispatch:
 
 jobs:
