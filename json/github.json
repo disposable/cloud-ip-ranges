@@ -3,12 +3,12 @@
   "provider_id": "github",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-15T03:24:29.724828",
+  "generated_at": "2026-10-07T19:05:27.210431",
   "source_updated_at": null,
   "source": [
     "https://api.github.com/meta"
   ],
-  "last_update": "2026-09-15T03:24:29.724828",
+  "last_update": "2026-10-07T19:05:27.210431",
   "ipv4": [
     "140.82.112.0/20",
     "143.55.64.0/20",
@@ -47,13 +47,28 @@
     "4.237.22.38/32",
     "4.249.131.164/32",
     "48.202.248.40/32",
-    "48.204.201.5/32"
+    "48.204.201.5/32",
+    "9.234.106.48/28",
+    "9.234.98.160/28",
+    "9.234.98.176/28"
   ],
   "ipv6": [
     "2606:50c0::/32",
     "2a0a:a440::/29"
   ],
   "details_ipv4": [
+    {
+      "address": "9.234.106.48/28",
+      "category": "hooks"
+    },
+    {
+      "address": "9.234.98.160/28",
+      "category": "hooks"
+    },
+    {
+      "address": "9.234.98.176/28",
+      "category": "hooks"
+    },
     {
       "address": "192.30.252.0/22",
       "category": "hooks"
@@ -246,7 +261,7 @@
       "url": "https://api.github.com/meta",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "etag": "W/\"dc2f50e1a4c7ae6c8aba38803bb3c9e54a97d6b84793c6b881923ca692620c61\"",
+      "etag": "W/\"a09a88687f713bf628109f9a6002dc6ee787e2c77930fc5eabafed2b8793c516\"",
       "last_modified": null
     }
   ]

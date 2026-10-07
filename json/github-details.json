@@ -3,13 +3,25 @@
   "provider_id": "github",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-15T03:24:29.724828",
+  "generated_at": "2026-10-07T19:05:27.210431",
   "source_updated_at": null,
   "source": [
     "https://api.github.com/meta"
   ],
-  "last_update": "2026-09-15T03:24:29.724828",
+  "last_update": "2026-10-07T19:05:27.210431",
   "ipv4": [
+    {
+      "address": "9.234.106.48/28",
+      "category": "hooks"
+    },
+    {
+      "address": "9.234.98.160/28",
+      "category": "hooks"
+    },
+    {
+      "address": "9.234.98.176/28",
+      "category": "hooks"
+    },
     {
       "address": "192.30.252.0/22",
       "category": "hooks"
