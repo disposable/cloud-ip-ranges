@@ -109,6 +109,14 @@ which shows their assigned IP ranges.
 | Starlink | [geoip.starlinkisp.net/feed.csv](https://geoip.starlinkisp.net/feed.csv) | Published List | 861,620 (3,544 subnets)<br>+29,440 retired | 16,307,519,572 (911 ranges)<br>+104,923,136 retired | 2026-10-08 | [JSON](misc/starlink.json) | [TXT](misc/starlink.txt) | [CSV](misc/starlink.csv) |
 <!-- SOURCES_TABLE_END -->
 
+### Providers without published IP ranges
+
+Some services deliberately do **not** publish IP allowlists. Their webhook and callback traffic egresses from dynamic cloud infrastructure whose addresses rotate without notice, so any collected list would silently go stale and break consumers. Providers such as **SendGrid, Mailgun, Twilio, Shopify, and Slack** are therefore intentionally absent from this dataset.
+
+These providers authenticate requests with an **HMAC signature header** instead: the sender signs the request body with a shared secret (configured in their dashboard) and sends the signature in a request header, e.g. `X-Twilio-Signature`, `X-Shopify-Hmac-Sha256`, `X-Slack-Signature`, or SendGrid's signed Event Webhook. You can filter incoming requests by this client request header: recompute `HMAC(secret, body)` on your endpoint and compare it with the header value. A valid signature proves both origin and payload integrity regardless of the source IP, so spoofed requests are rejected without any IP allowlist.
+
+Further reading: [HMAC (Wikipedia)](https://en.wikipedia.org/wiki/HMAC) - [RFC 2104](https://www.rfc-editor.org/rfc/rfc2104) (HMAC specification) - [RFC 9421](https://www.rfc-editor.org/rfc/rfc9421.html) (HTTP Message Signatures) - [Standard Webhooks specification](https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md)
+
 ## Notes
 
 * Some providers use ASN prefixes, which are now resolved via RIPEstat "Announced Prefixes" for BGP-announced prefixes, with HackerTarget as fallback.
