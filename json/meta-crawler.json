@@ -3,7 +3,7 @@
   "provider_id": "meta-crawler",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-10-07T04:19:58.541299",
+  "generated_at": "2026-10-08T04:31:58.496767",
   "source_updated_at": null,
   "source": [
     "RADB::AS-FACEBOOK",
@@ -13,7 +13,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS54115",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS63293"
   ],
-  "last_update": "2026-10-07T04:19:58.541299",
+  "last_update": "2026-10-08T04:31:58.496767",
   "ipv4": [
     "102.132.104.0/24",
     "102.132.112.0/24",
@@ -316,6 +316,7 @@
     "57.144.250.0/23",
     "57.144.252.0/23",
     "57.144.254.0/23",
+    "57.144.32.0/23",
     "57.144.36.0/23",
     "57.144.38.0/23",
     "57.144.4.0/23",
@@ -607,6 +608,7 @@
     "2a03:2880:f308::/48",
     "2a03:2880:f309::/48",
     "2a03:2880:f30a::/48",
+    "2a03:2880:f30e::/48",
     "2a03:2880:f30f::/48",
     "2a03:2880:f310::/48",
     "2a03:2880:f312::/48",
