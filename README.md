@@ -115,7 +115,7 @@ Some services deliberately do **not** publish IP allowlists. Their webhook and c
 
 These providers authenticate requests with an **HMAC signature header** instead: the sender signs the request body with a shared secret (configured in their dashboard) and sends the signature in a request header, e.g. `X-Twilio-Signature`, `X-Shopify-Hmac-Sha256`, `X-Slack-Signature`, or SendGrid's signed Event Webhook. You can filter incoming requests by this client request header: recompute `HMAC(secret, body)` on your endpoint and compare it with the header value. A valid signature proves both origin and payload integrity regardless of the source IP, so spoofed requests are rejected without any IP allowlist.
 
-Further reading: [HMAC (Wikipedia)](https://en.wikipedia.org/wiki/HMAC) - [RFC 2104](https://www.rfc-editor.org/rfc/rfc2104) (HMAC specification) - [RFC 9421](https://www.rfc-editor.org/rfc/rfc9421.html) (HTTP Message Signatures) - [Standard Webhooks specification](https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md)
+Further reading: [HMAC (Wikipedia)](https://en.wikipedia.org/wiki/HMAC) - [RFC 2104](https://www.rfc-editor.org/rfc/rfc2104) (HMAC specification) - [RFC 9421](https://www.rfc-editor.org/rfc/rfc9421.html) (HTTP Message Signatures) - [Standard Webhooks specification](https://github.com/standard-webhooks/standard-webhooks/blob/main/spec/standard-webhooks.md) - [webhooks.fyi webhook directory](https://webhooks.fyi/docs/webhook-directory) (catalog of per-provider signature headers and schemes)
 
 ## Notes
 
