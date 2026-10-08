@@ -11,11 +11,11 @@ which shows their assigned IP ranges.
 | Metric | Value |
 |--------|------:|
 | Providers tracked | **77** (76 cloud + 1 misc) |
-| Active IPv4 addresses | **360,032,075** (156,954 subnets) |
-| Active IPv6 /64 subnets | **18,018,139,242,636** (278,608 ranges) |
+| Active IPv4 addresses | **360,048,459** (157,018 subnets) |
+| Active IPv6 /64 subnets | **18,018,323,792,012** (278,616 ranges) |
 | Retired IPv4 (≤ 4 weeks) | 55,786,571 addresses (22,831 subnets) |
 | Retired IPv6 (≤ 4 weeks) | 765,169,110,487 /64s (9,890 ranges) |
-| Last crawled | 2026-10-08 19:46 UTC |
+| Last crawled | 2026-10-08 19:48 UTC |
 <!-- STATS_END -->
 
 ## Data sources
@@ -106,7 +106,7 @@ which shows their assigned IP ranges.
 
 | Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |
 |----------|--------|--------|---------:|----------:|--------------|------|-----|-----|
-| Starlink | [geoip.starlinkisp.net/feed.csv](https://geoip.starlinkisp.net/feed.csv) | Published List | 845,236 (3,480 subnets)<br>+29,440 retired | 16,122,970,196 (903 ranges)<br>+104,923,136 retired | 2026-10-07 | [JSON](misc/starlink.json) | [TXT](misc/starlink.txt) | [CSV](misc/starlink.csv) |
+| Starlink | [geoip.starlinkisp.net/feed.csv](https://geoip.starlinkisp.net/feed.csv) | Published List | 861,620 (3,544 subnets)<br>+29,440 retired | 16,307,519,572 (911 ranges)<br>+104,923,136 retired | 2026-10-08 | [JSON](misc/starlink.json) | [TXT](misc/starlink.txt) | [CSV](misc/starlink.csv) |
 <!-- SOURCES_TABLE_END -->
 
 ## Notes
