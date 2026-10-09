@@ -1,0 +1,47 @@
+{
+  "provider": "Clever Cloud",
+  "provider_id": "clever-cloud",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-10-09T04:35:00.168629",
+  "source_updated_at": null,
+  "source": [
+    "https://api.clever-cloud.com/v4/products/zones"
+  ],
+  "last_update": "2026-10-09T04:35:00.168629",
+  "ipv4": [
+    {
+      "address": "91.208.207.0/24",
+      "scope": "parhds"
+    },
+    {
+      "address": "185.133.116.0/22",
+      "scope": "parhds"
+    },
+    {
+      "address": "46.252.181.0/24",
+      "scope": "parhds"
+    },
+    {
+      "address": "185.42.117.0/24",
+      "scope": "parhds"
+    },
+    {
+      "address": "91.208.207.0/24",
+      "scope": "par"
+    },
+    {
+      "address": "185.133.116.0/22",
+      "scope": "par"
+    },
+    {
+      "address": "46.252.181.0/24",
+      "scope": "par"
+    },
+    {
+      "address": "185.42.117.0/24",
+      "scope": "par"
+    }
+  ],
+  "ipv6": []
+}

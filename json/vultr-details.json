@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-07T04:18:58.582484",
+  "generated_at": "2026-10-09T04:34:24.494137",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-10-07T04:18:58.582484",
+  "last_update": "2026-10-09T04:34:24.494137",
   "ipv4": [
     {
       "address": "43.224.32.0/22",
@@ -3469,6 +3469,13 @@
       "region": "US-IL",
       "city": "Chicago",
       "postal_code": "60616"
+    },
+    {
+      "address": "2001:19f0:4c00::/38",
+      "alpha2code": "US",
+      "region": "US-US-MO",
+      "city": "Kansas City",
+      "postal_code": "64161"
     }
   ]
 }

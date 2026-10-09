@@ -1,0 +1,55 @@
+{
+  "provider": "Updown",
+  "provider_id": "updown",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-10-09T04:34:48.072870",
+  "source_updated_at": null,
+  "source": [
+    "https://updown.io/api/nodes/ipv4",
+    "https://updown.io/api/nodes/ipv6"
+  ],
+  "last_update": "2026-10-09T04:34:48.072870",
+  "ipv4": [
+    "102.212.60.78/32",
+    "104.238.136.194/32",
+    "104.238.159.87/32",
+    "135.181.102.135/32",
+    "172.105.96.222/32",
+    "178.63.21.176/32",
+    "45.32.107.181/32",
+    "45.32.74.41/32",
+    "45.63.29.207/32",
+    "45.76.104.117/32",
+    "91.121.222.175/32"
+  ],
+  "ipv6": [
+    "2001:19f0:4400:402e::1/128",
+    "2001:19f0:5801:1d8::1/128",
+    "2001:19f0:6001:2c6::1/128",
+    "2001:19f0:6c01:145::1/128",
+    "2001:19f0:7001:45a::1/128",
+    "2001:19f0:9002:11a::1/128",
+    "2001:41d0:2:85af::1/128",
+    "2600:3c04:e001:37f::1/128",
+    "2a01:4f8:141:441a::2/128",
+    "2a01:4f9:c010:d5f9::1/128",
+    "2c0f:c40:4003:4::2/128"
+  ],
+  "source_http": [
+    {
+      "url": "https://updown.io/api/nodes/ipv4",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": "W/\"073c16dc9a35689ecb4e94fab29e8201\"",
+      "last_modified": null
+    },
+    {
+      "url": "https://updown.io/api/nodes/ipv6",
+      "status": 200,
+      "content_type": "application/json",
+      "etag": "W/\"dfae4ab55903e788b4269173d9f4411f\"",
+      "last_modified": null
+    }
+  ]
+}

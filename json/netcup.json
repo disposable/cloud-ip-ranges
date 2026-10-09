@@ -1,0 +1,52 @@
+{
+  "provider": "Netcup",
+  "provider_id": "netcup",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-09T04:44:56.399679",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS214996"
+  ],
+  "last_update": "2026-10-09T04:44:56.399679",
+  "ipv4": [
+    "152.53.164.0/22",
+    "152.53.168.0/22",
+    "152.53.192.0/22",
+    "152.53.201.0/24",
+    "152.53.208.0/20",
+    "152.53.208.0/22",
+    "152.53.212.0/24",
+    "152.53.240.0/22",
+    "152.53.31.0/24",
+    "152.53.36.0/22",
+    "152.53.52.0/22",
+    "152.53.68.0/24",
+    "152.53.80.0/22",
+    "152.53.88.0/22",
+    "159.195.107.0/24",
+    "159.195.12.0/22",
+    "159.195.16.0/22",
+    "159.195.232.0/22",
+    "159.195.236.0/22",
+    "159.195.91.0/24",
+    "159.195.92.0/22",
+    "62.83.48.0/24",
+    "62.83.60.0/22",
+    "62.83.64.0/22"
+  ],
+  "ipv6": [
+    "2a0a:4cc0:101::/48",
+    "2a0a:4cc0:120::/43",
+    "2a0a:4cc0:2000::/43"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS214996",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "provider": "Imperva",
+  "provider_id": "imperva",
+  "method": "published_list",
+  "coverage_notes": "",
+  "generated_at": "2026-10-09T04:34:52.179077",
+  "source_updated_at": null,
+  "source": [
+    "https://my.imperva.com/api/integration/v1/ips"
+  ],
+  "last_update": "2026-10-09T04:34:52.179077",
+  "ipv4": [
+    "103.28.248.0/22",
+    "107.154.0.0/16",
+    "131.125.128.0/17",
+    "149.126.72.0/21",
+    "185.11.124.0/22",
+    "192.230.64.0/18",
+    "198.143.32.0/19",
+    "199.83.128.0/21",
+    "45.223.0.0/16",
+    "45.60.0.0/16",
+    "45.64.64.0/22"
+  ],
+  "ipv6": [
+    "2a02:e980::/29"
+  ],
+  "source_http": [
+    {
+      "url": "https://my.imperva.com/api/integration/v1/ips",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}
