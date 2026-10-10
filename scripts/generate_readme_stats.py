@@ -2,9 +2,10 @@
 """
 Generate and update README.md statistics from DuckDB history and provider JSON files.
 
-Updates two sections between HTML comment markers:
-  <!-- STATS_START --> ... <!-- STATS_END -->
-  <!-- SOURCES_TABLE_START --> ... <!-- SOURCES_TABLE_END -->
+Updates three marker sections:
+  README.md   <!-- STATS_START --> ... <!-- STATS_END -->              (stats block)
+  README.md   <!-- SOURCES_TABLE_START --> ... <!-- SOURCES_TABLE_END --> (examples table)
+  SOURCES.md  <!-- SOURCES_TABLE_START --> ... <!-- SOURCES_TABLE_END --> (full table)
 """
 
 from __future__ import annotations
@@ -52,7 +53,8 @@ def source_display(sources: list[str]) -> str:
     - RADB AS-SET identifiers are kept as-is.
     - Regular URLs are rendered as markdown links with a shortened label.
     """
-    parts: list[str] = []
+    asn_parts: list[str] = []
+    link_parts: list[str] = []
     seen: set[str] = set()
 
     for s in sources:
@@ -60,21 +62,27 @@ def source_display(sources: list[str]) -> str:
         if m:
             key = m.group(1)
             if key not in seen:
-                parts.append(key)
+                asn_parts.append(key)
                 seen.add(key)
         elif s.startswith("RADB::"):
             if s not in seen:
-                parts.append(s)
+                asn_parts.append(s)
                 seen.add(s)
         else:
             # Regular URL — render as a markdown link with a short label
             label = _url_label(s)
             link = f"[{label}]({s})"
             if link not in seen:
-                parts.append(link)
+                link_parts.append(link)
                 seen.add(link)
 
-    return "<br>".join(parts)
+    # ASNs go on one space-separated line; URLs stay one per line via <br>
+    groups: list[str] = []
+    if asn_parts:
+        groups.append(" ".join(asn_parts))
+    if link_parts:
+        groups.append("<br>".join(link_parts))
+    return "<br>".join(groups)
 
 
 def _url_label(url: str) -> str:
@@ -239,11 +247,12 @@ def _provider_table_row(
     return f"| {pname} | {src_str} | {method_str} | {v4_str} | {v6_str} | {changed_str} | {json_link} | {txt_link} | {csv_link} |"
 
 
-def generate_sources_table(
+def _load_provider_rows(
     conn: duckdb.DuckDBPyConnection,
     json_dir: Path,
     misc_dir: Path,
-) -> str:
+) -> tuple[dict[str, dict], dict[str, list[str]]]:
+    """Load provider stats from DuckDB and full source lists from JSON files."""
     rows_by_id: dict[str, dict] = {}
 
     # Load metadata from DuckDB
@@ -304,12 +313,26 @@ def generate_sources_table(
             except Exception:
                 pass
 
+    return rows_by_id, provider_sources
+
+
+_TABLE_HEADER = "| Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |"
+_TABLE_SEPARATOR = "|----------|--------|--------|---------:|----------:|--------------|------|-----|-----|"
+
+
+def generate_sources_table(
+    conn: duckdb.DuckDBPyConnection,
+    json_dir: Path,
+    misc_dir: Path,
+) -> str:
+    rows_by_id, provider_sources = _load_provider_rows(conn, json_dir, misc_dir)
+
     # Split providers into cloud and misc
     normal_pids = [pid for pid in rows_by_id if not (misc_dir / f"{pid}.json").exists()]
     misc_pids = [pid for pid in rows_by_id if (misc_dir / f"{pid}.json").exists()]
 
-    header = "| Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |"
-    separator = "|----------|--------|--------|---------:|----------:|--------------|------|-----|-----|"
+    header = _TABLE_HEADER
+    separator = _TABLE_SEPARATOR
 
     parts: list[str] = []
 
@@ -334,6 +357,36 @@ def generate_sources_table(
     return "\n".join(parts)
 
 
+# A few recognizable providers shown in README.md; the full table lives in
+# SOURCES.md
+# provider_id format (dashes), as stored in provider_last_changed
+EXAMPLE_PROVIDERS = [
+    "aws",
+    "google-cloud",
+    "cloudflare",
+    "github",
+    "microsoft-azure",
+    "hetzner",
+    "starlink",
+]
+
+
+def generate_examples_table(
+    conn: duckdb.DuckDBPyConnection,
+    json_dir: Path,
+    misc_dir: Path,
+) -> str:
+    """Small provider subset table for README.md."""
+    rows_by_id, provider_sources = _load_provider_rows(conn, json_dir, misc_dir)
+
+    parts = [_TABLE_HEADER, _TABLE_SEPARATOR]
+    for pid in EXAMPLE_PROVIDERS:
+        if pid in rows_by_id:
+            parts.append(_provider_table_row(pid, rows_by_id[pid], provider_sources, misc_dir))
+
+    return "\n".join(parts) + "\n"
+
+
 # ---------------------------------------------------------------------------
 # README patching
 # ---------------------------------------------------------------------------
@@ -356,11 +409,25 @@ def replace_section(content: str, start_marker: str, end_marker: str, new_body: 
     return content
 
 
-def update_readme(readme_path: Path, stats_block: str, sources_table: str) -> None:
+def update_readme(readme_path: Path, stats_block: str, examples_table: str) -> None:
     content = readme_path.read_text()
     content = replace_section(content, STATS_START, STATS_END, stats_block)
-    content = replace_section(content, SOURCES_START, SOURCES_END, sources_table)
+    content = replace_section(content, SOURCES_START, SOURCES_END, examples_table)
     readme_path.write_text(content)
+
+
+def update_sources_md(sources_path: Path, sources_table: str) -> None:
+    if sources_path.exists():
+        content = sources_path.read_text()
+        content = replace_section(content, SOURCES_START, SOURCES_END, sources_table)
+        sources_path.write_text(content)
+    else:
+        sources_path.write_text(
+            "# Data sources\n\n"
+            "All providers tracked by this repository, their source feeds and output files.\n\n"
+            "This file is regenerated automatically on every crawler run - do not edit the table manually.\n\n"
+            f"{SOURCES_START}\n{sources_table}{SOURCES_END}\n"
+        )
 
 
 # ---------------------------------------------------------------------------
@@ -372,6 +439,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--db", default="meta/history.duckdb")
     parser.add_argument("--readme", default="README.md")
+    parser.add_argument("--sources-md", default="SOURCES.md")
     parser.add_argument("--json-dir", default="json")
     parser.add_argument("--misc-dir", default="misc")
     args = parser.parse_args()
@@ -384,11 +452,13 @@ def main() -> int:
     conn = duckdb.connect(str(db_path), read_only=True)
 
     stats_block = generate_stats_block(conn, Path(args.misc_dir))
+    examples_table = generate_examples_table(conn, Path(args.json_dir), Path(args.misc_dir))
     sources_table = generate_sources_table(conn, Path(args.json_dir), Path(args.misc_dir))
     conn.close()
 
-    update_readme(Path(args.readme), stats_block, sources_table)
-    print(f"README updated: {args.readme}", flush=True)
+    update_readme(Path(args.readme), stats_block, examples_table)
+    update_sources_md(Path(args.sources_md), sources_table)
+    print(f"README updated: {args.readme}; SOURCES updated: {args.sources_md}", flush=True)
     return 0
 
 

@@ -109,7 +109,7 @@ jobs:
     - name: Add and commit
       uses: EndBug/add-and-commit@v11
       with:
-        add: 'json txt csv README.md'
+        add: 'json txt csv README.md SOURCES.md'
 
         author_name: Auto Update Bot
         author_email: bot@github.com
@@ -212,7 +212,7 @@ jobs:
     - name: Add and commit misc providers
       uses: EndBug/add-and-commit@v11
       with:
-        add: 'misc README.md'
+        add: 'misc README.md SOURCES.md'
 
         author_name: Auto Update Bot
         author_email: bot@github.com
