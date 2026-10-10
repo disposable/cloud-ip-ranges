@@ -3,7 +3,7 @@
   "provider_id": "leaseweb",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-10-09T04:44:48.512222",
+  "generated_at": "2026-10-10T04:28:55.310348",
   "source_updated_at": null,
   "source": [
     "RADB::AS-LEASEWEB",
@@ -40,7 +40,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS396362",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS397408"
   ],
-  "last_update": "2026-10-09T04:44:48.512222",
+  "last_update": "2026-10-10T04:28:55.310348",
   "ipv4": [
     "103.101.128.0/22",
     "103.119.218.0/24",
@@ -877,7 +877,6 @@
     "193.58.110.0/24",
     "193.58.111.0/24",
     "193.8.127.0/24",
-    "193.8.138.0/24",
     "193.8.234.0/24",
     "193.8.56.0/24",
     "193.8.8.0/24",
@@ -1821,7 +1820,8 @@
     "95.211.0.0/16",
     "96.9.121.0/24",
     "96.9.210.0/24",
-    "96.9.228.0/23"
+    "96.9.228.0/23",
+    "193.8.138.0/24"
   ],
   "ipv6": [
     "2001:1af8:8000::/40",
@@ -2420,6 +2420,12 @@
       "content_type": "application/json; charset=utf-8",
       "etag": null,
       "last_modified": null
+    }
+  ],
+  "details_ipv4": [
+    {
+      "address": "193.8.138.0/24",
+      "retired_at": "2026-10-10T04:29:20.853773+00:00"
     }
   ]
 }
