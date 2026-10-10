@@ -371,20 +371,15 @@ EXAMPLE_PROVIDERS = [
 ]
 
 
-def generate_examples_table(
+def generate_examples_list(
     conn: duckdb.DuckDBPyConnection,
     json_dir: Path,
     misc_dir: Path,
 ) -> str:
-    """Small provider subset table for README.md."""
-    rows_by_id, provider_sources = _load_provider_rows(conn, json_dir, misc_dir)
-
-    parts = [_TABLE_HEADER, _TABLE_SEPARATOR]
-    for pid in EXAMPLE_PROVIDERS:
-        if pid in rows_by_id:
-            parts.append(_provider_table_row(pid, rows_by_id[pid], provider_sources, misc_dir))
-
-    return "\n".join(parts) + "\n"
+    """Small provider name list for README.md."""
+    rows_by_id, _provider_sources = _load_provider_rows(conn, json_dir, misc_dir)
+    names = [rows_by_id[pid]["provider_name"] for pid in EXAMPLE_PROVIDERS if pid in rows_by_id]
+    return "**" + "**, **".join(names) + "**\n"
 
 
 # ---------------------------------------------------------------------------
@@ -409,10 +404,10 @@ def replace_section(content: str, start_marker: str, end_marker: str, new_body: 
     return content
 
 
-def update_readme(readme_path: Path, stats_block: str, examples_table: str) -> None:
+def update_readme(readme_path: Path, stats_block: str, examples_list: str) -> None:
     content = readme_path.read_text()
     content = replace_section(content, STATS_START, STATS_END, stats_block)
-    content = replace_section(content, SOURCES_START, SOURCES_END, examples_table)
+    content = replace_section(content, SOURCES_START, SOURCES_END, examples_list)
     readme_path.write_text(content)
 
 
@@ -452,11 +447,11 @@ def main() -> int:
     conn = duckdb.connect(str(db_path), read_only=True)
 
     stats_block = generate_stats_block(conn, Path(args.misc_dir))
-    examples_table = generate_examples_table(conn, Path(args.json_dir), Path(args.misc_dir))
+    examples_list = generate_examples_list(conn, Path(args.json_dir), Path(args.misc_dir))
     sources_table = generate_sources_table(conn, Path(args.json_dir), Path(args.misc_dir))
     conn.close()
 
-    update_readme(Path(args.readme), stats_block, examples_table)
+    update_readme(Path(args.readme), stats_block, examples_list)
     update_sources_md(Path(args.sources_md), sources_table)
     print(f"README updated: {args.readme}; SOURCES updated: {args.sources_md}", flush=True)
     return 0
