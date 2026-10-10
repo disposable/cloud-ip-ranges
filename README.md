@@ -23,9 +23,6 @@ which shows their assigned IP ranges.
 All tracked providers, their source feeds and generated output files are listed in
 [SOURCES.md](SOURCES.md). A few examples:
 
-All tracked providers, their source feeds and generated output files are listed in
-[SOURCES.md](SOURCES.md). A few examples:
-
 <!-- SOURCES_TABLE_START -->
 | Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |
 |----------|--------|--------|---------:|----------:|--------------|------|-----|-----|
