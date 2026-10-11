@@ -11,11 +11,11 @@ which shows their assigned IP ranges.
 | Metric | Value |
 |--------|------:|
 | Providers tracked | **100** (99 cloud + 1 misc) |
-| Active IPv4 addresses | **366,528,327** (167,427 subnets) |
-| Active IPv6 /64 subnets | **23,260,144,949,866** (279,718 ranges) |
-| Retired IPv4 (≤ 4 weeks) | 55,792,780 addresses (22,857 subnets) |
-| Retired IPv6 (≤ 4 weeks) | 770,022,772,183 /64s (9,968 ranges) |
-| Last crawled | 2026-10-10 06:30 UTC |
+| Active IPv4 addresses | **366,493,511** (167,294 subnets) |
+| Active IPv6 /64 subnets | **23,248,312,949,354** (279,524 ranges) |
+| Retired IPv4 (≤ 4 weeks) | 55,831,948 addresses (23,005 subnets) |
+| Retired IPv6 (≤ 4 weeks) | 781,855,165,911 /64s (10,165 ranges) |
+| Last crawled | 2026-10-11 04:10 UTC |
 <!-- STATS_END -->
 
 ## Data sources
