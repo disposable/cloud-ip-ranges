@@ -3,12 +3,12 @@
   "provider_id": "atlassian",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-09T04:34:44.885337",
-  "source_updated_at": "2026-10-09T00:06:06.601554",
+  "generated_at": "2026-10-13T05:29:34.616212",
+  "source_updated_at": "2026-10-12T05:24:05.986286",
   "source": [
     "https://ip-ranges.atlassian.com/"
   ],
-  "last_update": "2026-10-09T04:34:44.885337",
+  "last_update": "2026-10-13T05:29:34.616212",
   "ipv4": [
     "104.192.136.0/21",
     "104.192.136.0/24",
@@ -36,6 +36,10 @@
     "13.236.8.224/28",
     "13.35.248.0/24",
     "13.52.5.96/28",
+    "131.162.88.0/21",
+    "131.162.88.0/23",
+    "131.162.90.0/23",
+    "131.162.90.20/30",
     "16.63.53.128/25",
     "16.63.53.224/28",
     "16.63.53.240/28",
@@ -275,8 +279,8 @@
       "url": "https://ip-ranges.atlassian.com/",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"574f8a693bf3586180a7b0f3cb800247\"",
-      "last_modified": "Fri, 09 Oct 2026 00:08:08 GMT"
+      "etag": "\"8ceac9973a63b718ffb719ea66e6b01e\"",
+      "last_modified": "Mon, 12 Oct 2026 05:29:51 GMT"
     }
   ],
   "details_ipv4": [

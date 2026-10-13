@@ -3,13 +3,13 @@
   "provider_id": "checkly",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-09T04:34:47.523220",
+  "generated_at": "2026-10-13T05:29:38.819391",
   "source_updated_at": null,
   "source": [
     "https://api.checklyhq.com/v1/static-ips",
     "https://api.checklyhq.com/v1/static-ipv6s"
   ],
-  "last_update": "2026-10-09T04:34:47.523220",
+  "last_update": "2026-10-13T05:29:38.819391",
   "ipv4": [
     "122.248.238.187/32",
     "13.113.60.181/32",
@@ -36,6 +36,7 @@
     "13.52.93.107/32",
     "13.54.45.181/32",
     "13.55.213.62/32",
+    "142.91.16.76/32",
     "15.152.103.65/32",
     "15.152.125.107/32",
     "15.156.126.181/32",
@@ -86,6 +87,7 @@
     "209.50.250.200/32",
     "23.106.239.101/32",
     "23.106.239.174/32",
+    "23.19.10.201/32",
     "23.19.45.129/32",
     "23.19.59.129/32",
     "23.19.66.245/32",
@@ -188,6 +190,8 @@
     "2607:f5b4:1:12:c::/112",
     "2607:f5b4:1:12:d::/112",
     "2607:f5b4:1:1c:2::/112",
+    "2607:f5b4:2:10:2::/112",
+    "2607:f5b4:2:11:1::/112",
     "2607:f5b7:1:135:5::/112",
     "2607:f5b7:3:e:1::/112",
     "2607:f5b7:3:e:2::/112",
@@ -210,15 +214,15 @@
       "url": "https://api.checklyhq.com/v1/static-ips",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "etag": "\"104057bf309ddb3168ab639ec1e1cccc36477604-gzip\"",
-      "last_modified": "Thu, 08 Oct 2026 18:34:08 GMT"
+      "etag": "\"f3a6cb8b165522936823ff70a4ed59ec4e52790c-gzip\"",
+      "last_modified": "Mon, 12 Oct 2026 18:04:26 GMT"
     },
     {
       "url": "https://api.checklyhq.com/v1/static-ipv6s",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "etag": "W/\"646bae9cd61b5ee42e7c1151128acc6e85968289\"",
-      "last_modified": "Thu, 08 Oct 2026 18:34:08 GMT"
+      "etag": "W/\"7366fb2d91bc0b0280df3cf304eb9969f9fe19a3\"",
+      "last_modified": "Mon, 12 Oct 2026 18:04:26 GMT"
     }
   ]
 }
