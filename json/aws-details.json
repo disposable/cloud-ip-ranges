@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-13T05:29:09.952363",
-  "source_updated_at": "2026-10-13-03-17-06",
+  "generated_at": "2026-10-14T03:32:12.605891",
+  "source_updated_at": "2026-10-14-00-17-06",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-10-13-03-17-06",
+  "last_update": "2026-10-14-00-17-06",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -104336,6 +104336,12 @@
     },
     {
       "address": "2600:9000:5200::/40",
+      "service": "CLOUDFRONT_ORIGIN_FACING",
+      "region": "GLOBAL",
+      "network_border_group": "GLOBAL"
+    },
+    {
+      "address": "2001:3fc6:3c::/47",
       "service": "CLOUDFRONT_ORIGIN_FACING",
       "region": "GLOBAL",
       "network_border_group": "GLOBAL"

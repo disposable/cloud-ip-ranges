@@ -3,12 +3,12 @@
   "provider_id": "namecheap",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-10-09T04:44:57.046935",
+  "generated_at": "2026-10-14T03:42:56.854961",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS22612"
   ],
-  "last_update": "2026-10-09T04:44:57.046935",
+  "last_update": "2026-10-14T03:42:56.854961",
   "ipv4": [
     "104.207.64.0/24",
     "104.207.65.0/24",
@@ -254,7 +254,6 @@
     "203.161.62.0/24",
     "203.161.63.0/24",
     "209.188.18.128/25",
-    "209.188.2.192/26",
     "209.188.21.0/24",
     "209.188.31.0/26",
     "209.188.7.128/25",
@@ -351,7 +350,8 @@
     "69.57.160.0/24",
     "69.57.161.0/24",
     "69.57.162.0/24",
-    "69.57.163.0/24"
+    "69.57.163.0/24",
+    "209.188.2.192/26"
   ],
   "ipv6": [
     "2606:5b80:2156::/48",
@@ -368,6 +368,12 @@
       "content_type": "application/json; charset=utf-8",
       "etag": null,
       "last_modified": null
+    }
+  ],
+  "details_ipv4": [
+    {
+      "address": "209.188.2.192/26",
+      "retired_at": "2026-10-14T03:43:13.758775+00:00"
     }
   ]
 }
