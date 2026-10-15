@@ -15,7 +15,7 @@ which shows their assigned IP ranges.
 | Active IPv6 /64 subnets | **23,255,825,013,362** (279,459 ranges) |
 | Retired IPv4 (≤ 4 weeks) | 55,858,683 addresses (23,379 subnets) |
 | Retired IPv6 (≤ 4 weeks) | 800,243,125,719 /64s (10,341 ranges) |
-| Last crawled | 2026-10-15 03:21 UTC |
+| Last crawled | 2026-10-15 03:23 UTC |
 <!-- STATS_END -->
 
 ## Data sources
