@@ -3,12 +3,12 @@
   "provider_id": "vultr",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-09T04:34:24.494137",
+  "generated_at": "2026-10-16T03:07:56.660639",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-10-09T04:34:24.494137",
+  "last_update": "2026-10-16T03:07:56.660639",
   "ipv4": [
     "103.43.72.0/22",
     "104.156.224.0/22",
@@ -526,12 +526,12 @@
     "2a05:f487:fc14::/48",
     "2a05:f487:fc0a::/48",
     "2a05:f487:fc11::/48",
-    "2a05:f487:fc03::/48",
-    "2a05:f487:fc06::/48",
+    "2a05:f487:fc12::/48",
     "2a05:f487:fc34::/48",
+    "2a05:f487:fc03::/48",
     "2a05:f487:fc04::/48",
-    "2a05:f487:fc02::/48",
-    "2a05:f487:fc12::/48"
+    "2a05:f487:fc06::/48",
+    "2a05:f487:fc02::/48"
   ],
   "details_ipv4": [
     {
@@ -1237,14 +1237,14 @@
     {
       "address": "64.176.160.0/20",
       "alpha2code": "IL",
-      "region": "IL-Tel Aviv",
+      "region": "IL-TA",
       "city": "Rosh HaAyin",
       "postal_code": "4809139"
     },
     {
       "address": "64.176.176.0/20",
       "alpha2code": "GB",
-      "region": "GB-GB-MAN",
+      "region": "GB-MAN",
       "city": "Swinton, Manchester",
       "postal_code": "M27 8BX"
     },
@@ -1265,7 +1265,7 @@
     {
       "address": "64.177.0.0/21",
       "alpha2code": "US",
-      "region": "US-US-MN",
+      "region": "US-MN",
       "city": "Eagan",
       "postal_code": "55123"
     },
@@ -1279,7 +1279,7 @@
     {
       "address": "64.177.16.0/20",
       "alpha2code": "US",
-      "region": "US-US-MO",
+      "region": "US-MO",
       "city": "Kansas City",
       "postal_code": "64161"
     },
@@ -1307,7 +1307,7 @@
     {
       "address": "64.177.64.0/20",
       "alpha2code": "IL",
-      "region": "IL-Tel Aviv",
+      "region": "IL-TA",
       "city": "Rosh HaAyin",
       "postal_code": "4809139"
     },
@@ -1419,14 +1419,14 @@
     {
       "address": "66.245.192.0/21",
       "alpha2code": "GB",
-      "region": "GB-GB-MAN",
+      "region": "GB-MAN",
       "city": "Swinton, Manchester",
       "postal_code": "M27 8BX"
     },
     {
       "address": "66.245.200.0/21",
       "alpha2code": "IT",
-      "region": "IT-IT-MI",
+      "region": "IT-MI",
       "city": "Milan",
       "postal_code": "20144"
     },
@@ -1440,7 +1440,7 @@
     {
       "address": "66.245.212.0/22",
       "alpha2code": "IT",
-      "region": "IT-IT-MI",
+      "region": "IT-MI",
       "city": "Milan",
       "postal_code": "20144"
     },
@@ -2702,7 +2702,7 @@
       "alpha2code": "CA",
       "region": "CA-ON",
       "city": "Toronto, ON",
-      "postal_code": "M5A 2&5"
+      "postal_code": "M5A 0G7"
     },
     {
       "address": "137.220.56.0/21",
@@ -3017,14 +3017,14 @@
       "alpha2code": "CA",
       "region": "CA-ON",
       "city": "Toronto, ON",
-      "postal_code": "M5A 2&5"
+      "postal_code": "M5A 0G7"
     },
     {
       "address": "155.138.128.0/19",
       "alpha2code": "CA",
       "region": "CA-ON",
       "city": "Toronto, ON",
-      "postal_code": "M5A 2&5"
+      "postal_code": "M5A 0G7"
     },
     {
       "address": "155.138.160.0/20",
@@ -3605,7 +3605,7 @@
       "alpha2code": "CA",
       "region": "CA-ON",
       "city": "Toronto, ON",
-      "postal_code": "M5A 2&5"
+      "postal_code": "M5A 0G7"
     },
     {
       "address": "216.155.128.0/19",
@@ -3741,7 +3741,7 @@
       "alpha2code": "CA",
       "region": "CA-ON",
       "city": "Toronto, ON",
-      "postal_code": "M5A 2&5"
+      "postal_code": "M5A 0G7"
     },
     {
       "address": "2001:19f0::/38",
@@ -3935,14 +3935,14 @@
     {
       "address": "2a05:f480:2c00::/38",
       "alpha2code": "IL",
-      "region": "IL-Tel Aviv",
+      "region": "IL-TA",
       "city": "Rosh HaAyin",
       "postal_code": "4809139"
     },
     {
       "address": "2a05:f480:3400::/38",
       "alpha2code": "GB",
-      "region": "GB-GB-MAN",
+      "region": "GB-MAN",
       "city": "Swinton, Manchester",
       "postal_code": "M27 8BX"
     },
@@ -3970,7 +3970,7 @@
     {
       "address": "2a05:f480:3800::/38",
       "alpha2code": "IT",
-      "region": "IT-IT-MI",
+      "region": "IT-MI",
       "city": "Milan",
       "postal_code": "20144"
     },
@@ -3991,7 +3991,7 @@
     {
       "address": "2001:19f0:4800::/38",
       "alpha2code": "US",
-      "region": "US-US-MN",
+      "region": "US-MN",
       "city": "Eagan",
       "postal_code": "55123"
     },
@@ -4005,7 +4005,7 @@
     {
       "address": "2001:19f0:4c00::/38",
       "alpha2code": "US",
-      "region": "US-US-MO",
+      "region": "US-MO",
       "city": "Kansas City",
       "postal_code": "64161"
     },
@@ -4078,11 +4078,7 @@
       "retired_at": "2026-09-30T04:09:51.610642+00:00"
     },
     {
-      "address": "2a05:f487:fc03::/48",
-      "retired_at": "2026-09-30T04:09:51.610642+00:00"
-    },
-    {
-      "address": "2a05:f487:fc06::/48",
+      "address": "2a05:f487:fc12::/48",
       "retired_at": "2026-09-30T04:09:51.610642+00:00"
     },
     {
@@ -4090,15 +4086,19 @@
       "retired_at": "2026-09-30T04:09:51.610642+00:00"
     },
     {
+      "address": "2a05:f487:fc03::/48",
+      "retired_at": "2026-09-30T04:09:51.610642+00:00"
+    },
+    {
       "address": "2a05:f487:fc04::/48",
       "retired_at": "2026-09-30T04:09:51.610642+00:00"
     },
     {
-      "address": "2a05:f487:fc02::/48",
+      "address": "2a05:f487:fc06::/48",
       "retired_at": "2026-09-30T04:09:51.610642+00:00"
     },
     {
-      "address": "2a05:f487:fc12::/48",
+      "address": "2a05:f487:fc02::/48",
       "retired_at": "2026-09-30T04:09:51.610642+00:00"
     }
   ],
