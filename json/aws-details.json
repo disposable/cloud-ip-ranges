@@ -3,12 +3,12 @@
   "provider_id": "aws",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-16T03:07:51.820602",
-  "source_updated_at": "2026-10-16-00-27-05",
+  "generated_at": "2026-10-17T02:59:38.294338",
+  "source_updated_at": "2026-10-16-23-07-06",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-10-16-00-27-05",
+  "last_update": "2026-10-16-23-07-06",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -7743,6 +7743,12 @@
       "service": "AMAZON",
       "region": "eu-south-2",
       "network_border_group": "eu-south-2"
+    },
+    {
+      "address": "191.166.0.0/16",
+      "service": "AMAZON",
+      "region": "mx-central-1",
+      "network_border_group": "mx-central-1"
     },
     {
       "address": "3.4.1.0/24",
@@ -32723,6 +32729,12 @@
       "network_border_group": "cn-north-1"
     },
     {
+      "address": "71.137.18.0/23",
+      "service": "AMAZON",
+      "region": "cn-north-1",
+      "network_border_group": "cn-north-1"
+    },
+    {
       "address": "161.189.66.128/26",
       "service": "AMAZON",
       "region": "cn-northwest-1",
@@ -32742,6 +32754,18 @@
     },
     {
       "address": "43.192.160.0/22",
+      "service": "AMAZON",
+      "region": "cn-northwest-1",
+      "network_border_group": "cn-northwest-1"
+    },
+    {
+      "address": "43.192.198.0/23",
+      "service": "AMAZON",
+      "region": "cn-northwest-1",
+      "network_border_group": "cn-northwest-1"
+    },
+    {
+      "address": "43.192.200.0/23",
       "service": "AMAZON",
       "region": "cn-northwest-1",
       "network_border_group": "cn-northwest-1"
@@ -35243,6 +35267,12 @@
       "network_border_group": "me-west-1"
     },
     {
+      "address": "51.168.206.0/23",
+      "service": "AMAZON",
+      "region": "me-west-1",
+      "network_border_group": "me-west-1"
+    },
+    {
       "address": "78.12.58.0/24",
       "service": "AMAZON",
       "region": "mx-central-1",
@@ -36288,6 +36318,12 @@
     },
     {
       "address": "44.254.14.0/23",
+      "service": "AMAZON",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "44.254.6.0/23",
       "service": "AMAZON",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
