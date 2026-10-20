@@ -113,5 +113,5 @@ This file is regenerated automatically on every crawler run - do not edit the ta
 
 | Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |
 |----------|--------|--------|---------:|----------:|--------------|------|-----|-----|
-| Starlink | [geoip.starlinkisp.net/feed.csv](https://geoip.starlinkisp.net/feed.csv) | Published List | 862,388 (3,547 subnets)<br>+29,440 retired | 16,324,296,788 (912 ranges)<br>+104,923,136 retired | 2026-10-16 | [JSON](misc/starlink.json) | [TXT](misc/starlink.txt) | [CSV](misc/starlink.csv) |
+| Starlink | [geoip.starlinkisp.net/feed.csv](https://geoip.starlinkisp.net/feed.csv) | Published List | 880,564 (3,618 subnets)<br>+29,440 retired | 16,324,296,788 (912 ranges)<br>+104,923,136 retired | 2026-10-20 | [JSON](misc/starlink.json) | [TXT](misc/starlink.txt) | [CSV](misc/starlink.csv) |
 <!-- SOURCES_TABLE_END -->
