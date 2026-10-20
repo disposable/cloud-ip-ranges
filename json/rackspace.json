@@ -3,7 +3,7 @@
   "provider_id": "rackspace",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-10-13T05:35:18.162747",
+  "generated_at": "2026-10-20T03:28:17.110548",
   "source_updated_at": null,
   "source": [
     "RADB::AS-RACKSPACE",
@@ -90,7 +90,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS400528",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS401205"
   ],
-  "last_update": "2026-10-13T05:35:18.162747",
+  "last_update": "2026-10-20T03:28:17.110548",
   "ipv4": [
     "103.251.196.0/23",
     "103.254.44.0/22",
@@ -885,6 +885,7 @@
     "2620:104:4002::/48",
     "2620:104:4004::/48",
     "2620:104:4005::/48",
+    "2620:104:4006::/48",
     "2620:104:4008::/48",
     "2620:104:400c::/48",
     "2620:104:400e::/48",
