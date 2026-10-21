@@ -3,12 +3,12 @@
   "provider_id": "github",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-07T19:05:27.210431",
+  "generated_at": "2026-10-21T03:19:00.941778",
   "source_updated_at": null,
   "source": [
     "https://api.github.com/meta"
   ],
-  "last_update": "2026-10-07T19:05:27.210431",
+  "last_update": "2026-10-21T03:19:00.941778",
   "ipv4": [
     "140.82.112.0/20",
     "143.55.64.0/20",
@@ -29,6 +29,7 @@
     "20.217.135.5/32",
     "20.233.83.145/32",
     "20.233.83.148/32",
+    "20.250.119.67/32",
     "20.26.156.213/32",
     "20.26.156.215/32",
     "20.27.177.113/32",
@@ -202,6 +203,10 @@
       "category": "web"
     },
     {
+      "address": "20.250.119.67/32",
+      "category": "web"
+    },
+    {
       "address": "4.208.26.197/32",
       "category": "web"
     },
@@ -261,7 +266,7 @@
       "url": "https://api.github.com/meta",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "etag": "W/\"a09a88687f713bf628109f9a6002dc6ee787e2c77930fc5eabafed2b8793c516\"",
+      "etag": "W/\"f4bbb676de1626d358060f6ca537085bbafeb69b3a595f1a1d805e3e6fbd9a3f\"",
       "last_modified": null
     }
   ]
