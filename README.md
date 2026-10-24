@@ -27,6 +27,12 @@ All tracked providers, their source feeds and generated output files are listed 
 **Aws**, **Google Cloud**, **Cloudflare**, **Github**, **Microsoft Azure**, **Hetzner**, **Starlink**
 <!-- SOURCES_TABLE_END -->
 
+### Community sources
+
+VPN providers that do not publish a usable server list (e.g. ProtonVPN, ExpressVPN, CyberGhost, IPVanish) are sourced from [qdm12/gluetun-servers](https://github.com/qdm12/gluetun-servers), the maintained server-list backend of the [Gluetun](https://github.com/qdm12/gluetun) VPN client project. Big thanks to the Gluetun community for publishing fresh server IPs.
+
+These providers carry `"category": "proxy"` in their JSON metadata.
+
 ### Providers without published IP ranges
 
 Some services deliberately do **not** publish IP allowlists. Their webhook and callback traffic egresses from dynamic cloud infrastructure whose addresses rotate without notice, so any collected list would silently go stale and break consumers. Providers such as **SendGrid, Mailgun, Twilio, Shopify, and Slack** are therefore intentionally absent from this dataset.
