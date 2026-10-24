@@ -1,11 +1,12 @@
 {
   "provider": "All Providers",
-  "generated_at": "2026-10-24T14:09:03.077451",
+  "generated_at": "2026-10-24T16:18:10.735112",
   "provider_count": 2,
   "providers": [
     {
       "provider": "Cloudflare Warp",
       "provider_id": "cloudflare-warp",
+      "category": "misc",
       "method": "published_list",
       "source": [
         "https://api.cloudflare.com/local-ip-ranges.csv"
@@ -17,6 +18,7 @@
     {
       "provider": "Starlink",
       "provider_id": "starlink",
+      "category": "misc",
       "method": "published_list",
       "source": [
         "https://geoip.starlinkisp.net/feed.csv"

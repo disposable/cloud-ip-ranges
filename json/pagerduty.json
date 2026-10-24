@@ -1,6 +1,7 @@
 {
   "provider": "Pagerduty",
   "provider_id": "pagerduty",
+  "category": "cloud",
   "method": "published_list",
   "coverage_notes": "PagerDuty webhook IPs ONLY (US and EU service regions). Incoming webhooks FROM PagerDuty TO customer systems. REST API and Event API IPs are NOT included. PagerDuty recommends TLS/signature verification over IP safelisting.",
   "generated_at": "2026-04-01T02:28:15.872364",

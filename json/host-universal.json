@@ -1,14 +1,15 @@
 {
   "provider": "Host Universal",
   "provider_id": "host-universal",
+  "category": "proxy",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-10-24T14:54:04.872086",
+  "generated_at": "2026-10-24T16:17:40.823662",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136557"
   ],
-  "last_update": "2026-10-24T14:54:04.872086",
+  "last_update": "2026-10-24T16:17:40.823662",
   "ipv4": [
     "103.108.229.0/24",
     "103.108.230.0/24",

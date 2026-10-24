@@ -1,14 +1,15 @@
 {
   "provider": "Stormycloud",
   "provider_id": "stormycloud",
+  "category": "proxy",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-10-24T14:54:00.628118",
+  "generated_at": "2026-10-24T16:17:40.621815",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS400226"
   ],
-  "last_update": "2026-10-24T14:54:00.628118",
+  "last_update": "2026-10-24T16:17:40.621815",
   "ipv4": [
     "204.197.171.0/24",
     "23.128.248.0/24"
