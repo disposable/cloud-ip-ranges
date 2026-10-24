@@ -1,0 +1,43 @@
+{
+  "provider": "Serversp",
+  "provider_id": "serversp",
+  "category": "cloud",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T16:55:28.461066",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS214456"
+  ],
+  "last_update": "2026-10-24T16:55:28.461066",
+  "ipv4": [
+    "103.230.142.0/24",
+    "136.148.72.0/24",
+    "153.76.114.0/24",
+    "178.83.9.0/24",
+    "178.93.170.0/24",
+    "212.189.117.0/24",
+    "216.97.225.0/24",
+    "217.60.174.0/24",
+    "217.60.175.0/24",
+    "81.31.213.0/24",
+    "95.135.245.0/24"
+  ],
+  "ipv6": [
+    "2a14:7581:300::/48",
+    "2a14:7581:302::/48",
+    "2a14:7581:c00::/48",
+    "2a14:7581:c01::/48",
+    "2a14:7581:c08::/48",
+    "2a14:ae00:105::/48"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS214456",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

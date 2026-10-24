@@ -1,0 +1,45 @@
+{
+  "provider": "Fibergrid",
+  "provider_id": "fibergrid",
+  "category": "cloud",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T16:55:27.583766",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS37518"
+  ],
+  "last_update": "2026-10-24T16:55:27.583766",
+  "ipv4": [
+    "165.231.0.0/16",
+    "165.231.188.0/24",
+    "196.196.0.0/16",
+    "196.196.3.0/24",
+    "196.197.0.0/16",
+    "196.197.28.0/24",
+    "196.198.0.0/16",
+    "196.199.0.0/16",
+    "196.240.0.0/15",
+    "196.240.122.0/24",
+    "196.240.129.0/24",
+    "196.242.0.0/15",
+    "196.244.0.0/16",
+    "196.245.0.0/16",
+    "196.247.0.0/16",
+    "196.48.0.0/16",
+    "196.56.0.0/16",
+    "196.57.0.0/16",
+    "196.58.0.0/16",
+    "196.59.0.0/16"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS37518",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

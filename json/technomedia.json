@@ -1,0 +1,27 @@
+{
+  "provider": "Technomedia",
+  "provider_id": "technomedia",
+  "category": "cloud",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T16:55:28.348828",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS197607"
+  ],
+  "last_update": "2026-10-24T16:55:28.348828",
+  "ipv4": [
+    "94.137.70.0/23",
+    "94.137.92.0/24"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS197607",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

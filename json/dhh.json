@@ -1,0 +1,51 @@
+{
+  "provider": "Dhh",
+  "provider_id": "dhh",
+  "category": "cloud",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T16:55:28.598467",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS12417"
+  ],
+  "last_update": "2026-10-24T16:55:28.598467",
+  "ipv4": [
+    "178.218.160.0/20",
+    "178.218.160.0/24",
+    "178.218.161.0/24",
+    "178.218.162.0/24",
+    "178.218.163.0/24",
+    "178.218.164.0/24",
+    "178.218.165.0/24",
+    "178.218.166.0/24",
+    "178.218.167.0/24",
+    "178.218.168.0/24",
+    "178.218.170.0/24",
+    "178.218.171.0/24",
+    "178.218.172.0/24",
+    "178.218.173.0/24",
+    "178.218.174.0/24",
+    "185.220.24.0/22",
+    "185.220.24.0/24",
+    "185.220.25.0/24",
+    "185.220.26.0/24",
+    "185.220.27.0/24",
+    "212.44.127.0/24",
+    "46.174.136.0/24",
+    "46.174.137.0/24",
+    "91.234.46.0/24"
+  ],
+  "ipv6": [
+    "2a0b:ee41::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS12417",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

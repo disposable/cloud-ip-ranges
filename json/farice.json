@@ -1,0 +1,30 @@
+{
+  "provider": "Farice",
+  "provider_id": "farice",
+  "category": "cloud",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T16:55:27.715705",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS56704"
+  ],
+  "last_update": "2026-10-24T16:55:27.715705",
+  "ipv4": [
+    "185.154.116.0/22",
+    "185.159.158.0/24",
+    "31.15.112.0/21"
+  ],
+  "ipv6": [
+    "2a03:eb80::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS56704",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

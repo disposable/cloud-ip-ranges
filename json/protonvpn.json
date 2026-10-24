@@ -1,0 +1,53 @@
+{
+  "provider": "Protonvpn",
+  "provider_id": "protonvpn",
+  "category": "proxy",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T16:55:25.862717",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS199218",
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS209103"
+  ],
+  "last_update": "2026-10-24T16:55:25.862717",
+  "ipv4": [
+    "103.69.224.0/24",
+    "104.234.212.0/24",
+    "151.243.141.0/24",
+    "155.117.189.0/24",
+    "163.5.171.0/24",
+    "181.214.131.0/24",
+    "185.159.157.0/24",
+    "185.159.159.0/24",
+    "194.126.177.0/24",
+    "62.169.136.0/24",
+    "62.169.137.0/24",
+    "79.135.104.0/24",
+    "83.229.23.0/24",
+    "93.88.156.0/24",
+    "94.190.195.0/24"
+  ],
+  "ipv6": [
+    "2a07:b941:e10::/44",
+    "2a07:b941:e40::/44",
+    "2a07:b941:f00::/44",
+    "2a07:b941:f10::/44"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS199218",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    },
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS209103",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

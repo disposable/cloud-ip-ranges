@@ -1,0 +1,50 @@
+{
+  "provider": "Hostinginside",
+  "provider_id": "hostinginside",
+  "category": "cloud",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T16:55:27.900416",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9678"
+  ],
+  "last_update": "2026-10-24T16:55:27.900416",
+  "ipv4": [
+    "103.131.189.0/24",
+    "103.150.36.0/24",
+    "103.150.37.0/24",
+    "103.152.150.0/24",
+    "103.152.151.0/24",
+    "103.37.4.0/24",
+    "103.37.5.0/24",
+    "103.98.73.0/24",
+    "103.98.74.0/24",
+    "103.98.75.0/24",
+    "2.58.240.0/24",
+    "2.58.241.0/24",
+    "2.58.242.0/24",
+    "2.58.243.0/24",
+    "203.66.151.0/24",
+    "223.26.0.0/24",
+    "223.26.1.0/24",
+    "45.123.117.0/24",
+    "74.214.160.0/24",
+    "74.214.161.0/24"
+  ],
+  "ipv6": [
+    "2401:95c0::/36",
+    "2401:95c0:ff00::/48",
+    "2401:95c0:ff01::/48",
+    "2403:cfc0:1004::/48"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS9678",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}
