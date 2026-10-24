@@ -1,6 +1,6 @@
 {
   "provider": "All Providers",
-  "generated_at": "2026-10-23T03:28:05.662110",
+  "generated_at": "2026-10-24T03:27:42.338901",
   "provider_count": 1,
   "providers": [
     {
@@ -10,7 +10,7 @@
       "source": [
         "https://geoip.starlinkisp.net/feed.csv"
       ],
-      "last_update": "2026-10-23T03:28:05.554923",
+      "last_update": "2026-10-24T03:27:42.238783",
       "ipv4_count": 3618,
       "ipv6_count": 912
     }
@@ -2421,9 +2421,6 @@
     "143.105.4.128/25": [
       "starlink"
     ],
-    "143.105.5.0/25": [
-      "starlink"
-    ],
     "153.67.226.0/25": [
       "starlink"
     ],
@@ -2434,6 +2431,9 @@
       "starlink"
     ],
     "153.67.226.128/25": [
+      "starlink"
+    ],
+    "143.105.5.0/25": [
       "starlink"
     ],
     "143.105.5.128/25": [
