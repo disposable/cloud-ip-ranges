@@ -1,0 +1,34 @@
+{
+  "provider": "Driftnet",
+  "provider_id": "driftnet",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:38:00.701093",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS211298"
+  ],
+  "last_update": "2026-10-24T15:38:00.701093",
+  "ipv4": [
+    "185.247.137.0/24",
+    "193.163.125.0/24",
+    "195.96.139.0/24",
+    "87.236.176.0/24"
+  ],
+  "ipv6": [
+    "2a06:4880::/32",
+    "2a06:4881::/32",
+    "2a06:4882::/32",
+    "2a06:4883::/32",
+    "2a06:4884::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS211298",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

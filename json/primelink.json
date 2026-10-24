@@ -1,0 +1,29 @@
+{
+  "provider": "Primelink",
+  "provider_id": "primelink",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:38:02.928890",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS15320"
+  ],
+  "last_update": "2026-10-24T15:38:02.928890",
+  "ipv4": [
+    "136.223.177.0/24",
+    "173.242.96.0/20",
+    "216.130.224.0/20",
+    "216.238.168.0/23",
+    "216.27.112.0/20"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS15320",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

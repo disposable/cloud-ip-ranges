@@ -1,0 +1,38 @@
+{
+  "provider": "Spitfire",
+  "provider_id": "spitfire",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:38:01.066508",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS16082"
+  ],
+  "last_update": "2026-10-24T15:38:01.066508",
+  "ipv4": [
+    "109.238.64.0/20",
+    "185.15.104.0/22",
+    "193.36.128.0/22",
+    "212.237.64.0/19",
+    "217.13.128.0/19",
+    "31.24.0.0/21",
+    "37.77.176.0/21",
+    "62.133.0.0/19",
+    "83.218.128.0/19",
+    "87.117.112.0/21",
+    "87.117.72.0/21",
+    "87.224.0.0/17"
+  ],
+  "ipv6": [
+    "2a02:b90::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS16082",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

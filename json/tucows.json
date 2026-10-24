@@ -1,0 +1,36 @@
+{
+  "provider": "Tucows",
+  "provider_id": "tucows",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:37:55.106501",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS15348"
+  ],
+  "last_update": "2026-10-24T15:37:55.106501",
+  "ipv4": [
+    "216.40.32.0/20",
+    "216.40.32.0/24",
+    "216.40.34.0/24",
+    "216.40.47.0/24",
+    "64.99.0.0/16",
+    "64.99.62.0/24",
+    "64.99.63.0/24",
+    "64.99.80.0/24",
+    "64.99.96.0/24",
+    "64.99.97.0/24"
+  ],
+  "ipv6": [
+    "2604:4000::/48"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS15348",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

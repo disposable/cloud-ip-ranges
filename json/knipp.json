@@ -1,0 +1,41 @@
+{
+  "provider": "Knipp",
+  "provider_id": "knipp",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:37:53.546095",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS8391"
+  ],
+  "last_update": "2026-10-24T15:37:53.546095",
+  "ipv4": [
+    "195.138.32.0/22",
+    "195.138.38.0/24",
+    "195.138.54.0/24",
+    "195.138.58.0/24",
+    "195.138.61.0/24",
+    "195.138.62.0/24",
+    "195.253.0.0/21",
+    "195.253.128.0/18",
+    "195.253.128.0/22",
+    "195.253.20.0/24",
+    "195.253.22.0/23",
+    "195.253.31.0/24",
+    "195.253.32.0/19",
+    "195.253.64.0/18"
+  ],
+  "ipv6": [
+    "2a01:5b0:40::/46",
+    "2a01:5b0::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS8391",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

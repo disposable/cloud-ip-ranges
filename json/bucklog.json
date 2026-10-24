@@ -1,0 +1,26 @@
+{
+  "provider": "Bucklog",
+  "provider_id": "bucklog",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:37:46.293103",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS211590"
+  ],
+  "last_update": "2026-10-24T15:37:46.293103",
+  "ipv4": [
+    "170.39.217.0/24",
+    "185.177.72.0/24"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS211590",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

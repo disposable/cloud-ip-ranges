@@ -1,0 +1,31 @@
+{
+  "provider": "Hotchilli",
+  "provider_id": "hotchilli",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:37:54.210308",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS8419"
+  ],
+  "last_update": "2026-10-24T15:37:54.210308",
+  "ipv4": [
+    "195.248.96.0/19",
+    "212.95.224.0/19",
+    "217.72.160.0/19",
+    "62.89.128.0/19",
+    "87.243.192.0/18"
+  ],
+  "ipv6": [
+    "2001:710::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS8419",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

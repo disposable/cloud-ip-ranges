@@ -1,0 +1,37 @@
+{
+  "provider": "Cruzio",
+  "provider_id": "cruzio",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:37:55.378898",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS11994"
+  ],
+  "last_update": "2026-10-24T15:37:55.378898",
+  "ipv4": [
+    "161.129.228.0/24",
+    "192.135.198.0/24",
+    "192.135.76.0/24",
+    "198.202.199.0/24",
+    "198.232.247.0/24",
+    "199.73.112.0/22",
+    "216.173.128.0/20",
+    "216.173.128.0/21",
+    "216.173.136.0/21",
+    "44.31.128.0/22",
+    "63.249.64.0/18",
+    "68.170.176.0/21",
+    "69.27.176.0/20"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS11994",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

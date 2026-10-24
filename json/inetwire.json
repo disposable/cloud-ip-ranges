@@ -1,0 +1,36 @@
+{
+  "provider": "Inetwire",
+  "provider_id": "inetwire",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:38:01.489643",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS13246"
+  ],
+  "last_update": "2026-10-24T15:38:01.489643",
+  "ipv4": [
+    "185.181.192.0/22",
+    "95.130.16.0/21",
+    "95.130.16.0/24",
+    "95.130.17.0/24",
+    "95.130.18.0/24",
+    "95.130.20.0/24",
+    "95.130.21.0/24",
+    "95.130.22.0/24",
+    "95.130.23.0/24"
+  ],
+  "ipv6": [
+    "2a02:2940:3::/48",
+    "2a02:2940::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS13246",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

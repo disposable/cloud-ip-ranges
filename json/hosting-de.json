@@ -1,0 +1,30 @@
+{
+  "provider": "Hosting De",
+  "provider_id": "hosting-de",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:37:46.122763",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS48823"
+  ],
+  "last_update": "2026-10-24T15:37:46.122763",
+  "ipv4": [
+    "134.0.24.0/21",
+    "185.11.136.0/22",
+    "95.129.48.0/21",
+    "95.129.51.0/24"
+  ],
+  "ipv6": [
+    "2a03:2900::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS48823",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}
