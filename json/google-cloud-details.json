@@ -3,13 +3,13 @@
   "provider_id": "google-cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-23T03:23:07.809375",
-  "source_updated_at": "2026-10-22T19:05:32.147271",
+  "generated_at": "2026-10-24T03:17:00.228683",
+  "source_updated_at": "2026-10-23T19:09:10.187728",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-10-22T19:05:32.147271",
+  "last_update": "2026-10-23T19:09:10.187728",
   "ipv4": [
     {
       "address": "34.1.208.0/20",
@@ -5447,7 +5447,12 @@
       "scope": null
     },
     {
-      "address": "136.22.8.0/22",
+      "address": "136.22.8.0/21",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "136.22.16.0/20",
       "service": null,
       "scope": null
     },
@@ -5472,17 +5477,7 @@
       "scope": null
     },
     {
-      "address": "136.23.39.0/24",
-      "service": null,
-      "scope": null
-    },
-    {
-      "address": "136.23.48.0/20",
-      "service": null,
-      "scope": null
-    },
-    {
-      "address": "136.23.64.0/18",
+      "address": "136.23.0.0/17",
       "service": null,
       "scope": null
     },
@@ -5557,6 +5552,11 @@
       "scope": null
     },
     {
+      "address": "172.102.8.0/21",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "172.110.32.0/21",
       "service": null,
       "scope": null
@@ -5613,6 +5613,11 @@
     },
     {
       "address": "179.199.0.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "185.150.148.0/22",
       "service": null,
       "scope": null
     },
@@ -5803,6 +5808,11 @@
     },
     {
       "address": "209.85.128.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "209.107.176.0/20",
       "service": null,
       "scope": null
     },
@@ -6370,6 +6380,11 @@
     },
     {
       "address": "2a00:1450::/32",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2a03:ace0::/32",
       "service": null,
       "scope": null
     },

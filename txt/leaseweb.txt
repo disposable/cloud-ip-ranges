@@ -1,6 +1,6 @@
 # provider: Leaseweb
 # source: RADB::AS-LEASEWEB, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS7203, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS15003, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS16265, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS18875, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS19148, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS22476, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25847, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS26516, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS27411, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS28203, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS28753, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS30633, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS32613, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS46095, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS46269, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS46861, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS55271, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS59253, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60626, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60781, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS133752, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134351, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136988, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS205544, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS393595, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS393886, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS394380, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS395467, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS395954, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS396190, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS396362, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS397408
-# last_update: 2026-10-22T03:25:50.355578
+# last_update: 2026-10-24T03:25:15.151478
 
 103.101.128.0/22
 103.119.218.0/24
@@ -594,7 +594,6 @@
 173.234.180.0/22
 173.234.184.0/22
 173.234.19.0/24
-173.234.192.0/20
 173.234.2.0/23
 173.234.20.0/23
 173.234.208.0/22
@@ -830,9 +829,6 @@
 193.5.125.0/24
 193.5.145.0/24
 193.5.255.0/24
-193.58.109.0/24
-193.58.110.0/24
-193.58.111.0/24
 193.8.127.0/24
 193.8.234.0/24
 193.8.56.0/24
@@ -882,6 +878,7 @@
 195.66.26.0/24
 195.85.19.0/24
 195.93.238.0/23
+198.185.148.0/24
 198.252.101.0/24
 198.252.103.0/24
 198.252.107.0/24
@@ -1514,7 +1511,6 @@
 64.226.157.0/24
 64.226.158.0/24
 64.226.159.0/24
-64.226.54.0/24
 64.226.55.0/24
 64.64.0.0/20
 64.64.16.0/22
@@ -1535,7 +1531,6 @@
 66.93.62.0/24
 66.97.180.0/22
 67.201.0.0/21
-67.201.40.0/24
 67.201.48.0/23
 67.205.64.0/18
 67.208.44.0/23
@@ -1562,7 +1557,6 @@
 69.147.254.0/24
 69.147.255.0/24
 69.161.221.0/24
-69.174.60.0/22
 70.32.33.0/24
 70.32.34.0/24
 70.32.35.0/24
@@ -1574,11 +1568,7 @@
 70.32.45.0/24
 70.38.0.0/17
 72.244.1.0/24
-72.37.218.0/23
-72.37.221.0/24
-72.37.222.0/23
 72.37.224.0/21
-72.37.237.0/24
 72.37.242.0/23
 72.55.128.0/18
 72.63.152.0/22
@@ -2038,7 +2028,6 @@
 2a10:3740::/29
 2a10:6700::/29
 2a10:67c6::/32
-2a10:67c7::/32
 2a10:68c0::/32
 2a10:68c6::/32
 2a10:6d40::/29
@@ -2151,17 +2140,29 @@
 2a13:fb00::/29
 2a14:6881::/32
 45.159.144.0/24
+103.148.140.0/24
 103.160.58.0/24
+193.58.109.0/24
+72.37.222.0/23
 103.139.48.0/24
 103.152.16.0/24
-193.8.138.0/24
+67.201.40.0/24
 81.29.158.0/24
 108.165.151.0/24
 103.151.102.0/24
+64.226.54.0/24
 80.65.32.0/20
+72.37.237.0/24
 213.139.219.0/24
+72.37.218.0/23
 103.149.84.0/24
+72.37.221.0/24
 103.163.52.0/24
-103.148.140.0/24
+193.58.111.0/24
+173.234.192.0/20
+193.58.110.0/24
+69.174.60.0/22
+193.8.138.0/24
+2a10:67c7::/32
 2a10:68c7::/32
 2a13:8c85::/32
