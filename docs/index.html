@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud IP Ranges - Provider IP Range Database</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌐</text></svg>">
+    <style>
+        :root {
+            --bg-color: #f6f8fa;
+            --card-bg: #ffffff;
+            --text-color: #24292f;
+            --text-secondary: #57606a;
+            --border-color: #d0d7de;
+            --accent-color: #0969da;
+            --accent-light: #ddf4ff;
+            --success-color: #1a7f37;
+            --warning-color: #9a6700;
+            --danger-color: #cf222e;
+        }
+        [data-theme="dark"] {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-color: #c9d1d9;
+            --text-secondary: #8b949e;
+            --border-color: #30363d;
+            --accent-color: #58a6ff;
+            --accent-light: #388bfd26;
+            --success-color: #3fb950;
+            --warning-color: #d29922;
+            --danger-color: #f85149;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+        header {
+            padding: 20px 0;
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 30px;
+        }
+        header h1 { font-size: 2rem; font-weight: 600; margin-bottom: 10px; }
+        header p { color: var(--text-secondary); font-size: 1.1rem; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .stat-card .number { font-size: 2rem; font-weight: 700; color: var(--accent-color); }
+        .stat-card .label { color: var(--text-secondary); font-size: 0.9rem; margin-top: 5px; }
+        .section {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 30px;
+            overflow: clip;
+        }
+        .section-header {
+            background: var(--accent-light);
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .section-header h2 { font-size: 1.25rem; font-weight: 600; }
+        .search-box { padding: 15px 20px; border-bottom: 1px solid var(--border-color); }
+        .search-box input {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 0.95rem;
+            background: var(--card-bg);
+            color: var(--text-color);
+        }
+        .search-box input:focus { outline: none; border-color: var(--accent-color); }
+        .table-wrap { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td {
+            padding: 10px 14px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        th {
+            background: var(--bg-color);
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+        th.sortable:hover { color: var(--accent-color); }
+        th.sortable .sort-arrow { font-size: 0.75rem; margin-left: 4px; opacity: 0.4; }
+        th.sortable.sort-asc .sort-arrow,
+        th.sortable.sort-desc .sort-arrow { opacity: 1; }
+        td { font-size: 0.95rem; }
+        tr:hover { background: var(--bg-color); }
+        td.num { text-align: right; font-variant-numeric: tabular-nums; }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .badge-published { background: #dafbe1; color: var(--success-color); }
+        .badge-bgp { background: var(--accent-light); color: var(--accent-color); }
+        .badge-asn { background: #ffe9d9; color: #bc4c00; }
+        .badge-misc { background: #fbefff; color: #8250df; }
+        .lookup-result-net {
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+        .provider-chip {
+            display: inline-block;
+            background: var(--accent-light);
+            color: var(--accent-color);
+            padding: 2px 8px;
+            margin: 2px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .file-links { white-space: nowrap; }
+        .file-links a {
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-right: 6px;
+        }
+        .theme-toggle {
+            background: var(--accent-light);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.2s;
+        }
+        .theme-toggle:hover { background: var(--border-color); }
+        .tab-container {
+            display: flex;
+            border-bottom: 1px solid var(--border-color);
+            background: var(--bg-color);
+        }
+        .tab {
+            padding: 12px 20px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .tab:hover { background: rgba(9, 105, 218, 0.05); }
+        .tab.active { border-bottom-color: var(--accent-color); color: var(--accent-color); }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .loading { text-align: center; padding: 40px; color: var(--text-secondary); }
+        .error {
+            background: #ffebe9;
+            border: 1px solid #ffcecb;
+            color: var(--danger-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .hint { color: var(--text-secondary); font-size: 0.85rem; padding: 10px 20px; }
+        footer {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            padding-bottom: 20px;
+        }
+        a { color: var(--accent-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        @media (max-width: 768px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            th, td { padding: 8px 12px; }
+        }
+        @media (min-width: 769px) {
+            thead th { position: sticky; top: 0; z-index: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div>
+                    <h1>🌐 Cloud IP Ranges</h1>
+                    <p>Published and BGP-announced IP ranges of cloud providers, crawlers and hosting companies</p>
+                    <p><a href="https://github.com/disposable/cloud-ip-ranges" target="_blank" rel="noopener">github.com/disposable/cloud-ip-ranges</a></p>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="loading" class="loading">Loading provider data...</div>
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="content" style="display: none;">
+            <div class="stats-grid" id="stats"></div>
+
+            <div class="section">
+                <div class="section-header"><h2>IP Lookup</h2></div>
+                <div class="search-box">
+                    <input type="text" id="ipLookup" placeholder="Enter an IP address to check which provider announces it...">
+                </div>
+                <div class="hint">Searches the merged range set of all providers. Data loads on first lookup.</div>
+                <div id="lookupResults" class="table-wrap"></div>
+            </div>
+
+            <div class="section">
+                <div class="tab-container">
+                    <div class="tab active" data-tab="cloud">Cloud Providers</div>
+                    <div class="tab" data-tab="misc">Misc</div>
+                </div>
+
+                <div id="cloud" class="tab-content active">
+                    <div class="search-box">
+                        <input type="text" id="providerSearch" placeholder="Search providers...">
+                    </div>
+                    <div class="table-wrap">
+                        <table id="providerTable">
+                            <thead>
+                                <tr>
+                                    <th class="sortable" data-col="name">Provider<span class="sort-arrow">▲▼</span></th>
+                                    <th class="sortable" data-col="method">Method<span class="sort-arrow">▲▼</span></th>
+                                    <th class="sortable" data-col="ipv4" style="text-align:right">IPv4 Ranges<span class="sort-arrow">▲▼</span></th>
+                                    <th class="sortable" data-col="ipv6" style="text-align:right">IPv6 Ranges<span class="sort-arrow">▲▼</span></th>
+                                    <th class="sortable" data-col="updated">Last Update<span class="sort-arrow">▲▼</span></th>
+                                    <th>Files</th>
+                                </tr>
+                            </thead>
+                            <tbody id="providerBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="misc" class="tab-content">
+                    <div class="table-wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Provider</th>
+                                    <th>Method</th>
+                                    <th style="text-align:right">IPv4 Ranges</th>
+                                    <th style="text-align:right">IPv6 Ranges</th>
+                                    <th>Last Update</th>
+                                    <th>Files</th>
+                                </tr>
+                            </thead>
+                            <tbody id="miscBody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Data updated daily from provider feeds and BGP announcements.</p>
+        </div>
+    </footer>
+
+    <script>
+        // -- theme ----------------------------------------------------------
+        const themeToggle = document.getElementById('theme-toggle');
+        function applyTheme(t) {
+            document.documentElement.setAttribute('data-theme', t);
+            themeToggle.textContent = t === 'dark' ? '☀️' : '🌙';
+            localStorage.setItem('theme', t);
+        }
+        themeToggle.addEventListener('click', () => {
+            applyTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+        });
+        applyTheme(localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+
+        // -- tabs -----------------------------------------------------------
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById(tab.dataset.tab).classList.add('active');
+            });
+        });
+
+        // -- data -----------------------------------------------------------
+        const state = {
+            cloud: null, misc: null,
+            v4Idx: null, v6Idx: null,   // sorted [start,end,net,providers[]]
+            miscV4Idx: null, miscV6Idx: null,
+            sort: { col: 'name', dir: 1 },
+        };
+
+        const methodBadge = m => {
+            if (m === 'published_list') return '<span class="badge badge-published">published</span>';
+            if (m === 'bgp_announced') return '<span class="badge badge-bgp">bgp</span>';
+            if (m === 'asn_lookup') return '<span class="badge badge-asn">asn</span>';
+            return `<span class="badge">${m || '?'}</span>`;
+        };
+        const fmt = n => (n ?? 0).toLocaleString();
+        const fmtDate = s => (s || '').slice(0, 10) || '-';
+        const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+        function fileLinks(id, scope) {
+            const base = scope === 'misc' ? 'misc' : '';
+            const j = scope === 'misc' ? `misc/${id}.json` : `json/${id}.json`;
+            const t = scope === 'misc' ? `misc/${id}.txt` : `txt/${id}.txt`;
+            const c = scope === 'misc' ? `misc/${id}.csv` : `csv/${id}.csv`;
+            return `<span class="file-links"><a href="${j}">json</a><a href="${t}">txt</a><a href="${c}">csv</a></span>`;
+        }
+
+        function providerRow(p, scope) {
+            return `<tr data-name="${esc((p.provider || '').toLowerCase())}">
+                <td><strong>${esc(p.provider)}</strong></td>
+                <td>${methodBadge(p.method)}</td>
+                <td class="num">${fmt(p.ipv4_count)}</td>
+                <td class="num">${fmt(p.ipv6_count)}</td>
+                <td>${fmtDate(p.last_update)}</td>
+                <td>${fileLinks(p.provider_id, scope)}</td>
+            </tr>`;
+        }
+
+        function renderProviders() {
+            const term = document.getElementById('providerSearch').value.trim().toLowerCase();
+            let rows = [...(state.cloud.providers || [])];
+            const { col, dir } = state.sort;
+            rows.sort((a, b) => {
+                let va, vb;
+                if (col === 'name') { va = a.provider || ''; vb = b.provider || ''; }
+                else if (col === 'method') { va = a.method || ''; vb = b.method || ''; }
+                else if (col === 'ipv4') { va = a.ipv4_count || 0; vb = b.ipv4_count || 0; }
+                else if (col === 'ipv6') { va = a.ipv6_count || 0; vb = b.ipv6_count || 0; }
+                else { va = a.last_update || ''; vb = b.last_update || ''; }
+                return (va < vb ? -1 : va > vb ? 1 : 0) * dir;
+            });
+            if (term) rows = rows.filter(p => (p.provider || '').toLowerCase().includes(term));
+            document.getElementById('providerBody').innerHTML = rows.map(p => providerRow(p, 'cloud')).join('');
+        }
+
+        function renderMisc() {
+            document.getElementById('miscBody').innerHTML =
+                (state.misc.providers || []).map(p => providerRow(p, 'misc')).join('');
+        }
+
+        document.getElementById('providerSearch').addEventListener('input', renderProviders);
+        document.querySelectorAll('th.sortable').forEach(th => {
+            th.addEventListener('click', () => {
+                const col = th.dataset.col;
+                if (state.sort.col === col) state.sort.dir *= -1;
+                else state.sort = { col, dir: 1 };
+                document.querySelectorAll('th.sortable').forEach(t => t.classList.remove('sort-asc', 'sort-desc'));
+                th.classList.add(state.sort.dir === 1 ? 'sort-asc' : 'sort-desc');
+                renderProviders();
+            });
+        });
+
+        // -- ip math --------------------------------------------------------
+        function parseCIDR(c) {
+            const [addr, plenStr] = c.split('/');
+            const plen = parseInt(plenStr, 10);
+            if (addr.includes(':')) {
+                let start = 0n;
+                const halves = addr.split('::');
+                const head = halves[0] ? halves[0].split(':') : [];
+                const tail = halves.length > 1 && halves[1] ? halves[1].split(':') : [];
+                const missing = 8 - head.length - tail.length;
+                const parts = [...head, ...Array(Math.max(missing, 0)).fill('0'), ...tail];
+                for (const p of parts) start = (start << 16n) + BigInt('0x' + (p || '0'));
+                return { v: 6, start, end: start + (1n << BigInt(128 - plen)) - 1n, net: c };
+            }
+            let n = 0n;
+            for (const o of addr.split('.')) n = (n << 8n) + BigInt(parseInt(o, 10));
+            return { v: 4, start: n, end: n + (1n << BigInt(32 - plen)) - 1n, net: c };
+        }
+
+        function ipToInt(ip) {
+            if (ip.includes(':')) return v6ToInt(ip);
+            const parts = ip.split('.');
+            if (parts.length !== 4 || parts.some(o => isNaN(o) || o < 0 || o > 255 || o === '')) return null;
+            let n = 0n;
+            for (const o of parts) n = (n << 8n) + BigInt(parseInt(o, 10));
+            return { v: 4, n };
+        }
+        function v6ToInt(ip) {
+            const halves = ip.split('::');
+            const head = halves[0] ? halves[0].split(':') : [];
+            const tail = halves.length > 1 && halves[1] ? halves[1].split(':') : [];
+            const missing = 8 - head.length - tail.length;
+            if (missing < 0) return null;
+            const parts = [...head, ...Array(missing).fill('0'), ...tail];
+            if (parts.length !== 8) return null;
+            let n = 0n;
+            for (const p of parts) {
+                if (!/^[0-9a-fA-F]{1,4}$/.test(p)) return null;
+                n = (n << 16n) + BigInt('0x' + p);
+            }
+            return { v: 6, n };
+        }
+
+        function buildIndex(data) {
+            const v4 = [], v6 = [];
+            for (const [net, providers] of Object.entries(data.ip_providers || {})) {
+                try {
+                    const c = parseCIDR(net);
+                    (c.v === 4 ? v4 : v6).push({ start: c.start, end: c.end, net, providers });
+                } catch (e) { /* skip */ }
+            }
+            v4.sort((a, b) => (a.start < b.start ? -1 : 1));
+            v6.sort((a, b) => (a.start < b.start ? -1 : 1));
+            return { v4, v6 };
+        }
+
+        function lookupIn(idx, n) {
+            // binary search rightmost start <= n
+            let lo = 0, hi = idx.length - 1, ans = -1;
+            while (lo <= hi) {
+                const mid = (lo + hi) >> 1;
+                if (idx[mid].start <= n) { ans = mid; lo = mid + 1; }
+                else hi = mid - 1;
+            }
+            if (ans >= 0 && n <= idx[ans].end) return idx[ans];
+            return null;
+        }
+
+        // -- lookup UI ------------------------------------------------------
+        const lookupInput = document.getElementById('ipLookup');
+        const lookupResults = document.getElementById('lookupResults');
+        let lookupLoading = null;
+
+        async function ensureIndex() {
+            if (state.v4Idx) return;
+            if (!lookupLoading) {
+                lookupLoading = Promise.all([
+                    fetch('json/all-providers.json').then(r => r.json()),
+                    fetch('misc/all-providers.json').then(r => r.json()),
+                ]).then(([cloud, misc]) => {
+                    const ci = buildIndex(cloud);
+                    const mi = buildIndex(misc);
+                    state.v4Idx = ci.v4; state.v6Idx = ci.v6;
+                    state.miscV4Idx = mi.v4; state.miscV6Idx = mi.v6;
+                });
+            }
+            await lookupLoading;
+        }
+
+        let lookupTimer = null;
+        lookupInput.addEventListener('input', () => {
+            clearTimeout(lookupTimer);
+            const q = lookupInput.value.trim();
+            if (!q) { lookupResults.innerHTML = ''; return; }
+            lookupTimer = setTimeout(() => doLookup(q), 400);
+        });
+
+        async function doLookup(q) {
+            const ip = ipToInt(q);
+            if (!ip) {
+                lookupResults.innerHTML = `<div class="hint">Not a valid IPv4/IPv6 address.</div>`;
+                return;
+            }
+            lookupResults.innerHTML = `<div class="loading">Loading range index...</div>`;
+            try {
+                await ensureIndex();
+            } catch (e) {
+                lookupResults.innerHTML = `<div class="error">Failed to load range data: ${esc(e.message)}</div>`;
+                return;
+            }
+            const idx = ip.v === 4 ? state.v4Idx : state.v6Idx;
+            const midx = ip.v === 4 ? state.miscV4Idx : state.miscV6Idx;
+            const hit = lookupIn(idx, ip.n);
+            const mhit = lookupIn(midx, ip.n);
+            if (!hit && !mhit) {
+                lookupResults.innerHTML = `<div class="hint">No matching range found.</div>`;
+                return;
+            }
+            let html = '<table><thead><tr><th>Range</th><th>Scope</th><th>Providers</th></tr></thead><tbody>';
+            if (hit) html += `<tr><td class="lookup-result-net">${esc(hit.net)}</td>
+                <td><span class="badge badge-published">cloud</span></td>
+                <td>${hit.providers.map(p => `<span class="provider-chip">${esc(p)}</span>`).join('')}</td></tr>`;
+            if (mhit) html += `<tr><td class="lookup-result-net">${esc(mhit.net)}</td>
+                <td><span class="badge badge-misc">misc</span></td>
+                <td>${mhit.providers.map(p => `<span class="provider-chip">${esc(p)}</span>`).join('')}</td></tr>`;
+            html += '</tbody></table>';
+            lookupResults.innerHTML = html;
+        }
+
+        // -- boot -----------------------------------------------------------
+        async function init() {
+            try {
+                const [cloud, misc] = await Promise.all([
+                    fetch('json/all-providers.json').then(r => r.json()),
+                    fetch('misc/all-providers.json').then(r => r.json()),
+                ]);
+                state.cloud = cloud;
+                state.misc = misc;
+
+                document.getElementById('stats').innerHTML = `
+                    <div class="stat-card"><div class="number">${fmt(cloud.provider_count + misc.provider_count)}</div><div class="label">Providers</div></div>
+                    <div class="stat-card"><div class="number">${fmt(cloud.ipv4.length + misc.ipv4.length)}</div><div class="label">IPv4 Ranges</div></div>
+                    <div class="stat-card"><div class="number">${fmt(cloud.ipv6.length + misc.ipv6.length)}</div><div class="label">IPv6 Ranges</div></div>
+                    <div class="stat-card"><div class="number">${fmtDate(cloud.generated_at)}</div><div class="label">Last Update</div></div>`;
+
+                renderProviders();
+                renderMisc();
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+            } catch (e) {
+                document.getElementById('loading').style.display = 'none';
+                const el = document.getElementById('error');
+                el.style.display = 'block';
+                el.textContent = 'Failed to load data: ' + e.message;
+            }
+        }
+        init();
+    </script>
+</body>
+</html>
