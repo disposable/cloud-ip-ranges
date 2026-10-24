@@ -1,0 +1,50 @@
+{
+  "provider": "Serverastra",
+  "provider_id": "serverastra",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:32.739880",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS56322"
+  ],
+  "last_update": "2026-10-24T15:28:32.739880",
+  "ipv4": [
+    "185.163.204.0/24",
+    "195.20.115.0/24",
+    "217.28.130.0/24",
+    "82.21.225.0/24",
+    "82.21.226.0/24",
+    "82.22.225.0/24",
+    "82.23.199.0/24",
+    "82.23.215.0/24",
+    "82.23.218.0/24",
+    "82.24.227.0/24",
+    "82.25.223.0/24",
+    "82.25.236.0/24",
+    "82.26.231.0/24",
+    "82.29.209.0/24",
+    "82.29.236.0/24",
+    "91.219.236.0/22",
+    "91.219.236.0/24",
+    "91.219.237.0/24",
+    "91.219.238.0/24",
+    "91.219.239.0/24",
+    "93.114.72.0/24"
+  ],
+  "ipv6": [
+    "2a10:c800:1::/48",
+    "2a10:c800:400::/48",
+    "2a10:c800:401::/48",
+    "2a10:c800::/48"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS56322",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

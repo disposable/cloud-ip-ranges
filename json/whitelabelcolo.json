@@ -1,0 +1,36 @@
+{
+  "provider": "Whitelabelcolo",
+  "provider_id": "whitelabelcolo",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:04.036491",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS394474"
+  ],
+  "last_update": "2026-10-24T15:28:04.036491",
+  "ipv4": [
+    "167.250.108.0/22",
+    "170.244.92.0/22",
+    "170.254.176.0/22",
+    "191.102.128.0/21",
+    "191.102.136.0/21",
+    "191.102.144.0/21",
+    "191.102.152.0/21",
+    "191.102.160.0/20",
+    "191.102.176.0/21",
+    "191.102.184.0/21",
+    "212.6.51.0/24",
+    "45.5.64.0/22"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS394474",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

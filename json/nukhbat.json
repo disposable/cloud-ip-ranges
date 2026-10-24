@@ -1,0 +1,28 @@
+{
+  "provider": "Nukhbat",
+  "provider_id": "nukhbat",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:02.900323",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS216461"
+  ],
+  "last_update": "2026-10-24T15:28:02.900323",
+  "ipv4": [
+    "178.210.228.0/24",
+    "178.210.229.0/24",
+    "178.210.230.0/24",
+    "178.210.231.0/24"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS216461",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "provider": "Unmanaged",
+  "provider_id": "unmanaged",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:43.058005",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS47890"
+  ],
+  "last_update": "2026-10-24T15:28:43.058005",
+  "ipv4": [
+    "154.214.205.0/24",
+    "154.214.213.0/24",
+    "185.232.64.0/24",
+    "185.232.66.0/24",
+    "193.32.162.0/24",
+    "193.46.254.0/24",
+    "193.46.255.0/24",
+    "193.47.69.0/24",
+    "2.57.120.0/24",
+    "2.57.121.0/24",
+    "2.57.122.0/24",
+    "45.129.15.0/24",
+    "45.13.37.0/24",
+    "45.13.38.0/24",
+    "45.134.48.0/24",
+    "45.138.96.0/24",
+    "45.138.97.0/24",
+    "45.138.98.0/24",
+    "45.148.9.0/24",
+    "80.94.92.0/24",
+    "80.94.93.0/24",
+    "80.94.94.0/24",
+    "92.118.39.0/24"
+  ],
+  "ipv6": [
+    "2a0c:9f00:2::/48",
+    "2a0e:1d80:7::/48",
+    "2a10:9100:6::/48",
+    "2a10:9100:a::/48"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS47890",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

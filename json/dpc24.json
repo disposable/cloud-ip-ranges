@@ -1,0 +1,30 @@
+{
+  "provider": "Dpc24",
+  "provider_id": "dpc24",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:24.596232",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS208981"
+  ],
+  "last_update": "2026-10-24T15:28:24.596232",
+  "ipv4": [
+    "45.12.124.0/24",
+    "45.12.126.0/24",
+    "91.213.144.0/24",
+    "91.232.93.0/24",
+    "91.243.190.0/24",
+    "91.243.191.0/24"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS208981",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "Rethemhosting",
+  "provider_id": "rethemhosting",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:24.307547",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS14987"
+  ],
+  "last_update": "2026-10-24T15:28:24.307547",
+  "ipv4": [
+    "104.152.52.0/22",
+    "104.152.52.0/24",
+    "104.152.53.0/24",
+    "104.152.54.0/24",
+    "104.152.55.0/24"
+  ],
+  "ipv6": [
+    "2607:8500::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS14987",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

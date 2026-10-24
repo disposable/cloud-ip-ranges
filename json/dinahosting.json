@@ -1,0 +1,38 @@
+{
+  "provider": "Dinahosting",
+  "provider_id": "dinahosting",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:25.798980",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS42612"
+  ],
+  "last_update": "2026-10-24T15:28:25.798980",
+  "ipv4": [
+    "185.192.220.0/24",
+    "185.192.221.0/24",
+    "185.192.222.0/24",
+    "185.192.223.0/24",
+    "46.231.120.0/21",
+    "46.231.123.0/24",
+    "46.231.125.0/24",
+    "82.98.128.0/18"
+  ],
+  "ipv6": [
+    "2a02:be8::/32",
+    "2a02:be8:f001::/48",
+    "2a02:be8:f002::/48",
+    "2a02:be8:f003::/48",
+    "2a02:be8:f004::/48"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS42612",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

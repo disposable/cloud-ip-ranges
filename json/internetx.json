@@ -1,0 +1,32 @@
+{
+  "provider": "Internetx",
+  "provider_id": "internetx",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:27:51.939559",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS15456"
+  ],
+  "last_update": "2026-10-24T15:27:51.939559",
+  "ipv4": [
+    "185.91.244.0/22",
+    "62.116.128.0/19",
+    "62.116.131.0/24",
+    "62.116.159.0/24",
+    "62.116.160.0/19",
+    "85.236.32.0/19"
+  ],
+  "ipv6": [
+    "2001:4178::/29"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS15456",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

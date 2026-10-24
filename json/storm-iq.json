@@ -1,0 +1,33 @@
+{
+  "provider": "Storm Iq",
+  "provider_id": "storm-iq",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:31.237967",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212280"
+  ],
+  "last_update": "2026-10-24T15:28:31.237967",
+  "ipv4": [
+    "185.122.252.0/24",
+    "185.122.253.0/24",
+    "185.122.254.0/24",
+    "185.122.255.0/24",
+    "185.133.224.0/24",
+    "185.133.225.0/24",
+    "185.133.226.0/24",
+    "185.217.61.0/24",
+    "45.89.20.0/24"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS212280",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

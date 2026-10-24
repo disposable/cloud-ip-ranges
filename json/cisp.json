@@ -1,0 +1,37 @@
+{
+  "provider": "Cisp",
+  "provider_id": "cisp",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:38.569697",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS59793"
+  ],
+  "last_update": "2026-10-24T15:28:38.569697",
+  "ipv4": [
+    "188.35.4.0/22",
+    "194.50.128.0/22",
+    "79.133.106.0/23",
+    "79.133.112.0/21",
+    "93.179.122.0/23",
+    "93.179.70.0/23",
+    "93.179.72.0/21",
+    "93.179.80.0/21",
+    "95.181.136.0/21",
+    "95.181.240.0/21",
+    "95.85.80.0/23"
+  ],
+  "ipv6": [
+    "2a02:d0c2:1::/48"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS59793",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

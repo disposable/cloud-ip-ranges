@@ -1,0 +1,33 @@
+{
+  "provider": "Hostbaltic",
+  "provider_id": "hostbaltic",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:32.175063",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS209605"
+  ],
+  "last_update": "2026-10-24T15:28:32.175063",
+  "ipv4": [
+    "141.98.10.0/24",
+    "141.98.11.0/24",
+    "141.98.8.0/24",
+    "141.98.9.0/24",
+    "185.166.92.0/24",
+    "185.169.4.0/24",
+    "185.36.81.0/24",
+    "193.31.6.0/24",
+    "91.224.92.0/24"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS209605",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

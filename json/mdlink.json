@@ -1,0 +1,39 @@
+{
+  "provider": "Mdlink",
+  "provider_id": "mdlink",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:35.517029",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS43341"
+  ],
+  "last_update": "2026-10-24T15:28:35.517029",
+  "ipv4": [
+    "185.188.120.0/22",
+    "193.26.123.0/24",
+    "194.113.144.0/22",
+    "194.45.154.0/24",
+    "213.211.192.0/19",
+    "213.211.224.0/19",
+    "45.141.38.0/23",
+    "77.83.176.0/22",
+    "88.150.0.0/17",
+    "95.156.192.0/24"
+  ],
+  "ipv6": [
+    "2a03:5080::/32",
+    "2a07:e300::/29",
+    "2a09:8580::/29",
+    "2a0c:d240::/29"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS43341",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

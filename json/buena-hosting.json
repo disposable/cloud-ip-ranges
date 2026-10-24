@@ -1,0 +1,31 @@
+{
+  "provider": "Buena Hosting",
+  "provider_id": "buena-hosting",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T15:28:02.645620",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS263735"
+  ],
+  "last_update": "2026-10-24T15:28:02.645620",
+  "ipv4": [
+    "138.219.172.0/22",
+    "138.59.204.0/22",
+    "168.227.140.0/22",
+    "170.83.232.0/22",
+    "181.177.64.0/18"
+  ],
+  "ipv6": [
+    "2803:9f80::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS263735",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}
