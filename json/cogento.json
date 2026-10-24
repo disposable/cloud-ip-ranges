@@ -1,0 +1,30 @@
+{
+  "provider": "Cogento",
+  "provider_id": "cogento",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T14:54:06.890317",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS214743"
+  ],
+  "last_update": "2026-10-24T14:54:06.890317",
+  "ipv4": [
+    "176.111.37.0/24",
+    "176.111.38.0/24",
+    "176.111.39.0/24",
+    "193.105.241.0/24",
+    "45.91.224.0/24",
+    "91.198.23.0/24"
+  ],
+  "ipv6": [],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS214743",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}

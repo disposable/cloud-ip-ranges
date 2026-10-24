@@ -1,0 +1,30 @@
+{
+  "provider": "Datashield",
+  "provider_id": "datashield",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T14:54:01.715595",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS211720"
+  ],
+  "last_update": "2026-10-24T14:54:01.715595",
+  "ipv4": [
+    "185.231.32.0/24",
+    "185.231.33.0/24",
+    "185.56.81.0/24",
+    "185.56.83.0/24"
+  ],
+  "ipv6": [
+    "2a0c:4d00::/36"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS211720",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}
