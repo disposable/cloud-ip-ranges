@@ -1,0 +1,51 @@
+{
+  "provider": "Clodo",
+  "provider_id": "clodo",
+  "method": "bgp_announced",
+  "coverage_notes": "BGP-announced prefixes for the ASN(s)",
+  "generated_at": "2026-10-24T14:08:41.205454",
+  "source_updated_at": null,
+  "source": [
+    "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS216154"
+  ],
+  "last_update": "2026-10-24T14:08:41.205454",
+  "ipv4": [
+    "103.137.248.0/22",
+    "103.54.16.0/22",
+    "103.90.72.0/23",
+    "103.90.74.0/24",
+    "103.90.75.0/24",
+    "132.243.112.0/20",
+    "157.22.176.0/21",
+    "185.200.176.0/22",
+    "188.241.196.0/23",
+    "45.10.172.0/24",
+    "45.10.173.0/24",
+    "45.114.60.0/22",
+    "45.88.172.0/22",
+    "80.74.24.0/21",
+    "84.252.102.0/23",
+    "85.137.88.0/21",
+    "88.218.120.0/22",
+    "89.150.34.0/23",
+    "89.150.41.0/24",
+    "89.150.59.0/24",
+    "89.46.131.0/24",
+    "91.132.224.0/24",
+    "91.132.56.0/22",
+    "95.81.100.0/22",
+    "95.81.96.0/22"
+  ],
+  "ipv6": [
+    "2a0c:db40::/32"
+  ],
+  "source_http": [
+    {
+      "url": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS216154",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "etag": null,
+      "last_modified": null
+    }
+  ]
+}
