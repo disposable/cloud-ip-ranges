@@ -1,14 +1,15 @@
 {
   "provider": "Microsoft Azure",
   "provider_id": "microsoft-azure",
+  "category": "cloud",
   "method": "published_list",
   "coverage_notes": "Azure Public Cloud service tags only. Sovereign clouds (Azure Government, China, Germany) are published as separate files and excluded.",
-  "generated_at": "2026-10-24T03:17:32.126516",
+  "generated_at": "2026-10-25T03:12:53.173038",
   "source_updated_at": null,
   "source": [
     "https://azservicetags.azurewebsites.net/"
   ],
-  "last_update": "2026-10-24T03:17:32.126516",
+  "last_update": "2026-10-25T03:12:53.173038",
   "ipv4": [
     {
       "address": "4.145.74.52/30",

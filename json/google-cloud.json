@@ -4,13 +4,13 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-24T03:17:00.228683",
-  "source_updated_at": "2026-10-23T19:09:10.187728",
+  "generated_at": "2026-10-25T03:12:17.552680",
+  "source_updated_at": "2026-10-24T19:05:05.341784",
   "source": [
     "https://www.gstatic.com/ipranges/cloud.json",
     "https://www.gstatic.com/ipranges/goog.json"
   ],
-  "last_update": "2026-10-23T19:09:10.187728",
+  "last_update": "2026-10-24T19:05:05.341784",
   "ipv4": [
     "104.154.0.0/15",
     "104.154.113.0/24",
@@ -177,6 +177,7 @@
     "177.208.0.0/15",
     "179.193.128.0/17",
     "179.193.128.0/19",
+    "179.193.192.0/18",
     "179.199.0.0/17",
     "179.67.0.0/17",
     "179.67.0.0/18",
@@ -187,6 +188,7 @@
     "179.69.224.0/19",
     "185.150.148.0/22",
     "186.242.0.0/17",
+    "186.242.0.0/18",
     "186.245.0.0/16",
     "187.126.128.0/17",
     "187.78.0.0/17",
@@ -622,6 +624,8 @@
     "34.183.132.0/24",
     "34.183.133.0/24",
     "34.183.136.0/22",
+    "34.183.140.0/24",
+    "34.183.141.0/24",
     "34.183.144.0/20",
     "34.183.16.0/22",
     "34.183.2.0/24",
@@ -694,6 +698,8 @@
     "34.184.131.0/24",
     "34.184.132.0/24",
     "34.184.133.0/24",
+    "34.184.134.0/24",
+    "34.184.135.0/24",
     "34.184.136.0/22",
     "34.184.144.0/20",
     "34.184.16.0/22",
@@ -1175,12 +1181,6 @@
     "136.23.48.0/20",
     "34.127.145.0/24",
     "136.23.39.0/24",
-    "34.183.140.0/24",
-    "34.183.141.0/24",
-    "34.184.134.0/24",
-    "186.242.0.0/18",
-    "34.184.135.0/24",
-    "179.193.192.0/18",
     "34.127.146.0/24",
     "136.23.64.0/19"
   ],
@@ -2598,6 +2598,16 @@
     },
     {
       "address": "34.177.69.0/24",
+      "service": "Google Cloud",
+      "scope": "australia-southeast2"
+    },
+    {
+      "address": "34.183.140.0/24",
+      "service": "Google Cloud",
+      "scope": "australia-southeast2"
+    },
+    {
+      "address": "34.184.134.0/24",
       "service": "Google Cloud",
       "scope": "australia-southeast2"
     },
@@ -6207,6 +6217,21 @@
       "scope": "us-west1"
     },
     {
+      "address": "179.193.192.0/18",
+      "service": "Google Cloud",
+      "scope": "us-west1"
+    },
+    {
+      "address": "179.199.0.0/17",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "186.242.0.0/18",
+      "service": "Google Cloud",
+      "scope": "us-west1"
+    },
+    {
       "address": "34.2.76.0/23",
       "service": "Google Cloud",
       "scope": "us-west2"
@@ -6267,12 +6292,22 @@
       "scope": "us-west2"
     },
     {
+      "address": "34.183.141.0/24",
+      "service": "Google Cloud",
+      "scope": "us-west2"
+    },
+    {
       "address": "34.184.82.0/24",
       "service": "Google Cloud",
       "scope": "us-west2"
     },
     {
       "address": "34.184.126.0/24",
+      "service": "Google Cloud",
+      "scope": "us-west2"
+    },
+    {
+      "address": "34.184.135.0/24",
       "service": "Google Cloud",
       "scope": "us-west2"
     },
@@ -6882,11 +6917,6 @@
       "scope": null
     },
     {
-      "address": "179.199.0.0/17",
-      "service": null,
-      "scope": null
-    },
-    {
       "address": "185.150.148.0/22",
       "service": null,
       "scope": null
@@ -7111,30 +7141,6 @@
     {
       "address": "136.23.39.0/24",
       "retired_at": "2026-10-24T03:25:39.291263+00:00"
-    },
-    {
-      "address": "34.183.140.0/24",
-      "retired_at": "2026-10-23T03:26:16.077857+00:00"
-    },
-    {
-      "address": "34.183.141.0/24",
-      "retired_at": "2026-10-23T03:26:16.077857+00:00"
-    },
-    {
-      "address": "34.184.134.0/24",
-      "retired_at": "2026-10-23T03:26:16.077857+00:00"
-    },
-    {
-      "address": "186.242.0.0/18",
-      "retired_at": "2026-10-23T03:26:16.077857+00:00"
-    },
-    {
-      "address": "34.184.135.0/24",
-      "retired_at": "2026-10-23T03:26:16.077857+00:00"
-    },
-    {
-      "address": "179.193.192.0/18",
-      "retired_at": "2026-10-23T03:26:16.077857+00:00"
     },
     {
       "address": "34.127.146.0/24",
@@ -7720,14 +7726,14 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sat, 24 Oct 2026 02:18:00 GMT"
+      "last_modified": "Sun, 25 Oct 2026 02:08:00 GMT"
     },
     {
       "url": "https://www.gstatic.com/ipranges/goog.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Sat, 24 Oct 2026 02:18:00 GMT"
+      "last_modified": "Sun, 25 Oct 2026 02:08:00 GMT"
     }
   ]
 }

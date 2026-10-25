@@ -10,12 +10,12 @@ which shows their assigned IP ranges.
 <!-- STATS_START -->
 | Metric | Value |
 |--------|------:|
-| Providers tracked | **100** (99 cloud + 1 misc) |
-| Active IPv4 addresses | **365,935,472** (168,286 subnets) |
-| Active IPv6 /64 subnets | **22,993,840,010,918** (286,505 ranges) |
-| Retired IPv4 (≤ 4 weeks) | 67,180,431 addresses (24,922 subnets) |
-| Retired IPv6 (≤ 4 weeks) | 1,103,848,083,295 /64s (10,678 ranges) |
-| Last crawled | 2026-10-24 03:27 UTC |
+| Providers tracked | **372** (370 cloud + 2 misc) |
+| Active IPv4 addresses | **432,764,147** (319,580 subnets) |
+| Active IPv6 /64 subnets | **48,596,395,900,727** (384,200 ranges) |
+| Retired IPv4 (≤ 4 weeks) | 67,139,013 addresses (25,009 subnets) |
+| Retired IPv6 (≤ 4 weeks) | 1,108,072,075,119 /64s (10,609 ranges) |
+| Last crawled | 2026-10-25 03:25 UTC |
 <!-- STATS_END -->
 
 ## Data sources
