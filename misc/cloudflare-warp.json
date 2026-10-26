@@ -4,12 +4,12 @@
   "category": "misc",
   "method": "published_list",
   "coverage_notes": "Cloudflare WARP egress IPs (local-ip-ranges)",
-  "generated_at": "2026-10-24T14:08:47.549244",
+  "generated_at": "2026-10-26T03:29:11.541782",
   "source_updated_at": null,
   "source": [
     "https://api.cloudflare.com/local-ip-ranges.csv"
   ],
-  "last_update": "2026-10-24T14:08:47.549244",
+  "last_update": "2026-10-26T03:29:11.541782",
   "ipv4": [
     "103.22.200.0/24",
     "103.22.201.0/24",
@@ -7372,6 +7372,8 @@
     "104.28.138.250/32",
     "104.28.138.251/32",
     "104.28.138.252/32",
+    "104.28.138.253/32",
+    "104.28.138.254/32",
     "104.28.138.26/32",
     "104.28.138.27/32",
     "104.28.138.28/32",
@@ -12592,8 +12594,10 @@
     "104.28.157.52/32",
     "104.28.157.53/32",
     "104.28.157.54/32",
+    "104.28.157.55/32",
     "104.28.157.56/32",
     "104.28.157.57/32",
+    "104.28.157.58/32",
     "104.28.157.59/32",
     "104.28.157.6/32",
     "104.28.157.60/32",
@@ -151113,8 +151117,8 @@
       "url": "https://api.cloudflare.com/local-ip-ranges.csv",
       "status": 200,
       "content_type": "application/octet-stream",
-      "etag": "\"c2c7e671f72fc898488a77a89f54803f\"",
-      "last_modified": "Sat, 24 Oct 2026 01:07:33 GMT"
+      "etag": "\"fe05a3f075c6374de9bb9177e27d9bfa\"",
+      "last_modified": "Mon, 26 Oct 2026 01:13:35 GMT"
     }
   ]
 }
