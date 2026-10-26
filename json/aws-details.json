@@ -4,12 +4,12 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-25T03:12:15.858900",
-  "source_updated_at": "2026-10-24-20-57-04",
+  "generated_at": "2026-10-26T03:12:46.925791",
+  "source_updated_at": "2026-10-25-23-57-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-10-24-20-57-04",
+  "last_update": "2026-10-25-23-57-05",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -22506,6 +22506,12 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "1.178.86.0/24",
+      "service": "AMAZON",
+      "region": "ap-southeast-3",
+      "network_border_group": "ap-southeast-3"
+    },
+    {
       "address": "1.178.172.0/23",
       "service": "AMAZON",
       "region": "GLOBAL",
@@ -34200,6 +34206,12 @@
       "network_border_group": "ca-central-1"
     },
     {
+      "address": "15.175.149.128/26",
+      "service": "AMAZON",
+      "region": "ca-central-1",
+      "network_border_group": "ca-central-1"
+    },
+    {
       "address": "15.175.250.0/23",
       "service": "AMAZON",
       "region": "ca-central-1",
@@ -35646,6 +35658,12 @@
       "network_border_group": "us-east-1"
     },
     {
+      "address": "184.198.84.0/24",
+      "service": "AMAZON",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
+    },
+    {
       "address": "3.227.250.128/25",
       "service": "AMAZON",
       "region": "us-east-1",
@@ -36301,6 +36319,12 @@
     },
     {
       "address": "32.191.183.128/25",
+      "service": "AMAZON",
+      "region": "us-west-2",
+      "network_border_group": "us-west-2"
+    },
+    {
+      "address": "32.191.214.0/25",
       "service": "AMAZON",
       "region": "us-west-2",
       "network_border_group": "us-west-2"
@@ -48622,6 +48646,12 @@
       "service": "EC2",
       "region": "eu-west-1",
       "network_border_group": "eu-west-1"
+    },
+    {
+      "address": "1.178.86.0/24",
+      "service": "EC2",
+      "region": "ap-southeast-3",
+      "network_border_group": "ap-southeast-3"
     },
     {
       "address": "3.2.106.0/24",
