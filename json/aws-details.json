@@ -4,12 +4,12 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-27T03:42:47.419625",
-  "source_updated_at": "2026-10-27-00-47-05",
+  "generated_at": "2026-10-28T03:59:05.468951",
+  "source_updated_at": "2026-10-28-00-47-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-10-27-00-47-05",
+  "last_update": "2026-10-28-00-47-05",
   "ipv4": [
     {
       "address": "3.4.12.4/32",
@@ -22506,6 +22506,12 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "1.178.86.0/24",
+      "service": "AMAZON",
+      "region": "ap-southeast-3",
+      "network_border_group": "ap-southeast-3"
+    },
+    {
       "address": "1.178.172.0/23",
       "service": "AMAZON",
       "region": "GLOBAL",
@@ -33025,6 +33031,12 @@
     },
     {
       "address": "40.38.204.0/23",
+      "service": "AMAZON",
+      "region": "us-gov-west-1",
+      "network_border_group": "us-gov-west-1"
+    },
+    {
+      "address": "40.39.198.0/23",
       "service": "AMAZON",
       "region": "us-gov-west-1",
       "network_border_group": "us-gov-west-1"
@@ -48642,6 +48654,12 @@
       "network_border_group": "eu-west-1"
     },
     {
+      "address": "1.178.86.0/24",
+      "service": "EC2",
+      "region": "ap-southeast-3",
+      "network_border_group": "ap-southeast-3"
+    },
+    {
       "address": "3.2.106.0/24",
       "service": "EC2",
       "region": "us-west-2",
@@ -61177,6 +61195,12 @@
     },
     {
       "address": "13.196.156.0/22",
+      "service": "EFS",
+      "region": "ap-northeast-1",
+      "network_border_group": "ap-northeast-1"
+    },
+    {
+      "address": "13.197.100.0/22",
       "service": "EFS",
       "region": "ap-northeast-1",
       "network_border_group": "ap-northeast-1"
@@ -105345,6 +105369,12 @@
     },
     {
       "address": "2406:da14:1964:d500::/56",
+      "service": "EFS",
+      "region": "ap-northeast-1",
+      "network_border_group": "ap-northeast-1"
+    },
+    {
+      "address": "2406:da14:1e82:a000::/56",
       "service": "EFS",
       "region": "ap-northeast-1",
       "network_border_group": "ap-northeast-1"

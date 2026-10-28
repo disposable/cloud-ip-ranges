@@ -1,14 +1,15 @@
 {
   "provider": "Oracle Cloud",
   "provider_id": "oracle-cloud",
+  "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-29T04:14:29.802598",
+  "generated_at": "2026-10-28T03:59:09.561725",
   "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-09-29T04:14:29.802598",
+  "last_update": "2026-10-28T03:59:09.561725",
   "ipv4": [
     {
       "address": "40.233.0.0/19",
@@ -285,6 +286,142 @@
     {
       "address": "92.4.202.0/23",
       "region": "af-casablanca-1"
+    },
+    {
+      "address": "51.170.176.0/20",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "84.235.160.0/19",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "92.5.192.0/19",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "92.5.224.0/20",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "134.98.128.0/19",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "140.204.84.0/23",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "141.144.192.0/19",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "141.148.224.0/19",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "143.47.176.0/20",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "144.21.32.0/20",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "150.230.20.0/22",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "152.70.48.0/20",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "158.101.192.0/19",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "158.178.144.0/20",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "158.180.8.0/21",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "168.138.120.0/22",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "193.122.16.0/20",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "193.123.32.0/19",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "62.115.179.220/31",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "62.115.179.228/31",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "79.72.32.0/22",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "79.76.24.0/21",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "92.5.255.0/24",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "134.70.104.0/22",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "140.83.44.0/22",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "140.91.44.0/23",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "140.204.36.128/25",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "140.204.38.128/25",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "140.204.40.128/25",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "158.178.220.0/22",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "192.29.192.0/22",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "192.29.200.0/21",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "213.19.198.156/31",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "213.19.198.164/31",
+      "region": "eu-amsterdam-1"
     },
     {
       "address": "64.110.64.0/19",
@@ -2015,6 +2152,10 @@
       "region": "af-johannesburg-1"
     },
     {
+      "address": "84.12.64.0/18",
+      "region": "af-johannesburg-1"
+    },
+    {
       "address": "92.4.128.0/19",
       "region": "af-johannesburg-1"
     },
@@ -2067,136 +2208,12 @@
       "region": "af-johannesburg-1"
     },
     {
-      "address": "84.235.160.0/19",
-      "region": "eu-amsterdam-1"
+      "address": "84.12.128.0/18",
+      "region": "me-dubai-1"
     },
     {
-      "address": "92.5.192.0/19",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "92.5.224.0/20",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "134.98.128.0/19",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "140.204.84.0/23",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "141.144.192.0/19",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "141.148.224.0/19",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "143.47.176.0/20",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "144.21.32.0/20",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "150.230.20.0/22",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "152.70.48.0/20",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "158.101.192.0/19",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "158.178.144.0/20",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "158.180.8.0/21",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "168.138.120.0/22",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "193.122.16.0/20",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "193.123.32.0/19",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "62.115.179.220/31",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "62.115.179.228/31",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "79.72.32.0/22",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "79.76.24.0/21",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "92.5.255.0/24",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "134.70.104.0/22",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "140.83.44.0/22",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "140.91.44.0/23",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "140.204.36.128/25",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "140.204.38.128/25",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "140.204.40.128/25",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "158.178.220.0/22",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "192.29.192.0/22",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "192.29.200.0/21",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "213.19.198.156/31",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "213.19.198.164/31",
-      "region": "eu-amsterdam-1"
+      "address": "84.12.224.0/19",
+      "region": "me-dubai-1"
     },
     {
       "address": "84.235.240.0/20",
@@ -2707,6 +2724,10 @@
       "region": "sa-santiago-1"
     },
     {
+      "address": "155.181.128.0/18",
+      "region": "sa-santiago-1"
+    },
+    {
       "address": "159.112.128.0/20",
       "region": "sa-santiago-1"
     },
@@ -3112,6 +3133,14 @@
     },
     {
       "address": "129.150.32.0/19",
+      "region": "ap-singapore-1"
+    },
+    {
+      "address": "129.221.32.0/19",
+      "region": "ap-singapore-1"
+    },
+    {
+      "address": "129.221.128.0/17",
       "region": "ap-singapore-1"
     },
     {
@@ -4003,6 +4032,22 @@
       "region": "us-sanantonio-1"
     },
     {
+      "address": "149.118.128.0/19",
+      "region": "ap-kulai-2"
+    },
+    {
+      "address": "155.181.8.0/21",
+      "region": "ap-kulai-2"
+    },
+    {
+      "address": "155.181.16.0/20",
+      "region": "ap-kulai-2"
+    },
+    {
+      "address": "129.38.64.0/18",
+      "region": "sa-bogota-1"
+    },
+    {
       "address": "149.130.160.0/19",
       "region": "sa-bogota-1"
     },
@@ -4521,6 +4566,22 @@
       "region": "af-casablanca-1"
     },
     {
+      "address": "2603:c022:c000::/35",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "2603:c002:b00::/40",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "2603:c002:8b00::/40",
+      "region": "eu-amsterdam-1"
+    },
+    {
+      "address": "2603:c011:6000::/36",
+      "region": "eu-amsterdam-1"
+    },
+    {
       "address": "2603:c022:8000::/35",
       "region": "ap-seoul-1"
     },
@@ -4807,22 +4868,6 @@
     {
       "address": "2603:c013:2000::/36",
       "region": "af-johannesburg-1"
-    },
-    {
-      "address": "2603:c022:c000::/35",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "2603:c002:b00::/40",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "2603:c002:8b00::/40",
-      "region": "eu-amsterdam-1"
-    },
-    {
-      "address": "2603:c011:6000::/36",
-      "region": "eu-amsterdam-1"
     },
     {
       "address": "2603:c026:8000::/35",
@@ -5143,6 +5188,22 @@
     {
       "address": "2603:c01b:2000::/36",
       "region": "us-sanantonio-1"
+    },
+    {
+      "address": "2603:c030::/35",
+      "region": "ap-kulai-2"
+    },
+    {
+      "address": "2603:c002:3b00::/40",
+      "region": "ap-kulai-2"
+    },
+    {
+      "address": "2603:c002:bb00::/40",
+      "region": "ap-kulai-2"
+    },
+    {
+      "address": "2603:c01a:e000::/36",
+      "region": "ap-kulai-2"
     },
     {
       "address": "2603:c029:8000::/35",
