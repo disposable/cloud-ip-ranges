@@ -4,12 +4,12 @@
   "category": "proxy",
   "method": "published_list",
   "coverage_notes": "NordVPN server exit IPs (online servers only)",
-  "generated_at": "2026-10-29T04:49:10.157896",
+  "generated_at": "2026-10-30T04:37:01.576314",
   "source_updated_at": null,
   "source": [
     "https://api.nordvpn.com/v1/servers?limit=50000"
   ],
-  "last_update": "2026-10-29T04:49:10.157896",
+  "last_update": "2026-10-30T04:37:01.576314",
   "ipv4": [
     "103.192.80.3/32",
     "103.214.45.103/32",
@@ -4671,7 +4671,6 @@
     "187.15.82.84/32",
     "187.15.83.101/32",
     "187.15.83.129/32",
-    "187.15.83.41/32",
     "187.15.83.61/32",
     "187.15.83.81/32",
     "187.15.84.150/32",
@@ -7255,6 +7254,7 @@
     "95.177.101.9/32",
     "95.177.122.130/32",
     "95.177.122.132/32",
+    "187.15.83.41/32",
     "146.70.238.163/32"
   ],
   "ipv6": [],
@@ -7264,10 +7264,14 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Thu, 29 Oct 2026 04:49:09 GMT"
+      "last_modified": "Fri, 30 Oct 2026 04:37:01 GMT"
     }
   ],
   "details_ipv4": [
+    {
+      "address": "187.15.83.41/32",
+      "retired_at": "2026-10-30T04:37:26.494384+00:00"
+    },
     {
       "address": "146.70.238.163/32",
       "retired_at": "2026-10-27T03:59:00.592656+00:00"
