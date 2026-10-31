@@ -1,12 +1,13 @@
 {
   "provider": "Microsoft 365",
   "provider_id": "microsoft-365",
+  "category": "cloud",
   "method": "published_list",
   "coverage_notes": "Microsoft 365 Worldwide instance endpoints ONLY. Includes Exchange, SharePoint, Skype, Common services. Does NOT include Azure service tags or general Microsoft networks.",
-  "generated_at": "2026-08-15T01:05:54.063700",
-  "source_updated_at": "2026081400",
+  "generated_at": "2026-10-31T04:02:22.967865",
+  "source_updated_at": "2026103000",
   "source": "https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-ip-web-service",
-  "last_update": "2026-08-15T01:05:54.063700",
+  "last_update": "2026-10-31T04:02:22.967865",
   "ipv4": [
     {
       "address": "13.107.6.152/31",
