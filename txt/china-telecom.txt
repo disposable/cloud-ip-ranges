@@ -1,7 +1,7 @@
 # provider: China Telecom
 # category: cloud
 # source: https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS4816, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS4835, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS23650, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS23724, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS38283, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58466, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58519, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58540, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58541, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58543, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58563, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58772, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS59223, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS133774, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS133776, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134238, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134420, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134756, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134760, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134761, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134763, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134764, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134765, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134766, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134768, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134769, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134770, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134771, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS135089, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136188, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136190, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136191, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136192, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136195, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS137690, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS137693, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS137697, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS137698, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS137702, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS138950, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS138982, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS139201, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS139203, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS139220, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS139887, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS140527, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS141679, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS141998, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS142608, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS146966, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS148981, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS149837, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS150145
-# last_update: 2026-11-05T05:20:07.729300
+# last_update: 2026-11-06T05:20:01.546140
 
 1.203.115.0/24
 1.203.124.0/22
@@ -1228,6 +1228,7 @@
 117.91.197.0/24
 117.91.198.0/24
 117.91.199.0/24
+117.91.208.0/24
 117.91.40.0/22
 118.102.16.0/22
 118.102.20.0/22
@@ -1689,7 +1690,6 @@
 120.133.48.0/20
 120.133.51.0/24
 120.133.64.0/20
-120.133.66.0/24
 120.133.80.0/20
 120.134.0.0/15
 120.135.0.0/24
@@ -1829,6 +1829,7 @@
 121.229.70.0/24
 121.229.88.0/21
 121.229.96.0/21
+121.233.135.0/24
 121.233.142.0/24
 121.233.192.0/22
 121.233.208.0/23
@@ -2709,6 +2710,7 @@
 180.102.58.0/23
 180.102.96.0/22
 180.103.47.0/24
+180.103.54.0/23
 180.103.66.0/24
 180.103.67.0/24
 180.109.116.0/22
@@ -3617,6 +3619,7 @@
 218.91.116.0/23
 218.91.116.0/24
 218.91.117.0/24
+218.91.126.0/23
 218.94.231.0/24
 218.94.232.0/24
 218.95.37.0/24
@@ -6066,14 +6069,15 @@
 240e:ff:d780::/41
 240e:ff:e000::/36
 240e:ff:f000::/36
-103.15.96.0/22
-43.242.204.0/23
-103.36.62.0/24
-106.120.232.0/23
-103.42.8.0/22
-106.121.0.0/19
 103.235.85.0/24
+103.42.8.0/22
+106.121.128.0/18
+106.121.0.0/19
+120.133.66.0/24
 101.236.120.0/21
+103.15.96.0/22
+106.120.232.0/23
+106.37.32.0/20
 103.135.236.0/24
 106.121.64.0/19
 101.236.104.0/21
@@ -6087,7 +6091,6 @@
 101.236.88.0/21
 103.36.164.0/24
 103.37.16.0/23
-106.121.128.0/18
 103.36.60.0/24
 106.37.48.0/23
 106.37.56.0/23
@@ -6107,10 +6110,11 @@
 202.189.32.0/21
 202.189.48.0/22
 101.236.112.0/21
-106.37.32.0/20
+114.112.65.0/24
 202.189.40.0/21
+103.36.62.0/24
 106.38.128.0/21
 114.112.69.0/24
 125.64.32.0/24
-114.112.65.0/24
+43.242.204.0/23
 2402:4e00::/32

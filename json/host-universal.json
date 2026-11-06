@@ -4,12 +4,12 @@
   "category": "proxy",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-10-30T04:34:42.719364",
+  "generated_at": "2026-11-06T05:18:57.842941",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136557"
   ],
-  "last_update": "2026-10-30T04:34:42.719364",
+  "last_update": "2026-11-06T05:18:57.842941",
   "ipv4": [
     "103.108.229.0/24",
     "103.108.230.0/24",
@@ -91,9 +91,9 @@
     "45.67.86.0/24",
     "5.183.77.0/24",
     "61.248.255.0/24",
-    "66.118.247.0/24",
     "91.190.106.0/24",
-    "93.95.118.0/24"
+    "93.95.118.0/24",
+    "66.118.247.0/24"
   ],
   "ipv6": [
     "2401:7fa0:1::/48",
@@ -154,6 +154,12 @@
       "content_type": "application/json; charset=utf-8",
       "etag": null,
       "last_modified": null
+    }
+  ],
+  "details_ipv4": [
+    {
+      "address": "66.118.247.0/24",
+      "retired_at": "2026-11-06T05:21:04.494520+00:00"
     }
   ]
 }

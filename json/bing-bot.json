@@ -4,7 +4,7 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-01-29T12:22:22.961958",
+  "generated_at": "2026-11-06T05:06:03.140859",
   "source_updated_at": "2024-01-03T10:00:00.121331",
   "source": [
     "https://www.bing.com/toolbox/bingbot.json"
@@ -36,6 +36,7 @@
     "40.79.131.208/28",
     "40.79.186.176/28",
     "51.105.67.0/28",
+    "52.130.224.112/28",
     "52.167.144.0/24",
     "52.231.148.0/28",
     "65.55.210.0/24"
@@ -89,6 +90,11 @@
     },
     {
       "address": "139.217.52.0/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "52.130.224.112/28",
       "service": null,
       "scope": null
     },
@@ -189,8 +195,8 @@
       "url": "https://www.bing.com/toolbox/bingbot.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"76f6d387bd8adc1:0\"",
-      "last_modified": "Wed, 21 Jan 2026 10:05:54 GMT"
+      "etag": "\"1dd6c5ffd660964\"",
+      "last_modified": "Wed, 04 Nov 2026 13:25:42 GMT"
     }
   ]
 }

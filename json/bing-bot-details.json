@@ -1,9 +1,10 @@
 {
   "provider": "Bing Bot",
   "provider_id": "bing-bot",
+  "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-01-29T12:22:22.961958",
+  "generated_at": "2026-11-06T05:06:03.140859",
   "source_updated_at": "2024-01-03T10:00:00.121331",
   "source": [
     "https://www.bing.com/toolbox/bingbot.json"
@@ -57,6 +58,11 @@
     },
     {
       "address": "139.217.52.0/28",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "52.130.224.112/28",
       "service": null,
       "scope": null
     },
