@@ -4,7 +4,7 @@
   "category": "cloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-11-07T04:40:43.741700",
+  "generated_at": "2026-11-08T04:28:59.174885",
   "source_updated_at": null,
   "source": [
     "RADB::AS-ALIBABA-CN-NET",
@@ -14,7 +14,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60924",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134963"
   ],
-  "last_update": "2026-11-07T04:40:43.741700",
+  "last_update": "2026-11-08T04:28:59.174885",
   "ipv4": [
     "101.132.0.0/15",
     "101.132.0.0/16",
@@ -643,6 +643,7 @@
     "203.209.254.0/23",
     "205.198.40.0/24",
     "205.198.41.0/24",
+    "205.198.42.0/24",
     "205.198.43.0/24",
     "205.198.44.0/24",
     "205.198.45.0/24",
@@ -2629,8 +2630,8 @@
     "2a13:e8c6::/33",
     "2a13:e8c7:8000::/33",
     "2a13:e8c7::/33",
-    "240b:400e:fffe::/48",
-    "240b:400e:ffff::/48"
+    "240b:400e:ffff::/48",
+    "240b:400e:fffe::/48"
   ],
   "source_http": [
     {
@@ -2677,11 +2678,11 @@
   ],
   "details_ipv6": [
     {
-      "address": "240b:400e:fffe::/48",
+      "address": "240b:400e:ffff::/48",
       "retired_at": "2026-10-13T05:47:40.332035+00:00"
     },
     {
-      "address": "240b:400e:ffff::/48",
+      "address": "240b:400e:fffe::/48",
       "retired_at": "2026-10-13T05:47:40.332035+00:00"
     }
   ]

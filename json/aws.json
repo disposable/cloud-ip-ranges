@@ -4,12 +4,12 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-11-07T04:39:34.188453",
-  "source_updated_at": "2026-11-07-01-07-05",
+  "generated_at": "2026-11-08T04:27:42.857940",
+  "source_updated_at": "2026-11-08-01-47-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-11-07-01-07-05",
+  "last_update": "2026-11-08-01-47-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -4095,6 +4095,7 @@
     "3.33.0.0/24",
     "3.33.1.0/24",
     "3.33.128.0/17",
+    "3.33.2.0/24",
     "3.33.44.0/22",
     "3.34.0.0/15",
     "3.34.101.192/26",
@@ -7432,6 +7433,8 @@
     "69.107.13.120/29",
     "69.107.13.128/29",
     "69.107.13.136/29",
+    "69.107.13.144/29",
+    "69.107.13.152/29",
     "69.107.13.16/29",
     "69.107.13.24/29",
     "69.107.13.32/29",
@@ -8904,6 +8907,7 @@
     "2600:1f01:494c::/47",
     "2600:1f01:494e::/47",
     "2600:1f01:4950::/47",
+    "2600:1f01:4952::/47",
     "2600:1f10:2000::/36",
     "2600:1f10:4000::/36",
     "2600:1f10:4040:3800::/56",
@@ -14648,6 +14652,12 @@
       "network_border_group": "eu-west-2"
     },
     {
+      "address": "69.107.13.152/29",
+      "service": "AMAZON",
+      "region": "sa-east-1",
+      "network_border_group": "sa-east-1"
+    },
+    {
       "address": "104.255.57.179/32",
       "service": "AMAZON",
       "region": "us-west-2",
@@ -19641,6 +19651,12 @@
     },
     {
       "address": "69.107.11.72/29",
+      "service": "AMAZON",
+      "region": "sa-east-1",
+      "network_border_group": "sa-east-1"
+    },
+    {
+      "address": "69.107.13.144/29",
       "service": "AMAZON",
       "region": "sa-east-1",
       "network_border_group": "sa-east-1"
@@ -39468,6 +39484,12 @@
       "service": "EC2",
       "region": "il-central-1",
       "network_border_group": "il-central-1"
+    },
+    {
+      "address": "3.33.2.0/24",
+      "service": "AMAZON",
+      "region": "sa-east-1",
+      "network_border_group": "sa-east-1"
     },
     {
       "address": "13.248.106.96/28",
@@ -64304,6 +64326,12 @@
       "network_border_group": "ap-southeast-1"
     },
     {
+      "address": "2600:1f01:4952::/47",
+      "service": "AMAZON",
+      "region": "sa-east-1",
+      "network_border_group": "sa-east-1"
+    },
+    {
       "address": "2600:1feb:1000::/40",
       "service": "EC2",
       "region": "ca-central-1",
@@ -80349,8 +80377,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"4b63879ab680e5dff579938920cf2cea\"",
-      "last_modified": "Sat, 07 Nov 2026 02:58:01 GMT"
+      "etag": "\"7cbb94371a40c5047565d75d4af4e084\"",
+      "last_modified": "Sun, 08 Nov 2026 03:28:01 GMT"
     }
   ]
 }
