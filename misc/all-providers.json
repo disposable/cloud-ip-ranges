@@ -1,6 +1,6 @@
 {
   "provider": "All Providers",
-  "generated_at": "2026-11-08T04:44:12.822389",
+  "generated_at": "2026-11-09T04:56:27.694728",
   "provider_count": 2,
   "providers": [
     {
@@ -11,7 +11,7 @@
       "source": [
         "https://api.cloudflare.com/local-ip-ranges.csv"
       ],
-      "last_update": "2026-11-08T04:44:04.761679",
+      "last_update": "2026-11-09T04:56:19.638184",
       "ipv4_count": 65537,
       "ipv6_count": 86135
     },
@@ -23,7 +23,7 @@
       "source": [
         "https://geoip.starlinkisp.net/feed.csv"
       ],
-      "last_update": "2026-11-08T04:44:12.680803",
+      "last_update": "2026-11-09T04:56:27.551032",
       "ipv4_count": 3632,
       "ipv6_count": 916
     }
@@ -130843,13 +130843,13 @@
     "2a0d:3344:1280::/42"
   ],
   "retired_ip_providers": {
-    "172.64.242.40/32": [
+    "104.30.182.158/32": [
       "cloudflare-warp"
     ],
     "162.159.66.40/32": [
       "cloudflare-warp"
     ],
-    "104.30.182.158/32": [
+    "172.64.242.40/32": [
       "cloudflare-warp"
     ],
     "2a0d:3344:1280::/42": [
