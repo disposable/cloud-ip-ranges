@@ -4,12 +4,12 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-11-10T05:56:27.874795",
+  "generated_at": "2026-11-11T04:42:54.015238",
   "source_updated_at": null,
   "source": [
     "https://api.github.com/meta"
   ],
-  "last_update": "2026-11-10T05:56:27.874795",
+  "last_update": "2026-11-11T04:42:54.015238",
   "ipv4": [
     "135.235.149.144/28",
     "140.82.112.0/20",
@@ -28,7 +28,6 @@
     "20.199.39.232/32",
     "20.200.245.244/32",
     "20.200.245.247/32",
-    "20.201.28.151/32",
     "20.205.243.161/32",
     "20.205.243.166/32",
     "20.207.73.81/32",
@@ -81,7 +80,8 @@
     "48.204.201.5/32",
     "9.234.106.48/28",
     "9.234.98.160/28",
-    "9.234.98.176/28"
+    "9.234.98.176/28",
+    "20.201.28.151/32"
   ],
   "ipv6": [
     "2606:50c0::/32",
@@ -102,22 +102,6 @@
     },
     {
       "address": "192.30.252.0/22",
-      "category": "hooks"
-    },
-    {
-      "address": "185.199.108.0/22",
-      "category": "hooks"
-    },
-    {
-      "address": "140.82.112.0/20",
-      "category": "hooks"
-    },
-    {
-      "address": "143.55.64.0/20",
-      "category": "hooks"
-    },
-    {
-      "address": "192.30.252.0/22",
       "category": "web"
     },
     {
@@ -130,10 +114,6 @@
     },
     {
       "address": "143.55.64.0/20",
-      "category": "web"
-    },
-    {
-      "address": "20.201.28.151/32",
       "category": "web"
     },
     {
@@ -387,17 +367,13 @@
     {
       "address": "48.204.201.5/32",
       "category": "web"
+    },
+    {
+      "address": "20.201.28.151/32",
+      "retired_at": "2026-11-11T04:57:10.456300+00:00"
     }
   ],
   "details_ipv6": [
-    {
-      "address": "2a0a:a440::/29",
-      "category": "hooks"
-    },
-    {
-      "address": "2606:50c0::/32",
-      "category": "hooks"
-    },
     {
       "address": "2a0a:a440::/29",
       "category": "web"
@@ -412,7 +388,7 @@
       "url": "https://api.github.com/meta",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "etag": "W/\"4dd6b8563207cfbc7d5a390e6ffa876a64c704ac2a72b1e02a2c88bcf17d5e5e\"",
+      "etag": "W/\"8beea7c9e39a85581f1c82747e8a1faec0b4cf776b47c79caab416db29f4f288\"",
       "last_modified": null
     }
   ]
