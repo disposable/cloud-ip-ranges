@@ -4,12 +4,12 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-11-11T04:42:48.806635",
-  "source_updated_at": "2026-11-10-20-47-05",
+  "generated_at": "2026-11-12T05:45:10.766761",
+  "source_updated_at": "2026-11-12-03-27-05",
   "source": [
     "https://ip-ranges.amazonaws.com/ip-ranges.json"
   ],
-  "last_update": "2026-11-10-20-47-05",
+  "last_update": "2026-11-12-03-27-05",
   "ipv4": [
     "1.178.1.0/24",
     "1.178.10.0/24",
@@ -44,6 +44,7 @@
     "1.178.7.0/24",
     "1.178.72.0/21",
     "1.178.8.0/24",
+    "1.178.86.0/24",
     "1.178.88.0/24",
     "1.178.89.0/24",
     "1.178.9.0/24",
@@ -2764,6 +2765,7 @@
     "16.66.0.0/16",
     "16.66.4.0/22",
     "16.66.84.0/23",
+    "16.66.86.0/23",
     "16.67.0.0/16",
     "16.71.0.0/18",
     "16.71.64.0/18",
@@ -7945,6 +7947,7 @@
     "99.83.107.0/24",
     "99.83.108.0/24",
     "99.83.109.0/24",
+    "99.83.110.0/24",
     "99.83.112.0/21",
     "99.83.120.0/22",
     "99.83.128.0/17",
@@ -7964,8 +7967,7 @@
     "99.87.16.0/20",
     "99.87.32.0/22",
     "99.87.4.0/22",
-    "99.87.8.0/21",
-    "1.178.86.0/24"
+    "99.87.8.0/21"
   ],
   "ipv6": [
     "2001:3fc0:800::/40",
@@ -34133,6 +34135,12 @@
       "network_border_group": "us-west-2"
     },
     {
+      "address": "1.178.86.0/24",
+      "service": "EC2",
+      "region": "ap-southeast-3",
+      "network_border_group": "ap-southeast-3"
+    },
+    {
       "address": "1.178.172.0/23",
       "service": "GLOBALACCELERATOR",
       "region": "GLOBAL",
@@ -42797,6 +42805,12 @@
       "network_border_group": "ap-southeast-1"
     },
     {
+      "address": "99.83.110.0/24",
+      "service": "GLOBALACCELERATOR",
+      "region": "us-east-1",
+      "network_border_group": "us-east-1"
+    },
+    {
       "address": "104.255.59.86/32",
       "service": "AMAZON",
       "region": "ap-south-1",
@@ -44646,6 +44660,12 @@
     },
     {
       "address": "16.66.84.0/23",
+      "service": "AMAZON",
+      "region": "us-gov-east-1",
+      "network_border_group": "us-gov-east-1"
+    },
+    {
+      "address": "16.66.86.0/23",
       "service": "AMAZON",
       "region": "us-gov-east-1",
       "network_border_group": "us-gov-east-1"
@@ -59235,10 +59255,6 @@
       "service": "DYNAMODB",
       "region": "us-east-1",
       "network_border_group": "us-east-1"
-    },
-    {
-      "address": "1.178.86.0/24",
-      "retired_at": "2026-11-07T04:53:20.513322+00:00"
     }
   ],
   "details_ipv6": [
@@ -80494,8 +80510,8 @@
       "url": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"d79ba3000aa0947f4e2efa2e551aa952\"",
-      "last_modified": "Tue, 10 Nov 2026 22:26:14 GMT"
+      "etag": "\"20bd5f12a251c10a609dd1f6764400ce\"",
+      "last_modified": "Thu, 12 Nov 2026 05:27:02 GMT"
     }
   ]
 }

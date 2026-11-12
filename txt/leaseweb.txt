@@ -1,7 +1,7 @@
 # provider: Leaseweb
 # category: cloud
 # source: RADB::AS-LEASEWEB, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS7203, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS15003, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS16265, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS18875, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS19148, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS22476, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25847, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS26516, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS27411, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS28203, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS28753, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS30633, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS32613, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS46095, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS46269, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS46861, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS55271, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS59253, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60626, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60781, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS133752, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134351, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136988, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS205544, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS393595, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS393886, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS394380, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS395467, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS395954, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS396190, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS396362, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS397408
-# last_update: 2026-11-11T04:54:36.735291
+# last_update: 2026-11-12T05:57:43.351399
 
 103.101.128.0/22
 103.119.218.0/24
@@ -1882,6 +1882,7 @@
 2a06:1780::/32
 2a06:35c0:2123::/48
 2a06:35c2::/32
+2a06:3600::/29
 2a06:3bc0::/29
 2a06:a5c0::/29
 2a06:ab00::/32
@@ -2167,7 +2168,7 @@
 2a13:fb00::/29
 2a14:6881::/32
 67.201.40.0/24
-72.37.221.0/24
+185.71.60.0/22
 193.58.109.0/24
 45.141.179.0/24
 72.37.222.0/23
@@ -2179,16 +2180,16 @@
 80.65.32.0/20
 45.154.84.0/24
 72.37.237.0/24
+213.139.219.0/24
+72.37.218.0/23
+72.37.221.0/24
+193.23.245.0/24
+72.37.224.0/21
 173.234.192.0/20
 72.37.242.0/23
 193.58.110.0/24
 69.174.60.0/22
 193.58.111.0/24
-185.71.60.0/22
-72.37.218.0/23
-213.139.219.0/24
-193.23.245.0/24
-72.37.224.0/21
 67.201.0.0/21
 2a12:ecc0:158::/48
 2a13:c906::/32
@@ -2197,6 +2198,6 @@
 2a13:c907::/32
 2a13:d46::/32
 2a10:67c7::/32
-2a0f:2707::/32
-2a03:38a0::/32
 2a13:8c85::/32
+2a03:38a0::/32
+2a0f:2707::/32
