@@ -1,7 +1,7 @@
 # provider: Leaseweb
 # category: cloud
 # source: RADB::AS-LEASEWEB, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS7203, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS15003, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS16265, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS18875, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS19148, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS22476, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS25847, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS26516, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS27411, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS28203, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS28753, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS30633, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS32613, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS46095, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS46269, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS46861, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS55271, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS59253, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60626, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60781, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS133752, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134351, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS136988, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS205544, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS393595, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS393886, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS394380, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS395467, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS395954, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS396190, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS396362, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS397408
-# last_update: 2026-11-12T05:57:43.351399
+# last_update: 2026-11-13T05:18:33.600816
 
 103.101.128.0/22
 103.119.218.0/24
@@ -153,7 +153,6 @@
 140.233.166.0/24
 141.11.118.0/24
 141.11.232.0/23
-141.193.20.0/24
 141.193.22.0/24
 141.193.99.0/24
 142.111.104.0/24
@@ -363,6 +362,10 @@
 152.163.88.0/22
 152.163.92.0/22
 152.163.96.0/22
+153.79.64.0/24
+153.79.65.0/24
+153.79.66.0/24
+153.79.67.0/24
 154.17.148.0/24
 154.17.163.0/24
 154.27.210.0/24
@@ -772,7 +775,6 @@
 185.73.32.0/23
 185.73.33.0/24
 185.73.34.0/24
-185.9.52.0/24
 185.94.166.0/24
 185.96.140.0/24
 185.99.135.0/24
@@ -1354,7 +1356,6 @@
 45.146.182.0/24
 45.146.183.0/24
 45.146.220.0/24
-45.146.89.0/24
 45.147.100.0/24
 45.147.101.0/24
 45.147.102.0/24
@@ -1365,7 +1366,6 @@
 45.147.60.0/24
 45.148.7.0/24
 45.151.103.0/24
-45.151.104.0/24
 45.151.105.0/24
 45.151.107.0/24
 45.152.197.0/24
@@ -2167,19 +2167,18 @@
 2a13:f900::/29
 2a13:fb00::/29
 2a14:6881::/32
+45.146.89.0/24
+141.193.20.0/24
+185.9.52.0/24
+45.151.104.0/24
 67.201.40.0/24
-185.71.60.0/22
+80.65.32.0/20
 193.58.109.0/24
 45.141.179.0/24
 72.37.222.0/23
 103.139.48.0/24
 45.134.186.0/24
 81.29.158.0/24
-108.165.151.0/24
-64.226.54.0/24
-80.65.32.0/20
-45.154.84.0/24
-72.37.237.0/24
 213.139.219.0/24
 72.37.218.0/23
 72.37.221.0/24
@@ -2190,6 +2189,11 @@
 193.58.110.0/24
 69.174.60.0/22
 193.58.111.0/24
+45.154.84.0/24
+72.37.237.0/24
+64.226.54.0/24
+185.71.60.0/22
+108.165.151.0/24
 67.201.0.0/21
 2a12:ecc0:158::/48
 2a13:c906::/32
@@ -2197,7 +2201,7 @@
 2a0e:c784::/32
 2a13:c907::/32
 2a13:d46::/32
-2a10:67c7::/32
 2a13:8c85::/32
 2a03:38a0::/32
 2a0f:2707::/32
+2a10:67c7::/32
