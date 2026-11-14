@@ -4,7 +4,7 @@
   "category": "cloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-11-12T05:46:19.521839",
+  "generated_at": "2026-11-14T04:56:56.946626",
   "source_updated_at": null,
   "source": [
     "RADB::AS-ALIBABA-CN-NET",
@@ -14,7 +14,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60924",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134963"
   ],
-  "last_update": "2026-11-12T05:46:19.521839",
+  "last_update": "2026-11-14T04:56:56.946626",
   "ipv4": [
     "101.132.0.0/15",
     "101.132.0.0/16",
@@ -1013,6 +1013,9 @@
     "43.94.0.0/18",
     "43.94.0.0/19",
     "43.94.32.0/19",
+    "43.95.192.0/18",
+    "43.95.192.0/19",
+    "43.95.224.0/19",
     "43.96.0.0/24",
     "43.96.10.0/24",
     "43.96.100.0/24",
