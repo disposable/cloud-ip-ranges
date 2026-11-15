@@ -1,7 +1,7 @@
 # provider: Tencent
 # category: cloud
 # source: RADB::AS132203:AS-TENCENT, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS45090, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS58835, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS132203, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS132591, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS133478, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134103, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS139341
-# last_update: 2026-11-12T05:46:20.681888
+# last_update: 2026-11-15T04:49:50.956577
 
 1.116.0.0/15
 1.116.0.0/18
@@ -3388,7 +3388,9 @@
 43.168.134.0/24
 43.168.135.0/24
 43.168.136.0/24
+43.168.139.0/24
 43.168.14.0/24
+43.168.140.0/24
 43.168.141.0/24
 43.168.143.0/24
 43.168.144.0/24
@@ -4578,7 +4580,6 @@
 240d:c010:165::/48
 240d:c010:168::/48
 240d:c010:169::/48
-240d:c010:16::/48
 240d:c010:16a::/48
 240d:c010:16b::/48
 240d:c010:16c::/48
@@ -4757,7 +4758,7 @@
 240d:c040::/44
 2a0b:1880:a::/48
 101.33.26.0/24
-43.175.69.0/24
+43.180.96.0/20
 111.231.192.0/19
 111.231.196.0/22
 111.231.200.0/22
@@ -4783,7 +4784,7 @@
 140.143.96.0/22
 150.109.190.0/23
 43.175.174.0/23
-43.180.96.0/20
+43.175.69.0/24
 45.40.224.0/20
 45.40.236.0/23
 162.14.44.0/22
@@ -4791,3 +4792,4 @@
 43.168.126.0/24
 111.231.224.0/22
 240d:c010:1bd::/48
+240d:c010:16::/48
