@@ -1,7 +1,7 @@
 # provider: Zscaler
 # category: cloud
 # source: https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required, https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended
-# last_update: 2026-07-29T02:27:16.549985
+# last_update: 2026-11-17T06:32:51.593403
 
 101.2.192.0/18
 101.2.220.0/23
@@ -137,6 +137,8 @@
 213.152.228.0/24
 216.218.133.192/26
 216.52.207.64/26
+220.42.0.0/16
+220.43.0.0/16
 64.74.126.64/26
 70.39.159.0/24
 72.52.96.0/26

@@ -1,15 +1,16 @@
 {
   "provider": "Zscaler",
   "provider_id": "zscaler",
+  "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-29T02:27:16.549985",
+  "generated_at": "2026-11-17T06:32:51.593403",
   "source_updated_at": null,
   "source": [
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"
   ],
-  "last_update": "2026-07-29T02:27:16.549985",
+  "last_update": "2026-11-17T06:32:51.593403",
   "ipv4": [
     {
       "address": "8.25.203.0/24",
@@ -629,6 +630,14 @@
     },
     {
       "address": "216.218.133.192/26",
+      "category": "recommended"
+    },
+    {
+      "address": "220.42.0.0/16",
+      "category": "recommended"
+    },
+    {
+      "address": "220.43.0.0/16",
       "category": "recommended"
     }
   ],

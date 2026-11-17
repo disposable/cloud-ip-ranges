@@ -4,13 +4,13 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-07-29T02:27:16.549985",
+  "generated_at": "2026-11-17T06:32:51.593403",
   "source_updated_at": null,
   "source": [
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required",
     "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"
   ],
-  "last_update": "2026-07-29T02:27:16.549985",
+  "last_update": "2026-11-17T06:32:51.593403",
   "ipv4": [
     "101.2.192.0/18",
     "101.2.220.0/23",
@@ -146,6 +146,8 @@
     "213.152.228.0/24",
     "216.218.133.192/26",
     "216.52.207.64/26",
+    "220.42.0.0/16",
+    "220.43.0.0/16",
     "64.74.126.64/26",
     "70.39.159.0/24",
     "72.52.96.0/26",
@@ -830,6 +832,14 @@
     {
       "address": "216.218.133.192/26",
       "category": "recommended"
+    },
+    {
+      "address": "220.42.0.0/16",
+      "category": "recommended"
+    },
+    {
+      "address": "220.43.0.0/16",
+      "category": "recommended"
     }
   ],
   "details_ipv6": [
@@ -1270,7 +1280,7 @@
       "url": "https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "etag": "W/\"727-pKpStk7YqQU/7EXFUAs06R9gJ54\"",
+      "etag": "W/\"747-COmhqDGmA9HE6jXJldeCVFEzquQ\"",
       "last_modified": null
     }
   ]
