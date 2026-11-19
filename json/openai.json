@@ -4,7 +4,7 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-11-17T06:32:32.055037",
+  "generated_at": "2026-11-19T05:54:46.199930",
   "source_updated_at": "2026-01-02T11:00:00.000000",
   "source": [
     "https://openai.com/chatgpt-user.json",
@@ -300,8 +300,7 @@
     "9.205.8.64/28",
     "9.223.181.208/28",
     "9.234.96.192/28",
-    "9.234.97.96/28",
-    "9.129.0.0/17"
+    "9.234.97.96/28"
   ],
   "ipv6": [],
   "details_ipv4": [
@@ -1706,6 +1705,11 @@
       "scope": null
     },
     {
+      "address": "4.227.36.0/25",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "40.67.175.0/25",
       "service": null,
       "scope": null
@@ -1717,6 +1721,16 @@
     },
     {
       "address": "51.8.102.0/24",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.7.175.128/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.7.228.0/25",
       "service": null,
       "scope": null
     },
@@ -1736,6 +1750,16 @@
       "scope": null
     },
     {
+      "address": "74.7.230.0/25",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "74.7.241.128/25",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "74.7.242.128/25",
       "service": null,
       "scope": null
@@ -1746,8 +1770,9 @@
       "scope": null
     },
     {
-      "address": "9.129.0.0/17",
-      "retired_at": "2026-10-21T03:27:32.302167+00:00"
+      "address": "74.7.244.0/25",
+      "service": null,
+      "scope": null
     }
   ],
   "details_ipv6": [],
@@ -1764,14 +1789,14 @@
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": "W/\"4c4f5439a5de299b831d64fbdae91310\"",
-      "last_modified": "Tue, 22 Sep 2026 17:16:01 GMT"
+      "last_modified": "Tue, 22 Sep 2026 17:08:25 GMT"
     },
     {
       "url": "https://openai.com/searchbot.json",
       "status": 200,
       "content_type": "application/json; charset=utf-8",
       "etag": "W/\"99fdd9a538da07ddb06a430cf0c9f328\"",
-      "last_modified": "Thu, 10 Sep 2026 19:47:04 GMT"
+      "last_modified": "Thu, 10 Sep 2026 19:33:35 GMT"
     }
   ]
 }

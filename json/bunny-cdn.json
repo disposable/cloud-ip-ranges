@@ -4,13 +4,13 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-11-16T04:45:23.677099",
+  "generated_at": "2026-11-19T05:54:44.133957",
   "source_updated_at": null,
   "source": [
     "https://bunnycdn.com/api/system/edgeserverlist/plain",
     "https://bunnycdn.com/api/system/edgeserverlist/IPv6/plain"
   ],
-  "last_update": "2026-11-16T04:45:23.677099",
+  "last_update": "2026-11-19T05:54:44.133957",
   "ipv4": [
     "102.219.126.20/32",
     "102.67.138.155/32",
@@ -228,6 +228,7 @@
     "156.59.241.117/32",
     "156.59.241.118/32",
     "156.59.66.182/32",
+    "156.59.67.46/32",
     "156.59.92.126/32",
     "156.59.95.218/32",
     "157.90.180.205/32",
@@ -606,8 +607,6 @@
     "94.130.68.122/32",
     "94.20.154.22/32",
     "94.46.27.186/32",
-    "146.185.248.15/32",
-    "5.189.202.62/32",
     "185.180.12.68/32",
     "195.201.81.217/32"
   ],
@@ -870,6 +869,7 @@
     "2602:ffe4:c06:40a5::2/128",
     "2602:ffe4:c09:106::1154/128",
     "2602:ffe4:c34:2093::ff/128",
+    "2602:ffe4:c4d:a9::3/128",
     "2602:ffe4:c54:277::ff/128",
     "2607:5300:20e:a100::/128",
     "2607:f2d8:4010:5b::1358:1/128",
@@ -957,26 +957,18 @@
       "url": "https://bunnycdn.com/api/system/edgeserverlist/plain",
       "status": 200,
       "content_type": "text/plain; charset=utf-8",
-      "etag": "W/\"7a24fc99-596c-4e2f-b3bc-880187ee5bc0\"",
+      "etag": "W/\"7e5d0ce1-b977-4ffa-b2ac-9cc8924fb4ba\"",
       "last_modified": null
     },
     {
       "url": "https://bunnycdn.com/api/system/edgeserverlist/IPv6/plain",
       "status": 200,
       "content_type": "text/plain; charset=utf-8",
-      "etag": "W/\"117cb01c-64cf-484f-92f2-9fe4e81d100f\"",
+      "etag": "W/\"3f25ae6b-bcd8-4e75-8809-fa5ef294ddcc\"",
       "last_modified": null
     }
   ],
   "details_ipv4": [
-    {
-      "address": "146.185.248.15/32",
-      "retired_at": "2026-10-21T03:27:32.302167+00:00"
-    },
-    {
-      "address": "5.189.202.62/32",
-      "retired_at": "2026-10-21T03:27:32.302167+00:00"
-    },
     {
       "address": "185.180.12.68/32",
       "retired_at": "2026-11-12T06:01:02.824913+00:00"

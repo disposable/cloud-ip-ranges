@@ -4,14 +4,13 @@
   "category": "cloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-11-14T05:17:44.804329",
+  "generated_at": "2026-11-19T06:13:09.407771",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS61272"
   ],
-  "last_update": "2026-11-14T05:17:44.804329",
+  "last_update": "2026-11-19T06:13:09.407771",
   "ipv4": [
-    "107.149.18.0/24",
     "158.173.79.0/24",
     "178.83.26.0/24",
     "185.177.150.0/24",
@@ -53,7 +52,8 @@
     "88.119.175.0/24",
     "89.117.211.0/24",
     "89.117.242.0/24",
-    "91.216.163.0/24"
+    "91.216.163.0/24",
+    "107.149.18.0/24"
   ],
   "ipv6": [
     "2a02:e00:ffe7::/48",
@@ -69,6 +69,12 @@
       "content_type": "application/json; charset=utf-8",
       "etag": null,
       "last_modified": null
+    }
+  ],
+  "details_ipv4": [
+    {
+      "address": "107.149.18.0/24",
+      "retired_at": "2026-11-19T06:13:37.873152+00:00"
     }
   ]
 }
