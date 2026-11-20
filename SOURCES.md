@@ -384,6 +384,6 @@ This file is regenerated automatically on every crawler run - do not edit the ta
 
 | Provider | Source | Method | IPv4 IPs | IPv6 /64s | Last Changed | JSON | TXT | CSV |
 |----------|--------|--------|---------:|----------:|--------------|------|-----|-----|
-| Cloudflare Warp | [api.cloudflare.com/local-ip-ranges.csv](https://api.cloudflare.com/local-ip-ranges.csv) | Published List | 585,201 (65,740 subnets)<br>+258 retired | 18,364,810,148 (86,239 ranges)<br>+65,537 retired | 2026-11-19 | [JSON](misc/cloudflare-warp.json) | [TXT](misc/cloudflare-warp.txt) | [CSV](misc/cloudflare-warp.csv) |
-| Starlink | [geoip.starlinkisp.net/feed.csv](https://geoip.starlinkisp.net/feed.csv) | Published List | 896,596 (5,695 subnets) | 16,555,514,277 (7,408 ranges)<br>+4,194,304 retired | 2026-11-14 | [JSON](misc/starlink.json) | [TXT](misc/starlink.txt) | [CSV](misc/starlink.csv) |
+| Cloudflare Warp | [api.cloudflare.com/local-ip-ranges.csv](https://api.cloudflare.com/local-ip-ranges.csv) | Published List | 585,758 (65,787 subnets)<br>+258 retired | 18,364,875,709 (86,265 ranges)<br>+65,537 retired | 2026-11-20 | [JSON](misc/cloudflare-warp.json) | [TXT](misc/cloudflare-warp.txt) | [CSV](misc/cloudflare-warp.csv) |
+| Starlink | [geoip.starlinkisp.net/feed.csv](https://geoip.starlinkisp.net/feed.csv) | Published List | 900,180 (5,709 subnets) | 16,555,973,029 (7,415 ranges)<br>+4,194,304 retired | 2026-11-20 | [JSON](misc/starlink.json) | [TXT](misc/starlink.txt) | [CSV](misc/starlink.csv) |
 <!-- SOURCES_TABLE_END -->
