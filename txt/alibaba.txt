@@ -1,7 +1,7 @@
 # provider: Alibaba
 # category: cloud
 # source: RADB::AS-ALIBABA-CN-NET, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS23532, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS37963, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS45102, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS60924, https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS134963
-# last_update: 2026-11-20T05:44:50.705930
+# last_update: 2026-11-21T05:39:17.968825
 
 101.132.0.0/15
 101.132.0.0/16
@@ -1016,10 +1016,16 @@
 43.94.96.0/19
 43.95.0.0/18
 43.95.0.0/19
+43.95.128.0/18
+43.95.128.0/19
+43.95.160.0/19
 43.95.192.0/18
 43.95.192.0/19
 43.95.224.0/19
 43.95.32.0/19
+43.95.64.0/18
+43.95.64.0/19
+43.95.96.0/19
 43.96.0.0/24
 43.96.10.0/24
 43.96.100.0/24
@@ -2637,6 +2643,6 @@
 8.176.96.0/24
 47.81.53.0/24
 8.216.72.0/24
-240b:400f:fffe::/48
 240b:4010:fffe::/48
 240b:4010:ffff::/48
+240b:400f:fffe::/48
