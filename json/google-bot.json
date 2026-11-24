@@ -4,14 +4,14 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-11-21T05:38:21.890946",
-  "source_updated_at": "2026-11-20T15:45:52.000000",
+  "generated_at": "2026-11-24T08:23:47.630675",
+  "source_updated_at": "2026-11-23T15:46:08.000000",
   "source": [
     "https://developers.google.com/static/crawling/ipranges/common-crawlers.json",
     "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
     "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json"
   ],
-  "last_update": "2026-11-20T15:45:52.000000",
+  "last_update": "2026-11-23T15:46:08.000000",
   "ipv4": [
     "107.178.192.0/27",
     "107.178.192.128/27",
@@ -119,6 +119,10 @@
     "136.124.136.0/27",
     "136.124.136.32/27",
     "136.124.136.64/27",
+    "136.124.138.0/27",
+    "136.124.138.32/27",
+    "136.124.138.64/27",
+    "136.124.138.96/27",
     "136.124.142.0/27",
     "136.124.142.128/27",
     "136.124.142.32/27",
@@ -1489,6 +1493,7 @@
     "2600:1900:0:38c::/64",
     "2600:1900:0:38d::/64",
     "2600:1900:0:38e::/64",
+    "2600:1900:0:38f::/64",
     "2600:1900:0:390::/64",
     "2600:1900:0:391::/64",
     "2600:1900:0:392::/64",
@@ -1536,6 +1541,9 @@
     "2600:1900:0:430::/64",
     "2600:1900:0:431::/64",
     "2600:1900:0:43::/64",
+    "2600:1900:0:440::/64",
+    "2600:1900:0:441::/64",
+    "2600:1900:0:442::/64",
     "2600:1900:0:44::/64",
     "2600:1900:0:45::/64",
     "2600:1900:0:46::/64",
@@ -3711,6 +3719,26 @@
     },
     {
       "address": "136.124.136.64/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "136.124.138.0/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "136.124.138.32/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "136.124.138.64/27",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "136.124.138.96/27",
       "service": null,
       "scope": null
     },
@@ -9067,6 +9095,11 @@
       "scope": null
     },
     {
+      "address": "2600:1900:0:38f::/64",
+      "service": null,
+      "scope": null
+    },
+    {
       "address": "2600:1900:0:390::/64",
       "service": null,
       "scope": null
@@ -9298,6 +9331,21 @@
     },
     {
       "address": "2600:1900:0:43::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:440::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:441::/64",
+      "service": null,
+      "scope": null
+    },
+    {
+      "address": "2600:1900:0:442::/64",
       "service": null,
       "scope": null
     },
@@ -10088,21 +10136,21 @@
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Fri, 20 Nov 2026 15:48:01 GMT"
+      "last_modified": "Mon, 23 Nov 2026 15:48:28 GMT"
     },
     {
       "url": "https://developers.google.com/static/crawling/ipranges/special-crawlers.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Fri, 20 Nov 2026 15:46:43 GMT"
+      "last_modified": "Mon, 23 Nov 2026 15:47:17 GMT"
     },
     {
       "url": "https://developers.google.com/static/crawling/ipranges/user-triggered-fetchers.json",
       "status": 200,
       "content_type": "application/json",
       "etag": null,
-      "last_modified": "Fri, 20 Nov 2026 15:46:38 GMT"
+      "last_modified": "Mon, 23 Nov 2026 15:47:52 GMT"
     }
   ]
 }

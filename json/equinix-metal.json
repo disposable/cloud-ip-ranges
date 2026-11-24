@@ -4,12 +4,12 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-09-29T04:15:12.463193",
+  "generated_at": "2026-11-24T08:24:28.148585",
   "source_updated_at": null,
   "source": [
     "https://geofeed.equinixmetal.com/"
   ],
-  "last_update": "2026-09-29T04:15:12.463193",
+  "last_update": "2026-11-24T08:24:28.148585",
   "ipv4": [
     "136.144.48.0/23",
     "136.144.50.0/23",
@@ -220,7 +220,6 @@
     "2604:1380:4540::/44",
     "2604:1380:4550::/44",
     "2604:1380:4570::/48",
-    "2604:1380:4580::/44",
     "2604:1380:4590::/44",
     "2604:1380:45c0::/44",
     "2604:1380:45d0::/44",
@@ -245,15 +244,22 @@
     "2604:1380:f0::/44",
     "2604:1380:ffc0::/44",
     "2604:1380:ffd0::/44",
-    "2604:1380:ffff::/48"
+    "2604:1380:ffff::/48",
+    "2604:1380:4580::/44"
   ],
   "source_http": [
     {
       "url": "https://geofeed.equinixmetal.com/",
       "status": 200,
       "content_type": "text/plain; charset=utf-8",
-      "etag": "W/\"6abb3aa2-2105\"",
-      "last_modified": "Tue, 29 Sep 2026 04:12:18 GMT"
+      "etag": "W/\"6b0548bb-20e1\"",
+      "last_modified": "Tue, 24 Nov 2026 08:20:11 GMT"
+    }
+  ],
+  "details_ipv6": [
+    {
+      "address": "2604:1380:4580::/44",
+      "retired_at": "2026-11-24T08:42:54.411652+00:00"
     }
   ]
 }
