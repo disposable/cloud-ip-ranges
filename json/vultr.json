@@ -4,12 +4,12 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-11-10T05:56:27.417680",
+  "generated_at": "2026-11-26T06:51:29.935073",
   "source_updated_at": null,
   "source": [
     "https://geofeed.constant.com/?json"
   ],
-  "last_update": "2026-11-10T05:56:27.417680",
+  "last_update": "2026-11-26T06:51:29.935073",
   "ipv4": [
     "103.43.72.0/22",
     "104.156.224.0/22",
@@ -374,6 +374,7 @@
     "45.77.92.0/22",
     "45.77.96.0/20",
     "64.176.0.0/19",
+    "64.176.144.0/21",
     "64.176.160.0/20",
     "64.176.176.0/20",
     "64.176.192.0/19",
@@ -1208,6 +1209,13 @@
       "region": "IN-KA",
       "city": "Bangalore",
       "postal_code": "560066"
+    },
+    {
+      "address": "64.176.144.0/21",
+      "alpha2code": "IN",
+      "region": "IN-MH",
+      "city": "Mumbai",
+      "postal_code": "400072"
     },
     {
       "address": "64.176.160.0/20",
