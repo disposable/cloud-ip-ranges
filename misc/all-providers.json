@@ -1,6 +1,6 @@
 {
   "provider": "All Providers",
-  "generated_at": "2026-11-26T07:12:24.465431",
+  "generated_at": "2026-11-27T07:24:26.596057",
   "provider_count": 2,
   "providers": [
     {
@@ -11,9 +11,9 @@
       "source": [
         "https://api.cloudflare.com/local-ip-ranges.csv"
       ],
-      "last_update": "2026-11-26T07:12:17.397254",
-      "ipv4_count": 65787,
-      "ipv6_count": 86317
+      "last_update": "2026-11-27T07:24:20.031864",
+      "ipv4_count": 65822,
+      "ipv6_count": 86352
     },
     {
       "provider": "Starlink",
@@ -23,7 +23,7 @@
       "source": [
         "https://geoip.starlinkisp.net/feed.csv"
       ],
-      "last_update": "2026-11-26T07:12:24.015001",
+      "last_update": "2026-11-27T07:24:26.193978",
       "ipv4_count": 5911,
       "ipv6_count": 7802
     }
@@ -3904,7 +3904,9 @@
     "104.30.183.8/29",
     "104.30.183.16/28",
     "104.30.183.32/27",
-    "104.30.183.64/31",
+    "104.30.183.64/27",
+    "104.30.183.96/30",
+    "104.30.183.100/32",
     "104.31.0.128/28",
     "104.31.0.152/30",
     "104.31.0.160/27",
@@ -5313,8 +5315,9 @@
     "2a09:bac0:1000:1980::/57",
     "2a09:bac0:1000:1a00::/55",
     "2a09:bac0:1000:1c00::/58",
-    "2a09:bac0:1000:1c40::/61",
-    "2a09:bac0:1000:1c48::/64",
+    "2a09:bac0:1000:1c40::/59",
+    "2a09:bac0:1000:1c60::/61",
+    "2a09:bac0:1000:1c68::/62",
     "2a09:bac0:1000:2000::/60",
     "2a09:bac0:1001::/57",
     "2a09:bac0:1001:80::/58",
@@ -44452,7 +44455,13 @@
     "104.30.183.32/27": [
       "cloudflare-warp"
     ],
-    "104.30.183.64/31": [
+    "104.30.183.64/27": [
+      "cloudflare-warp"
+    ],
+    "104.30.183.96/30": [
+      "cloudflare-warp"
+    ],
+    "104.30.183.100/32": [
       "cloudflare-warp"
     ],
     "104.31.0.128/28": [
@@ -48673,10 +48682,13 @@
     "2a09:bac0:1000:1c00::/58": [
       "cloudflare-warp"
     ],
-    "2a09:bac0:1000:1c40::/61": [
+    "2a09:bac0:1000:1c40::/59": [
       "cloudflare-warp"
     ],
-    "2a09:bac0:1000:1c48::/64": [
+    "2a09:bac0:1000:1c60::/61": [
+      "cloudflare-warp"
+    ],
+    "2a09:bac0:1000:1c68::/62": [
       "cloudflare-warp"
     ],
     "2a09:bac0:1000:2000::/60": [
@@ -131351,204 +131363,6 @@
     "2a0d:3344:1280::/42"
   ],
   "retired_ip_providers": {
-    "104.28.147.18/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.149.47/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.101/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.157.139/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.143.118/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.136/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.208/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.157.20/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.142.20/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.147.20/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.148.139/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.149.28/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.155.20/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.110/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.122/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.227/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.141.137/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.143.31/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.154.153/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.155.27/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.100/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.205/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.206/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.157.193/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.157.49/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.143.32/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.147.19/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.148.229/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.240/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.157.206/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.157.23/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.159.100/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.159.172/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.141.136/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.141.22/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.147.27/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.147.52/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.149.204/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.149.27/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.149.46/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.149.48/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.155.26/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.112/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.207/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.157.203/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.140.140/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.142.70/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.143.130/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.147.17/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.148.230/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.155.17/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.137/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.244/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.157.144/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.159.153/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.139.168/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.140.92/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.142.18/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.148.136/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.154.170/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.155.16/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.123/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.156.228/32": [
-      "cloudflare-warp"
-    ],
-    "104.28.157.28/32": [
-      "cloudflare-warp"
-    ],
-    "172.64.242.40/32": [
-      "cloudflare-warp"
-    ],
-    "172.70.202.0/24": [
-      "cloudflare-warp"
-    ],
     "104.28.140.139/32": [
       "cloudflare-warp"
     ],
@@ -131748,6 +131562,204 @@
       "cloudflare-warp"
     ],
     "104.28.157.205/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.147.18/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.149.47/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.101/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.157.139/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.143.118/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.136/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.208/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.157.20/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.142.20/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.147.20/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.148.139/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.149.28/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.155.20/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.110/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.122/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.227/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.141.137/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.143.31/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.154.153/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.155.27/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.100/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.205/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.206/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.157.193/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.157.49/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.143.32/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.147.19/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.148.229/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.240/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.157.206/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.157.23/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.159.100/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.159.172/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.141.136/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.141.22/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.147.27/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.147.52/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.149.204/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.149.27/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.149.46/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.149.48/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.155.26/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.112/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.207/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.157.203/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.140.140/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.142.70/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.143.130/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.147.17/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.148.230/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.155.17/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.137/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.244/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.157.144/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.159.153/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.139.168/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.140.92/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.142.18/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.148.136/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.154.170/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.155.16/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.123/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.156.228/32": [
+      "cloudflare-warp"
+    ],
+    "104.28.157.28/32": [
+      "cloudflare-warp"
+    ],
+    "172.64.242.40/32": [
+      "cloudflare-warp"
+    ],
+    "172.70.202.0/24": [
       "cloudflare-warp"
     ],
     "2a09:bac0:1001:1c2::/64": [
