@@ -4,13 +4,14 @@
   "category": "cloud",
   "method": "published_list",
   "coverage_notes": "",
-  "generated_at": "2026-10-28T03:59:09.561725",
+  "generated_at": "2026-11-27T06:43:51.365472",
   "source_updated_at": null,
   "source": [
     "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json"
   ],
-  "last_update": "2026-10-28T03:59:09.561725",
+  "last_update": "2026-11-27T06:43:51.365472",
   "ipv4": [
+    "107.186.224.0/19",
     "129.144.0.0/16",
     "129.145.16.0/21",
     "129.145.74.0/23",
@@ -124,6 +125,7 @@
     "129.159.48.0/20",
     "129.159.64.0/18",
     "129.191.0.0/17",
+    "129.203.128.0/17",
     "129.213.0.128/25",
     "129.213.128.0/18",
     "129.213.16.0/20",
@@ -1128,7 +1130,8 @@
     "92.5.240.0/21",
     "92.5.248.0/22",
     "92.5.254.0/24",
-    "92.5.255.0/24"
+    "92.5.255.0/24",
+    "92.6.0.0/16"
   ],
   "ipv6": [
     "2603:c002:1000::/40",
@@ -2998,6 +3001,10 @@
       "region": "eu-frankfurt-1"
     },
     {
+      "address": "92.6.0.0/16",
+      "region": "eu-frankfurt-1"
+    },
+    {
       "address": "129.159.0.0/20",
       "region": "eu-frankfurt-1"
     },
@@ -4802,6 +4809,10 @@
       "region": "ap-melbourne-1"
     },
     {
+      "address": "129.203.128.0/17",
+      "region": "ap-tokyo-1"
+    },
+    {
       "address": "131.186.32.0/20",
       "region": "ap-tokyo-1"
     },
@@ -5659,6 +5670,10 @@
     },
     {
       "address": "192.22.0.0/19",
+      "region": "us-shawnee-1"
+    },
+    {
+      "address": "107.186.224.0/19",
       "region": "us-shawnee-1"
     },
     {
@@ -6733,8 +6748,8 @@
       "url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json",
       "status": 200,
       "content_type": "application/json",
-      "etag": "\"6ae1682d-39cf3\"",
-      "last_modified": "Wed, 28 Oct 2026 03:12:45 GMT"
+      "etag": "\"6b08ec1a-39ee3\"",
+      "last_modified": "Fri, 27 Nov 2026 02:34:02 GMT"
     }
   ]
 }
