@@ -4,7 +4,7 @@
   "category": "cloud",
   "method": "bgp_announced",
   "coverage_notes": "BGP-announced prefixes for the ASN(s)",
-  "generated_at": "2026-11-27T07:19:58.524534",
+  "generated_at": "2026-11-28T06:32:25.925610",
   "source_updated_at": null,
   "source": [
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS4816",
@@ -61,7 +61,7 @@
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS149837",
     "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS150145"
   ],
-  "last_update": "2026-11-27T07:19:58.524534",
+  "last_update": "2026-11-28T06:32:25.925610",
   "ipv4": [
     "1.203.115.0/24",
     "1.203.124.0/22",
@@ -5994,7 +5994,6 @@
     "240e:982:d9cd::/48",
     "240e:982:d9cf::/48",
     "240e:982:d9d4::/48",
-    "240e:982:d9d7::/48",
     "240e:982:d9ea::/48",
     "240e:982:da00::/40",
     "240e:982:da0f::/48",
@@ -6026,6 +6025,7 @@
     "240e:982:dbb1::/48",
     "240e:982:dbba::/48",
     "240e:982:dbbf::/48",
+    "240e:982:dbc7::/48",
     "240e:982:dbd7::/48",
     "240e:982:dbdd::/48",
     "240e:982:dbe3::/48",
@@ -6159,6 +6159,7 @@
     "240e:ff:f000::/36",
     "240e:982:d936::/48",
     "240e:982:da4c::/48",
+    "240e:982:d9d7::/48",
     "2402:4e00::/32",
     "240e:982:dbab::/48"
   ],
@@ -6613,6 +6614,10 @@
     {
       "address": "240e:982:da4c::/48",
       "retired_at": "2026-11-21T05:53:52.832580+00:00"
+    },
+    {
+      "address": "240e:982:d9d7::/48",
+      "retired_at": "2026-11-28T06:33:14.975733+00:00"
     },
     {
       "address": "2402:4e00::/32",
